@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "지하 파이프",
+  "Read-out": "표시",
+  "Hover read-out at the cursor": "커서 위치 표시",
+  "Source/destination building icons": "출발/도착 건물 아이콘",
+  "Inspector": "검사기",
+  "Source/destination in the pipe panel": "파이프 패널의 출발/도착",
+  "X-ray overlay": "투시 오버레이",
+  "Colour buried pipes by product": "매설 파이프를 제품별로 색상 표시",
+  "X-ray colour scheme": "투시 색상 구성",
+  "X-ray brightness": "투시 밝기",
+  "Underground pipes: show / hide the x-ray overlay": "지하 파이프: 투시 오버레이 표시/숨기기",
+  "Underground pipes: allow deleting buried pipe sections": "지하 파이프: 매설 구간 삭제 허용",
+  "Underground Pipes: from -> to": "지하 파이프: 출발 → 도착",
+  "(empty)": "(비어 있음)",
+  "tiles": "칸",
+  "in": "입력",
+  "out": "출력",
+  "from": "부터",
+  "to": "까지"
+}

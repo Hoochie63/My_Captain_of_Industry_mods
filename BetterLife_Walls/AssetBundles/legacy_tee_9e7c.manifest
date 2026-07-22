@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3444883198
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67df3fb83c01862cbf6ded9d9f589246
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1c4accf42e92c1d4661692a2772ab96b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/WallB/legacy_tee.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Walls_Unity/AssetBundles/legazy_packed_b9f5

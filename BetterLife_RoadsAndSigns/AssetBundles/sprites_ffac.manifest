@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3476835939
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cfd4ce51d26722e41f0edf24c8ead9ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 478d847af31bea5da369dd152a13d549
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Sprites/cross.png
+- Assets/BetterLife/Sprites/entranceexit.png
+- Assets/BetterLife/Sprites/tee.png
+- Assets/BetterLife/Sprites/entrance.png
+- Assets/BetterLife/Sprites/corner.png
+- Assets/BetterLife/Sprites/exit.png
+- Assets/BetterLife/Sprites/straight.png
+Dependencies: []

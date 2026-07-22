@@ -1,0 +1,91 @@
+v1.1.5 | 2026-07-20
+* Drag Upgrade, Drag Downgrade, Belt/Pipe Cleanup, Mass Vehicle Mover and Mass Recover now switch your mouse cursor to a select-area icon while active, so it's clear the tool is on and where your drag will start.
+* From game version 0.8.6 the game itself remembers window positions, so the mod's window position memory and the Windows tab now turn off automatically there. On game version 0.8.5 and older they keep working exactly as before.
+
+v1.1.4 | 2026-07-17
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* Fixed a rare problem where, when using the No Pillars mod, some belt and pipe parts would be hidden even though nothing was set to be hidden. (thanks iceball12 for reporting the problem and providing the save)
+
+v1.1.3 | 2026-06-13
+* Belt & Pipe height filter (Belts/Pipes tab) now covers levels -20 to 20, up from 0-9, including underground belts and pipes (thanks Skrypt for the suggestion).
+* Belt & Pipe height filter — new keybind to show/hide levels from the bottom instead of the top (Shift+PageUp/PageDown); rebindable via the Keybind Framework mod if installed.
+* All keybinds can now be viewed and rebound from the Modded Keybinds tab in Settings — install the Keybind Framework mod to use it.
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Vehicle management, Train lines management, and Train designer windows now remember their position, just like other tracked windows (thanks Skrypt for the suggestion).
+* Vehicle Mover — new keybind to start Mass Vehicle Mover (Shift+M by default).
+* Vehicle Mover — new keybind to start Mass Recover (Shift+R by default).
+* Vehicle Mover — new keybind to cycle through vehicle types (Alt+T by default).
+* Vehicle Mover — new keybind to reset back to all vehicle types (Alt+A by default).
+
+v1.1.2 | 2026-06-12
+* Surplus Power override now resets to Default on every save load or game restart, instead of keeping your last choice — avoids surprises from a forgotten Force ON/OFF setting.
+
+v1.1.1 | 2026-06-08
+* Vehicle Mover — new "Mass Recover" button. Drag a box over the map to recover every selected vehicle inside at once (sends them back to a depot). Pick a vehicle type to recover only that type, or leave it on "All Types" to recover everything in the box. (thanks Malibu2 for the great suggestion)
+* Hide/Show tab — big performance fix. Hiding levels or buildings no longer drops FPS or causes micro stutters on large bases. (thanks iceball12 for the report and for providing save)
+
+v1.1.0 | 2026-05-31
+* Added a pin button to the window — pin it to keep it open (thanks Malibu2 for the suggestion).
+* Added missing translations for multiple languages (thanks kukularra for reporting the missing strings).
+
+v1.0.9 | 2026-05-29
+* Blueprint Tools — new "Belt/Pipe Cleanup" button. Drag a box to delete disconnected belt/pipe leftovers in big build both for users
+ but the tool is mainly to help BP builders, to clean up leftovers or dead belt/pipes. Thanks for the great suggestion Kayser. 
+
+v1.0.8 | 2026-05-23
+* New "Blueprint Tools" tab — when enabled, placing and demolishing complete instantly even while the game is paused, so you can edit a blueprint in a fully frozen world without belts/trucks moving items mid-edit.
+  Force-disables Cheat++ Instant Build (this replaces it). Thanks to Kayser for the great suggestion.
+* Blueprint Tools — new "Drag Upgrade" / "Drag Downgrade" buttons. Drag a box to instantly upgrade or downgrade everything inside one tier, free. Live highlights show what's selected. Esc to exit.
+* Hide tab — fixed a rare bug where entities could become un-deconstructable after loading a different save, even though they still appeared visible. (thanks Kayser for the report)
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+* Updated Ukrainian translation with proofreader refinements.
+
+v1.0.7 | 2026-05-22
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* Updated the mod thumbnail.
+* Efficiency tab — new settings to set a custom color for each machine state 
+  (no input, output full, no power, broken, paused, running). Saved per game, with reset to default.(thanks Serjevski for the suggestion)
+* Efficiency overlay — item machines now show real data instead of 100% or NO IN: under-fed machines read their true %, 
+  and NO IN only appears after 10s with no input. (thanks Serjevski for the suggestion)
+* Efficiency overlay — toggle it on/off instantly with Ctrl+E, with an on-screen confirmation (like Ctrl+S for Surplus Power).
+* Fixed a rare translation error in the Utilities++ window.
+* Hide tab — new column with toggles to hide Housing & Services, all trees, and all office buildings. Per-save.
+
+
+v1.0.6 | 2026-05-15
+* Efficiency labels — fixed mirrored/inverted text when a machine is flipped during copy or placement. Labels now read correctly regardless of building orientation. (thanks Zurrke for the report)
+* Efficiency labels — fixed freshly placed or copied machines showing a label with no background, or no label at all, until a save reload. Labels and backgrounds now self-heal within ~1 second of placement.
+
+
+v1.0.5 | 2026-05-15
+* New Efficiency tab — togglable overlay shows live machine efficiency, 
+  color-coded green/yellow/red. Sliders for text size, background size and transparency.
+  (thanks neoss for the suggestion)
+
+
+v1.0.4 | 2026-05-13
+* New "Windows" tab — remembers where you drag building windows so the position
+  survives a save reload. Saved per save game. Includes a
+  "Clear all saved positions" button.
+
+v1.0.3 | 2026-05-13
+* Wow this is empty
+
+v1.0.2 | 2026-05-11
+* New "Surplus Power" tab — global 3-state overrides (Default / Surplus ON / Surplus OFF)
+  for surplus-power consumption when placing blueprints or pasting copies.
+  Ctrl+S cycles modes with a center-screen popup. Setting persists across saves.
+  Thanks to ComplexUnit for the great suggestion.
+* Window widened so tab labels no longer wrap.
+
+v1.0.1 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.0 | 2026-05-03
+* Belt/pipe height filter — toggle visibility per level (0-9) including pillars
+* Show All / Hide All buttons
+* PgUp / PgDn keybinds to cycle layers without opening the window
+* Support for the Pillar Spacing & Height mod
+* Vehicle Mover tool — select vehicle type, drag-select on map, click destination to move
+* Vehicle type filter (All or specific)

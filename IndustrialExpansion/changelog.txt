@@ -1,0 +1,25 @@
+v1.0.5 | 2026-07-04
+* Added localization support
+* Added RU translation (credits to Hoochie)
+
+v1.0.4 | 2026-07-01
+* Added Medium Retaining Wall
+* Added Cargo Ship Dry Dock machines to build your own ship instead of buying through quick trade.
+
+v1.0.3 | 2026-07-01
+* More Balancers research node position adjustment
+
+v1.0.2 | 2026-06-29
+* Compatibility patch for ExtraTransports Mod
+
+v1.0.1 | 2026-06-29
+* Initial release.
+* Added Tier IV Flat Conveyors.
+* Added Tier IV U-Shape Conveyors.
+* Added Small, Medium, Large, and Long Balancers for Flat Conveyors, U-Shape Conveyors, and Pipes.
+* Added Cargo Depot V (10 Modules).
+* Added Cargo Depot VI (12 Modules).
+* Added Dark Concrete Surface.
+* Added Dark Reinforced Surface.
+* Adjusted Transport Lifts and Sorters to support Tier IV conveyor throughput.
+* Expanded the Contracts interface to support larger Cargo Depots.

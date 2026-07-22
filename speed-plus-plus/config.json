@@ -1,0 +1,23 @@
+{
+    "message": {
+        "default": 0,
+        "is_integer": true,
+        "description": "Going fast? This config is already done. You should be too!",
+        "min": 0,
+        "max": 0
+    },
+    "maxSpeed": {
+        "default": 15,
+        "is_integer": true,
+        "description": "Maximum game speed multiplier",
+        "min": 4,
+        "max": 20
+    },
+    "speedMode": {
+        "default": 0,
+        "is_integer": true,
+        "description": "Step size per press: 0 = +1 each press (1x 2x 3x...), 1 = +2 each press (1x 2x 4x 6x 8x...), 2 = +4 each press (1x 2x 6x 10x...), etc.",
+        "min": 0,
+        "max": 9
+    }
+}

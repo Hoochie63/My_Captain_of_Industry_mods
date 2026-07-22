@@ -1,0 +1,3 @@
+screenWidth=2560
+screenHeight=1440
+parkingHqOverlay=1779,-1

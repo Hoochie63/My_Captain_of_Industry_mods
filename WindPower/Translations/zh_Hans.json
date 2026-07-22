@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "过热"],
+	["WindPower_T1__desc", "解锁小型风力涡轮机，其发电量取决于风力强度和安装高度。"],
+	["WindPower_T1__name", "风力发电"],
+	["WindPower_T2__desc", "解锁输出功率更高的大型风力涡轮机，以及建造所需的复合板生产。"],
+	["WindPower_T2__name", "风力发电 II"],
+	["WindTurbine_T1__desc", "带手动制动的基础风力涡轮机"],
+	["WindTurbine_T1__name", "风力涡轮机"],
+	["WindTurbine_T2__desc", "带手动制动的大型风力涡轮机"],
+	["WindTurbine_T2__name", "风力涡轮机 II"]
+]

@@ -1,0 +1,12 @@
+﻿{
+		"id": "BetterLife_Assemblies",
+		"version": "1.1.0",
+		"primary_dlls": [ "0Harmony.dll", "BetterLife_Assemblies.dll" ],
+		"non_locking_dll_load": true,
+		"can_add_to_saved_game": true,
+		"authors": [ "MaViTTo" ],
+		"description_short": "New assemblers.",
+		"description_long": "New assemblers with their own recipes.",
+		"display_name": "BetterLife: Assemblies",
+		"min_game_version": "0.8.6"
+}

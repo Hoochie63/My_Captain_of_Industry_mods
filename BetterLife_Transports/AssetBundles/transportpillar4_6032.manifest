@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 211134084
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aa3a5501766bcd8ee4c1c442b898de16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 731933f9c84f82b45e842ab6918f97d1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 095b8447e8194072f80625eefd940199
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Pillars_Transport/transPortPillar4.prefab
+Dependencies: []

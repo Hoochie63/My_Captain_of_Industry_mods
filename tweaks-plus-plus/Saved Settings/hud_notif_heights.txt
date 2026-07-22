@@ -1,0 +1,4 @@
+HudAlertsTab=300,440
+HudGoalsTab=300,440
+HudResearchNotifsTab=300,440
+HudMessagesNotifTab=300,440

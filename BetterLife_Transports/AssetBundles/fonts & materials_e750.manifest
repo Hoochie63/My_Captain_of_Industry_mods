@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3785766771
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 06df24d9a2c4c098ca834fa1b6a6b0cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 310887edc7c3fda741b6be6005a005d5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e0e3387565170695c79c2603bd4aae2c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 19001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.TextCoreTextEngineModule
+  ClassName: UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
+- AssemblyName: UnityEngine.TextCoreTextEngineModule
+  ClassName: UnityEngine.TextCore.Text.FontFeatureTable
+- AssemblyName: UnityEngine.TextCoreTextEngineModule
+  ClassName: UnityEngine.TextCore.Text.FontWeightPair
+Assets:
+- Assets/Unity/UI Toolkit/Fonts/NotoSans/Resources/Fonts & Materials/NotoSansKR-Regular.asset
+- Assets/Unity/UI Toolkit/Fonts/NotoSans/Resources/Fonts & Materials/NotoSansSC-Regular.asset
+- Assets/Unity/UI Toolkit/Fonts/NotoSans/Resources/Fonts & Materials/NotoSansJP-Regular.asset
+- Assets/Unity/UI Toolkit/Fonts/NotoSans/Resources/Fonts & Materials/NotoSansTC-Regular.asset
+Dependencies: []

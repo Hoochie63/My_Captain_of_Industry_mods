@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Surriscaldamento"],
+	["WindPower_T1__desc", "Sblocca una piccola turbina eolica che genera elettricità in base alla forza del vento e all'altitudine di posizionamento."],
+	["WindPower_T1__name", "Energia eolica"],
+	["WindPower_T2__desc", "Sblocca una grande turbina eolica con potenza molto maggiore e la produzione dei pannelli compositi necessari a costruirla."],
+	["WindPower_T2__name", "Energia eolica II"],
+	["WindTurbine_T1__desc", "Turbina eolica di base con frenata manuale"],
+	["WindTurbine_T1__name", "Turbina eolica"],
+	["WindTurbine_T2__desc", "Grande turbina eolica con frenata manuale"],
+	["WindTurbine_T2__name", "Turbina eolica II"]
+]

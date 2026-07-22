@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 4200008219
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f566d84698889295b908f6ce7ce9dd53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 13cb64245f45ccf91133aee90f1e8bac
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsWalls/Walls/WallA_Gate1.png
+- Assets/BetterLife/IconsWalls/Walls/extended_End.png
+- Assets/BetterLife/IconsWalls/Walls/Wall1_Slope2.png
+- Assets/BetterLife/IconsWalls/Walls/legacy_End.png
+- Assets/BetterLife/IconsWalls/Walls/mcStraight1.png
+- Assets/BetterLife/IconsWalls/Walls/LWallA_Straight.png
+- Assets/BetterLife/IconsWalls/Walls/wWallStraight2.png
+- Assets/BetterLife/IconsWalls/Walls/WallA_Corner.png
+- Assets/BetterLife/IconsWalls/Walls/WalLA_Cross.png
+- Assets/BetterLife/IconsWalls/Walls/LWallA_Corner.png
+- Assets/BetterLife/IconsWalls/Walls/LWalLA_Cross.png
+- Assets/BetterLife/IconsWalls/Walls/LWall1_Slope2.png
+- Assets/BetterLife/IconsWalls/Walls/LWalla_Straight2x.png
+- Assets/BetterLife/IconsWalls/Walls/miStraight1.png
+- Assets/BetterLife/IconsWalls/Walls/Walla_Straight2x.png
+- Assets/BetterLife/IconsWalls/Walls/LWallA_Tee.png
+- Assets/BetterLife/IconsWalls/Walls/wWallStraight1.png
+- Assets/BetterLife/IconsWalls/Walls/mcPillar.png
+- Assets/BetterLife/IconsWalls/Walls/wWallPillar.png
+- Assets/BetterLife/IconsWalls/Walls/miPillar.png
+- Assets/BetterLife/IconsWalls/Walls/WallA_Straight.png
+- Assets/BetterLife/IconsWalls/Walls/Wall1_Slope1.png
+- Assets/BetterLife/IconsWalls/Walls/miStraight2.png
+- Assets/BetterLife/IconsWalls/Walls/WallA_Tee.png
+- Assets/BetterLife/IconsWalls/Walls/LWall1_Slope1.png
+- Assets/BetterLife/IconsWalls/Walls/toolbar_decor.png
+- Assets/BetterLife/IconsWalls/Walls/guardShack.png
+- Assets/BetterLife/IconsWalls/Walls/mcStraight2.png
+Dependencies: []

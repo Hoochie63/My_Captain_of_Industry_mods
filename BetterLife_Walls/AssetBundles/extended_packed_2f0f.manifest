@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 116184973
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f9316b7f03c696e7193ed2b5863313e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db1571c5055d93407c8f9b96229eba91
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2c5dd50cb41c0a84c24c43534bf8ede8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/Base/Extended_Packed/mat_extendedWall.mat
+Dependencies: []

@@ -1,0 +1,18 @@
+{
+	"id": "COIExtended-Common",
+	"version": "1.1.8",
+	"display_name": "COIExtended-Common",
+	"description_short": "Shared foundation library for all COIExtended mods. Provides the mod registry, Harmony management, reflection utilities, and cross-mod communication.",
+	"authors": ["Keranik"],
+	"min_game_version": "0.8.2b",
+	"max_verified_game_version": "0.8.2c",
+	"primary_dlls": ["Newtonsoft.Json.dll", "0Harmony.dll", "COIExtended.Common.dll"],
+	"links": ["https://coie.keranik.com/releases", "https://discord.gg/cjBjk4z6Ej"],
+	"mod_dependencies": [],
+	"optional_mod_dependencies": [],
+	"incompatible_mods": [],
+	"non_locking_dll_load": false,
+	"can_add_to_saved_game": true,
+	"can_remove_from_saved_game": true,
+	"primary_mod_class_name": "CommonMod"
+}

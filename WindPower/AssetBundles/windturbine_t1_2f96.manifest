@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 655900190
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0e2630bb6bacb35fe094fb8895d23075
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 19b4ea614de2cd322e9a0309e51b65bf
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 82a6d64ee6910a153dc61ab35b4ed813
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/WindPower/WindTurbine_T1.prefab
+Dependencies:
+- C:/git/COIM_WindPower/src/ExampleMod.Unity/AssetBundles/t1_39f6

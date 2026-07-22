@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1757214856
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 92ea83414bc0420306d2e106f142c936
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f3b5d1c3f6418dcb0741844dcaa67a8d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Signs/sign_drop.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_RoadsAndSigns_Unity/AssetBundles/base_dd43

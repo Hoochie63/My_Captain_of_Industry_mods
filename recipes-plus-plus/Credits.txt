@@ -1,0 +1,78 @@
+Credits
+-------
+"fuel" icon by [Freepik] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/fuel_919735]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"container" icon by [Freepik] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/container_3292404?term=gas+cylinder&page=1&position=89&origin=search&related_id=3292404]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+Changed original flame icon to custom ones.
+
+-------
+
+"fertilizer" icon by [wanicon] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/fertilizer_5264906]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"pesticide" icon by [Smashicons] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/pesticide_3812820?term=pesticide&page=1&position=2&origin=search&related_id=3812820]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"genetics" icon by [Freepik] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/genetics_8121904?term=gmo&page=1&position=16&origin=search&related_id=8121904]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"a close up of a pile of wood chips" by [Nancy Hughes] on Unsplash
+Source: [https://unsplash.com/photos/a-close-up-of-a-pile-of-wood-chips-Raa7jy650RQ]
+License: Unsplash license - https://unsplash.com/license
+Resized image to fit game.
+
+-------
+
+"black-and-gray-pebbles" by [Joanna Kosinska] on Unsplash
+Source: [https://unsplash.com/photos/black-and-gray-pebbles-6MlhT-THmk4]
+License: Unsplash license - https://unsplash.com/license
+Resized image to fit game.
+
+-------
+
+"food_13502772" by [bsd] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/food_13502772]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"syrup_7519950" by [Smashicons] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/syrup_7519950]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"Battery Status" by [vectorsmarket15] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/battery-status_2655939?term=battery&page=1&position=15&origin=search&related_id=2655939]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"18650 Battery" - Rechargeable Li-Ion Cells" (https://skfb.ly/ooSoW) by YouniqueĪdeaStudio 
+is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+Removed the plate for connecting battries in parallel/series, removed the second battrie laying down 
+and change color from blue to yellow. No other changes were made.
+
+-------

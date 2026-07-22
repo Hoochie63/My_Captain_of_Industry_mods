@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3076616617
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2379d987e3ad46727d357428acdbf8c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9cbf35a3a963a88d2b2fd4c69e131933
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Roads/Industrial/Set1/onewayTrainBridgeCorner1.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_RoadsAndSigns_Unity/AssetBundles/base1_5e93

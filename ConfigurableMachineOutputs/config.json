@@ -1,0 +1,12 @@
+{
+  "swapped_machine_ids": {
+    "default": "",
+    "max_length": 32768,
+    "description": "Legacy saved output swaps. Managed automatically."
+  },
+  "output_port_mappings": {
+    "default": "",
+    "max_length": 131072,
+    "description": "Saved per-machine output-port mappings. Do not edit manually."
+  }
+}

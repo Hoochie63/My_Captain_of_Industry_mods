@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "過熱"],
+	["WindPower_T1__desc", "風の強さと設置高度に応じて発電する小型風力タービンをアンロックします。"],
+	["WindPower_T1__name", "風力発電"],
+	["WindPower_T2__desc", "はるかに高出力の大型風力タービンと、その建設に必要な複合パネルの生産をアンロックします。"],
+	["WindPower_T2__name", "風力発電 II"],
+	["WindTurbine_T1__desc", "手動ブレーキ付きの基本的な風力タービン"],
+	["WindTurbine_T1__name", "風力タービン"],
+	["WindTurbine_T2__desc", "手動ブレーキ付きの大型風力タービン"],
+	["WindTurbine_T2__name", "風力タービン II"]
+]

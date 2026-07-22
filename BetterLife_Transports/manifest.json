@@ -1,0 +1,12 @@
+﻿{
+	"id": "BetterLife_Transports",
+	"version": "0.6.1",
+	"primary_dlls": [ "0Harmony.dll", "BetterLife_Transports.dll" ],
+	"non_locking_dll_load": true,
+	"can_add_to_saved_game": true,
+	"authors": "MaViTTo",
+	"description_short": "Balancers and TransPORTs",
+	"description_long": "Balancer and Transports overhaul.",
+	"display_name": "BeTTerLife: Transports",
+	"min_game_version": "0.8.6"
+}

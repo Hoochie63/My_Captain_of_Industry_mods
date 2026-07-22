@@ -1,0 +1,506 @@
+[
+  [
+    "dtk.mod.name",
+    "Verktygslåda för ritningsdesigners"
+  ],
+  [
+    "dtk.settings.tab.markdown",
+    "Inställningar"
+  ],
+  [
+    "dtk.settings.markdown_copy.heading",
+    "Markdownkopiering"
+  ],
+  [
+    "dtk.settings.markdown_table_language.label",
+    "Språk för Markdown-tabeller"
+  ],
+  [
+    "dtk.settings.markdown_table_language.description",
+    "Styr vilket språk rubriker i Markdown-tabeller och produkt-/entitetsnamn ska använda."
+  ],
+  [
+    "dtk.settings.markdown_table_language.pending",
+    "Engelska, Lokalt, Båda och Hybrid används nu av Markdown-exporten."
+  ],
+  [
+    "dtk.settings.markdown_number_format.label",
+    "Talformat för Markdown"
+  ],
+  [
+    "dtk.settings.markdown_number_format.description",
+    "Styr decimal- och tusentalsavgränsare i Markdown-exporter. Auto följer den renderade tabellens språk: engelska tabeller använder en-US-avgränsare och lokala tabeller använder spelets aktuella språk."
+  ],
+  [
+    "dtk.settings.language.english",
+    "Engelska"
+  ],
+  [
+    "dtk.settings.language.local",
+    "Lokalt"
+  ],
+  [
+    "dtk.settings.language.both",
+    "Båda"
+  ],
+  [
+    "dtk.settings.language.hybrid",
+    "Hybrid"
+  ],
+  [
+    "dtk.settings.number_format.auto",
+    "Auto"
+  ],
+  [
+    "dtk.settings.number_format.english",
+    "Engelska avgränsare"
+  ],
+  [
+    "dtk.settings.number_format.local",
+    "Lokala avgränsare"
+  ],
+  [
+    "dtk.settings.instant_build.heading",
+    "OMEDELBART BYGGE"
+  ],
+  [
+    "dtk.settings.instant_build_mode.label",
+    "Omedelbart bygge-läge"
+  ],
+  [
+    "dtk.settings.instant_build_mode.description",
+    "Slutför automatiskt och omedelbart konstruktion, rivning, uppgraderingar och nedgraderingar utan material, arbetare eller enhet (även vid paus). Aktivering stänger även av spelets eget omedelbart-bygge-alternativ."
+  ],
+  [
+    "dtk.settings.instant_build_mode.sandbox_only",
+    "Stick till sandlådan, du late drummel!"
+  ],
+  [
+    "dtk.settings.legacy_belt_configurations.label",
+    "Tillåt kurviga lutningsband"
+  ],
+  [
+    "dtk.settings.legacy_belt_configurations.description",
+    "Aktiverar transportkonstruktion i stil med Uppdatering 1, vilket gör att transporter kan svänga och stiga/sjunka på samma ruta (möjliggör direkt konstruktion av kurviga lutningsband)."
+  ],
+  [
+    "dtk.rate_limit.title",
+    "Genomströmningsbegränsare"
+  ],
+  [
+    "dtk.rate_limit.enable",
+    "Begränsa genomströmning"
+  ],
+  [
+    "dtk.rate_limit.sandbox_only",
+    "Genomströmningsbegränsning är endast tillgänglig i sandlådeläge."
+  ],
+  [
+    "dtk.rate_limit.items_per_min",
+    "st/min"
+  ],
+  [
+    "dtk.settings.transport_construction.heading",
+    "TRANSPORTKONSTRUKTION"
+  ],
+  [
+    "dtk.settings.transport_cleanup.heading",
+    "TRANSPORTSTÄDNING"
+  ],
+  [
+    "dtk.settings.transport_cleanup_hotkey.label",
+    "Snabbknapp för transportrensning"
+  ],
+  [
+    "dtk.settings.height_filter.heading",
+    "HÖJDFILTER"
+  ],
+  [
+    "dtk.settings.height_filter_max_visible.label",
+    "Synliga nivåer"
+  ],
+  [
+    "dtk.settings.height_filter_max_visible.description",
+    "Begränsar höjdnivån för transporter, strukturer och pelare som ritas i världen."
+  ],
+  [
+    "dtk.settings.height_filter_show_hotkey.label",
+    "Snabbknapp för visa nivå"
+  ],
+  [
+    "dtk.settings.height_filter_hide_hotkey.label",
+    "Snabbknapp för dölj nivå"
+  ],
+  [
+    "dtk.settings.global_hotkey.description",
+    "Denna nyckelbindning är registrerad med spelets kontrollsystem och kan konfigureras i Vanilla Settings | Kontrollmenyn."
+  ],
+  [
+    "dtk.settings.action.restore_defaults",
+    "Återställ standard"
+  ],
+  [
+    "dtk.settings.action.restore_defaults.tooltip",
+    "Återställer moddens globala standardvärden för alla inställningar."
+  ],
+  [
+    "dtk.settings.action.save_as_global",
+    "Spara till config.json"
+  ],
+  [
+    "dtk.settings.action.save_as_global.tooltip",
+    "Sparar dessa inställningar till config.json. De kommer att användas som standard för alla nya spel."
+  ],
+  [
+    "dtk.settings.status.restored_defaults",
+    "Inbyggda standardvärden återställda i minnet."
+  ],
+  [
+    "dtk.settings.status.saved_to_config",
+    "Sparat i config.json."
+  ],
+  [
+    "dtk.settings.status.save_failed",
+    "Det gick inte att spara: {0}"
+  ],
+  [
+    "dtk.settings.status.store_not_initialized",
+    "Det gick inte att spara: inställningslagret är inte initierat."
+  ],
+  [
+    "dtk.blueprint.copy_as_markdown.button",
+    "Kopiera som Markdown"
+  ],
+  [
+    "dtk.blueprint.copy_as_markdown.tooltip",
+    "Kopiera ritningsstatistik som en Markdown-tabell till urklipp, redo att klistras in i hubben."
+  ],
+  [
+    "dtk.blueprint.copy_folder_as_markdown.tooltip",
+    "Kopiera mappens ritningslista som en Markdown-tabell till urklipp."
+  ],
+  [
+    "dtk.markdown.components.heading",
+    "Komponenter"
+  ],
+  [
+    "dtk.markdown.construction.heading",
+    "Konstruktion"
+  ],
+  [
+    "dtk.markdown.operational.heading",
+    "Drift"
+  ],
+  [
+    "dtk.markdown.entity.header",
+    "Entitet"
+  ],
+  [
+    "dtk.markdown.count.header",
+    "Antal"
+  ],
+  [
+    "dtk.markdown.product.header",
+    "Produkt"
+  ],
+  [
+    "dtk.markdown.quantity.header",
+    "Antal"
+  ],
+  [
+    "dtk.markdown.property.header",
+    "Egenskap"
+  ],
+  [
+    "dtk.markdown.value.header",
+    "Värde"
+  ],
+  [
+    "dtk.markdown.blueprint.header",
+    "Ritning"
+  ],
+  [
+    "dtk.markdown.folder.header",
+    "Mapp"
+  ],
+  [
+    "dtk.markdown.entities.stat",
+    "Entiteter"
+  ],
+  [
+    "dtk.markdown.per_month.suffix",
+    "/ mån"
+  ],
+  [
+    "dtk.throughput.title",
+    "Genomströmning"
+  ],
+  [
+    "dtk.throughput.display",
+    "Visa genomströmning"
+  ],
+  [
+    "dtk.throughput.days_to_average",
+    "dagar att snitta"
+  ],
+  [
+    "dtk.settings.throughput.heading",
+    "GENOMSTRÖMNING"
+  ],
+  [
+    "dtk.settings.throughput_toggle.label",
+    "Genomströmningsvy"
+  ],
+  [
+    "dtk.settings.throughput_toggle.description",
+    "Aktiverar/inaktiverar genomströmningsvyer i världen. Enskilda entiteters visning måste fortfarande slås på i inspektören eller med genomströmningsverktyget."
+  ],
+  [
+    "dtk.settings.throughput_glow.label",
+    "Aktivera värmekartans glödeffekt"
+  ],
+  [
+    "dtk.settings.throughput_glow.description",
+    "Kasta ett glödande ljus på marken som matchar värmekartans färg. Fungerar oberoende av textöverlagringen. Inaktivera om det orsakar fördröjning."
+  ],
+  [
+    "dtk.settings.throughput_toggle_hotkey.label",
+    "Snabbknapp för genomströmningsvy"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.label",
+    "Genomströmningsfärgläggning (färgkarta)"
+  ],
+  [
+    "dtk.settings.throughput_colorblind.label",
+    "Färgblindsvänliga färger"
+  ],
+  [
+    "dtk.settings.throughput_colorblind.description",
+    "Ändrar värmekartans gradienter från Grön-Orange-Röd till Blå-Gul-Röd för bättre synlighet."
+  ],
+  [
+    "dtk.settings.throughput_show_as_percent.label",
+    "Visa genomströmning i procent"
+  ],
+  [
+    "dtk.settings.throughput_show_as_percent.description",
+    "Ändrar visningsformatet för genomströmning i världen från absoluta tal (enheter/min) till en procentandel av enhetens maximala kapacitet."
+  ],
+  [
+    "dtk.throughput.aoe_tool.name",
+    "Genomströmningsområdesverktyg"
+  ],
+  [
+    "dtk.throughput.aoe_tool.tooltip",
+    "Klicka och dra för att markera ett område, konfigurera sedan visningsinställningar för genomströmning för alla markerade enheter per typ."
+  ],
+  [
+    "dtk.throughput.aoe_tool.window_title",
+    "Konfigurera genomströmning i område"
+  ],
+  [
+    "dtk.throughput.aoe_tool.apply",
+    "Verkställ"
+  ],
+  [
+    "dtk.throughput.aoe_tool.close",
+    "Stäng"
+  ],
+  [
+    "dtk.throughput.aoe_tool.no_change",
+    "Ingen ändring"
+  ],
+  [
+    "dtk.throughput.aoe_tool.enable",
+    "Aktivera"
+  ],
+  [
+    "dtk.throughput.aoe_tool.disable",
+    "Inaktivera"
+  ],
+  [
+    "dtk.throughput.aoe_tool.override_days_label",
+    "Ange medelvärdesperiod"
+  ],
+  [
+    "dtk.throughput.days",
+    "dagar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.global_header",
+    "Batchinställningar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.global_display",
+    "Visningsstatus: "
+  ],
+  [
+    "dtk.throughput.aoe_tool.select_all_label",
+    "Markera/avmarkera alla"
+  ],
+  [
+    "dtk.settings.throughput_aoe_tool_hotkey.label",
+    "Genomströmningsverktyg genväg"
+  ],
+  [
+    "dtk.settings.layout_box.heading",
+    "LAYOUTRUTOR"
+  ],
+  [
+    "dtk.settings.layout_box.label",
+    "Växla layoutbox-överlägg"
+  ],
+  [
+    "dtk.settings.layout_box.description",
+    "Möjliggör en röntgenöverlagring som återger voxelbegränsningsrutor runt byggnader för att visa deras layout och utrymme."
+  ],
+  [
+    "dtk.settings.layout_box_hotkey.label",
+    "Snabbtangent för att växla layoutbox-överlägg"
+  ],
+  [
+    "dtk.settings.recycle_bin.heading",
+    "PAPPERSKORG"
+  ],
+  [
+    "dtk.settings.use_recycle_bin.label",
+    "Använd papperskorgen"
+  ],
+  [
+    "dtk.settings.use_recycle_bin.description",
+    "När det är aktiverat kopieras ritningar och mappar till papperskorgen före radering eller uppdateringar, och popup-fönstret för borttagningsbekräftelse döljs."
+  ],
+  [
+    "dtk.settings.recycle_bin_folder_name.label",
+    "Mappnamn"
+  ],
+  [
+    "dtk.settings.recycle_bin_folder_name.description",
+    "Mappnamnet under ritningsbokroten som ska användas som papperskorgen."
+  ],
+  [
+    "dtk.settings.undo.heading",
+    "ÅNGRA PLACERING"
+  ],
+  [
+    "dtk.settings.undo_hotkey.label",
+    "Snabbknapp för att ångra placering"
+  ],
+  [
+    "dtk.undo.success",
+    "Ångra: Placeringen har återställts."
+  ],
+  [
+    "dtk.undo.no_action",
+    "Ångra: Inga placeringsåtgärder att återställa."
+  ],
+  [
+    "dtk.settings.pollution.heading",
+    "FÖRORENINGSÖVERLÄGG"
+  ],
+  [
+    "dtk.settings.pollution_toggle.label",
+    "Föroreningsöverlägg"
+  ],
+  [
+    "dtk.settings.pollution_toggle.description",
+    "Aktiverar/inaktiverar överlägget för föroreningshastighet i världen. Visar medelvärden över de konfigurerade dagarna. Dessa värden inkluderar effekterna av spelets svårighetsinställningar och undersökta tekniker för att minska föroreningar."
+  ],
+  [
+    "dtk.settings.pollution_glow.label",
+    "Aktivera värmekartans glödeffekt"
+  ],
+  [
+    "dtk.settings.pollution_glow.description",
+    "Kastar ett glödande ljus på förorenande enheter som matchar deras utsläppsintensitet. Inaktivera om det orsakar fördröjning."
+  ],
+  [
+    "dtk.settings.pollution_days.label",
+    "Genomsnittsperiod"
+  ],
+  [
+    "dtk.settings.pollution_days.description",
+    "Konfigurerar det glidande fönstret i speldagar [0-360] för att beräkna genomsnittliga utsläpp. Om detta ställs in på 0 inaktiveras datainsamling och patchar helt."
+  ],
+  [
+    "dtk.settings.pollution_show_air.label",
+    "Visa luftföroreningar"
+  ],
+  [
+    "dtk.settings.pollution_show_air.description",
+    "Aktiverar/inaktiverar överlägget för föroreningshastighet i världen för gasformiga luftutsläpp (skorstenar/facklor)."
+  ],
+  [
+    "dtk.settings.pollution_show_ground.label",
+    "Visa vattenföroreningar"
+  ],
+  [
+    "dtk.settings.pollution_show_ground.description",
+    "Aktiverar/inaktiverar överlägget för föroreningshastighet i världen för utsläpp av flytande vatten (avloppsutlopp)."
+  ],
+  [
+    "dtk.settings.pollution_show_vehicle.label",
+    "Visa fordons- och tågföroreningar"
+  ],
+  [
+    "dtk.settings.pollution_show_vehicle.description",
+    "Aktiverar/inaktiverar överlagringen av föroreningshastigheten i världen för fordon och lok."
+  ],
+  [
+    "dtk.settings.pollution_show_ship.label",
+    "Visa fartygsföroreningar"
+  ],
+  [
+    "dtk.settings.pollution_show_ship.description",
+    "Aktiverar/inaktiverar överlagringen av föroreningshastigheten i världen för fartyg. Visar den förväntade föroreningsgraden baserat på den aktuella lastruttens tur och returtid och bränsleförbrukning. Dessa värden inkluderar effekterna av spelsvårighetsinställningar och undersökt teknik för att minska föroreningar."
+  ],
+  [
+    "dtk.settings.pollution_toggle_hotkey.label",
+    "Snabbknapp för föroreningsöverlägg"
+  ],
+  [
+    "dtk.settings.place_folder.heading",
+    "PLACERA MAPP"
+  ],
+  [
+    "dtk.settings.blueprint_spacing.label",
+    "Ritningsavstånd"
+  ],
+  [
+    "dtk.settings.blueprint_spacing.description",
+    "Avstånd (i rutor) mellan ritningar placerade sida vid sida vid batchplacering [0-12]."
+  ],
+  [
+    "dtk.blueprint.place_all.button",
+    "Placera alla"
+  ],
+  [
+    "dtk.blueprint.place_all.tooltip",
+    "Placera alla ritningar i den här mappen."
+  ],
+  [
+    "dtk.settings.height_filter.all",
+    "Alla"
+  ],
+  [
+    "dtk.settings.height_filter.controls_tooltip",
+    "Dessa nyckelbindningar är registrerade med spelets kontrollsystem och kan konfigureras i Vanilla Settings | Kontrollmenyn."
+  ],
+  [
+    "dtk.settings.throughput_heatmap.none",
+    "Ingen"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.relative",
+    "Relativ"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.capacity",
+    "Kapacitet"
+  ],
+  [
+    "dtk.settings.hotkey.or",
+    "eller"
+  ]
+]

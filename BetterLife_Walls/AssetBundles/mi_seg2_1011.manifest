@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2076408472
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f1e82a9b87e9eef83db50b59d189839d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3ec52706333437f6dc4ad0aa7349cb7e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/metIndustrial/mi_seg2.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Walls_Unity/AssetBundles/alldecorwalls_d999

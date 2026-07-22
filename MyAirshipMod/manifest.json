@@ -1,0 +1,16 @@
+{
+  "id": "MyAirshipMod",
+  "version": "0.6.0",
+  "display_name": "My Airship Mod 我的飞艇mod",
+  "authors": "蜂功伟业",
+  "description": "Custom airship mod",
+  "primary_dlls": [ "0Harmony.dll", "MyAirshipMod.dll" ],
+  "primary_mod_class_name": "MyAirshipMod",
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.5",
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+"description_short": "本mod包含一个飞艇和飞艇停靠台This mod includes an airship and an airship docking platform",
+"description_long": "2026年7月12日15:33:46发布<br>本mod包含一个飞艇和飞艇停靠台<br><b><color=red>蜂功伟业为大家倾情奉献</color></b>"
+}

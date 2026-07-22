@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3930809167
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4c94e38974dac2968b455d1258ac178
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a8892502e3d57fa4e0414bf78b06df41
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/AssemblyIcons/BL2000.png
+- Assets/BetterLife/AssemblyIcons/BL2000T2.png
+Dependencies: []

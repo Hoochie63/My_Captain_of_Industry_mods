@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 357674171
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb8121252bccd6081980bf1712074057
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ad8aaebd0976740cbc9c334e39e9cbe2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/Toolbar/Roads.png
+- Assets/BetterLife/IconsRoad/Toolbar/toolbar_roadbidir.png
+- Assets/BetterLife/IconsRoad/Toolbar/toolbar_roadoneway.png
+- Assets/BetterLife/IconsRoad/Toolbar/toolbar_roadbridgeseg.png
+- Assets/BetterLife/IconsRoad/Toolbar/Toolbar_Signs.png
+Dependencies: []

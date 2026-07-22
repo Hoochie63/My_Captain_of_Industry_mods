@@ -1,0 +1,10 @@
+Translation Credits
+===================
+
+German — Huge thanks to Dynorg & Gamer.1337 for extensive testing and completing the translation template for all languages
+Russian — Huge thanks to Serjevski for extensive testing and completing the translation template for all languages, and to Hoochie for updating and proofing the Russian translation
+Portuguese — Huge thanks to QualquerCoisa for extensive testing and proofing the Brazilian Portuguese translation
+Italian — Huge thanks to Ulisse Wolf for proofing/correcting the Italian translation
+Spanish — Huge thanks to kukularra for proofing/correcting the Spanish translation
+Ukrainian — Huge thanks to SirColibris for proofing/correcting the Ukrainian translation
+Simplified Chinese — Huge thanks to ytbcesd for providing the full Simplified Chinese translation

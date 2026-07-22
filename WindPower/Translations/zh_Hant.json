@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "過熱"],
+	["WindPower_T1__desc", "解鎖小型風力渦輪機，其發電量取決於風力強度和安裝高度。"],
+	["WindPower_T1__name", "風力發電"],
+	["WindPower_T2__desc", "解鎖輸出功率更高的大型風力渦輪機，以及建造所需的複合板生產。"],
+	["WindPower_T2__name", "風力發電 II"],
+	["WindTurbine_T1__desc", "帶手動煞車的基礎風力渦輪機"],
+	["WindTurbine_T1__name", "風力渦輪機"],
+	["WindTurbine_T2__desc", "帶手動煞車的大型風力渦輪機"],
+	["WindTurbine_T2__name", "風力渦輪機 II"]
+]

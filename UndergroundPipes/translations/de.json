@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "Unterirdische Rohre",
+  "Read-out": "Anzeige",
+  "Hover read-out at the cursor": "Anzeige am Cursor",
+  "Source/destination building icons": "Symbole für Quell-/Zielgebäude",
+  "Inspector": "Inspektor",
+  "Source/destination in the pipe panel": "Quelle/Ziel im Rohr-Panel",
+  "X-ray overlay": "Röntgen-Overlay",
+  "Colour buried pipes by product": "Vergrabene Rohre nach Produkt einfärben",
+  "X-ray colour scheme": "Röntgen-Farbschema",
+  "X-ray brightness": "Röntgen-Helligkeit",
+  "Underground pipes: show / hide the x-ray overlay": "Unterirdische Rohre: Röntgen-Overlay ein-/ausblenden",
+  "Underground pipes: allow deleting buried pipe sections": "Unterirdische Rohre: Löschen vergrabener Abschnitte erlauben",
+  "Underground Pipes: from -> to": "Unterirdische Rohre: von → nach",
+  "(empty)": "(leer)",
+  "tiles": "Felder",
+  "in": "ein",
+  "out": "aus",
+  "from": "von",
+  "to": "nach"
+}

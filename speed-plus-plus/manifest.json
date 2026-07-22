@@ -1,0 +1,15 @@
+{
+    "id": "speed-plus-plus",
+    "version": "1.0.6",
+    "display_name": "Speed++",
+    "description": "Speed++ removes the vanilla speed cap, letting you run the game at whatever pace suits your playstyle. Set your own limit and keybinds in config.json. An on-screen indicator always shows your current multiplier.",
+    "description_short": "Push game speed well beyond vanilla limits with configurable keybinds and an on-screen multiplier display, and more",
+    "authors": ["Mori"],
+    "min_game_version": "0.8.2",
+    "max_verified_game_version": "0.8.6",
+    "primary_dlls": ["0Harmony.dll", "Speed++.dll"],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "SpeedXXMod"
+}

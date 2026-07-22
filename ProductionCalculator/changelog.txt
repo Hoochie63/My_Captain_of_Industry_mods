@@ -1,0 +1,14 @@
+0.1.1
+- Compatibility fix for Captain of Industry 0.8.6a.
+
+0.1.0
+- Production chain calculator with manual product rows (Input / Output modes).
+- Per-row recipe selection, rate (/min), and machine count (linked bidirectionally).
+- Live solver: buildings, net required inputs, net target outputs.
+- Sync chain rates with Fixed toggle to pin selected rows.
+- Auto-suggested rates when selecting a product already in the chain.
+- Save / Load calculation presets to JSON files in the mod folder (not in saves).
+- Split UI: scrollable chain panel and fixed results sidebar.
+- Save / Load buttons in the results panel; prefill name and icon after load.
+- Net flow rounding to hide floating-point dust in inputs / outputs.
+- Mod thumbnail for packaging.

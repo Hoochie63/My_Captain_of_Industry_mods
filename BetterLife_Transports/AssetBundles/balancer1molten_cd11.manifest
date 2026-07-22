@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1046005205
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 37e219246c57cba8a79d6b33734f136f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3ca4ad121937c4e507f52f878e75575c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b9aec14ff4261927aebcfa85ebbee4af
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Transports/balancer1/balancer1molten.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Transports_Unity/AssetBundles/materials_transport_d9d1

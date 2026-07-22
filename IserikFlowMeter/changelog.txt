@@ -1,0 +1,26 @@
+v0.2.1 | 2026-07-21
+Ensure mod compatibility with game v0.8.6a
+
+v0.2.0 | 2026-07-12
+Elevated Placement & History Data
+
+* NEW: Added elevated placement support. The Flowmeter can now be built in the air on multi-level factory designs with automatic pillar spawning.
+* NEW: Added dual-chart visualization (activated on icon hover) to display both Monthly and Annual average throughput histories.
+* NEW: Completely overhauled the inspector into a professional HMI-style dashboard featuring a custom floating UI widget for the chart.
+* NEW: Implemented interactive, scaling bar charts that display exact values when hovering over the bars.
+* IMPROVED: Replaced legacy exponential smoothing with strict discrete buffers for 12-month and 12-year historical data.
+* IMPROVED: Implemented a "Sliding Window Blend" algorithm to smoothly crossfade data at the start of a new month or year, ensuring accurate one-month and one-year averages in the inspector window.
+* FIX: Ensured 100% legacy compatibility with old savegames.
+
+v0.1.1 | 2026-06-16
+Fix patch
+
+* FIX: Flowmeter now correctly highlights when selected.
+* FIX: Addressed visual glitches where the flowmeter appeared partially built during the construction/prototyping.
+* FIX: Maintenance panel now correctly initializes when the mod is added to existing save games.
+* FIX: Resolved "Null Proto ID" warnings in the game log.
+* IMPROVED: Redesigned maintenance idle check: the flowmeter now consumes higher maintenance while actively processing product (idle timeout: >1 second of inactivity).
+* ADDED: Highest game version the mod has been tested with. 
+
+v0.1.0 | 2026-06-06
+Initial release.

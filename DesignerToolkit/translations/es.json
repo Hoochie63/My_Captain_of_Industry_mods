@@ -1,0 +1,506 @@
+[
+  [
+    "dtk.mod.name",
+    "Kit de herramientas para diseñadores de planos"
+  ],
+  [
+    "dtk.settings.tab.markdown",
+    "Configuración"
+  ],
+  [
+    "dtk.settings.markdown_copy.heading",
+    "Copia Markdown"
+  ],
+  [
+    "dtk.settings.markdown_table_language.label",
+    "Idioma de tablas Markdown"
+  ],
+  [
+    "dtk.settings.markdown_table_language.description",
+    "Controla qué idioma deben usar los encabezados de tablas Markdown y los nombres de productos/entidades."
+  ],
+  [
+    "dtk.settings.markdown_table_language.pending",
+    "Inglés, Local, Ambos e Híbrido ya están conectados al exportador Markdown."
+  ],
+  [
+    "dtk.settings.markdown_number_format.label",
+    "Formato de números Markdown"
+  ],
+  [
+    "dtk.settings.markdown_number_format.description",
+    "Controla los separadores decimales y de miles en las exportaciones Markdown. Auto sigue el idioma de la tabla renderizada: las tablas en inglés usan separadores en-US y las locales usan la configuración regional actual del juego."
+  ],
+  [
+    "dtk.settings.language.english",
+    "Inglés"
+  ],
+  [
+    "dtk.settings.language.local",
+    "Local"
+  ],
+  [
+    "dtk.settings.language.both",
+    "Ambos"
+  ],
+  [
+    "dtk.settings.language.hybrid",
+    "Híbrido"
+  ],
+  [
+    "dtk.settings.number_format.auto",
+    "Auto"
+  ],
+  [
+    "dtk.settings.number_format.english",
+    "Separadores ingleses"
+  ],
+  [
+    "dtk.settings.number_format.local",
+    "Separadores locales"
+  ],
+  [
+    "dtk.settings.instant_build.heading",
+    "CONSTRUCCIÓN INSTANTÁNEA"
+  ],
+  [
+    "dtk.settings.instant_build_mode.label",
+    "Modo de construcción instantánea"
+  ],
+  [
+    "dtk.settings.instant_build_mode.description",
+    "Completa automáticamente y al instante la construcción, demolición, mejoras y degradaciones sin materiales, trabajadores ni unidad (incluso en pausa). Activar esto también desactiva el interruptor de construcción instantánea del juego."
+  ],
+  [
+    "dtk.settings.instant_build_mode.sandbox_only",
+    "¡Lárgate al modo sandbox, holgazán!"
+  ],
+  [
+    "dtk.settings.legacy_belt_configurations.label",
+    "Permitir cintas inclinadas curvas"
+  ],
+  [
+    "dtk.settings.legacy_belt_configurations.description",
+    "Activa la construcción de transportes al estilo de la Actualización 1, permitiendo que los transportes giren y suban/bajen en la misma casilla (posibilitando construir cintas inclinadas curvas directamente)."
+  ],
+  [
+    "dtk.rate_limit.title",
+    "Limitador de rendimiento"
+  ],
+  [
+    "dtk.rate_limit.enable",
+    "Limitar rendimiento"
+  ],
+  [
+    "dtk.rate_limit.sandbox_only",
+    "La limitación de rendimiento solo está disponible en modo sandbox."
+  ],
+  [
+    "dtk.rate_limit.items_per_min",
+    "items/min"
+  ],
+  [
+    "dtk.settings.transport_construction.heading",
+    "CONSTRUCCIÓN DE TRANSPORTE"
+  ],
+  [
+    "dtk.settings.transport_cleanup.heading",
+    "LIMPIEZA DE TRANSPORTE"
+  ],
+  [
+    "dtk.settings.transport_cleanup_hotkey.label",
+    "Atajo de limpieza de transporte"
+  ],
+  [
+    "dtk.settings.height_filter.heading",
+    "FILTRO DE ALTURA"
+  ],
+  [
+    "dtk.settings.height_filter_max_visible.label",
+    "Capas visibles"
+  ],
+  [
+    "dtk.settings.height_filter_max_visible.description",
+    "Limita el nivel de altura de transportes, estructuras y pilares renderizados en el mundo."
+  ],
+  [
+    "dtk.settings.height_filter_show_hotkey.label",
+    "Atajo para mostrar capa"
+  ],
+  [
+    "dtk.settings.height_filter_hide_hotkey.label",
+    "Atajo para ocultar capa"
+  ],
+  [
+    "dtk.settings.global_hotkey.description",
+    "Esta combinación de teclas está registrada en el sistema de controles del juego y se puede configurar en Configuración básica | Menú de controles."
+  ],
+  [
+    "dtk.settings.action.restore_defaults",
+    "Restaurar predeterminados"
+  ],
+  [
+    "dtk.settings.action.restore_defaults.tooltip",
+    "Restaurar los valores predeterminados globales de la modificación para todas las configuraciones."
+  ],
+  [
+    "dtk.settings.action.save_as_global",
+    "Guardar como config.json"
+  ],
+  [
+    "dtk.settings.action.save_as_global.tooltip",
+    "Guardar estas configuraciones en config.json. Se utilizarán como valores predeterminados para todos los juegos nuevos."
+  ],
+  [
+    "dtk.settings.status.restored_defaults",
+    "Predeterminados integrados restaurados en memoria."
+  ],
+  [
+    "dtk.settings.status.saved_to_config",
+    "Guardado en config.json."
+  ],
+  [
+    "dtk.settings.status.save_failed",
+    "Error al guardar: {0}"
+  ],
+  [
+    "dtk.settings.status.store_not_initialized",
+    "Error al guardar: el almacén de ajustes no está inicializado."
+  ],
+  [
+    "dtk.blueprint.copy_as_markdown.button",
+    "Copiar como Markdown"
+  ],
+  [
+    "dtk.blueprint.copy_as_markdown.tooltip",
+    "Copia las estadísticas del plano como una tabla Markdown al portapapeles, lista para pegar en el Hub."
+  ],
+  [
+    "dtk.blueprint.copy_folder_as_markdown.tooltip",
+    "Copia la lista de planos de la carpeta como una tabla Markdown al portapapeles."
+  ],
+  [
+    "dtk.markdown.components.heading",
+    "Componentes"
+  ],
+  [
+    "dtk.markdown.construction.heading",
+    "Construcción"
+  ],
+  [
+    "dtk.markdown.operational.heading",
+    "Operación"
+  ],
+  [
+    "dtk.markdown.entity.header",
+    "Entidad"
+  ],
+  [
+    "dtk.markdown.count.header",
+    "Cantidad"
+  ],
+  [
+    "dtk.markdown.product.header",
+    "Producto"
+  ],
+  [
+    "dtk.markdown.quantity.header",
+    "Cantidad"
+  ],
+  [
+    "dtk.markdown.property.header",
+    "Propiedad"
+  ],
+  [
+    "dtk.markdown.value.header",
+    "Valor"
+  ],
+  [
+    "dtk.markdown.blueprint.header",
+    "Plano"
+  ],
+  [
+    "dtk.markdown.folder.header",
+    "Carpeta"
+  ],
+  [
+    "dtk.markdown.entities.stat",
+    "Entidades"
+  ],
+  [
+    "dtk.markdown.per_month.suffix",
+    "/ mes"
+  ],
+  [
+    "dtk.throughput.title",
+    "Rendimiento"
+  ],
+  [
+    "dtk.throughput.display",
+    "Mostrar rendimiento"
+  ],
+  [
+    "dtk.throughput.days_to_average",
+    "días a promediar"
+  ],
+  [
+    "dtk.settings.throughput.heading",
+    "RENDIMIENTO"
+  ],
+  [
+    "dtk.settings.throughput_toggle.label",
+    "Superposición de rendimiento"
+  ],
+  [
+    "dtk.settings.throughput_toggle.description",
+    "Activa/desactiva las superposiciones de rendimiento en el mundo. El interruptor de las entidades individuales aún debe activarse en el inspector o mediante la herramienta de rendimiento."
+  ],
+  [
+    "dtk.settings.throughput_glow.label",
+    "Habilitar el efecto de brillo del mapa de calor"
+  ],
+  [
+    "dtk.settings.throughput_glow.description",
+    "Proyecta una luz brillante sobre el suelo que coincida con el color del mapa de calor. Funciona independientemente de la superposición de texto. Desactívelo si causa retraso."
+  ],
+  [
+    "dtk.settings.throughput_toggle_hotkey.label",
+    "Atajo de superposición de rendimiento"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.label",
+    "Coloración de rendimiento (mapa de calor)"
+  ],
+  [
+    "dtk.settings.throughput_colorblind.label",
+    "Colores para daltónicos"
+  ],
+  [
+    "dtk.settings.throughput_colorblind.description",
+    "Cambia los degradados del mapa de calor de Verde-Naranja-Rojo a Azul-Amarillo-Rojo para mejor visibilidad."
+  ],
+  [
+    "dtk.settings.throughput_show_as_percent.label",
+    "Mostrar rendimiento como porcentaje"
+  ],
+  [
+    "dtk.settings.throughput_show_as_percent.description",
+    "Cambia el formato de visualización de rendimiento en el mundo de números absolutos (elementos/min) a un porcentaje de la capacidad máxima."
+  ],
+  [
+    "dtk.throughput.aoe_tool.name",
+    "Herramienta de área de rendimiento"
+  ],
+  [
+    "dtk.throughput.aoe_tool.tooltip",
+    "Haz clic y arrastra para seleccionar un área, luego configura los ajustes de visualización de rendimiento para todas las entidades seleccionadas por tipo."
+  ],
+  [
+    "dtk.throughput.aoe_tool.window_title",
+    "Configurar rendimiento en el área"
+  ],
+  [
+    "dtk.throughput.aoe_tool.apply",
+    "Aplicar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.close",
+    "Cerrar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.no_change",
+    "Sin cambios"
+  ],
+  [
+    "dtk.throughput.aoe_tool.enable",
+    "Activar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.disable",
+    "Desactivar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.override_days_label",
+    "Definir período de promedio"
+  ],
+  [
+    "dtk.throughput.days",
+    "días"
+  ],
+  [
+    "dtk.throughput.aoe_tool.global_header",
+    "Configuración en lote"
+  ],
+  [
+    "dtk.throughput.aoe_tool.global_display",
+    "Estado de visualización: "
+  ],
+  [
+    "dtk.throughput.aoe_tool.select_all_label",
+    "Seleccionar/deseleccionar todo"
+  ],
+  [
+    "dtk.settings.throughput_aoe_tool_hotkey.label",
+    "Atajo de herramienta de rendimiento"
+  ],
+  [
+    "dtk.settings.layout_box.heading",
+    "DISPOSICIÓN"
+  ],
+  [
+    "dtk.settings.layout_box.label",
+    "Alternar superposición de cuadro de diseño"
+  ],
+  [
+    "dtk.settings.layout_box.description",
+    "Permite una superposición de rayos X que representa cuadros delimitadores de vóxeles alrededor de los edificios para mostrar su diseño y espacio libre."
+  ],
+  [
+    "dtk.settings.layout_box_hotkey.label",
+    "Alternar tecla de acceso rápido de superposición de cuadro de diseño"
+  ],
+  [
+    "dtk.settings.recycle_bin.heading",
+    "PAPELERA DE RECICLAJE"
+  ],
+  [
+    "dtk.settings.use_recycle_bin.label",
+    "Usar papelera de reciclaje"
+  ],
+  [
+    "dtk.settings.use_recycle_bin.description",
+    "Cuando está habilitado, los planos y las carpetas se copian a la papelera de reciclaje antes de eliminarlos o actualizarlos, y se suprime la ventana emergente de confirmación de eliminación."
+  ],
+  [
+    "dtk.settings.recycle_bin_folder_name.label",
+    "Nombre de la carpeta"
+  ],
+  [
+    "dtk.settings.recycle_bin_folder_name.description",
+    "El nombre de la carpeta debajo de la raíz del libro de planos que se usará como Papelera de reciclaje."
+  ],
+  [
+    "dtk.settings.undo.heading",
+    "DESHACER COLOCACIÓN"
+  ],
+  [
+    "dtk.settings.undo_hotkey.label",
+    "Atajo para deshacer colocación"
+  ],
+  [
+    "dtk.undo.success",
+    "Deshacer: colocación revertida correctamente."
+  ],
+  [
+    "dtk.undo.no_action",
+    "Deshacer: no hay acciones de ubicación para revertir."
+  ],
+  [
+    "dtk.settings.pollution.heading",
+    "SUPERPOSICIÓN DE CONTAMINACIÓN"
+  ],
+  [
+    "dtk.settings.pollution_toggle.label",
+    "Superposición de contaminación"
+  ],
+  [
+    "dtk.settings.pollution_toggle.description",
+    "Activa/desactiva la superposición de tasa de contaminación en el mundo. Muestra promedios durante los días configurados. Estos valores incluyen los efectos de la dificultad del juego y las tecnologías investigadas de reducción de contaminación."
+  ],
+  [
+    "dtk.settings.pollution_glow.label",
+    "Habilitar el efecto de brillo del mapa de calor"
+  ],
+  [
+    "dtk.settings.pollution_glow.description",
+    "Proyecta una luz brillante sobre las entidades contaminantes, acorde con su intensidad de emisión. Desactívalo si causa retrasos."
+  ],
+  [
+    "dtk.settings.pollution_days.label",
+    "Período de promedio"
+  ],
+  [
+    "dtk.settings.pollution_days.description",
+    "Configura la ventana deslizante en días de juego [0-360] para promediar las emisiones. Establecerlo en 0 deshabilita completamente la recopilación de datos y los parches."
+  ],
+  [
+    "dtk.settings.pollution_show_air.label",
+    "Mostrar la contaminación del aire"
+  ],
+  [
+    "dtk.settings.pollution_show_air.description",
+    "Activa/desactiva la superposición de la tasa de contaminación mundial para emisiones gaseosas al aire (chimeneas/bengalas)."
+  ],
+  [
+    "dtk.settings.pollution_show_ground.label",
+    "Mostrar contaminación del agua"
+  ],
+  [
+    "dtk.settings.pollution_show_ground.description",
+    "Habilita/deshabilita la superposición de la tasa de contaminación mundial para descargas de agua líquida (emisarios de aguas residuales)."
+  ],
+  [
+    "dtk.settings.pollution_show_vehicle.label",
+    "Mostrar la contaminación de vehículos y trenes"
+  ],
+  [
+    "dtk.settings.pollution_show_vehicle.description",
+    "Activa/desactiva la superposición de tasa de contaminación en el mundo para vehículos y locomotoras."
+  ],
+  [
+    "dtk.settings.pollution_show_ship.label",
+    "Mostrar la contaminación de los barcos"
+  ],
+  [
+    "dtk.settings.pollution_show_ship.description",
+    "Activa/desactiva la superposición de la tasa de contaminación mundial para barcos. Muestra la tasa de contaminación prevista en función del tiempo de ida y vuelta de la ruta de carga actual y el consumo de combustible. Estos valores incluyen los efectos de la configuración de dificultad del juego y las tecnologías de reducción de la contaminación investigadas."
+  ],
+  [
+    "dtk.settings.pollution_toggle_hotkey.label",
+    "Atajo de superposición de contaminación"
+  ],
+  [
+    "dtk.settings.place_folder.heading",
+    "COLOCAR CARPETA"
+  ],
+  [
+    "dtk.settings.blueprint_spacing.label",
+    "Espaciado de planos"
+  ],
+  [
+    "dtk.settings.blueprint_spacing.description",
+    "Espaciado (en casillas) entre planos colocados uno al lado del otro durante la colocación por lotes [0-12]."
+  ],
+  [
+    "dtk.blueprint.place_all.button",
+    "Colocar todo"
+  ],
+  [
+    "dtk.blueprint.place_all.tooltip",
+    "Colocar todos los planos en esta carpeta."
+  ],
+  [
+    "dtk.settings.height_filter.all",
+    "Todos"
+  ],
+  [
+    "dtk.settings.height_filter.controls_tooltip",
+    "Estas combinaciones de teclas están registradas en el sistema de controles del juego y se pueden configurar en Configuración básica | Menú de controles."
+  ],
+  [
+    "dtk.settings.throughput_heatmap.none",
+    "Ninguno"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.relative",
+    "Relativo"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.capacity",
+    "Capacidad"
+  ],
+  [
+    "dtk.settings.hotkey.or",
+    "o"
+  ]
+]

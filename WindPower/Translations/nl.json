@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Oververhitting"],
+	["WindPower_T1__desc", "Ontgrendelt een kleine windturbine die elektriciteit opwekt afhankelijk van windkracht en plaatsingshoogte."],
+	["WindPower_T1__name", "Windenergie"],
+	["WindPower_T2__desc", "Ontgrendelt een grote windturbine met veel hoger vermogen en de productie van composietpanelen die nodig zijn voor de bouw."],
+	["WindPower_T2__name", "Windenergie II"],
+	["WindTurbine_T1__desc", "Eenvoudige windturbine met handmatige remming"],
+	["WindTurbine_T1__name", "Windturbine"],
+	["WindTurbine_T2__desc", "Grote windturbine met handmatige remming"],
+	["WindTurbine_T2__name", "Windturbine II"]
+]

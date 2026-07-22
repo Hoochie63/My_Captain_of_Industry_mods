@@ -1,0 +1,151 @@
+v1.2.7 | 2026-07-17
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* Fixed the pipe toolbar's quick-toggle buttons (U/B/L/S) drawing as rectangles and shifting position — they're now sized to match the other toolbar icons and stay put.
+
+v1.2.6 | 2026-07-01
+* All keybinds can now be viewed and rebound from the Modded Keybinds tab in Settings — install the Keybind Framework mod to use it.
+* Added quick-toggle buttons to the pipe building toolbar for the four pipe cheats — Allow pipes underground, Bulldoze underground pipes, Show depth labels, and Build pipes along slopes. Click a button or press its shortcut (Alt+U / Alt+B / Alt+L / Alt+S, rebindable via the Keybind Framework mod if installed); each button lights up while its option is on. (thanks Hoochie for the suggestion)
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Vehicle Stats now shows one entry per vehicle that applies to all fuel variants (diesel, hydrogen, synthetic, battery), so none are missing. (thanks maxg for the report)
+
+v1.2.5 | 2026-06-22
+* New Settlement toggle "Keep Unity full" — keeps your Unity topped up to the cap automatically while it's on. (thanks Whatchamacallit Gaming for the suggestion)
+* Spawner: tidier bottom button bar (Add to Shipyard, Close, Add Favorite) and a taller product list so you see more items at once and avoid hitting "add to favorites by mistake".
+
+v1.2.4 | 2026-06-14
+* Tree harvesters and tree planter can now be edited in the Vehicle Stats panel — change their speed (and a tree planter's carry capacity).
+* Fixed underground pipes breaking and spilling their contents when connected to an above-ground pipe. (huge thanks to notmuted for the save and showing the problem)
+* The maintenance indicator is now hidden from the pinned products bar while the No Maintenance cheat is on. (thanks JamieChi57 for the suggestion)
+
+v1.2.3 | 2026-06-13
+* Fixed the Sandbox toolbar button not opening its window in Sandbox games — the Fill Tool fix from 1.2.2 was also blocking the real Sandbox window. (thanks Liquid5150 for the report)
+
+v1.2.2 | 2026-06-10
+* Underground pipes — when placing a pipe, floating depth numbers (-1, -2, -3…) now appear at ground level over the ends of buried pipes, so you can connect to them without moving the camera underground. (thanks petter566 for the suggestion)
+* Added a toggle to turn the underground pipe depth numbers on or off. (thanks Mag for the report)
+* New toggle "Build pipes along slopes" — pipes can now follow sloped ground and ramp up and down hills instead of going straight up and down vertically, so you can run a pipe straight down a hillside.
+* Fixed canceling the Fill Tool so it no longer opens the vanilla Sandbox window. (thanks Mag for the report)
+
+v1.2.1 | 2026-06-08
+* New cheat toggle "Ignore Research Parent Requirements" — research any node without unlocking its parent technologies first. (thanks Agent Coxack for the suggestion)
+
+v1.2.0 | 2026-05-31
+* Added a pin button to the window — pin it to keep it open (thanks Malibu2 for the suggestion).
+* Added missing translations for multiple languages (thanks kukularra for reporting the missing strings).
+* Added more missing translations across all languages.
+* Updated Ukrainian translation — huge thanks to SirColibris for the proofreading and corrections.
+
+v1.1.9 | 2026-05-26
+* Fixed Instant Build & Free — after a full game restart + load, the toggle now shows the correct ON/OFF state. 
+  Previously it always read OFF in the UI even when the cheat was still active in the background. (thanks General Zod and Mrbag88 for the reports)
+* KE/KF floating icons — size can now be adjusted via Tweaks++ → Overlays → KE/KF Icon Size.
+* Removed the global Storage Throughput override — per-storage throughput is now set individually in Storage++ (new Throughput tab).
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.1.8 | 2026-05-25
+* New cheat: Fake Computing Output — type a TFLOPS value (0-10000) and that much extra computing feeds the global pool every tick. Set to 0 to disable.
+* New cheat: Fake Power Consumption — drains MW from the real grid every tick to stress-test your power network.
+* New cheat: Fake Computing Consumption — drains TFLOPS from the Fake Computing Output budget to simulate compute load.
+* New Research button: "Unlock All Repeatable" — advances every repeatable research node by one count, but only those whose prerequisites are met.
+* Cheats tab tightened up — less scrolling. Research and World Map sections share one row (left = World Map, right = Research).
+* Spawner: added 12 new fluids — Exhaust, Chlorine, Acid, Ammonia, Nitrogen, Sour water, Brine, Crude oil, Naphtha, Fuel gas, Cooking oil, Ethanol.
+* Underground pipes — fixed the slope and missing pillars when building at higher heights above ground with the cheat on.
+
+v1.1.7 | 2026-05-23
+* Added Simplified Chinese translation (translation by markstar, proofed and corrected by ytbcesd). The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+* New cheat: Allow pipes underground — press Down to place pipes below terrain. A green line shows the buried path. 
+  Bulldoze protection toggle included. (thanks Kayser)
+
+v1.1.6 | 2026-05-22
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* New shipyard action: "Dump Cargo" moves shipyard cargo into matching base storages by import priority. Nothing is destroyed. (thanks PrimeDew for the suggestion)
+* Vehicles tab is now "Vehicles/Trains" — set per-type train wagon cargo capacity, saved per game.
+* New cheat: Ignore Research Item Requirements — research gated behind producing a quantity of an item (e.g. 200 spent fuel rods) now unlocks without it. Research Unity and science costs are unaffected. (thanks Vulkandrache for the suggestion)
+* Updated the mod thumbnail.
+* Fixed Instant Build cheat: vehicle depots and rocket assembly depot no longer skip worker assignment. Thanks to gamer.1337 reporting this.
+* Fixed a conflict with PlaceResourceMod that could crash the game. When Place Resource Mod is present, the Unlimited Water and No Oil Drain cheats are automatically turned off and left for that mod to handle.
+* Huge thanks to kukularra for finding the conflict with Place Resource Mod.
+
+v1.1.5 | 2026-05-21
+* The "fix for WorldGen bug" button now also unlocks Sugar cane and Poppy seeds (temp fix), not just Radar 2 and Corn — some maps were missing those unlocks too.
+
+v1.1.4 | 2026-05-17
+* Fixed translation errors.
+* Added missing translations and widened the window for Russian and German so the UI displays correctly.
+* The "fix for WorldGen bug" button now also unlocks Corn seeds, not just Radar 2 — some maps were missing the corn unlock too.
+
+v1.1.3 | 2026-05-15
+* Huge UI redesign for much better navigation across all settings and tabs.
+* New cheat: No Pollution — one toggle disables air, water, landfill and radiation penalties.
+  Stats takes a bit to update after turning it on. (thanks redgreen for the suggestion)
+* New cheat: Fake Power Output — type a MW value (0-10000) in the Cheats tab and that much extra power feeds the global pool every tick.
+  Set to 0 to disable. (thanks wolf03 for the suggestion)
+
+
+v1.1.2 | 2026-05-14
+* Fixed Keep Full / Keep Empty arrows on storages not appearing after loading a save.
+* Fixed settings panel showing an error on fresh installs — mod config window now opens correctly.
+* New toggles in Cheats tab: No Housing Waste, No Housing Biowaste, No Housing Wastewater. Settings persist per save.
+* Cheats tab — Storage Throughput override. Toggle on, drag the slider (100–20000 per 60s), and every storage uses that rate instead of its tier limit. 
+  This will change how fast items go in and out. Storage windows now show the throughput value live as you drag.
+
+
+v1.1.1 | 2026-05-13
+* Fixed settings panel showing an error on fresh installs — mod config window now opens correctly.
+* New toggles in Cheats tab: No Housing Waste, No Housing Biowaste, No Housing Wastewater. Settings persist per save.
+* Cheats tab — Storage Throughput override. Toggle on, drag the slider (100–20000 per 60s), and every storage uses that rate instead of its tier limit. 
+  This will change how fast items go in and out. Storage windows now show the throughput value live as you drag.
+
+v1.1.0 | 2026-05-13
+*Fill Tool — Now finaly fixed mixed rock/dirt in ocean fills. (my tired ass uploading wrong version)
+
+v1.0.9 | 2026-05-11
+*Fill Tool — Now finaly fixed mixed rock/dirt in ocean fills.
+
+v1.0.7 | 2026-05-10
+* Fixed Fill Tool placing selected material when used over water now dont mix materials. Thanks warrenc for the report of problem.
+
+v1.0.6 | 2026-05-10
+* Added "Get Radar 2 (fix for WorldGen bug)" button under Reveal World Map — temporary workaround for saves where WorldGen++ failed to place the Radar 2 unlock on the world map.
+
+v1.0.5 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.4 | 2026-05-09
+* Fixed Vehicles tab truck capacity overrides ignoring the "Overloaded trucks" Captain's Office edict and office load boost.
+
+v1.0.3 | 2026-05-08
+* New Vehicles tab — pick any truck or excavator and type custom Speed, Load Capacity (trucks),
+  or Bucket Size (excavators). Defaults shown next to each field for easy undos.
+* Storage Keep-Full / Keep-Empty labels changed to simple arrow icons (green up / red down).
+* New "Labels for KF/KE" toggle in the Cheats tab — turn the floating arrow icons on or off (on by default).
+
+v1.0.2 | 2026-05-08
+* New Vehicles tab — pick any truck or excavator and type custom Speed, Load Capacity (trucks), 
+  or Bucket Size (excavators). Defaults shown next to each field for easy undos.
+
+v1.0.1 | 2026-05-06
+* Split research unlock into two buttons: "Unlock All Available Research" unlocks techs whose prerequisites are
+  already met; "Unlock All Research" force-unlocks everything. Neither one touches repeatable research.
+* Added Hydrogen to the Spawner product list.
+* Storage buildings now show a floating "KF" (yellow) or "KE" (red) label above them when Keep Full or Keep
+  Empty is active. Label disappears when the mode is turned off.
+
+v1.0.0 | 2026-05-03
+* Instant Build & Free — buildings, vehicles and upgrades complete instantly with no construction material cost
+* No Fuel Usage — vehicles and generators don't consume fuel
+* No Food Usage — population won't consume food
+* No Maintenance — disables all maintenance costs
+* Magic Wand — Ctrl+click to instantly fill or empty storage, plus Keep Full / Keep Empty auto-toggles
+* Unlimited Water & Oil on map — ground deposits never deplete
+* Vehicle Limit override — raise max vehicle cap
+* Finish Current Research button
+* Unlock All Research button
+* Reveal Entire World Map button
+* Unity cap + auto-refill control
+* Set Population directly
+* Shipyard Capacity override and Shipyard tab (transfer cargo, destroy cargo, instant repair)
+* Fill Designations tool — fill/remove with dig/dump designations with a selected material
+* Remove Trees tool — instantly harvest all marked trees
+* Spawner tab — spawn any product via Shipyard with a favorites list

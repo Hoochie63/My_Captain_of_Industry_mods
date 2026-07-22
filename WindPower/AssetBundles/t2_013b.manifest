@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 1296468408
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45117303f4d5e32909fd91aaf464611b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 800611fd2683188fbf7347839083b311
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2f8cb56e933236db21fbc13ad869de4a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/WindPower/T2/WindTurbine_T2.fbx
+Dependencies: []

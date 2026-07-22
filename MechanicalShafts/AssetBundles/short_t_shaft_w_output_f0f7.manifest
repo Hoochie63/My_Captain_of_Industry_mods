@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2657691791
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a27f06af14396704cbc6731455233ea3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5f11faf29b611417e0e843a4f65c64b9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 43f7e911acce07b43c5d3ad0d1c735c0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RightAngleMechanicalShaft/Short_T_Shaft_W_Output.prefab
+Dependencies:
+- C:/Users/chris/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/animations_7d56
+- C:/Users/chris/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/materials_0d42

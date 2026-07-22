@@ -1,0 +1,40 @@
+{
+    "colorByProduct": {
+        "default": false,
+        "description": "Colour the underground x-ray overlay by the product flowing through each pipe instead of by depth, so you can tell at a glance which buried network carries what."
+    },
+    "showReadout": {
+        "default": true,
+        "description": "Show the hover read-out panel at the cursor when you point at a pipe (product, amount, fill bar, flowing/stuck, and the source/destination building icons). Turn off to disable the whole feature."
+    },
+    "showBuildingIcons": {
+        "default": true,
+        "description": "In the hover read-out, show the icon of the building that feeds the pipe (left) and the building it feeds (right). Turn off to show only the product."
+    },
+    "iconSize": {
+        "default": 40,
+        "is_integer": true,
+        "description": "Size (in pixels) of the building/product icons in the read-out and inspector. Takes effect on the next game session.",
+        "min": 16,
+        "max": 96
+    },
+    "colorShallow": {
+        "default": "00d2ff",
+        "description": "X-ray overlay colour for the shallowest buried level (hex RRGGBB). Default cyan."
+    },
+    "colorDeep": {
+        "default": "ff7700",
+        "description": "X-ray overlay colour for the deepest buried level (hex RRGGBB). Levels in between are blended. Default orange."
+    },
+    "overlayBrightness": {
+        "default": 40,
+        "is_integer": true,
+        "description": "Overall brightness/opacity of the whole underground x-ray overlay, in percent (0 = invisible). Lower it if the pipes look too bright. Applies to all buried pipes at once.",
+        "min": 0,
+        "max": 100
+    },
+    "showInspector": {
+        "default": true,
+        "description": "Add a 'source -> destination' section to the game's own pipe panel (open it by clicking a pipe): it shows the real building that feeds the pipe and the one it feeds (walking through connectors/balancers), how full those tanks are, and the icons are clickable to fly the camera there."
+    }
+}

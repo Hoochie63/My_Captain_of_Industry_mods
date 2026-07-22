@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3578845618
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9fbffcd6acae5e152e756af0cfa2fc0a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 24452b45833230d1f0ae722019107645
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/WallA/extWall_end.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Walls_Unity/AssetBundles/extended_packed_2f0f

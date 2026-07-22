@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1001114864
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16b729b7fc23277172d49d3264b6f76a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c815871ae8e0704ab1ad5aca5f4ebdce
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_bridgeexit.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_straightsmall.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_exit.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_cross.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_bridgecorner.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_straight.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_entranceexit.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_bridgestraight.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_tsection.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_bridgestraight2x.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_bridgeentrance.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_entrance.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_industrialzone.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/set2/oneway_corner.png
+Dependencies: []

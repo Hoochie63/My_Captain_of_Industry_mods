@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "Подземные трубы",
+  "Read-out": "Просмотр",
+  "Hover read-out at the cursor": "Индикатор уровня жидкости при наведении курсора",
+  "Source/destination building icons": "Иконки источников и потребителей (откуда и куда подключено)",
+  "Inspector": "Индикаторы",
+  "Source/destination in the pipe panel": "Источник / Потребитель в интерфейсе труб",
+  "X-ray overlay": "Просвечивание",
+  "Colour buried pipes by product": "Подсветка труб по типу продукта",
+  "X-ray colour scheme": "Цветовая схема просвечивания",
+  "X-ray brightness": "Яркость просвечивания",
+  "Underground pipes: show / hide the x-ray overlay": "Подземные трубы: показать/скрыть просвечивание",
+  "Underground pipes: allow deleting buried pipe sections": "Подземные трубы: разрешить демонтаж подземных участков",
+  "Underground Pipes: from -> to": "Подземные трубы: источник → потребитель",
+  "(empty)": "(пусто)",
+  "tiles": "метров",
+  "in": "вход",
+  "out": "выход",
+  "from": "из",
+  "to": "в"
+}

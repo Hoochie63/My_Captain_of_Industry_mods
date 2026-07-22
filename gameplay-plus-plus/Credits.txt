@@ -1,0 +1,29 @@
+Credits
+-------
+Cargo van by [mrglebister]
+Source: [https://www.cgtrader.com/free-3d-models/vehicle/truck/cargo-van-with-platform-of-the-nineties-3d-model]
+License: Royality free - https://www.cgtrader.com/pages/terms-and-conditions#royalty-free-license
+Modified in Blender:  recolored, size change, some parts removed.
+
+-------
+
+ZIL-E167 by [netrunner75]
+Source: [https://www.cgtrader.com/free-3d-models/vehicle/truck/zil-e167-soviet-monster-truck-free-model]
+License: Royality free - https://www.cgtrader.com/pages/terms-and-conditions#royalty-free-license
+Modified in Blender: recolored, size change, some parts removed.
+
+-------
+
+Liquid storage models pack by [maxpsr]
+Source: [https://www.cgtrader.com/free-3d-models/industrial/industrial-part/liquid-storage-models-pack]
+License: Royality free - https://www.cgtrader.com/pages/terms-and-conditions#royalty-free-license
+Modified in Blender: Some parts removed.
+
+-------
+
+Old Garage Building by [Jimbogies]
+Source: [https://www.fab.com/listings/f4090e67-30f7-4754-a0e2-15f82454f821]
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Modified in Blender: Some parts removed, some added and some edited.
+
+-------

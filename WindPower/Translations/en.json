@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Overheating"],
+	["WindPower_T1__desc", "Unlocks a small wind turbine that generates electricity based on wind strength and placement altitude."],
+	["WindPower_T1__name", "Wind power"],
+	["WindPower_T2__desc", "Unlocks a large wind turbine with much higher output and the production of composite panels required to build it."],
+	["WindPower_T2__name", "Wind power II"],
+	["WindTurbine_T1__desc", "Basic wind turbine with manual braking"],
+	["WindTurbine_T1__name", "Wind turbine"],
+	["WindTurbine_T2__desc", "Large wind turbine with manual braking"],
+	["WindTurbine_T2__name", "Wind turbine II"]
+]

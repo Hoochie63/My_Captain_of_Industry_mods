@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Přehřívání"],
+	["WindPower_T1__desc", "Odemkne malou větrnou turbínu, která vyrábí elektřinu podle síly větru a nadmořské výšky umístění."],
+	["WindPower_T1__name", "Větrná energie"],
+	["WindPower_T2__desc", "Odemkne velkou větrnou turbínu s mnohem vyšším výkonem a výrobu kompozitních panelů potřebných k její stavbě."],
+	["WindPower_T2__name", "Větrná energie II"],
+	["WindTurbine_T1__desc", "Základní větrná turbína s ručním brzděním"],
+	["WindTurbine_T1__name", "Větrná turbína"],
+	["WindTurbine_T2__desc", "Velká větrná turbína s ručním brzděním"],
+	["WindTurbine_T2__name", "Větrná turbína II"]
+]

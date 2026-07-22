@@ -1,0 +1,11 @@
+{
+  "id": "ConfigurableMachineOutputs",
+  "version": "1.0.1",
+  "display_name": "Configurable Machine Outputs",
+  "description_short": "Adds per-machine routing controls for compatible Pipe, Loose, and Flat outputs.",
+  "authors": ["ChrisMac"],
+  "primary_dlls": ["0Harmony.dll", "ConfigurableMachineOutputs.dll"],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false
+}

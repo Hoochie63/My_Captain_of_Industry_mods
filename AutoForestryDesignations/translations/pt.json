@@ -1,0 +1,298 @@
+[
+  [
+    "AFD_ForestryDesignationsTitle",
+    "Designações florestais"
+  ],
+  [
+    "AFD_ForestryInformationTitle",
+    "Informações florestais"
+  ],
+  [
+    "AFD_CreateDesignationsBtn",
+    "Criar designações"
+  ],
+  [
+    "AFD_CreateDesignationsBtnTip",
+    "Examinar a área da torre e colocar designações florestais."
+  ],
+  [
+    "AFD_ClearDesignationsBtnTip",
+    "Limpar todas as designações florestais na área desta torre."
+  ],
+  [
+    "AFD_RefreshCompositionTip",
+    "Atualizar composição florestal"
+  ],
+  [
+    "AFD_BoolYes",
+    "Sim"
+  ],
+  [
+    "AFD_BoolNo",
+    "Não"
+  ],
+  [
+    "AFD_OnlyFertileTilesLabel",
+    "Apenas terrenos férteis"
+  ],
+  [
+    "AFD_OnlyFertileTilesTip",
+    "Colocar designações apenas onde o solo é válido para plantar árvores: terreno fértil (não rocha, areia ou oceano) e não ocupado por uma construção ou outra entidade."
+  ],
+  [
+    "AFD_OnlyReachableTilesLabel",
+    "Apenas áreas acessíveis"
+  ],
+  [
+    "AFD_OnlyReachableTilesTip",
+    "Quando ativado, ignorar áreas de designação que não são acessíveis por veículos a partir da área da torre."
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsLabel",
+    "Evitar designações de terreno"
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsTip",
+    "Ignorar áreas que já contenham qualquer designação de terreno, incluindo mineração, despejo ou nivelamento."
+  ],
+  [
+    "AFD_MaxTilesLabel",
+    "Número máximo de designações"
+  ],
+  [
+    "AFD_MaxTilesTip",
+    "Número máximo de áreas de designação a colocar por execução. 0 = sem limite (∞)."
+  ],
+  [
+    "AFD_NoForestryTowerSelected",
+    "Nenhuma torre florestal selecionada."
+  ],
+  [
+    "AFD_NoForestryDesignations",
+    "Nenhuma designação florestal."
+  ],
+  [
+    "AFD_PressToScanComposition",
+    "Pressione ↺ para examinar a composição florestal."
+  ],
+  [
+    "AFD_KpiTreesLabel",
+    "Árvores"
+  ],
+  [
+    "AFD_KpiMaturityLabel",
+    "Maturidade"
+  ],
+  [
+    "AFD_KpiSustainableYieldLabel",
+    "Rendimento sustentável"
+  ],
+  [
+    "AFD_KpiTreesTip",
+    "Contagem em tempo real das árvores geridas atualmente dentro da área florestal desta torre. O primeiro número são as árvores neste momento; o segundo número é o máximo estimado com base nas posições de plantio atualmente válidas."
+  ],
+  [
+    "AFD_KpiMaturityTipFmt",
+    "Maturidade média e idade atual das árvores geridas. A maturidade total é atualmente <b>{0}</b>, incluindo configurações de dificuldade."
+  ],
+  [
+    "AFD_KpiSustainableYieldTipFmt",
+    "Produção máxima de madeira a longo prazo que pode ser mantida para esta torre por mês de jogo, considerando a área designada, o limite de colheita e a velocidade de crescimento das árvores conforme as configurações de dificuldade (atualmente <b>{0}</b> de maturidade total média)."
+  ],
+  [
+    "AFD_GrowthBreakdownHeader",
+    "Repartição do crescimento"
+  ],
+  [
+    "AFD_GrowthBreakdownTipFmt",
+    "Repartição da maturidade das árvores geridas. A idade de maturidade total depende do tipo de árvore e da dificuldade; a maturidade total média atual é {0}. Curva de rendimento florestal padrão: 40% da idade = 30% do rendimento, 60% = 60%, 80% = 88%, 100% = total."
+  ],
+  [
+    "AFD_GrowthHeaderTipNoCutFmt",
+    "Distribuição por maturidade relativa à idade atual de crescimento total de cada árvore. Opção de colheita: nenhum corte. Maturidade total média: {0}."
+  ],
+  [
+    "AFD_GrowthHeaderTipWithCutFmt",
+    "Distribuição por maturidade relativa à idade atual de crescimento total de cada árvore. Opção de colheita: {0} ({1}% de uma árvore {2} de crescimento total)."
+  ],
+  [
+    "AFD_HarvestThresholdTip",
+    "Limite de colheita"
+  ],
+  [
+    "AFD_SegmentTipFmt",
+    "<b>{0}</b>\n{1} árvores ({2:P0} das plantadas, {3:P0} da capacidade)\n{4}"
+  ],
+  [
+    "AFD_SegmentAboveHarvest",
+    "acima do limite de colheita"
+  ],
+  [
+    "AFD_SegmentBelowHarvest",
+    "abaixo do limite de colheita"
+  ],
+  [
+    "AFD_UnusedCapacityTipFmt",
+    "Capacidade não utilizada: {0} áreas ({1:P0} da capacidade)"
+  ],
+  [
+    "AFD_SegmentInteractionHint",
+    "Passe o cursor para destacar as árvores neste estágio.\nClique para marcá-las ou desmarcá-las para colheita."
+  ],
+  [
+    "AFD_SettingsModName",
+    "Designações florestais automáticas"
+  ],
+  [
+    "AFD_SettingsTabDefaults",
+    "Padrões"
+  ],
+  [
+    "AFD_SettingsTabGameSettings",
+    "Configurações do jogo"
+  ],
+  [
+    "AFD_SettingsHeadingForestryTowerDefaults",
+    "Padrões da torre florestal"
+  ],
+  [
+    "AFD_SettingsHeadingDesignationDefaults",
+    "Padrões de designação"
+  ],
+  [
+    "AFD_SettingsHeadingScanPerformance",
+    "Desempenho da varredura"
+  ],
+  [
+    "AFD_SettingsHeadingPanelDefaults",
+    "Padrões dos painéis"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesLabel",
+    "Evitar blocos com árvores"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesTip",
+    "Padrão: pula blocos que já contêm uma árvore ao criar designações."
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyLabel",
+    "Marcar árvores prontas para corte"
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyTip",
+    "Padrão: depois de criar designações, marca automaticamente para corte as árvores que atingem o limite da torre."
+  ],
+  [
+    "AFD_SettingsBatchSizeLabel",
+    "Tamanho do lote"
+  ],
+  [
+    "AFD_SettingsBatchSizeTip",
+    "Número de designações colocadas por quadro. Menor = mais responsivo; maior = varreduras mais rápidas. Limitado a 1-200."
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedLabel",
+    "Painel florestal recolhido"
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedTip",
+    "Estado recolhido padrão do painel de designações florestais ao abrir o inspetor de uma torre."
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedLabel",
+    "Painel de informações recolhido"
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedTip",
+    "Estado recolhido padrão do painel de informações florestais ao abrir o inspetor de uma torre."
+  ],
+  [
+    "AFD_SettingsSaveAsGlobal",
+    "Salvar como config"
+  ],
+  [
+    "AFD_SettingsSaveAsGlobalTooltip",
+    "Salva estas configurações em AFDsettings.json. Elas serão usadas como padrões para todos os novos jogos."
+  ],
+  [
+    "AFD_SettingsSavedToFile",
+    "Salvo em AFDsettings.json."
+  ],
+  [
+    "AFD_SettingsSaveFailed",
+    "Falha ao salvar - verifique o log"
+  ],
+  [
+    "AFD_SettingsRestoreDefaults",
+    "Redefinir padrões"
+  ],
+  [
+    "AFD_SettingsRestoreDefaultsTooltip",
+    "Redefine todos os padrões de designação e painel para os valores integrados. (Não as salva automaticamente como config.)"
+  ],
+  [
+    "AFD_SettingsRestoredDefaults",
+    "Padrões restaurados"
+  ],
+  [
+    "AFD_NewlyPlantedTip",
+    "Recém-plantado / maturidade mais baixa"
+  ],
+  [
+    "AFD_FullyGrownTipFmt",
+    "Totalmente crescida / maturidade mais alta ({0} de maturidade total média nesta torre)."
+  ],
+  [
+    "AFD_BucketFullyMatureFmt",
+    "Totalmente madura ({0}, 100%)"
+  ],
+  [
+    "AFD_BucketNewlyPlantedName",
+    "Recém-plantada"
+  ],
+  [
+    "AFD_BucketYoungName",
+    "Jovem"
+  ],
+  [
+    "AFD_BucketGrowingName",
+    "Em crescimento"
+  ],
+  [
+    "AFD_BucketMaturingName",
+    "Amadurecendo"
+  ],
+  [
+    "AFD_BucketNearlyMatureName",
+    "Quase madura"
+  ],
+  [
+    "AFD_BucketRangeFmt",
+    "{0} ({1}–{2}; {3:P0}–{4:P0})"
+  ],
+  [
+    "AFD_OrderConstructionTooltip",
+    "Enfileirar um {0} para {2} em {1}"
+  ],
+  [
+    "AFD_PreAssignedTooltipFmt",
+    "Pré-atribuído a {0}"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptSingular",
+    "Enfileirar um {0} para {2} em {1}?"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptPlural",
+    "Enfileirar {0} {1}s para {3} em {2}?"
+  ],
+  [
+    "AFD_EnqueueConfirmBtnText",
+    "Enfileirar"
+  ],
+  [
+    "AFD_ZoomToDepotTooltip",
+    "Ampliar para {0}"
+  ]
+]

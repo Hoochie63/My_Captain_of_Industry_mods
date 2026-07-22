@@ -1,0 +1,113 @@
+{
+  "last_blueprint_folder": {
+    "default": "",
+    "description": "Do not delete — stores the last-open blueprint book folder so the mod can restore it on load."
+  },
+  "blueprint_spacing": {
+    "default": 6,
+    "is_integer": true,
+    "description": "Initial blueprint spacing parameter [0-12] for batch pasting.",
+    "min": 0,
+    "max": 12
+  },
+  "markdown_table_language": {
+    "default": 0,
+    "is_integer": true,
+    "description": "Initial Markdown table language for saves without Designer Toolkit settings state (0=English, 1=Local, 2=Both, 3=Hybrid).",
+    "min": 0,
+    "max": 3
+  },
+  "markdown_number_format": {
+    "default": 0,
+    "is_integer": true,
+    "description": "Initial Markdown number format for saves without Designer Toolkit settings state (0=Auto, 1=English/en-US separators, 2=Local/current-language separators).",
+    "min": 0,
+    "max": 2
+  },
+  "instant_build_mode": {
+    "default": false,
+    "description": "Initial instant build mode for saves without BDT settings state. When enabled, BDT completes construction and deconstruction automatically."
+  },
+  "legacy_belt_configurations": {
+    "default": true,
+    "description": "Initial state for legacy belt configurations (Update 1 style transport construction that allows turning and inclining/declining on the same tile)."
+  },
+  "throughput_overlay_enabled": {
+    "default": false,
+    "description": "Initial throughput overlay visibility state for saves without BDT settings state. When enabled, configured throughput overlays will render in-world."
+  },
+  "throughput_glow_enabled": {
+    "default": false,
+    "description": "Initial throughput glow visibility state for saves without BDT settings state."
+  },
+  "throughput_heatmap_mode": {
+    "default": 2,
+    "is_integer": true,
+    "description": "Initial throughput heatmap mode for saves without BDT settings state (0=None, 1=Relative, 2=Capacity).",
+    "min": 0,
+    "max": 2
+  },
+  "throughput_colorblind_mode": {
+    "default": false,
+    "description": "Initial throughput colorblind-friendly colors mode for saves without BDT settings state."
+  },
+  "throughput_show_as_percent": {
+    "default": false,
+    "description": "Initial throughput show as percent mode for saves without BDT settings state."
+  },
+  "layout_box_mode_enabled": {
+    "default": false,
+    "description": "Initial layout box mode visibility state for saves without BDT settings state. When enabled, building occupancy hitboxes will render in 3D."
+  },
+  "use_recycle_bin": {
+    "default": true,
+    "description": "Initial state for using the blueprint recycle bin. When enabled, deleted or updated blueprints are copied to the recycle bin folder."
+  },
+  "recycle_bin_folder_name": {
+    "default": "Recycle Bin",
+    "description": "Initial folder name for the blueprint recycle bin."
+  },
+  "pollution_overlay_enabled": {
+    "default": false,
+    "description": "Initial pollution overlay visibility state. When enabled, configured pollution overlays will render in-world."
+  },
+  "pollution_glow_enabled": {
+    "default": false,
+    "description": "Initial pollution glow visibility state."
+  },
+  "pollution_days_to_average": {
+    "default": 360,
+    "is_integer": true,
+    "description": "Initial pollution days to average (0-360, 0 disables data collection)."
+  },
+  "pollution_show_air": {
+    "default": true,
+    "description": "Initial state for showing air pollution."
+  },
+  "pollution_show_ground": {
+    "default": true,
+    "description": "Initial state for showing ground and water pollution."
+  },
+  "pollution_show_vehicle": {
+    "default": true,
+    "description": "Initial state for showing vehicle and train pollution."
+  },
+  "pollution_show_ship": {
+    "default": true,
+    "description": "Initial state for showing ship pollution."
+  },
+  "dtkSettingsStateJson": {
+    "default": "{\"schemaVersion\":1}",
+    "description": "Internal per-save Designer Toolkit settings state. Editing may reset saved BDT settings."
+  },
+  "bdtRateLimitsStateJson": {
+    "default": "{\"schemaVersion\":1}",
+    "description": "Internal per-save Designer Toolkit rate limits state. Editing may reset saved BDT rate limits."
+  },
+  "bdtThroughputConfigStateJson": {
+    "default": "{\"schemaVersion\":1}",
+    "description": "Internal per-save Designer Toolkit throughput configurations state. Editing may reset saved BDT throughput configs."
+  }
+}
+
+

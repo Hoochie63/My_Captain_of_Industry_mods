@@ -1,0 +1,100 @@
+v1.1.7 | 2026-07-19
+* Fixed the Bio Processor no longer sending GMO Seeds out to connected belts after the last update. (thanks Denis for the report)
+
+v1.1.6 | 2026-07-15
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* In the vehicle factory, the fuel tab for battery trucks now reads "Battery" instead of the full "18650 Battery (Charged)" item name, matching the other fuel tabs. (thanks Hoochie for the report)
+* The battery-electric Heavy Hauler, Terex, Heavy Tanker and Huge Excavator now show their names and descriptions in your game language instead of English. (thanks VMY for the report)
+* Further tuned GMO and Pesticide — greenhouses now use just 1 every 10 days, and the Bio Processor makes 40% more per batch. (thanks Denis for follow-up)
+
+v1.1.5 | 2026-07-01
+* Added battery-electric Heavy Hauler, The Terex, Heavy Tanker and Huge Excavator that run on charged 18650 cells with zero pollution. (unlocked by Battery Vehicles research)
+* Synthetic diesel and battery trucks now show in their normal vehicle groups in the storage truck filter, instead of separate fuel groups. (thanks Vladovlak for the report)
+* Rebalanced GMO and Pesticide production to be more practical at large population — GMO now makes more per batch on a faster cycle. (thanks Denis for the balance feedback)
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Synthetic and battery Terex got larger fuel tanks, so they run noticeably longer before needing a refuel. (thanks tom89194 for the suggestion)
+* The Shredder can now break Iron, Copper, Aluminum, Gold and Glass back down into their scrap forms for re-smelting. (thanks Elder-Invisions for the suggestion)
+
+v1.1.4 | 2026-06-22
+* Rebalanced Maple Syrup — cheaper to make (less wood, and half the water & sap) and your population eats it ~45% slower. (thanks krzzovec for the balance feedback)
+
+v1.1.3 | 2026-06-13
+* The Lithium Evaporation pond now has its own icon (previously a placeholder).
+* Corrected the Liquifier's description to match its actual recipe — it no longer lists a sulfur byproduct or incorrect inputs. (thanks SilverDad for the report)
+
+v1.1.2 | 2026-06-10
+* New battery production chain — the Battery Plant assembles and charges 18650 lithium cells into clean fuel for battery trucks, unlocked via the new Battery Technology research.
+  IMPORTANT: LITHIUM ONLY EXISTS ON NEW MAPS — YOU MUST START A NEW GAME WITH THE LATEST WORLDGEN++ INSTALLED SO A LITHIUM MINING RIG SPAWNS ON THE WORLD MAP. WITHOUT IT YOU HAVE NO LITHIUM SOURCE FOR BATTERIES.
+* New recipe "Water electrolysis (realistic)" for both Electrolyzer tiers — 1 water splits into 4 hydrogen and 2 oxygen, the chemically correct 2:1 ratio (vanilla gives you more oxygen than hydrogen). Costs a bit more power than the standard recipe. (thanks spiro9 for the suggestion)
+
+v1.1.1 | 2026-06-08
+* Fixed GMO and Pesticide resetting to off state and losing storage after saving and rebooting the game. (thanks Lotos666 for the report)
+* Fixed Maple Syrup not being consumed (no stats, never eaten) in settlements after saving and reloading — existing colonies now correctly recognize it as a food. (thanks Maple Fry and Denis for the report and save)
+* Rebalanced Pesticide Production — now 12 Sulfur + 12 Crude Oil + 12 Chlorine produces 20 Pesticide + 6 Toxic Slurry (more output, better ratio), and greenhouses consume 30% less pesticide. Far fewer Bio Processors needed to supply your greenhouses. (thanks Lotos666 for the balance feedback)
+
+v1.1.0 | 2026-05-31
+* New Lithium Evaporation pond — processes raw lithium and brine into refined lithium, leaving toxic slurry as a byproduct.
+* New food — Canadian Gold (Maple Syrup): tap sap from wood in the Bio Processor, then boil it with water in the Fermentation tank into Maple Syrup — a sweet luxury treat that keeps your population happy.
+* Added missing translations for multiple languages (thanks kukularra for reporting the missing strings).
+* Added more missing translations across all languages.
+* Fixed the Liquifier building name and the Liquified coal product name showing in English for all non-English languages — both now translate correctly. (thanks Ulisse Wolf for the report)
+* Updated Ukrainian translation — huge thanks to SirColibris for the proofreading and corrections.
+* Updated Italian translation — huge thanks to Ulisse Wolf for the corrections.
+* Added a fun Canadian flavor to the English Maple Syrup descriptions — huge thanks to Fry.
+
+v1.0.9 | 2026-05-22
+* Italian translation — fixed missing translations for Synthetic Diesel Generator, Liquid Coal Generator, and Synthetic Diesel Fuel Station descriptions
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.0.8 | 2026-05-22
+* Reworked many recipes — all recipes and generators now use whole numbers, so production rates and building ratios come out clean. Several recipes have also been rebalanced. (thanks cowcannon for the feedback)
+* Liquified Coal can now be used in the Chemical Plant II to synthesize Crude Oil, Diesel or Naphtha — three new recipes that turn coal into liquid fuels. (thanks Ulisse Wolf for the idea)
+* LIQUIFIED COAL RECIPE IS CHANGED — players using the old recipe will need to rework their input/output setups for the building.
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* Updated the mod thumbnail.
+* Fixed research nodes of Trucks/excavator popup running off-screen — icons now wrap to multiple rows. (thanks petter566 for the report)
+
+
+v1.0.7 | 2026-05-15
+* Synthetic Diesel can now be flared. Thanks xcell for the report.
+
+
+v1.0.6 | 2026-05-14
+* Fixed The Terex S (synthetic diesel) missing maintenance — now consumes T2 maintenance.
+* Fixed Heavy Hauler S (synthetic diesel) missing maintenance — now consumes T1 maintenance.
+* Description of all buildings has been updated to explain better what the building does and how to use it.
+
+
+v1.0.5 | 2026-05-13
+* Fixed settings panel showing an error on fresh installs — mod config window now opens correctly.
+* The Terex S synthetic diesel fuel capacity raised from 36 to 40 to match The Terex (diesel) update for for a little buff. Thanks Nick2E and neoss for the report.
+
+v1.0.4 | 2026-05-11
+* The Terex S — wheel diameter reduced to match the diesel and hydrogen variants. Visual fixes (front wheel alignment, ground clipping) live in Gameplay++ v1.1.1+.
+
+v1.0.3 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.2 | 2026-05-08
+* Synthetic Diesel — Chemical Plant II recipe is now faster than Chemical Plant I.
+
+v1.0.1 | 2026-05-06
+* The Terex S — fuel tank capacity increased to match vanilla T3 haul truck since it ran out way to fast.
+
+v1.0.0 | 2026-05-03
+* Synthetic Diesel fuel (65% less pollution, burns faster)
+* Synthetic Diesel refuel station
+* Synthetic Diesel Generator (3.8 MW, 65% less pollution than Diesel Gen II)
+* Synthetic vehicle variants — Truck S, Haul Truck S (dump & tank), Heavy Hauler S, Terex S, Huge Excavator S
+* Synthetic Diesel as ship fuel option
+* Liquefied Coal recipe
+* Liquid Coal Generator (3 MW, higher pollution)
+* Supercharged Biomass recipe (burns longer than regular biomass)
+* Supercharged Biomass building
+* Supercharged Biomass as alt recipe for Fertilizer 1 in Mixer T2
+* Greenhouse GMO button (yield boost with new intake)
+* Greenhouse Pesticide button (speed boost with new intake)
+* Bio Processor building with GMO and Pesticide recipes
+* Liquifier building (convert solids to liquid/gas)

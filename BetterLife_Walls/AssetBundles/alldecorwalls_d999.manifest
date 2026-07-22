@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1438988321
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4e43ce3ba0ba0e889902074d3d09bfaa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db1571c5055d93407c8f9b96229eba91
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 32f6d4e17fb9d7292891e6b12f15a333
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/Base/AllDecorWalls/mat_allDecorWalls.mat
+Dependencies: []

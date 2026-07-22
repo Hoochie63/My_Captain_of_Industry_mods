@@ -1,0 +1,179 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2090484618
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: toolbar_walls_8a66
+      Dependencies: {}
+    Info_1:
+      Name: walls_8648
+      Dependencies: {}
+    Info_2:
+      Name: legacy_corner_b734
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_3:
+      Name: legacy_cross_ea53
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_4:
+      Name: legacy_slope1_f4fe
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_5:
+      Name: legacy_slope2_2abe
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_6:
+      Name: legacy_straight_9a10
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_7:
+      Name: legacy_straight2x_6f88
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_8:
+      Name: legacy_tee_9e7c
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_9:
+      Name: legazy_packed_b9f5
+      Dependencies: {}
+    Info_10:
+      Name: extended_packed_2f0f
+      Dependencies: {}
+    Info_11:
+      Name: legacy_block_ea67
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_12:
+      Name: gate1_81a0
+      Dependencies: {}
+    Info_13:
+      Name: wall_gate1_6d80
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_14:
+      Name: legacy_end_f37f
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_15:
+      Name: extwall_block_d2b4
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_16:
+      Name: extwall_corner_f20b
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_17:
+      Name: extwall_cross_1bc8
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_18:
+      Name: extwall_end_178b
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_19:
+      Name: extwall_slope1_9737
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_20:
+      Name: extwall_slope2_ccda
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_21:
+      Name: extwall_straight_ea47
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_22:
+      Name: extwall_straight2_0c68
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_23:
+      Name: extwall_tee_4501
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_24:
+      Name: guardshack_f8bf
+      Dependencies: {}
+    Info_25:
+      Name: gate11_526d
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_26:
+      Name: gate12_a370
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_27:
+      Name: gate13_a0c6
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_28:
+      Name: gate14_5d0b
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_29:
+      Name: gate15_f791
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_30:
+      Name: gate16_8129
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_31:
+      Name: gate17_d351
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_32:
+      Name: gate18_897c
+      Dependencies:
+        Dependency_0: gate1_81a0
+    Info_33:
+      Name: extwall_block2_cb6d
+      Dependencies:
+        Dependency_0: extended_packed_2f0f
+    Info_34:
+      Name: legacy_block2_6353
+      Dependencies:
+        Dependency_0: legazy_packed_b9f5
+    Info_35:
+      Name: w_pillar_78c4
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_36:
+      Name: w_segment1_aa97
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_37:
+      Name: w_segment2_1619
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_38:
+      Name: mi_pillar_a440
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_39:
+      Name: mi_seg1_cb43
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_40:
+      Name: mi_seg2_1011
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_41:
+      Name: mc_pillar_5841
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_42:
+      Name: mc_seg1_4522
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_43:
+      Name: mc_seg2_bd23
+      Dependencies:
+        Dependency_0: alldecorwalls_d999
+    Info_44:
+      Name: alldecorwalls_d999
+      Dependencies: {}

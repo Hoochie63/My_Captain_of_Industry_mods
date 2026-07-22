@@ -1,0 +1,298 @@
+[
+  [
+    "AFD_ForestryDesignationsTitle",
+    "Forstgebiete"
+  ],
+  [
+    "AFD_ForestryInformationTitle",
+    "Forstinformationen"
+  ],
+  [
+    "AFD_CreateDesignationsBtn",
+    "Gebiete erstellen"
+  ],
+  [
+    "AFD_CreateDesignationsBtnTip",
+    "Scannt den Bereich des Turms und platziert Forstgebiete."
+  ],
+  [
+    "AFD_ClearDesignationsBtnTip",
+    "Entfernt alle Forstgebiete im Bereich dieses Turms."
+  ],
+  [
+    "AFD_RefreshCompositionTip",
+    "Forstübersicht aktualisieren"
+  ],
+  [
+    "AFD_BoolYes",
+    "Ja"
+  ],
+  [
+    "AFD_BoolNo",
+    "NEIN"
+  ],
+  [
+    "AFD_OnlyFertileTilesLabel",
+    "Nur fruchtbare Felder"
+  ],
+  [
+    "AFD_OnlyFertileTilesTip",
+    "Platziert Gebiete nur dort, wo der Boden für Baumpflanzung geeignet ist: fruchtbares Gelände (kein Fels, Sand oder Meer) und nicht durch ein Gebäude oder eine andere Entität blockiert."
+  ],
+  [
+    "AFD_OnlyReachableTilesLabel",
+    "Nur erreichbare Felder"
+  ],
+  [
+    "AFD_OnlyReachableTilesTip",
+    "Überspringt Gebietsfelder, die vom Turmbereich aus nicht über Fahrzeugwege erreichbar sind."
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsLabel",
+    "Geländegebiete vermeiden"
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsTip",
+    "Überspringt Felder, die bereits ein Geländegebiet enthalten, einschließlich Bergbaugebiet, Verkippungsgebiet oder Planierungsgebiet."
+  ],
+  [
+    "AFD_MaxTilesLabel",
+    "Maximale Anzahl von Gebieten"
+  ],
+  [
+    "AFD_MaxTilesTip",
+    "Maximale Anzahl von Gebietsfeldern pro Lauf. 0 = keine Begrenzung (∞)."
+  ],
+  [
+    "AFD_NoForestryTowerSelected",
+    "Kein Forstkontrollturm ausgewählt."
+  ],
+  [
+    "AFD_NoForestryDesignations",
+    "Keine Forstgebiete."
+  ],
+  [
+    "AFD_PressToScanComposition",
+    "↺ drücken, um die Forstübersicht zu scannen."
+  ],
+  [
+    "AFD_KpiTreesLabel",
+    "Bäume"
+  ],
+  [
+    "AFD_KpiMaturityLabel",
+    "Wachstum"
+  ],
+  [
+    "AFD_KpiSustainableYieldLabel",
+    "Nachhaltiger Holzertrag"
+  ],
+  [
+    "AFD_KpiTreesTip",
+    "Live-Zählung der aktuell verwalteten Bäume im Forstgebiet dieses Turms. Die erste Zahl sind Bäume im Moment; die zweite Zahl ist die geschätzte maximale Baumzahl basierend auf aktuell gültigen Pflanzpositionen."
+  ],
+  [
+    "AFD_KpiMaturityTipFmt",
+    "Durchschnittliches Wachstum und aktuelles Alter der verwalteten Bäume. Volles Wachstum ist derzeit <b>{0}</b>, einschließlich Schwierigkeitseinstellungen."
+  ],
+  [
+    "AFD_KpiSustainableYieldTipFmt",
+    "Maximaler langfristiger Holzertrag für diesen Turm pro Spielmonat, unter Berücksichtigung des Gebiets, der Ernteschwelle und der Baumwachstumsgeschwindigkeit gemäß den Schwierigkeitseinstellungen (derzeit <b>{0}</b> durchschnittliches volles Wachstum)."
+  ],
+  [
+    "AFD_GrowthBreakdownHeader",
+    "Wachstumsaufschlüsselung"
+  ],
+  [
+    "AFD_GrowthBreakdownTipFmt",
+    "Wachstumsprofil der verwalteten Bäume. Volles Wachstum hängt von Baumtyp und Schwierigkeit ab; das aktuelle durchschnittliche volle Wachstum ist {0}. Standardkurve für Holzertrag: 40% Alter = 30% Ertrag, 60% = 60%, 80% = 88%, 100% = voll."
+  ],
+  [
+    "AFD_GrowthHeaderTipNoCutFmt",
+    "Verteilung nach Wachstum relativ zum aktuellen Vollwachstumsalter jedes Baums. Ernteoption: kein Fällen. Durchschnittliches volles Wachstum: {0}."
+  ],
+  [
+    "AFD_GrowthHeaderTipWithCutFmt",
+    "Verteilung nach Wachstum relativ zum aktuellen Vollwachstumsalter jedes Baums. Ernteoption: {0} ({1}% eines {2} voll ausgewachsenen Baums)."
+  ],
+  [
+    "AFD_HarvestThresholdTip",
+    "Ernte nach"
+  ],
+  [
+    "AFD_SegmentTipFmt",
+    "<b>{0}</b>\n{1} Bäume ({2:P0} der gepflanzten, {3:P0} der Kapazität)\n{4}"
+  ],
+  [
+    "AFD_SegmentAboveHarvest",
+    "über der Ernteschwelle"
+  ],
+  [
+    "AFD_SegmentBelowHarvest",
+    "unter der Ernteschwelle"
+  ],
+  [
+    "AFD_UnusedCapacityTipFmt",
+    "Ungenutzte Kapazität: {0} Felder ({1:P0} der Kapazität)"
+  ],
+  [
+    "AFD_SegmentInteractionHint",
+    "Darüberfahren, um Bäume in diesem Stadium hervorzuheben.\nKlicken, um sie zur Ernte zu markieren oder die Markierung zu entfernen."
+  ],
+  [
+    "AFD_SettingsModName",
+    "Automatische Forstmarkierungen"
+  ],
+  [
+    "AFD_SettingsTabDefaults",
+    "Standardwerte"
+  ],
+  [
+    "AFD_SettingsTabGameSettings",
+    "Spieleinstellungen"
+  ],
+  [
+    "AFD_SettingsHeadingForestryTowerDefaults",
+    "Forstturm-Standardwerte"
+  ],
+  [
+    "AFD_SettingsHeadingDesignationDefaults",
+    "Markierungs-Standardwerte"
+  ],
+  [
+    "AFD_SettingsHeadingScanPerformance",
+    "Scanleistung"
+  ],
+  [
+    "AFD_SettingsHeadingPanelDefaults",
+    "Panel-Standardwerte"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesLabel",
+    "Felder mit Bäumen vermeiden"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesTip",
+    "Standard: Beim Erstellen von Markierungen Felder überspringen, die bereits einen Baum enthalten."
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyLabel",
+    "Erntereife Bäume markieren"
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyTip",
+    "Standard: Nach dem Erstellen von Markierungen Bäume automatisch zur Ernte markieren, die den Ernteschwellenwert des Turms erfüllen."
+  ],
+  [
+    "AFD_SettingsBatchSizeLabel",
+    "Stapelgröße"
+  ],
+  [
+    "AFD_SettingsBatchSizeTip",
+    "Anzahl der Markierungen pro Frame. Niedriger = reaktionsschneller; höher = schnellere Scans. Begrenzt auf 1-200."
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedLabel",
+    "Forstpanel eingeklappt"
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedTip",
+    "Standard-Einklappzustand des Forstmarkierungs-Panels beim Öffnen eines Turminspektors."
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedLabel",
+    "Infopanel eingeklappt"
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedTip",
+    "Standard-Einklappzustand des Forstinfo-Panels beim Öffnen eines Turminspektors."
+  ],
+  [
+    "AFD_SettingsSaveAsGlobal",
+    "Als Konfig speichern"
+  ],
+  [
+    "AFD_SettingsSaveAsGlobalTooltip",
+    "Speichert diese Einstellungen in AFDsettings.json. Sie werden als Standardwerte für alle neuen Spiele verwendet."
+  ],
+  [
+    "AFD_SettingsSavedToFile",
+    "In AFDsettings.json gespeichert."
+  ],
+  [
+    "AFD_SettingsSaveFailed",
+    "Speichern fehlgeschlagen - Log prüfen"
+  ],
+  [
+    "AFD_SettingsRestoreDefaults",
+    "Standardwerte zurücksetzen"
+  ],
+  [
+    "AFD_SettingsRestoreDefaultsTooltip",
+    "Setzt alle Markierungs- und Panel-Standardwerte auf die eingebauten Werte zurück. (Speichert sie nicht automatisch als Konfig.)"
+  ],
+  [
+    "AFD_SettingsRestoredDefaults",
+    "Standardwerte wiederhergestellt"
+  ],
+  [
+    "AFD_NewlyPlantedTip",
+    "Neu gepflanzt / niedrigstes Wachstum"
+  ],
+  [
+    "AFD_FullyGrownTipFmt",
+    "Voll ausgewachsen / höchstes Wachstum ({0} durchschnittliches volles Wachstum in diesem Turm)."
+  ],
+  [
+    "AFD_BucketFullyMatureFmt",
+    "Voll ausgewachsen ({0}, 100%)"
+  ],
+  [
+    "AFD_BucketNewlyPlantedName",
+    "Neu gepflanzt"
+  ],
+  [
+    "AFD_BucketYoungName",
+    "Jung"
+  ],
+  [
+    "AFD_BucketGrowingName",
+    "Wachsend"
+  ],
+  [
+    "AFD_BucketMaturingName",
+    "Reifend"
+  ],
+  [
+    "AFD_BucketNearlyMatureName",
+    "Fast ausgewachsen"
+  ],
+  [
+    "AFD_BucketRangeFmt",
+    "{0} ({1}–{2}; {3:P0}–{4:P0})"
+  ],
+  [
+    "AFD_OrderConstructionTooltip",
+    "Stellen Sie ein {0} für {2} bei {1} in die Warteschlange"
+  ],
+  [
+    "AFD_PreAssignedTooltipFmt",
+    "Vorab zugewiesen an {0}"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptSingular",
+    "Ein {0} für {2} bei {1} in die Warteschlange stellen?"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptPlural",
+    "{0} {1}s für {3} bei {2} in die Warteschlange stellen?"
+  ],
+  [
+    "AFD_EnqueueConfirmBtnText",
+    "In die Warteschlange stellen"
+  ],
+  [
+    "AFD_ZoomToDepotTooltip",
+    "Auf {0} zoomen"
+  ]
+]

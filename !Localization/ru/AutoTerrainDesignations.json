@@ -1,0 +1,410 @@
+[
+    [
+        "common.level.off",
+        "Выкл."
+    ],
+    [
+        "common.level.low",
+        "Низкое"
+    ],
+    [
+        "common.level.med",
+        "Среднее"
+    ],
+    [
+        "common.level.high",
+        "Высокое"
+    ],
+    [
+        "common.level.max",
+        "Максимальное"
+    ],
+    [
+        "panel.designations.title",
+        "Разметка карьеров"
+    ],
+    [
+        "panel.designations.description",
+        "Создать автоматическую разметку рельефа для этой вышки."
+    ],
+    [
+        "panel.designations.create_button",
+        "Создать разметку"
+    ],
+    [
+        "panel.designations.create_tooltip",
+        "Сканирует и размещает разметку карьеров в области этой вышки."
+    ],
+    [
+        "panel.designations.debris_tooltip",
+        "Пометить весь мусор в области для добычи/удаления. Переопределяет любую разметку лесопосадок."
+    ],
+    [
+        "panel.designations.clear_tooltip",
+        "Удалить всю разметку рельефа в области этой вышки."
+    ],
+    [
+        "panel.designations.ore_filter.auto",
+        "Авто (полезное → мусор → грунт)"
+    ],
+    [
+        "panel.designations.ramp_width.label",
+        "Ширина рампы"
+    ],
+    [
+        "panel.designations.ramp_width.tooltip",
+        "Ширина создаваемых подъездных рамп (0 = отключить рампу)."
+    ],
+    [
+        "panel.designations.max_layers.label",
+        "Макс. слоёв для выемки"
+    ],
+    [
+        "panel.designations.max_layers.tooltip",
+        "Максимальное число слоёв для выемки от поверхности. (∞ = без ограничения.)"
+    ],
+    [
+        "panel.designations.elevation_limit.label",
+        "Предел высоты"
+    ],
+    [
+        "panel.designations.elevation_limit.tooltip",
+        "Максимальная (абсолютная) глубина выемки (-∞ = без ограничения.)"
+    ],
+    [
+        "panel.designations.ore_purity.label",
+        "Качество руды"
+    ],
+    [
+        "panel.designations.ore_purity.tooltip",
+        "Насколько строго сканирование фильтрует качество руды.\n\"Выкл\".: включать все клетки, копать на полную глубину.\n\"Низкое\": исключать очень бедные клетки, обрезать тонкие остатки руды внизу.\n\"Среднее\": умеренное качество — пропускать клетки с большим покрывающим слоем или малым количеством руды.\n\"Высокое\": только богатые клетки с чистым рудным столбом.\n\"Максимальное\": только почти чистая руда — строгая проверка покрытия, глубины и плотности руды."
+    ],
+    [
+        "panel.designations.corridor_clearance.label",
+        "Просвет коридора"
+    ],
+    [
+        "panel.designations.corridor_clearance.tooltip",
+        "Минимальная ширина коридора для соединения рудных областей и обеспечения проходимости.\n0 = отключено (области остаются раздельными, без коридоров и заполнения ям).\n1 = коридоры шириной 1 клетка (малые и средние машины).\n2 = коридоры шириной 2 клетки (мега-машины).\n"
+    ],
+    [
+        "panel.designations.scanning_filter.label",
+        "Фильтр сканирования:"
+    ],
+    [
+        "panel.designations.scanning_filter.tooltip",
+        "Сканировать только конкретный продукт. Нет = сначала полезные продукты, затем мусор, затем грунт."
+    ],
+    [
+        "settings.mod.name",
+        "Автоматическая разметка рельефа"
+    ],
+    [
+        "settings.tab.defaults",
+        "По умолчанию"
+    ],
+    [
+        "settings.tab.game_settings",
+        "Игровые настройки"
+    ],
+    [
+        "settings.tab.ore_quality",
+        "Качество руды"
+    ],
+    [
+        "settings.heading.mining_defaults",
+        "Настройки диспетчерской вышки по умолчанию"
+    ],
+    [
+        "settings.heading.panel_defaults",
+        "Настройки панелей по умолчанию"
+    ],
+    [
+        "settings.heading.designations",
+        "Разметка"
+    ],
+    [
+        "settings.heading.scan_performance",
+        "Производительность сканирования"
+    ],
+    [
+        "settings.heading.keyboard_shortcuts",
+        "Горячие клавиши"
+    ],
+    [
+        "settings.heading.notifications",
+        "Уведомления"
+    ],
+    [
+        "settings.heading.experimental_access",
+        "Экспериментальные подъездные пути"
+    ],
+    [
+        "settings.experimental_access.turning_ramps.label",
+        "Поворотные рампы (экспериментально)"
+    ],
+    [
+        "settings.experimental_access.turning_ramps.tooltip",
+        "Если эта функция включена, ATD может выбирать и размещать экспериментальные подъездные пути к повороту или обратному маршруту V1, используя стандартную разметку плоскостей и уклонов. Требуется, чтобы ширина рампы вышки была установлена на 1. Просвет коридора независим. Более широкие рампы, а также обозначения углов или седловидные разметки не включены."
+    ],
+    [
+        "settings.experimental_access.astar.label",
+        "Использовать поиск A*"
+    ],
+    [
+        "settings.experimental_access.astar.tooltip",
+        "Использовать A* вместо эталонного алгоритма Дейкстры для экспериментальных проверок подъездных путей. Дейкстра — более безопасный базовый уровень проверки."
+    ],
+    [
+        "settings.experimental_access.work_scale.label",
+        "Масштаб рабочего расстояния"
+    ],
+    [
+        "settings.experimental_access.work_scale.tooltip",
+        "Стоимость расстояния в клетках, назначаемая одной единице работ по центру рельефа. Диапазон: 0-100; по умолчанию: 1."
+    ],
+    [
+        "settings.experimental_access.landslide_run.label",
+        "Горизонтальный сход оползня"
+    ],
+    [
+        "settings.experimental_access.landslide_run.tooltip",
+        "Горизонтальное расстояние исключения на один уровень рельефа по вертикали. 1 — уклон 45 градусов; более высокие значения расширяют песочные часы исключения, а более низкие сужают его. Диапазон: 0,05-4; по умолчанию: 1."
+    ],
+    [
+        "settings.max_slope.label",
+        "Макс. уклон"
+    ],
+    [
+        "settings.max_slope.tooltip",
+        "Максимально допустимая разница высот между соседними углами разметки. Диапазон: 1-3."
+    ],
+    [
+        "settings.bottom_flattening.label",
+        "Выравнивание дна"
+    ],
+    [
+        "settings.bottom_flattening.tooltip",
+        "Сила выравнивания дна от 0 до 10. 0 отключает этот проход."
+    ],
+    [
+        "settings.batch_size.label",
+        "Размер пакета"
+    ],
+    [
+        "settings.batch_size.tooltip",
+        "Количество разметок, размещаемых за кадр корутины, пока игра не на паузе. Диапазон: 1-200."
+    ],
+    [
+        "settings.panel_defaults.mining_collapsed.label",
+        "Панель карьеров свёрнута"
+    ],
+    [
+        "settings.panel_defaults.mining_collapsed.tooltip",
+        "Будет ли панель разметки карьеров свёрнута по умолчанию."
+    ],
+    [
+        "settings.panel_defaults.ore_collapsed.label",
+        "Панель руды свёрнута"
+    ],
+    [
+        "settings.panel_defaults.ore_collapsed.tooltip",
+        "Будет ли панель состава руды свёрнута по умолчанию."
+    ],
+    [
+        "settings.panel_defaults.farming_collapsed.label",
+        "Панель подготовки полей свёрнута"
+    ],
+    [
+        "settings.panel_defaults.farming_collapsed.tooltip",
+        "Будет ли панель подготовки полей свёрнута по умолчанию."
+    ],
+    [
+        "settings.notifications.excavator_completion.label",
+        "Уведомления о завершении экскаватора"
+    ],
+    [
+        "settings.notifications.excavator_completion.tooltip",
+        "Показывает ли ATD зелёное уведомление, когда любой автозавод завершает сборку экскаватора."
+    ],
+    [
+        "settings.notifications.ramp_warning.label",
+        "Уведомления о рампах"
+    ],
+    [
+        "settings.notifications.ramp_warning.tooltip",
+        "Показывает ли ATD предупреждения о доступе к рампе на диспетчерских вышках."
+    ],
+    [
+        "settings.ore_quality.min_ore_height.label",
+        "Минимальная высота руды"
+    ],
+    [
+        "settings.ore_quality.min_ore_height.tooltip",
+        "Минимальная толщина руды в клетках рельефа для этого уровня качества."
+    ],
+    [
+        "settings.ore_quality.min_bottom_density.label",
+        "Минимальная плотность дна"
+    ],
+    [
+        "settings.ore_quality.min_bottom_density.tooltip",
+        "Минимальная плотность руды от предыдущего дна руды до этого дна. Ограничена от 0 до 1."
+    ],
+    [
+        "settings.ore_quality.min_ore_purity.label",
+        "Минимальная чистота руды"
+    ],
+    [
+        "settings.ore_quality.min_ore_purity.tooltip",
+        "Минимальное отношение руды к столбцу для этого уровня качества. Ограничено от 0 до 1."
+    ],
+    [
+        "settings.ore_quality.min_component_size.label",
+        "Минимальный размер компонента"
+    ],
+    [
+        "settings.ore_quality.min_component_size.tooltip",
+        "Минимальное количество соединённых клеток разметки, чтобы кластер прошёл фильтр изоляции."
+    ],
+    [
+        "settings.corner_mode.label",
+        "Режим угловых разметок"
+    ],
+    [
+        "settings.corner_mode.tooltip",
+        "Клавиша для входа и переключения режима угловых разметок, когда активен инструмент разметки рельефа."
+    ],
+    [
+        "settings.corner_mode.invalid_tooltip",
+        "Используйте одну клавишу, например K, 1, F1, Пробел или Escape."
+    ],
+    [
+        "settings.status.applied",
+        "Применено"
+    ],
+    [
+        "settings.status.invalid_key",
+        "Недопустимая клавиша"
+    ],
+    [
+        "settings.action.save_as_global",
+        "Сохранить как конфиг"
+    ],
+    [
+        "settings.action.save_as_global.tooltip",
+        "Сохраняет эти настройки в ATDsettings.json. Они будут использоваться как значения по умолчанию для всех новых игр."
+    ],
+    [
+        "settings.action.restore_defaults",
+        "Восстановить значения по умолчанию"
+    ],
+    [
+        "settings.action.restore_defaults.tooltip",
+        "Восстанавливает глобальные значения мода по умолчанию для всех настроек. (Не сохраняет их автоматически как конфиг.)"
+    ],
+    [
+        "settings.status.saved_to_file",
+        "Сохранено в ATDsettings.json."
+    ],
+    [
+        "settings.status.save_failed",
+        "Не удалось сохранить; проверьте журнал."
+    ],
+    [
+        "settings.status.restored_defaults",
+        "Встроенные значения по умолчанию восстановлены в памяти."
+    ],
+    [
+        "panel.ore.title",
+        "Состав руды"
+    ],
+    [
+        "panel.ore.description",
+        "Рудные ресурсы в текущей разметке карьеров этой вышки. (Не учитывает возможные оползни.)"
+    ],
+    [
+        "panel.ore.prompt_scan",
+        "Нажмите ↺, чтобы просканировать состав руды."
+    ],
+    [
+        "panel.ore.scan_tooltip",
+        "Сканировать состав руды"
+    ],
+    [
+        "panel.ore.no_tower",
+        "Вышка не выбрана."
+    ],
+    [
+        "panel.ore.no_minable_designations",
+        "Разметка для добычи не найдена."
+    ],
+    [
+        "panel.ore.priority_selected_tooltip",
+        "Приоритет добычи вышки установлен на {0}. Нажмите, чтобы снять."
+    ],
+    [
+        "panel.ore.priority_set_tooltip",
+        "Установить приоритет добычи вышки на {0}."
+    ],
+    [
+        "panel.farming.title",
+        "Подготовка полей"
+    ],
+    [
+        "panel.farming.description",
+        "Автоматизирует подготовку и финальную засыпку плоских разметок выравнивания, чтобы верхний слой стал плодородным."
+    ],
+    [
+        "panel.farming.automation_toggle.label",
+        "Автоматическая подготовка полей плантаций"
+    ],
+    [
+        "panel.farming.automation_toggle.tooltip",
+        "Подготавливает плоские разметки выравнивания под поля, удаляя неподходящий верхний материал, а затем восстанавливая финальные заказы засыпки."
+    ],
+    [
+        "panel.farming.idle_release_excavators.label",
+        "Авто-освобождение экскаваторов при простое"
+    ],
+    [
+        "panel.farming.idle_release_excavators.tooltip",
+        "Автоматически снимает назначение экскаваторов с этой вышки, когда ни у одной разметки нет ожидающих работ по выемке или когда вышка приостановлена.\nЭкскаваторы отслеживаются и назначаются заново, когда работы по выемке возобновляются."
+    ],
+    [
+        "panel.farming.idle_release_trucks.label",
+        "Авто-освобождение грузовиков при простое"
+    ],
+    [
+        "panel.farming.idle_release_trucks.tooltip",
+        "Автоматически снимает назначение грузовиков с этой вышки, когда ни у одной разметки нет ожидающих работ по выемке или когда вышка приостановлена.\nГрузовики отслеживаются и назначаются заново, когда работы по выемке возобновляются."
+    ],
+    [
+        "toolbox.corner_outer.tooltip",
+        "Угол (внешний): размещать выпуклые угловые рампы."
+    ],
+    [
+        "toolbox.corner_inner.tooltip",
+        "Угол (внутренний): размещать вогнутые угловые рампы."
+    ],
+    [
+        "notification.ramp_access_failed",
+        "[ATD] {entity} не смог начать подъездную рампу"
+    ],
+    [
+        "notification.ramp_access_truncated",
+        "[ATD] {entity} не смог разместить полную подъездную рампу"
+    ],
+    [
+        "notification.ramp_access_not_accessible",
+        "[ATD] {entity} не смог найти путь к рампе"
+    ],
+    [
+        "notification.farming_complete",
+        "[ATD] {entity} завершил подготовку и засыпку под поля плантаций"
+    ],
+    [
+        "notification.excavator_completed",
+        "[ATD] {entity} завершил сборку экскаватора"
+    ]
+]

@@ -1,0 +1,15 @@
+{
+  "id": "UndergroundPipes",
+  "version": "0.9.24",
+  "display_name": "Underground Pipes",
+  "description_short": "Route vanilla pipes below the terrain with earned tier-gated depth, a colour-coded x-ray overlay, rich hover read-outs, and configurable settings.",
+  "description_long": "Lets the game's existing fluid pipes be routed below the terrain and connected back to surface pipes - no new buildings or assets needed. Burial depth is a vanilla-style progression: the basic pipe can go 1 level down, and upgraded pipe tiers (which you unlock through research) earn deeper levels - so deeper routing is earned, not free, and a pipe can never be built below the world floor (sea level). While you dig, the route preview is colour-coded by validity (green = OK, amber = at the depth limit, red = invalid). Buried pipes are shown as a translucent x-ray overlay that stays visible across the whole network, colour-coded by depth (or, optionally, by the product flowing through each pipe), with a toolbar button to show/hide it and the current depth shown at the cursor. Hover read-out: point at any pipe to see, right at the cursor, what is flowing through it (a big product icon), how full it is (a fill bar), whether it is flowing or stuck, and the whole buried run lights up. Configurable via the in-game mod settings: maximum burial depth and the colour-by-product mode. Buried pipes are protected from being deleted together with surface structures, and a separate toolbar button lets you delete them on purpose when you want to.",
+  "authors": "Player",
+  "primary_dlls": ["0Harmony.dll", "UndergroundPipes.dll"],
+  "primary_mod_class_name": "UndergroundPipesMod",
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.6",
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}

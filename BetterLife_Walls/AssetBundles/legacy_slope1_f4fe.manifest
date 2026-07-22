@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 987434560
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e52d7b8b193cda1073d051ceae26021
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5d00655a1f40b4a515e6b6d0fae43e9f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/WallB/legacy_slope1.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Walls_Unity/AssetBundles/legazy_packed_b9f5

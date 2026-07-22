@@ -1,0 +1,24 @@
+V0.6.0 | 2026-07-17
+*根据Denis和NightFury提供的建议
+1,现在用户可以根据自己喜好进行参数自定义,自己决定油料消耗,容量,污染等参数完全可以自定义.
+2,已经解决了氢气飞艇产生污染的问题.
+3,研究后置,现在要大型汽车研发后才会出现飞艇.
+Based on suggestions provided by Denis and NightFury
+Players can now customize parameters to their preference, including fuel consumption, tank capacity, pollution output and other fully adjustable values.
+The pollution generation issue of hydrogen airships has been resolved.
+Tech tree rebalancing: Airship research is now locked behind heavy vehicle development. Airships can only be unlocked after researching large vehicles.
+V0.5.0 | 2026-07-15
+*提高巡航高度,提高装卸速度.
+*修正高度计算逻辑
+*大量针对各种装卸逻辑的补充和修正.
+永久吐槽游戏的寻路系统,太烂了!各种bug头疼
+
+
+v0.2.1 | 2026-07-12
+* 添加了0.2.0缺失的飞艇停靠台预制体文件
+v0.2.0 | 2026-07-12
+* 添加了飞艇停靠台
+
+
+v0.1.0 | 2026-07-12
+* 添加飞艇在车库

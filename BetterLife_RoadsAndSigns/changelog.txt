@@ -1,0 +1,29 @@
+BetterLife Roads and Signs
+==========================
+
+
+	1.0.0 Initial Release
+
+	1.0.1 Added new small straight piece, 1 tile long.
+
+	1.0.2 Hotfix: Vehicles will now use only straight pieces for bonus speed.
+	              Removed unnecessary log info, bumping the log file too much.
+
+	1.0.3 Hotfix: Now vehicles recieve their bonus speed/maintenance bonus.
+
+	1.0.4 Fix: Road Entrance/Exit wasnt working as supposed.
+
+	1.0.5 Skipped, hot fix needed.
+
+	1.0.6 Another fail!! Really sorry for that.
+
+	1.0.7 Added 2nd set of roads with white lines only, renamed toolbar for better understanding.
+	      The signs position and rotation can be changed once placed down.
+
+	1.0.8 A fast one!!!! Added a ramp and a middle piece, just to get over transports.
+
+	1.0.9 Forgot to add the 3 signs with 100, 200, 300m (small distance signs).
+
+	1.1.0 QoL Update, now placing a road  piece will show a preview window of current direction and piece with camera rotation.
+
+	1.1.11 Fix for update 4.2 (0.8.6)

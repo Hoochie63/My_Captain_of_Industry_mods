@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "Podzemní potrubí",
+  "Read-out": "Údaje",
+  "Hover read-out at the cursor": "Údaje u kurzoru",
+  "Source/destination building icons": "Ikony budov zdroje/cíle",
+  "Inspector": "Inspektor",
+  "Source/destination in the pipe panel": "Zdroj/cíl v panelu potrubí",
+  "X-ray overlay": "Rentgenová vrstva",
+  "Colour buried pipes by product": "Obarvit zakopané potrubí podle produktu",
+  "X-ray colour scheme": "Barevné schéma rentgenu",
+  "X-ray brightness": "Jas rentgenu",
+  "Underground pipes: show / hide the x-ray overlay": "Podzemní potrubí: zobrazit/skrýt rentgenovou vrstvu",
+  "Underground pipes: allow deleting buried pipe sections": "Podzemní potrubí: povolit mazání zakopaných úseků",
+  "Underground Pipes: from -> to": "Podzemní potrubí: odkud → kam",
+  "(empty)": "(prázdné)",
+  "tiles": "polí",
+  "in": "vstup",
+  "out": "výstup",
+  "from": "od",
+  "to": "do"
+}

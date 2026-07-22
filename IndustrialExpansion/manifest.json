@@ -1,0 +1,15 @@
+{
+  "id": "IndustrialExpansion",
+  "version": "1.0.5",
+  "authors": ["Luminiel"],
+  "display_name": "Industrial Expansion",
+  "description_short": "Expands the game's logistics and infrastructure with new cargo docks, drydocks, Tier 4 conveyors, additional balancers, and dark concrete tiles, and many more soon",
+  "min_game_version": "0.8.5",
+  "primary_dlls": ["0Harmony.dll", "IndustrialExpansion.dll"],
+  "optional_mod_dependencies": ["ExtraTransports>=0.0.1"],
+  "incompatible_mods" : ["ExtendedCargoShips", "CustomPipes"],
+  "non_locking_dll_load": false,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+  "dependencies": []
+}

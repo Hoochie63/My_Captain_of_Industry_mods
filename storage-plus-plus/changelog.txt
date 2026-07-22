@@ -1,0 +1,72 @@
+v1.1.4 | 2026-07-15
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* Custom Capacity overrides now stay put when you move or upgrade a storage building — before, moving or upgrading a storage quietly reset its capacity back to the default. (thanks SlyPulsar for the report)
+* Storage alert dropdowns (bell icon on any storage building) now also include 5%, 10% and 15% options for Notify if Empty — an early warning when a storage is running low, not just 25% steps. (thanks michael0981 for the suggestion)
+
+v1.1.3 | 2026-07-01
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Storage alert dropdowns (bell icon on any storage building) now include 80% and 90% options for Notify if Empty/Full, not just 25% steps. (thanks michael0981 for the suggestion)
+* The Throughput tab now includes cargo ship modules, grouped in their own section — set their transfer rate like other storages. (thanks SlyPulsar for the suggestion)
+* You can now override Ore Sorting Plant storage capacity (unsorted/sorted) — this pauses Boost++'s capacity boost on it until rested to default on storage++ for ore sorters. (thanks Hoochie for the suggestion)
+
+v1.1.2 | 2026-06-26
+* New per-building "Allow all products" checkbox in each storage's window — lets that storage hold any item of its type (loose, fluid or unit), ignoring the usual restrictions.
+
+v1.1.1 | 2026-06-21
+* Fixed storages sometimes loading the wrong capacity from a different save — a value you set on one save could show up on a building in another save, or a building you never changed could suddenly change (often setting off a low-storage warning). 
+   Capacity and throughput settings are now kept separately per save, so they can no longer leak between saves. (thanks Arbaaz_Mir for the report)
+* All Storage++ settings now save as plain files in the mod's Saved Settings folder — per-save settings go in a folder named after your save, global ones stay in the main folder — so they're easy to find and back up.
+* Cargo ship modules (Unit, Loose and Fluid) can now have their storage capacity changed — set each size from the new Storage Ship tab.
+* The storage window is split into Storage Ground, Storage Trains and Storage Ship tabs, each grouping its storage type, and is now a little wider.
+
+v1.1.0 | 2026-06-18
+* See above for new update.
+
+v1.0.9 | 2026-06-10
+* You can now adjust Thermal Storage capacity — set a single building from its window, or all Thermal Storages at once from the Capacity tab. (thanks Mag for the suggestion)
+* Capacity changes now work on the Warehouse and Warehouse Fluid/Gas from Gameplay++ — both are listed in the Capacity tab, the Custom Capacity override stays visible in their window, and all 4 product slots follow the new capacity.
+  Requires the latest Gameplay++. (thanks (KGB)KingLethal for reminding me to add it)
+* The Custom Capacity override section in the storage window is now collapsed by default to save space — click its header to expand it. (thanks DAMPINGDONUT96 for the great suggestion)
+* Throughput values now apply only when you click Apply All Changes, instead of the moment you click out of the text box — Apply All no longer reports nothing to apply. (thanks Mag for the report)
+* Fixed the Capacity tab reporting 0 buildings updated when you change a storage type you have not built yet — it now confirms the capacity was set. (thanks Mag for the report)
+* Fixed the Set and Reset buttons in the Custom Capacity section showing a dark box behind them — they now render as normal buttons. (thanks Mag for the report)
+* Throughput cap raised from 10,000 to 30,000 per 60s — for very high-volume setups. (thanks Liquid5150 for the report)
+
+v1.0.8 | 2026-06-03
+* Added a pin button to the window — pin it to keep it open (thanks Malibu2 for the suggestion).
+
+v1.0.7 | 2026-05-27
+* THIS VERSION NOW WORKS FOR BOTH STABLE 0.8.4b AND EXPERIMENTAL 0.8.5. No need for 2 versions anymore. =)
+* Added a fallback so the mod now works on both 0.8.5 experimental and 0.8.2 to 0.8.4b stable (previously 0.8.5 only).
+* New "Throughput" tab — set the transfer rate (per 60s) for each storage type and tier, and for train station modules.
+* Renamed the first tab to "Capacity" (was "Storage Editor").
+
+v1.0.6 | 2026-05-23
+* THIS VERSION ONLY WORKS FOR 0.8.5!!!!
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+* Fixed custom storage capacity overrides being lost when updating version of mod (thanks MrTammy for finding and reporting the issue).
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.0.5 | 2026-05-23
+* All latest changes made for 0.8.5 are now supported also for 0.8.2 — 0.8.4b stable.
+
+v1.0.4 | 2026-05-22
+* Train station modules - Now able to change capacity to desired amount.
+* Storage Editor list — vanilla unit, fluid and loose storages are now sorted to the top; other types follow below.
+* Added Italian and Ukrainian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+
+v1.0.3 | 2026-05-18
+* Added Spanish and Portuguese translations. The mod now supports 5 languages in total: English, German, Russian, Spanish and Portuguese.
+* Updated the mod thumbnail.
+* Fixed error for new exp version 0.8.5 THIS VERSION WILL ONLY WORK FOR 0.8.5!!!!!!!!!!!!!!!!
+
+v1.0.1 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.0 | 2026-05-03
+* HUD storage manager button (top-right)
+* Change capacity for all storage buildings at once, split by type (Fluid, Loose, Nuclear, Unit)
+* Per-building custom capacity override
+* Search / filter storage list
+* Apply or reset capacity changes

@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 2160580571
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 093395660e7752a1dcb54e6cb2cacce1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dc2bee55197116c33a9879c527f02618
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d4a452325de8b80c36a87f12b3a81f2c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ModularRamp/Prefabs/Entrance2BakedCollider.prefab
+Dependencies:
+- C:/Userdata/CaptainOfIndustry/Mods/ModularRamp/ModularRampAssets/AssetBundles/materials_23da

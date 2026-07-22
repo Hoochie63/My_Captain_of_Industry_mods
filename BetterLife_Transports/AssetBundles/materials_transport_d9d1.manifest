@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1067237052
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9417967c22436d0964415c2ccd83ca2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db1571c5055d93407c8f9b96229eba91
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3578046e571f37d85e9e77b7aa93db0b
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Materials_Transport/Mix1.mat
+- Assets/BetterLife/Materials_Transport/color2.mat
+- Assets/BetterLife/Materials_Transport/color.mat
+- Assets/BetterLife/Materials_Transport/blackyellow.mat
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Transports_Unity/AssetBundles/textures_f048

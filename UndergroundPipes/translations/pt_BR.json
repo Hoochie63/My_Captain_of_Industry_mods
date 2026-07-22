@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "Tubos subterrâneos",
+  "Read-out": "Leitura",
+  "Hover read-out at the cursor": "Leitura no cursor",
+  "Source/destination building icons": "Ícones de construção de origem/destino",
+  "Inspector": "Inspetor",
+  "Source/destination in the pipe panel": "Origem/destino no painel do tubo",
+  "X-ray overlay": "Sobreposição de raio-X",
+  "Colour buried pipes by product": "Colorir tubos enterrados por produto",
+  "X-ray colour scheme": "Esquema de cores do raio-X",
+  "X-ray brightness": "Brilho do raio-X",
+  "Underground pipes: show / hide the x-ray overlay": "Tubos subterrâneos: mostrar/ocultar a sobreposição de raio-X",
+  "Underground pipes: allow deleting buried pipe sections": "Tubos subterrâneos: permitir excluir trechos enterrados",
+  "Underground Pipes: from -> to": "Tubos subterrâneos: de → para",
+  "(empty)": "(vazio)",
+  "tiles": "blocos",
+  "in": "entrada",
+  "out": "saída",
+  "from": "de",
+  "to": "para"
+}

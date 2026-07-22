@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3720189518
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9b4039c4f8f201c5f1825c6eb55419f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 763b0f0436d83f90358576cb35669bcf
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8976232034a47061d62d68608d8d1380
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Transports/ports/port.prefab
+Dependencies: []

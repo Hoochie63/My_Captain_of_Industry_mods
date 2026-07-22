@@ -1,0 +1,12 @@
+{
+  "id": "BlueprintProductsInfo",
+  "version": "1.0.0",
+  "min_game_version": "0.8.4b",
+  "display_name": "Blueprint Products Info",
+  "description_short": "Shows input and output products for buildings in blueprint details.",
+  "authors": "aneverse",
+  "primary_dlls": [ "0Harmony.dll", "BlueprintProductsInfo.dll" ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}

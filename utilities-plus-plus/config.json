@@ -1,0 +1,5 @@
+{
+    "message": { "default": 0, "is_integer": true, "description": "Utility belt not included. Batman was already using it.", "min": 0, "max": 0 },
+    "placebo": { "default": 0, "is_integer": true, "description": "Robin tried to change this setting. Batman said it does nothing. Robin left it at 0 anyway.", "min": 0, "max": 0 },
+    "surplusBlueprintMode": { "default": 0, "is_integer": true, "description": "Surplus Power blueprint override (0=Default, 1=Force ON, 2=Force OFF). Set in-game via the Utilities++ window or Ctrl+S. Session only - always resets to Default when you load a save or restart the game.", "min": 0, "max": 2 }
+}

@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 4049909690
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0deffe9214e00ba77cb7ebd90cfd99ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 763b0f0436d83f90358576cb35669bcf
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1c5286fc9b37b31203d8d21c2ff75dd6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Transports/PortShapes/Flat/portEnd.prefab
+Dependencies: []

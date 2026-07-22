@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2620797514
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c0527bb2b6949973a31e728ab3d98433
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c107486f465eb00da6233db47a8448e1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/BL_Logo2.png
+Dependencies: []

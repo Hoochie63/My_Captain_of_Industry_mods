@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Przegrzewanie"],
+	["WindPower_T1__desc", "Odblokowuje małą turbinę wiatrową wytwarzającą energię elektryczną zależnie od siły wiatru i wysokości umieszczenia."],
+	["WindPower_T1__name", "Energia wiatrowa"],
+	["WindPower_T2__desc", "Odblokowuje dużą turbinę wiatrową o znacznie większej mocy oraz produkcję paneli kompozytowych potrzebnych do jej budowy."],
+	["WindPower_T2__name", "Energia wiatrowa II"],
+	["WindTurbine_T1__desc", "Podstawowa turbina wiatrowa z ręcznym hamowaniem"],
+	["WindTurbine_T1__name", "Turbina wiatrowa"],
+	["WindTurbine_T2__desc", "Duża turbina wiatrowa z ręcznym hamowaniem"],
+	["WindTurbine_T2__name", "Turbina wiatrowa II"]
+]

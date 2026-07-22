@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1112130814
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2330ff932dd8d4be31579cc714d31b27
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1e3340904515dd78b3797638d6bb61dc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Signs/sign_romboamarillo.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_RoadsAndSigns_Unity/AssetBundles/base_dd43

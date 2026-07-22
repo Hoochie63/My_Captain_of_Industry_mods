@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 326637918
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f1ff2a90d5798f5ef8936116ea598988
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 83a4f80a9849befbea20413566db4b7e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 081cc3f4d4968236795b969cfe675684
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/HeliportComplex/Prefabs/heliport.prefab
+Dependencies: []

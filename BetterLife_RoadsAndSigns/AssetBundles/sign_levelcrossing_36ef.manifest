@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 321315114
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 568ee038250b3e8a2dd6fbba59b50bd1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f6ba3dbcc1018e5ec777ad5ff6425aac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Signs/sign_levelcrossing.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_RoadsAndSigns_Unity/AssetBundles/base_dd43

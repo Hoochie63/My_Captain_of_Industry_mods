@@ -1,0 +1,13 @@
+﻿{
+	"id": "IserikFlowMeter",
+	"version": "0.2.1",
+	"primary_dlls": [ "IserikFlowMeter.dll" ],
+	"non_locking_dll_load": true,
+	"min_game_version": "0.8.4",
+	"max_verified_game_version": "0.8.6a",
+	"display_name": "Throughput Monitor & Flow Meter",
+	"description_short": "Measures exact throughput. Tracks monthly/annual averages, shows history flow trend, handles multiple products, records lifetime totals, and features resettable history",
+	"authors": [ "Iserik" ],
+	"can_add_to_saved_game": true,
+	"can_remove_from_saved_game": false
+}

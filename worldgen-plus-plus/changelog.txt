@@ -1,0 +1,67 @@
+v1.1.1 | 2026-07-18
+* Fixed the WorldGen tab missing from the new game screen on for 0.8.6 so sorry i missed this (thought i fixed it but forgot to fix it xD).
+
+v1.1.0 | 2026-07-17
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+
+v1.0.9 | 2026-06-27
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Stability improvements. No changes to world generation or gameplay.
+
+v1.0.8 | 2026-06-21
+* Fixed pirates not spawning on maps with lots of mines and treasures — every mine and treasure is now properly guarded again. (thanks Mag for the report)
+* Removed the difficulty presets (Greedisgood / Normal / Hard / Please hurt me) — use the Save/Load Profile buttons to keep your own setups instead.
+
+v1.0.7 | 2026-06-08
+* Added a Randomize button to the Mines & Rigs selection — instantly shuffles a random resource type into every mine/rig slot. Thanks to Serjevski for the suggestion.
+
+v1.0.6 | 2026-06-03
+* Fixed the Loot Multiplier slider — it now correctly scales the resources you find when clearing world-map nodes, up or down. Thanks to Syava Sensey for reporting it.
+* Balanced early pirate battle scores so the second ring of enemies is easier to clear.
+* New Resource has been added - Lithium mining rig has been added. (This is for future project and for now the mine can be skipped since no recipe use it)
+* Added more missing translations across all languages.
+
+v1.0.5 | 2026-05-29
+* Hopefully i fixed world generation sometimes missing the tech — Tested a lot and evry run gave everything.
+* Change how world generation now works and adds the extra nodes over vanilla ones and not being skipped. Thanks to General Zod reporting on it.
+* Now all nodes are able to be reached with all ship upgrades.
+* Chicken trade fixed from muliple villages.
+* Slider for villages have been removed for now, since it duplicates and was reason for chicken problem.
+* THIS IS STILL UNDER TESTING AND SOME THINGS WITH SOME SETTINGS MIGHT NOT WORK. IT TAKES A LOT OF TIME TO TEST THESE THINGS, SINCE YOU HAVE TO RUN A 
+  NEW GAME EVERY TIME WITH NEW SETTINGS AND TEST IT FULLY AND EXPLORE WHOLE MAP.
+
+v1.0.4 | 2026-05-23
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.0.3 | 2026-05-22
+* World generation has been completely rebuilt from the ground up. This should fix many of the old generation bugs, but it needs testing — please report any issues or feedback.
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* Updated the mod thumbnail.
+* Removed the Node Connections setting and adjusted the Min/Max range for pirates. This is a deliberate choice to keep the new version as stable as possible — these may change again in the future once the older WorldGen bugs are fixed in this version.
+* Fixed settings panel showing an error on fresh installs — mod config window now opens correctly.
+
+v1.0.2 | 2026-05-08
+* Cargo Ship Wrecks slider now always allows up to 6, regardless of world size settings.
+* Radar 2 and Corn Seeds are now guaranteed to spawn on the map (added safeguards so low pirate counts can't lock them out) this might still
+  fail since so many diffrent settings in worldgen can be made (please let me know if it still fails).
+* All sliders are now always visible — removed the "unlock by adjusting World Size / Max Nodes" since it coused problems when
+  going to low on settings for nodes and worldsize and was just confusing.
+
+v1.0.1 | 2026-05-04
+* Fixed Mines & Rigs slider background being invisible in the settings panel
+
+v1.0.0 | 2026-05-03
+* Fixed entity budget clamping that could crash on very low node counts (Treasure Nodes, Villages, Cargo Ship Wrecks)
+* Toggle custom world generation in the New Game menu
+* Adjustable world size and total location count
+* Node connection density (Few / Normal / Many)
+* Count sliders for mines & rigs, cargo ship wrecks, treasure nodes, villages, pirates
+* Loot multiplier for resource amounts
+* Per-location POI type selection (16 types — Coal, Iron, Copper, Bauxite, Uranium, Oil, Water, Gold, etc.)
+* Difficulty presets — Greedisgood, Normal, Hard, Please Hurt Me
+* Map preview before starting (spoiler-toggleable)
+* Auto-scaled ship fuel range based on world size
+* Save / Load Profiles — 3 named slots to store and recall full setting presets
+* Optional starting Shipyard capacity (requires Cheat++ enabled for the save)

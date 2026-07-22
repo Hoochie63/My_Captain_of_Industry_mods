@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2259770987
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d895a8427221dde4d6e40570007ad756
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 316bbb728feb0b87f171cae9c7c732dd
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/toolbar_small_flat.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/toolbar_small_shaft.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/toolbar_small_loose.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/toolbar_small_molten.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/toolbar_transPillars.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/toolbar_small_pipe.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/transPORT.png
+- Assets/BetterLife/Icons_Transport/Toolbar_TransPortIcons/Toolbar_Signs.png
+Dependencies: []

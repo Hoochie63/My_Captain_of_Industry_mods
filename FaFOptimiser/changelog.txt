@@ -1,0 +1,14 @@
+v0.0.5 | 2026-07-23
+Stable Release
+
+* IMPROVED: Minor solver adjustments to better minimize overproduction.
+* FIX: Resolved an error affecting the solver when processing single-crop requests.
+* NEW: Added localization support for Russian and Traditional Chinese.
+
+v0.0.5 | 2026-07-21
+
+* Minor text and interface picture adjustments.
+
+v0.0.4 | 2026-07-21
+
+* Initial public beta release.

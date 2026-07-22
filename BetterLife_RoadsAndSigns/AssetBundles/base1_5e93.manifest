@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 806067716
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5e858d517fb524669c241ae2cdd0060b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db1571c5055d93407c8f9b96229eba91
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b913de9bc722b02c356499b223101efe
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Roads/Industrial/Base1/set1_material.mat
+Dependencies: []

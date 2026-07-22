@@ -1,0 +1,22 @@
+{
+  "_comment": "Reference file. To add a language: copy this to <code>.json (e.g. ru.json, de.json, zh_Hans.json - the code matches the game's own translation file names) and translate ONLY the text on the right of each colon. Missing keys fall back to English.",
+  "Underground Pipes": "Underground Pipes",
+  "Read-out": "Read-out",
+  "Hover read-out at the cursor": "Hover read-out at the cursor",
+  "Source/destination building icons": "Source/destination building icons",
+  "Inspector": "Inspector",
+  "Source/destination in the pipe panel": "Source/destination in the pipe panel",
+  "X-ray overlay": "X-ray overlay",
+  "Colour buried pipes by product": "Colour buried pipes by product",
+  "X-ray colour scheme": "X-ray colour scheme",
+  "X-ray brightness": "X-ray brightness",
+  "Underground pipes: show / hide the x-ray overlay": "Underground pipes: show / hide the x-ray overlay",
+  "Underground pipes: allow deleting buried pipe sections": "Underground pipes: allow deleting buried pipe sections",
+  "Underground Pipes: from -> to": "Underground Pipes: from -> to",
+  "(empty)": "(empty)",
+  "tiles": "tiles",
+  "in": "in",
+  "out": "out",
+  "from": "from",
+  "to": "to"
+}

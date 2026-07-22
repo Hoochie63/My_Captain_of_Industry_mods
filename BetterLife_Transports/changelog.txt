@@ -1,0 +1,6 @@
+BetterLife - TransPORT
+======================
+
+	-	Initial Release (stable).
+	-	Added RailParts Color for the transport system.
+	-	Fix for update 4.2 (0.8.6)

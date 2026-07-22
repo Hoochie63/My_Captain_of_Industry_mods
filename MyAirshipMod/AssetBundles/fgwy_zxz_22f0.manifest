@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.23f1
+CRC: 2217411798
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e5ea66c30fe985b09a651f147e7a8bca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1da930f7aba98f1ad0fa7c7983241637
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e3e2906092747e93b33d318bff1c9430
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FGWY_FF/FGWY_ZXZ.prefab
+Dependencies: []

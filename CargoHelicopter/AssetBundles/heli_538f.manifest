@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2492560598
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 027b95f78c38a79d833a0d12b3bcd5f5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ebb43beb7945c650dae2fb2117d2f9a6
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7545a8a9605ff75878b807d06b284a82
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CargoHeli/heli.prefab
+Dependencies: []

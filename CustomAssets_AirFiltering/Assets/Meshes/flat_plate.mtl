@@ -1,0 +1,4 @@
+# Written by ObjEditor
+newmtl material1
+Kd 1 1 1
+map_Kd flat_plate_uv.png

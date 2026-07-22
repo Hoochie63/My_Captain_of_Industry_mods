@@ -1,0 +1,7 @@
+{
+    "message": { "default": 0, "is_integer": true, "description": "Nothing to see here. Go build your island, Captain!", "min": 0, "max": 0 },
+    "service_reduction_max_pct": { "default": 30, "is_integer": true, "description": "Max maintenance reduction % the Serviced Garage slider can reach (Truck HQ / Excavator HQ).", "min": 0, "max": 90 },
+    "service_power_per_pct_kw": { "default": 60, "is_integer": true, "description": "Electricity (kW) the garage draws per 1% of service reduction.", "min": 0, "max": 2000 },
+    "service_workers_per_step": { "default": 22, "is_integer": true, "description": "Mechanics shown per 10% of service reduction (informational).", "min": 0, "max": 200 },
+    "parking_recall_idle_seconds": { "default": 20, "is_integer": true, "description": "Seconds a truck must stay continuously idle before Truck HQ recalls it (prevents recalling trucks during the brief idle between vanilla haul/dump cycles).", "min": 0, "max": 120 }
+}

@@ -1,0 +1,141 @@
+v1.2.0 | 2026-07-15
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* New HUD tab option "Show HUD on world map, research & space" — Tweaks++ hides the HUD on those three screens by default to keep them clean; turn it on to keep the full HUD visible there like the base game. (thanks Vladovlak for the suggestion)
+
+v1.1.9 | 2026-07-01
+* All keybinds can now be viewed and rebound from the Modded Keybinds tab in Settings — install the Keybind Framework mod to use it.
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Fixed the pinned products panel extending off screen when dragged near an edge and then growing a new row or column. (thanks Vladovlak for the report)
+
+v1.1.8 | 2026-06-22
+* New "Pinned Products 20 Per Column" toggle — 20 products per column, up to 4 columns. (thanks Nikdo_CZ for the suggestion)
+* New "Planning" color picker — recolor planned buildings (placed in Planning mode) so they are more easy to see when building is small, blocked by designations or sitting on rock; 8 colors. Already-placed ones update after a save reload. (Thanks Mag for brining up this problem some face with vanilla planning color)
+* New Mine Tower boundary-line color picker (next to the pause button) — color each tower's area outline to tell mining/dumping/leveling towers apart. (thanks petter566 for the suggestion)
+* Renamed the "Overlays" settings tab to "Modifications 2".
+* Reworked "Auto-recover Stuck Vehicles" — now only recalls trucks and excavators that are truly sealed off with no path to any depot, instead of looping forever or missing genuinely stuck ones.
+
+v1.1.7 | 2026-06-13
+* Fixed Vehicle Sound Range wrongly extending generator sound — generator sounds now follow Machine Sound Range as intended
+* New "Pinned products bar colors" toggle — colors each pinned product's storage bar by how full global storage is: red, orange, yellow, green (thanks Accobys for the suggestion)
+* Pinned products sort moved to a dropdown and added "global storage" options — sort by how full storage is, high/low or low/high, on top of the existing amount sorting
+* New "Compacted Pinned Products" toggle — makes the pinned products panel narrower and hides the small trend graphs to take up less screen space
+* New "Show only low-storage products" toggle — hides products whose storage is full and shows only the ones running low (up to 10, or 20 when more than 10 are low)
+* New "Allow Exhaust" option in the Fluids section — store exhaust gas in fluid tanks and carry it with fluid trucks, like Allow Steam. (thanks warrenc for the suggestion)
+* New Audio sliders for trains: "Train Sound Volume" (Off to full) to mute or quiet trains, and "Train Sound Range" for how far they carry. (thanks Mag and Rixx121 for the idea)
+* New "Designations Visual on/off" toggle. Shift+Ctrl+D hotkey — hide or show the colored designation tiles in the world to clear clutter (thanks Mag for bringing this up)
+* New "Designations on/off" checkbox in the Stacker Tower window — shows the designations you've placed around that stacker (thanks Mag for bringing this up)
+* Fixed pinned products trend graphs always showing grey — they now turn green when stock is rising and red when falling (huge thanks to tatertotme for the report)
+* New "Disable Rain" toggle in the Weather section — turns off rainfall for a clearer view. (thanks Mag for the idea)
+
+v1.1.6 | 2026-06-10
+* New Vehicles-tab toggle "Dump to Shipyard" — when you don't use a Truck HQ, trucks that get stuck holding cargo with nowhere to offload now drive to the Shipyard,
+   dump their load there, and free themselves for new jobs instead of sitting idle. Automatically greyed out while a Truck HQ is built, since the Truck HQ already does this.
+   (thanks Kayser for the great suggestion)
+* New toggles "Pinned products sorted high/low" and "low/high" (Modifications → General) — automatically keeps the pinned products list sorted by stored amount in whichever direction you pick. (thanks Accobys for the great idea)
+
+v1.1.5 | 2026-06-08
+* SirColibris wanted to fire the Aggressive Salesman, so a new "Fire Aggressive Salesman" checkmark has been added in Mining Tower Labels so you all can fire him too. Removes the custom label image back to vanilla, while size, zoom, line and color settings can still be made.
+* Fixed so the Networks HUD from the Programmable Networks mod can be moved alone and not get linked to the Ships HUD. (thanks Hashishish for the report)
+
+v1.1.4 | 2026-06-06
+* Resource Depth Labels — major performance rework: opens instantly with no more lag or freezing on large maps, stays accurate, and updates live as you mine.
+* New Vehicles-tab toggle "Offload cargo to Shipyard at Truck HQ" — turn it off if you don't want trucks dumping leftover cargo to the Shipyard when they park in a Truck HQ. On by default; requires Gameplay++.
+* Brought back the background plate behind the alert/notification HUD — it now moves and scales together with Alert/notifications HUD. Thanks to Hashishish for the reminder to add it back.
+* Added a pin button to the windows — pin them to keep them open (thanks Malibu2 for the suggestion).
+* Added missing translations for multiple languages (thanks kukularra for reporting the missing strings).
+* Added more missing translations across all languages.
+* Updated Ukrainian translation — huge thanks to SirColibris for the proofreading and corrections.
+
+v1.1.3 | 2026-05-31
+* Fixed mining tower salseman being less agressive to get mining tower sold xD. fixes on top of the pause and settings menus on 0.8.4. Thanks to НочнаяФурия makeing me see the problem!
+
+v1.1.2 | 2026-05-25
+* Mining Tower Labels — now integrates with the new vanilla 0.8.5 tower label. 5 sliders for size, height, connector width, and zoom shrink / zoom height when zoomed out. 
+  On 0.8.4 it falls back to the old standalone label style.
+* Fixed Unlimited Tower Area not working on experimental — corner and side dragging beyond the normal limit works again.
+* Fixed Allow Steam toggle — steam products now appear again in fluid storage on 0.8.5.
+* New "Mining Connector Line Color" dropdown — pick the dashed line color from 7 diffrent colors. 0.8.5 only; greyed out on 0.8.4.
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+* New "Storage KE/KF Labels" section in Overlays with a "KE/KF Icon Size" slider. For the floating Keep Full / Keep Empty icons (requires Cheat++).
+
+v1.1.1 | 2026-05-23
+* Unlimited Tower Area — now works on both older game versions and 0.8.5, supporting both corner dragging and side-midpoint dragging, for forestry AND mining towers.
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+
+v1.1.0 | 2026-05-22
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* Updated the mod thumbnail.
+* Fixed translation errors.
+* Added missing translations and corrected Russian/German text so the UI reads correctly.
+* Fixed F11 photo mode now it hides all HUD elements. Thanks to PrimeDew for the report.
+
+v1.0.9 | 2026-05-15
+* Fixed the show/hide toggle for Parking HQ overlay (thanks tsdfab for the report)
+
+
+v1.0.8 | 2026-05-15
+* Huge UI redesign for much better navigation across all settings and tabs.
+
+
+v1.0.7 | 2026-05-13
+* Removed the old auto belt/pipe placement system, replaced by the new Bridge
+  Port Host in Gameplay++.
+
+v1.0.6 | 2026-05-11
+* New "Farm Alerts" section in Gameplay tab — three toggles to (1) show the
+  per-farm 'inventory full' bell even when the farm is empty, (2) globally
+  silence farm 'inventory full' alerts, and (3) globally silence farm
+  'drying out' & 'crops lost' alerts. Thanks to ComplexUnit for the great suggestion.
+
+v1.0.5 | 2026-05-10
+* Fixed Parking HQ HUD, missing from the Tweaks HUD menu, so you can now toggle and move them again.
+* Fixed pinned products undercounting food stored in Markets — totals now show all storage again. (thanks QualquerCoisa for the report)
+
+v1.0.4 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.3 | 2026-05-08
+* HUD — HUD elements no longer draw on top on research screen or worldmap.
+
+v1.0.2 | 2026-05-06
+* HUD positions — improved load reliability: positions now apply after the game has fully settled, fixing occasional misplacement on save load. Added a second scan pass at 8 seconds for slow-loading saves. Fixed a locale bug where positions could fail to load on non-English systems.
+
+v1.0.1 | 2026-05-04
+* HUD visibility — Calendar 1 is no longer hideable (hiding it could block opening mod settings buttons)
+* Mine trucks wait at ore sorter — optional Skip pure loads: only mixed multi-product loads are sent to the sorter; single-product loads stay at the tower
+* Resource Depth Labels — fixed max height and min depth values (now uses correct per-layer terrain data)
+* Resource Depth Labels — labels now appear above high res bars from vanilla that would block the label.
+* Resource Depth Labels — secondary ore bars no longer show false materials from nearby unrelated deposits
+* Resource Depth Labels — each bar now displays its own depth instead of sharing the primary ore's depth
+* Resource Depth Labels — updated default values: size 3.8×, height 0, background 62%
+* Underground Belt/Pipe — renamed toggle from "Underground Belt" to reflect pipe auto-spawn addition (requires Gameplay++ v1.0.2+)
+
+v1.0.0 | 2026-05-03
+* Auto Quick Remove on Demolish — auto-recover stored products when demolishing a storage
+* Underground Belt auto-spawn on cable-stayed bridges (togglable)
+* Auto-recover Stuck Vehicles
+* Bridge Scaling for large vehicles (Truss 2-lane, Cable 4-lane)
+* Vehicle Scaling modes — Instant Scale and Gradual Scale
+* Center Driving for big vehicles (fixes bridge/cable clipping)
+* Allow Steam in fluid tanks and trucks
+* Auto Ship Delivery — automated world map repair/upgrade orders
+* Upgrade Manager window — repair mines/rigs and upgrade settlements from one place
+* Free Camera (no collision) and Ground Clipping (camera under terrain)
+* Truly Unlimited Zoom
+* Unlimited Designations — dig, dump, forestry, demolish drag, upgrade drag
+* Classic Recipe Display — show real quantities and 60s rates in recipe windows
+* Pinned Products 1 Column Only
+* Vehicle & Machine sound range extension at low zoom
+* Resource Depth Labels — max height (green) and max depth (red) arrows with size/position/transparency controls
+* Mining Tower Labels — pin labels above the selected mining tower and its designation area with size/height sliders
+* Battle Score on World Map — shows fleet Battle Score live in the ship panel on the world map
+* Fog toggles — Disable Fog or 50% Less Fog
+* Disable Clouds
+* Disable Shadows + shadow quality options (Medium/High) + custom distance
+* Disable Building Smoke / steam / fire particles
+* Disable Vehicle Dust particles
+* Draggable HUD and scaling — Ctrl+click to move HUD, lock layouts, reset; per-piece % sliders; mod HUD that hooks in can share the same saved placement and scale
+* HUD visibility — toggles for Calendar, Stats, Electricity, Unity/Pop, Computing, Ships, Pinned Products, Shortcuts, Notifications, Research, Alerts, Goals, Messages
+* Mass Vehicle Actions — Scrap, Replace, Order New across all depots from one tab
+* Double Storage & Transport Throughput — 2x storage, 4x sorters, 45% for lifts/balancers/connectors

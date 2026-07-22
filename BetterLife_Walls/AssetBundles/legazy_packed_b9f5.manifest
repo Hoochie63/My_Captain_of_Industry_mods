@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 906639133
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1328be7b2ec49e0c182cb3af36ef273e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db1571c5055d93407c8f9b96229eba91
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c8b141c48fa2bcd5976ae1d7aaa0b456
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/Base/Legazy_packed/packed.mat
+Dependencies: []

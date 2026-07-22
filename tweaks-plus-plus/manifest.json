@@ -1,0 +1,16 @@
+{
+    "id": "tweaks-plus-plus",
+    "version": "1.2.0",
+    "display_name": "Tweaks++",
+    "description": "Tweaks++ covers the little things that make a big difference. Drag and scale your HUD elements, enable free camera and unlimited zoom, remove designation limits, scale bridges for large vehicles, display resource depth and mining tower labels, toggle fog, clouds, shadows and particle effects, mass-scrap or replace vehicles, double storage throughput, and more.",
+    "description_short": "Dozens of quality-of-life options — draggable HUD, free camera, unlimited zoom, resource labels, vehicle scaling, mass vehicle actions, and more",
+    "authors": ["Mori"],
+    "min_game_version": "0.8.2",
+    "max_verified_game_version": "0.8.6",
+    "primary_dlls": ["0Harmony.dll", "Tweaks++.dll"],
+    "optional_mod_dependencies": ["keybind-framework"],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "TweaksPPMod"
+}

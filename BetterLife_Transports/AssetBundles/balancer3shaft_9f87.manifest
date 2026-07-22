@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2396467881
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4387e67e647fd28320902d989839dc5a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 60491b9e235cde5a35ade16ca3915df6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Transports/balancer3/balancer3shaft.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Transports_Unity/AssetBundles/materials_transport_d9d1

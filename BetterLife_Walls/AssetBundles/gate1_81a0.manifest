@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 684330910
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9acf15389f7040415946f119f3b4c5aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: db1571c5055d93407c8f9b96229eba91
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 46d36701028dc76c7df200e1e6991dad
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/Base/Gate1/gates1.mat
+Dependencies: []

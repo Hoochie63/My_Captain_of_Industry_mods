@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2634188447
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a135b984984e33bb99311f5bcd70656b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9bcc3f978e4d59073bd082fda8fe6098
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Materials_Transport/Textures/Mix1.png
+- Assets/BetterLife/Materials_Transport/Textures/metal_plate_02_diff_4k 1.jpg
+- Assets/BetterLife/Materials_Transport/Textures/rusty_metal_04_nor_gl_4k.exr
+- Assets/BetterLife/Materials_Transport/Textures/worn_shutter_diff_4k.jpg
+- Assets/BetterLife/Materials_Transport/Textures/PanelMetal_Normal.png
+- Assets/BetterLife/Materials_Transport/Textures/worn_shutter_nor_gl_4k.png
+- Assets/BetterLife/Materials_Transport/Textures/rusty_metal_04_disp_4k.png
+- Assets/BetterLife/Materials_Transport/Textures/rusty_metal_04_diff_4k.jpg
+- Assets/BetterLife/Materials_Transport/Textures/blackyellow.png
+- Assets/BetterLife/Materials_Transport/Textures/PanelMetal.png
+- Assets/BetterLife/Materials_Transport/Textures/PanelMetal_Transparency.png
+- Assets/BetterLife/Materials_Transport/Textures/blackyellow_albedo.jpg
+- Assets/BetterLife/Materials_Transport/Textures/SignsTex.png
+- Assets/BetterLife/Materials_Transport/Textures/metal_plate_02_diff_4k.jpg
+- Assets/BetterLife/Materials_Transport/Textures/blackyellow_normal.jpg
+- Assets/BetterLife/Materials_Transport/Textures/rusty_metal_04_metal_4k.exr
+Dependencies: []

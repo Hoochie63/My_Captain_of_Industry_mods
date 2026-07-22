@@ -1,0 +1,298 @@
+[
+  [
+    "AFD_ForestryDesignationsTitle",
+    "Skogsbruksanvisningar"
+  ],
+  [
+    "AFD_ForestryInformationTitle",
+    "Skogsbruksinformation"
+  ],
+  [
+    "AFD_CreateDesignationsBtn",
+    "Skapa anvisningar"
+  ],
+  [
+    "AFD_CreateDesignationsBtnTip",
+    "Skanna tornets område och placera skogsbruksanvisningar."
+  ],
+  [
+    "AFD_ClearDesignationsBtnTip",
+    "Rensa alla skogsbruksanvisningar i det här tornets område."
+  ],
+  [
+    "AFD_RefreshCompositionTip",
+    "Uppdatera skogsbruksöversikt"
+  ],
+  [
+    "AFD_BoolYes",
+    "Ja"
+  ],
+  [
+    "AFD_BoolNo",
+    "Inga"
+  ],
+  [
+    "AFD_OnlyFertileTilesLabel",
+    "Endast bördiga rutor"
+  ],
+  [
+    "AFD_OnlyFertileTilesTip",
+    "Placera anvisningar endast där marken lämpar sig för trädplantering: bördig mark (inte sten, sand eller hav) och ingen byggnad eller annan enhet blockerar platsen."
+  ],
+  [
+    "AFD_OnlyReachableTilesLabel",
+    "Endast nåbara rutor"
+  ],
+  [
+    "AFD_OnlyReachableTilesTip",
+    "Hoppa över anvisningsrutor som inte kan nås via fordonsvägar från tornets område."
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsLabel",
+    "Undvik terränganvisningar"
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsTip",
+    "Hoppa över rutor som redan har en terränganvisning, inklusive grävning, tippning eller utjämning."
+  ],
+  [
+    "AFD_MaxTilesLabel",
+    "Maximalt antal anvisningar"
+  ],
+  [
+    "AFD_MaxTilesTip",
+    "Maximalt antal anvisningsrutor att placera per körning. 0 = ingen gräns (∞)."
+  ],
+  [
+    "AFD_NoForestryTowerSelected",
+    "Inget skogsbrukstorn valt."
+  ],
+  [
+    "AFD_NoForestryDesignations",
+    "Inga skogsbruksanvisningar."
+  ],
+  [
+    "AFD_PressToScanComposition",
+    "Tryck på ↺ för att skanna skogsbruksöversikten."
+  ],
+  [
+    "AFD_KpiTreesLabel",
+    "Träd"
+  ],
+  [
+    "AFD_KpiMaturityLabel",
+    "Tillväxt"
+  ],
+  [
+    "AFD_KpiSustainableYieldLabel",
+    "Hållbart virkesutbyte"
+  ],
+  [
+    "AFD_KpiTreesTip",
+    "Liveantal för träd som hanteras inom det här tornets skogsbruksområde. Första siffran är träd just nu; andra siffran är uppskattad maxkapacitet baserat på aktuella giltiga planteringspositioner."
+  ],
+  [
+    "AFD_KpiMaturityTipFmt",
+    "Genomsnittlig tillväxt och nuvarande ålder för hanterade träd. Full tillväxt är för närvarande <b>{0}</b>, inklusive svårighetsinställningar."
+  ],
+  [
+    "AFD_KpiSustainableYieldTipFmt",
+    "Maximalt långsiktigt virkesutbyte för det här tornet per spelmånad, med hänsyn till anvisat område, avverkningströskeln och trädens tillväxthastighet enligt svårighetsinställningarna (för närvarande <b>{0}</b> genomsnittlig full tillväxt)."
+  ],
+  [
+    "AFD_GrowthBreakdownHeader",
+    "Tillväxtfördelning"
+  ],
+  [
+    "AFD_GrowthBreakdownTipFmt",
+    "Tillväxtprofil för hanterade träd. Full tillväxt beror på trädtyp och svårighet; nuvarande genomsnittlig full tillväxt är {0}. Kurva för virkesutbyte: 40% ålder = 30% utbyte, 60% = 60%, 80% = 88%, 100% = fullt."
+  ],
+  [
+    "AFD_GrowthHeaderTipNoCutFmt",
+    "Fördelning efter tillväxt relativt varje träds nuvarande fulla tillväxtålder. Avverkningsalternativ: ingen avverkning. Genomsnittlig full tillväxt: {0}."
+  ],
+  [
+    "AFD_GrowthHeaderTipWithCutFmt",
+    "Fördelning efter tillväxt relativt varje träds nuvarande fulla tillväxtålder. Avverkningsalternativ: {0} ({1}% av ett {2} fullvuxet träd)."
+  ],
+  [
+    "AFD_HarvestThresholdTip",
+    "Avverka efter"
+  ],
+  [
+    "AFD_SegmentTipFmt",
+    "<b>{0}</b>\n{1} träd ({2:P0} av planterade, {3:P0} av kapacitet)\n{4}"
+  ],
+  [
+    "AFD_SegmentAboveHarvest",
+    "över avverkningströskeln"
+  ],
+  [
+    "AFD_SegmentBelowHarvest",
+    "under avverkningströskeln"
+  ],
+  [
+    "AFD_UnusedCapacityTipFmt",
+    "Outnyttjad kapacitet: {0} rutor ({1:P0} av kapacitet)"
+  ],
+  [
+    "AFD_SegmentInteractionHint",
+    "Hovra för att markera träd i det här stadiet.\nKlicka för att markera eller avmarkera dem för avverkning."
+  ],
+  [
+    "AFD_SettingsModName",
+    "Automatiska skogsbruksmarkeringar"
+  ],
+  [
+    "AFD_SettingsTabDefaults",
+    "Standardvärden"
+  ],
+  [
+    "AFD_SettingsTabGameSettings",
+    "Spelinställningar"
+  ],
+  [
+    "AFD_SettingsHeadingForestryTowerDefaults",
+    "Standard för skogstorn"
+  ],
+  [
+    "AFD_SettingsHeadingDesignationDefaults",
+    "Standard för markeringar"
+  ],
+  [
+    "AFD_SettingsHeadingScanPerformance",
+    "Skanningsprestanda"
+  ],
+  [
+    "AFD_SettingsHeadingPanelDefaults",
+    "Panelstandard"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesLabel",
+    "Undvik rutor med träd"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesTip",
+    "Standard: hoppa över rutor som redan innehåller träd när markeringar skapas."
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyLabel",
+    "Markera avverkningsklara träd"
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyTip",
+    "Standard: markera automatiskt träd som uppfyller tornets avverkningströskel efter att markeringar skapats."
+  ],
+  [
+    "AFD_SettingsBatchSizeLabel",
+    "Satsstorlek"
+  ],
+  [
+    "AFD_SettingsBatchSizeTip",
+    "Antal markeringar som placeras per bildruta. Lägre = bättre respons; högre = snabbare skanning. Begränsat till 1-200."
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedLabel",
+    "Skogsbrukspanel infälld"
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedTip",
+    "Standardläge för skogsbruksmarkeringspanelen när ett tornfönster öppnas."
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedLabel",
+    "Informationspanel infälld"
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedTip",
+    "Standardläge för skogsbruksinformationspanelen när ett tornfönster öppnas."
+  ],
+  [
+    "AFD_SettingsSaveAsGlobal",
+    "Spara som konfig"
+  ],
+  [
+    "AFD_SettingsSaveAsGlobalTooltip",
+    "Spara dessa inställningar till AFDsettings.json. De används som standardvärden för alla nya spel."
+  ],
+  [
+    "AFD_SettingsSavedToFile",
+    "Sparat till AFDsettings.json."
+  ],
+  [
+    "AFD_SettingsSaveFailed",
+    "Sparning misslyckades - kontrollera loggen"
+  ],
+  [
+    "AFD_SettingsRestoreDefaults",
+    "Återställ standardvärden"
+  ],
+  [
+    "AFD_SettingsRestoreDefaultsTooltip",
+    "Återställ alla markerings- och panelstandarder till sina inbyggda värden. (Sparar dem inte automatiskt som konfig.)"
+  ],
+  [
+    "AFD_SettingsRestoredDefaults",
+    "Standardvärden återställda"
+  ],
+  [
+    "AFD_NewlyPlantedTip",
+    "Nyplanterade / lägsta tillväxt"
+  ],
+  [
+    "AFD_FullyGrownTipFmt",
+    "Fullvuxna / högsta tillväxt ({0} genomsnittlig full tillväxt i det här tornet)."
+  ],
+  [
+    "AFD_BucketFullyMatureFmt",
+    "Fullvuxet ({0}, 100%)"
+  ],
+  [
+    "AFD_BucketNewlyPlantedName",
+    "Nyplanterade"
+  ],
+  [
+    "AFD_BucketYoungName",
+    "Unga"
+  ],
+  [
+    "AFD_BucketGrowingName",
+    "Växande"
+  ],
+  [
+    "AFD_BucketMaturingName",
+    "Mognande"
+  ],
+  [
+    "AFD_BucketNearlyMatureName",
+    "Nästan fullvuxna"
+  ],
+  [
+    "AFD_BucketRangeFmt",
+    "{0} ({1}–{2}; {3:P0}–{4:P0})"
+  ],
+  [
+    "AFD_OrderConstructionTooltip",
+    "Ställ en {0} i kö för {2} vid {1}"
+  ],
+  [
+    "AFD_PreAssignedTooltipFmt",
+    "Förtilldelad till {0}"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptSingular",
+    "Ställ en {0} i kö för {2} vid {1}?"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptPlural",
+    "Ställ {0} {1} i kö för {3} vid {2}?"
+  ],
+  [
+    "AFD_EnqueueConfirmBtnText",
+    "Köa"
+  ],
+  [
+    "AFD_ZoomToDepotTooltip",
+    "Zooma till {0}"
+  ]
+]

@@ -1,0 +1,124 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 2481870577
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: materials_23da
+      Dependencies: {}
+    Info_1:
+      Name: centerbakedcollider_f86c
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_2:
+      Name: entrance3bakedcollider_fa24
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_3:
+      Name: entrancebakedcollider_f0c6
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_4:
+      Name: extension1bakedcollider_fa6e
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_5:
+      Name: extension2bakedcollider_6421
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_6:
+      Name: extension3bakedcollider_3b95
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_7:
+      Name: entrance_9181
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_8:
+      Name: prefabs_dcba
+      Dependencies: {}
+    Info_9:
+      Name: entrance4bakedcollider_739f
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_10:
+      Name: extension2bakedcolliderwrong_2ccd
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_11:
+      Name: entrance1bakedcollider_e9f5
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_12:
+      Name: centerbakedcolliderold_6cdc
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_13:
+      Name: centerbakedcolliderold2_8161
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_14:
+      Name: centersinglebakedcollider_1ff0
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_15:
+      Name: entrance2bakedcollider_17f9
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_16:
+      Name: centersinglenotbaked_7bb4
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_17:
+      Name: entrance6bakedcollider_214f
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_18:
+      Name: newcenter4dark_6021
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_19:
+      Name: center1rampsides_73ef
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_20:
+      Name: entrance3sides_f517
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_21:
+      Name: newcentersides2_0261
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_22:
+      Name: center1sidessame_1df1
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_23:
+      Name: center1mirror_d315
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_24:
+      Name: center1_180_9078
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_25:
+      Name: center2_180_55f5
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_26:
+      Name: center3_180_cd9b
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_27:
+      Name: mattest_c64a
+      Dependencies: {}
+    Info_28:
+      Name: center1_180 1_3168
+      Dependencies:
+        Dependency_0: materials_23da
+    Info_29:
+      Name: center180_rb_df00
+      Dependencies:
+        Dependency_0: materials_23da
+        Dependency_1: mattest_c64a

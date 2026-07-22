@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 3992414857
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 778e62938b296072d4106c3aee21583e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8ed81b296f435bff7379a355cd1d66d9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 26b75cfd070c112758e3e45cf5b4cd46
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ModularRamp/Materials/VehicleRamp-256-metalSmooth.png
+- Assets/ModularRamp/Materials/Road2.mat
+- Assets/ModularRamp/Materials/RoadSide.mat
+- Assets/ModularRamp/Materials/Material 5.mat
+- Assets/ModularRamp/Materials/VehcleRamp.mat
+- Assets/ModularRamp/Materials/ConcreteDark 1.mat
+- Assets/ModularRamp/Materials/RoadSide.png
+- Assets/ModularRamp/Materials/ConcreteDark.mat
+- Assets/ModularRamp/Materials/road.png
+- Assets/ModularRamp/Materials/ConcreteAILighter.png
+- Assets/ModularRamp/Materials/ConcreteLight.mat
+- Assets/ModularRamp/Materials/COIVRamp.mat
+- Assets/ModularRamp/Materials/road2.png
+- Assets/ModularRamp/Materials/VehicleRamp-256-normals.png
+- Assets/ModularRamp/Materials/Material.mat
+- Assets/ModularRamp/Materials/ConcreteAIDark.png
+- Assets/ModularRamp/Materials/Material.002.mat
+Dependencies: []

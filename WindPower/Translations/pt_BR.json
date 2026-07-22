@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Superaquecimento"],
+	["WindPower_T1__desc", "Desbloqueia uma turbina eólica pequena que gera eletricidade conforme a força do vento e a altitude do local."],
+	["WindPower_T1__name", "Energia eólica"],
+	["WindPower_T2__desc", "Desbloqueia uma turbina eólica grande com potência muito maior e a produção de painéis compostos necessários para construí-la."],
+	["WindPower_T2__name", "Energia eólica II"],
+	["WindTurbine_T1__desc", "Turbina eólica básica com frenagem manual"],
+	["WindTurbine_T1__name", "Turbina eólica"],
+	["WindTurbine_T2__desc", "Turbina eólica grande com frenagem manual"],
+	["WindTurbine_T2__name", "Turbina eólica II"]
+]

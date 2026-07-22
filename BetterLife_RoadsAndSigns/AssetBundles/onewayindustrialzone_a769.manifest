@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1723370978
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fc919942b9688df1f040721ce0dfd366
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 885aae486b68149c1aaf0f8df96bc4f2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Roads/Industrial/Set2/onewayIndustrialZone.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_RoadsAndSigns_Unity/AssetBundles/base2_861f

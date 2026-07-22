@@ -1,0 +1,23 @@
+{
+  "id": "AutoForestryDesignations",
+  "version": "0.1.11",
+  "display_name": "Kayser's Automatic Forestry Designations",
+  "description_short": "Create forestry designations for forestry towers, inspect planting coverage, and enqueue vehicle assignments.",
+  "description_long": "<b>Auto Forestry Designations</b>\n\nAutomatically creates <b>forestry designations</b> for your forestry towers - no manual painting required.\n\n- <b>Create designations</b>: Scan the tower area and place valid forestry designations.\n- <b>Clear designations</b>: Remove forestry designations in the selected tower area without touching other designation types.\n- <b>Per-tower settings</b>: Control fertile-only placement, existing trees, existing terrain designations, max tiles per run, and marking grown trees for harvest.\n- <b>Vehicle enqueueing</b>: Enqueue vehicle construction directly for tower assignments, automatically routed to the closest depot by driving distance (ordered vehicles are pre-assigned and join the tower automatically once completed).\n\n<i>Compatible with vanilla saves - can be added to or removed from existing saves safely.</i>",
+  "authors": [
+    "Kayser"
+  ],
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.5",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "AutoForestryDesignations.dll"
+  ],
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [],
+  "incompatible_mods": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "AutoForestryDesignationsMod"
+}

@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 654340180
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2558823ee6b0fc1f36c605d54a0a1c7b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 00106436ef7bd15ccb8ac21292cd5e46
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Cross.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft90.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT_N_Output.png
+- Assets/RightAngleMechanicalShaft/icons/Shaft_Menu_Straight.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT_W_Input.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Straight_1x1.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_90_Short.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Straight_Short.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Straight_1x3.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT_E_Output.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT_E_Input.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_T_Short.png
+- Assets/RightAngleMechanicalShaft/icons/Shaft_Menu_Cross.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT_W_Output.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Straight_1x2.png
+- Assets/RightAngleMechanicalShaft/icons/Shaft_Menu_90.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Straight.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_ShaftT_N_Input.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Straight_1x4.png
+- Assets/RightAngleMechanicalShaft/icons/Icon_Shaft_Cross_Short.png
+- Assets/RightAngleMechanicalShaft/icons/Shaft_Menu_T.png
+Dependencies: []

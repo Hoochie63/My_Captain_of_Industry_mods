@@ -1,0 +1,182 @@
+v1.2.7 | 2026-07-17
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* Fixed the Truck HQ and Excavator HQ causing lag and a periodic micro-stutter on large bases. (huge thanks again to iceball12 for reporting the problem and providing the save)
+* Stability and performance improvements.
+
+v1.2.6 | 2026-07-01
+* All keybinds can now be viewed and rebound from the Modded Keybinds tab in Settings — install the Keybind Framework mod to use it.
+* Truck HQ and Excavator HQ refuel battery vehicles; ~70% of cells return as empties to Shipyard. Truck HQ has a battery input, Excavator HQ is truck-refilled. (needs Recipes++)
+* Fixed the Molten Lift not animating while moving molten products. (thanks Vladovlak for the report)
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Terex truck and Huge Excavator are allowed on bridges again. (Thanks for the reminder mrwiz985)
+* Fixed dump truck and Terex wheels freezing instead of spinning while driving across bridges.
+* The Terex is now about a third smaller in size and carries 20% more fuel, so it runs longer between refuels — applies to all fuel variants. (thanks tom89194 for the suggestion)
+
+v1.2.5 | 2026-06-26
+* Warehouse storage slots now support Storage++'s "Allow all products" override, letting each slot hold any item of the warehouse's type. Requires Storage++.
+
+v1.2.4 | 2026-06-19
+* Fixed a bug where using the Parking HQ, Excavator HQ, or Warehouses could corrupt your save so it failed to load with a "corrupted save" error. Saves now stay safe to load. (thanks to the GrimmyV2 who reported it and helped test new fixed version)
+
+v1.2.3 | 2026-06-15
+* Fixed a clearance problem with the Terex truck that could make mining in tight areas cause lag. Terex is now back to the same clearance as the T3 dump truck. (thanks iceball12 for reporting the problem and providing save)
+* The Parking HQ panel move hotkey can now be rebound in the new Modded Keybinds tab in Settings — requires the Keybind Framework mod.
+* Fixed: items stored in Warehouses now count toward quick build in all slots (previously only slot 1 did), so quick-building draws from warehoused parts like any other storage. (amazed that no one reported this problem xD)
+
+v1.2.2 | 2026-06-10
+* Both Pipe Balancers (1×1 and Large) now unlock from the start along with basic pipes, instead of needing their own research. (thanks FactorioPlayer for the suggestion)
+* The Heavy Tanker now has its own custom icon. (thanks Mag for the report)
+* Added an info tooltip to the Serviced Garage option in the Truck HQ and Excavator HQ windows, explaining what the maintenance reduction does. (thanks Mag for the report)
+* Fixed the Truck HQ slowly stopping to pull idle trucks back in the longer you play — trucks that finish their hauls now return to park again. (thanks Fuzzy for reporting the problem)
+* Warehouse and Warehouse Fluid/Gas slots 2-4 now follow storage capacity changes made in Storage++ — all 4 slots always share the same capacity instead of only slot 1 changing. (thanks (KGB)KingLethal for reminding me to add it)
+* New building: Warehouse Loose — a loose-materials version of the Warehouse. Holds up to 4 different loose materials (4,000 per slot) with loose conveyor ports and the same per-slot logistics sliders.
+* Renamed the warehouse family so the three are easy to tell apart: "Warehouse" is now "Warehouse Flat" and "Warehouse Fluid/Gas" is now "Warehouse Fluid".
+* Serviced Garage mechanics now scale smoothly as you move the slider, instead of jumping in big steps.
+* Removed the extra power info box in the Truck HQ and Excavator HQ windows — power consumption now shows only once.
+
+v1.2.1 | 2026-06-08
+* New building: Warehouse Fluid/Gas — a fluid/gas version of the Warehouse. Holds up to 4 different fluids or gases (8,000 per slot) with pipe ports and the same per-slot logistics sliders.
+* Fixed the Warehouse extra slots 2-4 sliders extending too far — the truck import/export icons no longer get pushed off the edge of the window.
+* Fixed the Parking HUD tooltip being drawn behind the HUD. (thanks Hashishish for the report)
+* Fixed a rare bug that kept sending out and pulling in trucks in an endless loop. (thanks Hashishish for the report)
+
+v1.2.0 | 2026-06-07
+* Fixed the Parking HQ overlay reappearing after you hide it in Tweaks++ — it now stays hidden when you pause or open menus. (thanks SlyPulsar for the report)
+
+v1.1.9 | 2026-05-31
+* Parking HQ can now be paused — pausing it sends all its trucks back out and stops it pulling in new ones until you unpause.
+* Fixed Parking Hud not to draw over menus thanks to Hashishish reporting the problem!
+* Fixed Parking HQ when flipped — trucks can now drive in and out (the entry/exit area is now mirrored with the building).
+* Fixed fuel teleporting into the Parking HQ — fuel is now hauled in by trucks.
+* Fixed Parking HQ construction and deconstruction — materials are now delivered and removed by trucks normally.
+* Parking HQ now shows the construction/deconstruction progress panel at the bottom of its window, like other buildings.
+* Import/export logistics toggles work on the Parking HQ again — turning import off now stops trucks from picking up and delivering fuel.
+* Same fixes has been made for Excavator HQ also.
+* Excavator HQ now also parks idle Tree Planters and Tree Harvesters. Planters/harvesters assigned to a Forestry Tower keep working.
+* Fixed Warehouse slot 1 (the main slot) creating free infinite items on its output — it now drains and refills from the input. (thanks SirColibris for the report)
+* Added to Warehouse extra slots 2-4 now has sliders
+* Fixed Warehouse extra slots 2-4 is now working for export/import rules
+* Fixed Warehouse with a rare bug that made input take in items to stock forever even when a slot was full.
+* Added missing translations for multiple languages (thanks kukularra for reporting the missing strings).
+* Updated Ukrainian translation — huge thanks to SirColibris for the proofreading and corrections.
+* Added more missing translations across all languages.
+
+v1.1.8 | 2026-05-27
+* THIS VERSION NOW WORKS FOR BOTH STABLE 0.8.4b AND EXPERIMENTAL 0.8.5. No need for 2 versions anymore. =)
+* Added a fallback so the mod now works on both 0.8.5 experimental and 0.8.2 to 0.8.4b stable (previously 0.8.5 only).
+* New building: Steam Heater — burns coal, woodchips, biomass, or (with Recipes++) Supercharged Biomass with water to produce depleted steam for the District Heater. Each recipe also outputs exhaust.
+* District Heater — Heating need now grants +1.5 happiness per pop (was +1.0).
+* Fixed missing translation — Thanks to Ulisse Wolf for the report.
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.1.7 | 2026-05-23
+* THIS VERSION ONLY WORKS FOR 0.8.5!!!!
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+
+v1.1.6 | 2026-05-23
+* All latest changes made for 0.8.5 are now supported also for 0.8.2 — 0.8.4b stable.
+* District Heating — building name now correctly translates in all languages (was showing as English for all players)
+
+v1.1.5 | 2026-05-22
+* THIS VERSION ONLY WORKS ON THE EXPERIMENTAL 0.8.5 GAME BUILD. Due to changes made in game patch, older game versions are not compatible.
+* Renamed buildings: Truck HQ (old name: Parking HQ).
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* New building: Pipe Balancer (Large) — a 12-port fluid balancer (4 top, 4 bottom, 2 per side) for splitting/merging pipes with optional prioritization.
+* Pipe Sorter moved to the Transport build tab (was under Machines).
+* Updated the mod thumbnail.
+* New building: Excavator HQ — parks idle, unassigned excavators. Fits all sizes including the Huge Excavator. 30 slots max.
+  Excavators enter and leave through the same door.
+* Fuel ports A/B/C feed parked excavators with diesel, synthetic diesel, or hydrogen. Same auto-refuel behavior as the Truck HQ.
+* Parking HUD overlay now shows both Truck HQ (truck icon) and Excavator HQ (excavator icon) buildings in one widget.
+* Warehouse — truck delivery and pickup now works for all 4 product slots, not just the first. Truck logistics was previously turned off for this building due to problems with the extra slots; it is now fully enabled. (thanks Vladovlak for reminding about it)
+* Fixed research nodes of Trucks/excavator popup running off-screen — icons now wrap to multiple rows. (thanks petter566 for the report)
+* Parking HUD overlay now has a tooltip explaining how to move it (hold Ctrl + left-click drag), and that Tweaks++ users must keep HUD movement unlocked in Tweaks++ HUD settings. (thanks wookierudd24_ricky for the reminder)
+
+v1.1.4 | 2026-05-15
+* Bridge Port Host — placement now only blocks hubs on the same end of the same bridge. 
+  Multiple bridges close together no longer block each other. (thanks Fevix for the report)
+* Parking HQ — now also pulls and parks Amphibious Trucks (diesel and hydrogen). 
+  Idle amphibious trucks dock at the HQ and offload cargo to the shipyard. (thanks Serjevski for the suggestion)
+
+
+v1.1.3 | 2026-05-14
+* Fixed The Terex (diesel and hydrogen) missing maintenance — now consumes T2 maintenance.
+* Fixed Heavy Tanker (diesel and hydrogen) missing maintenance — now consumes T2 maintenance.
+* Fixed Heavy Hauler (diesel and hydrogen) missing maintenance — now consumes T1 maintenance.
+* Heavy Hauler — new custom icon.
+* Bridge Port Host — placement now blocks new hubs within 125 tiles of an existing one, so you can no longer accidentally place two on the same side of a bridge. (thanks Vulkandrache for the report)
+* Huge Excavator (all fuel variants) — pathfinding width now requires 5 tiles instead of fitting through regular truck lanes. (thanks Hashishish for the suggestion)
+* Reminder: the Huge Excavator, The Terex, and Heavy Tanker cannot cross bridges due to their size. Only vanilla big vehicles fit bridge lanes. This is intentional for balance and realism.
+* Description of all buildings has been updated to explain better what the building does and how to use it.
+
+
+v1.1.2 | 2026-05-13
+* New building: Bridge Port Host — place one hub at each end of a cable-stayed
+  bridge to transport belted goods and fluids across it. Items travel through
+  the bridge's built-in belt and pipe system from one hub to the other, letting
+  you move resources over bridges without trucks.
+* Fixed settings panel showing an error on fresh installs — mod config window now opens correctly.
+* Pipe Sorter power consumption reduced from 2 MW to 1.25 MW.
+* The Terex fuel capacity adjusted/buffed a bit: diesel 36 → 40, hydrogen 36 → 48. Thanks Nick2E and neoss for the report.
+
+v1.1.1 | 2026-05-11
+* The Terex (all fuel variants) — Wheels has been fixed to align correct with back and front wheels, also fixed turning of wheels to be correct.
+
+v1.1.0 | 2026-05-10
+* Fixed loose storage I/O ports allowing T1 belts to be placed without conveyor belt research. (thanks Calavera for the report)
+* Pipe Sorter — now shows up in the build menu regardless of the "Automatic Ore Sorting" game-mode setting. Previously only visible when ore sorting was enabled. (thanks xtrasyn for the report)
+* Mixed Fluid Pipe — fixed unlimited fluid growth that could happen. (sorry for missing this, thanks Fevix for the report)
+
+v1.0.9 | 2026-05-10
+* Pipe Sorter — now shows up in the build menu regardless of the "Automatic Ore Sorting" game-mode setting. Previously only visible when ore sorting was enabled. (thanks xtrasyn for the report)
+* Mixed Fluid Pipe — fixed unlimited fluid growth that could happen. (sorry for missing this, thanks Fevix for the report)
+
+v1.0.8 | 2026-05-10
+* Updated manifest for latest version.
+* Mixed Fluid Pipe — fixed unlimited fluid growth that could happen. (sorry for missing this, thanks Fevix for the report)
+
+v1.0.7 | 2026-05-10
+* Mixed Fluid Pipe — fixed unlimited fluid growth that could happen. (sorry for missing this, thanks Fevix for the report)
+
+v1.0.6 | 2026-05-09
+* Fixed Terex trucks occasionally sacling wrong after save reload or fuel-type upgrade. Huge thanks to DeznekCZ for tip to do it right!
+
+v1.0.5 | 2026-05-08
+* Molten Storage research moved from T3 (Arc Furnace II) to T2 (now unlocks once Research Lab II is researched). Cost reduced from 15 to 10. Makes molten storage accessible much earlier.
+
+v1.0.4 | 2026-05-08
+* Terrex cargo bed no longer reverts to vanilla size after save/load or fuel-type upgrade.
+* Cable bridge belts/pipes — bulldozing a bridge now safely removes its auto-spawned belts, preventing terrain craters.
+  This is fixed with new custom belt t3 instead of vanilla belts. This will only work on new placed bridges and not on old ones placed,
+  old placed bridges that are removed, have to fill in holes and place a new bridge to get the fixed versions.
+
+v1.0.3 | 2026-05-04
+* Parking HQ HUD — can now be repositioned with Ctrl+Left-drag when Tweaks++ is not installed; position is saved and restored between sessions.
+  When Tweaks++ is loaded it takes over drag control instead.
+* Parking HQ — entry and exit door proximity triggers increased so doors open earlier as trucks approach to avoid clipping trough doors.
+* The Terex — fuel tank capacity increased to match vanilla T3 haul truck since it was running out of fuel to fast.
+* Parking HQ — optional Zone Priority: only idle trucks in the building's logistics zone are pulled; per-type priority competes only with other Parking HQs whose zones overlap
+* Parking HQ — enabling Zone Priority evicts trucks already inside that do not share the HQ logistics zone (including inbound)
+* Parking HQ HUD — row labels follow vanilla renames (same title as the building window)
+* Cable bridge underground belts — Now fixed and work again. Also i updated a better way for placing the belts on curvy bridges, to avoid it breaking connection.
+* Cable bridge transport — T3 belts and pipes auto-spawn as blueprints (belts in center, pipes on sides); no more free belts/pipes!
+
+v1.0.0 | 2026-05-03
+* Heavy Hauler — 100-cargo flatbed truck (diesel, synthetic diesel and hydrogen variants)
+* The Terex — 412-cargo dump truck, slow, high pollution (diesel, synthetic diesel and hydrogen variants)
+* Heavy Tanker — 650-fluid tanker truck (diesel and hydrogen variants)
+* Huge Excavator — 85-bucket excavator, slower cycle, higher fuel (diesel, synthetic diesel and hydrogen variants)
+* Warehouse — 4-slot flat storage (4000 per slot) with per-port product filtering
+* Molten Lift — vertical transport for molten products
+* Molten Storage — stores molten iron, steel, copper, aluminium, titanium, glass, silicon
+* Pipe Sorter — sorts and routes mixed fluids between output ports with no conversion loss
+* Mixed Fluid Pipe — carry multiple fluids in a single pipe
+* Pipe Balancer (1x1) — single-tile four-way pipe balancer for splitting and prioritizing fluids
+* District Heating — steam-powered home heater (+1 happiness per house, outputs water)
+* Parking HQ — auto-parks idle trucks (T1/T2/T3 loose/fluid incl. Heavy Hauler; diesel, synfuel, hydrogen); animated rolling doors; up to 50 slots (100 with CP upgrade)
+* Parking HQ — building window: parked counts, priorities, fuel/CP buffers, refueling, slot targets; cargo offloads to Shipyard
+* Parking HQ HUD — live panel listing each HQ with truck counts; click to pan camera; scale/hide/move via Tweaks++ HUD settings
+* Underground belts on cable bridges (flat and loose)
+* Bridge access for large vehicles (Truss & Cable bridges) NEED TWEAKS++ FOR BRIDGE CONTROLL SETTINGS!
+* Hydrogen fuel upgrade path for all custom vehicles

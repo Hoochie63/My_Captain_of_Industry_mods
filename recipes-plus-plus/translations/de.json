@@ -1,0 +1,151 @@
+{
+  "Sap": "Saft",
+  "Maple Syrup": "Ahornsirup",
+  "A sweet treat boiled down from tree sap. A luxury food that keeps your population happy.": "Eine süße Köstlichkeit, eingekocht aus Baumsaft. Ein Luxusnahrungsmittel, das deine Bevölkerung glücklich hält.",
+  "Maple Sap": "Ahornsaft",
+  "Maple syrup boiling": "Ahornsirup einkochen",
+  "Tap sap from wood in the Bio Processor and boil it into Maple Syrup in the Fermentation tank — a sweet luxury treat that keeps your population happy.": "Zapfe Saft aus Holz im Bio-Prozessor und koche ihn im Gärtank zu Ahornsirup ein — eine süße Luxus-Köstlichkeit, die deine Bevölkerung glücklich hält.",
+  "GMO": "GVO",
+
+  "When enabled, this greenhouse consumes GMO seeds to increase crop yield by 18%.": "Wenn aktiviert, verbraucht dieses Gewächshaus GVO-Saatgut, um den Ernteertrag um 18% zu steigern.",
+
+  "Pesticide": "Pestizid",
+
+  "When enabled, this greenhouse consumes pesticide to increase harvesting speed by 25%.": "Wenn aktiviert, verbraucht dieses Gewächshaus Pestizide, um die Erntegeschwindigkeit um 25% zu erhöhen.",
+
+  "Stored GMO": "Gelagertes GVO",
+
+  "Stored Pesticide": "Gelagertes Pestizid",
+
+  "Synt station": "Synthetikdiesel-Tankstelle",
+
+  "Unlock the synthetic diesel fuel station for refueling vehicles running on synthetic diesel.": "Schaltet die Synthetikdiesel-Tankstelle zum Auftanken von Fahrzeugen frei, die mit Synthetikdiesel betrieben werden.",
+
+  "Synt generator": "Synthetik-Generator",
+
+  "Unlocks the Synt generator. 3.8 MW output, 35% faster fuel burn, 65% less pollution than diesel generator II.": "Schaltet den Synthetik-Generator frei. 3,8 MW Leistung, 35% schnellerer Kraftstoffverbrauch, 65% weniger Umweltbelastung als Dieselgenerator II.",
+
+  "Synth Trucks": "Synth-LKW",
+
+  "Unlocks synthetic diesel variants of the T2 industrial truck, T3 haul trucks, and the Heavy Hauler. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten des T2-Industrie-LKW, der T3-Transport-LKW und des Heavy Hauler frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+
+  "Synth Heavy Fleet": "Synth-Schwerflotte",
+
+  "Unlocks synthetic diesel variants of The Terex and Huge Excavator. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten von The Terex und Huge Excavator frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+
+  "Liquifier": "Verflüssiger",
+  "Liquified coal": "Verflüssigte Kohle",
+
+  "A general-purpose conversion machine that turns solid materials into liquid or gas form, supporting multiple recipes.\n\nThe first recipe produces Liquified Coal: pipe in coal, high-pressure steam, and hydrogen; the reaction outputs Liquified Coal.\n\nPair with the Liquid Coal Generator to upgrade your coal chain into significantly more electricity per ton than burning coal raw.": "Eine universelle Umwandlungsmaschine, die feste Materialien in flüssige oder gasförmige Form überführt und mehrere Rezepte unterstützt.\n\nDas erste Rezept produziert Verflüssigte Kohle: Leite Kohle, Hochdruckdampf und Wasserstoff ein; die Reaktion liefert Verflüssigte Kohle.\n\nKombiniere sie mit dem Verflüssigte-Kohle-Generator, um aus deiner Kohlekette deutlich mehr Strom pro Tonne herauszuholen als beim direkten Verbrennen.",
+
+  "Liquid coal generator": "Flüssigkohle-Generator",
+
+  "Unlocks the Liquid coal generator. 3 MW output. Burns liquified coal with 30% more fuel consumption and 35% more pollution than a diesel generator.": "Schaltet den Flüssigkohle-Generator frei. 3 MW Leistung. Verbrennt verflüssigte Kohle mit 30% mehr Kraftstoffverbrauch und 35% mehr Verschmutzung als ein Dieselgenerator.",
+
+  "Bio Processor": "Bioprozessor",
+
+  "A multi-purpose biological and chemical machine that supports several farming and energy recipes.\n\nBase recipe: turn dirt, biomass, compost, waste, and water into Supercharged Biomass — a denser biomass that burns 50% longer in coal boilers and feeds into a higher-yield fertilizer recipe.\n\nWith Advanced Farming research, two extra recipes unlock: GMO Seed production and Pesticide production, both used to boost greenhouse yields.": "Eine vielseitige Bio- und Chemiemaschine, die mehrere Landwirtschafts- und Energie-Rezepte unterstützt.\n\nBasisrezept: Erde, Biomasse, Kompost, Abfall und Wasser werden zu Superbiomasse verarbeitet — einer dichteren Biomasse, die in Kohlekesseln 50 % länger brennt und ein ergiebigeres Dünger-Rezept ermöglicht.\n\nMit der Forschung „Fortgeschrittene Landwirtschaft“ schalten sich zwei weitere Rezepte frei: GMO-Saatgut und Pestizid — beide steigern den Ertrag deiner Gewächshäuser.",
+
+  "Advanced Farming": "Fortschrittliche Landwirtschaft",
+
+  "Unlocks GMO and Pesticide production for greenhouses.": "Schaltet die GVO- und Pestizidproduktion für Gewächshäuser frei.",
+
+  "Truck S": "Lastwagen S",
+
+  "Synthetic diesel variant of the industrial truck. Same capacity and speed with 65% less pollution and 25% faster fuel burn.": "Synthetikdiesel-Variante des Industrie-LKW. Gleiche Kapazität und Geschwindigkeit bei 65% weniger Verschmutzung und 25% schnellerem Kraftstoffverbrauch.",
+
+  "Haul truck S (dump)": "Großlastwagen S (Schüttgut)",
+
+  "Synthetic diesel variant of the haul truck (dump). Same 180 capacity with 65% less pollution and 25% faster fuel burn.": "Synthetikdiesel-Variante des Muldenkippers (Schüttgut). Gleiche Kapazität von 180 bei 65% weniger Verschmutzung und 25% schnellerem Kraftstoffverbrauch.",
+
+  "Haul truck S (tank)": "Großlastwagen S (Tank)",
+
+  "Synthetic diesel variant of the haul truck (tank). Same 180 capacity with 65% less pollution and 25% faster fuel burn.": "Synthetikdiesel-Variante des Muldenkippers (Tank). Gleiche Kapazität von 180 bei 65% weniger Verschmutzung und 25% schnellerem Kraftstoffverbrauch.",
+
+  "Heavy Hauler S": "Schwerer Lastwagen S",
+
+  "Synthetic diesel Heavy Hauler with 100 cargo capacity. 25% slower. 65% less pollution than diesel, 25% faster fuel burn.": "Synthetikdiesel-Schwerlasttransporter mit 100 Ladekapazität. 25% langsamer, 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+
+  "The Terex S": "Der Terex S",
+
+
+  "Huge Excavator S": "Riesiger Bagger S",
+
+
+  "Power": "Energie",
+  "Storage": "Lager",
+  "Machines": "Maschinen",
+  "Transport": "Transport",
+  "Other": "Sonstiges",
+
+  "Fuel station for synthetic diesel. Trucks assigned here will automatically refuel excavators and tree harvesters at their working site.": "Tankstelle für synthetischen Diesel. Hier zugewiesene Lkw betanken Bagger und Baumernter automatisch an ihrem Einsatzort.",
+  "Burns synthetic diesel to create electricity. 3.8 MW output, 35% faster fuel burn, 65% less pollution than diesel generator II.": "Verbrennt synthetischen Diesel zur Stromerzeugung. 3.8 MW Leistung, 35% schnellerer Kraftstoffverbrauch, 65% weniger Verschmutzung als Dieselgenerator II.",
+  "Burns liquified coal to generate electricity. 3 MW output. Consumes 30% more fuel and produces 35% more pollution than a standard diesel generator.": "Verbrennt verflüssigte Kohle zur Stromerzeugung. 3 MW Leistung. Verbraucht 30% mehr Kraftstoff und erzeugt 35% mehr Verschmutzung als ein normaler Dieselgenerator.",
+
+  "Supercharged biomass-fired steam": "Hochverdichteter biomassebefeuerter Dampf",
+  "Synthetic diesel Terex. Massive 412 cargo capacity, 50% reduced speed. 65% less pollution than diesel, 25% faster fuel burn.": "Synthetikdiesel-Terex. Massive 412 Ladekapazität, 50% reduzierte Geschwindigkeit. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+  "Synthetic diesel Huge Excavator with bucket capacity of 85. 20% slower. 65% less pollution than diesel, 25% faster fuel burn.": "Synthetikdiesel-Riesiger Bagger mit 85 Schaufelkapazität. 20% langsamer, 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+  "Raw Lithium": "Rohlithium",
+  "Raw lithium ore, mined from world-map deposits. Must be processed before use.": "Rohes Lithiumerz, abgebaut aus Vorkommen auf der Weltkarte. Muss vor der Verwendung verarbeitet werden.",
+  "Lithium": "Lithium",
+  "Refined lithium, processed from raw lithium and brine.": "Raffiniertes Lithium, verarbeitet aus Rohlithium und Sole.",
+  "Lithium Evaporation": "Lithium-Verdunstung",
+  "A modified evaporation pond that processes raw lithium ore together with brine, evaporating the mix into refined lithium and leaving a toxic slurry byproduct.": "Ein modifizierter Verdunstungsteich, der Rohlithiumerz zusammen mit Sole verarbeitet. Die Mischung verdunstet zu raffiniertem Lithium und hinterlässt giftigen Schlamm als Nebenprodukt.",
+  "Lithium evaporation": "Lithium-Verdunstung",
+  "Lithium Processing": "Lithiumverarbeitung",
+  "Unlocks the Lithium Evaporation pond, which processes raw lithium ore and brine into refined lithium.": "Schaltet den Lithium-Verdunstungsteich frei, der Rohlithiumerz und Sole zu raffiniertem Lithium verarbeitet.",
+  "Supercharged Biomass": "Aufgeladene Biomasse",
+  "Enhanced biomass that burns 50% longer but produces 40% more pollution.": "Verbesserte Biomasse, die 50% länger brennt, aber 40% mehr Verschmutzung erzeugt.",
+  "GMO Seed": "GVO-Saatgut",
+  "Genetically modified seed that boosts greenhouse yield.": "Gentechnisch verändertes Saatgut, das den Gewächshausertrag steigert.",
+  "Biomass Composting": "Biomasse-Kompostierung",
+  "GMO Synthesis": "GVO-Synthese",
+  "Pesticide Production": "Pestizidproduktion",
+  "Steam generation (supercharged)": "Dampferzeugung (aufgeladen)",
+  "Fertilizer mixing (supercharged)": "Düngermischung (aufgeladen)",
+  "Synthetic diesel": "Synthetischer Diesel",
+  "Synthetic diesel synthesis": "Synthese von synthetischem Diesel",
+  "Synthetic diesel disposal": "Entsorgung von synthetischem Diesel",
+  "Synth diesel vehicles": "Synthetikdiesel-Fahrzeuge",
+  "Liquified coal synthesis": "Synthese von Flüssigkohle",
+  "Steam generation": "Dampferzeugung",
+  "Crude oil synthesis": "Rohölsynthese",
+  "Diesel synthesis": "Dieselsynthese",
+  "Naphtha synthesis": "Naphtha-Synthese",
+  "Water electrolysis (realistic)": "Wasserelektrolyse (realistisch)",
+  "Iron shredding": "Eisen schreddern",
+  "Copper shredding": "Kupfer schreddern",
+  "Aluminum shredding": "Aluminium schreddern",
+  "Gold shredding": "Gold schreddern",
+  "Glass shredding": "Glas schreddern",
+  "18650 Battery (Empty)": "18650-Batterie (leer)",
+  "A depleted 18650 lithium cell. Charge it in the Battery Plant to store energy, then run trucks on it.": "Eine entladene 18650-Lithiumzelle. Lade sie im Batteriewerk auf, um Energie zu speichern, und betreibe damit deine Lastwagen.",
+  "18650 Battery (Charged)": "18650-Batterie (geladen)",
+  "A charged 18650 lithium cell holding stored energy. Used as clean fuel for battery trucks.": "Eine geladene 18650-Lithiumzelle mit gespeicherter Energie. Wird als sauberer Kraftstoff für Batterie-Lastwagen verwendet.",
+  "Battery": "Batterie",
+  "Battery Plant": "Batteriewerk",
+  "Assembles empty 18650 lithium cells from refined lithium, steel and electronics, and charges them into energy-storing cells using electricity. Charged cells run battery trucks.": "Stellt leere 18650-Lithiumzellen aus raffiniertem Lithium, Stahl und Elektronik her und lädt sie mithilfe von Strom zu energiespeichernden Zellen auf. Geladene Zellen betreiben Batterie-Lastwagen.",
+  "Battery assembly": "Batteriemontage",
+  "Battery charging": "Batterieladung",
+  "Battery Technology": "Batterietechnologie",
+  "Unlocks the Battery Plant, which assembles and charges 18650 lithium cells into clean fuel for battery trucks.": "Schaltet das Batteriewerk frei, das 18650-Lithiumzellen herstellt und zu sauberem Kraftstoff für Batterie-Lastwagen auflädt.",
+  "Battery vehicles": "Batteriefahrzeuge",
+  "Battery charging station": "Batterieladestation",
+  "Charging station for 18650 batteries. Trucks assigned here will automatically refuel excavators and tree harvesters at their working site.": "Ladestation für 18650-Batterien. Hier zugewiesene Lastwagen betanken Bagger und Baumernter automatisch an ihrem Einsatzort.",
+  "Truck B": "Lastwagen B",
+  "Battery-electric variant of the industrial truck. Runs on charged 18650 cells with zero pollution.": "Batterieelektrische Variante des Industrie-LKW. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
+  "Haul truck B (dump)": "Großlastwagen B (Schüttgut)",
+  "Battery-electric variant of the haul truck (dump). 180 capacity with zero pollution.": "Batterieelektrische Variante des Muldenkippers (Schüttgut). 180 Kapazität ohne jegliche Verschmutzung.",
+  "Haul truck B (tank)": "Großlastwagen B (Tank)",
+  "Battery-electric variant of the haul truck (tank). 180 capacity with zero pollution.": "Batterieelektrische Variante des Muldenkippers (Tank). 180 Kapazität ohne jegliche Verschmutzung.",
+  "Battery Vehicles": "Batteriefahrzeuge",
+  "Unlocks battery-electric trucks that run on charged 18650 cells with zero pollution, and the Battery charging station that refuels them.": "Schaltet batterieelektrische Lastwagen frei, die mit geladenen 18650-Zellen ohne jegliche Verschmutzung fahren, sowie die Batterieladestation, die sie betankt.",
+  "Heavy Hauler B": "Schwerer Lastwagen B",
+  "Battery-electric Heavy Hauler with 100 cargo capacity. 25% slower. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Schwerlasttransporter mit 100 Ladekapazität. 25% langsamer. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
+  "The Terex B": "Der Terex B",
+  "Battery-electric Terex. Massive 412 cargo capacity, 50% reduced speed. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Terex. Massive 412 Ladekapazität, 50% reduzierte Geschwindigkeit. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
+  "Huge Excavator B": "Riesiger Bagger B",
+  "Battery-electric Huge Excavator with bucket capacity of 85. 20% slower. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Riesiger Bagger mit 85 Schaufelkapazität. 20% langsamer. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
+  "Heavy Tanker B": "Schwerer Tankwagen B",
+  "Battery-electric Heavy Tanker with 650 fluid cargo capacity. 15% faster than The Terex but still slower than standard trucks. Zero pollution.": "Batterieelektrischer schwerer Tankwagen mit 650 Flüssigkeits-Ladekapazität. 15% schneller als der Terex, aber immer noch langsamer als Standard-LKW. Keinerlei Verschmutzung."
+}

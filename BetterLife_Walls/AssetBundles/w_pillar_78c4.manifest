@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2317718478
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fc076ce2d7bfbc321fc19416a7d783ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 24c45d585b070ba999ea48d146ceef0d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/wWooden/w_pillar.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Walls_Unity/AssetBundles/alldecorwalls_d999

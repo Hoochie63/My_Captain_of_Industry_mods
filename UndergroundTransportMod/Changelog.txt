@@ -1,0 +1,10 @@
+v5.3.0 | 2026-0720
+* Release : update cahnglog
+
+v5.3.0 | 2026-07-19
+* Support : Compatibility with COI 4.2/0.8.6
+
+v5.2.0 | 2026-07-10
+* Fixed : Transport start/proceed when output entity is in construction or paused
+* Release : Update Harmony from 2.3.6 to 2.4.2
+* Fixed : Description error in Manifest.json

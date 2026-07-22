@@ -1,0 +1,21 @@
+v1.0.6 | 2026-07-21
+* Fixed game speed (1x-15x) not applying on freshly started games after the recent game update — previously needed a save & reload to take effect.
+
+v1.0.5 | 2026-05-26
+* Fixed compatibility with Deznek's Day-Night Cycle mod — the day/night bar next to the calendar no longer breaks. Huge thanks to Deznek for the fast help on the fix.
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.0.4 | 2026-05-26
+
+v1.0.3 | 2026-05-22
+* Updated the mod thumbnail.
+
+v1.0.2 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.1 | 2026-05-06
+* Added speedMode config option: 0 = linear (+1 per press, default), 1 = doubling (1x → 2x → 4x → 8x → maxSpeed).
+* Note: to apply config changes mid-save, remove the mod from the save, save the game, then re-add the mod and change the config before loading.
+
+v1.0.0 | 2026-05-03
+* Game speed multiplier up to 15x (configurable cap in config.json)

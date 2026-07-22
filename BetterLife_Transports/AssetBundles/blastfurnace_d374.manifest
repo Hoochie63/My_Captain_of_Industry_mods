@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 498023344
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1dc6721c091d6c91ab1580bc2fb788df
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 522dcf886dfab91c94c9f0be3c67e2c3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0f800a88344c767fa60a73d063547e2d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ExampleMod/BlastFurnace.prefab
+Dependencies: []

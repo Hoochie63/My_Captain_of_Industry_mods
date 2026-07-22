@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1240807451
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 421ab6c029f56a2a2c432e8c463bd47b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 731933f9c84f82b45e842ab6918f97d1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 116728e2ffa154c46fad3c106e242d9b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Walls/wDecorations/GuardShack.prefab
+Dependencies: []

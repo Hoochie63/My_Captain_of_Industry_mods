@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 4061570334
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d3698b9a9ea24db4d8bf614bc044b691
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2428d3762ac8d4c0d747388713928436
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 03c0895cf48788e0b0f0eee32e7eff22
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Transports/ports/balancers_pipe.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Transports_Unity/AssetBundles/materials_transport_d9d1

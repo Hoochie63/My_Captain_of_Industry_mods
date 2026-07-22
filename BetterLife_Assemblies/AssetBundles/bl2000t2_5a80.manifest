@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 677769439
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b43250678628e57bb4473940853e73cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 51c425e273bf8a8c2831999e445154bf
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7f0dd305affae9c182c8002ff2695e84
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Buildings/BL2000T2.prefab
+Dependencies: []

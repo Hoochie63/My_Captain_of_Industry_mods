@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.23f1
+CRC: 2697375463
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 85192ac11dd692ccf7d0df1ac9baf3f1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 75d9347c2180ff58fda0ee6dde7de24f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FGWY_FF/FF.png
+- Assets/FGWY_FF/ZX.png
+Dependencies: []

@@ -1,0 +1,106 @@
+v1.1.7 | 2026-07-15
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* Machines can now be set below 100% speed, all the way down to 10% — not just boosted above it — so you can slow one down to balance production flows. The Boost++ slider and value turn light blue when under 100%. (thanks Serjevski for the suggestion)
+
+v1.1.6 | 2026-07-01
+* All translations have been updated, thanks to Hoochie for the updated Russian translation.
+* Ore sorter capacity boosts now automatically step aside when Storage++ overrides that sorter's capacity — sorting speed boosts keep working as normal.
+
+v1.1.5 | 2026-06-24
+* The Mass Select tab now lists every boostable building, belt, pipe, connector, lift and sorter — including ones still at 100% — instead of only already-boosted machines.
+* Added a Rename button to each row in the Mass Select tab.
+* Added a Sort button to the Mass Select tab — order by boost %, name (A-Ö) or type, remembered between sessions.
+
+v1.1.4 | 2026-06-21
+* You can now add Connectors, Lifts and Sorters to groups with "Click to select" and "Drag to select" — previously only buildings, belts and pipes could be grouped.
+* New Connectors, Lifts and Sorters buttons in the group "Apply to" row, so Apply and Reset can target those types like buildings, belts and pipes.
+* New Sort button for group members — order by speed, name (A-Ö) or type, and your choice is now remembered between sessions.
+* Renaming and editing in the manager now updates instantly instead of taking several seconds or needing the window closed and reopened.
+* The Boost slider now works on connectors, lifts and sorters too — open one and drag the slider to raise that building's throughput, like belts and machines. (Thanks warrenc for report on connectors chokepoint!)
+* Speed-boosted belts now hold more items too — scales with the boost, up to double at max. Helps long belt lines feed more machines at the cost of much more power use as balance. 
+   From 0-49% it is regular boost way and after that the curve for inventory boost kicks in. (thanks notmuted for great suggestion and helping test the version)
+
+v1.1.3 | 2026-06-13
+* I missed adding things new version above have everything. =D
+
+v1.1.2 | 2026-06-07
+* Max Boost limit raised from 320% to 1000% — By request from user warrenc. I guess if you gonna cheat you want to go to "Ludicrous Speed" cheats XD.
+
+v1.1.1 | 2026-05-31
+* Added a fix to pipes and molten channels that was a problem adding power by misstake to them. This might have caused
+  The very rare crashes 4 users had. 2 users have tested this new fix and reporting no crashes so far.
+* Fixed boosted belt/pipe throughput showing the un-boosted (vanilla) number in the window after a save reload — the displayed value is now correct on load without moving the slider. (Display only; the actual boost always worked.)
+* Added a pin button to the window — pin it to keep it open (thanks Malibu2 for the suggestion).
+* Added missing translations for multiple languages (thanks kukularra for reporting the missing strings).
+* Added more missing translations across all languages.
+* Updated Ukrainian translation — huge thanks to SirColibris for the proofreading and corrections.
+
+v1.1.0 | 2026-05-25
+* New "Drag to select" button — drag a rectangle to add everything inside to a group. (thanks Zafaron and Serjevski for the suggestion)
+* If there is anything you don't feel is right in Ukrainian language and wan't something changed/added contact SirColibris on Discord in COI server.
+
+v1.0.9 | 2026-05-23
+* Old saves — all pre-existing boosted items with no group are automatically migrated into an "Old Migrated Boosted Items" group on first load.
+* Group member speed values are now editable — click the speed value in any member row to type a new percentage directly.
+* Color picker — the Color button now opens a color selection popup with 18 colors to choose from (was 6 colors cycling on each click before).
+* Mass Select tab — each row now has a → jump-to-camera button, same as the Groups tab member rows. (thanks Serjevski for the suggestion)
+* Added Simplified Chinese translation. The mod now supports 8 languages.
+* Updated Ukrainian translation with proofreader refinements.
+
+v1.0.8 | 2026-05-22
+* New "Groups" tab — group buildings, belts and pipes together and boost the whole production block at once. Set one % across every member, optionally filter to just belts or just pipes, 
+  and see aggregate production stats (working / missing input / output full / cannot work) for the group.
+* Add entities to a group with the "Select entities" button — the window closes, you click entities in the world, and they highlight in the group's colour.
+* The boost % beside the slider is now a proper text field — click it and type in the exact value you want.
+* Removed the "Mass Boost" and "Belts & Pipes" tabs — the new Groups tab replaces them with more flexible control.
+* Thanks to Serjevski for the great idea, and for helping test and improve it with better suggestions.
+* Added Spanish, Portuguese, Ukrainian and Italian translations. The mod now supports 7 languages in total: English, German, Russian, Spanish, Portuguese, Ukrainian and Italian.
+* Updated the mod thumbnail.
+* Fixed translation errors.
+* Fully translated the Settings tab.
+* Settings tab window is now larger and uses the full space, so there is far less scrolling (all languages).
+* Russian and German setting names no longer wrap or get cut off.
+* New "Reset all to Default" button in the Settings tab to restore every value at once.
+
+v1.0.7 | 2026-05-13
+* New "Sorting Speed Bonus %" slider in ore sorter settings
+— controls max sorting speed increase at max boost (default 50, new max is 150%).
+* Max boost slider cap raised from 280% to 320% for all building types.
+
+v1.0.6 | 2026-05-11
+* Ore Sorter Capacity Multiplier slider split into T1 (small) and T2 (large) so each tier can be tuned independently. Existing saved value migrates to T2.
+
+v1.0.5 | 2026-05-10
+* Updated manifest for latest version.
+
+v1.0.4 | 2026-05-09
+* New "Capacity Multiplier %" slider in Boost Manager Settings → Ore Sorters (100% to 500%, default 100%).
+  Stacks on top of the per-building Boost++ slider for capacity only. Sorting speed and worker/energy/maintenance
+  costs are unaffected by this multiplier.
+
+v1.0.3 | 2026-05-08
+* Office boost now fixed and will boost focus point the more boost is applied to building.
+  This will also increase workers, computing and office supplies consumption.
+* Click the % label in the building windows to type an exact boost value directly.
+  Press Enter to apply, Escape or click away to cancel.
+
+v1.0.1 | 2026-05-06
+* Added Settings tab to Boost Manager — adjust all config values in-game via sliders and save to config file.
+  Settings are global (apply to all saves). Requires save + main menu reload to take effect.
+* Fixed boost slider getting stuck at max value — dragging left from max now works correctly.
+* Settings tab warning now shows the full routine: Save Settings → Save game → Main menu → Load save to avoid confusion how it works.
+
+v1.0.0 | 2026-05-03
+* Buildings tab — adjust boost % per machine, office, ore sorter, waste plant and more
+* Belts & Pipes tab — adjust boost % per transport segment
+* Mass Boost tab — apply a single % to all unlocked belts/pipes with a lock system
+* Mass Select tab — reset selected buildings / belts / pipes to 100%
+* Per-building Boost % control (100-500)
+* Per-building Comments (auto-saved, searchable, sortable)
+* Building Rename from the manager
+* Camera Jump to any boosted building
+* Sorting by %, name, or comments
+* Copy Boost — boost settings transfer when copy-pasting buildings
+* Ore Sorter Boost with power & worker scaling (plus tiered unsorted→sorted buff)
+* Office Boost — extra workers/power/compute/supply in exchange for more Focus points
+* Waste Sorting Boost — extra throughput at a steep power/maintenance cost

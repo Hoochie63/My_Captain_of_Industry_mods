@@ -1,0 +1,7 @@
+{
+  "Airship": "飞艇",
+  "Cargo airship that flies in the sky, ignoring terrain obstacles.": "货运飞艇，可在空中飞行，无视地形障碍。",
+  "Airship Helipad": "飞艇停靠台",
+  "Airship landing pad where airships will automatically dock when idle or waiting too long.": "飞艇停靠台，飞艇无任务或等待过久时会自动停靠。",
+  "Airship Group": "飞行器"
+}

@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3466733492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 013a3848ebc60f7a52cbd6ac224adcc8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 310887edc7c3fda741b6be6005a005d5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c679ce4916f5491f9808e2d9b6c1e250
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 19001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.TextCoreTextEngineModule
+  ClassName: UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
+- AssemblyName: UnityEngine.TextCoreTextEngineModule
+  ClassName: UnityEngine.TextCore.Text.FontFeatureTable
+- AssemblyName: UnityEngine.TextCoreTextEngineModule
+  ClassName: UnityEngine.TextCore.Text.FontWeightPair
+Assets:
+- Assets/Unity/UI Toolkit/Fonts/RobotoMono/Resources/Fonts & Materials/RobotoMono-Regular.asset
+Dependencies: []

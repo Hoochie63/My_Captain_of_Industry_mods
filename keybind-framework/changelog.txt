@@ -1,0 +1,17 @@
+v1.0.1 | 2026-07-12
+* Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
+* Users: keybind conflict warnings now catch clashes on Secondary keybinds too, and show up on both sides of a clash.
+* Users: fixed a Mod keybinds tab display bug (after the game's 0.8.6 update) that added an extra scrollbar and knocked the bottom buttons out of place.
+* Modders: keybinds can now be organized into secondary tabs to save space and keep things tidy - this happens automatically when mods share a bundle, or you can opt in yourself with groupsAsTabs to split your own mod's keybinds by Group. See the modder guide for details.
+* Modders: framework keybinds can now feed the game's own shortcut system directly - rebinds and conflict handling still apply. See the new section in the modder guide.
+* Added a search box to the Mod keybinds tab - search by name or combo (e.g. ctrl+n) to instantly find and rebind any mod's keybind.
+* Translation updated for all languages.
+* Thanks Herman for bringing this up and asking about it.
+
+v1.0.0 | 2026-07-10
+* All Mori mods that use keybinds will be added to KF to be able to rebind and controlled from the framework.
+* Adds a "Modded Keybinds" tab to the Settings window, right after Controls — lists hotkeys from every mod that supports it, all in one place.
+* Click a keybind field to rebind it, right-click to clear it. Each hotkey has a Primary and an optional Secondary slot.
+* Warns you if a hotkey clashes with a vanilla shortcut or another mod's hotkey, and tells you exactly which one it's clashing with.
+* If your Primary hotkey clashes with something and you've set a Secondary, it switches to the Secondary automatically.
+* Mods built on this framework keep working fine even without it installed — they just use their own default hotkeys.^

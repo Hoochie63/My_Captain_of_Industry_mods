@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 1003907565
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a704a69a3e7bf7351cc74223b2864755
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5afb00ab054c39309deddf5ee077aa12
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ModularRamp/Prefabs/ModularRampEntrance1.png
+- Assets/ModularRamp/Prefabs/ModularRampEntrance4.png
+- Assets/ModularRamp/Prefabs/ModularRampSingle_Old.png
+- Assets/ModularRamp/Prefabs/ModularRampEntrance6.png
+- Assets/ModularRamp/Prefabs/ModularRampSingle.png
+- Assets/ModularRamp/Prefabs/ModularRampCenter_Old.png
+- Assets/ModularRamp/Prefabs/ModularRampCenterSingle.png
+- Assets/ModularRamp/Prefabs/ModularRampTriple.png
+- Assets/ModularRamp/Prefabs/ModularRampEntrance_Old.png
+- Assets/ModularRamp/Prefabs/ModularRampEntrance3.png
+- Assets/ModularRamp/Prefabs/ModularRampCenter.png
+- Assets/ModularRamp/Prefabs/ModularRampDouble_Old.png
+- Assets/ModularRamp/Prefabs/ModularRampDouble.png
+- Assets/ModularRamp/Prefabs/ModularRampTriple_Old.png
+- Assets/ModularRamp/Prefabs/ModularRampEntrance2.png
+Dependencies: []

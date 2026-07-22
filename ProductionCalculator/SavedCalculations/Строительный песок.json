@@ -1,0 +1,1 @@
+﻿{"Version":1,"Name":"Строительный песок","IconProductId":"Product_ManufacturedSand","Rows":[{"Flow":"Output","ProductId":"Product_ManufacturedSand","RecipeId":"GravelCrushing","Rate":36,"Machines":4.5,"IsFixed":false},{"Flow":"Output","ProductId":"Product_Gravel","RecipeId":"RockCrushing","Rate":36,"Machines":1.5,"IsFixed":false}]}

@@ -1,0 +1,12 @@
+{
+	"id": "BetterLife_Walls",
+	"version": "1.2.3",
+	"primary_dlls": [ "BetterLife_Walls.dll" ],
+	"non_locking_dll_load": true,
+	"can_add_to_saved_game": true,
+	"authors": [ "MaViTTo", "tsdfab" ],
+	"description_short": "Retaining Walls",
+	"description_long": "Retaining walls, more to come...",
+	"display_name": "BeTTerLife: Retaining Walls",
+	"min_game_version": "0.8.6" 
+} 

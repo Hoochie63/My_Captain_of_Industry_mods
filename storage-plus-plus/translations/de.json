@@ -1,0 +1,73 @@
+{
+  "Capacity": "Kapazität",
+  "Set the transfer rate (items or fluid per 60s) for each storage type and train station module.": "Lege die Transferrate (Waren oder Flüssigkeit pro 60s) für jeden Lagertyp und jedes Zugstationsmodul fest.",
+  "Throughput": "Durchsatz",
+  "Storage Ground": "Boden-Lager",
+  "Storage Trains": "Zug-Lager",
+  "Storage Ship": "Schiffs-Lager",
+  "{0}/60s": "{0}/60s",
+
+  "Enter new capacity values and click Apply.": "Gib neue Kapazitätswerte ein und klicke auf Anwenden.",
+
+  "Apply All Changes": "Alle Änderungen anwenden",
+
+  "Reset All": "Alle zurücksetzen",
+
+  "Close": "Schließen",
+
+  "Search storages...": "Lager suchen...",
+
+  "New...": "Neu...",
+
+  "Apply": "Anwenden",
+
+  "Nothing to apply. Enter new capacity values first.": "Nichts anzuwenden. Gib zuerst neue Kapazitätswerte ein.",
+
+  "Invalid capacity value. Must be a positive number.": "Ungültiger Kapazitätswert. Muss eine positive Zahl sein.",
+
+  "All fields cleared.": "Alle Felder geleert.",
+
+  "No override set": "Keine Überschreibung festgelegt",
+
+  "Set": "Festlegen",
+
+  "Reset": "Zurücksetzen",
+
+  "Unsorted": "Unsortiert",
+
+  "Sorted": "Sortiert",
+
+  "Custom Capacity": "Benutzerdefinierte Kapazität",
+
+  "Default: {0}": "Standard: {0}",
+
+  "Current: {0}": "Aktuell: {0}",
+
+  "Enter a new capacity value for {0}.": "Gib einen neuen Kapazitätswert für {0} ein.",
+
+  "Override active: {0}": "Überschreibung aktiv: {0}",
+
+  "Fluid Storages": "Flüssigkeitslager",
+
+  "Loose Storages": "Schüttgutlager",
+
+  "Nuclear Storages": "Atomlager",
+  "Ore Sorting Storages": "Erzsortierer-Lager",
+  "Train Station Storages": "Zugbahnhof-Lager",
+
+  "Unit Storages": "Stückgutlager",
+
+  "Enter capacity...": "Kapazität eingeben...",
+
+  "Storage++": "Storage++",
+
+  "Machine Storage": "Maschinenlager",
+
+  "Machine Storage Bonus": "Maschinenlager-Bonus",
+
+  "Increase the storage buffer of every machine — how much each machine can hold of its inputs and finished products. 0% keeps the normal game size.": "Erhöht den Pufferspeicher jeder Maschine — wie viel jede Maschine an Eingangs- und Fertigprodukten halten kann. 0 % behält die normale Spielgröße bei.",
+
+  "Extra storage added to every machine's input and output buffers. 0% = default game size; at 300% machines hold up to four times as much.": "Zusätzlicher Speicher für die Eingangs- und Ausgangspuffer jeder Maschine. 0 % = Standardgröße des Spiels; bei 300 % fassen Maschinen bis zu viermal so viel.",
+  "Allow all products": "Alle Produkte zulassen",
+  "Allow all products of this storage's type (ignores normal restrictions).": "Lässt alle Produkte dieses Lagertyps zu (ignoriert die normalen Beschränkungen)."
+}

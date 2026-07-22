@@ -1,0 +1,17 @@
+{
+  "id": "PillarSpacingMod",
+  "version": "1.0.1",
+  "display_name": "Pillar Spacing and Height Mod",
+  "description_short": "Extends space and height of support pillars",
+  "description_long": "Extends space and height of support pillars",
+  "authors": [ "highlander0065" ],
+  "primary_dlls": [ "PillarSpacingMod.dll" ],
+  "min_game_version": "0.8.0",
+  "max_verified_game_version": "0.8.9",
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [],
+  "incompatible_mods": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}

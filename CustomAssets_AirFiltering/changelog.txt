@@ -1,0 +1,2 @@
+v0.0.2 | 2026-06-12:
+- fixed order of products in exhaust scrubber

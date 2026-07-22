@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 4028849014
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: cargo_sling_739c
+      Dependencies: {}
+    Info_1:
+      Name: cargo_sling_t2_ee8b
+      Dependencies: {}
+    Info_2:
+      Name: cargo_sling_t3_523d
+      Dependencies: {}
+    Info_3:
+      Name: heli_538f
+      Dependencies: {}
+    Info_4:
+      Name: icons_d8ff
+      Dependencies: {}

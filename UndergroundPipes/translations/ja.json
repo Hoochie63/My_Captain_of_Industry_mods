@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "地下パイプ",
+  "Read-out": "表示",
+  "Hover read-out at the cursor": "カーソル位置の表示",
+  "Source/destination building icons": "始点/終点の建物アイコン",
+  "Inspector": "インスペクター",
+  "Source/destination in the pipe panel": "パイプパネルの始点/終点",
+  "X-ray overlay": "透視オーバーレイ",
+  "Colour buried pipes by product": "埋設パイプを製品ごとに色分け",
+  "X-ray colour scheme": "透視のカラースキーム",
+  "X-ray brightness": "透視の明るさ",
+  "Underground pipes: show / hide the x-ray overlay": "地下パイプ：透視オーバーレイの表示/非表示",
+  "Underground pipes: allow deleting buried pipe sections": "地下パイプ：埋設区間の撤去を許可",
+  "Underground Pipes: from -> to": "地下パイプ：始点 → 終点",
+  "(empty)": "（空）",
+  "tiles": "タイル",
+  "in": "入",
+  "out": "出",
+  "from": "から",
+  "to": "へ"
+}

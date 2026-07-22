@@ -1,0 +1,31 @@
+BetterLife - Walls
+
+	1.0.0 	Initial release.
+
+	1.0.1 	Removed harmony since it is not needed.
+
+	1.0.2 	Quick fix... (sorry)
+
+	1.0.3 	Another fix.....
+
+	1.0.4 	Adding a Gate with Text, can be colorized and changed.
+
+	1.0.5 	--- skipped.
+
+	1.1.0 	Mayor update!!!
+
+		New models, significantly reduced shadow leaks.
+		Now the walls can be placed in the ocean.
+		Fixed terrain leaks also, no more terrain going through corners, etc.
+		Added two slope variants, 1 and 2 tiles high.
+		Gate UI improved.
+		
+	1.1.1 	Yes y don't stop. Added a 2nd set of retaining walls with vanilla height and specs.
+
+	1.1.2	Added 1 tile block for both sets.
+
+	1.1.3   Fixes ... fixes to 1.1.6
+
+	1.1.7   Fixed Gate was not showing text and color when opening UI.
+		Added a 2nd Block to each set of walls with decor on top.
+		

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1809317086
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4833e94b2b5ed88a273c2287cfb02f1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: be20156c96a8ab53dcd463006fd9613b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayExit.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayTrainBridgeCorner.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayTee.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/oneway_straight.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayCorner.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/rampStart1.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayBridgeExit.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayCross.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/rampMiddle1.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayTrainBridgeStraight1.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayBridgeEntrance1.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/oneway_EntranceExit.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/oneway_straightSmall.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayEntrance.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayLoadUnLoad.png
+- Assets/BetterLife/IconsRoad/RoadIndustrial/onewayBridgeStraight2x.png
+Dependencies: []

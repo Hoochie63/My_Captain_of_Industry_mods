@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 440684099
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 145cecaa23ff3435211877def74980ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dc2bee55197116c33a9879c527f02618
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: bfc04d7579ef41c62a28032492019835
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ModularRamp/Prefabs/CenterBakedColliderOld.prefab
+Dependencies:
+- C:/Userdata/CaptainOfIndustry/Mods/ModularRamp/ModularRampAssets/AssetBundles/materials_23da

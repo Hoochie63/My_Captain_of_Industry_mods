@@ -1,0 +1,15 @@
+Credits
+-------
+"Up arrow" icon by [hqrloveq] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/up-arrow_5610930]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"Down arrow" icon by [hqrloveq] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/download_5974734]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+Changed original flame icon to custom ones.
+
+-------

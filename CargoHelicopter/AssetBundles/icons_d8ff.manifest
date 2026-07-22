@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2952077393
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84eaf7137f0dc327487bb84be5720b91
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b736f21fb4c38b05835ddb560eeed91a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CargoHeli/Icons/heli_group_icon.asset
+Dependencies: []

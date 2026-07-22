@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2118227598
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 716318290250961dc7d0cd0e11bd6a94
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bdb480a2c75b3d25fa68f477d84f4d65
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3043fb3898b65d1ce977d272874f0495
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RightAngleMechanicalShaft/straight_mechanical_shaft.prefab
+Dependencies:
+- C:/Users/chris/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/animations_7d56
+- C:/Users/chris/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/materials_0d42

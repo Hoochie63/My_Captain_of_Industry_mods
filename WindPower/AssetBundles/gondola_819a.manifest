@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 1764739222
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 008a2859b8ef69d25a6b1d7b765cecc8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3d327114d43b5972739b681dd2fde218
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4ce2b86aaf651d1c4c3cbdc5d838cf45
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ca002da428252441b92f28d83c8a65f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.AutoUnwrapSettings
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Face
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Shapes.Cylinder
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.Shapes.Prism
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.SharedVertex
+- AssemblyName: Unity.ProBuilder
+  ClassName: UnityEngine.ProBuilder.UnwrapParameters
+Assets:
+- Assets/WindPower/Gondola.prefab
+Dependencies:
+- C:/git/COIM_WindPower/src/ExampleMod.Unity/AssetBundles/windpower_bef1

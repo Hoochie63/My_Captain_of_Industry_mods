@@ -1,0 +1,16 @@
+{
+    "id": "cheat-plus-plus",
+    "version": "1.2.7",
+    "display_name": "Cheat++",
+    "description": "Cheat++ gives you a full suite of creative tools. Build instantly at no cost, disable fuel, food and maintenance, and use the Magic Wand to fill or empty any storage on click. Manage your Shipyard directly, spawn any product using a favorites-based spawner, control Unity and Population, finish or unlock research in one click, reveal the map, and more.",
+    "description_short": "Creative tools for full island control — instant build, no fuel or food costs, magic wand, spawner, shipyard tab, research shortcuts, and more",
+    "authors": ["Mori"],
+    "min_game_version": "0.8.2",
+    "max_verified_game_version": "0.8.6",
+    "primary_dlls": ["0Harmony.dll", "Cheat++.dll"],
+    "optional_mod_dependencies": ["keybind-framework"],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "CheatPPMod"
+}

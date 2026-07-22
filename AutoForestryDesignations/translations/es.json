@@ -1,0 +1,298 @@
+[
+  [
+    "AFD_ForestryDesignationsTitle",
+    "Designaciones forestales"
+  ],
+  [
+    "AFD_ForestryInformationTitle",
+    "Información forestal"
+  ],
+  [
+    "AFD_CreateDesignationsBtn",
+    "Crear designaciones"
+  ],
+  [
+    "AFD_CreateDesignationsBtnTip",
+    "Escanea el área de la torre y coloca designaciones forestales."
+  ],
+  [
+    "AFD_ClearDesignationsBtnTip",
+    "Borra todas las designaciones forestales en el área de esta torre."
+  ],
+  [
+    "AFD_RefreshCompositionTip",
+    "Actualizar composición forestal"
+  ],
+  [
+    "AFD_BoolYes",
+    "Sí"
+  ],
+  [
+    "AFD_BoolNo",
+    "No"
+  ],
+  [
+    "AFD_OnlyFertileTilesLabel",
+    "Solo casillas fértiles"
+  ],
+  [
+    "AFD_OnlyFertileTilesTip",
+    "Coloca designaciones solo donde el suelo sea válido para plantar árboles: terreno fértil (no roca, arena ni océano) y sin edificios ni otras entidades ocupándolo."
+  ],
+  [
+    "AFD_OnlyReachableTilesLabel",
+    "Solo casillas accesibles"
+  ],
+  [
+    "AFD_OnlyReachableTilesTip",
+    "Cuando está activado, omite las casillas de designación que no sean accesibles por la navegación de vehículos desde el área de la torre."
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsLabel",
+    "Evitar designaciones de terreno"
+  ],
+  [
+    "AFD_AvoidTerrainDesignationsTip",
+    "Omite casillas que ya contengan alguna designación de terreno, incluidas minería, vertido o nivelación."
+  ],
+  [
+    "AFD_MaxTilesLabel",
+    "Número máximo de designaciones"
+  ],
+  [
+    "AFD_MaxTilesTip",
+    "Número máximo de casillas de designación a colocar por ejecución. 0 = sin límite (∞)."
+  ],
+  [
+    "AFD_NoForestryTowerSelected",
+    "No hay ninguna torre de control forestal seleccionada."
+  ],
+  [
+    "AFD_NoForestryDesignations",
+    "No hay designaciones forestales."
+  ],
+  [
+    "AFD_PressToScanComposition",
+    "Pulsa ↺ para escanear la composición forestal."
+  ],
+  [
+    "AFD_KpiTreesLabel",
+    "Árboles"
+  ],
+  [
+    "AFD_KpiMaturityLabel",
+    "Madurez"
+  ],
+  [
+    "AFD_KpiSustainableYieldLabel",
+    "Rendimiento sostenible"
+  ],
+  [
+    "AFD_KpiTreesTip",
+    "Recuento en vivo de los árboles gestionados actuales dentro del área forestal de esta torre. El primer número son los árboles ahora mismo; el segundo es el máximo estimado según las posiciones de plantación válidas actualmente."
+  ],
+  [
+    "AFD_KpiMaturityTipFmt",
+    "Madurez media y edad actual de los árboles gestionados. La madurez completa es actualmente <b>{0}</b>, incluidos los ajustes de dificultad."
+  ],
+  [
+    "AFD_KpiSustainableYieldTipFmt",
+    "Producción máxima de madera a largo plazo que puede mantenerse en esta torre por mes de juego, teniendo en cuenta el área designada, el umbral de cosecha y la velocidad de crecimiento de los árboles según los ajustes de dificultad (actualmente <b>{0}</b> de madurez completa media)."
+  ],
+  [
+    "AFD_GrowthBreakdownHeader",
+    "Desglose de crecimiento"
+  ],
+  [
+    "AFD_GrowthBreakdownTipFmt",
+    "Desglose de madurez de árboles entre los árboles gestionados. La edad de madurez completa depende del tipo de árbol y la dificultad; la madurez completa media actual es {0}. Curva de rendimiento forestal vanilla: 40% de edad = 30% de rendimiento, 60% = 60%, 80% = 88%, 100% = completo."
+  ],
+  [
+    "AFD_GrowthHeaderTipNoCutFmt",
+    "Distribución por madurez relativa a la edad de crecimiento completo actual de cada árbol. Opción de cosecha: no cortar. Madurez completa media: {0}."
+  ],
+  [
+    "AFD_GrowthHeaderTipWithCutFmt",
+    "Distribución por madurez relativa a la edad de crecimiento completo actual de cada árbol. Opción de cosecha: {0} ({1}% de un árbol de crecimiento completo de {2})."
+  ],
+  [
+    "AFD_HarvestThresholdTip",
+    "Umbral de cosecha"
+  ],
+  [
+    "AFD_SegmentTipFmt",
+    "<b>{0}</b>\n{1} árboles ({2:P0} de los plantados, {3:P0} de la capacidad)\n{4}"
+  ],
+  [
+    "AFD_SegmentAboveHarvest",
+    "por encima del umbral de cosecha"
+  ],
+  [
+    "AFD_SegmentBelowHarvest",
+    "por debajo del umbral de cosecha"
+  ],
+  [
+    "AFD_UnusedCapacityTipFmt",
+    "Capacidad sin usar: {0} casillas ({1:P0} de la capacidad)"
+  ],
+  [
+    "AFD_SegmentInteractionHint",
+    "Pasa el cursor para resaltar los árboles de esta etapa.\nHaz clic para marcarlos o desmarcarlos para cosecha."
+  ],
+  [
+    "AFD_SettingsModName",
+    "Designaciones forestales automáticas"
+  ],
+  [
+    "AFD_SettingsTabDefaults",
+    "Valores predeterminados"
+  ],
+  [
+    "AFD_SettingsTabGameSettings",
+    "Ajustes del juego"
+  ],
+  [
+    "AFD_SettingsHeadingForestryTowerDefaults",
+    "Predeterminados de torre forestal"
+  ],
+  [
+    "AFD_SettingsHeadingDesignationDefaults",
+    "Predeterminados de designación"
+  ],
+  [
+    "AFD_SettingsHeadingScanPerformance",
+    "Rendimiento de escaneo"
+  ],
+  [
+    "AFD_SettingsHeadingPanelDefaults",
+    "Predeterminados de paneles"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesLabel",
+    "Evitar casillas con árboles"
+  ],
+  [
+    "AFD_SettingsAvoidTilesWithTreesTip",
+    "Predeterminado: omitir casillas que ya contienen un árbol al crear designaciones."
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyLabel",
+    "Marcar árboles listos para cosecha"
+  ],
+  [
+    "AFD_SettingsMarkHarvestReadyTip",
+    "Predeterminado: después de crear designaciones, marcar automáticamente para cosecha los árboles que alcancen el umbral de la torre."
+  ],
+  [
+    "AFD_SettingsBatchSizeLabel",
+    "Tamaño de lote"
+  ],
+  [
+    "AFD_SettingsBatchSizeTip",
+    "Número de designaciones colocadas por fotograma. Menor = más respuesta; mayor = escaneos más rápidos. Limitado a 1-200."
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedLabel",
+    "Panel forestal contraído"
+  ],
+  [
+    "AFD_SettingsForestryPanelCollapsedTip",
+    "Estado contraído predeterminado del panel de designaciones forestales al abrir el inspector de una torre."
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedLabel",
+    "Panel de información contraído"
+  ],
+  [
+    "AFD_SettingsInfoPanelCollapsedTip",
+    "Estado contraído predeterminado del panel de información forestal al abrir el inspector de una torre."
+  ],
+  [
+    "AFD_SettingsSaveAsGlobal",
+    "Guardar como config"
+  ],
+  [
+    "AFD_SettingsSaveAsGlobalTooltip",
+    "Guarda estos ajustes en AFDsettings.json. Se usarán como valores predeterminados para todas las partidas nuevas."
+  ],
+  [
+    "AFD_SettingsSavedToFile",
+    "Guardado en AFDsettings.json."
+  ],
+  [
+    "AFD_SettingsSaveFailed",
+    "Error al guardar - revisa el registro"
+  ],
+  [
+    "AFD_SettingsRestoreDefaults",
+    "Restablecer predeterminados"
+  ],
+  [
+    "AFD_SettingsRestoreDefaultsTooltip",
+    "Restablece todos los valores predeterminados de designación y panel a sus valores integrados. (No los guarda automáticamente como config.)"
+  ],
+  [
+    "AFD_SettingsRestoredDefaults",
+    "Predeterminados restaurados"
+  ],
+  [
+    "AFD_NewlyPlantedTip",
+    "Recién plantado / madurez más baja"
+  ],
+  [
+    "AFD_FullyGrownTipFmt",
+    "Crecimiento completo / madurez más alta ({0} de madurez completa media en esta torre)."
+  ],
+  [
+    "AFD_BucketFullyMatureFmt",
+    "Madurez completa ({0}, 100%)"
+  ],
+  [
+    "AFD_BucketNewlyPlantedName",
+    "Recién plantado"
+  ],
+  [
+    "AFD_BucketYoungName",
+    "Joven"
+  ],
+  [
+    "AFD_BucketGrowingName",
+    "En crecimiento"
+  ],
+  [
+    "AFD_BucketMaturingName",
+    "Madurando"
+  ],
+  [
+    "AFD_BucketNearlyMatureName",
+    "Casi maduro"
+  ],
+  [
+    "AFD_BucketRangeFmt",
+    "{0} ({1}–{2}; {3:P0}–{4:P0})"
+  ],
+  [
+    "AFD_OrderConstructionTooltip",
+    "Ponga en cola un {0} para {2} en {1}"
+  ],
+  [
+    "AFD_PreAssignedTooltipFmt",
+    "Preasignado a {0}"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptSingular",
+    "¿Poner en cola un {0} para {2} en {1}?"
+  ],
+  [
+    "AFD_EnqueueConfirmPromptPlural",
+    "¿Poner en cola {0} {1} para {3} en {2}?"
+  ],
+  [
+    "AFD_EnqueueConfirmBtnText",
+    "poner en cola"
+  ],
+  [
+    "AFD_ZoomToDepotTooltip",
+    "Ampliar a {0}"
+  ]
+]

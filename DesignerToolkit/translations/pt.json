@@ -1,0 +1,506 @@
+[
+  [
+    "dtk.mod.name",
+    "Kit de ferramentas para designers de plantas"
+  ],
+  [
+    "dtk.settings.tab.markdown",
+    "Configurações"
+  ],
+  [
+    "dtk.settings.markdown_copy.heading",
+    "Cópia Markdown"
+  ],
+  [
+    "dtk.settings.markdown_table_language.label",
+    "Idioma das tabelas Markdown"
+  ],
+  [
+    "dtk.settings.markdown_table_language.description",
+    "Controla qual idioma os cabeçalhos das tabelas Markdown e os nomes de produtos/entidades devem usar."
+  ],
+  [
+    "dtk.settings.markdown_table_language.pending",
+    "Inglês, Local, Ambos e Híbrido já estão conectados à exportação Markdown."
+  ],
+  [
+    "dtk.settings.markdown_number_format.label",
+    "Formato de números Markdown"
+  ],
+  [
+    "dtk.settings.markdown_number_format.description",
+    "Controla os separadores decimais e de milhares nas exportações Markdown. Auto segue o idioma da tabela renderizada: tabelas em inglês usam separadores en-US e tabelas locais usam o idioma atual do jogo."
+  ],
+  [
+    "dtk.settings.language.english",
+    "Inglês"
+  ],
+  [
+    "dtk.settings.language.local",
+    "Local"
+  ],
+  [
+    "dtk.settings.language.both",
+    "Ambos"
+  ],
+  [
+    "dtk.settings.language.hybrid",
+    "Híbrido"
+  ],
+  [
+    "dtk.settings.number_format.auto",
+    "Auto"
+  ],
+  [
+    "dtk.settings.number_format.english",
+    "Separadores em inglês"
+  ],
+  [
+    "dtk.settings.number_format.local",
+    "Separadores locais"
+  ],
+  [
+    "dtk.settings.instant_build.heading",
+    "CONSTRUÇÃO INSTANTÂNEA"
+  ],
+  [
+    "dtk.settings.instant_build_mode.label",
+    "Modo de construção instantânea"
+  ],
+  [
+    "dtk.settings.instant_build_mode.description",
+    "Completa automaticamente e instantaneamente construção, demolição, upgrades e downgrades sem materiais, trabalhadores ou unidade (mesmo em pausa). Ativar isso também desativa o interruptor de construção instantânea do jogo."
+  ],
+  [
+    "dtk.settings.instant_build_mode.sandbox_only",
+    "Vai jogar na sandbox, seu preguiçoso!"
+  ],
+  [
+    "dtk.settings.legacy_belt_configurations.label",
+    "Permitir esteiras inclinadas curvas"
+  ],
+  [
+    "dtk.settings.legacy_belt_configurations.description",
+    "Ativa a construção de transportes no estilo da Atualização 1, permitindo que os transportes virem e subam/desçam no mesmo tile (tornando possível construir esteiras inclinadas curvas diretamente)."
+  ],
+  [
+    "dtk.rate_limit.title",
+    "Limitador de throughput"
+  ],
+  [
+    "dtk.rate_limit.enable",
+    "Limitar throughput"
+  ],
+  [
+    "dtk.rate_limit.sandbox_only",
+    "A limitação de throughput só está disponível no modo sandbox."
+  ],
+  [
+    "dtk.rate_limit.items_per_min",
+    "items/min"
+  ],
+  [
+    "dtk.settings.transport_construction.heading",
+    "CONSTRUÇÃO DE TRANSPORTE"
+  ],
+  [
+    "dtk.settings.transport_cleanup.heading",
+    "LIMPEZA DE TRANSPORTE"
+  ],
+  [
+    "dtk.settings.transport_cleanup_hotkey.label",
+    "Atalho de limpeza de transporte"
+  ],
+  [
+    "dtk.settings.height_filter.heading",
+    "FILTRO DE ALTURA"
+  ],
+  [
+    "dtk.settings.height_filter_max_visible.label",
+    "Camadas visíveis"
+  ],
+  [
+    "dtk.settings.height_filter_max_visible.description",
+    "Limita o nível de altura de transportes, estruturas e pilares renderizados no mundo."
+  ],
+  [
+    "dtk.settings.height_filter_show_hotkey.label",
+    "Atalho para mostrar camada"
+  ],
+  [
+    "dtk.settings.height_filter_hide_hotkey.label",
+    "Atalho para ocultar camada"
+  ],
+  [
+    "dtk.settings.global_hotkey.description",
+    "Este atalho de teclado é registrado no sistema de controles do jogo e pode ser configurado em Configurações | Menu de controles."
+  ],
+  [
+    "dtk.settings.action.restore_defaults",
+    "Restaurar padrões"
+  ],
+  [
+    "dtk.settings.action.restore_defaults.tooltip",
+    "Restaurar os padrões globais do mod para todas as configurações."
+  ],
+  [
+    "dtk.settings.action.save_as_global",
+    "Salvar como config.json"
+  ],
+  [
+    "dtk.settings.action.save_as_global.tooltip",
+    "Salvar estas configurações em config.json. Elas serão usadas como padrão para todos os novos jogos."
+  ],
+  [
+    "dtk.settings.status.restored_defaults",
+    "Padrões internos restaurados na memória."
+  ],
+  [
+    "dtk.settings.status.saved_to_config",
+    "Salvo em config.json."
+  ],
+  [
+    "dtk.settings.status.save_failed",
+    "Falha ao salvar: {0}"
+  ],
+  [
+    "dtk.settings.status.store_not_initialized",
+    "Falha ao salvar: armazenamento de configurações não inicializado."
+  ],
+  [
+    "dtk.blueprint.copy_as_markdown.button",
+    "Copiar como Markdown"
+  ],
+  [
+    "dtk.blueprint.copy_as_markdown.tooltip",
+    "Copia as estatísticas do plano como uma tabela Markdown para a área de transferência, pronta para colar no Hub."
+  ],
+  [
+    "dtk.blueprint.copy_folder_as_markdown.tooltip",
+    "Copia a lista de planos da pasta como uma tabela Markdown para a área de transferência."
+  ],
+  [
+    "dtk.markdown.components.heading",
+    "Componentes"
+  ],
+  [
+    "dtk.markdown.construction.heading",
+    "Construção"
+  ],
+  [
+    "dtk.markdown.operational.heading",
+    "Operacional"
+  ],
+  [
+    "dtk.markdown.entity.header",
+    "Entidade"
+  ],
+  [
+    "dtk.markdown.count.header",
+    "Contagem"
+  ],
+  [
+    "dtk.markdown.product.header",
+    "Produto"
+  ],
+  [
+    "dtk.markdown.quantity.header",
+    "Quantidade"
+  ],
+  [
+    "dtk.markdown.property.header",
+    "Propriedade"
+  ],
+  [
+    "dtk.markdown.value.header",
+    "Valor"
+  ],
+  [
+    "dtk.markdown.blueprint.header",
+    "Plano"
+  ],
+  [
+    "dtk.markdown.folder.header",
+    "Pasta"
+  ],
+  [
+    "dtk.markdown.entities.stat",
+    "Entidades"
+  ],
+  [
+    "dtk.markdown.per_month.suffix",
+    "/ mês"
+  ],
+  [
+    "dtk.throughput.title",
+    "Produtividade"
+  ],
+  [
+    "dtk.throughput.display",
+    "Exibir throughput"
+  ],
+  [
+    "dtk.throughput.days_to_average",
+    "dias para média"
+  ],
+  [
+    "dtk.settings.throughput.heading",
+    "PRODUTIVIDADE"
+  ],
+  [
+    "dtk.settings.throughput_toggle.label",
+    "Sobreposição de fluxo"
+  ],
+  [
+    "dtk.settings.throughput_toggle.description",
+    "Ativa/desativa as sobreposições de fluxo no mundo. A exibição de entidades individuais ainda deve ser ativada no inspetor ou pela ferramenta de fluxo."
+  ],
+  [
+    "dtk.settings.throughput_glow.label",
+    "Ativar efeito de brilho do mapa de calor"
+  ],
+  [
+    "dtk.settings.throughput_glow.description",
+    "Lance uma luz brilhante no chão combinando com a cor do mapa de calor. Opera independentemente da sobreposição de texto. Desative se estiver causando atraso."
+  ],
+  [
+    "dtk.settings.throughput_toggle_hotkey.label",
+    "Atalho de sobreposição de throughput"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.label",
+    "Colorização de fluxo (mapa de calor)"
+  ],
+  [
+    "dtk.settings.throughput_colorblind.label",
+    "Cores para daltônicos"
+  ],
+  [
+    "dtk.settings.throughput_colorblind.description",
+    "Muda os gradientes do mapa de calor de Verde-Laranja-Vermelho para Azul-Amarelo-Vermelho para melhor visibilidade."
+  ],
+  [
+    "dtk.settings.throughput_show_as_percent.label",
+    "Mostrar throughput como porcentagem"
+  ],
+  [
+    "dtk.settings.throughput_show_as_percent.description",
+    "Muda o formato de exibição de throughput no mundo de números absolutos (itens/min) para uma porcentagem da capacidade máxima."
+  ],
+  [
+    "dtk.throughput.aoe_tool.name",
+    "Ferramenta de área de throughput"
+  ],
+  [
+    "dtk.throughput.aoe_tool.tooltip",
+    "Clique e arraste para selecionar uma área, depois configure as exibições de throughput para todas as entidades selecionadas por tipo."
+  ],
+  [
+    "dtk.throughput.aoe_tool.window_title",
+    "Configurar throughput na área"
+  ],
+  [
+    "dtk.throughput.aoe_tool.apply",
+    "Aplicar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.close",
+    "Fechar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.no_change",
+    "Sem alteração"
+  ],
+  [
+    "dtk.throughput.aoe_tool.enable",
+    "Ativar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.disable",
+    "Desativar"
+  ],
+  [
+    "dtk.throughput.aoe_tool.override_days_label",
+    "Definir período de média"
+  ],
+  [
+    "dtk.throughput.days",
+    "dias"
+  ],
+  [
+    "dtk.throughput.aoe_tool.global_header",
+    "Configurações em lote"
+  ],
+  [
+    "dtk.throughput.aoe_tool.global_display",
+    "Estado de exibição: "
+  ],
+  [
+    "dtk.throughput.aoe_tool.select_all_label",
+    "Selecionar/desmarcar tudo"
+  ],
+  [
+    "dtk.settings.throughput_aoe_tool_hotkey.label",
+    "Atalho da ferramenta de throughput"
+  ],
+  [
+    "dtk.settings.layout_box.heading",
+    "CAIXAS DE LAYOUT"
+  ],
+  [
+    "dtk.settings.layout_box.label",
+    "Alternar sobreposição da caixa de layout"
+  ],
+  [
+    "dtk.settings.layout_box.description",
+    "Permite que uma sobreposição de raio-X renderize caixas delimitadoras de voxel ao redor de edifícios para mostrar seu layout e espaço livre."
+  ],
+  [
+    "dtk.settings.layout_box_hotkey.label",
+    "Alternar tecla de atalho de sobreposição da caixa de layout"
+  ],
+  [
+    "dtk.settings.recycle_bin.heading",
+    "LIXEIRA"
+  ],
+  [
+    "dtk.settings.use_recycle_bin.label",
+    "Usar lixeira"
+  ],
+  [
+    "dtk.settings.use_recycle_bin.description",
+    "Quando ativado, os blueprints e as pastas são copiados para a lixeira antes da exclusão ou atualização, e o pop-up de confirmação de exclusão é suprimido."
+  ],
+  [
+    "dtk.settings.recycle_bin_folder_name.label",
+    "Nome da pasta"
+  ],
+  [
+    "dtk.settings.recycle_bin_folder_name.description",
+    "O nome da pasta na raiz do livro do blueprint a ser usada como Lixeira."
+  ],
+  [
+    "dtk.settings.undo.heading",
+    "DESFAZER COLOCAÇÃO"
+  ],
+  [
+    "dtk.settings.undo_hotkey.label",
+    "Atalho para desfazer colocação"
+  ],
+  [
+    "dtk.undo.success",
+    "Desfazer: colocação revertida com sucesso."
+  ],
+  [
+    "dtk.undo.no_action",
+    "Desfazer: nenhuma ação de posicionamento para reverter."
+  ],
+  [
+    "dtk.settings.pollution.heading",
+    "SOBREPOSIÇÃO DE POLUIÇÃO"
+  ],
+  [
+    "dtk.settings.pollution_toggle.label",
+    "Sobreposição de poluição"
+  ],
+  [
+    "dtk.settings.pollution_toggle.description",
+    "Ativa/desativa a sobreposição da taxa de poluição no mundo. Exibe médias ao longo dos dias configurados. Esses valores incluem os efeitos das configurações de dificuldade do jogo e das tecnologias pesquisadas de redução da poluição."
+  ],
+  [
+    "dtk.settings.pollution_glow.label",
+    "Ativar efeito de brilho do mapa de calor"
+  ],
+  [
+    "dtk.settings.pollution_glow.description",
+    "Projeta uma luz brilhante sobre entidades poluentes, correspondente à intensidade de emissão delas. Desative se estiver causando lentidão."
+  ],
+  [
+    "dtk.settings.pollution_days.label",
+    "Período de média"
+  ],
+  [
+    "dtk.settings.pollution_days.description",
+    "Configura a janela deslizante em dias de jogo [0-360] para calcular a média das emissões. Definir como 0 desativa completamente a coleta de dados e os patches."
+  ],
+  [
+    "dtk.settings.pollution_show_air.label",
+    "Mostrar poluição do ar"
+  ],
+  [
+    "dtk.settings.pollution_show_air.description",
+    "Ativa/desativa a sobreposição da taxa de poluição mundial para emissões atmosféricas gasosas (chaminés/chamas)."
+  ],
+  [
+    "dtk.settings.pollution_show_ground.label",
+    "Mostrar poluição da água"
+  ],
+  [
+    "dtk.settings.pollution_show_ground.description",
+    "Ativa/desativa a sobreposição da taxa de poluição mundial para descargas de água líquida (emissários de águas residuais)."
+  ],
+  [
+    "dtk.settings.pollution_show_vehicle.label",
+    "Mostrar poluição de veículos e trens"
+  ],
+  [
+    "dtk.settings.pollution_show_vehicle.description",
+    "Ativa/desativa a sobreposição da taxa de poluição mundial para veículos e locomotivas."
+  ],
+  [
+    "dtk.settings.pollution_show_ship.label",
+    "Mostrar poluição de navios"
+  ],
+  [
+    "dtk.settings.pollution_show_ship.description",
+    "Ativa/desativa a sobreposição da taxa de poluição mundial para navios. Exibe a taxa de poluição prevista com base no tempo de ida e volta da rota de carga atual e no consumo de combustível. Esses valores incluem os efeitos das configurações de dificuldade do jogo e das tecnologias pesquisadas de redução da poluição."
+  ],
+  [
+    "dtk.settings.pollution_toggle_hotkey.label",
+    "Atalho da sobreposição de poluição"
+  ],
+  [
+    "dtk.settings.place_folder.heading",
+    "COLOCAR PASTA"
+  ],
+  [
+    "dtk.settings.blueprint_spacing.label",
+    "Espaçamento da planta"
+  ],
+  [
+    "dtk.settings.blueprint_spacing.description",
+    "Espaçamento (em blocos) entre plantas colocadas lado a lado durante a colocação em lote [0-12]."
+  ],
+  [
+    "dtk.blueprint.place_all.button",
+    "Colocar tudo"
+  ],
+  [
+    "dtk.blueprint.place_all.tooltip",
+    "Colocar todas as plantas nesta pasta."
+  ],
+  [
+    "dtk.settings.height_filter.all",
+    "Todos"
+  ],
+  [
+    "dtk.settings.height_filter.controls_tooltip",
+    "Esses atalhos de teclado são registrados no sistema de controles do jogo e podem ser configurados em Configurações | Menu de controles."
+  ],
+  [
+    "dtk.settings.throughput_heatmap.none",
+    "Nenhum"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.relative",
+    "Relativo"
+  ],
+  [
+    "dtk.settings.throughput_heatmap.capacity",
+    "Capacidade"
+  ],
+  [
+    "dtk.settings.hotkey.or",
+    "ou"
+  ]
+]

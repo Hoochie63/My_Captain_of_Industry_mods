@@ -1,0 +1,13 @@
+v0.3.0 | 2026-07-17
+* Rebuild for Update 4.2 (0.8.6+)
+* Slightly improved wording for the "Iron production" tutorial goal
+
+v0.2.1 | 2026-06-01
+* Fixed particle effects of flare
+
+v0.2.0 | 2026-05-10
+* Added thumbnail
+* Changed mod license to COI-Open
+
+v0.1.0 | 2026-03-22
+* Initial release

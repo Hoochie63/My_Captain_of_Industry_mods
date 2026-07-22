@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "Підземні труби",
+  "Read-out": "Показники",
+  "Hover read-out at the cursor": "Показники біля курсора",
+  "Source/destination building icons": "Іконки будівель джерела/призначення",
+  "Inspector": "Інспектор",
+  "Source/destination in the pipe panel": "Джерело/призначення в панелі труби",
+  "X-ray overlay": "Рентген-підсвітка",
+  "Colour buried pipes by product": "Колір закопаних труб за продуктом",
+  "X-ray colour scheme": "Колірна схема рентгену",
+  "X-ray brightness": "Яскравість рентгену",
+  "Underground pipes: show / hide the x-ray overlay": "Підземні труби: показати/сховати рентген-підсвітку",
+  "Underground pipes: allow deleting buried pipe sections": "Підземні труби: дозволити знесення закопаних ділянок",
+  "Underground Pipes: from -> to": "Підземні труби: звідки → куди",
+  "(empty)": "(порожньо)",
+  "tiles": "клітин",
+  "in": "вхід",
+  "out": "вихід",
+  "from": "з",
+  "to": "у"
+}

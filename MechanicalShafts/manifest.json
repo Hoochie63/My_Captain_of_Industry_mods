@@ -1,0 +1,13 @@
+{
+  "id": "MechanicalShafts",
+  "version": "1.0.1",
+  "display_name": "Mechanical Shafts",
+  "description_short": "Compact mechanical shaft fittings for cleaner mechanical power routing.",
+  "description_long": "Adds compact mechanical shaft connectors, including straight, 90°, T, and cross shaft pieces for cleaner mechanical power layouts.",
+  "authors": "ChrisMac",
+  "primary_dlls": [
+    "RightAngleMechanicalShaft.dll"
+  ],
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false
+}

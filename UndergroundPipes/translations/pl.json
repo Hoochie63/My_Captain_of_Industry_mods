@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "Podziemne rury",
+  "Read-out": "Odczyt",
+  "Hover read-out at the cursor": "Odczyt przy kursorze",
+  "Source/destination building icons": "Ikony budynku źródłowego/docelowego",
+  "Inspector": "Inspektor",
+  "Source/destination in the pipe panel": "Źródło/cel w panelu rury",
+  "X-ray overlay": "Nakładka rentgenowska",
+  "Colour buried pipes by product": "Koloruj zakopane rury według produktu",
+  "X-ray colour scheme": "Schemat kolorów rentgena",
+  "X-ray brightness": "Jasność rentgena",
+  "Underground pipes: show / hide the x-ray overlay": "Podziemne rury: pokaż/ukryj nakładkę rentgenowską",
+  "Underground pipes: allow deleting buried pipe sections": "Podziemne rury: zezwól na usuwanie zakopanych odcinków",
+  "Underground Pipes: from -> to": "Podziemne rury: z → do",
+  "(empty)": "(puste)",
+  "tiles": "pól",
+  "in": "wejście",
+  "out": "wyjście",
+  "from": "z",
+  "to": "do"
+}

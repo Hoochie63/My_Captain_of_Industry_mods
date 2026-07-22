@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2121815583
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e02f19c4e5144e273fbdea72d94d58a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 087f672faf63b4d78ccf05ed874a8d8e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsWalls/Toolbar_Walls/toolbar_Walls.png
+- Assets/BetterLife/IconsWalls/Toolbar_Walls/toolbar_legacywalls.png
+- Assets/BetterLife/IconsWalls/Toolbar_Walls/toolbar_extendedwalls.png
+Dependencies: []

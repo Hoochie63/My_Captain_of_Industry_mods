@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 830786135
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 410660acac5cecefb03756b1ce4c7bf7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 423ee4adc0b764d0d779bc3a3425aa2d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1Pillar.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1Straight.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1StraightLong.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1SmallRamp.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1StraightShort.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1TSection.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1LargeRamp.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1Cross.png
+- Assets/BetterLife/IconsRoad/RoadsDirt/Road1Corner.png
+Dependencies: []

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 1672624873
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4b29a9106f2318ad6e87961eb285aa6b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cdee43ec01eabd2d116a51c3cf172d58
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2028b1fbe55f426ad52291a6f1ea052f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Transports/transportbars/prefabs/shaft/transbar04shaft.prefab
+Dependencies:
+- D:/Modding/CaptainOfIndustry/BetterLife_Transports_Unity/AssetBundles/materials_transport_d9d1

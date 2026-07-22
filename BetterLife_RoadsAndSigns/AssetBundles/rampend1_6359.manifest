@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 2619241477
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c393554973fa146b0d37ce2bf6344a4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 731933f9c84f82b45e842ab6918f97d1
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 31e9cc455473887d3eeef4b341d04ea6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Roads/ramp1/rampEnd1.prefab
+Dependencies: []

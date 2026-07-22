@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3893278518
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f400aad288bb4facbe92a9049546a7fd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5755ca5a5d2e674baf8e492aa3c274d5
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/Icons_Transport/TransportIcons/balancerflat/balancer3flat.png
+- Assets/BetterLife/Icons_Transport/TransportIcons/balancerflat/balancer2flat.png
+- Assets/BetterLife/Icons_Transport/TransportIcons/balancerflat/balancer0flat.png
+- Assets/BetterLife/Icons_Transport/TransportIcons/balancerflat/balancer5flat.png
+- Assets/BetterLife/Icons_Transport/TransportIcons/balancerflat/balancer4flat.png
+- Assets/BetterLife/Icons_Transport/TransportIcons/balancerflat/balancer1flat.png
+Dependencies: []

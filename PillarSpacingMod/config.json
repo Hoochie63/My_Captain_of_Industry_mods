@@ -1,0 +1,29 @@
+{
+    "PillarRadius": {
+        "default": 6,
+        "is_integer": true,
+        "min": 1,
+        "max": 20,
+        "description": "Max distance a transport pillar can support (mod default: 6, base game default: 4)"
+    },
+    "MaxPillarHeight": {
+        "default": 8,
+        "is_integer": true,
+        "min": 1,
+        "max": 20,
+        "description": "Max height of transport pillars (mod default: 8, base game default: 6)"
+    },
+    "MaxTrainPillarHeight": {
+        "default": 8,
+        "is_integer": true,
+        "min": 1,
+        "max": 20,
+        "description": "Max height of train track pillars (mod default: 8, base game default: 6)"
+    },
+    "TrainPillarSupportDistance": {
+        "default": 10.0,
+        "min": 1.0,
+        "max": 50.0,
+        "description": "Max distance a train pillar can support (mod default: 10.0, base game default: 7.0)"
+    }
+}

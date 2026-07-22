@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 3824572581
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40a2566c5380df6b4dda5a1c805f8ad6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 89cd747e0eec18591153ddb189bdfd18
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/Signs/workers.png
+- Assets/BetterLife/IconsRoad/Signs/limit50.png
+- Assets/BetterLife/IconsRoad/Signs/limit80.png
+- Assets/BetterLife/IconsRoad/Signs/sign_300m.png
+- Assets/BetterLife/IconsRoad/Signs/tunnel.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Stop.png
+- Assets/BetterLife/IconsRoad/Signs/autoSign.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_CedaElPaso.png
+- Assets/BetterLife/IconsRoad/Signs/sign_100m.png
+- Assets/BetterLife/IconsRoad/Signs/prohibidoelpaso.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Drop.png
+- Assets/BetterLife/IconsRoad/Signs/DobleSentido2.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Train.png
+- Assets/BetterLife/IconsRoad/Signs/limit120.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Fwd.png
+- Assets/BetterLife/IconsRoad/Signs/sign_200m.png
+- Assets/BetterLife/IconsRoad/Signs/limit100.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Lft.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Rocks.png
+- Assets/BetterLife/IconsRoad/Signs/coisign1.png
+- Assets/BetterLife/IconsRoad/Signs/pedestian.png
+- Assets/BetterLife/IconsRoad/Signs/highway.png
+Dependencies: []

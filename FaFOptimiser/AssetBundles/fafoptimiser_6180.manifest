@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 84625482
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 80b2d5208b45fb323a64cf3f36088f30
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 64be7d057610758daaee207a7cdd6901
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FaFoptimiser/target.png
+- Assets/FaFoptimiser/target3.png
+- Assets/FaFoptimiser/cog1.png
+- Assets/FaFoptimiser/target1.png
+Dependencies: []

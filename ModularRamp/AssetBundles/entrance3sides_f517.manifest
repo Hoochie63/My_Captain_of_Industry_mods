@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 2724600930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 86dc84d096d72ed2bf1c02f4fcae5178
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3219c50854ff2a782d7e36576b5dbf5b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9a0f6fe644f8a71e5592affd1dc394bc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ModularRamp/Prefabs/Entrance3Sides.prefab
+Dependencies:
+- C:/Userdata/CaptainOfIndustry/Mods/ModularRamp/ModularRampAssets/AssetBundles/materials_23da

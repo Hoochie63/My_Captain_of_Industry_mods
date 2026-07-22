@@ -1,0 +1,666 @@
+[
+  [
+    "common.level.off",
+    "Spento"
+  ],
+  [
+    "common.level.low",
+    "Basso"
+  ],
+  [
+    "common.level.med",
+    "Medio"
+  ],
+  [
+    "common.level.high",
+    "Alto"
+  ],
+  [
+    "common.level.max",
+    "Massimo"
+  ],
+  [
+    "panel.designations.title",
+    "Designazioni minerarie"
+  ],
+  [
+    "panel.designations.description",
+    "Crea le designazioni automatiche del terreno per questa torre."
+  ],
+  [
+    "panel.designations.create_button",
+    "Crea designazioni"
+  ],
+  [
+    "panel.designations.create_tooltip",
+    "Esegui una scansione e posiziona i contrassegni di estrazione nell'area di questa torre."
+  ],
+  [
+    "panel.designations.debris_tooltip",
+    "Posiziona le designazioni per la rimozione dei detriti sulle celle non occupate raggiungibili. Fare clic tenendo premuto Ctrl per includere detriti irraggiungibili. Fare clic tenendo premuto il tasto Maiusc per sostituire anche le designazioni di terreno e silvicoltura esistenti."
+  ],
+  [
+    "panel.designations.clear_tooltip",
+    "Cancella le designazioni generate dall'ATD di questa torre. Fai clic tenendo premuto il tasto Maiusc per cancellare tutte le designazioni del terreno nell'area della torre."
+  ],
+  [
+    "panel.designations.clear_tooltip.shift_click",
+    "Cancella le designazioni generate dall'ATD di questa torre. Fai clic tenendo premuto il tasto Maiusc per cancellare tutte le designazioni del terreno nell'area della torre."
+  ],
+  [
+    "panel.designations.ore_filter.auto",
+    "AUTO"
+  ],
+  [
+    "panel.designations.accessway_mode.label",
+    "Modalità di accesso"
+  ],
+  [
+    "panel.designations.accessway_mode.legacy_3",
+    "Eredità 3"
+  ],
+  [
+    "panel.designations.accessway_mode.legacy_4",
+    "Eredità 4"
+  ],
+  [
+    "panel.designations.accessway_mode.legacy_5",
+    "Eredità 5"
+  ],
+  [
+    "panel.designations.accessway_mode.off.tooltip",
+    "Disabilitare accessi e rampe generati."
+  ],
+  [
+    "panel.designations.accessway_mode.auto.tooltip",
+    "Usa l'escavatore più grande assegnato o pre-assegnato a questa torre, poi l'escavatore più grande presente sulla mappa. In assenza di escavatori, AUTO si comporta come OFF."
+  ],
+  [
+    "panel.designations.accessway_mode.t1.tooltip",
+    "Genera accessi tracciati utilizzando la percorribilità dell'escavatore T1."
+  ],
+  [
+    "panel.designations.accessway_mode.t2.tooltip",
+    "Genera accessi tracciati utilizzando la percorribilità dell'escavatore T2."
+  ],
+  [
+    "panel.designations.accessway_mode.t3.tooltip",
+    "Genera accessi con percorso a due corsie utilizzando la percorribilità degli escavatori T3/Mega."
+  ],
+  [
+    "panel.designations.accessway_mode.legacy_3.tooltip",
+    "Genera solo una rampa diritta legacy larga tre celle di designazione, convalidata per escavatori T3/Mega."
+  ],
+  [
+    "panel.designations.accessway_mode.legacy_4.tooltip",
+    "Genera solo una rampa diritta legacy larga quattro celle di designazione, convalidata per escavatori T3/Mega."
+  ],
+  [
+    "panel.designations.accessway_mode.legacy_5.tooltip",
+    "Genera solo una rampa diritta legacy larga cinque celle di designazione, convalidata per escavatori T3/Mega."
+  ],
+  [
+    "panel.designations.max_layers.label",
+    "Numero massimo di strati da scavare"
+  ],
+  [
+    "panel.designations.max_layers.tooltip",
+    "Numero massimo di strati da scavare dalla superficie. (∞ = nessun limite.)"
+  ],
+  [
+    "panel.designations.elevation_limit.label",
+    "Limite di quota"
+  ],
+  [
+    "panel.designations.elevation_limit.tooltip",
+    "Profondità massima (assoluta) di scavo (-∞ = senza limiti)"
+  ],
+  [
+    "panel.designations.ore_purity.label",
+    "Qualità del minerale"
+  ],
+  [
+    "panel.designations.ore_purity.tooltip",
+    "Livello di rigore dei filtri di scansione per la qualità del minerale.\nOff: include tutte le caselle, scava fino alla profondità massima.\nBasso: esclude le caselle molto rade, elimina le sottili strisce di minerale sul fondo.\nMedio: qualità moderata — salta le caselle con molto materiale di copertura o poco minerale.\nAlto: solo caselle ricche con una colonna di minerale pulita.\nMassimo: solo minerale quasi puro — rigoroso su materiale di copertura, profondità e densità del minerale."
+  ],
+  [
+    "settings.ore_quality.value_tooltip",
+    "{0}: altezza minima del minerale {1:0.##} caselle di terreno; densità minima inferiore {2:P0}; purezza minima del minerale {3:P0}; dimensione minima del gruppo {4} caselle connesse."
+  ],
+  [
+    "settings.ore_quality.value.off",
+    "Disattivato"
+  ],
+  [
+    "settings.ore_quality.value.low",
+    "Basso"
+  ],
+  [
+    "settings.ore_quality.value.medium",
+    "Medio"
+  ],
+  [
+    "settings.ore_quality.value.high",
+    "Alto"
+  ],
+  [
+    "settings.ore_quality.value.maximum",
+    "Massimo"
+  ],
+  [
+    "panel.designations.corridor_clearance.label",
+    "Spazio libero nel corridoio"
+  ],
+  [
+    "panel.designations.corridor_clearance.tooltip",
+    "Larghezza minima dei corridoi per collegare le regioni minerarie e garantire la percorribilità.\n0 = disabilitato (le regioni rimangono separate, nessun corridoio né riempimento degli spazi vuoti).\n1 = corridoi di 1 casella (veicoli di piccole e medie dimensioni).\n2 = corridoi di 2 caselle (veicoli di grandi dimensioni).\n"
+  ],
+  [
+    "panel.designations.scanning_filter.label",
+    "Filtro di scansione:"
+  ],
+  [
+    "panel.designations.scanning_filter.tooltip",
+    "Seleziona un prodotto per generare designazioni minerarie. AUTO cerca prodotti utili se non ci sono designazioni del terreno; altrimenti usa quelle esistenti come obiettivi del percorso. Detriti e terra sono solo manuali."
+  ],
+  [
+    "settings.mod.name",
+    "Designazioni automatiche del terreno"
+  ],
+  [
+    "settings.tab.defaults",
+    "Predefiniti"
+  ],
+  [
+    "settings.tab.world_settings",
+    "Impostazioni del mondo"
+  ],
+  [
+    "settings.tab.ore_quality",
+    "Qualità del minerale"
+  ],
+  [
+    "settings.heading.mining_defaults",
+    "Predefiniti della torre di controllo miniera"
+  ],
+  [
+    "settings.heading.panel_defaults",
+    "Predefiniti dei pannelli"
+  ],
+  [
+    "settings.heading.designations",
+    "Designazioni"
+  ],
+  [
+    "settings.heading.scan_performance",
+    "Prestazioni scansione"
+  ],
+  [
+    "settings.heading.keyboard_shortcuts",
+    "Scorciatoie da tastiera"
+  ],
+  [
+    "settings.heading.notifications",
+    "Notifiche"
+  ],
+  [
+    "settings.heading.experimental_access",
+    "Accessi sperimentali"
+  ],
+  [
+    "settings.world.safety",
+    "Sicurezza del terreno"
+  ],
+  [
+    "settings.world.avoid_ocean.label",
+    "Evitare l'oceano"
+  ],
+  [
+    "settings.world.avoid_ocean.tooltip",
+    "Evita l'oceano negli accessi generati e nei piani minerari in questo mondo. Sono escluse le celle minerarie che si sovrappongono all'oceano. Viene inoltre evitato il taglio previsto sotto il livello del mare; lo scarico nell'oceano resta consentito. Disattivatelo per consentire lavori rischiosi sulla costa."
+  ],
+  [
+    "settings.world.avoid_buildings.label",
+    "Evitare gli edifici"
+  ],
+  [
+    "settings.world.avoid_buildings.tooltip",
+    "Evita gli edifici negli accessi generati e nei piani minerari in questo mondo. Sono escluse le celle minerarie che si sovrappongono ad un edificio o al suo perimetro di sicurezza. Vengono evitati anche i disturbi del terreno previsti vicino agli edifici."
+  ],
+  [
+    "settings.world.harvest_disrupted_trees.label",
+    "Raccogli gli alberi danneggiati"
+  ],
+  [
+    "settings.world.harvest_disrupted_trees.tooltip",
+    "Contrassegnare gli alberi negli accessi finalizzati e nelle zone di disturbo per la designazione mineraria per il raccolto. Quando disabilitato, ATD non crea ordini di raccolta alberi. Gli ordini di raccolto piazzati da ATD vengono rimossi da una delle azioni Cancella; gli ordini di raccolta dei giocatori non correlati vengono conservati."
+  ],
+  [
+    "settings.world.allow_dig_to_remove_debris.label",
+    "Paesaggio per rimuovere i detriti"
+  ],
+  [
+    "settings.world.allow_dig_to_remove_debris.tooltip",
+    "Consentire la rimozione dei detriti per apportare la più piccola modifica del terreno praticabile quando non è possibile scavare un puntello senza abbellire il terreno. Se disabilitato, la richiesta di rimozione non riesce e il flusso di lavoro richiedente viene informato."
+  ],
+  [
+    "settings.world.quick_remove_debris.label",
+    "Rimuovere rapidamente i detriti"
+  ],
+  [
+    "settings.world.quick_remove_debris.tooltip",
+    "Controlla quando ATD utilizza l'azione di rimozione rapida del gioco per i detriti dell'accesso instradati. La rimozione rapida spende Unità. Questa politica non si applica al pulsante Elimina detriti della torre mineraria."
+  ],
+  [
+    "settings.world.quick_remove_debris.always",
+    "Sempre"
+  ],
+  [
+    "settings.world.quick_remove_debris.always.tooltip",
+    "Utilizzare la rimozione rapida per tutti i detriti degli accessi, ad eccezione dei sostegni che la designazione di scarico pianificata seppellirà sufficientemente. Questo accelera la creazione del paesaggio ma spende Unità."
+  ],
+  [
+    "settings.world.quick_remove_debris.restrictive",
+    "Restritivo"
+  ],
+  [
+    "settings.world.quick_remove_debris.restrictive.tooltip",
+    "Preferire lo scavo normale ma utilizzare Rimozione Rapida quando lo scavo non può garantire la pedonabilità post-opera."
+  ],
+  [
+    "settings.world.quick_remove_debris.never",
+    "Mai"
+  ],
+  [
+    "settings.world.quick_remove_debris.never.tooltip",
+    "Non spendere mai Unity per la rimozione rapida dei detriti degli accessi. La rimozione si basa sullo scavo e sul paesaggio per rimuovere l'impostazione dei detriti e potrebbe essere necessario che il giocatore fornisca assistenza per la rimozione rapida."
+  ],
+  [
+    "settings.world.safety_policy.label",
+    "Politica di sicurezza"
+  ],
+  [
+    "settings.world.safety_policy.tooltip",
+    "Controlla la cautela con cui ATD prevede le frane e la distanza che mantiene dagli oceani e dagli edifici protetti. Politiche più elevate riservano più spazio; politiche più basse consentono di lavorare sul terreno più vicino ai pericoli. Predefinito: BAL."
+  ],
+  [
+    "settings.world.safety_policy.value_tooltip",
+    "{0}: fattore di pendenza per la previsione delle frane {1}; distanza di sicurezza {2} caselle."
+  ],
+  [
+    "settings.world.safety_policy.minimum",
+    "Minimo"
+  ],
+  [
+    "settings.world.safety_policy.low",
+    "Basso"
+  ],
+  [
+    "settings.world.safety_policy.balanced",
+    "Bilanciato"
+  ],
+  [
+    "settings.world.safety_policy.high",
+    "Alto"
+  ],
+  [
+    "settings.world.safety_policy.maximum",
+    "Massimo"
+  ],
+  [
+    "settings.pathfinder.generated_v_fixed.label",
+    "Costo della designazione del terreno"
+  ],
+  [
+    "settings.pathfinder.generated_v_fixed.tooltip",
+    "Costo fisso addebitato per ogni designazione di terreno generata. Valori più alti favoriscono un minor numero di designazioni del terreno, anche quando ciò aumenta la distanza di viaggio e il costo paesaggistico totale."
+  ],
+  [
+    "settings.pathfinder.direct_work_weight.label",
+    "Peso diretto del lavoro sul terreno"
+  ],
+  [
+    "settings.pathfinder.direct_work_weight.tooltip",
+    "Peso applicato al terreno di scavo o scarico direttamente sopra o sotto le designazioni del terreno generate."
+  ],
+  [
+    "settings.pathfinder.candidate_distance.label",
+    "Distanza massima del raggio candidato"
+  ],
+  [
+    "settings.pathfinder.candidate_distance.tooltip",
+    "Distanza massima del ray trace candidato. Valori più alti proteggono e prezzano cunei laterali molto grandi ma costano più tempo di ricerca. Predefinito: 16."
+  ],
+  [
+    "settings.pathfinder.ray_max_cost.label",
+    "Costo massimo per raggio"
+  ],
+  [
+    "settings.pathfinder.ray_max_cost.tooltip",
+    "Limita il costo paesaggistico contribuito da un raggio irrisolto."
+  ],
+  [
+    "settings.pathfinder.ray_unresolved.label",
+    "Penalità di raggio non risolta"
+  ],
+  [
+    "settings.pathfinder.ray_unresolved.tooltip",
+    "Penalità quando un raggio non incontra il terreno all'interno del suo raggio di traccia."
+  ],
+  [
+    "settings.experimental_access.turning_ramps.label",
+    "Rampe di svolta (sperimentali)"
+  ],
+  [
+    "settings.experimental_access.turning_ramps.tooltip",
+    "Se abilitato, ATD può selezionare e posizionare accessi sperimentali di svolta o tornanti V1 utilizzando designazioni piatte e in pendenza. Richiede che la larghezza della rampa della torre sia impostata su 1. La distanza del corridoio è indipendente. Rampe più larghe e designazioni di angoli o selle non sono incluse."
+  ],
+  [
+    "settings.experimental_access.suppress_legacy_ramps.label",
+    "Elimina le rampe legacy"
+  ],
+  [
+    "settings.experimental_access.suppress_legacy_ramps.tooltip",
+    "Disattiva il generatore legacy di rampe diritte per testare direttamente risultati ed errori degli accessi sperimentali. Lascia disattivato per il normale comportamento di fallback."
+  ],
+  [
+    "settings.experimental_access.astar.label",
+    "Utilizza la ricerca A*"
+  ],
+  [
+    "settings.experimental_access.astar.tooltip",
+    "Usa A* invece del Dijkstra di riferimento per le prove a secco degli accessi sperimentali. Dijkstra è la base di convalida più sicura. A* è più veloce."
+  ],
+  [
+    "settings.experimental_access.landscaping_cost_scale.label",
+    "Costo paesaggistico vs. distanza"
+  ],
+  [
+    "settings.experimental_access.landscaping_cost_scale.tooltip",
+    "Costo in distanza assegnato a un'unità di costo paesaggistico. Un'unità di costo paesaggistico equivale a scaricare o scavare un'unità di roccia. Intervallo: 0-100; predefinito: 1. Un valore più alto favorisce percorsi con meno rimodellamento del terreno."
+  ],
+  [
+    "settings.experimental_access.prop_cleanup_landscaping_cost.label",
+    "Costo paesaggistico pulizia oggetti"
+  ],
+  [
+    "settings.experimental_access.prop_cleanup_landscaping_cost.tooltip",
+    "Costo paesaggistico applicato una volta per ogni origine di pulizia oggetti usata dalla ricerca sperimentale degli accessi. Un'unità equivale a un'unità di roccia scaricata o scavata; il valore predefinito 6 favorisce l'aggiramento degli ostacoli di pulizia quando esiste una deviazione ragionevole. Valori più alti rendono meno attraenti i percorsi con pulizia."
+  ],
+  [
+    "settings.experimental_access.landslide_run.label",
+    "Fattore pendenza protezione frane"
+  ],
+  [
+    "settings.experimental_access.landslide_run.tooltip",
+    "Distanza di esclusione orizzontale per livello verticale del terreno. 1 equivale a una pendenza di 45 gradi; valori più alti ampliano la zona di esclusione (ad es. in sabbia pura), mentre valori più bassi la restringono. Intervallo: 0,05-2; predefinito: 1."
+  ],
+  [
+    "settings.max_slope.label",
+    "Pendenza max"
+  ],
+  [
+    "settings.max_slope.tooltip",
+    "Differenza massima di altezza consentita tra angoli di designazione adiacenti. Intervallo: 1-3."
+  ],
+  [
+    "settings.bottom_flattening.label",
+    "Spianamento del fondo"
+  ],
+  [
+    "settings.bottom_flattening.tooltip",
+    "Forza dello spianamento del fondo da 0 a 10. 0 disattiva il passaggio di spianamento."
+  ],
+  [
+    "settings.batch_size.label",
+    "Dimensione batch"
+  ],
+  [
+    "settings.batch_size.tooltip",
+    "Designazioni piazzate per frame di coroutine mentre il gioco non è in pausa. Intervallo: 1-200."
+  ],
+  [
+    "settings.panel_defaults.mining_collapsed.label",
+    "Pannello minerario chiuso"
+  ],
+  [
+    "settings.panel_defaults.mining_collapsed.tooltip",
+    "Se il pannello delle designazioni minerarie parte chiuso per impostazione predefinita."
+  ],
+  [
+    "settings.panel_defaults.ore_collapsed.label",
+    "Pannello minerale chiuso"
+  ],
+  [
+    "settings.panel_defaults.ore_collapsed.tooltip",
+    "Se il pannello composizione del minerale parte chiuso per impostazione predefinita."
+  ],
+  [
+    "settings.panel_defaults.farming_collapsed.label",
+    "Pannello agricolo chiuso"
+  ],
+  [
+    "settings.panel_defaults.farming_collapsed.tooltip",
+    "Se il pannello di preparazione dei terreni agricoli parte chiuso per impostazione predefinita."
+  ],
+  [
+    "settings.notifications.excavator_completion.label",
+    "Notifiche completamento escavatore"
+  ],
+  [
+    "settings.notifications.excavator_completion.tooltip",
+    "Se ATD mostra una notifica verde quando un deposito veicoli completa un escavatore."
+  ],
+  [
+    "settings.notifications.ramp_warning.label",
+    "Notifiche avviso rampa"
+  ],
+  [
+    "settings.notifications.ramp_warning.tooltip",
+    "Se ATD mostra avvisi di accesso rampa sulle torri minerarie."
+  ],
+  [
+    "settings.ore_quality.min_ore_height.label",
+    "Altezza minima minerale"
+  ],
+  [
+    "settings.ore_quality.min_ore_height.tooltip",
+    "Spessore minimo del minerale in caselle di terreno per questo livello di qualità."
+  ],
+  [
+    "settings.ore_quality.min_bottom_density.label",
+    "Densità minima del fondo"
+  ],
+  [
+    "settings.ore_quality.min_bottom_density.tooltip",
+    "Densità minima del minerale dal fondo precedente a questo fondo. Limitata da 0 a 1."
+  ],
+  [
+    "settings.ore_quality.min_ore_purity.label",
+    "Purezza minima minerale"
+  ],
+  [
+    "settings.ore_quality.min_ore_purity.tooltip",
+    "Rapporto minimo minerale/colonna per questo livello di qualità. Limitato da 0 a 1."
+  ],
+  [
+    "settings.ore_quality.min_component_size.label",
+    "Dimensione minima componente"
+  ],
+  [
+    "settings.ore_quality.min_component_size.tooltip",
+    "Numero minimo di caselle di designazione connesse perché un gruppo superi il filtro di isolamento."
+  ],
+  [
+    "settings.corner_mode.label",
+    "Modalità designazioni angolari"
+  ],
+  [
+    "settings.corner_mode.tooltip",
+    "Tasto per entrare e alternare la modalità designazioni angolari mentre è attivo uno strumento di designazione del terreno."
+  ],
+  [
+    "settings.corner_mode.invalid_tooltip",
+    "Usa un solo tasto, come K, 1, F1, Space o Escape."
+  ],
+  [
+    "settings.status.applied",
+    "Applicato"
+  ],
+  [
+    "settings.status.invalid_key",
+    "Tasto non valido"
+  ],
+  [
+    "settings.action.save_as_global",
+    "Salva come config"
+  ],
+  [
+    "settings.action.save_as_global.tooltip",
+    "Salva queste impostazioni in ATDsettings.json. Verranno usate come predefiniti per tutte le nuove partite."
+  ],
+  [
+    "settings.action.restore_defaults",
+    "Ripristina predefiniti"
+  ],
+  [
+    "settings.action.restore_defaults.tooltip",
+    "Ripristina i valori globali predefiniti del mod per tutte le impostazioni. (Non le salva automaticamente come config.)"
+  ],
+  [
+    "settings.status.saved_to_file",
+    "Salvato in ATDsettings.json."
+  ],
+  [
+    "settings.status.save_failed",
+    "Salvataggio non riuscito; controlla il log."
+  ],
+  [
+    "settings.status.restored_defaults",
+    "Predefiniti integrati ripristinati in memoria."
+  ],
+  [
+    "panel.ore.title",
+    "Composizione del minerale"
+  ],
+  [
+    "panel.ore.description",
+    "Risorse minerarie comprese nelle attuali aree di estrazione di questa torre. (Non tiene conto di potenziali frane.)"
+  ],
+  [
+    "panel.ore.prompt_scan",
+    "Premi ↺ per analizzare la composizione del minerale."
+  ],
+  [
+    "panel.ore.scan_tooltip",
+    "Analisi della composizione del minerale"
+  ],
+  [
+    "panel.ore.no_tower",
+    "Nessuna torre selezionata."
+  ],
+  [
+    "panel.ore.no_minable_designations",
+    "Non sono state trovate designazioni estraibili."
+  ],
+  [
+    "panel.ore.priority_selected_tooltip",
+    "La priorità di estrazione della torre è impostata su {0}. Clicca per deselezionare."
+  ],
+  [
+    "panel.ore.priority_set_tooltip",
+    "Imposta la priorità di estrazione della torre su {0}."
+  ],
+  [
+    "panel.farming.title",
+    "Preparazione dei terreni agricoli"
+  ],
+  [
+    "panel.farming.description",
+    "Automatizza la preparazione e il riempimento finale delle aree pianeggianti in modo che il loro strato superiore diventi coltivabile."
+  ],
+  [
+    "panel.farming.automation_toggle.label",
+    "Automazione della preparazione dei terreni agricoli"
+  ],
+  [
+    "panel.farming.automation_toggle.tooltip",
+    "Preparare le piane di livellamento dei terreni agricoli rimuovendo il materiale di copertura non idoneo, quindi ripristinare gli strati di riempimento finali."
+  ],
+  [
+    "panel.farming.idle_release_excavators.label",
+    "Rilascio escavatori quando inattivi"
+  ],
+  [
+    "panel.farming.idle_release_excavators.tooltip",
+    "Annulla automaticamente l'assegnazione degli escavatori da questa torre quando nessuna designazione ha lavori di scavo in sospeso o quando la torre è in pausa.\nGli escavatori vengono tracciati e riassegnati quando riprendono i lavori di scavo."
+  ],
+  [
+    "panel.farming.idle_release_trucks.label",
+    "Rilascio camion quando inattivi"
+  ],
+  [
+    "panel.farming.idle_release_trucks.tooltip",
+    "Annulla automaticamente l'assegnazione dei camion da questa torre quando nessuna designazione ha lavori di scavo in sospeso o quando la torre è in pausa.\nI camion vengono tracciati e riassegnati quando riprendono i lavori di scavo."
+  ],
+  [
+    "toolbox.corner_outer.tooltip",
+    "Angolo (esterno): posizionare delle rampe angolari convesse."
+  ],
+  [
+    "toolbox.corner_inner.tooltip",
+    "Angolo (interno): posizionare rampe angolari concave."
+  ],
+  [
+    "notification.ramp_access_failed",
+    "[ATD] {entity} non è riuscita ad avviare una rampa di accesso"
+  ],
+  [
+    "notification.ramp_access_truncated",
+    "[ATD] {entity} non è riuscita a inserirsi in una rampa di accesso completa"
+  ],
+  [
+    "notification.ramp_access_not_accessible",
+    "[ATD] {entity} non è riuscita a raggiungere la rampa"
+  ],
+  [
+    "notification.farming_complete",
+    "[ATD] Preparazione e riempimento di {entity} completati"
+  ],
+  [
+    "notification.excavator_completed",
+    "[ATD] {entity} ha completato un escavatore"
+  ],
+  [
+    "notification.debris_cleanup_queued",
+    "[ATD] {entità} ha in coda la pulizia dei detriti"
+  ],
+  [
+    "notification.debris_cleanup_none_found",
+    "[ATD] {entità} non ha trovato detriti da rimuovere"
+  ],
+  [
+    "notification.debris_cleanup_none_reachable",
+    "[ATD] {entità} non ha trovato detriti raggiungibili da rimuovere. Fare clic tenendo premuto Ctrl per includere detriti irraggiungibili"
+  ],
+  [
+    "vehicle_order.confirm.singular",
+    "Accodare un {0} per {2} a {1}?"
+  ],
+  [
+    "vehicle_order.confirm.plural",
+    "Accodare {0} {1} per {3} a {2}?"
+  ],
+  [
+    "vehicle_order.confirm.button",
+    "Accodamento"
+  ],
+  [
+    "vehicle_order.zoom.tooltip",
+    "Zoom su {0}"
+  ],
+  [
+    "vehicle_order.preassigned.tooltip",
+    "Preassegnato a {0}"
+  ]
+]

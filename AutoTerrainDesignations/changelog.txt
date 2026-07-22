@@ -1,0 +1,225 @@
+v0.5.2 | 2026-07-20
+* Changed: V2 turns are now orientation-only transitions over flat 2x2 landings, suppressing flat and strafe successors.
+* Changed: Adjusted default access height envelope allowances for V1 and V2 accessways.
+* Fixed: Restricted vehicle pre-allocation UI patches to MineTower entities only, resolving the truck assignment issue on Tree Harvesters.
+
+v0.5.1 | 2026-07-19
+* Changed: Vehicle construction confirmations now use the same enqueue-for-tower wording, button text, and depot zoom tooltip as AutoForestryDesignations
+* Fixed: Ramps starting from mining designations now correctly reserve local space for flat landings and turns
+* Fixed: Prevented invalid ramp connections on large flat ground areas
+
+v0.5.0 | 2026-07-18
+* Added: Experimental two-tile-wide accessways (ramps, etc.) for Mega vehicles, including turns, switchbacks, and connections between terrain work and the tower access network
+* Changed: **Accessway mode** replaces the previous ramp-width and corridor-clearance settings, with OFF, AUTO, T1, T2, T3, and legacy straight-only modes
+* Improved: Mining designations and accessways use landslide prediction to better avoid buildings and protected ocean tiles
+* Improved: Accessways can join usable natural terrain and reuse existing planned routes, reducing unnecessary terrain work
+* Improved: Accessway routing considers mining, dumping, and leveling endpoints, balancing landscaping work against travel distance
+* Added: A **Safety policy** setting with presets from MIN to MAX for landslide slope and buffer limits
+* Improved: Accessways validate full vehicle clearance and use safer transitions to natural terrain and existing designations
+* Added: AUTO accessways can connect to an unstarted mine control tower ghost without creating or modifying the ghost
+* Added: **Quick remove debris** accessway policy with Always, Restrictive, and Never options
+* Added: Trees disrupted by mining designations or accessways are automatically marked for harvesting
+* Added: **Clear debris** now queues safe excavator cleanup for selected props, including while paused, and reports when no reachable debris is available
+* Improved: Debris cleanup temporarily preserves existing terrain and forestry designations, then restores them after cleanup
+* Fixed: Repeated **Create Designations** clicks do nothing until relevant tower settings, terrain, or world conditions change
+* Changed: **Ore quality** now uses a five-position slider from Off through Max
+* Changed: **Ore: None** ignores debris and dirt when existing pathfinding designations are present; its previous behavior is unchanged otherwise
+* Changed: Corner designation mode is now configured in vanilla **Controls**, with existing custom bindings retained
+* Added: An optional bottom-left cursor-coordinate overlay, disabled by default
+* Updated: Settings labels, icons, and translations
+* Changed: Minimum supported Captain of Industry version is now 0.8.5; older versions may still work but are unsupported and untested
+
+v0.4.5a | 2026-06-21
+* Improved: Experimental turning accessways connect to uneven ground using vanilla mining and dumping workability rules, with the correct designation type on the final tile
+* Fixed: Turning accessways can crest onto usable ground instead of unnecessarily continuing close to the surface
+* Fixed: Ground reachability is now traced from the actual mine tower, including towers outside their managed area
+* Fixed: Experimental routes no longer revisit earlier corridor tiles or travel below the minimum ocean height
+* Improved: Safer landslide checks account for active designations and building foundations for both mining and dumping routes
+* Improved: A* is now the default experimental search, with substantially faster difficult-route searches and reduced repeated snapshot work
+* Fixed: Large mine tower areas no longer trigger designation-area clamping or omit existing designations from accessway analysis
+
+v0.4.4 | 2026-06-20
+* Added: Experimental turning and switchback accessways (least-work corridor pathfinding) for mine towers, enabled by default (only active when the tower's **Ramp Width** setting is set to 1)
+* Changed: Changed default starting **Ramp Width** default setting for new mine towers from 2 to 1 so the new experimental turning and switchback pathfinding is active by default
+* Changed: Renamed the Mod Settings **Mining defaults** heading to **Mine control tower defaults** to match the vanilla tower name
+* Changed: Split **Auto-release when idle** into separate per-tower and global toggles for excavators and trucks
+* Fixed: Auto-release now treats paused mine towers as idle, so vehicles are released while the tower is paused and restored when work resumes
+* Added: Compact assigned and released vehicle lists in the Farmland preparation panel tooltips
+* Fixed: Ramp generation skipping incorrectly due to unrelated reachable accessways in the tower area
+* Fixed: Vehicle auto-release could leave vehicles stuck assigned to invisible or deconstructed mine towers after saving and restarting
+* Updated: German, Spanish, Italian, Portuguese, Russian, Swedish, and Chinese translations
+
+v0.4.3 | 2026-06-06
+* Added AutoHelpers shared **Mod Settings** tabs for ATD global defaults, game settings, and ore-quality thresholds, with localized labels/tooltips and shared-window tab icons
+* Added: Chinese translation
+* Changed: Farm Placement Assist now captures and replays the entire intercepted placement batch when a farm in the batch needs terrain preparation, so mixed farm blueprints stay atomic and non-farm blueprint pieces are not dropped or placed early
+* Added limited config-backed save/load recovery for pending Farm Placement Assist batches; pending farms retain proto, transform, reflection, crop schedule, and fertility target, but full blueprint/entity configuration persistence is not implemented yet
+* Fixed: Farm Placement Assist replayed intercepted placements with crop assignments, recipe selections, port configurations, and reflection lost; the original placement intent now stores the full entity configuration and replays it through the original batch command so blueprint-configured state is preserved
+* Added **bottomFlatteningStrength** global setting (1-10, default 5) to control the depth percentile used as the flattening target during the bottom-flattening pass; configurable via `ATDsettings.json` or **atd_set_bottom_flattening_strength**
+* Changed: farming access ramps to back-row farmland clusters now lay flat 1-cell bridges at the neighboring cluster's target height instead of wedging back up to surface
+
+v0.4.2 | 2026-05-29
+* Added: per-tower settings (max height diff, ramp width, max layers, max depth, ore quality, corridor clearance, auto-release, ore filter, mining priority, farmland preparation automation state) and the collapsed state of each tower's **Mining designations**, **Ore composition**, and **Farmland preparation** panels are now persisted into the vanilla save file via a `config.json` state blob; settings survive save/load cycles without any custom save format
+* Added three debug console commands: **atd_dump_pending_save_json**, **atd_dump_last_loaded_json**, **atd_dump_panel_state**
+
+v0.4.1 | 2026-05-21
+* Fixed: corner designation rotation now responds to the player's mapped rotate key instead of always responding to R
+* Added **cornerDesignationKey** global setting: the key used to enter and toggle corner designation mode; configurable via **ATDsettings.json** (default: **K**) or the new **atd_set_corner_designation_key** console command (accepts any Unity KeyCode name, e.g. Alpha1, F1)
+* Added **Auto-release when idle** toggle in the **Terrain Designations** inspector: when enabled for a tower, all excavators and trucks are unassigned while no mining or leveling work is pending and re-assigned automatically when work resumes
+    - Global default is **autoReleaseVehiclesWhenIdle** in ATDsettings.json (default: false); the per-tower toggle overrides this default
+    - Added **atd_set_auto_release_vehicles_when_idle** to set the global default; **AutoReleaseWhenIdle** is included in **atd_get_settings** output
+* Added **atd_get_assigned_vehicles** console command: lists every mine tower with its assigned vehicles, per-vehicle job state, ATD auto-release setting, and which vehicles ATD has released
+* Added **rampNotificationsEnabled** global setting: suppresses ramp access warning notifications (Failed, Truncated, NotAccessible) on all towers; toggle in **ATDsettings.json** or with **atd_set_ramp_notifications on|off**
+* Added **farmingPanelCollapsed** global setting: the **Farmland Preparation** inspector panel starts collapsed by default; toggle in **ATDsettings.json** or with **atd_set_farming_panel_collapsed on|off**
+* Added diagonal corner preparation shoulders: when both adjacent cardinal shoulder ramps are present, a corner shoulder is placed at the diagonal with 3 outer corners at z-2 and the inner corner at z-1
+* Added diagonal corner rim alignment designations: when both adjacent cardinal rim designations are in place, a corner rim closes the fill area corner
+* Farming access ramp generation is substantially faster for large sessions
+    - Candidate collection now only probes perimeter ore tiles, reducing generation work by roughly 7x for large areas
+    - BFS reachability results are cached within a placement attempt; checks are capped at 50 per attempt
+* Farming automation overhead reduced for large auto-reactivated sessions: access/pathability rechecks are throttled; pending fill-area tile sets are cached and rebuilt only on state changes
+* Access ramps for multiple inaccessible farming clusters are now placed in the same tick instead of one per tick
+* Ramp placement now checks vehicle accessibility before committing a candidate; accessible candidates are preferred; if none exist, the best available is placed and reported via notification
+* Ramp generation now evaluates all four cardinal directions; the half-space direction restriction is removed; scoring still ranks by alignment toward the tower, so off-axis directions serve as fallbacks when the preferred corridor is blocked
+* Ramp outcome warnings (Failed, Truncated, NotAccessible) are now shown as vanilla notifications on the mine tower; the warning icon has been removed from the **Terrain Designations** panel
+* Changed: final farmland filling and rim alignment now use dumping designations instead of leveling designations; filling completion uses dump fulfillment
+* Changed: farming completion removes completed final origin designations immediately after the completion notification, preventing them from disturbing adjacent follow-up farming patches
+* Changed: inaccessible-designation detection propagates reachability through adjacent farming designations that share a matching-height edge, reducing the number of clusters that require a dedicated access ramp
+* Changed: rim alignment placement criteria — cardinal rims require both far corners of the rim tile to be within +-0.1 of target height; diagonal corner rims require all 3 far corners to pass
+* Changed: UI panel labels updated — mining panel is **Mining designations**, ore filtering preset is **Ore quality**, panel headings use sentence case (**Ore composition**, **Farmland preparation**); settings keys and console command names are unchanged
+* Changed: farming session status messages (e.g. from **atd_farming_dump_all_towers**) are no longer localized and always display in English; inspector panel labels and tooltips are unaffected
+* Revised Swedish, German, and Russian translations — terminology aligned with base game wording and reviewed for accuracy across all panels, tooltips, and status messages
+* Fixed: German translation of the ore mining priority tooltip
+* Added: Portuguese translation
+
+
+v0.4.0 | 2026-05-14
+* Added farmland preparation automation for mine towers
+    - Enabled via the **Farmland Preparation Automation** checkbox in the **Farmland Preparation** inspector panel
+    - Automatically re-enables on load for towers that were running preparation work; toggle with **reEnableFarmingOnLoad** in **ATDsettings.json** or **atd_set_re_enable_farming_on_load** / **atd_re_enable_farming_on_load**
+    - Clears out vehicles from the fill area before committing final fill designations to reduce the chance of vehicles getting trapped
+    - Adds temporary sloped support shoulders on exposed sides near steep drops or ocean edges to reduce dirt spill-off during final filling
+    - Added a green one-time completion notification when preparation and filling are done
+    - Detailed per-tower diagnostics available via **atd_farming_dump_all_towers**
+* Added localization support for the **Terrain Designations**, **Farmland Preparation**, and **Ore Composition** panels and related tooltips and status text
+    - Includes English, Swedish, German, and Russian translations under **translations/**
+* Added a green one-time notification when any vehicle depot completes an excavator; toggle with **excavatorCompletionNotifications** in **ATDsettings.json** or **atd_set_excavator_completion_notifications**
+* Changed the excavator completion notification to use the mining toolbar icon
+* Improved **ATDsettings.json** migration so defaults from older releases are upgraded to current defaults while user-changed values are preserved
+
+
+v0.3.1 | 2026-05-09
+* Ramp generation warnings now shown as a yellow icon next to the **Create Designations** button (tooltip contains the message):
+    - "Ramp generation failed — no valid path found."
+    - "Ramp placed but did not reach the surface — excavators may not be able to excavate."
+    - "Couldn't find a valid path from the tower to the generated ramp. Check for access problems."
+* Increased generated ramp safety margin around nearby buildings by 1 tile. Landslide can still reach buildings if built on deep dirt/sand.
+* Added a bottom-flattening pass to reduce rough/bumpy excavation floors; designations floor should now be noticeably flatter. Can be toggled on/off with **atd_set_bottom_flattening on/off**.
+* Tuned default **Low** and **Med** ore purity thresholds to reduce the jump from **Off**; existing **ATDsettings.json** values are preserved. Added **atd_reset_to_defaults** to try built-in defaults in memory.
+* Renamed the **Target product** label to **Scanning filter** to avoid confusion with mining priority.
+
+
+v0.3.0 | 2026-05-08
+* Corner designations can now be placed manually from within any terrain designation tool (**M**, **Z**, **N**) — use the new **▲**/**▽** toolbar buttons or press **K** (**K** again flips between outer/inner); supports height offset (**Q**/**E**), rotation (**R**), and auto-snap to neighbouring designations; vanilla designations also snap to corner designations
+    - Corner mode exits automatically when chosing one of the vanilla modes (flat/ramp) or the designation tool is deactivated
+* Better quality thumbnail
+
+
+v0.2.4 | 2026-05-04
+* Settings file renamed from **settings.json** to **ATDsettings.json** to avoid conflicts with other mods
+* Existing **settings.json** files are still read as a legacy fallback and migrated into the generated **ATDsettings.json** format
+* **ATDsettings.json** is no longer distributed inside the mod ZIP — it is generated automatically in the mod folder on first run, populated with the current defaults and inline documentation
+* Settings file now contains a **settingsVersion** stamp; when the mod version advances the file is automatically migrated (user values are preserved and any new keys are added)
+* Added **atd_save_settings** console command to write the current in-memory global defaults back to **ATDsettings.json** at any time
+* Added global defaults for whether the Terrain Designations and Ore Composition panels start expanded or collapsed, configurable via **ATDsettings.json** or console commands.
+* Fixed Corridor clearance modifier-click handling so Shift/Ctrl jumps directly between Off and 2 instead of requiring multiple clicks.
+
+v0.2.3 | 2026-05-03
+* Added experimental Remove Debris scan support, available as a dedicated action and as an auto fallback when no useful product is found.
+
+v0.2.2 | 2026-05-03
+* Added concise license and attribution notices to source files and README.
+
+v0.2.1 | 2026-05-03
+* Added the mod marker/version tooltip to both inspector panels.
+* Made the Ore Composition panel explicitly collapsible again while keeping it open by default.
+* Added horizontal scrolling to Ore Composition cards so towers with many ore products no longer overflow the inspector column.
+* Fixed the Ore Composition panel so it can populate for custom IAreaManagingTower implementations; excavator priority controls remain limited to vanilla mine towers.
+* Fixed clearing terrain designations so it only removes mining designations and preserves other designation types such as forestry. Placing mining designations will still overwrite other designations.
+
+v0.2.0 | 2026-05-01
+* Changed project license to MIT and added a repository LICENSE file.
+* Added short MIT/SPDX license annotations to source files.
+
+v0.1.15 | 2026-05-01
+* Fixed incorrect trimming of poor ore near the bottom of the designation.
+* Changed the label Override product to Target product to make it clearer.
+* Added a per-tower Corridor clearance setting for separated ore components and passability.
+* Added in-game console commands for live tuning of all ATD global defaults.
+* Updated the API with initialization checks, per-tower settings accessors, panel builder methods, and ramp-width driven designation creation.
+
+v0.1.14 | 2026-05-01
+* Improved designation logic to reduce the risk of vehicles getting stuck.
+* Connectivity now uses 2-tile-wide designation corridors for mega-vehicle passability.
+* Enclosed interior holes inside designation regions are now automatically filled.
+* Single-tile pinch points inherited from the ore scan are now widened.
+
+v0.1.13 | 2026-05-01
+* Fixed an issue with settings.json not parsing in some locales.
+
+v0.1.12 | 2026-05-01
+* Tower settings are now persistent throughout a session.
+* Excavator priority is now a sticky state per tower and can be reset to None.
+* Ore Purity OFF is now more aggressive when sweeping up ore.
+* Externalized global default parameters to settings.json.
+* Fixed an invalid settings.json path issue.
+
+v0.1.11 | 2026-05-01
+* The Ore Composition panel now refreshes automatically after creating designations.
+* Terrain Designations panel is now collapsible.
+* Added the Ore Purity Level preset setting and externalized its thresholds to settings.json.
+* Ramp generation now tries to avoid all buildings.
+
+v0.1.10 | 2026-05-01
+* Improved ramp generation with selectable ramp width, better z-level targeting, better attachment to designation edges, and tower avoidance.
+* Added buttons on ore composition cards to set mining priority for all tower excavators.
+* Overhauled the UI with a more prominent Create Designations button and visually tuned ore composition cards.
+
+v0.1.9 | 2026-05-01
+* Fixed broken non-tower inspectors.
+* Fixed stale Ore Composition data after switching inspectors.
+* Made the Ore Composition panel always visible and replaced auto-refresh with a manual scan button.
+* Ore Composition panel now clears when switching to a different tower inspector.
+
+v0.1.8 | 2026-05-01
+* Ore Composition panel now refreshes correctly when switching tower inspectors.
+* Ore Composition now counts only material above the designation target level.
+* Dumping designations are excluded from the Ore Composition scan.
+* Redesigned Ore Composition cards with proportional color-coded progress bars and percentage shares.
+
+v0.1.7 | 2026-05-01
+* Added the Ore Composition panel for the mine tower inspector.
+* Ore Composition quantities reflect the current Ore Mining Yield difficulty setting.
+* Ore Composition panel refreshes automatically when designations change.
+* Fixed a mod package extraction issue on Linux.
+
+v0.1.6 | 2026-05-01
+* Added Max layers to excavate and Max depth settings.
+* Clearing designations is now instantaneous regardless of area size.
+* Bedrock is now always excluded from terrain scans.
+* Added the AutoTerrainDesignationsApi integration API.
+
+v0.1.5 | 2026-05-01
+* Adjusted max slope to 1 to prevent dead spots.
+
+v0.1.4 | 2026-05-01
+* Moved UI controls to their own panel for better compatibility and robustness.
+* Updated the placement algorithm to reduce the risk of excavators getting stuck.
+
+v0.1.3 | 2026-05-01
+* Fixed UI collision by changing from text-based buttons to icon-based buttons.
+* Added scanning for any mineable product through the product selector.
+* Improved scanning, particularly along deposit edges.
+* Added thumbnail.
+
+v0.1.0 | 2026-05-01
+* Initial release.

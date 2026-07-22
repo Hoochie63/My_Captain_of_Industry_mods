@@ -1,0 +1,6 @@
+{
+  "for_update_no_use": {
+    "default": true,
+    "description": "Dummy upgrade, needed for new version."
+  }
+}

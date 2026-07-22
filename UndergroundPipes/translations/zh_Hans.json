@@ -1,0 +1,21 @@
+{
+  "Underground Pipes": "地下管道",
+  "Read-out": "读数",
+  "Hover read-out at the cursor": "光标处悬停读数",
+  "Source/destination building icons": "起点/终点建筑图标",
+  "Inspector": "检视器",
+  "Source/destination in the pipe panel": "管道面板中的起点/终点",
+  "X-ray overlay": "透视图层",
+  "Colour buried pipes by product": "按产品为埋设管道着色",
+  "X-ray colour scheme": "透视配色方案",
+  "X-ray brightness": "透视亮度",
+  "Underground pipes: show / hide the x-ray overlay": "地下管道：显示/隐藏透视图层",
+  "Underground pipes: allow deleting buried pipe sections": "地下管道：允许删除埋设管段",
+  "Underground Pipes: from -> to": "地下管道：从 → 到",
+  "(empty)": "（空）",
+  "tiles": "格",
+  "in": "进",
+  "out": "出",
+  "from": "从",
+  "to": "到"
+}

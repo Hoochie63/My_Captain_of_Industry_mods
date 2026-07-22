@@ -1,0 +1,101 @@
+v0.8.5 | 2026-07-19
+* Added compatibility update for Captain of Industry Update 4.2 (v0.8.6)
+* Render both primary and secondary hotkeys using native KeyBindUi, separated by a localized 'or' label
+* Renamed layout box mode toggle to 'Toggle layout box overlay'
+* Changed default pollution setting so the heat map (glow) is off by default
+* Fixed Swedish translation for 'items/min' to 'st/min'
+* Improved short mod description
+
+v0.8.4 | 2026-07-07
+* Replaced custom text keybind badges in Settings rows with the native KeyBindUi component to perfectly match the vanilla style
+* Fixed: Release ZIP files now extract correctly on Linux
+* Updated German, Portuguese, and Swedish translations
+
+v0.8.3 | 2026-07-07
+* Extracted and fully localized settings dropdown option labels (All, None, Relative, Capacity) and keybind tooltips
+* Cleaned up obsolete hotkey settings and descriptions from config.json
+* Merged high-quality, game-accurate Russian translation and terminology improvements
+
+v0.8.2 | 2026-07-07
+* Integrated mod hotkeys into the game's native Controls menu (under Settings | Controls) where they can be customized alongside vanilla controls
+* Redesigned the mod settings UI to inline keybind badges onto their corresponding toggle rows and cleaned up redundant rows
+* Added audible click feedback when using mod hotkeys
+* Fixed: AutoHelpers localization is now applied before registering the Mod Settings tab, preventing duplicate English/localized settings tabs in localized languages
+* Updated the translated mod name across supported non-English languages
+
+v0.8.1 | 2026-06-28
+* Changed default pollution settings so that both the pollution overlay and the heat map (glow) are off by default
+* Added a master **Select / deselect all** checkbox to the Throughput Area Tool window to toggle the display state of all selected items in bulk
+* Added dynamic screen-space label tracking for long transports: throughput labels slide along conveyors and pipes to stay visible on screen, falling back to the center of the transport when zoomed out or far away
+
+v0.8.0 | 2026-06-27
+* Added **Batch Placing** feature for blueprint folders: place all blueprints in a folder side-by-side in a single cursor placement, automatically wrapping or cropping to stay within the game's placement limits
+* Added **Pollution Labels** overlay: floating world-space labels displaying average emissions (items/min) above factories, outfalls, vehicles, locomotives, and ships
+* Added **Pollution Heat Map** glow: screen-space and 3D white glow overlays indicating relative emission levels across all active categories, dynamically scaled by camera zoom to ensure visibility at distance
+
+v0.7.0 | 2026-06-21
+* Added **Undo Place Blueprint** feature (default hotkey `Ctrl+Z`): reverts blueprint placements, copy-pasting, and force-placements (Shift-click) by canceling placed ghosts, deconstructing fully built structures (or destroying them in sandbox mode), restoring overwritten pre-existing entities or ghosts, and reverting pasted surface designations and decals
+* Added **Layout Box Visualization Mode** (default hotkey `Alt-B`): renders building clearance and occupancy bounding boxes in 3D to clearly highlight vertical clearance levels
+* Added **Blueprint Recycle Bin** feature (configurable in settings): automatically copies blueprints or folders to a special "Recycle Bin" folder when deleted or updated to prevent accidental permanent loss
+* Added product buffer content display panels and a Quick Remove button to the balancer inspector panel to easily empty balancer buffers
+* Restricted custom keybinding registration in the settings UI to allow at most one non-modifier key to match vanilla constraints
+* Changed the settings tab icon to match the blueprint book toolbar icon
+* Fixed: vertical centering of the power icon and its label in the blueprint detail panel's operational cost summary
+
+v0.6.2 | 2026-06-13
+* Added entity glowing effects reflecting the current heatmap color logic when the throughput overlay is active
+* Added independent settings toggles for the heatmap glow and the text overlays
+* Restricted the averaging period text input in the Area Tool to strictly numbers (max 360 days) to prevent memory bloat
+
+v0.6.1 | 2026-06-13
+* Fixed Throughput Limiter/Monitor inspector panel disappearing when changing maps/saves without restarting the game
+* Fixed negative/zero throughput display values due to incorrect patch execution order
+
+v0.6.0 | 2026-06-13
+* Introduced **Throughput Monitoring** as a new concept to visualize live items/min flow rates on transports and ports
+* Consolidated the new Throughput Monitor and existing **Throughput Limiter** into a single, unified **Throughput** inspector panel
+* Upgraded the Throughput Limiter input controls with digital LCD styling, interactive step-modifier buttons, and sandbox restriction tooltips
+* Added **Throughput heat-map** settings to color-code overlays by capacity or relative throughput, including colorblind-friendly color options
+* Added **Show throughput as percent** option to display transport overlay values as a percentage of maximum capacity
+* Added a pulsing bottleneck glow behind overlays running at near-maximum capacity
+* Added UI occlusion checks to automatically hide throughput overlays rendering behind active UI panels
+* Added **Throughput Area Tool** (default `Shift+Alt+T`) to select a region of entities and configure display settings in bulk
+* Updated translations across all supported languages (German, Spanish, Italian, Portuguese, Russian, Swedish, and Chinese)
+
+v0.5.0 | 2026-06-11
+* Added **Throughput Limiter** to set custom maximum throughput capacities (items/min) on any transport, source, or sink via the entity inspector
+* Added **Legacy Belt Configurations** setting to allow Update 1 style transport construction, permitting transports to turn and change height on the exact same tile
+
+v0.4.0 | 2026-06-10
+* Added **Height filter** to step down rendering of transports, pillars, and layout entities from level 6 (all visible) to level 0 (underground only)
+* Added default hotkeys `PageUp` (increase visible level) and `PageDown` (decrease visible level)
+* Added height filter setting and customizable primary/secondary hotkeys in Mod Settings under **HEIGHT FILTER**
+* Protects hidden entities from selection to prevent accidental interaction or demolition
+* Updated Swedish translations and synced locale fallback strings across all supported languages
+
+v0.3.1 | 2026-06-09
+* Fixed: settings save default failure ("Save failed: Invalid path") by resolving the mod folder path correctly
+* Fixed: settings save default validation to successfully write the configuration file even if values match currently stored defaults
+* Updated **Restore defaults** tooltip to clarify that it does not automatically save defaults to the configuration file
+
+v0.3.0 | 2026-06-08
+* Migrated **Instant build mode** (configurable in Mod Settings) which instantly finishes construction, deconstruction, upgrades, and downgrades without materials or unity from Moriarty's Utilities++ (THANKS!)
+* Migrated **Transport cleanup tool** (default `Alt+Del`) to instantly remove disconnected belts and pipes from Moriarty's Utilities++
+* Added **Restore defaults** and **Save as config** buttons to Mod Settings
+* Added **Markdown number format** setting with Auto, English, Local modes
+* Changed Markdown export to use vanilla game translations for workers, electricity, and computing
+* Fixed: Markdown export products and entities with identical names do not merge
+
+v0.2.0 | 2026-06-04
+* Added **Mod Settings** window, opened from the top-right **M** button or with `Alt+M`
+* Added **Markdown table language** setting with English, Local, Both, and Hybrid modes
+* Added per-save persistence for Designer Toolkit settings through `dtkSettingsStateJson`; `markdown_table_language` in `config.json` is used only to initialize saves without persisted settings
+* Added Designer Toolkit translations for English, German, Spanish, Italian, Portuguese, Russian, Swedish, and Chinese
+
+v0.1.0 | 2026-05-31
+* Added **Update blueprint** button in the blueprint placement panel: re-selects an area to replace an existing blueprint while preserving its name, description, overlap settings, and book position
+* Persists the last-open blueprint book folder to config.json and restores it when the blueprint book is reopened
+* Blueprint stats row in the Detail panel: shows total workers, electricity, computing, and maintenance for all entities in the selected blueprint
+* **Copy as Markdown** in the blueprint detail panel: copies a Markdown-formatted summary to the clipboard - heading, description, Components table (A-Z), Construction table (A-Z), and Operational table
+* **Copy as Markdown** in the blueprint folder detail panel: copies a wide Markdown table of all blueprints in the folder tree (recursive); each blueprint is a row, with a Folder column for the relative sub-folder path and dynamically discovered stat/cost columns (A-Z); rows sorted by folder then by blueprint name
+* Fixed: electricity values now always use `.` as the decimal separator regardless of OS locale

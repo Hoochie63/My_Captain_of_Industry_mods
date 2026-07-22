@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "Überhitzung"],
+	["WindPower_T1__desc", "Schaltet eine kleine Windturbine frei, die Strom abhängig von Windstärke und Aufstellhöhe erzeugt."],
+	["WindPower_T1__name", "Windkraft"],
+	["WindPower_T2__desc", "Schaltet eine große Windturbine mit deutlich höherer Leistung sowie die Produktion der für den Bau benötigten Verbundplatten frei."],
+	["WindPower_T2__name", "Windkraft II"],
+	["WindTurbine_T1__desc", "Einfache Windturbine mit manueller Bremsung"],
+	["WindTurbine_T1__name", "Windturbine"],
+	["WindTurbine_T2__desc", "Große Windturbine mit manueller Bremsung"],
+	["WindTurbine_T2__name", "Windturbine II"]
+]

@@ -1,0 +1,11 @@
+[
+	["WindPower_Overheating", "과열"],
+	["WindPower_T1__desc", "바람의 세기와 설치 고도에 따라 전기를 생산하는 소형 풍력 터빈을 잠금 해제합니다."],
+	["WindPower_T1__name", "풍력 발전"],
+	["WindPower_T2__desc", "훨씬 높은 출력의 대형 풍력 터빈과 건설에 필요한 복합 패널 생산을 잠금 해제합니다."],
+	["WindPower_T2__name", "풍력 발전 II"],
+	["WindTurbine_T1__desc", "수동 제동 기능이 있는 기본 풍력 터빈"],
+	["WindTurbine_T1__name", "풍력 터빈"],
+	["WindTurbine_T2__desc", "수동 제동 기능이 있는 대형 풍력 터빈"],
+	["WindTurbine_T2__name", "풍력 터빈 II"]
+]

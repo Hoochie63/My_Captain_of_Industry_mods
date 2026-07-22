@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2326379228
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d9c636622a594f248aa1e37cfae6825
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8ed81b296f435bff7379a355cd1d66d9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 21ea1b5cf5c3acd60d7c7be2e6b00bc7
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RightAngleMechanicalShaft/Materials/M_PipeHousing.png
+- Assets/RightAngleMechanicalShaft/Materials/M_LG_ShinyMetal.png
+- Assets/RightAngleMechanicalShaft/Materials/Concrete.mat
+- Assets/RightAngleMechanicalShaft/Materials/ST_PipeHolder.mat
+- Assets/RightAngleMechanicalShaft/Materials/Shaft_Steel.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_GearWorn.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_ArrowIn.mat
+- Assets/RightAngleMechanicalShaft/Materials/RA_Ring_Black.mat
+- Assets/RightAngleMechanicalShaft/Materials/RA_Gear_Yellow.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_LG_Shiny.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_Washer.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_PipeHousing.mat
+- Assets/RightAngleMechanicalShaft/Materials/Concrete.png
+- Assets/RightAngleMechanicalShaft/Materials/PipeSeemless.png
+- Assets/RightAngleMechanicalShaft/Materials/M_Nut.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_PipeSeemless.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_DG_Shiny.mat
+- Assets/RightAngleMechanicalShaft/Materials/Glass.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_Bolt.mat
+- Assets/RightAngleMechanicalShaft/Materials/Shaft_Keyway_Dark.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_ArrowOut.mat
+- Assets/RightAngleMechanicalShaft/Materials/M_DG_ShinyMetal.png
+- Assets/RightAngleMechanicalShaft/Materials/RA_Base_ConcreteMetal.mat
+Dependencies: []
