@@ -24,5 +24,8 @@
   ["FaFOptimiser__FarmTooltip", "{0}\n目标肥力:{1}\n需求水量:{2}\n需求肥料:{3}"],
   ["FaFOptimiser__Inputs", "输入: "],
   ["FaFOptimiser__ByproductsHeader", "副产品: "],
-  ["FaFOptimiser__SelectProductionChain", "选择生产链: {0}"]
+  ["FaFOptimiser__SelectProductionChain", "选择生产链: {0}"],
+  ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>计入优化计算</color> (左键点击以排除/忽略)"],
+  ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>已从计算中排除</color> (左键点击以纳入)"],
+  ["FaFOptimiser__CropOutOfScopeLabel", "总计: {0} --- 不计入计算 ---"]
 ]

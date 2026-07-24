@@ -32,6 +32,32 @@ class Product:
         self.quantity = quantity
         self.port = port or "*"
 
+class PortMap:
+    def __init__(
+        self,
+        product: ProductProto | ProductProto.ID | str,
+        port: str
+    ):
+        """
+        One (product → machine port) assignment for `bind_recipe(..., ports=[...])`.
+        Unlike `Product`, it carries NO quantity — quantities live on the recipe;
+        a binding only decides which machine port each product is routed to.
+
+        Parameters:
+            product: the recipe input/output product to pin.
+            port:    the machine port letter to route it to (e.g. "A"). Products
+                     not listed (or omitted) auto-resolve to any free compatible
+                     port at bind time.
+
+        Example:
+            bind_recipe(r, "ChemicalPlant", ports=[
+                PortMap("Product_SteamLo", "S"),
+                PortMap("Product_Sulfur",  "O"),
+            ])
+        """
+        self.product = product
+        self.port = port
+
 class FuelPair:
     def __init__(
         self,
@@ -503,9 +529,9 @@ def build_recipe(
 
 def bind_recipe(
         recipe: RecipeProto | RecipeProto.ID | str,
-        machine: MachineProto.ID | MachineProto | str,
+        machine: MachineProto.ID | MachineProto | str = None,
         duration: Duration | int | None = Duration(60),
-        ports: list[Product] | None = [],
+        ports: list[PortMap] | None = [],
         multiplier: int = 1,
         minPartialUtilization: Percent | int | None = None,
         research: ResearchNodeProto | ResearchNodeProto.ID | str | None = None
@@ -517,17 +543,26 @@ def bind_recipe(
     and port mapping. Call it as many times as there are machines that should run the
     recipe.
 
+    Two call forms:
+
+      • Explicit:  bind_recipe(recipe, machine, duration=..., ports=[...])
+      • In a `with build_recipe(...) as r:` block you may DROP the recipe and pass the
+        machine first — the recipe comes from the enclosing context:
+            with build_recipe("Recipe_X", "X", "") as r:
+                bind_recipe("ChemicalPlant", duration=Duration.FromSec(30))
+        In this context form the machine is the ONLY positional argument; pass
+        everything else (duration, ports, …) by name.
+
     Parameters:
-        recipe:   required - the RecipeProto (or its id) returned by build_recipe(...).
-        machine:  required - machine the recipe is added to.
+        recipe:   the RecipeProto (or id) from build_recipe(...). Omit it inside a
+            `with build_recipe(...)` block (then `machine` becomes the first argument).
+        machine:  machine the recipe is added to.
         duration: per-machine cycle time. Duration or int seconds. Default 60s.
             Different machines/tiers may run the same recipe at different durations.
-        ports:    optional port mapping. A list of Product(product, quantity, port)
-            entries; ONLY `product` and `port` are used (quantities come from the
-            recipe itself). Each entry pins the named product to a specific machine
-            port letter; products not listed (or with port "*") auto-resolve to any
-            compatible port on the machine. Works for both inputs and outputs — the
-            product id selects which side it applies to.
+        ports:    port mapping — a list of PortMap(product, port) entries. Each pins a
+            product to a specific machine port letter. Products not listed auto-resolve
+            to any free compatible port at bind time. (The visual editor always writes
+            a complete map, one PortMap per product.)
         multiplier: integer throughput multiplier applied to all input/output
             quantities for THIS machine (default 1). Lets one base recipe be shared
             across machine tiers with different throughput.
@@ -545,7 +580,7 @@ def bind_recipe(
             products=[Product("Product_Widget", 1)])
         bind_recipe(r, "AssemblyT1", duration=Duration.FromSec(60))
         bind_recipe(r, "AssemblyT2", duration=Duration.FromSec(30),
-                    ports=[Product("Product_Widget", 1, "o")])
+                    ports=[PortMap("Product_Widget", "O")])
     """
     pass
 

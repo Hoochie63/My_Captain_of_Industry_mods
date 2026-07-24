@@ -24,5 +24,8 @@
   ["FaFOptimiser__FarmTooltip", "{0}\nTarget Fertility:{1}\nWater Needed:{2}\nFertility Needed:{3}"],
   ["FaFOptimiser__Inputs", "Inputs: "],
   ["FaFOptimiser__ByproductsHeader", "Byproducts: "],
-  ["FaFOptimiser__SelectProductionChain", "Select Production Chain: {0}"]
+  ["FaFOptimiser__SelectProductionChain", "Select Production Chain: {0}"],
+  ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>In Solver Scope</color> (Left-click to exclude/ignore)"],
+  ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>Excluded from Solver</color> (Left-click to include)"],
+  ["FaFOptimiser__CropOutOfScopeLabel", "Total: {0} --- out of scope ---"]
 ]

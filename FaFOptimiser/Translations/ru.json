@@ -1,106 +1,31 @@
 [
-    [
-        "FaFOptimiser__WindowTitle",
-        "Планировщик ферм и продовольствия"
-    ],
-    [
-        "FaFOptimiser__FarmsList",
-        "Занятость ферм"
-    ],
-    [
-        "FaFOptimiser__ProducedCrops",
-        "Производимые культуры"
-    ],
-    [
-        "FaFOptimiser__SaveCalculation",
-        "Сохранить"
-    ],
-    [
-        "FaFOptimiser__LoadCalculations",
-        "Загрузить"
-    ],
-    [
-        "FaFOptimiser__OptimizerSettings",
-        "Настройки оптимизатора"
-    ],
-    [
-        "FaFOptimiser__MaxAvailableFarms",
-        "Макс. доступных ферм:"
-    ],
-    [
-        "FaFOptimiser__TargetFertility",
-        "Целевое плодородие (%):"
-    ],
-    [
-        "FaFOptimiser__ManualOverride",
-        "Ручное управление"
-    ],
-    [
-        "FaFOptimiser__ManualOverrideTooltip",
-        "Свободно изменять запрос на оптимизацию без привязки к потребности населения в продовольствии."
-    ],
-    [
-        "FaFOptimiser__FoodDemands",
-        "Потребность в продовольствии (мес.):"
-    ],
-    [
-        "FaFOptimiser__AutoFillDemands",
-        "Автозаполнение потребностей"
-    ],
-    [
-        "FaFOptimiser__CropDemands",
-        "Потребность в культурах (мес.):"
-    ],
-    [
-        "FaFOptimiser__SolveAndOptimize",
-        "РАССЧИТАТЬ И ОПТИМИЗИРОВАТЬ"
-    ],
-    [
-        "FaFOptimiser__Solving",
-        "РАСЧЁТ..."
-    ],
-    [
-        "FaFOptimiser__ChainScore",
-        "Оценка цепочки: {0}"
-    ],
-    [
-        "FaFOptimiser__TotalAmount",
-        "Всего: {0}"
-    ],
-    [
-        "FaFOptimiser__InputsOutputs",
-        "Входы/Выходы"
-    ],
-    [
-        "FaFOptimiser__FarmInputs",
-        "Входы ферм:"
-    ],
-    [
-        "FaFOptimiser__ChainInputs",
-        "Входы цепочки:"
-    ],
-    [
-        "FaFOptimiser__Produced",
-        "Произведено:"
-    ],
-    [
-        "FaFOptimiser__Byproducts",
-        "Побочные продукты:"
-    ],
-    [
-        "FaFOptimiser__FarmTooltip",
-        "{0}\nЦелевое плодородие:{1}\nТребуется воды:{2}\nТребуется удобрений:{3}"
-    ],
-    [
-        "FaFOptimiser__Inputs",
-        "Входы: "
-    ],
-    [
-        "FaFOptimiser__ByproductsHeader",
-        "Побочные продукты: "
-    ],
-    [
-        "FaFOptimiser__SelectProductionChain",
-        "Выбор производственной цепочки: {0}"
-    ]
+  ["FaFOptimiser__WindowTitle", "Планировщик ферм и продовольствия"],
+  ["FaFOptimiser__FarmsList", "Занятость ферм"],
+  ["FaFOptimiser__ProducedCrops", "Произведенный урожай"],
+  ["FaFOptimiser__SaveCalculation", "Сохранить"],
+  ["FaFOptimiser__LoadCalculations", "Загрузить"],
+  ["FaFOptimiser__OptimizerSettings", "Настройки оптимизатора"],
+  ["FaFOptimiser__MaxAvailableFarms", "Максимум доступных ферм:"],
+  ["FaFOptimiser__TargetFertility", "Целевое плодородие (%):"],
+  ["FaFOptimiser__ManualOverride", "Ручное управление"],
+  ["FaFOptimiser__ManualOverrideTooltip", "Свободно изменять запрос на оптимизацию без привязки к потребности населения в еде."],
+  ["FaFOptimiser__FoodDemands", "Потребности в еде (мес.):"],
+  ["FaFOptimiser__AutoFillDemands", "Автозаполнение потребностей"],
+  ["FaFOptimiser__CropDemands", "Потребности в урожае (мес.):"],
+  ["FaFOptimiser__SolveAndOptimize", "РЕШИТЬ И ОПТИМИЗИРОВАТЬ"],
+  ["FaFOptimiser__Solving", "РЕШЕНИЕ..."],
+  ["FaFOptimiser__ChainScore", "Оценка цепочки: {0}"],
+  ["FaFOptimiser__TotalAmount", "Всего: {0}"],
+  ["FaFOptimiser__InputsOutputs", "Входы/Выходы"],
+  ["FaFOptimiser__FarmInputs", "Входы ферм:"],
+  ["FaFOptimiser__ChainInputs", "Входы производственных цепей:"],
+  ["FaFOptimiser__Produced", "Произведено:"],
+  ["FaFOptimiser__Byproducts", "Побочные продукты:"],
+  ["FaFOptimiser__FarmTooltip", "{0}\nЦелевое плодородие:{1}\nТребуется воды:{2}\nТребуется удобрений:{3}"],
+  ["FaFOptimiser__Inputs", "Входы: "],
+  ["FaFOptimiser__ByproductsHeader", "Побочные продукты: "],
+  ["FaFOptimiser__SelectProductionChain", "Выберите производственную цепочку: {0}"],
+  ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>Учитывается в расчетах</color> (ЛКМ — исключить/игнорировать)"],
+  ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>Исключено из расчетов</color> (ЛКМ — включить)"],
+  ["FaFOptimiser__CropOutOfScopeLabel", "Всего: {0} --- вне расчета ---"]
 ]

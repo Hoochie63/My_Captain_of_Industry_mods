@@ -1,6 +1,9 @@
-v1.0.5 | 2026-07-04
+v1.0.5 | 2026-07-23
+* Fixed sorters incorrectly consuming/eating materials when their output was full
+* Fixed lifts incorrectly consuming/eating materials when their output was full
+* Repositioned the Cargo Ship Drydock research node in the tech tree
 * Added localization support
-* Added RU translation (credits to Hoochie)
+* Added compatibility for Captain of Industry v0.8.6b (Update 4.2)
 
 v1.0.4 | 2026-07-01
 * Added Medium Retaining Wall

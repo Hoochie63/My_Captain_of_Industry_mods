@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.66f1
-CRC: 84625482
+CRC: 2006774398
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 80b2d5208b45fb323a64cf3f36088f30
+    Hash: 2641993d0c0c9a3fd177ab93cbdae441
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5527383dc91eba37123fc67ad6efaa19
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 64be7d057610758daaee207a7cdd6901
+    Hash: c92820a1a17c265ec4143091eb3b705e
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -18,6 +18,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/FaFoptimiser/target.png
+- Assets/FaFoptimiser/checkmark-16.png
 - Assets/FaFoptimiser/target3.png
 - Assets/FaFoptimiser/cog1.png
 - Assets/FaFoptimiser/target1.png
