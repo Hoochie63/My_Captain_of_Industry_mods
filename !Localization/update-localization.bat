@@ -23,7 +23,8 @@ echo.
 :: Исходный файл
 :: ==========================================================
 
-set "SOURCE_FILE=%APPDATA%\Captain of Industry\Mods\!Localization\ru.json"
+set "SOURCE_FILE=%APPDATA%\Captain of Industry\Mods\!Localization\game\ru.json"
+set "ALT_MESSAGE=Updating game localization..."
 
 if not exist "%SOURCE_FILE%" (
     echo [ERROR] Source file not found:
@@ -48,6 +49,7 @@ echo.
 
 set "ALT_GAME="
 set "ALT_MESSAGE=Searching alternative version..."
+set "ALT_MESSAGE=Updating game localization..."
 
 for /d %%D in ("I:\Download's games\Captain of Industry*") do (
     call set "ALT_GAME=%%~fD"
@@ -65,6 +67,19 @@ call :CreateLink ^
 :EndAlt
 
 :: ==========================================================
+:: Changelog
+:: ==========================================================
+
+echo.
+
+set "SOURCE_FILE=%APPDATA%\Captain of Industry\Mods\!Localization\changelog\ru.json"
+set "ALT_MESSAGE=Updating changelog localization..."
+
+call :CreateLink ^
+    "F:\Steam\steamapps\common\Captain of Industry\Translations\Changelog\ru.json" ^
+    "Main game (changelog)"
+
+:: ==========================================================
 :: English version
 :: ==========================================================
 
@@ -74,7 +89,7 @@ set "SOURCE_FILE=F:\Steam\steamapps\common\Captain of Industry\Translations\en.j
 set "ALT_MESSAGE=Updating link for English localization..."
 
 call :CreateLink ^
-    "%APPDATA%\Captain of Industry\Mods\!Localization\en.json" ^
+    "%APPDATA%\Captain of Industry\Mods\!Localization\game\en.json" ^
     "!Localization (en)"
 echo.
 
