@@ -1731,7 +1731,7 @@
     ],
     [
         "CargoRocketT2__name",
-        "Ракета, ур. II"
+        "Ракета-носитель, ур. II"
     ],
     [
         "CargoShipCannotDepartNow__General",
@@ -14317,7 +14317,7 @@
     ],
     [
         "TestingRocketT0__name",
-        "Ракета-носитель I"
+        "Ракета-носитель, ур. I"
     ],
     [
         "TexturesQualitySetting__Name",
