@@ -1,3 +1,12 @@
+v0.5.4 | 2026-07-27
+* Fixed: Deleted mine control towers now properly reset farmland work in progress
+* Changed: Adjusted Safety policy slope and buffer presets for improved terrain clearance, with default slope factor 0.9 and buffer 2 tiles
+* Improved: Added documentation comments for all expert access search settings in ATDsettings.json
+
+v0.5.3 | 2026-07-27
+* Fixed: Restored vehicle pre-allocation UI controls for excavators and trucks, including custom vehicle subclasses and non-tower assignment panels
+* Fixed: Mine tower vehicle ordering hint tooltip now shows full Shift-Alt-click shortcut details when hovered
+
 v0.5.2 | 2026-07-20
 * Changed: V2 turns are now orientation-only transitions over flat 2x2 landings, suppressing flat and strafe successors.
 * Changed: Adjusted default access height envelope allowances for V1 and V2 accessways.
