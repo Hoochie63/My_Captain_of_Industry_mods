@@ -72,6 +72,8 @@
   "Pipe Balancer (Large)": "Bilanciatore di tubi (Grande)",
   "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.": "Bilanciatore di tubi grande 4x4 con otto connessioni di tubi (due per lato). Distribuisce i fluidi tra i tubi connessi con prioritizzazione opzionale.",
   "Unlocks the large 8-port Pipe Balancer.": "Sblocca il Bilanciatore di tubi grande a 8 porte.",
+  "Gas/Liquid Sorter": "Smistatore gas/liquidi",
+  "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.": "Devia un prodotto fluido o gassoso assegnato verso una porta separata. Tutto il resto continua attraverso l'uscita principale. Si posiziona in linea su un tratto di tubo.",
   "Bridge Port Host": "Hub portuale del ponte",
   "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.": "Trasporta prodotti attraverso un ponte strallato senza usare camion.\n\nPiazza un hub a ogni estremità del ponte — i canali per nastri e tubi integrati nel ponte trasportano gli oggetti tra i due hub, gestendo sia merci su nastri che fluidi.\n\nSolo un hub per lato; il posizionamento di un secondo hub vicino a uno esistente viene bloccato.\n\nUsalo per evitare il traffico stradale quando trasporti materiale alla rinfusa tra due metà della tua isola.",
   "Molten Storage": "Magazzino per materiale fuso",
@@ -111,5 +113,15 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "Nastro del ponte (sfuso) - Diretto all'hub d'uscita",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "Tubo del ponte (fluido) - Diretto all'hub d'ingresso",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Tubo del ponte (fluido) - Diretto all'hub d'uscita",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Tieni premuto questo tasto e trascina il pannello del Parking HQ per riposizionarlo."
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Tieni premuto questo tasto e trascina il pannello del Parking HQ per riposizionarlo.",
+  "Helicopter HQ": "QG Elicotteri",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "Un grande eliporto aperto che funge da base per gli elicotteri da carico. Gli elicotteri inattivi volano qui da soli, atterrano su una delle 40 piazzole di sosta e attendono il prossimo incarico.\n\nQuesta base non assembla elicotteri: costruiscili in un Open Heliport.",
+  "Helicopters based here": "Elicotteri di stanza qui",
+  "On the deck now": "Ora sul ponte",
+  "HQ Priority": "Priorità del QG",
+  "Refuel helicopters": "Rifornire gli elicotteri",
+  "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "I QG con priorità più alta ricevono gli elicotteri per primi. Ogni QG viene riempito prima di qualsiasi Open Heliport: gli elicotteri restano in un Open Heliport solo quando tutti i QG sono pieni.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Se attivo, gli elicotteri posati su questo QG vengono riforniti dal suo deposito di diesel. Riempi il deposito tramite gli attacchi dei tubi o lascia che i camion lo consegnino.",
+  "Helicopter Types": "Tipi di elicottero",
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Officina — I meccanici revisionano gli elicotteri posati su questa base, riducendo il consumo di manutenzione fino alla percentuale indicata. Valori più alti richiedono più energia e meccanici. Gli elicotteri vengono revisionati solo mentre sono sul ponte."
 }

@@ -72,6 +72,8 @@
   "Pipe Balancer (Large)": "Pipe Balancer (Large)",
   "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.": "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.",
   "Unlocks the large 8-port Pipe Balancer.": "Unlocks the large 8-port Pipe Balancer.",
+  "Gas/Liquid Sorter": "Gas/Liquid Sorter",
+  "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.": "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.",
   "Bridge Port Host": "Bridge Port Host",
   "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.": "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.",
   "Molten Storage": "Molten Storage",
@@ -111,5 +113,15 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "Bridge Belt (Loose) - Going to Exit Hub",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "Bridge Pipe (Fluid) - Going to Entrance Hub",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Bridge Pipe (Fluid) - Going to Exit Hub",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Hold this modifier and drag the Parking HQ panel to reposition it."
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Hold this modifier and drag the Parking HQ panel to reposition it.",
+  "Helicopter HQ": "Helicopter HQ",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.",
+  "Helicopters based here": "Helicopters based here",
+  "On the deck now": "On the deck now",
+  "HQ Priority": "HQ Priority",
+  "Refuel helicopters": "Refuel helicopters",
+  "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.",
+  "Helicopter Types": "Helicopter Types",
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck."
 }

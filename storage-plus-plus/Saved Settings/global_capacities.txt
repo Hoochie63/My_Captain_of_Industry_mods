@@ -1,2 +1,0 @@
-StorageUnit=200
-CargoDepotModuleUnitT2=800

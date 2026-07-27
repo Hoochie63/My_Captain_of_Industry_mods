@@ -1,3 +1,17 @@
+v0.2.0 | 2026-07-27
+Livestock & Co-Production Engine
+
+* NEW: Added the Farm Products Demand section with a new system for calculating Chicken and Egg production.
+* NEW: Added a Chicken Population control ([ - ] 🐔 [ + ]) to adjust flock size in steps of 50 chickens. The minimum value is automatically limited to keep enough food for your settlement.
+* NEW: Added support for calculating Animal Feed separately from food production.
+* IMPROVED: Fixed Chicken and Egg calculations so farms and crops are no longer counted twice when producing both at the same time.
+* IMPROVED: Animal Feed is now calculated independently, giving more accurate crop requirements.
+* IMPROVED: Product and crop selections now update instantly without pressing Auto-Fill Demands.
+* IMPROVED: Production chain diagrams are cleaner and easier to read, especially for complex recipes like Sausage and Meat.
+* FIXED: Corn, Wheat, and Animal Feed are no longer counted twice.
+* FIXED: Setting Animal Feed or Chicken demand to zero now correctly removes unused crop calculations.
+* FIXED: Improved UI performance for faster updates and smoother screen redraws.
+
 v0.1.0 | 2026-07-24
 
 * NEW: Added the ability to toggle individual crops in or out of the optimizer scope (ideal for imported crops or external fields).

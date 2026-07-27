@@ -72,6 +72,8 @@
   "Pipe Balancer (Large)": "Balanceador de tubulações (Grande)",
   "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.": "Balanceador de tubulações grande de 4x4 com oito conexões de tubulação (duas por lado). Distribui fluidos entre as tubulações conectadas com priorização opcional.",
   "Unlocks the large 8-port Pipe Balancer.": "Desbloqueia o Balanceador de tubulações grande de 8 portas.",
+  "Gas/Liquid Sorter": "Separador de gás/líquido",
+  "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.": "Desvia um produto fluido ou gasoso atribuído para uma porta separada. Todo o resto continua pela saída principal. Deve ser colocado em linha em um trecho de tubulação.",
   "Bridge Port Host": "Hub de ponte",
   "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.": "Transporta produtos através de uma ponte estaiada sem usar caminhões.\n\nPosicione um hub em cada extremidade da ponte: os canais de esteira e tubulação integrados da ponte transportam itens entre os dois hubs, lidando tanto com mercadorias de esteira quanto com fluidos.\n\nApenas um hub por lado; posicionar um segundo hub perto de um existente é bloqueado.\n\nUse-o para contornar o tráfego de estradas ao transportar material a granel entre duas metades da sua ilha.",
   "Molten Storage": "Armazenamento de fundido",
@@ -111,5 +113,15 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "Esteira de ponte (solto) - Indo para o hub de saída",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "Tubulação de ponte (fluido) - Indo para o hub de entrada",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Tubulação de ponte (fluido) - Indo para o hub de saída",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Mantém esta tecla premida e arrasta o painel do Parking HQ para o reposicionar."
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Mantém esta tecla premida e arrasta o painel do Parking HQ para o reposicionar.",
+  "Helicopter HQ": "Quartel General de Helicópteros",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "Um grande heliporto aberto que serve como base para os helicópteros de carga. Helicópteros ociosos voam para cá por conta própria, pousam numa das 40 plataformas de estacionamento e aguardam a próxima tarefa.\n\nEsta base não monta helicópteros - constrói-os num Open Heliport.",
+  "Helicopters based here": "Helicópteros baseados aqui",
+  "On the deck now": "Agora no convés",
+  "HQ Priority": "Prioridade do QG",
+  "Refuel helicopters": "Reabastecer helicópteros",
+  "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Os QG com prioridade mais alta recebem helicópteros primeiro. Cada QG é preenchido antes de qualquer Open Heliport - os helicópteros só ficam num Open Heliport quando todos os QG estão cheios.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Quando ativado, os helicópteros pousados neste QG são reabastecidos do seu depósito de diesel. Enche o depósito pelas ligações de tubos ou deixa os camiões entregar.",
+  "Helicopter Types": "Tipos de helicóptero",
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Garagem com manutenção — Os mecânicos fazem aqui a manutenção dos helicópteros pousados nesta base, reduzindo o consumo de manutenção até à percentagem indicada. Valores mais altos consomem mais energia e mecânicos. Os helicópteros só recebem manutenção enquanto estão no convés."
 }

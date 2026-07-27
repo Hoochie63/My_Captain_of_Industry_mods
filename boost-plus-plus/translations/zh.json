@@ -1,5 +1,7 @@
 {
   "Boost Manager": "加速管理器",
+  "Toggle the Overlord window": "切换 Overlord 窗口",
+  "Open or close the Mori++ Overlord window.": "打开或关闭 Mori++ Overlord 窗口。",
   "Buildings": "建筑",
   "Belts & Pipes": "传送带与管道",
   "Mass Boost": "批量加速",
@@ -190,5 +192,6 @@
   "Connector": "连接器",
   "Lift": "升降机",
   "Sorter": "分拣机",
+  "Balancer": "平衡器",
   "Click to change order: default, by speed, by name (A-Ö), or by type.": "点击更改排序方式：默认、按速度、按名称 (A-Ö) 或按类型。"
 }

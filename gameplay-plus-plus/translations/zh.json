@@ -72,6 +72,8 @@
   "Pipe Balancer (Large)": "管道平衡器（大型）",
   "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.": "大型 4×4 管道平衡器，共有八个管道接口（每侧两个）。在相连管道之间分配流体，可设置优先级。",
   "Unlocks the large 8-port Pipe Balancer.": "解锁大型 8 端口管道平衡器。",
+  "Gas/Liquid Sorter": "气体/液体分拣机",
+  "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.": "将一种指定的液体或气体产品分流到单独的端口，其余产品继续从主输出流出。安装在管道线路中间。",
   "Bridge Port Host": "桥港主机",
   "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.": "在斜拉桥上运输产品，无需卡车。\n\n在桥的两端各放置一个集线器——桥梁自带的传送带和管道通道会在两个集线器之间运送物品，同时处理固体货物和流体。\n\n每侧只能放一个集线器；在已有集线器附近再放会被阻止。\n\n当你在岛屿两半之间运送大宗物料时，用它来绕过路面交通。",
   "Molten Storage": "熔融存储罐",
@@ -111,5 +113,15 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "桥梁传送带（松散）- 通往出口集线器",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "桥梁管道（流体）- 通往入口集线器",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "桥梁管道（流体）- 通往出口集线器",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "按住此键并拖动 Parking HQ 面板即可重新放置。"
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "按住此键并拖动 Parking HQ 面板即可重新放置。",
+  "Helicopter HQ": "直升机总部",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "一座大型开放式直升机场，是货运直升机的母港。空闲的直升机会自动飞到这里，降落在40个停机位之一，等待下一个任务。\n\n该基地不组装直升机 - 请在 Open Heliport 建造。",
+  "Helicopters based here": "驻扎直升机",
+  "On the deck now": "当前在停机坪",
+  "HQ Priority": "总部优先级",
+  "Refuel helicopters": "为直升机加油",
+  "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "优先级更高的直升机总部会先接收直升机。所有直升机总部都会在 Open Heliport 之前被填满 - 只有当所有总部都满员时，直升机才会停留在 Open Heliport。",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "启用后，停在该总部的直升机将从其柴油储罐加油。可通过管道接口或卡车运送来填充储罐。",
+  "Helicopter Types": "直升机类型",
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "维修机库 — 机械师会维护停在该基地的直升机，将其维护消耗最多降低所示百分比。设置越高，耗电和所需机械师越多。直升机仅在停机坪上时才会被维护。"
 }

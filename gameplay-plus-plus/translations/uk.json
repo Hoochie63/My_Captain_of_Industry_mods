@@ -72,6 +72,8 @@
   "Pipe Balancer (Large)": "Сортувальник трубопроводів (2x4)",
   "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.": "Компактний сортувальник трубопроводів 2×4 для розподілу змішаних потоків рідини. Приймає об’єднаний потік і автоматично розподіляє рідини між призначеними вихідними портами. На відміну від базового сортувальника, версія 2×4 підтримує більше одночасних з’єднань і дозволяє будувати компактніші та ефективніші трубопровідні вузли у великих промислових системах.",
   "Unlocks the large 8-port Pipe Balancer.": "Відкриває великий 8-портовий Сортувальник трубопроводів.",
+  "Gas/Liquid Sorter": "Сортувальник газу/рідини",
+  "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.": "Спрямовує один призначений рідкий або газоподібний продукт в окремий порт. Все інше продовжує рухатися через основний вихід. Встановлюється прямо на ділянку труби.",
   "Bridge Port Host": "Містовий транспортний вузол",
   "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.": "Транспортує ресурси через вантажний міст без використання вантажівок. Підключіть по одному вузлу з кожного боку мосту — вбудовані конвеєри та трубопроводи автоматично передаватимуть вантажі й рідини між двома вузлами.",
   "Molten Storage": "Сховище розплаву",
@@ -111,5 +113,15 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "Конвеєр мосту (сипучі) — прямує до вихідного хаба",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "Труба мосту (рідина) — прямує до вхідного хаба",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Труба мосту (рідина) — прямує до вихідного хаба",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Утримуйте цю клавішу й перетягніть панель Parking HQ, щоб перемістити її."
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Утримуйте цю клавішу й перетягніть панель Parking HQ, щоб перемістити її.",
+  "Helicopter HQ": "База вертольотів",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "Великий відкритий вертодром, що слугує домашньою базою для вантажних вертольотів. Вільні вертольоти самі прилітають сюди, сідають на одну з 40 стоянок і чекають наступного завдання.\n\nЦя база не збирає вертольоти - будуйте їх на Open Heliport.",
+  "Helicopters based here": "Приписані вертольоти",
+  "On the deck now": "Зараз на палубі",
+  "HQ Priority": "Пріоритет бази",
+  "Refuel helicopters": "Заправляти вертольоти",
+  "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Бази з вищим пріоритетом отримують вертольоти першими. Кожна база заповнюється раніше за будь-який Open Heliport - вертольоти залишаються на Open Heliport лише коли всі бази заповнені.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Якщо увімкнено, вертольоти, що стоять на цій базі, заправляються з її сховища дизеля. Заповнюйте сховище через трубні порти або доставкою вантажівками.",
+  "Helicopter Types": "Типи вертольотів",
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Гараж з обслуговуванням — Механіки обслуговують вертольоти, що стоять на цій базі, знижуючи витрату обслуговування до вказаного відсотка. Вищі значення потребують більше енергії та механіків. Вертольоти обслуговуються лише поки стоять на палубі."
 }

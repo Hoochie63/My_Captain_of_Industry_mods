@@ -1,3 +1,15 @@
+v1.2.9 | 2026-07-24
+* Saved settings now live in a shared "Mori++ Saved settings" folder outside the mod folder, so a manual delete or a mod manager wiping the folder no longer loses them. Because of this move, all your current settings reset to default one time — set everything up again and from then on they're kept safe in that folder.
+* The Mori++ HUD buttons are now one single "O" Overlord button — click it to open one window with a tab for each installed mod's settings, instead of a separate button per mod.
+* Overlord now has its own keybind (Alt+W by default) to open or close it. Can be changed in Keybind Framework if installed.
+* Fixed vehicle speed override silently capping out — it now actually makes vehicles drive faster, up to a new max of 5x (higher speeds break the game's own driving physics).
+* Bucket Size input is now capped at 500 (For now), and both Speed and Bucket Size now show their max allowed value next to the default.
+* Vehicle Stats picker icons no longer show a fuel-type badge — it still applies to every fuel variant (diesel, hydrogen, synthetic, battery), the badge was misleading.
+* Cheat++ window is now the same width as the other Mori++ tabs in the Overlord window.
+
+v1.2.8 | 2026-07-21
+-----
+
 v1.2.7 | 2026-07-17
 * Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
 * Fixed the pipe toolbar's quick-toggle buttons (U/B/L/S) drawing as rectangles and shifting position — they're now sized to match the other toolbar icons and stay put.

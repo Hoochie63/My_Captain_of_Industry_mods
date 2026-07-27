@@ -1,3 +1,16 @@
+v1.1.9 | 2026-07-24
+* Saved settings now live in a shared "Mori++ Saved settings" folder outside the mod folder, so a manual delete or a mod manager wiping the folder no longer loses them. Because of this move, all your current settings reset to default one time — set everything up again and from then on they're kept safe in that folder.
+* The Mori++ HUD buttons are now one single "O" Overlord button — click it to open one window with a tab for each installed mod's settings, instead of a separate button per mod.
+* Overlord now has its own keybind (Alt+W by default) to open or close it. Can be changed in Keybind Framework if installed.
+* Balancers can now be boosted just like connectors, lifts and sorters — from the balancer window, groups, and mass select.
+* Click to select and Drag to select (Mass Select tab) now switch your mouse cursor to a select-area icon while active, so it's clear the tool is on.
+* Fixed the copy tool not carrying over an under-100% boost when copy-pasting buildings — it reset to 100% instead. (thanks Denis for the report)
+* Fixed Ore Sorting Plant boost losing its sorting speed bonus when Storage++ overrides its capacity — speed boost works again. (thanks Hyperion2950 for the report)
+* Fixed the Groups tab collapsing into a narrow strip with squashed, wrapped buttons.
+
+v1.1.8 | 2026-07-20
+-----
+
 v1.1.7 | 2026-07-15
 * Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
 * Machines can now be set below 100% speed, all the way down to 10% — not just boosted above it — so you can slow one down to balance production flows. The Boost++ slider and value turn light blue when under 100%. (thanks Serjevski for the suggestion)

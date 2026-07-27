@@ -6,6 +6,8 @@
   "Select all vehicle types": "Alle Fahrzeugtypen auswählen",
   "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Wechselt den für Massen-Fahrzeugbewegung / Massen-Rückholung ausgewählten Fahrzeugtyp.",
   "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Setzt Massen-Fahrzeugbewegung / Massen-Rückholung zurück, damit alle Fahrzeugtypen betroffen sind.",
+  "Toggle the Overlord window": "Overlord-Fenster umschalten",
+  "Open or close the Mori++ Overlord window.": "Öffnet oder schließt das Mori++-Overlord-Fenster.",
   "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Die Auswahl eines Fahrzeugtyps umfasst alle seine Kraftstoffvarianten (Diesel, Batterie, Wasserstoff, Synthetischer Diesel) — du musst nicht jede einzeln auswählen.",
   "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Umfasst alle Kraftstoffvarianten (Diesel, Batterie, Wasserstoff, Synthetischer Diesel) dieses Fahrzeugs.",
   "Mass Vehicle Mover (Shift+M)": "Massen-Fahrzeugbewegung (Shift+M)",
@@ -15,6 +17,7 @@
   "Utilities++": "Utilities++",
   "Tools": "Werkzeuge",
   "View/Layers": "Ansicht/Ebenen",
+  "Window": "Fenster",
 
   "Keybinds": "Tastenbelegung",
   "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Belege die Hotkeys der Mori++-Suite neu. Die Tastenkürzel des Spiels werden ebenfalls geprüft, sodass du vor Konflikten gewarnt wirst.",
@@ -118,6 +121,15 @@
   "Show All": "Alle anzeigen",
 
   "Hide All": "Alle ausblenden",
+
+  "Show lifts, sorters & balancers": "Aufzüge, Sortierer & Ausgleicher anzeigen",
+
+  "Show Lifts": "Aufzüge anzeigen",
+  "Show Sorters": "Sortierer anzeigen",
+  "Show Balancers": "Ausgleicher anzeigen",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Wenn nicht aktiviert, werden alle Aufzüge unabhängig von der Höhenstufe ausgeblendet — unabhängig von den Stufen-Kontrollkästchen oben. Pro Spielstand.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Wenn nicht aktiviert, werden alle Sortierer unabhängig von der Höhenstufe ausgeblendet — unabhängig von den Stufen-Kontrollkästchen oben. Pro Spielstand.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Wenn nicht aktiviert, werden alle Ausgleicher unabhängig von der Höhenstufe ausgeblendet — unabhängig von den Stufen-Kontrollkästchen oben. Pro Spielstand.",
 
   "Show buildings & trees": "Gebäude & Bäume anzeigen",
 

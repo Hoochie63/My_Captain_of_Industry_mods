@@ -1,5 +1,7 @@
 {
   "Boost Manager": "Менеджер груп",
+  "Toggle the Overlord window": "Перемкнути вікно Overlord",
+  "Open or close the Mori++ Overlord window.": "Відкриває або закриває вікно Overlord Mori++.",
   "Buildings": "Будівлі",
   "Belts & Pipes": "Конвеєри та трубопровід",
   "Mass Boost": "Масове підсилення",
@@ -190,5 +192,6 @@
   "Connector": "З'єднувач",
   "Lift": "Підйомник",
   "Sorter": "Сортувальник",
+  "Balancer": "Балансувальник",
   "Click to change order: default, by speed, by name (A-Ö), or by type.": "Натисніть, щоб змінити порядок: за замовчуванням, за швидкістю, за назвою (A-Ö) або за типом."
 }

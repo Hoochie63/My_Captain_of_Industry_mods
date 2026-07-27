@@ -1,3 +1,9 @@
+v1.1.6 | 2026-07-22
+* Saved settings now live in a shared "Mori++ Saved settings" folder outside the mod folder, so a manual delete or a mod manager wiping the folder no longer loses them. Because of this move, all your current settings reset to default one time — set everything up again and from then on they're kept safe in that folder.
+* The Mori++ HUD buttons are now one single "O" Overlord button — click it to open one window with a tab for each installed mod's settings, instead of a separate button per mod.
+* Overlord now has its own keybind (Alt+W by default) to open or close it. Can be changed in Keybind Framework if installed.
+* Lifts, Sorters and Balancers now have their own Show/Hide checkboxes in a column next to Buildings & Trees on the Belts/Pipes tab — independent of the Level checkboxes.
+* Vehicle Mover and Mass Recover's shared vehicle type picker icons no longer show a fuel-type badge — it applies to every fuel variant (diesel, hydrogen, synthetic, battery).
 v1.1.5 | 2026-07-20
 * Drag Upgrade, Drag Downgrade, Belt/Pipe Cleanup, Mass Vehicle Mover and Mass Recover now switch your mouse cursor to a select-area icon while active, so it's clear the tool is on and where your drag will start.
 * From game version 0.8.6 the game itself remembers window positions, so the mod's window position memory and the Windows tab now turn off automatically there. On game version 0.8.5 and older they keep working exactly as before.

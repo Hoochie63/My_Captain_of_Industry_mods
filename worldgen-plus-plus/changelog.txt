@@ -1,3 +1,6 @@
+v1.1.2 | 2026-07-21
+* Saved settings now live in a shared "Mori++ Saved settings" folder outside the mod folder, so a manual delete or a mod manager wiping the folder no longer loses them. Because of this move, all your current settings reset to default one time — set everything up again and from then on they're kept safe in that folder.
+* Fixed the world map opening zoomed out way too far, making it look empty until you scrolled around to find home. (thanks Serjevski for the reminder)
 v1.1.1 | 2026-07-18
 * Fixed the WorldGen tab missing from the new game screen on for 0.8.6 so sorry i missed this (thought i fixed it but forgot to fix it xD).
 

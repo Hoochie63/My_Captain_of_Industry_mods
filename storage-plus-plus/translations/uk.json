@@ -1,5 +1,7 @@
 {
   "Capacity": "Місткість",
+  "Toggle the Overlord window": "Перемкнути вікно Overlord",
+  "Open or close the Mori++ Overlord window.": "Відкриває або закриває вікно Overlord Mori++.",
   "Set the transfer rate (items or fluid per 60s) for each storage type and train station module.": "Задайте швидкість передачі (предмети або рідина за 60 с) для кожного типу сховища та модуля залізничної станції.",
   "Throughput": "Пропускна здатність",
   "Storage Ground": "Наземні сховища",

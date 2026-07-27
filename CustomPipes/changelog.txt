@@ -1,0 +1,58 @@
+v2.0.3 | 2026-07-26
+2026年7月26日21:52:09
+* 感谢社区玩家 Hoochie 提供的建议
+* 修正了研发线路.
+* 加入传送带4,传送带5,传送带6的研发路径.
+* 研发前置为研究院3级.
+* 更新国际化
+* Thanks to community player Hoochie for the suggestions
+* Fixed the research and development lines.
+* Added research paths for Conveyor Belt 4, Conveyor Belt 5 and Conveyor Belt 6.
+* Requires Level 3 Research Institute as the precondition for research.
+* Update internationalization
+v2.0.2 | 2026-07-26
+2026年7月26日09:22:21
+* 感谢社区玩家786216376 提供的测试线索.
+* 添加针对熔融通道连接器的吞吐性能.
+
+v2.0.1 | 2026-07-24
+* 加入2个补丁用来提高速度和吞吐性能,测试样本不足.用于测试连接器是否存在吞吐折损问题.
+
+v2.0.0 | 2026-07-21
+2026年7月21日01:04:46
+经过24小时紧急修复,解决了游戏版本086中出现的U型六级传送带在后端产品堵塞的情况下,前段传送带虚假传送物品或者物品被吞噬的现象.
+对代码进行了全面重构和复写,对水管的颜色进行了设定.
+感谢中国玩家流香发现bug并做出测试提醒.
+After 24 hours of emergency repairs, we resolved the issue in Game Version 086 where the U-shaped Level 6 conveyor belt would falsely transport items or swallow items when the back-end production line got clogged.
+The code has been fully restructured and rewritten, and the color scheme for water pipes has been configured.
+Special thanks to Chinese player Liuxiang for discovering this bug and providing testing feedback.
+
+v1.0.0 | 2026-07-18
+使用独立版本号,不再使用官方游戏版本号,避免mod升级无法修改版本号的问题出现.
+根据社区网友yazora提供的改进建议,修复上一个版本的科技重叠bug.
+添加3个科技在微芯片2科技研发后方可逐级研发.分别对应4级传送带,五级传送带,六级传送带.
+Adopt an independent version number instead of the official game version number to prevent the issue where the version number cannot be modified during mod updates.
+Fixed the tech overlap bug from the previous version based on improvement suggestions submitted by community user yazora.
+Added 3 new technologies that can be researched sequentially after unlocking Microchip 2. They correspond to Tier 4 Conveyor Belt, Tier 5 Conveyor Belt and Tier 6 Conveyor Belt respectively.
+
+v0.8.6 | 2026-07-18
+兼容和支持086游戏版本.Compatible with and supports the 086 game version.
+
+v0.8.4b | 2026-05-27
+May 27, 2026 | 08:29:55 2026年5月27日 | 08:29:55
+Fixed remaining compatibility and translation bugs
+修复了剩余的兼容性和翻译错误
+Completed internationalization support (multi-language adaptation)
+完成了国际化支持（多语言适配）
+Added Tier 4 & Tier 5 Flat Conveyors and Tier 4 & Tier 5 Loose Material Conveyors
+新增了4级及5级平板输送机和4级及5级散料输送机
+Optimized conveyor transmission logic to match vanilla game rules
+优化了传送带传动逻辑，以匹配原版游戏规则
+
+v0.8.3a | 2026-04-26
+* May 2, 2026 | 21:25:28 2026年5月2日 | 21:25:28
+Added Tier 5 Pipe and corresponding Tier 5 pipe research technology
+新增了5级管道以及对应的5级管道研究技术
+Added Tier 3 Molten Metal Channel 新增了三级熔融金属通道
+Fixed existing pipe system bugs and pipeline upgrade conflicts
+修复了现有管道系统的漏洞以及管道升级冲突

@@ -1,5 +1,7 @@
 {
     "Capacity": "Capacidad",
+    "Toggle the Overlord window": "Alternar la ventana de Overlord",
+    "Open or close the Mori++ Overlord window.": "Abre o cierra la ventana de Overlord de Mori++.",
     "Set the transfer rate (items or fluid per 60s) for each storage type and train station module.": "Ajusta la tasa de transferencia (objetos o fluido por 60s) de cada tipo de almacén y módulo de estación de tren.",
     "Throughput": "Rendimiento",
     "Storage Ground": "Almacenes terrestres",

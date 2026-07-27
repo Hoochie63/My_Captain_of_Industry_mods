@@ -1,6 +1,6 @@
 ﻿{
 	"id": "FaFOptimiser",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"primary_dlls": [ "FaFOptimiser.dll" ],
 	"non_locking_dll_load": true,
 	"min_game_version": "0.8.4",

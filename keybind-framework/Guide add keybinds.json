@@ -1,0 +1,470 @@
+# Adding your mod to the Keybind Framework
+
+The Keybind Framework is a standalone mod from Mori Suit mods. (`keybind-framework`) that gives
+every mod's hotkeys one shared home: a **"Modded Keybinds"** tab in the game's Settings window,
+right after Controls. Register your mod's keybinds with it and you get, for free:
+
+- Your own tab in Settings (named after your mod), or a shared tab with your other mods if you want one
+- Optionally, split a mod with lots of keybinds into its own sub-tabs by group, instead of one long scrolling list (see *split your own mod's keybinds into sub-tabs* below)
+- A rebinding UI (click a field, press a new key, Apply)
+- Primary + Secondary key slots
+- Automatic conflict detection against vanilla shortcuts **and every other mod** registered with the framework — the player is told exactly which mod owns the key they clashed with
+- Optionally, hand your keybind straight to the game's own shortcut dispatcher — no input polling code in your mod at all (see *Skip the polling* below)
+
+You talk to the framework purely through **reflection** — there is no DLL to reference and no
+compile-time dependency. This means your mod keeps working fine even if a player doesn't have
+the Keybind Framework installed; it just falls back to your own hard-coded default keys.
+
+---
+
+## Step 1 — Declare it as an optional dependency
+
+In your mod's `manifest.json`, add:
+
+```json
+"optional_mod_dependencies": ["keybind-framework"]
+```
+
+Use `optional_mod_dependencies`, **never** `mod_dependencies`. A mandatory dependency will grey
+out your mod on a player's existing save if they don't have the framework installed. Optional
+means your mod loads and works fine on its own either way.
+
+---
+
+## Step 2 — List your keybinds
+
+Describe each keybind as a row of 7 plain strings:
+
+```
+{ id, label the player sees, type, default combo, gesture hint, group heading, tooltip }
+```
+
+| Field | Meaning |
+|---|---|
+| `id` | A short internal name only your mod uses, e.g. `"MyMod_OpenWindow"`. Never shown to the player. |
+| `label` | The text the player sees next to the keybind field. |
+| `type` | `"Discrete"` for a normal key press, or `"Modifier"` for a held key (like Ctrl) combined with a mouse action. |
+| `default combo` | The key(s) it's bound to out of the box. One key: `"G"`. Several keys: join with `" + "`, e.g. `"LeftControl + M"`. Names must match Unity's `KeyCode` enum exactly (`LeftControl`, `LeftShift`, `LeftAlt`, `Insert`, `PageUp`, letters/numbers as-is, etc). |
+| `gesture hint` | Only used for `"Modifier"` rows — short text describing what to do while holding it, e.g. `"Left-drag"` or `"Left-click"`. Leave `""` for `"Discrete"` rows. |
+| `group heading` | Optional. Bindings that share the same group text get a yellow subheading above them in your tab (exactly like the "Tools" / "View/Layers" headings in the Mori++ tab). Leave `""` for a flat list with no headings. |
+| `tooltip` | Optional. If set, the player sees a small "i" next to the label — hovering shows this text. Leave `""` for no tooltip. |
+
+Example — three keybinds, two of them sharing a group heading:
+
+```csharp
+private static readonly string[][] Descriptors =
+{
+    new[] { "MyMod_OpenWindow",   "Open My Cool Mod window", "Discrete", "LeftControl + M", "",           "Windows", "Opens the main window." },
+    new[] { "MyMod_QuickAction",  "Do the quick action",     "Discrete", "G",                "",           "Actions", "Runs the quick action on the selected building." },
+    new[] { "MyMod_PaintModifier","Paint mode",               "Modifier", "LeftAlt",          "Left-click", "Actions", "Hold and left-click tiles to paint them." },
+};
+```
+
+This renders as your own tab titled after your mod, with a "Windows" heading over the first
+row and an "Actions" heading over the other two.
+
+---
+
+## Step 3 — Register when your mod loads
+
+Call this once from `IMod.Initialize` (not `RegisterPrototypes` — by `Initialize` every mod
+assembly, including the framework's, is guaranteed to be loaded):
+
+```csharp
+private const string MOD_ID = "my-cool-mod";     // your manifest.json "id"
+private const string DISPLAY = "My Cool Mod";     // shown as your tab's title
+private const string SEP = "~|~";
+
+private static MethodInfo s_getCombo;
+private static bool s_initialized;
+
+public static void Register()
+{
+    if (s_initialized) return;
+    s_initialized = true;
+    try
+    {
+        Type apiType = null;
+        foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
+        {
+            apiType = asm.GetType("KeybindFramework.KeybindFrameworkApi");
+            if (apiType != null) break;
+        }
+        if (apiType == null) return; // framework not installed - your mod just keeps its own defaults
+
+        s_getCombo = apiType.GetMethod("GetCombo", new[] { typeof(string), typeof(string) });
+        var reg = apiType.GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]) });
+        if (reg == null) return;
+
+        var rows = new List<string>();
+        foreach (var d in Descriptors)
+            rows.Add(string.Join(SEP, new[] { d[0], d[1], d[2], d[3], d[4], d[5], "", d[6] }));
+        reg.Invoke(null, new object[] { MOD_ID, DISPLAY, rows.ToArray() });
+    }
+    catch { }
+}
+```
+
+A couple of things worth knowing:
+- `RegisterRaw` must be looked up with its exact parameter types (`GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]) })`), not just by name — the framework has more than one method called `RegisterRaw`, and a name-only lookup throws.
+- The empty `""` in the middle of the row is a reserved slot for a Secondary default key, which you don't need to set — see *Conflicts are automatic* below.
+- Everything is wrapped in `try/catch` so a missing or older framework DLL can never crash your mod.
+
+---
+
+## Step 4 — Read the player's chosen key
+
+Cache `GetCombo` once in `Register()` (already done above), then check it whenever you poll for
+input:
+
+```csharp
+private static string ComboFor(string id, string fallbackDefault)
+{
+    try
+    {
+        if (s_getCombo != null)
+        {
+            var c = s_getCombo.Invoke(null, new object[] { MOD_ID, id }) as string;
+            if (!string.IsNullOrEmpty(c)) return c;
+        }
+    }
+    catch { }
+    return fallbackDefault; // framework absent or key not found - use your own default
+}
+```
+
+`GetCombo` always returns the combo that's actually in effect right now — including any
+rebind the player made, and including an automatic switch to the Secondary slot if the
+Primary is clashing with something (see below). You never need to check overrides yourself.
+
+---
+
+## Play nice while the player is typing a new key
+
+While a player is capturing a new binding in Settings, raw key presses are still visible to
+your mod's own input checks — so without a guard, typing "Ctrl" to set a new binding could
+also fire your own Ctrl-based hotkey elsewhere in the game. Bail out at the top of your input
+check with:
+
+```csharp
+if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf && Time.frameCount - cf <= 1)
+    return false;
+```
+
+This flag is set by the framework only while a rebind capture is actually in progress, and it
+expires automatically after one frame, so it's safe to check unconditionally every time.
+
+---
+
+## Optional: skip the polling — let the game fire your keybind
+
+If a keybind is a simple "press it once, something happens" action, you don't have to write any
+input polling at all. The game has its own dispatcher for this — `IUnityInputMgr.RegisterGlobalShortcut`
+— and the framework can hand it the player's current combo as a ready-made `KeyBindings`.
+
+**This path is press-only.** It cannot see a key being *held* or *released* — so any hold-style
+keybind, and every `"Modifier"` row, must keep using polling instead (Step 4 plus `IsHeld` in the
+full example below). Use this section only for plain press-and-fire actions.
+
+```csharp
+private static MethodInfo s_getKeyBindings;
+
+// in Register(), next to s_getCombo:
+s_getKeyBindings = apiType.GetMethod("GetKeyBindings", new[] { typeof(string), typeof(string) });
+```
+
+```csharp
+private static KeyBindings BindingsFor(string id, KeyBindings fallback)
+{
+    try
+    {
+        if (s_getKeyBindings != null)
+            return (KeyBindings)s_getKeyBindings.Invoke(null, new object[] { MOD_ID, id });
+    }
+    catch { }
+    return fallback; // framework absent or older - your own default fires instead
+}
+```
+
+Then wire it up once from `IMod.Initialize`:
+
+```csharp
+public void Initialize(DependencyResolver resolver, bool gameWasLoaded)
+{
+    MyKeybinds.Register();
+    var inputMgr = resolver.Resolve<IUnityInputMgr>();
+    inputMgr.RegisterGlobalShortcut(
+        m => MyKeybinds.BindingsFor("MyMod_OpenWindow",
+            KeyBindings.FromPrimaryKeys(KbCategory.Camera, ShortcutMode.Game, KeyCode.LeftControl, KeyCode.M)),
+        (Func<bool>)(() => { OpenWindow(); return true; }));
+}
+```
+
+How it behaves:
+
+- The function you pass in is re-read every time the game checks input, so a rebind the player
+  makes in Settings applies instantly — no re-registering, no restart needed.
+- The game won't fire it while the player is typing in a text field, and the framework keeps it
+  quiet during rebind capture automatically — the `MoriPP_KeybindCapturingFrame` check from the
+  previous section is not needed on this path.
+- The `fallback` is what fires when the framework isn't installed — build it with
+  `KeyBindings.FromKey(...)` / `FromPrimaryKeys(...)` so it matches your row's default combo.
+  Use any category except `KbCategory.General` (General keys sit outside the game's
+  longer-combo-wins handling).
+- If `GetKeyBindings` comes back `null`, the player is running an older framework version — fall
+  back to the polling from Step 4.
+- If the key should open/close a window of yours, pass your `WindowController` itself as the
+  second argument instead of a callback — that's the same overload the game uses for its own
+  windows.
+
+---
+
+## Conflicts are automatic — and they name the other mod
+
+You don't write any conflict-detection code yourself. The moment you register, every combo you
+use is checked against vanilla shortcuts **and every other mod's registered keybinds**. If two
+mods end up on the same key, the player sees a note right under the keybind field, naming the
+exact other mod and its keybind label, for example:
+
+```
+Conflicts with: [Tweaks++] Toggle the Tweaks++ window
+```
+
+— never just a bare "conflict". This works the same way whether the clash is with a vanilla
+shortcut (`[Vanilla] ...`) or with any other mod built on the framework, including yours.
+
+Every `"Discrete"` keybind also gets an optional **Secondary** slot in the UI for free. If a
+player's Primary combo is clashing with something and they've set a free Secondary, the game
+automatically switches to the Secondary and tells them so — `GetCombo` always hands you back
+whichever slot is actually active, so there's nothing extra for you to do.
+
+---
+
+## Optional: share one tab across several of your mods
+
+By default your mod gets its own tab. If you ship more than one mod and want them to share a
+single tab — exactly how the four Mori++ mods all share one "Mori++" tab — pass a
+bundle name as a 4th argument instead of the 3-arg call above:
+
+```csharp
+var reg = apiType.GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]), typeof(string) });
+reg.Invoke(null, new object[] { MOD_ID, DISPLAY, rows.ToArray(), "My Studio's Mods" });
+```
+
+Every mod that registers with the same bundle name gets its own sub-tab inside that one shared
+tab, instead of a separate top-level tab each — exactly how Cheat++, Gameplay++, Tweaks++, and
+Utilities++ each show up as their own sub-tab inside "Mori++" rather than one long
+scrolling list.
+
+---
+
+## Optional: split your own mod's keybinds into sub-tabs
+
+If your mod has a lot of keybinds — dozens or even hundreds — one long scrolling list gets
+unwieldy fast. Pass `groupsAsTabs: true` and every distinct `group heading` you already use
+(Step 2) becomes its own sub-tab instead of just a heading, so players click between smaller
+focused tabs instead of scrolling past everything. Bindings left with no group land in a
+catch-all "General" tab.
+
+Use the 5-arg `RegisterRaw` overload instead of the 3-arg one from Step 3 (again, look it up by
+its exact parameter types — the framework has several `RegisterRaw` overloads):
+
+```csharp
+var reg = apiType.GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]), typeof(string), typeof(bool) });
+reg.Invoke(null, new object[] { MOD_ID, DISPLAY, rows.ToArray(), null, true });
+```
+
+Pass `null` for the bundle argument (4th position) if you don't also want to share a tab with
+other mods — or your bundle name if you want both at once: a labelled sub-tab per bundle member,
+with that member's own keybinds further split into sub-tabs by group.
+
+Each group sub-tab is fully self-contained — its Reset all / Apply all only ever touches that
+one group's keybinds, never the rest of your mod.
+
+---
+
+## Full example
+
+This uses the full 5-arg `RegisterRaw` signature so you can see the `bundle` and `groupsAsTabs`
+switches from the two Optional sections above in place — both are set to "off" here (`null` /
+`false`), which is the plain single-tab behavior. Flip either one to opt in.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using UnityEngine;
+
+namespace MyCoolMod
+{
+    internal static class MyKeybinds
+    {
+        private const string MOD_ID = "my-cool-mod";
+        private const string DISPLAY = "My Cool Mod";
+        private const string SEP = "~|~";
+
+        // id, label, type, default combo, gesture hint, group, tooltip
+        private static readonly string[][] Descriptors =
+        {
+            new[] { "MyMod_OpenWindow",    "Open My Cool Mod window", "Discrete", "LeftControl + M", "",           "Windows", "Opens the main window." },
+            new[] { "MyMod_QuickAction",   "Do the quick action",     "Discrete", "G",                "",           "Actions", "Runs the quick action on the selected building." },
+            new[] { "MyMod_PaintModifier", "Paint mode",              "Modifier", "LeftAlt",          "Left-click", "Actions", "Hold and left-click tiles to paint them." },
+        };
+
+        private static MethodInfo s_getCombo;
+        private static bool s_initialized;
+
+        public static void Register()
+        {
+            if (s_initialized) return;
+            s_initialized = true;
+            try
+            {
+                Type apiType = null;
+                foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
+                {
+                    apiType = asm.GetType("KeybindFramework.KeybindFrameworkApi");
+                    if (apiType != null) break;
+                }
+                if (apiType == null) return;
+
+                s_getCombo = apiType.GetMethod("GetCombo", new[] { typeof(string), typeof(string) });
+
+                // 5-arg overload: (modId, displayName, bindings, bundle, groupsAsTabs)
+                //   bundle:        a shared name (e.g. "My Studio's Mods") to share one tab with your
+                //                  other mods, each as its own sub-tab - or null for just your own tab.
+                //   groupsAsTabs:  true turns each distinct group heading in Descriptors above into its
+                //                  own sub-tab instead of just a heading - handy once you have a lot of
+                //                  keybinds. false (or the 3-arg overload) keeps today's single flat tab.
+                var reg = apiType.GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]), typeof(string), typeof(bool) });
+                if (reg == null) return;
+
+                var rows = new List<string>();
+                foreach (var d in Descriptors)
+                    rows.Add(string.Join(SEP, new[] { d[0], d[1], d[2], d[3], d[4], d[5], "", d[6] }));
+                reg.Invoke(null, new object[] { MOD_ID, DISPLAY, rows.ToArray(), null, false });
+            }
+            catch { }
+        }
+
+        private static string ComboFor(string id, string fallbackDefault)
+        {
+            try
+            {
+                if (s_getCombo != null)
+                {
+                    var c = s_getCombo.Invoke(null, new object[] { MOD_ID, id }) as string;
+                    if (!string.IsNullOrEmpty(c)) return c;
+                }
+            }
+            catch { }
+            return fallbackDefault;
+        }
+
+        private static bool IsModifierKey(KeyCode k)
+        {
+            switch (k)
+            {
+                case KeyCode.LeftControl: case KeyCode.RightControl:
+                case KeyCode.LeftShift:   case KeyCode.RightShift:
+                case KeyCode.LeftAlt:     case KeyCode.RightAlt:
+                    return true;
+                default:
+                    return false;
+            }
+        }
+
+        private static bool ModifiersHeldExactly(List<KeyCode> mods)
+        {
+            bool wantCtrl = false, wantShift = false, wantAlt = false;
+            foreach (var m in mods)
+            {
+                if (m == KeyCode.LeftControl || m == KeyCode.RightControl) wantCtrl = true;
+                if (m == KeyCode.LeftShift || m == KeyCode.RightShift) wantShift = true;
+                if (m == KeyCode.LeftAlt || m == KeyCode.RightAlt) wantAlt = true;
+            }
+            bool hasCtrl = Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
+            bool hasShift = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+            bool hasAlt = Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt);
+            return wantCtrl == hasCtrl && wantShift == hasShift && wantAlt == hasAlt;
+        }
+
+        public static bool IsPressed(string id, string defaultCombo)
+        {
+            if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf && Time.frameCount - cf <= 1)
+                return false;
+
+            if (!s_initialized) Register();
+
+            string combo = ComboFor(id, defaultCombo);
+            KeyCode mainKey = KeyCode.None;
+            var mods = new List<KeyCode>();
+            foreach (var token in combo.Split('+'))
+            {
+                var t = token.Trim();
+                if (t.Length == 0 || t == "None") continue;
+                if (!Enum.TryParse<KeyCode>(t, out var key)) continue;
+                if (IsModifierKey(key)) mods.Add(key); else mainKey = key;
+            }
+            if (mainKey == KeyCode.None) return false;
+            if (!ModifiersHeldExactly(mods)) return false;
+            return Input.GetKeyDown(mainKey);
+        }
+
+        private static bool HeldKey(KeyCode k)
+        {
+            switch (k)
+            {
+                case KeyCode.LeftControl: case KeyCode.RightControl:
+                    return Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
+                case KeyCode.LeftShift: case KeyCode.RightShift:
+                    return Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+                case KeyCode.LeftAlt: case KeyCode.RightAlt:
+                    return Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt);
+                default:
+                    return Input.GetKey(k);
+            }
+        }
+
+        // For "Modifier" rows and anything hold-based - true while every key of the combo is held.
+        // A combo cleared to "None" returns true: the gesture then needs no held key at all.
+        public static bool IsHeld(string id, string defaultCombo)
+        {
+            if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf && Time.frameCount - cf <= 1)
+                return false;
+
+            if (!s_initialized) Register();
+
+            string combo = ComboFor(id, defaultCombo);
+            if (string.IsNullOrWhiteSpace(combo)) return true;
+            combo = combo.Trim();
+            if (combo == "None") return true;
+            foreach (var token in combo.Split('+'))
+            {
+                var t = token.Trim();
+                if (t.Length == 0) continue;
+                if (!Enum.TryParse<KeyCode>(t, out var key)) continue;
+                if (!HeldKey(key)) return false;
+            }
+            return true;
+        }
+    }
+}
+```
+
+Call `MyKeybinds.Register()` once from `IMod.Initialize`, then anywhere you check for input:
+
+```csharp
+if (MyKeybinds.IsPressed("MyMod_OpenWindow", "LeftControl + M"))
+    OpenWindow();
+```
+
+And for a `"Modifier"` row (or any hold-based key), combine `IsHeld` with your own gesture check:
+
+```csharp
+if (MyKeybinds.IsHeld("MyMod_PaintModifier", "LeftAlt") && Input.GetMouseButtonDown(0))
+    PaintTile();
+```
+
+The `id` you pass to `IsPressed` / `IsHeld` must match the `id` from that keybind's row in
+`Descriptors` exactly — that's how the framework knows which binding you're asking about.

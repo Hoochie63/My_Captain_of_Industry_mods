@@ -1,5 +1,7 @@
 {
   "Boost Manager": "Gerenciador de Boost",
+  "Toggle the Overlord window": "Alternar a janela Overlord",
+  "Open or close the Mori++ Overlord window.": "Abre ou fecha a janela Overlord do Mori++.",
   "Buildings": "Edifícios",
   "Belts & Pipes": "Esteiras e tubulações",
   "Mass Boost": "Boost em massa",
@@ -190,5 +192,6 @@
   "Connector": "Conector",
   "Lift": "Elevador",
   "Sorter": "Separador",
+  "Balancer": "Balanceador",
   "Click to change order: default, by speed, by name (A-Ö), or by type.": "Clique para mudar a ordem: padrão, por velocidade, por nome (A-Ö) ou por tipo."
 }

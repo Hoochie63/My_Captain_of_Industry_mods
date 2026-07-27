@@ -72,6 +72,8 @@
   "Pipe Balancer (Large)": "Rohr-Balancer (Groß)",
   "Large 4x4 pipe balancer with eight pipe connections (two per side). Distributes fluids between connected pipes with optional prioritization.": "Großer 4x4-Rohrbalancer mit acht Rohranschlüssen (zwei pro Seite). Verteilt Flüssigkeiten zwischen verbundenen Rohren, mit optionaler Priorisierung.",
   "Unlocks the large 8-port Pipe Balancer.": "Schaltet den großen Rohrbalancer mit 8 Anschlüssen frei.",
+  "Gas/Liquid Sorter": "Gas-/Flüssigkeitssortierer",
+  "Sorts one assigned fluid or gas product to a separate port. Everything else continues through the main output. Place it in-line on a pipe run.": "Leitet ein zugewiesenes Flüssigkeits- oder Gasprodukt an einen separaten Anschluss um. Alles andere läuft weiter durch den Hauptausgang. Wird direkt in eine Rohrleitung eingebaut.",
   "Bridge Port Host": "Brücken-Hub",
   "Transports products across a cable-stayed bridge without using trucks.\n\nPlace one hub at each end of the bridge — the bridge's built-in belt and pipe channels carry items between the two hubs, handling both belt goods and fluids.\n\nOnly one hub per side; placing a second hub close to an existing one is blocked.\n\nUse it to bypass road traffic when shipping bulk material between two halves of your island.": "Transportiert Produkte ohne Lkw über eine Schrägseilbrücke.\n\nPlatziere einen Hub an jedem Brückenende — die brückeneigenen Förderband- und Rohrkanäle befördern Gegenstände zwischen den beiden Hubs und transportieren sowohl Band-Güter als auch Flüssigkeiten.\n\nNur ein Hub pro Seite; das Platzieren eines zweiten Hubs in der Nähe eines bestehenden wird blockiert.\n\nDamit umgehst du den Straßenverkehr, wenn du große Mengen Material zwischen zwei Hälften deiner Insel verschickst.",
   "Molten Storage": "Schmelzlager",
@@ -111,5 +113,15 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "Brücken-Förderband (Schüttgut) - Zum Ausgangs-Hub",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "Brücken-Rohr (Flüssigkeit) - Zum Eingangs-Hub",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Brücken-Rohr (Flüssigkeit) - Zum Ausgangs-Hub",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Halte diese Taste gedrückt und ziehe das Parking-HQ-Panel, um es zu verschieben."
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Halte diese Taste gedrückt und ziehe das Parking-HQ-Panel, um es zu verschieben.",
+  "Helicopter HQ": "Helikopter-Zentrale",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "Ein großer offener Heliport, der als Heimatbasis für Frachthelikopter dient. Untätige Helikopter fliegen von selbst hierher, landen auf einem der 40 Stellplätze und warten auf ihren nächsten Einsatz.\n\nDiese Basis baut keine Helikopter - baue sie an einem Open Heliport.",
+  "Helicopters based here": "Stationierte Helikopter",
+  "On the deck now": "Jetzt auf dem Deck",
+  "HQ Priority": "HQ-Priorität",
+  "Refuel helicopters": "Helikopter betanken",
+  "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Helikopter-Zentralen mit höherer Priorität erhalten zuerst Helikopter. Jede Helikopter-Zentrale wird vor jedem Open Heliport gefüllt - Helikopter bleiben nur an einem Open Heliport, wenn alle Helikopter-Zentralen voll sind.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Wenn aktiviert, werden Helikopter auf dieser Zentrale aus ihrem Diesellager betankt. Fülle das Lager über die Rohranschlüsse oder lass LKW liefern.",
+  "Helicopter Types": "Helikopter-Typen",
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Wartungsgarage — Mechaniker warten hier die Helikopter auf dieser Basis und verringern deren Wartungsverbrauch bis zum angezeigten Prozentsatz. Höhere Einstellungen benötigen mehr Strom und Mechaniker. Helikopter werden nur gewartet, während sie auf dem Deck stehen."
 }

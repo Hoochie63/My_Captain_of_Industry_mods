@@ -1,6 +1,6 @@
 {
     "id": "boost-plus-plus",
-    "version": "1.1.7",
+    "version": "1.1.9",
     "display_name": "Boost++",
     "description": "Boost++ adds individual boost controls to every building and transport in your factory. Adjust machines, offices, ore sorters, waste plants, belts and pipes from a central manager. Rename buildings, attach searchable comments, jump the camera to any entry, copy boost between buildings, apply mass boosts, and more.",
     "description_short": "Fine-tune production speed for every machine, belt and pipe individually — with a manager for sorting, renaming, comments, mass-boost, copy-boost, and more",
@@ -8,6 +8,7 @@
     "min_game_version": "0.8.2",
     "max_verified_game_version": "0.8.6",
     "primary_dlls": ["0Harmony.dll", "Boost++.dll"],
+    "optional_mod_dependencies": ["keybind-framework"],
     "non_locking_dll_load": true,
     "can_add_to_saved_game": true,
     "can_remove_from_saved_game": true,

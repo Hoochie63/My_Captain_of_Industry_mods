@@ -27,5 +27,11 @@
   ["FaFOptimiser__SelectProductionChain", "Выберите производственную цепочку: {0}"],
   ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>Учитывается в расчетах</color> (ЛКМ — исключить/игнорировать)"],
   ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>Исключено из расчетов</color> (ЛКМ — включить)"],
-  ["FaFOptimiser__CropOutOfScopeLabel", "Всего: {0} --- вне расчета ---"]
+  ["FaFOptimiser__CropOutOfScopeLabel", "Всего: {0} --- вне расчета ---"],
+  ["FaFOptimiser__OptimizeFarms", "Оптимизировать фермы"],
+  ["FaFOptimiser__FarmProductsDemand", "Потребности в продукции ферм:"],
+  ["FaFOptimiser__IncreaseFlockTooltip", "Увеличить поголовье (+50 птиц)"],
+  ["FaFOptimiser__AnimalFeedTotalTooltip", "Всего: потребность для поголовья + прямой запрос"],
+  ["FaFOptimiser__DecreaseFlockTooltip", "Уменьшить поголовье (Мин: {0})"],
+  ["FaFOptimiser__MinFlockLabel", "(Мин: {0})"]
 ]

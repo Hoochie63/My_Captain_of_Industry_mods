@@ -1,6 +1,6 @@
 {
     "id": "keybind-framework",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "display_name": "Keybind Framework",
     "description": "Keybind Framework gives modded hotkeys a single home. It adds a Mod keybinds tab to the game's Settings window, right after Controls, and shows one sub-tab for each mod that registers with it. Mod authors reference the framework and register their hotkeys, so players can see every mod's keybinds in one consistent place instead of hunting through separate windows, and more.",
     "description_short": "Adds a Mod keybinds tab to the Settings window that lists hotkeys from every mod built on this framework, each in its own sub-tab, and more",

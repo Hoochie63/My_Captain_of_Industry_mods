@@ -4,7 +4,7 @@
   ["FaFOptimiser__ProducedCrops", "Produced Crops"],
   ["FaFOptimiser__SaveCalculation", "Save"],
   ["FaFOptimiser__LoadCalculations", "Load"],
-  ["FaFOptimiser__OptimizerSettings", "Optimizer Settings"],
+  ["FaFOptimiser__OptimizerSettings", "Optimiser Settings"],
   ["FaFOptimiser__MaxAvailableFarms", "Maximum Available Farms:"],
   ["FaFOptimiser__TargetFertility", "Target Fertility (%):"],
   ["FaFOptimiser__ManualOverride", "Manual Override"],
@@ -12,7 +12,7 @@
   ["FaFOptimiser__FoodDemands", "Food Demands (Monthly):"],
   ["FaFOptimiser__AutoFillDemands", "Auto-Fill Demands"],
   ["FaFOptimiser__CropDemands", "Crop Demands (Monthly):"],
-  ["FaFOptimiser__SolveAndOptimize", "SOLVE & OPTIMIZE"],
+  ["FaFOptimiser__SolveAndOptimize", "SOLVE & OPTIMISE"],
   ["FaFOptimiser__Solving", "SOLVING..."],
   ["FaFOptimiser__ChainScore", "Chain Score: {0}"],
   ["FaFOptimiser__TotalAmount", "Total: {0}"],
@@ -27,5 +27,11 @@
   ["FaFOptimiser__SelectProductionChain", "Select Production Chain: {0}"],
   ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>In Solver Scope</color> (Left-click to exclude/ignore)"],
   ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>Excluded from Solver</color> (Left-click to include)"],
-  ["FaFOptimiser__CropOutOfScopeLabel", "Total: {0} --- out of scope ---"]
+  ["FaFOptimiser__CropOutOfScopeLabel", "Total: {0} --- out of scope ---"],
+  ["FaFOptimiser__OptimizeFarms", "Optimize Farms"],
+  ["FaFOptimiser__FarmProductsDemand", "Farm Products Demand:"],
+  ["FaFOptimiser__IncreaseFlockTooltip", "Increase flock size (+50 birds)"],
+  ["FaFOptimiser__AnimalFeedTotalTooltip", "Combined Total: Flock Feeding requirement + Direct input demand"],
+  ["FaFOptimiser__DecreaseFlockTooltip", "Decrease flock size (Min: {0})"],
+  ["FaFOptimiser__MinFlockLabel", "(Min: {0})"]
 ]

@@ -27,5 +27,11 @@
   ["FaFOptimiser__SelectProductionChain", "选择生产链: {0}"],
   ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>计入优化计算</color> (左键点击以排除/忽略)"],
   ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>已从计算中排除</color> (左键点击以纳入)"],
-  ["FaFOptimiser__CropOutOfScopeLabel", "总计: {0} --- 不计入计算 ---"]
+  ["FaFOptimiser__CropOutOfScopeLabel", "总计: {0} --- 不计入计算 ---"],
+  ["FaFOptimiser__OptimizeFarms", "优化农场"],
+  ["FaFOptimiser__FarmProductsDemand", "农场产品需求:"],
+  ["FaFOptimiser__IncreaseFlockTooltip", "增加鸡群数量 (+50只)"],
+  ["FaFOptimiser__AnimalFeedTotalTooltip", "总计: 鸡群喂养需求 + 直接输入需求"],
+  ["FaFOptimiser__DecreaseFlockTooltip", "减少鸡群数量 (最小: {0})"],
+  ["FaFOptimiser__MinFlockLabel", "(最小: {0})"]
 ]

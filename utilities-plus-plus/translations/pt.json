@@ -6,6 +6,8 @@
   "Select all vehicle types": "Selecionar todos os tipos de veículo",
   "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Alterna o tipo de veículo escolhido para o Movedor de Veículos em Massa / Recuperação em Massa.",
   "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Reinicia o Movedor de Veículos em Massa / Recuperação em Massa para afetar todos os tipos de veículo.",
+  "Toggle the Overlord window": "Alternar a janela Overlord",
+  "Open or close the Mori++ Overlord window.": "Abre ou fecha a janela Overlord do Mori++.",
   "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Escolher um tipo de veículo inclui todas as suas variantes de combustível (Diesel, Bateria, Hidrogênio, Diesel Sintético) — não é preciso escolher cada uma separadamente.",
   "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Inclui todas as variantes de combustível (Diesel, Bateria, Hidrogênio, Diesel Sintético) deste veículo.",
   "Mass Vehicle Mover (Shift+M)": "Movedor de Veículos em Massa (Shift+M)",
@@ -15,6 +17,7 @@
   "Utilities++": "Utilities++",
   "Tools": "Ferramentas",
   "View/Layers": "Visão/Camadas",
+  "Window": "Janela",
 
   "Keybinds": "Atalhos de teclado",
   "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Reatribua os atalhos da suíte Mori++. Os atalhos do próprio jogo também são verificados, então você é avisado sobre conflitos.",
@@ -119,6 +122,15 @@
   "Show All": "Mostrar tudo",
 
   "Hide All": "Ocultar tudo",
+
+  "Show lifts, sorters & balancers": "Mostrar elevadores, classificadores e balanceadores",
+
+  "Show Lifts": "Mostrar elevadores",
+  "Show Sorters": "Mostrar classificadores",
+  "Show Balancers": "Mostrar balanceadores",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Quando desmarcado, oculta todos os elevadores independentemente do nível de altura, sem relação com as caixas de Nível acima. Por save.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Quando desmarcado, oculta todos os classificadores independentemente do nível de altura, sem relação com as caixas de Nível acima. Por save.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Quando desmarcado, oculta todos os balanceadores independentemente do nível de altura, sem relação com as caixas de Nível acima. Por save.",
 
   "Show buildings & trees": "Mostrar edifícios e árvores",
 

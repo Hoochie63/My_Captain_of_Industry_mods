@@ -6,6 +6,8 @@
   "Select all vehicle types": "Select all vehicle types",
   "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.",
   "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.",
+  "Toggle the Overlord window": "Toggle the Overlord window",
+  "Open or close the Mori++ Overlord window.": "Open or close the Mori++ Overlord window.",
   "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.",
   "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.",
   "Mass Vehicle Mover (Shift+M)": "Mass Vehicle Mover (Shift+M)",
@@ -15,6 +17,7 @@
   "Utilities++": "Utilities++",
   "Tools": "Tools",
   "View/Layers": "View/Layers",
+  "Window": "Window",
 
   "Keybinds": "Keybinds",
   "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.",
@@ -119,6 +122,15 @@
   "Show All": "Show All",
 
   "Hide All": "Hide All",
+
+  "Show lifts, sorters & balancers": "Show lifts, sorters & balancers",
+
+  "Show Lifts": "Show Lifts",
+  "Show Sorters": "Show Sorters",
+  "Show Balancers": "Show Balancers",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.",
 
   "Show buildings & trees": "Show buildings & trees",
 

@@ -1,3 +1,22 @@
+v2.0.0 | 2026-07-19
+* Saved settings now live in a shared "Mori++ Saved settings" folder outside the mod folder, so a manual delete or a mod manager wiping the folder no longer loses them. Because of this move, all your current settings reset to default one time — set everything up again and from then on they're kept safe in that folder.
+* Huge thanks to Mag for helping me brainstorm great ideas and solutions.
+* General: the Mod keybinds tab now opens in a larger Settings window — more tabs and keybinds fit on screen with less scrolling; other tabs keep their normal size.
+* Users: search now also finds keybinds by mod name or by the short mod ID shown after each tab name — type ++ or PP for all Mori++ mods, or any mod's name for its keybinds.
+* Users: the Mori++ Suite tab is renamed to Mori++, and every mod tab now shows its short ID after the name, e.g. Mori++(PP).
+* Users: new Sort by dropdown in the bottom bar — order a mod's inner tabs by original order, alphabetical, most keybinds, customized, or unbound; your choice is remembered.
+* Users/Modders: the Mod keybinds tab row now wraps to a new line instead of squeezing when many mods are installed; the active tab is now highlighted in gold.* Users: Mod keybinds search: removed a stray icon, clearing it now returns to your previous tab (not the first one), and Escape clears it without closing Settings.
+* Users: new Check conflicts button lists every conflicting keybind across all mods in one place, instead of checking each tab — press Escape to return to your tabs.
+* Users: renamed 'Reset all to default' to 'Reset this tab to default' and 'Apply all' to 'Apply all to this tab', to make clear they only affect what's currently shown.
+* Users: conflict warnings now also catch clashes with keybinds other mods add straight to the vanilla Controls tab, not just Mod keybinds — shown with that mod's name.
+* Users: fixed 'Reset this tab to default' and 'Apply all to this tab' lagging with many keybinds registered — both are now near-instant.
+* Users: new 'Save all tabs' and 'Reset all tabs to default' buttons apply or reset every mod's keybinds at once instead of one tab at a time; new 'Reset all in tab to blank' clears every keybind in the current tab. All three ask you to confirm first.
+* Users: fixed the Mod keybinds tab forgetting which tab you were last on every time you reopened Settings — it now remembers, same as Overlord.
+* Modders: the framework builds the short tab ID for you from your display name's initials — nothing to include; register your real display name and players can search by both.
+* Modders: tab sorting is fully framework-side — nothing to add or update; already integrated mods get it automatically.
+* Modders: the integration guide (Guide add keybinds.json) is now included in the mod download, so you can read it there instead of the hub description.
+
+
 v1.0.1 | 2026-07-12
 * Now supports game version 0.8.6 (experimental), and remains compatible back to 0.8.4.
 * Users: keybind conflict warnings now catch clashes on Secondary keybinds too, and show up on both sides of a clash.
