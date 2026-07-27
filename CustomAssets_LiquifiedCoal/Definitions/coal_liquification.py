@@ -11,7 +11,6 @@ research = build_research(
     parents = [ Ids.Research.Cp2Packing ]
 )
 
-dependencies("liquified_coal") # dependency within mod
 add_unlock_product(research, "Product_CoalVapor")
 add_unlock_product(research, "Product_CoalCondensate")
 add_unlock_product(research, "Product_CoalGasImpure")

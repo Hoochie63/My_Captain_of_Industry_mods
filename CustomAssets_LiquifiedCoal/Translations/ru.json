@@ -1,0 +1,20 @@
+{
+  "recipe.CoalVaporization.name": "Пиролиз угля",
+  "recipe.CustomRecipe_CoalCondensation.name": "Конденсация угля",
+  "recipe.CustomRecipe_CoalCoking.name": "Коксование угля",
+  "recipe.CustomRecipe_CoalLiquification.name": "Очистка угольного газа",
+  "recipe.CustomRecipe_CoalLiquification_IronLime.name": "Очистка угольного газа",
+  "recipe.CustomRecipe_CoalGasBurning.name": "Сжигание угольного газа",
+  "recipe.CustomRecipe_SuperSteamCoalPyrolisis.name": "Пиролиз угля (пар сверхвысокого давления)",
+  "research.CustomResearch_CoalLiquification.name": "Сжижение угля",
+  "research.CustomResearch_CoalLiquification.description": "Превращает небольшое количество угля под давлением в тяжёлую нефть.",
+  "research.CustomResearch_SuperSteamCoalPyrolisis.description": "Превращает небольшое количество угля под давлением в тяжёлую нефть.",
+  "research.CustomResearch_SuperSteamCoalPyrolisis.name": "Сжижение угля (пар сверхвысокого давления)",
+  "toolbar_category.CustomCategory_CoalLiquification.name": "Сжижение угля",
+  "product_fluid.Product_CoalVapor.name": "Угольный пар (горячий)",
+  "product_fluid.Product_CoalVapor.description": "Образуется при нагреве угля без доступа кислорода.",
+  "product_fluid.Product_CoalCondensate.name": "Угольный пар (охлаждённый)",
+  "product_fluid.Product_CoalCondensate.description": "Образуется при конденсации угольного пара.",
+  "product_fluid.Product_CoalGasImpure.name": "Угольный газ (неочищенный)",
+  "product_fluid.Product_CoalGasImpure.description": "Образуется при коксовании угля."
+}

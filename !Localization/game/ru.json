@@ -233,7 +233,7 @@
     ],
     [
         "AirSeparator__name",
-        "Криогенная установка"
+        "Криогенная установка, ур. I"
     ],
     [
         "AlertsNotifHud_HiddenCount",
@@ -5096,6 +5096,10 @@
     [
         "Goal__MineCoal__name",
         "Добудьте уголь"
+    ],
+    [
+        "Goal__MP_CopperWithCoal",
+        "Переключите рецепты в <bc>{0}</bc> и <bc>{1}</bc> на использование <bc>{2}</bc>, чтобы сэкономить <bc>{3}</bc>."
     ],
     [
         "Goal__PauseBeacon",
@@ -11277,7 +11281,7 @@
     ],
     [
         "ResearchEdicts1_generic",
-        "Указы «{0}»"
+        "Указы {0}"
     ],
     [
         "ResearchEdicts2__desc",

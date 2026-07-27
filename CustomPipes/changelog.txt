@@ -1,3 +1,11 @@
+v2.0.4 | 2026-07-27
+* 根据社区玩家 Hoochie提供建议对RU语言更新国际化,依照现有版本内置英文版为基础进行更新改造
+* Update the internationalization of the RU language based on suggestions provided by community player Hoochie, with the built-in English version of the existing release serving as the foundation for updates and modifications
+为表示对社区玩家 Hoochie 对本mod的俄语国际化做出的贡献,特单独发布一个版本,作为纪念
+A separate version is released as a tribute to acknowledge the contributions made by community player Hoochie to the Russian localization of this mod.
+Отдельная версия выпущена в знак признательности за вклад сообщественного игрока Hoochie в русификацию этого мода.
+
+
 v2.0.3 | 2026-07-26
 2026年7月26日21:52:09
 * 感谢社区玩家 Hoochie 提供的建议

@@ -1,0 +1,17 @@
+{
+  "id": "ColibriIndustries",
+  "version": "0.1.0",
+  "display_name": "Colibri Industries",
+  "description_short": "Adds balanced environmental industry extensions.",
+  "description_long": "Colibri Industries is an expansion mod focused on waste recycling and environmental production chains.",
+  "authors": [ "Colibri" ],
+  "primary_dlls": [ "0Harmony.dll", "ColibriIndustries.dll" ],
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.6",
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [],
+  "incompatible_mods": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}

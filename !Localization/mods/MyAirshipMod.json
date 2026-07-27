@@ -1,7 +1,20 @@
 {
-    "Airship": "Дирижабль",
-    "Cargo airship that flies in the sky, ignoring terrain obstacles.": "Грузовой дирижабль, летающий в небе и игнорирующий препятствия на местности.",
+    "Airship Group": "Дирижабли",
+    "Airship": "Дирижабль (дизель)",
+    "Cargo airship that flies in the sky, ignoring terrain obstacles.": "Грузовой дирижабль, работающий на дизельном топливе, летающий в небе и игнорирующий препятствия на местности.",
+    "HFF": "Дирижабль (водород)",
+    "Hydrogen-powered cargo airship that flies in the sky, ignoring terrain obstacles.": "Грузовой дирижабль, работающий на водородном топливе, летающий в небе и игнорирующий препятствия на местности.",
     "Airship Helipad": "Посадочная площадка дирижаблей",
     "Airship landing pad where airships will automatically dock when idle or waiting too long.": "Дирижабли автоматически швартуются здесь в режиме ожидания или при простое.",
-    "Airship Group": "Группа дирижаблей"
+    "Fuel Storage": "Топливное хранилище",
+    "Airship | Fuel | Status": "<align=\"center\">Дирижабль | Топливо | Статус</align>",
+    "Parked Airships": "Пришвартованные дирижабли",
+    "Diesel": "Дизель",
+    "Hydrogen": "Водород",
+    "AIRSHIP_PARKED_NAME": "",
+    "AIRSHIP_PARKED_FUEL": "",
+    "AIRSHIP_PARKED_STATUS": "",
+    "Working": "Работаю",
+    "Idle": "Ожидание",
+    "Parked": "Пришвартован"
 }
