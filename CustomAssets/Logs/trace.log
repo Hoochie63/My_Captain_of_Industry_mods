@@ -1,472 +1,388 @@
-==== Trace start: 2026-07-27T18:49:50.6382652Z ====
-18:49:50.639  CustomAssetsMod.RegisterPrototypes: start (modBasePath=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets)
-18:49:50.642  MachinePortsDumper.DumpToJson: invoking
-18:49:50.643  [Info] MachinePortsDumper: starting
-18:49:50.648  [Info] MachinePortsDumper: wrote C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets\Data\machine_ports.json
-18:49:50.649  MachinePortsDumper.DumpToJson: returned
-18:49:50.651  CustomAssetsMod.RegisterPrototypes: done
-18:49:50.652  [Info] CustomAssets_AirFiltering: pack registering prototypes
-18:49:50.657  [Info] PrimitiveStockGenerator: 0 generated, 7 already present, in C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets\Assets/Primitives
-18:49:50.660  [Info] ModTranslations[CustomAssets_AirFiltering]: spliced 10 translation(s) from 'ru.json' into LocalizationManager.s_data.
-18:49:50.661  RegisterData: start (mod=CustomAssets_AirFiltering, base=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_AirFiltering)
-18:49:50.662  [Info] Location of modules: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_AirFiltering\Definitions
-18:49:50.662  RegisterData[CustomAssets_AirFiltering]: __init__.py exists, loading
-18:49:50.665  register: parsing __init__.py
-18:49:50.671  register: parsed __init__.py (3 tokens, 1 statements)
-18:49:50.678  register: executing 1 statements in __init__.py
-18:49:50.679  register: __init__.py statement[0] LocalImportStatement
-18:49:50.681    dependencies: '__init__.py' -> 'filter_media_iron_lime'
-18:49:50.682  register: parsing filter_media_iron_lime.py
-18:49:50.699  register: parsed filter_media_iron_lime.py (730 tokens, 11 statements)
-18:49:50.701  register: executing 11 statements in filter_media_iron_lime.py
-18:49:50.702  register: filter_media_iron_lime.py statement[0] ImportStatement
-18:49:50.737  register: filter_media_iron_lime.py statement[1] ImportStatement
-18:49:50.765  register: filter_media_iron_lime.py statement[2] ImportStatement
-18:49:50.767  register: filter_media_iron_lime.py statement[3] AssignmentStatement
-18:49:50.782  register: filter_media_iron_lime.py statement[4] AssignmentStatement
-18:49:50.785  register: filter_media_iron_lime.py statement[5] EvaluateStatement
-18:49:50.794  register: filter_media_iron_lime.py statement[6] EvaluateStatement
-18:49:50.805  register: filter_media_iron_lime.py statement[7] EvaluateStatement
-18:49:50.806  register: filter_media_iron_lime.py statement[8] EvaluateStatement
-18:49:50.809  register: filter_media_iron_lime.py statement[9] AssignmentStatement
-18:49:50.815  build_machine[BoilerWood]: source=BoilerCoal, extra_ports=4, total_ports=4, copy_layout=True, copy_ports=False, copy_graphics=True
-18:49:50.816  build_machine[BoilerWood]: complete (locked=False)
-18:49:50.822  register: filter_media_iron_lime.py statement[10] EvaluateStatement
-18:49:50.824  register: COMPLETED filter_media_iron_lime.py
-18:49:50.825  register: COMPLETED __init__.py
-18:49:50.826  RegisterData[CustomAssets_AirFiltering]: __init__.py loaded
-18:49:50.828  RegisterData[CustomAssets_AirFiltering]: complete (loaded=2, failed=0)
-18:49:50.831  [Info] CustomAssets_LiquifiedCoal: pack registering prototypes
-18:49:50.833  [Info] ModTranslations[CustomAssets_LiquifiedCoal]: spliced 18 translation(s) from 'ru.json' into LocalizationManager.s_data.
-18:49:50.834  RegisterData: start (mod=CustomAssets_LiquifiedCoal, base=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_LiquifiedCoal)
-18:49:50.834  [Info] Location of modules: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_LiquifiedCoal\Definitions
-18:49:50.837  RegisterData[CustomAssets_LiquifiedCoal]: __init__.py exists, loading
-18:49:50.838  register: parsing __init__.py
-18:49:50.840  register: parsed __init__.py (10 tokens, 2 statements)
-18:49:50.841  register: executing 2 statements in __init__.py
-18:49:50.842  register: __init__.py statement[0] LocalImportStatement
-18:49:50.843    dependencies: '__init__.py' -> 'liquified_coal'
-18:49:50.845  register: parsing liquified_coal.py
-18:49:50.855  register: parsed liquified_coal.py (195 tokens, 6 statements)
-18:49:50.856  register: executing 6 statements in liquified_coal.py
-18:49:50.857  register: liquified_coal.py statement[0] ImportStatement
-18:49:50.934  register: liquified_coal.py statement[1] ImportStatement
-18:49:50.958  register: liquified_coal.py statement[2] ImportStatement
-18:49:50.960  register: liquified_coal.py statement[3] EvaluateStatement
-18:49:50.963  register: liquified_coal.py statement[4] EvaluateStatement
-18:49:50.966  register: liquified_coal.py statement[5] EvaluateStatement
-18:49:50.967  register: COMPLETED liquified_coal.py
-18:49:50.969  register: __init__.py statement[1] LocalImportStatement
-18:49:50.970    dependencies: '__init__.py' -> 'coal_liquification'
-18:49:50.971  register: parsing coal_liquification.py
-18:49:51.005  register: parsed coal_liquification.py (996 tokens, 22 statements)
-18:49:51.005  register: executing 22 statements in coal_liquification.py
-18:49:51.008  register: coal_liquification.py statement[0] ImportStatement
-18:49:51.077  register: coal_liquification.py statement[1] ImportStatement
-18:49:51.103  register: coal_liquification.py statement[2] ImportStatement
-18:49:51.104  register: coal_liquification.py statement[3] AssignmentStatement
-18:49:51.120  register: coal_liquification.py statement[4] EvaluateStatement
-18:49:51.122  register: coal_liquification.py statement[5] EvaluateStatement
-18:49:51.123  register: coal_liquification.py statement[6] EvaluateStatement
-18:49:51.125  register: coal_liquification.py statement[7] AssignmentStatement
-18:49:51.126  register: coal_liquification.py statement[8] AssignmentStatement
-18:49:51.127  register: coal_liquification.py statement[9] AssignmentStatement
-18:49:51.129  register: coal_liquification.py statement[10] AssignmentStatement
-18:49:51.131  register: coal_liquification.py statement[11] IfStatement
-18:49:51.133  register: coal_liquification.py statement[12] EvaluateStatement
-18:49:51.134  register: coal_liquification.py statement[13] EvaluateStatement
-18:49:51.158  register: coal_liquification.py statement[14] EvaluateStatement
-18:49:51.186  register: coal_liquification.py statement[15] EvaluateStatement
-18:49:51.215  register: coal_liquification.py statement[16] EvaluateStatement
-18:49:51.245  register: coal_liquification.py statement[17] EvaluateStatement
-18:49:51.277  register: coal_liquification.py statement[18] EvaluateStatement
-18:49:51.309  register: coal_liquification.py statement[19] AssignmentStatement
-18:49:51.312  register: coal_liquification.py statement[20] AssignmentStatement
-18:49:51.313  register: coal_liquification.py statement[21] EvaluateStatement
-18:49:51.317  register: COMPLETED coal_liquification.py
-18:49:51.318  register: COMPLETED __init__.py
-18:49:51.319  RegisterData[CustomAssets_LiquifiedCoal]: __init__.py loaded
-18:49:51.321  RegisterData[CustomAssets_LiquifiedCoal]: complete (loaded=3, failed=0)
-18:49:51.376  [Info] [BDT.BpUpdate] Patched BlueprintsWindow constructor.
-18:49:51.379  [Info] [BDT.RecycleBin] Patched BlueprintsLibrary.DeleteItem for Recycle Bin.
-18:49:51.385  [Info] [BDT.RecycleBin] Patched blueprint library deleteConfirm for confirmation suppression.
-18:49:51.397  [Info] [BDT.FolderPersist] Folder persistence patches applied.
-18:49:51.425  [Info] [BDT.BpStats] Patched BlueprintDetail constructor and SetBlueprint.
-18:49:51.433  [Info] [BDT.BpExport] Patched BlueprintDetail for markdown export.
-18:49:51.442  [Info] [BDT.BpExport] Patched BlueprintFolderDetail for folder markdown export.
-18:49:51.466  [Info] [BDT.NormSym] Patched BlueprintsLibrary.TryCreateBlueprint for symmetric normalization.
-18:49:51.469  [Info] [BDT.LegacyBeltConfigurations] tryGetStepCost transpiler: replaced 2 IsParallelTo calls.
-18:49:51.477  [Info] [BDT.LegacyBeltConfigurations] Patched TransportPathFinder.tryGetStepCost.
-18:49:51.490  [Info] [BDT.LegacyBeltConfigurations] Patched TransportPathFinder.InitPathFinding.
-18:49:51.500  [Info] [BDT.LegacyBeltConfigurations] Patched TransportPathFinder.ChangeGoal.
-18:49:51.503  [Info] [BDT.LegacyBeltConfigurations] CanChangeDirectionOf transpiler: wrapped 4 Tile3i.Z field loads.
-18:49:51.511  [Info] [BDT.LegacyBeltConfigurations] Patched TransportsConstructionHelper.CanChangeDirectionOf.
-18:49:51.542  [Info] [BDT.RateLimitPatches] Rate limit patches applied.
-18:49:51.547  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Transport
-18:49:51.550  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Lift
-18:49:51.552  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Zipper
-18:49:51.564  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Sorter
-18:49:51.568  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on MiniZipper
-18:49:51.571  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on ProductsSinkEntity
-18:49:51.573  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on UniversalProductsSink
-18:49:51.579  [Info] [BDT.ThroughputPatches] Patched SimUpdate on ProductsSourceEntity
-18:49:51.584  [Info] [BDT.ThroughputPatches] Patched SimUpdate on UniversalProductsSource
-18:49:51.585  [Info] [BDT.ThroughputPatches] Throughput patches applied successfully.
-18:49:51.648  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.TransportInspector
-18:49:51.665  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.LiftInspector
-18:49:51.731  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.ZipperInspector
-18:49:51.765  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.SorterInspector
-18:49:51.778  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.MiniZipperInspector
-18:49:51.800  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.ProductsSourceEntityInspector
-18:49:51.818  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.ProductsSinkEntityInspector
-18:49:51.836  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.UniversalProductsSourceInspector
-18:49:51.844  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.UniversalProductsSinkInspector
-18:49:51.857  [Info] [BDT.ContentDisplayPatches] Patched constructor for ZipperInspector
-18:49:51.864  [Info] [BDT.ContentDisplayPatches] Patched EntitiesCommandsProcessor.Invoke(QuickRemoveFromEntityCmd) prefix
-18:49:52.020  [Info] [BDT.UndoPatches] Successfully applied UndoPatches.
-18:49:52.035  [Info] [BDT.PollutionPatches] Patched Machine.tryPushFinishedRecipeToBuffers.
-18:49:52.038  [Info] [BDT.PollutionPatches] Patched ProductBuffer.StoreAsMuchAs.
-18:49:52.044  [Info] [BDT.PollutionPatches] Patched FuelTank.ConsumeFuelPerUpdate(Percent).
-18:49:52.046  [Info] [BDT.PollutionPatches] Patched FuelTank.ConsumeFuelPerUpdate(VehicleFuelConsumption).
-18:49:52.049  [Info] [BDT.PollutionPatches] Patched CargoShipV2.ConsumeFuel.
-18:49:52.073  [Info] [BDT.PollutionPatches] Patched FuelStatsCollector.ReportFuelUseAndDestroy.
-18:49:52.074  [Info] [BDT.PollutionPatches] Pollution patches applied successfully.
-18:49:52.088  [Info] TransportData: Registering extra transports data
-18:49:52.091  [Info] Transport Data: 4th tier flat conveyor registered
-18:49:52.093  [Info] Transport Data: 5th tier flat conveyor registered
-18:49:52.095  [Info] Transport Data: 4th tier loose material conveyor registered
-18:49:52.097  [Info] Transport Data: 5th tier loose material conveyor registered
-18:49:52.098  [Info] Transport Data: 5th tier fluid pipe registered
-18:49:53.028  [Info] Fusion_Horizon: pack registering prototypes
-18:49:53.039  [Info] ModTranslations[Fusion_Horizon]: spliced 63 translation(s) from 'ru.json' into LocalizationManager.s_data.
-18:49:53.041  RegisterData: start (mod=Fusion_Horizon, base=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\Fusion_Horizon)
-18:49:53.042  [Info] Location of modules: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\Fusion_Horizon\Definitions
-18:49:53.043  RegisterData[Fusion_Horizon]: __init__.py exists, loading
-18:49:53.044  register: parsing __init__.py
-18:49:53.046  register: parsed __init__.py (19 tokens, 4 statements)
-18:49:53.047  register: executing 4 statements in __init__.py
-18:49:53.049  register: __init__.py statement[0] LocalImportStatement
-18:49:53.049    dependencies: '__init__.py' -> 'Candu'
-18:49:53.051  register: parsing Candu.py
-18:49:53.066  register: parsed Candu.py (981 tokens, 24 statements)
-18:49:53.067  register: executing 24 statements in Candu.py
-18:49:53.068  register: Candu.py statement[0] ImportStatement
-18:49:53.100  register: Candu.py statement[1] ImportStatement
-18:49:53.124  register: Candu.py statement[2] ImportStatement
-18:49:53.125  register: Candu.py statement[3] AssignmentStatement
-18:49:53.127  register: Candu.py statement[4] AssignmentStatement
-18:49:53.129  register: Candu.py statement[5] AssignmentStatement
-18:49:53.131  register: Candu.py statement[6] AssignmentStatement
-18:49:53.161  register: Candu.py statement[7] AssignmentStatement
-18:49:53.164  register: Candu.py statement[8] AssignmentStatement
-18:49:53.166  register: Candu.py statement[9] AssignmentStatement
-18:49:53.167  register: Candu.py statement[10] AssignmentStatement
-18:49:53.168  register: Candu.py statement[11] AssignmentStatement
-18:49:53.170  build_machine[Heat_exchanger_candu]: source=ThermalDesalinator, extra_ports=0, total_ports=4, copy_layout=True, copy_ports=True, copy_graphics=True
-18:49:53.171  build_machine[Heat_exchanger_candu]: complete (locked=True)
-18:49:53.172  register: Candu.py statement[12] AssignmentStatement
-18:49:53.173  register: Candu.py statement[13] AssignmentStatement
-18:49:53.176  register: Candu.py statement[14] AssignmentStatement
-18:49:53.177  register: Candu.py statement[15] AssignmentStatement
-18:49:53.178  register: Candu.py statement[16] AssignmentStatement
-18:49:53.179  register: Candu.py statement[17] AssignmentStatement
-18:49:53.181  register: Candu.py statement[18] AssignmentStatement
-18:49:53.183  register: Candu.py statement[19] AssignmentStatement
-18:49:53.192  register: Candu.py statement[20] AssignmentStatement
-18:49:53.201  register: Candu.py statement[21] AssignmentStatement
-18:49:53.213  register: Candu.py statement[22] AssignmentStatement
-18:49:53.218  build_nuclear_reactor[Candu_Reactor_T1_build]: fuel_pairs overridden (2 entries)
-18:49:53.220  build_nuclear_reactor[Candu_Reactor_T1_build]: port 'F' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
-18:49:53.221  build_nuclear_reactor[Candu_Reactor_T1_build]: port 'S' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
-18:49:53.223  build_nuclear_reactor[Candu_Reactor_T1_build]: fuel-port shapes substituted (in=IoPortShape_FlatConveyor, out=IoPortShape_FlatConveyor; per-name).
-18:49:53.226  [Warning] layout_str sanitized: normalized 13 line(s) to canonical width 48. Check the source layout for spurious leading/trailing whitespace.
-18:49:53.229  build_nuclear_reactor[Candu_Reactor_T1_build]: layout_str override applied (32 line(s), 8 port(s)).
-18:49:53.231  register: Candu.py statement[23] AssignmentStatement
-18:49:53.232  build_nuclear_reactor[Candu_Reactor_T2_Build]: fuel_pairs overridden (3 entries)
-18:49:53.233  build_nuclear_reactor[Candu_Reactor_T2_Build]: port 'F' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
-18:49:53.235  build_nuclear_reactor[Candu_Reactor_T2_Build]: port 'S' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
-18:49:53.236  build_nuclear_reactor[Candu_Reactor_T2_Build]: fuel-port shapes substituted (in=IoPortShape_FlatConveyor, out=IoPortShape_FlatConveyor; per-name).
-18:49:53.238  build_nuclear_reactor[Candu_Reactor_T2_Build]: layout_str override applied (32 line(s), 8 port(s)).
-18:49:53.239  register: COMPLETED Candu.py
-18:49:53.239  register: __init__.py statement[1] LocalImportStatement
-18:49:53.242    dependencies: '__init__.py' -> 'Recipes_plus_plus_extended'
-18:49:53.243  register: parsing Recipes_plus_plus_extended.py
-18:49:53.251  register: parsed Recipes_plus_plus_extended.py (220 tokens, 5 statements)
-18:49:53.253  register: executing 5 statements in Recipes_plus_plus_extended.py
-18:49:53.254  register: Recipes_plus_plus_extended.py statement[0] ImportStatement
-18:49:53.287  register: Recipes_plus_plus_extended.py statement[1] ImportStatement
-18:49:53.313  register: Recipes_plus_plus_extended.py statement[2] ImportStatement
-18:49:53.315  register: Recipes_plus_plus_extended.py statement[3] AssignmentStatement
-18:49:53.316  register: Recipes_plus_plus_extended.py statement[4] AssignmentStatement
-18:49:53.318  register: COMPLETED Recipes_plus_plus_extended.py
-18:49:53.319  register: __init__.py statement[2] LocalImportStatement
-18:49:53.319    dependencies: '__init__.py' -> 'Fusion'
-18:49:53.321  register: parsing Fusion.py
-18:49:53.348  register: parsed Fusion.py (1377 tokens, 32 statements)
-18:49:53.349  register: executing 32 statements in Fusion.py
-18:49:53.349  register: Fusion.py statement[0] ImportStatement
-18:49:53.380  register: Fusion.py statement[1] ImportStatement
-18:49:53.404  register: Fusion.py statement[2] ImportStatement
-18:49:53.405  register: Fusion.py statement[3] AssignmentStatement
-18:49:53.407  register: Fusion.py statement[4] AssignmentStatement
-18:49:53.409  register: Fusion.py statement[5] AssignmentStatement
-18:49:53.411  register: Fusion.py statement[6] AssignmentStatement
-18:49:53.413  register: Fusion.py statement[7] AssignmentStatement
-18:49:53.415  register: Fusion.py statement[8] AssignmentStatement
-18:49:53.417  register: Fusion.py statement[9] AssignmentStatement
-18:49:53.419  register: Fusion.py statement[10] AssignmentStatement
-18:49:53.420  register: Fusion.py statement[11] AssignmentStatement
-18:49:53.422  register: Fusion.py statement[12] AssignmentStatement
-18:49:53.424  register: Fusion.py statement[13] AssignmentStatement
-18:49:53.425  register: Fusion.py statement[14] AssignmentStatement
-18:49:53.426  register: Fusion.py statement[15] AssignmentStatement
-18:49:53.428  register: Fusion.py statement[16] AssignmentStatement
-18:49:53.429  register: Fusion.py statement[17] AssignmentStatement
-18:49:53.430  register: Fusion.py statement[18] AssignmentStatement
-18:49:53.431  register: Fusion.py statement[19] AssignmentStatement
-18:49:53.432  register: Fusion.py statement[20] AssignmentStatement
-18:49:53.434  register: Fusion.py statement[21] AssignmentStatement
-18:49:53.435  register: Fusion.py statement[22] AssignmentStatement
-18:49:53.436  register: Fusion.py statement[23] AssignmentStatement
-18:49:53.438  register: Fusion.py statement[24] AssignmentStatement
-18:49:53.439  register: Fusion.py statement[25] AssignmentStatement
-18:49:53.440  register: Fusion.py statement[26] AssignmentStatement
-18:49:53.442  build_nuclear_reactor[Fusion_Reactor_t1]: fuel_pairs overridden (1 entries)
-18:49:53.444  build_nuclear_reactor[Fusion_Reactor_t1]: port 'F' shape 'IoPortShape_Pipe' (char '@') -> 'IoPortShape_Pipe' (char '@')
-18:49:53.445  build_nuclear_reactor[Fusion_Reactor_t1]: port 'S' shape 'IoPortShape_Pipe' (char '@') -> 'IoPortShape_Pipe' (char '@')
-18:49:53.445  build_nuclear_reactor[Fusion_Reactor_t1]: fuel-port shapes substituted (in=IoPortShape_Pipe, out=IoPortShape_Pipe; per-name).
-18:49:53.448  [Warning] layout_str sanitized: normalized 10 line(s) to canonical width 66. Check the source layout for spurious leading/trailing whitespace.
-18:49:53.451  build_nuclear_reactor[Fusion_Reactor_t1]: layout_str override applied (45 line(s), 10 port(s)).
-18:49:53.453  register: Fusion.py statement[27] AssignmentStatement
-18:49:53.454  register: Fusion.py statement[28] AssignmentStatement
-18:49:53.455  register: Fusion.py statement[29] AssignmentStatement
-18:49:53.456  register: Fusion.py statement[30] AssignmentStatement
-18:49:53.458  register: Fusion.py statement[31] AssignmentStatement
-18:49:53.459  register: COMPLETED Fusion.py
-18:49:53.460  register: __init__.py statement[3] LocalImportStatement
-18:49:53.462    dependencies: '__init__.py' -> 'Plasma'
-18:49:53.463  register: parsing Plasma.py
-18:49:53.470  register: parsed Plasma.py (447 tokens, 12 statements)
-18:49:53.472  register: executing 12 statements in Plasma.py
-18:49:53.473  register: Plasma.py statement[0] ImportStatement
-18:49:53.503  register: Plasma.py statement[1] ImportStatement
-18:49:53.533  register: Plasma.py statement[2] ImportStatement
-18:49:53.534  register: Plasma.py statement[3] AssignmentStatement
-18:49:53.537  register: Plasma.py statement[4] AssignmentStatement
-18:49:53.539  build_machine[Incineration_plant_T2]: source=IncinerationPlant, extra_ports=1, total_ports=7, copy_layout=True, copy_ports=True, copy_graphics=True
-18:49:53.541  build_machine[Incineration_plant_T2]: complete (locked=True)
-18:49:53.542  register: Plasma.py statement[5] AssignmentStatement
-18:49:53.544  register: Plasma.py statement[6] AssignmentStatement
-18:49:53.545  register: Plasma.py statement[7] AssignmentStatement
-18:49:53.546  register: Plasma.py statement[8] AssignmentStatement
-18:49:53.547  register: Plasma.py statement[9] AssignmentStatement
-18:49:53.549  register: Plasma.py statement[10] AssignmentStatement
-18:49:53.563  register: Plasma.py statement[11] AssignmentStatement
-18:49:53.578  register: COMPLETED Plasma.py
-18:49:53.579  register: COMPLETED __init__.py
-18:49:53.580  RegisterData[Fusion_Horizon]: __init__.py loaded
-18:49:53.581  RegisterData[Fusion_Horizon]: complete (loaded=5, failed=0)
-18:49:53.583  [Warning] [CustomAssets API] pack 'Fusion_Horizon' needs CustomAssets >= 0.2.0 but manifest pins >= 0.1.9. Bump 'mod_dependencies' to "CustomAssets>=0.2.0" — or drop the late-version args below.
-18:49:53.584  [Warning]   • 'mesh' on add_unit_prefab requires >= 0.1.5 (Candu.py:11)
-18:49:53.586  [Warning]   • 'fuel_pairs' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
-18:49:53.588  [Warning]   • 'coolantIn' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
-18:49:53.589  [Warning]   • 'coolantOut' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
-18:49:53.590  [Warning]   • 'waterInProduct' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
-18:49:53.592  [Warning]   • 'steamOutProduct' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
-18:49:53.593  [Warning]   • 'layout_str' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
-18:49:53.594  [Warning]   • 'enrichment' on build_nuclear_reactor requires >= 0.2.0 (Fusion.py:217)
-18:49:53.595  [Warning]   • call 'Enrichment' requires >= 0.2.0 (Fusion.py:217)
-18:49:53.597  [Info] H4uklotz.VerticalBalancers: registering prototypes
-18:49:53.606  [Info] Registered 0 products from assembly 'IndustrialExpansion'.
-18:49:53.608  [Info] [IndustrialExpansion] LogisticsData : Registering Tier IV Conveyor prototypes.
-18:49:53.610  [Info] [IndustrialExpansion] LogisticsData : Extra Transports Tier IV Conveyor prototypes detected, skipping IndustrialExpansion tier IV Conveyor prototypes.
-18:49:53.611  [Info] [IndustrialExpansion] LogisticsData : Registering More Balancers prototypes.
-18:49:53.613  [Info] [IndustrialExpansion] LogisticsData : SmallFlatBalancer prototype registered.
-18:49:53.614  [Info] [IndustrialExpansion] LogisticsData : MediumFlatBalancer prototype registered.
-18:49:53.615  [Info] [IndustrialExpansion] LogisticsData : LargeFlatBalancer prototype registered.
-18:49:53.617  [Info] [IndustrialExpansion] LogisticsData : LongFlatBalancer prototype registered.
-18:49:53.619  [Info] [IndustrialExpansion] LogisticsData : SmallUShapeBalancer prototype registered.
-18:49:53.619  [Info] [IndustrialExpansion] LogisticsData : MediumUShapeBalancer prototype registered.
-18:49:53.622  [Info] [IndustrialExpansion] LogisticsData : LargeUShapeBalancer prototype registered.
-18:49:53.623  [Info] [IndustrialExpansion] LogisticsData : LongUShapeBalancer prototype registered.
-18:49:53.624  [Info] [IndustrialExpansion] LogisticsData : SmallPipeBalancer prototype registered.
-18:49:53.626  [Info] [IndustrialExpansion] LogisticsData : MediumPipeBalancer prototype registered.
-18:49:53.627  [Info] [IndustrialExpansion] LogisticsData : LargePipeBalancer prototype registered.
-18:49:53.628  [Info] [IndustrialExpansion] LogisticsData : LongPipeBalancer prototype registered.
-18:49:53.631  [Info] [IndustrialExpansion] LogisticsResearchData : Detected Tier IV Conveyor research from ExtraTransports, skipping Industrial Expansion Tier IV conveyor research.
-18:49:53.633  [Info] [IndustrialExpansion] LogisticsResearchData : Registering More Balancers research.
-18:49:53.634  [Info] [IndustrialExpansion] LogisticsResearchData: More Balancers Research registered.
-18:49:53.635  [Info] [IndustrialExpansion] SurfacesData : Registering extra surfaces data.
-18:49:53.637  [Info] [IndustrialExpansion] SurfacesData : Dark concrete surface registered.
-18:49:53.639  [Info] [IndustrialExpansion] SurfacesData : Dark reinforced surface registered.
-18:49:53.640  [Info] [IndustrialExpansion] SurfaceResearchData : Registering extra surface research.
-18:49:53.641  [Info] [IndustrialExpansion] SurfaceResearchData : Extra surface research registered.
-18:49:53.644  [Info] [IndustrialExpansion] CargoDepotData : Registering Tier V and VI Cargo Depot prototypes.
-18:49:53.660  [Info] [IndustrialExpansion] CargoDepotData : Tier V and VI Cargo Depot prototypes registered.
-18:49:53.673  [Info] [IndustrialExpansion] ShipResearchData : Registering Cargo Depot V & VI research.
-18:49:53.679  [Info] [IndustrialExpansion] ShipResearchData : Cargo Depot V & VI research registered.
-18:49:53.680  [Info] [IndustrialExpansion] RetainingWallData : Registering extra retaining wall prototype.
-18:49:53.688  [Info] [IndustrialExpansion] RetainingWallData : Retaining Wall Medium prototype registered.
-18:49:53.689  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : Registering More Retaining Wall research.
-18:49:53.691  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : More Retaining Wall Research registered.
-18:49:53.693  [Info] [IndustrialExpansion] CargoShipVirtualProductData : Registering Cargo Ship Virtual Product Data prototype.
-18:49:53.698  [Info] [IndustrialExpansion] CargoShipVirtualProductData : Cargo Ship Virtual Product Data prototype registered.
-18:49:53.701  [Info] [IndustrialExpansion] CargoShipDryDockData : Registering Drydock prototype.
-18:49:53.707  [Info] [IndustrialExpansion] CargoShipDryDockData : Drydock prototype registered.
-18:49:53.714  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : Registering Cargo Ship Drydock research.
-18:49:53.715  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : Cargo Ship Drydock research registered.
-18:49:53.721  [Info] RightAngleMechanicalShaft: registering prototypes
-18:49:53.728  [Error] Failed to set 'Machine_StraightShaft1x2 (FlyWheelEntityProto)' as next tier, it's already set to 'Machine_StraightShaft1x2 (FlyWheelEntityProto)'.
-18:49:53.729  [Error] Failed to set 'Machine_StraightMechanicalShaft (FlyWheelEntityProto)' as next tier, it's already set to 'Machine_StraightMechanicalShaft (FlyWheelEntityProto)'.
-18:49:53.731  [Error] Failed to set 'Machine_StraightShaft1x4 (FlyWheelEntityProto)' as next tier, it's already set to 'Machine_StraightShaft1x4 (FlyWheelEntityProto)'.
-18:49:53.732  [Info] [Metallurgy+] Registering prototypes
-18:49:53.734  [Info] Registered 0 products from assembly 'CoI.Metallurgy+'.
-18:49:53.766  [Info] ModularRamp : ==>  1 Registrating Prototypes
-18:49:53.945  [Info] [MyAirshipMod] Vehicle idle monitoring patch applied
-18:49:53.950  [Info] [MyAirshipMod] Terrain disrupt patch applied
-18:49:54.036  [Info] [MyAirshipMod] unreachable-warning suppression applied
-18:49:54.042  [Info] PillarSpacingMod: MAX_PILLAR_HEIGHT at RegisterPrototypes = 6
-18:49:54.043  [Info] PillarSpacingMod: Pillar radius set to 6 for all transports.
-18:49:54.044  [Info] PillarSpacingMod: TransportPillarHeight MAX_PILLAR_HEIGHT set to 8.
-18:49:54.045  [Info] PillarSpacingMod: TrainTrackPillarHeight MAX_PILLAR_HEIGHT set to 8.
-18:49:54.046  [Info] PillarSpacingMod: PILLAR_SUPPORT_DISTANCE set to 10.
-18:49:54.047  [Info] ResearchQueue: RegisterPrototypes called
-18:49:54.049  [Info] UndergroundTransportMod : ============>  2 Registrating Prototypes
-18:49:54.051  [Info] UndergroundTransportMod : ============>  3 Registrating Undergound Entrances
-18:49:54.053  [Info] WindPower: registering prototypes
-18:49:54.055  [Info] Registered 0 products from assembly 'WindPower'.
-18:49:54.062  [Info] Layouts parsed
-18:49:56.492  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'CustomAssets.CustomAssetPack'.
-18:49:56.505  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'Mafi.Core.Mods.IMod'.
-18:49:56.506  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'System.IDisposable'.
-18:49:56.507  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'CustomAssets.CustomAssetPack'.
-18:49:56.510  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'Mafi.Core.Mods.IMod'.
-18:49:56.511  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'System.IDisposable'.
-18:49:56.598  [Info] CustomAssets_AirFiltering: emitted+registered marker type CustomAssets_AirFiltering
-18:49:56.599  [Info] CustomAssets_LiquifiedCoal: emitted+registered marker type CustomAssets_LiquifiedCoal
-18:49:56.603  [Info] Fusion_Horizon: emitted+registered marker type Fusion_Horizon
-18:49:56.605  [Info] ModularRamp : ==>  2 Register Dependencies 
-18:49:56.607  [Info] UndergroundTransportMod : ============>  4 Register Dependencies 
-18:49:56.665  [Info] [9720 ms] Loading data (objs: 81, delayed: 0) Stuck count 0
-18:49:56.770  [Info] [106 ms] Loading data (objs: 205, delayed: 123) Stuck count 0
-18:49:56.920  [Info] [150 ms] Delayed deserialization: 528 remaining, just finished 'ClearancePathabilityProvider'
-18:49:57.024  [Info] [103 ms] Delayed deserialization: 1046 remaining, just finished 'EdictsManager'
-18:49:57.161  [Info] [137 ms] Delayed deserialization: 9199 remaining, just finished 'Lyst`1'
-18:49:57.264  [Info] [104 ms] Delayed deserialization: 9508 remaining, just finished 'Lyst`1'
-18:49:57.373  [Info] [109 ms] Delayed deserialization: 3499 remaining, just finished 'Lyst`1'
-18:49:57.475  [Info] [102 ms] Delayed deserialization: 1750 remaining, just finished 'TreeDistanceChunk'
-18:49:57.578  [Info] [103 ms] Delayed deserialization: 2193 remaining, just finished 'StaticEntityVehicleGoal'
-18:49:57.684  [Info] [106 ms] Delayed deserialization: 2230 remaining, just finished 'Lyst`1'
-18:49:57.823  [Info] [CargoHelicopter] heliport patches applied
-18:49:57.824  [Info] [CargoHelicopter] bootstrap installed (patches apply once game loop is running)
-18:49:57.838  [Info] [FaFOptimiser] Loaded 35 translations for 'ru-RU' from 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\FaFOptimiser\Translations\ru.json'.
-18:49:57.845  [Info] [FaFOptimiser] Rebound 35 static LocStr fields (0 keys not in custom json).
-18:49:57.915  [Info] [IndustrialExpansion] Harmony patches applied
-18:49:57.916  [Info] ModularRamp : ==>  3 EarlyInit
-18:49:57.920  [Info] [UndergroundPipes] loaded 19 translations for 'ru'
-18:49:58.230  [Info] [UndergroundPipes] embedded pipe-inspector patch applied
-18:49:58.232  [Info] [UndergroundPipes] Harmony patches applied
-18:49:58.233  [Info] UndergroundTransportMod : ============>  5 EarlyInit
-18:49:58.244  [Info] [560 ms] Init calls: 1/4036, just finished 'ProductsSlimIdManager.initAfterLoad'
-18:49:58.379  [Info] [135 ms] Init calls: 9/4036, just finished 'ShipsClearancePathabilityProvider.initSelfVeryHigh'
-18:49:58.503  [Info] [124 ms] Loading map cache: All-In-One (Update 3)--0-47-90B52-D8F9B6D2
-18:49:58.505  [Info] Map cache not loaded: NoFile, generating new map.
-18:49:59.459  [Info] [957 ms] Generating terrain: 0%
-18:50:00.619  [Info] [1160 ms] Generating terrain: 2%
-18:50:02.072  [Info] [1450 ms] Generating terrain: 4%
-18:50:03.566  [Info] [1490 ms] Generating terrain: 6%
-18:50:05.002  [Info] [1440 ms] Generating terrain: 8%
-18:50:06.547  [Info] [1540 ms] Generating terrain: 10%
-18:50:08.374  [Info] [1830 ms] Generating terrain: 12%
-18:50:09.849  [Info] [1470 ms] Generating terrain: 14%
-18:50:11.210  [Info] [1360 ms] Generating terrain: 16%
-18:50:12.730  [Info] [1520 ms] Generating terrain: 18%
-18:50:14.082  [Info] [1350 ms] Generating terrain: 20%
-18:50:15.235  [Info] [1150 ms] Generating terrain: 22%
-18:50:16.612  [Info] [1380 ms] Generating terrain: 24%
-18:50:18.358  [Info] [1750 ms] Generating terrain: 26%
-18:50:20.193  [Info] [1830 ms] Generating terrain: 28%
-18:50:22.459  [Info] [2270 ms] Generating terrain: 30%
-18:50:24.580  [Info] [2110 ms] Generating terrain: 32%
-18:50:26.761  [Info] [2190 ms] Generating terrain: 34%
-18:50:28.933  [Info] [2150 ms] Generating terrain: 36%
-18:50:30.952  [Info] [2040 ms] Generating terrain: 38%
-18:50:34.741  [Info] [2480 ms] Generating terrain: 40%
-18:50:35.576  [Info] [2140 ms] Generating terrain: 42%
-18:50:38.023  [Info] [2450 ms] Generating terrain: 44%
-18:50:40.670  [Info] [2650 ms] Generating terrain: 50%
-18:50:40.673  [Info] [4,16 ms] Generating terrain: 50%
-18:50:40.784  [Info] [111 ms] Generating terrain: 50%
-18:50:40.975  [Info] [190 ms] Generating terrain: 54%
-18:50:44.774  [Info] [3800 ms] Generating terrain: 54%
-18:50:46.796  [Info] [2020 ms] Generating terrain: 56%
-18:50:48.670  [Info] [1870 ms] Generating terrain: 58%
-18:50:50.887  [Info] [2220 ms] Generating terrain: 60%
-18:50:53.252  [Info] [2370 ms] Generating terrain: 62%
-18:50:57.243  [Info] [2330 ms] Generating terrain: 64%
-18:50:57.983  [Info] [2400 ms] Generating terrain: 66%
-18:51:00.460  [Info] [2480 ms] Generating terrain: 68%
-18:51:02.654  [Info] [2190 ms] Generating terrain: 70%
-18:51:05.599  [Info] [2940 ms] Generating terrain: 72%
-18:51:09.156  [Info] [3560 ms] Generating terrain: 74%
-18:51:12.765  [Info] [3610 ms] Generating terrain: 76%
-18:51:17.821  [Info] [4030 ms] Generating terrain: 78%
-18:51:20.489  [Info] [3690 ms] Generating terrain: 80%
-18:51:23.807  [Info] [3320 ms] Generating terrain: 82%
-18:51:27.544  [Info] [3720 ms] Generating terrain: 84%
-18:51:31.335  [Info] [3810 ms] Generating terrain: 86%
-18:51:35.001  [Info] [3670 ms] Generating terrain: 88%
-18:51:38.488  [Info] [3490 ms] Generating terrain: 90%
-18:51:41.872  [Info] [3380 ms] Generating terrain: 92%
-18:51:44.139  [Info] [2270 ms] Generating terrain: 94%
-18:51:54.493  [Info] [10400 ms] Generating terrain: 100%
-18:51:54.508  [Info] [13,9 ms] Generating terrain: 100%
-18:51:54.641  [Info] [132 ms] Generating terrain: 100%
-18:52:05.149  [Info] Removed old map cache file: All-In-One (Update 3)--0-22-90897-279580C3.cache
-18:52:05.151  [Info] [10500 ms] Finalizing terrain generation
-18:52:05.158  [Info] [5,88 ms] Finalizing terrain generation: 33%
-18:52:05.204  [Info] [47,2 ms] Finalizing terrain generation: 67%
-18:52:06.194  [Info] [988 ms] Finalizing terrain generation: 100%
-18:52:07.095  [Info] [902 ms] Applying loaded terrain data: 66%
-18:52:07.109  [Info] [13,5 ms] Applying loaded terrain data: 100%
-18:52:07.117  [Info] [7,73 ms] Init calls: 2894/4036, just finished 'TerrainOccupancyManager.reconstructOccupancy'
-18:52:13.384  [Info] [6270 ms] Init calls: 2896/4036, just finished 'ClearancePathabilityProvider.initSelf'
-18:52:13.414  [Info] Sim thread enabled: True
-18:52:13.415  [Info] Game ID: 6326258827214344129; Session ID: 7102171013521272249, started at v0.8.6a
-18:52:13.498  [Info] [114 ms] Init calls: 3458/4036, just finished 'VehicleBuffersRegistry.rebuildChunksAfterLoad'
-18:52:14.331  [Info] [833 ms] Init calls: 3459/4036, just finished 'TerrainDisruptionSimulator.initSelfLate'
-18:52:15.247  [Info] [917 ms] Init calls: 3468/4036, just finished 'VehiclesConnectivityManager.initAfterLoad'
-18:52:19.950  [Info] [4700 ms] Init calls: 3513/4036, just finished 'ShipsClearancePathabilityProvider.initSelf'
-18:52:20.086  [Info] [AFD] Persistence: loaded 0 tower setting record(s) from vanilla-mod-json-config.
-18:52:20.090  [Info] [AFD] Pending allocations: loaded from vanilla-mod-json-config.
-18:52:20.101  [Warning] [ATD] ATDsettings.json not found — defaults written to: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoTerrainDesignations\ATDsettings.json
-18:52:20.108  [Info] [ATD] Persistence: loaded 0 tower setting record(s) from vanilla-mod-json-config.
-18:52:20.141  [Info] [BDT] [BDT] Blueprint Designer's Toolkit v0.8.6 | dll: 2026-07-27 09:08:57
-18:52:20.143  [Info] [BDT] Localization: probing directory 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations'.
-18:52:20.144  [Info] [BDT] Localization: discovered 8 file(s): C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\de.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\en.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\es.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\it.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\pt.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\ru.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\sv.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\zh.json
-18:52:20.175  [Info] [BDT] Localization: applied locale='ru', upserted=126, scannedFields=126, reboundFields=126, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
-18:52:20.176  [Info] [BDT] Localization diagnostic [Info] source='C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations': Scanned 0 static LocStr field(s) before rebinding.
-18:52:20.182  [Info] [BDT.ThroughputManager] ThroughputManager initialized.
-18:52:20.185  [Info] [BDT.PollutionManager] PollutionManager initialized.
-18:52:20.186  [Info] [BDT.InstantBuild] Instant build mode initialized.
-18:52:20.191  [Info] [BDT.TransportCleanup] Transport cleanup tool initialized. Hotkey: Alt+Del.
-18:52:20.408  [Info] [BDT.HeightFilter] HeightFilter renderers resolved - Transports: True, Pillars: True, IoPorts: True, LayoutEntities: True
-18:52:20.414  [Info] [BDT.HeightFilter] Successfully patched 'Transport.IsSelected'
-18:52:20.418  [Info] [BDT.HeightFilter] Successfully patched 'StaticEntity.IsSelected'
-18:52:20.422  [Info] [BDT.HeightFilter] Successfully patched 'IoPortsRenderer.PortsChunkStandard.ShowPort'
-18:52:20.429  [Info] [BDT.HeightFilter] Successfully patched 'IoPortsRenderer.PortsChunkStandard.showAndRegisterHighlightForPort'
-18:52:20.431  [Info] [BDT.HeightFilter] Height filter system initialized successfully. Initial filter application deferred to first sync update tick.
-18:52:20.434  [Info] [BDT.UndoManager] UndoManager initialized.
-18:52:20.716  [Info] FaFOptimiser: Mod initialization complete.
-18:52:20.723  [Info] ModularRamp : ==>  4 Initializing Version = 300
-18:52:20.727  [Info] ProductionCalculator: initialized
-18:52:20.728  [Info] ResearchQueue: Initialize called, gameWasLoaded=True
-18:52:20.731  [Info] [UndergroundPipes] runtime services ready
-18:52:20.733  [Info] UndergroundTransportMod : ============>  6 Initializing Version = 531
-18:52:21.059  [Error] Asset 'AirFilterIL_mat' (Material) was not found in any bundle, path: Assets/AirFiltering/AirFilterIL_mat
-18:52:21.693  [Info] [1740 ms] Initialized mods.
-18:52:21.699  [Info] [UndergroundPipes] settings gear slotted into the date bar
-18:52:23.500  [Warning] Mor Roads: Failed to apply Harmony patches: HarmonyLib.HarmonyException: Ambiguous match for HarmonyMethod[(class=Mafi.Core.PathFinding.ClearancePathabilityProvider, methodname=GetRoadNetworkConnectionsInArea, type=Normal, args=undefined)] ---> System.Reflection.AmbiguousMatchException: Ambiguous match found.
+==== Trace start: 2026-07-28T00:42:14.6685119Z ====
+00:42:14.669  CustomAssetsMod.RegisterPrototypes: start (modBasePath=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets)
+00:42:14.670  MachinePortsDumper.DumpToJson: invoking
+00:42:14.671  [Info] MachinePortsDumper: starting
+00:42:14.673  [Info] MachinePortsDumper: wrote C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets\Data\machine_ports.json
+00:42:14.674  MachinePortsDumper.DumpToJson: returned
+00:42:14.675  CustomAssetsMod.RegisterPrototypes: done
+00:42:14.676  [Info] CustomAssets_AirFiltering: pack registering prototypes
+00:42:14.678  [Info] ModTranslations[CustomAssets_AirFiltering]: spliced 10 translation(s) from 'ru.json' into LocalizationManager.s_data.
+00:42:14.680  RegisterData: start (mod=CustomAssets_AirFiltering, base=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_AirFiltering)
+00:42:14.681  [Info] Location of modules: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_AirFiltering\Definitions
+00:42:14.682  RegisterData[CustomAssets_AirFiltering]: __init__.py exists, loading
+00:42:14.683  register: parsing __init__.py
+00:42:14.684  register: parsed __init__.py (3 tokens, 1 statements)
+00:42:14.686  register: executing 1 statements in __init__.py
+00:42:14.687  register: __init__.py statement[0] LocalImportStatement
+00:42:14.688    dependencies: '__init__.py' -> 'filter_media_iron_lime'
+00:42:14.690  register: parsing filter_media_iron_lime.py
+00:42:14.701  register: parsed filter_media_iron_lime.py (730 tokens, 11 statements)
+00:42:14.702  register: executing 11 statements in filter_media_iron_lime.py
+00:42:14.703  register: filter_media_iron_lime.py statement[0] ImportStatement
+00:42:14.727  register: filter_media_iron_lime.py statement[1] ImportStatement
+00:42:14.745  register: filter_media_iron_lime.py statement[2] ImportStatement
+00:42:14.746  register: filter_media_iron_lime.py statement[3] AssignmentStatement
+00:42:14.754  register: filter_media_iron_lime.py statement[4] AssignmentStatement
+00:42:14.756  register: filter_media_iron_lime.py statement[5] EvaluateStatement
+00:42:14.758  register: filter_media_iron_lime.py statement[6] EvaluateStatement
+00:42:14.759  register: filter_media_iron_lime.py statement[7] EvaluateStatement
+00:42:14.761  register: filter_media_iron_lime.py statement[8] EvaluateStatement
+00:42:14.762  register: filter_media_iron_lime.py statement[9] AssignmentStatement
+00:42:14.763  build_machine[BoilerWood]: source=BoilerCoal, extra_ports=4, total_ports=4, copy_layout=True, copy_ports=False, copy_graphics=True
+00:42:14.764  build_machine[BoilerWood]: complete (locked=False)
+00:42:14.766  register: filter_media_iron_lime.py statement[10] EvaluateStatement
+00:42:14.766  register: COMPLETED filter_media_iron_lime.py
+00:42:14.769  register: COMPLETED __init__.py
+00:42:14.769  RegisterData[CustomAssets_AirFiltering]: __init__.py loaded
+00:42:14.770  RegisterData[CustomAssets_AirFiltering]: complete (loaded=2, failed=0)
+00:42:14.772  [Info] CustomAssets_LiquifiedCoal: pack registering prototypes
+00:42:14.773  [Info] ModTranslations[CustomAssets_LiquifiedCoal]: spliced 18 translation(s) from 'ru.json' into LocalizationManager.s_data.
+00:42:14.775  RegisterData: start (mod=CustomAssets_LiquifiedCoal, base=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_LiquifiedCoal)
+00:42:14.776  [Info] Location of modules: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\CustomAssets_LiquifiedCoal\Definitions
+00:42:14.777  RegisterData[CustomAssets_LiquifiedCoal]: __init__.py exists, loading
+00:42:14.778  register: parsing __init__.py
+00:42:14.780  register: parsed __init__.py (10 tokens, 2 statements)
+00:42:14.781  register: executing 2 statements in __init__.py
+00:42:14.783  register: __init__.py statement[0] LocalImportStatement
+00:42:14.784    dependencies: '__init__.py' -> 'liquified_coal'
+00:42:14.785  register: parsing liquified_coal.py
+00:42:14.790  register: parsed liquified_coal.py (195 tokens, 6 statements)
+00:42:14.791  register: executing 6 statements in liquified_coal.py
+00:42:14.793  register: liquified_coal.py statement[0] ImportStatement
+00:42:14.844  register: liquified_coal.py statement[1] ImportStatement
+00:42:14.864  register: liquified_coal.py statement[2] ImportStatement
+00:42:14.865  register: liquified_coal.py statement[3] EvaluateStatement
+00:42:14.867  register: liquified_coal.py statement[4] EvaluateStatement
+00:42:14.869  register: liquified_coal.py statement[5] EvaluateStatement
+00:42:14.870  register: COMPLETED liquified_coal.py
+00:42:14.871  register: __init__.py statement[1] LocalImportStatement
+00:42:14.873    dependencies: '__init__.py' -> 'coal_liquification'
+00:42:14.874  register: parsing coal_liquification.py
+00:42:14.890  register: parsed coal_liquification.py (996 tokens, 22 statements)
+00:42:14.891  register: executing 22 statements in coal_liquification.py
+00:42:14.892  register: coal_liquification.py statement[0] ImportStatement
+00:42:14.948  register: coal_liquification.py statement[1] ImportStatement
+00:42:14.971  register: coal_liquification.py statement[2] ImportStatement
+00:42:14.971  register: coal_liquification.py statement[3] AssignmentStatement
+00:42:14.974  register: coal_liquification.py statement[4] EvaluateStatement
+00:42:14.976  register: coal_liquification.py statement[5] EvaluateStatement
+00:42:14.977  register: coal_liquification.py statement[6] EvaluateStatement
+00:42:14.978  register: coal_liquification.py statement[7] AssignmentStatement
+00:42:14.979  register: coal_liquification.py statement[8] AssignmentStatement
+00:42:14.981  register: coal_liquification.py statement[9] AssignmentStatement
+00:42:14.982  register: coal_liquification.py statement[10] AssignmentStatement
+00:42:14.983  register: coal_liquification.py statement[11] IfStatement
+00:42:14.985  register: coal_liquification.py statement[12] EvaluateStatement
+00:42:14.991  register: coal_liquification.py statement[13] EvaluateStatement
+00:42:15.015  register: coal_liquification.py statement[14] EvaluateStatement
+00:42:15.044  register: coal_liquification.py statement[15] EvaluateStatement
+00:42:15.074  register: coal_liquification.py statement[16] EvaluateStatement
+00:42:15.100  register: coal_liquification.py statement[17] EvaluateStatement
+00:42:15.132  register: coal_liquification.py statement[18] EvaluateStatement
+00:42:15.162  register: coal_liquification.py statement[19] AssignmentStatement
+00:42:15.166  register: coal_liquification.py statement[20] AssignmentStatement
+00:42:15.168  register: coal_liquification.py statement[21] EvaluateStatement
+00:42:15.170  register: COMPLETED coal_liquification.py
+00:42:15.171  register: COMPLETED __init__.py
+00:42:15.172  RegisterData[CustomAssets_LiquifiedCoal]: __init__.py loaded
+00:42:15.173  RegisterData[CustomAssets_LiquifiedCoal]: complete (loaded=3, failed=0)
+00:42:15.183  [Info] [BDT.BpUpdate] Patched BlueprintsWindow constructor.
+00:42:15.187  [Info] [BDT.RecycleBin] Patched BlueprintsLibrary.DeleteItem for Recycle Bin.
+00:42:15.190  [Info] [BDT.RecycleBin] Patched blueprint library deleteConfirm for confirmation suppression.
+00:42:15.201  [Info] [BDT.FolderPersist] Folder persistence patches applied.
+00:42:15.208  [Info] [BDT.BpStats] Patched BlueprintDetail constructor and SetBlueprint.
+00:42:15.217  [Info] [BDT.BpExport] Patched BlueprintDetail for markdown export.
+00:42:15.222  [Info] [BDT.BpExport] Patched BlueprintFolderDetail for folder markdown export.
+00:42:15.226  [Info] [BDT.NormSym] Patched BlueprintsLibrary.TryCreateBlueprint for symmetric normalization.
+00:42:15.228  [Info] [BDT.LegacyBeltConfigurations] tryGetStepCost transpiler: replaced 2 IsParallelTo calls.
+00:42:15.231  [Info] [BDT.LegacyBeltConfigurations] Patched TransportPathFinder.tryGetStepCost.
+00:42:15.241  [Info] [BDT.LegacyBeltConfigurations] Patched TransportPathFinder.InitPathFinding.
+00:42:15.247  [Info] [BDT.LegacyBeltConfigurations] Patched TransportPathFinder.ChangeGoal.
+00:42:15.250  [Info] [BDT.LegacyBeltConfigurations] CanChangeDirectionOf transpiler: wrapped 4 Tile3i.Z field loads.
+00:42:15.255  [Info] [BDT.LegacyBeltConfigurations] Patched TransportsConstructionHelper.CanChangeDirectionOf.
+00:42:15.266  [Info] [BDT.RateLimitPatches] Rate limit patches applied.
+00:42:15.275  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Transport
+00:42:15.279  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Lift
+00:42:15.283  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Zipper
+00:42:15.286  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on Sorter
+00:42:15.290  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on MiniZipper
+00:42:15.296  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on ProductsSinkEntity
+00:42:15.298  [Info] [BDT.ThroughputPatches] Patched ReceiveAsMuchAsFromPort on UniversalProductsSink
+00:42:15.304  [Info] [BDT.ThroughputPatches] Patched SimUpdate on ProductsSourceEntity
+00:42:15.308  [Info] [BDT.ThroughputPatches] Patched SimUpdate on UniversalProductsSource
+00:42:15.309  [Info] [BDT.ThroughputPatches] Throughput patches applied successfully.
+00:42:15.320  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.TransportInspector
+00:42:15.324  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.LiftInspector
+00:42:15.334  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.ZipperInspector
+00:42:15.339  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.SorterInspector
+00:42:15.342  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.MiniZipperInspector
+00:42:15.346  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.ProductsSourceEntityInspector
+00:42:15.351  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.ProductsSinkEntityInspector
+00:42:15.357  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.UniversalProductsSourceInspector
+00:42:15.359  [Info] [BDT.ThroughputInspectorPatches] Patched constructor for Mafi.Unity.Ui.Inspectors.UniversalProductsSinkInspector
+00:42:15.402  [Info] [BDT.ContentDisplayPatches] Patched constructor for ZipperInspector
+00:42:15.406  [Info] [BDT.ContentDisplayPatches] Patched EntitiesCommandsProcessor.Invoke(QuickRemoveFromEntityCmd) prefix
+00:42:15.425  [Info] [BDT.UndoPatches] Successfully applied UndoPatches.
+00:42:15.427  [Info] [BDT.PollutionPatches] Patched Machine.tryPushFinishedRecipeToBuffers.
+00:42:15.430  [Info] [BDT.PollutionPatches] Patched ProductBuffer.StoreAsMuchAs.
+00:42:15.433  [Info] [BDT.PollutionPatches] Patched FuelTank.ConsumeFuelPerUpdate(Percent).
+00:42:15.435  [Info] [BDT.PollutionPatches] Patched FuelTank.ConsumeFuelPerUpdate(VehicleFuelConsumption).
+00:42:15.437  [Info] [BDT.PollutionPatches] Patched CargoShipV2.ConsumeFuel.
+00:42:15.440  [Info] [BDT.PollutionPatches] Patched FuelStatsCollector.ReportFuelUseAndDestroy.
+00:42:15.442  [Info] [BDT.PollutionPatches] Pollution patches applied successfully.
+00:42:15.451  [Info] TransportData: Registering extra transports data
+00:42:15.453  [Info] Transport Data: 4th tier flat conveyor registered
+00:42:15.455  [Info] Transport Data: 5th tier flat conveyor registered
+00:42:15.456  [Info] Transport Data: 4th tier loose material conveyor registered
+00:42:15.457  [Info] Transport Data: 5th tier loose material conveyor registered
+00:42:15.458  [Info] Transport Data: 5th tier fluid pipe registered
+00:42:15.742  [Info] Fusion_Horizon: pack registering prototypes
+00:42:15.744  [Info] ModTranslations[Fusion_Horizon]: spliced 63 translation(s) from 'ru.json' into LocalizationManager.s_data.
+00:42:15.745  RegisterData: start (mod=Fusion_Horizon, base=C:\Users\www\AppData\Roaming\Captain of Industry\Mods\Fusion_Horizon)
+00:42:15.747  [Info] Location of modules: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\Fusion_Horizon\Definitions
+00:42:15.748  RegisterData[Fusion_Horizon]: __init__.py exists, loading
+00:42:15.749  register: parsing __init__.py
+00:42:15.752  register: parsed __init__.py (19 tokens, 4 statements)
+00:42:15.753  register: executing 4 statements in __init__.py
+00:42:15.754  register: __init__.py statement[0] LocalImportStatement
+00:42:15.755    dependencies: '__init__.py' -> 'Candu'
+00:42:15.757  register: parsing Candu.py
+00:42:15.774  register: parsed Candu.py (981 tokens, 24 statements)
+00:42:15.775  register: executing 24 statements in Candu.py
+00:42:15.776  register: Candu.py statement[0] ImportStatement
+00:42:15.800  register: Candu.py statement[1] ImportStatement
+00:42:15.819  register: Candu.py statement[2] ImportStatement
+00:42:15.820  register: Candu.py statement[3] AssignmentStatement
+00:42:15.822  register: Candu.py statement[4] AssignmentStatement
+00:42:15.824  register: Candu.py statement[5] AssignmentStatement
+00:42:15.825  register: Candu.py statement[6] AssignmentStatement
+00:42:15.848  register: Candu.py statement[7] AssignmentStatement
+00:42:15.850  register: Candu.py statement[8] AssignmentStatement
+00:42:15.851  register: Candu.py statement[9] AssignmentStatement
+00:42:15.852  register: Candu.py statement[10] AssignmentStatement
+00:42:15.854  register: Candu.py statement[11] AssignmentStatement
+00:42:15.856  build_machine[Heat_exchanger_candu]: source=ThermalDesalinator, extra_ports=0, total_ports=4, copy_layout=True, copy_ports=True, copy_graphics=True
+00:42:15.857  build_machine[Heat_exchanger_candu]: complete (locked=True)
+00:42:15.858  register: Candu.py statement[12] AssignmentStatement
+00:42:15.859  register: Candu.py statement[13] AssignmentStatement
+00:42:15.860  register: Candu.py statement[14] AssignmentStatement
+00:42:15.861  register: Candu.py statement[15] AssignmentStatement
+00:42:15.863  register: Candu.py statement[16] AssignmentStatement
+00:42:15.864  register: Candu.py statement[17] AssignmentStatement
+00:42:15.864  register: Candu.py statement[18] AssignmentStatement
+00:42:15.867  register: Candu.py statement[19] AssignmentStatement
+00:42:15.874  register: Candu.py statement[20] AssignmentStatement
+00:42:15.883  register: Candu.py statement[21] AssignmentStatement
+00:42:15.895  register: Candu.py statement[22] AssignmentStatement
+00:42:15.896  build_nuclear_reactor[Candu_Reactor_T1_build]: fuel_pairs overridden (2 entries)
+00:42:15.897  build_nuclear_reactor[Candu_Reactor_T1_build]: port 'F' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
+00:42:15.898  build_nuclear_reactor[Candu_Reactor_T1_build]: port 'S' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
+00:42:15.900  build_nuclear_reactor[Candu_Reactor_T1_build]: fuel-port shapes substituted (in=IoPortShape_FlatConveyor, out=IoPortShape_FlatConveyor; per-name).
+00:42:15.901  [Warning] layout_str sanitized: normalized 13 line(s) to canonical width 48. Check the source layout for spurious leading/trailing whitespace.
+00:42:15.903  build_nuclear_reactor[Candu_Reactor_T1_build]: layout_str override applied (32 line(s), 8 port(s)).
+00:42:15.905  register: Candu.py statement[23] AssignmentStatement
+00:42:15.906  build_nuclear_reactor[Candu_Reactor_T2_Build]: fuel_pairs overridden (3 entries)
+00:42:15.907  build_nuclear_reactor[Candu_Reactor_T2_Build]: port 'F' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
+00:42:15.909  build_nuclear_reactor[Candu_Reactor_T2_Build]: port 'S' shape 'IoPortShape_FlatConveyor' (char '#') -> 'IoPortShape_FlatConveyor' (char '#')
+00:42:15.910  build_nuclear_reactor[Candu_Reactor_T2_Build]: fuel-port shapes substituted (in=IoPortShape_FlatConveyor, out=IoPortShape_FlatConveyor; per-name).
+00:42:15.912  build_nuclear_reactor[Candu_Reactor_T2_Build]: layout_str override applied (32 line(s), 8 port(s)).
+00:42:15.913  register: COMPLETED Candu.py
+00:42:15.914  register: __init__.py statement[1] LocalImportStatement
+00:42:15.915    dependencies: '__init__.py' -> 'Recipes_plus_plus_extended'
+00:42:15.916  register: parsing Recipes_plus_plus_extended.py
+00:42:15.922  register: parsed Recipes_plus_plus_extended.py (220 tokens, 5 statements)
+00:42:15.923  register: executing 5 statements in Recipes_plus_plus_extended.py
+00:42:15.925  register: Recipes_plus_plus_extended.py statement[0] ImportStatement
+00:42:15.951  register: Recipes_plus_plus_extended.py statement[1] ImportStatement
+00:42:15.972  register: Recipes_plus_plus_extended.py statement[2] ImportStatement
+00:42:15.973  register: Recipes_plus_plus_extended.py statement[3] AssignmentStatement
+00:42:15.974  register: Recipes_plus_plus_extended.py statement[4] AssignmentStatement
+00:42:15.977  register: COMPLETED Recipes_plus_plus_extended.py
+00:42:15.978  register: __init__.py statement[2] LocalImportStatement
+00:42:15.979    dependencies: '__init__.py' -> 'Fusion'
+00:42:15.981  register: parsing Fusion.py
+00:42:16.001  register: parsed Fusion.py (1377 tokens, 32 statements)
+00:42:16.003  register: executing 32 statements in Fusion.py
+00:42:16.004  register: Fusion.py statement[0] ImportStatement
+00:42:16.029  register: Fusion.py statement[1] ImportStatement
+00:42:16.049  register: Fusion.py statement[2] ImportStatement
+00:42:16.050  register: Fusion.py statement[3] AssignmentStatement
+00:42:16.052  register: Fusion.py statement[4] AssignmentStatement
+00:42:16.054  register: Fusion.py statement[5] AssignmentStatement
+00:42:16.055  register: Fusion.py statement[6] AssignmentStatement
+00:42:16.057  register: Fusion.py statement[7] AssignmentStatement
+00:42:16.058  register: Fusion.py statement[8] AssignmentStatement
+00:42:16.059  register: Fusion.py statement[9] AssignmentStatement
+00:42:16.061  register: Fusion.py statement[10] AssignmentStatement
+00:42:16.062  register: Fusion.py statement[11] AssignmentStatement
+00:42:16.065  register: Fusion.py statement[12] AssignmentStatement
+00:42:16.066  register: Fusion.py statement[13] AssignmentStatement
+00:42:16.067  register: Fusion.py statement[14] AssignmentStatement
+00:42:16.069  register: Fusion.py statement[15] AssignmentStatement
+00:42:16.070  register: Fusion.py statement[16] AssignmentStatement
+00:42:16.072  register: Fusion.py statement[17] AssignmentStatement
+00:42:16.073  register: Fusion.py statement[18] AssignmentStatement
+00:42:16.073  register: Fusion.py statement[19] AssignmentStatement
+00:42:16.075  register: Fusion.py statement[20] AssignmentStatement
+00:42:16.076  register: Fusion.py statement[21] AssignmentStatement
+00:42:16.078  register: Fusion.py statement[22] AssignmentStatement
+00:42:16.080  register: Fusion.py statement[23] AssignmentStatement
+00:42:16.081  register: Fusion.py statement[24] AssignmentStatement
+00:42:16.083  register: Fusion.py statement[25] AssignmentStatement
+00:42:16.083  register: Fusion.py statement[26] AssignmentStatement
+00:42:16.085  build_nuclear_reactor[Fusion_Reactor_t1]: fuel_pairs overridden (1 entries)
+00:42:16.087  build_nuclear_reactor[Fusion_Reactor_t1]: port 'F' shape 'IoPortShape_Pipe' (char '@') -> 'IoPortShape_Pipe' (char '@')
+00:42:16.088  build_nuclear_reactor[Fusion_Reactor_t1]: port 'S' shape 'IoPortShape_Pipe' (char '@') -> 'IoPortShape_Pipe' (char '@')
+00:42:16.089  build_nuclear_reactor[Fusion_Reactor_t1]: fuel-port shapes substituted (in=IoPortShape_Pipe, out=IoPortShape_Pipe; per-name).
+00:42:16.091  [Warning] layout_str sanitized: normalized 10 line(s) to canonical width 66. Check the source layout for spurious leading/trailing whitespace.
+00:42:16.094  build_nuclear_reactor[Fusion_Reactor_t1]: layout_str override applied (45 line(s), 10 port(s)).
+00:42:16.096  register: Fusion.py statement[27] AssignmentStatement
+00:42:16.097  register: Fusion.py statement[28] AssignmentStatement
+00:42:16.098  register: Fusion.py statement[29] AssignmentStatement
+00:42:16.099  register: Fusion.py statement[30] AssignmentStatement
+00:42:16.100  register: Fusion.py statement[31] AssignmentStatement
+00:42:16.102  register: COMPLETED Fusion.py
+00:42:16.103  register: __init__.py statement[3] LocalImportStatement
+00:42:16.104    dependencies: '__init__.py' -> 'Plasma'
+00:42:16.105  register: parsing Plasma.py
+00:42:16.113  register: parsed Plasma.py (447 tokens, 12 statements)
+00:42:16.114  register: executing 12 statements in Plasma.py
+00:42:16.115  register: Plasma.py statement[0] ImportStatement
+00:42:16.140  register: Plasma.py statement[1] ImportStatement
+00:42:16.159  register: Plasma.py statement[2] ImportStatement
+00:42:16.161  register: Plasma.py statement[3] AssignmentStatement
+00:42:16.163  register: Plasma.py statement[4] AssignmentStatement
+00:42:16.164  build_machine[Incineration_plant_T2]: source=IncinerationPlant, extra_ports=1, total_ports=7, copy_layout=True, copy_ports=True, copy_graphics=True
+00:42:16.165  build_machine[Incineration_plant_T2]: complete (locked=True)
+00:42:16.166  register: Plasma.py statement[5] AssignmentStatement
+00:42:16.167  register: Plasma.py statement[6] AssignmentStatement
+00:42:16.169  register: Plasma.py statement[7] AssignmentStatement
+00:42:16.171  register: Plasma.py statement[8] AssignmentStatement
+00:42:16.172  register: Plasma.py statement[9] AssignmentStatement
+00:42:16.173  register: Plasma.py statement[10] AssignmentStatement
+00:42:16.189  register: Plasma.py statement[11] AssignmentStatement
+00:42:16.204  register: COMPLETED Plasma.py
+00:42:16.206  register: COMPLETED __init__.py
+00:42:16.207  RegisterData[Fusion_Horizon]: __init__.py loaded
+00:42:16.207  RegisterData[Fusion_Horizon]: complete (loaded=5, failed=0)
+00:42:16.210  [Warning] [CustomAssets API] pack 'Fusion_Horizon' needs CustomAssets >= 0.2.0 but manifest pins >= 0.1.9. Bump 'mod_dependencies' to "CustomAssets>=0.2.0" — or drop the late-version args below.
+00:42:16.211  [Warning]   • 'mesh' on add_unit_prefab requires >= 0.1.5 (Candu.py:11)
+00:42:16.213  [Warning]   • 'fuel_pairs' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
+00:42:16.214  [Warning]   • 'coolantIn' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
+00:42:16.215  [Warning]   • 'coolantOut' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
+00:42:16.217  [Warning]   • 'waterInProduct' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
+00:42:16.218  [Warning]   • 'steamOutProduct' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
+00:42:16.219  [Warning]   • 'layout_str' on build_nuclear_reactor requires >= 0.2.0 (Candu.py:157)
+00:42:16.225  [Warning]   • 'enrichment' on build_nuclear_reactor requires >= 0.2.0 (Fusion.py:217)
+00:42:16.228  [Warning]   • call 'Enrichment' requires >= 0.2.0 (Fusion.py:217)
+00:42:16.229  [Info] H4uklotz.VerticalBalancers: registering prototypes
+00:42:16.231  [Info] Registered 0 products from assembly 'IndustrialExpansion'.
+00:42:16.233  [Info] [IndustrialExpansion] LogisticsData : Registering Tier IV Conveyor prototypes.
+00:42:16.234  [Info] [IndustrialExpansion] LogisticsData : Extra Transports Tier IV Conveyor prototypes detected, skipping IndustrialExpansion tier IV Conveyor prototypes.
+00:42:16.235  [Info] [IndustrialExpansion] LogisticsData : Registering More Balancers prototypes.
+00:42:16.236  [Info] [IndustrialExpansion] LogisticsData : SmallFlatBalancer prototype registered.
+00:42:16.237  [Info] [IndustrialExpansion] LogisticsData : MediumFlatBalancer prototype registered.
+00:42:16.239  [Info] [IndustrialExpansion] LogisticsData : LargeFlatBalancer prototype registered.
+00:42:16.240  [Info] [IndustrialExpansion] LogisticsData : LongFlatBalancer prototype registered.
+00:42:16.241  [Info] [IndustrialExpansion] LogisticsData : SmallUShapeBalancer prototype registered.
+00:42:16.242  [Info] [IndustrialExpansion] LogisticsData : MediumUShapeBalancer prototype registered.
+00:42:16.244  [Info] [IndustrialExpansion] LogisticsData : LargeUShapeBalancer prototype registered.
+00:42:16.245  [Info] [IndustrialExpansion] LogisticsData : LongUShapeBalancer prototype registered.
+00:42:16.246  [Info] [IndustrialExpansion] LogisticsData : SmallPipeBalancer prototype registered.
+00:42:16.247  [Info] [IndustrialExpansion] LogisticsData : MediumPipeBalancer prototype registered.
+00:42:16.249  [Info] [IndustrialExpansion] LogisticsData : LargePipeBalancer prototype registered.
+00:42:16.251  [Info] [IndustrialExpansion] LogisticsData : LongPipeBalancer prototype registered.
+00:42:16.252  [Info] [IndustrialExpansion] LogisticsResearchData : Detected Tier IV Conveyor research from ExtraTransports, skipping Industrial Expansion Tier IV conveyor research.
+00:42:16.253  [Info] [IndustrialExpansion] LogisticsResearchData : Registering More Balancers research.
+00:42:16.254  [Info] [IndustrialExpansion] LogisticsResearchData: More Balancers Research registered.
+00:42:16.256  [Info] [IndustrialExpansion] SurfacesData : Registering extra surfaces data.
+00:42:16.257  [Info] [IndustrialExpansion] SurfacesData : Dark concrete surface registered.
+00:42:16.258  [Info] [IndustrialExpansion] SurfacesData : Dark reinforced surface registered.
+00:42:16.259  [Info] [IndustrialExpansion] SurfaceResearchData : Registering extra surface research.
+00:42:16.260  [Info] [IndustrialExpansion] SurfaceResearchData : Extra surface research registered.
+00:42:16.261  [Info] [IndustrialExpansion] CargoDepotData : Registering Tier V and VI Cargo Depot prototypes.
+00:42:16.270  [Info] [IndustrialExpansion] CargoDepotData : Tier V and VI Cargo Depot prototypes registered.
+00:42:16.280  [Info] [IndustrialExpansion] ShipResearchData : Registering Cargo Depot V & VI research.
+00:42:16.288  [Info] [IndustrialExpansion] ShipResearchData : Cargo Depot V & VI research registered.
+00:42:16.292  [Info] [IndustrialExpansion] RetainingWallData : Registering extra retaining wall prototype.
+00:42:16.293  [Info] [IndustrialExpansion] RetainingWallData : Retaining Wall Medium prototype registered.
+00:42:16.295  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : Registering More Retaining Wall research.
+00:42:16.296  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : More Retaining Wall Research registered.
+00:42:16.297  [Info] [IndustrialExpansion] CargoShipVirtualProductData : Registering Cargo Ship Virtual Product Data prototype.
+00:42:16.298  [Info] [IndustrialExpansion] CargoShipVirtualProductData : Cargo Ship Virtual Product Data prototype registered.
+00:42:16.299  [Info] [IndustrialExpansion] CargoShipDryDockData : Registering Drydock prototype.
+00:42:16.305  [Info] [IndustrialExpansion] CargoShipDryDockData : Drydock prototype registered.
+00:42:16.306  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : Registering Cargo Ship Drydock research.
+00:42:16.307  [Info] [IndustrialExpansion] CargoShipDryDockResearchData : Cargo Ship Drydock research registered.
+00:42:16.309  [Info] RightAngleMechanicalShaft: registering prototypes
+00:42:16.310  [Error] Failed to set 'Machine_StraightShaft1x2 (FlyWheelEntityProto)' as next tier, it's already set to 'Machine_StraightShaft1x2 (FlyWheelEntityProto)'.
+00:42:16.312  [Error] Failed to set 'Machine_StraightMechanicalShaft (FlyWheelEntityProto)' as next tier, it's already set to 'Machine_StraightMechanicalShaft (FlyWheelEntityProto)'.
+00:42:16.314  [Error] Failed to set 'Machine_StraightShaft1x4 (FlyWheelEntityProto)' as next tier, it's already set to 'Machine_StraightShaft1x4 (FlyWheelEntityProto)'.
+00:42:16.315  [Info] [Metallurgy+] Registering prototypes
+00:42:16.316  [Info] Registered 0 products from assembly 'CoI.Metallurgy+'.
+00:42:16.324  [Info] ModularRamp : ==>  6 Registrating Prototypes
+00:42:16.365  [Info] [MyAirshipMod] Vehicle idle monitoring patch applied
+00:42:16.369  [Info] [MyAirshipMod] Terrain disrupt patch applied
+00:42:16.418  [Info] [MyAirshipMod] unreachable-warning suppression applied
+00:42:16.420  [Info] PillarSpacingMod: MAX_PILLAR_HEIGHT at RegisterPrototypes = 8
+00:42:16.421  [Info] PillarSpacingMod: Pillar radius set to 6 for all transports.
+00:42:16.422  [Info] PillarSpacingMod: TransportPillarHeight MAX_PILLAR_HEIGHT set to 8.
+00:42:16.424  [Info] PillarSpacingMod: TrainTrackPillarHeight MAX_PILLAR_HEIGHT set to 8.
+00:42:16.425  [Info] PillarSpacingMod: PILLAR_SUPPORT_DISTANCE set to 10.
+00:42:16.426  [Info] ResearchQueue: RegisterPrototypes called
+00:42:16.428  [Info] UndergroundTransportMod : ============>  13 Registrating Prototypes
+00:42:16.429  [Info] UndergroundTransportMod : ============>  14 Registrating Undergound Entrances
+00:42:16.430  [Info] WindPower: registering prototypes
+00:42:16.432  [Info] Registered 0 products from assembly 'WindPower'.
+00:42:16.437  [Info] Layouts parsed
+00:42:17.637  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'CustomAssets.CustomAssetPack'.
+00:42:17.640  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'Mafi.Core.Mods.IMod'.
+00:42:17.641  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'System.IDisposable'.
+00:42:17.643  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'CustomAssets.CustomAssetPack'.
+00:42:17.646  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'Mafi.Core.Mods.IMod'.
+00:42:17.647  [Warning] Dependency implementation 'CustomAssets.CustomAssetPack' is already registered for type 'System.IDisposable'.
+00:42:17.710  [Info] CustomAssets_AirFiltering: emitted+registered marker type CustomAssets_AirFiltering
+00:42:17.712  [Info] CustomAssets_LiquifiedCoal: emitted+registered marker type CustomAssets_LiquifiedCoal
+00:42:17.714  [Info] Fusion_Horizon: emitted+registered marker type Fusion_Horizon
+00:42:17.715  [Info] ModularRamp : ==>  7 Register Dependencies 
+00:42:17.716  [Info] UndergroundTransportMod : ============>  15 Register Dependencies 
+00:42:17.787  [Warning] Deserializing null of type 'string'.
+00:42:17.796  [Info] Sim thread enabled: True
+00:42:17.797  [Info] Game ID: 7407203130958222790; Session ID: 7277741508860199627, started at v0.8.6a
+00:42:17.855  [Info] Allocating terrain (2560, 2816)
+00:42:17.915  [Info] [IndustrialExpansion] Harmony patches applied
+00:42:17.917  [Info] ModularRamp : ==>  8 EarlyInit
+00:42:17.919  [Info] UndergroundTransportMod : ============>  16 EarlyInit
+00:42:18.068  [Info] [AFD] Persistence: loaded 0 tower setting record(s) from vanilla-mod-json-config.
+00:42:18.070  [Info] [AFD] Pending allocations: loaded from vanilla-mod-json-config.
+00:42:18.076  [Warning] [ATD] Persistence: failed to load tower settings from vanilla-mod-json-config: Expected JSON array or object at root.
+00:42:18.078  [Info] [BDT] [BDT] Blueprint Designer's Toolkit v0.8.6 | dll: 2026-07-27 09:08:57
+00:42:18.079  [Info] [BDT] Localization: probing directory 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations'.
+00:42:18.081  [Info] [BDT] Localization: discovered 8 file(s): C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\de.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\en.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\es.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\it.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\pt.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\ru.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\sv.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\zh.json
+00:42:18.089  [Info] [BDT] Localization: applied locale='ru', upserted=126, scannedFields=126, reboundFields=126, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
+00:42:18.091  [Info] [BDT] Localization diagnostic [Info] source='C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations': Scanned 0 static LocStr field(s) before rebinding.
+00:42:18.092  [Info] [BDT.ThroughputManager] ThroughputManager initialized.
+00:42:18.094  [Info] [BDT.PollutionManager] PollutionManager initialized.
+00:42:18.095  [Info] [BDT.InstantBuild] Instant build mode initialized.
+00:42:18.097  [Info] [BDT.TransportCleanup] Transport cleanup tool initialized. Hotkey: Alt+Del.
+00:42:18.187  [Info] [BDT.HeightFilter] HeightFilter renderers resolved - Transports: True, Pillars: True, IoPorts: True, LayoutEntities: True
+00:42:18.191  [Info] [BDT.HeightFilter] Successfully patched 'Transport.IsSelected'
+00:42:18.194  [Info] [BDT.HeightFilter] Successfully patched 'StaticEntity.IsSelected'
+00:42:18.197  [Info] [BDT.HeightFilter] Successfully patched 'IoPortsRenderer.PortsChunkStandard.ShowPort'
+00:42:18.200  [Info] [BDT.HeightFilter] Successfully patched 'IoPortsRenderer.PortsChunkStandard.showAndRegisterHighlightForPort'
+00:42:18.201  [Info] [BDT.HeightFilter] Height filter system initialized successfully. Initial filter application deferred to first sync update tick.
+00:42:18.203  [Info] [BDT.UndoManager] UndoManager initialized.
+00:42:18.227  [Info] FaFOptimiser: Mod initialization complete.
+00:42:18.230  [Info] ModularRamp : ==>  9 Initializing Version = 300
+00:42:18.231  [Info] ProductionCalculator: initialized
+00:42:18.233  [Info] ResearchQueue: Initialize called, gameWasLoaded=False
+00:42:18.234  [Info] [UndergroundPipes] runtime services ready
+00:42:18.235  [Info] UndergroundTransportMod : ============>  17 Initializing Version = 531
+00:42:18.388  [Error] Asset 'AirFilterIL_mat' (Material) was not found in any bundle, path: Assets/AirFiltering/AirFilterIL_mat
+00:42:18.853  [Info] [7580 ms] Initialized mods.
+00:42:18.854  [Info] [CargoHelicopter] in-sync drain bound to GameLoopEvents.SyncUpdate (session 2)
+00:42:18.856  [Info] [UndergroundPipes] settings gear slotted into the date bar
+00:42:19.557  [Warning] Mor Roads: Failed to apply Harmony patches: HarmonyLib.HarmonyException: Ambiguous match for HarmonyMethod[(class=Mafi.Core.PathFinding.ClearancePathabilityProvider, methodname=GetRoadNetworkConnectionsInArea, type=Normal, args=undefined)] ---> System.Reflection.AmbiguousMatchException: Ambiguous match found.
   at System.RuntimeType.GetMethodImplCommon (System.String name, System.Int32 genericParameterCount, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00050] in <41d29b352f6a475ab1bf7c6628b82790>:0 
   at System.RuntimeType.GetMethodImpl (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
   at System.Type.GetMethod (System.String name, System.Reflection.BindingFlags bindingAttr) [0x0000e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
@@ -479,124 +395,194 @@
   at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ba413ca8a8864098887aadc8030b3c3a>:0 
   at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ba413ca8a8864098887aadc8030b3c3a>:0 
   at Mor_Roads.MorRoadsHarmony..ctor () [0x00014] in D:\Modding\CaptainOfIndustry\BetterLife_RoadsAndSigns\BridgeRoad\MorRoadsHarmony.cs:281 
-18:52:23.511  [Info] Mor Roads: ROAD_DISTANCE_MULT set to 0
-18:52:23.555  [Info] [CustomAssetsMod]: Save game fix on loaded game.
-18:52:23.559  [Info] [CAM] ctor — pending alternations=18, deferred materials=2, deferred prefabs=1
-18:52:23.562  [Info] CustomAssetManager: applying texture 'Assets/Products/FilterMediaIronLime.png' (512x512) to material 'FilterMedia' (shader 'Mafi/LooseMaterialPile')
-18:52:23.563  [Info]   + set shader property '_AlbedoTex'
-18:52:23.564  [Info]   + set shader property '_MainTex'
-18:52:23.566  [Info] CustomAssetManager: applying texture 'Assets/Meshes/candu_rod_texture.png' (1024x1024) to material 'Standard' (shader 'Standard')
-18:52:23.567  [Info]   + set shader property '_MainTex'
-18:52:23.568  [Info] [CAM] injected +18 assets, +2 materials, +1 prefabs, +0 game-texture binds (totals: 18/2/1/0).
-18:52:23.572  [Info] [CAM] pile arrays: 512x512 depth=64 albedo=RGBA32 normals=BC7 smooth=DXT5
-18:52:23.573  [Info] [CAM] retroactive pile fix → product 'Product_FilterMediaIronLime' slice 16 (tiling=8x)
-18:52:23.575  [Info] [CAM]     _AlbedoTex: src=512x512 ARGB32 mips=10 → dst slice 16 of 512x512 RGBA32 mips=10
-18:52:23.582  [Info] [CAM]       resampled to uncompressed RGBA32
-18:52:23.583  [Info] [CAM]     _NormalsTex: src=512x512 BC7 mips=10 → dst slice 16 of 512x512 BC7 mips=10
-18:52:23.584  [Info] [CAM]       direct copy
-18:52:23.586  [Info] [CAM]     _SmoothMetalTex: src=256x256 DXT5 mips=9 → dst slice 16 of 256x256 DXT5 mips=9
-18:52:23.588  [Info] [CAM]       direct copy
-18:52:23.589  [Info] [CAM] FIXED: rewrote 1 pile texture slice(s). Earlier 'Asset ... not found in any bundle' from LPMM ctor was retroactively resolved.
-18:52:23.590  [Info] [CAM] pile arrays: 512x512 depth=64 albedo=RGBA32 normals=BC7 smooth=DXT5
-18:52:23.593  [Warning] [CustomUnitPrefabHook] m_productToDataIndex field missing
-18:52:23.597  [Info] FaFOptimiser: Toolbar button and F11 shortcut registered.
-18:52:23.621  [Info] PlaceResourceWindow.Controller: registered F9 toggle and toolbar button
-18:52:23.623  [Info] ProductionCalculator: toolbar button registered (F10)
-18:52:23.647  [Info] ResearchQueue: ResearchWindow not yet created — will retry on open
-18:52:23.649  [Info] ResearchQueue: === Health Check ===
-18:52:23.650  [Info] ResearchQueue: Max verified game version: unknown
-18:52:23.652  [Info] ResearchQueue: All 7 reflection targets resolved -- fully operational
-18:52:23.653  [Info] ResearchQueue: ================================
-18:52:23.654  [Info] ResearchQueue: Controller constructed
-18:52:23.687  [Info] UndergroundTransportMod : ============>  7 Underground harmony patches applied
-18:52:23.689  [Info] [WindPower]: Save game fixer created.
-18:52:23.709  [Info] [FaFOptimiser] RecipeCatalog initialized. Indexed: 508 recipes.
-18:52:23.717  [Info] [2020 ms] Instantiated all dependencies.
-18:52:23.799  [Info] [82,0 ms] TerrainMiningManager
-18:52:23.806  [Info] [6,35 ms] OceanEntitiesManager
-18:52:23.807  [Info] [1,74 ms] BridgesManager
-18:52:23.810  [Info] [2,19 ms] AirshipHQManager
-18:52:23.811  [Info] [1,22 ms] Initialized
-18:52:23.813  [Info] [2,98 ms] CameraController
-18:52:23.819  [Info] [5,34 ms] TerrainSurfaceTextureManager
-18:52:27.415  [Info] [3600 ms] TerrainRenderer
-18:52:27.926  [Info] [510 ms] WaterRendererFft
-18:52:27.945  [Info] [19,3 ms] WeatherController
-18:52:27.951  [Info] [6,25 ms] TerrainDesignationsRenderer
-18:52:27.953  [Info] [1,89 ms] SurfaceDesignationsRenderer
-18:52:27.965  [Info] [12,5 ms] TowerAreasRenderer
-18:52:27.972  [Info] [7,12 ms] LogisticsZonesRenderer
-18:52:30.021  [Info] [2050 ms] ResVisBarsRenderer
-18:52:30.176  [Info] Products renderer: built 182 texture slices - albedo 512x512 DXT1 (177 copied, 0 recompressed, 5 fallback), normals 512x512 DXT5 (4 copied, 0 recompressed, 178 fallback), smooth/metal 512x512 DXT5 (118 copied, 0 recompressed, 64 fallback).
-18:52:30.178  [Info] Products renderer: built 50 unique meshes (48 combined).
-18:52:30.184  [Info] [163 ms] ProductsRenderer: [FORCE FRAME] Loading product textures.
-18:52:30.191  [Info] [7,22 ms] ProductsRenderer: [FORCE FRAME] Loading product textures.
-18:52:30.193  [Warning] Products renderer: source textures still not fully loaded, building the texture arrays anyway.
-18:52:33.264  [Info] Products renderer: built 182 texture slices - albedo 512x512 DXT1 (177 copied, 4 recompressed, 1 fallback), normals 512x512 DXT5 (4 copied, 175 recompressed, 3 fallback), smooth/metal 512x512 DXT5 (118 copied, 61 recompressed, 3 fallback).
-18:52:33.266  [Info] [3080 ms] ProductsRenderer: [FORCE FRAME] Product textures.
-18:52:33.304  [Info] [38,0 ms] ProductsRenderer: [FORCE FRAME] Product textures.
-18:52:33.376  [Info] Registered 149 console commands.
-18:52:33.377  [Info] [73,2 ms] GameConsoleCommandsExecutor
-18:52:33.385  [Info] [AFD] Harmony runtime: 2.3.3.0 | dll: <no location>
-18:52:33.386  [Info] [8,61 ms] AutoForestryDesignationsMod
-18:52:33.388  [Info] [AFD] AutoForestryDesignations v0.1.12 | dll: 2026-07-27 15:29:56
-18:52:33.389  [Info] [AFD] Localization: late apply at renderer init state.
-18:52:33.391  [Info] [AFD] Localization: probing directory 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations'.
-18:52:33.392  [Info] [AFD] Localization: discovered 8 file(s): C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\de.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\en.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\es.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\it.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\pt.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\ru.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\sv.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\zh.json
-18:52:33.394  [Info] [AFD] Localization: current game culture before apply = 'ru-RU'.
-18:52:33.417  [Info] [AFD] Localization: applied locale='ru', upserted=75, scannedFields=75, reboundFields=75, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
-18:52:33.420  [Info] [AFD] Localization diagnostic [Info] source='C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations': Scanned 0 static LocStr field(s) before rebinding.
-18:52:33.446  [Info] [AFD] TreesRenderer resolved successfully.
-18:52:33.447  [Info] [AFD] ButtonClick audio source resolved successfully.
-18:52:33.448  [Info] [AFD] TreeHarvestingHighlightManager resolved successfully.
-18:52:33.455  [Info] [69,0 ms] AutoTerrainDesignationsMod
-18:52:33.462  [Info] [ATD] AutoTerrainDesignations v0.5.4 | dll: 2026-07-27 18:53:47
-18:52:33.463  [Info] [ATD] Diagnostics: active=Info, configured=Default, buildDefault=Info.
-18:52:33.495  [Info] [ATD] Localization: applied locale='ru', upserted=167, scannedFields=167, reboundFields=167, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
-18:52:33.774  [Info] [319 ms] AutoTerrainDesignationsMod
-18:52:33.777  [Info] [BDT] Localization: late apply at renderer init state.
-18:52:33.778  [Info] [BDT] Localization: probing directory 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations'.
-18:52:33.780  [Info] [BDT] Localization: discovered 8 file(s): C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\de.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\en.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\es.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\it.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\pt.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\ru.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\sv.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\zh.json
-18:52:33.788  [Info] [BDT] Localization: applied locale='ru', upserted=126, scannedFields=126, reboundFields=126, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
-18:52:33.790  [Info] [BDT] Localization diagnostic [Info] source='C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations': Scanned 0 static LocStr field(s) before rebinding.
-18:52:33.791  [Info] [16,7 ms] DesignerToolkitMod
-18:52:33.794  [Info] [LayoutBoxMode] Using shader: Standard
-18:52:33.796  [Info] [LayoutBoxMode] Init complete. Mesh=BDT_LayoutBoxCube, BodyMaterial=Standard, TopMaterial=Standard, Shader=Standard
-18:52:33.815  [Info] [24,1 ms] EntitiesRenderingManager
-18:52:34.062  [Info] [248 ms] TreesRenderer
-18:52:34.075  [Info] [13,4 ms] IoPortsRenderer
-18:52:34.080  [Info] [4,49 ms] OceanAreasOverlayRenderer
-18:52:34.082  [Info] [1,42 ms] LayoutEntityPreviewManager
-18:52:34.095  [Info] [13,4 ms] VehiclesRenderingManager
-18:52:34.184  [Info] [89,6 ms] TerrainPropsRenderer
-18:52:34.204  [Info] [19,1 ms] ConstructionCubesRenderer
-18:52:34.210  [Info] [6,87 ms] TreeHarvestingHighlightManager
-18:52:34.226  [Info] [15,9 ms] Controller
-18:52:34.233  [Info] [6,70 ms] TrackEndsRenderer
-18:52:34.260  [Info] [27,9 ms] TowerAreaStatusOverlay
-18:52:34.265  [Info] [4,54 ms] NotificationsEntityIconManager
-18:52:34.268  [Info] [1,91 ms] PauseIconManager
-18:52:34.271  [Info] [3,44 ms] TrainTrackCablesRenderer
-18:52:34.272  [Info] All renderers initialized in 10459 ms.
-18:52:34.273  [GameProgress] Loaded game
-18:52:40.852  [Info] [6580 ms] [FORCE FRAME] Init game step.
-18:52:40.897  [Info] [46,1 ms] [FORCE FRAME] Init game step.
-18:52:40.943  [Info] [44,7 ms] [FORCE FRAME] Init game step.
-18:52:40.953  [Info] [10,2 ms] [FORCE FRAME] Init game step.
-18:52:40.960  [Info] [BDT.HeightFilter] Initial delay frames completed. Triggering initial height filter.
-18:52:40.961  [Info] [9,19 ms] [FORCE FRAME] Init game step.
-18:52:40.971  [Info] [9,91 ms] [FORCE FRAME] Init game step.
-18:52:40.980  [Info] [8,09 ms] [FORCE FRAME] Init game step.
-18:52:40.989  [Info] [9,16 ms] [FORCE FRAME] Init game step.
-18:52:40.997  [Info] [8,54 ms] [FORCE FRAME] Init game step.
-18:52:41.006  [Info] [8,78 ms] [FORCE FRAME] Init game step.
-18:52:41.016  [Info] Game was initialized in 130 steps and took 184 seconds to complete.
-18:52:41.408  [Info] [CargoHelicopter] unreachable-warning suppression applied
-18:52:41.411  [Info] [CargoHelicopter] Harmony patches applied (deferred until scene fully initialized; viaIMain=True)
-18:52:41.420  [Info] [CargoHelicopter] in-sync drain bound to GameLoopEvents.SyncUpdate (session 1)
-19:02:37.702  [Info] Program termination requested.
-19:02:37.722  [Info] UndergroundTransportMod : ============>  8 Remove UT Harmony patches
-19:02:37.821  [Info] Core mod disposed
-19:02:39.360  [Info] Terminating
-19:02:39.450  [Info] Closing graylog logging.
-19:02:39.455  [Info] Closing file logging
+00:42:19.562  [Info] Mor Roads: ROAD_DISTANCE_MULT set to 0
+00:42:19.607  [Info] [CustomAssetsMod]: Save game fix on loaded game.
+00:42:19.610  [Info] [CAM] ctor — pending alternations=18, deferred materials=2, deferred prefabs=1
+00:42:19.612  [Info] CustomAssetManager: applying texture 'Assets/Products/FilterMediaIronLime.png' (512x512) to material 'FilterMedia' (shader 'Mafi/LooseMaterialPile')
+00:42:19.613  [Info]   + set shader property '_AlbedoTex'
+00:42:19.613  [Info]   + set shader property '_MainTex'
+00:42:19.616  [Info] CustomAssetManager: applying texture 'Assets/Meshes/candu_rod_texture.png' (1024x1024) to material 'Standard' (shader 'Standard')
+00:42:19.617  [Info]   + set shader property '_MainTex'
+00:42:19.619  [Info] [CAM] injected +18 assets, +2 materials, +1 prefabs, +0 game-texture binds (totals: 18/2/1/0).
+00:42:19.620  [Info] [CAM] pile arrays: 512x512 depth=64 albedo=RGBA32 normals=BC7 smooth=DXT5
+00:42:19.622  [Info] [CAM] retroactive pile fix → product 'Product_FilterMediaIronLime' slice 16 (tiling=8x)
+00:42:19.623  [Info] [CAM]     _AlbedoTex: src=512x512 ARGB32 mips=10 → dst slice 16 of 512x512 RGBA32 mips=10
+00:42:19.628  [Info] [CAM]       resampled to uncompressed RGBA32
+00:42:19.629  [Info] [CAM]     _NormalsTex: src=512x512 BC7 mips=10 → dst slice 16 of 512x512 BC7 mips=10
+00:42:19.632  [Info] [CAM]       direct copy
+00:42:19.633  [Info] [CAM]     _SmoothMetalTex: src=256x256 DXT5 mips=9 → dst slice 16 of 256x256 DXT5 mips=9
+00:42:19.634  [Info] [CAM]       direct copy
+00:42:19.636  [Info] [CAM] FIXED: rewrote 1 pile texture slice(s). Earlier 'Asset ... not found in any bundle' from LPMM ctor was retroactively resolved.
+00:42:19.638  [Info] [CAM] pile arrays: 512x512 depth=64 albedo=RGBA32 normals=BC7 smooth=DXT5
+00:42:19.641  [Warning] [CustomUnitPrefabHook] m_productToDataIndex field missing
+00:42:19.644  [Info] FaFOptimiser: Toolbar button and F11 shortcut registered.
+00:42:19.654  [Info] PlaceResourceWindow.Controller: registered F9 toggle and toolbar button
+00:42:19.655  [Info] ProductionCalculator: toolbar button registered (F10)
+00:42:19.673  [Info] ResearchQueue: ResearchWindow not yet created — will retry on open
+00:42:19.674  [Info] ResearchQueue: === Health Check ===
+00:42:19.675  [Info] ResearchQueue: Max verified game version: unknown
+00:42:19.677  [Info] ResearchQueue: All 18 reflection targets resolved -- fully operational
+00:42:19.678  [Info] ResearchQueue: ================================
+00:42:19.679  [Info] ResearchQueue: Controller constructed
+00:42:19.740  [Info] UndergroundTransportMod : ============>  18 Underground harmony patches applied
+00:42:19.742  [Info] [WindPower]: Save game fixer created.
+00:42:19.755  [Info] [FaFOptimiser] RecipeCatalog initialized. Indexed: 508 recipes.
+00:42:19.758  [Info] [905 ms] Instantiated all dependencies.
+00:42:19.843  [Info] [84,2 ms] TerrainManager: Loading map cache: New Haven--0-47-35985-90444A95
+00:42:19.850  [Info] Map cache not loaded: NoFile, generating new map.
+00:42:20.231  [Info] [388 ms] TerrainManager: Generating terrain: 0%
+00:42:20.631  [Info] [401 ms] TerrainManager: Generating terrain: 2%
+00:42:21.039  [Info] [408 ms] TerrainManager: Generating terrain: 5%
+00:42:21.442  [Info] [403 ms] TerrainManager: Generating terrain: 6%
+00:42:21.826  [Info] [384 ms] TerrainManager: Generating terrain: 8%
+00:42:22.349  [Info] [520 ms] TerrainManager: Generating terrain: 10%
+00:42:22.994  [Info] [623 ms] TerrainManager: Generating terrain: 12%
+00:42:23.717  [Info] [746 ms] TerrainManager: Generating terrain: 15%
+00:42:24.240  [Info] [504 ms] TerrainManager: Generating terrain: 16%
+00:42:24.753  [Info] [527 ms] TerrainManager: Generating terrain: 18%
+00:42:25.463  [Info] [716 ms] TerrainManager: Generating terrain: 20%
+00:42:26.078  [Info] [615 ms] TerrainManager: Generating terrain: 22%
+00:42:26.577  [Info] [499 ms] TerrainManager: Generating terrain: 24%
+00:42:26.977  [Info] [399 ms] TerrainManager: Generating terrain: 26%
+00:42:27.692  [Info] [715 ms] TerrainManager: Generating terrain: 28%
+00:42:28.571  [Info] [879 ms] TerrainManager: Generating terrain: 30%
+00:42:29.385  [Info] [814 ms] TerrainManager: Generating terrain: 32%
+00:42:30.106  [Info] [721 ms] TerrainManager: Generating terrain: 34%
+00:42:31.016  [Info] [910 ms] TerrainManager: Generating terrain: 36%
+00:42:31.748  [Info] [721 ms] TerrainManager: Generating terrain: 38%
+00:42:32.551  [Info] [815 ms] TerrainManager: Generating terrain: 40%
+00:42:33.739  [Info] [1190 ms] TerrainManager: Generating terrain: 42%
+00:42:35.038  [Info] [1300 ms] TerrainManager: Generating terrain: 44%
+00:42:36.816  [Info] [1780 ms] TerrainManager: Generating terrain: 50%
+00:42:36.825  [Info] [7,94 ms] TerrainManager: Generating terrain: 50%
+00:42:36.936  [Info] [111 ms] TerrainManager: Generating terrain: 54%
+00:42:38.082  [Info] [1150 ms] TerrainManager: Generating terrain: 54%
+00:42:38.596  [Info] [508 ms] TerrainManager: Generating terrain: 56%
+00:42:39.100  [Info] [510 ms] TerrainManager: Generating terrain: 58%
+00:42:39.591  [Info] [491 ms] TerrainManager: Generating terrain: 60%
+00:42:40.189  [Info] [598 ms] TerrainManager: Generating terrain: 62%
+00:42:40.805  [Info] [608 ms] TerrainManager: Generating terrain: 64%
+00:42:41.424  [Info] [618 ms] TerrainManager: Generating terrain: 66%
+00:42:42.014  [Info] [597 ms] TerrainManager: Generating terrain: 68%
+00:42:42.715  [Info] [703 ms] TerrainManager: Generating terrain: 70%
+00:42:43.818  [Info] [1100 ms] TerrainManager: Generating terrain: 72%
+00:42:44.790  [Info] [972 ms] TerrainManager: Generating terrain: 74%
+00:42:45.894  [Info] [1100 ms] TerrainManager: Generating terrain: 76%
+00:42:46.762  [Info] [868 ms] TerrainManager: Generating terrain: 78%
+00:42:47.534  [Info] [772 ms] TerrainManager: Generating terrain: 80%
+00:42:48.555  [Info] [1010 ms] TerrainManager: Generating terrain: 82%
+00:42:49.635  [Info] [1080 ms] TerrainManager: Generating terrain: 84%
+00:42:50.723  [Info] [1100 ms] TerrainManager: Generating terrain: 86%
+00:42:51.841  [Info] [1120 ms] TerrainManager: Generating terrain: 88%
+00:42:53.128  [Info] [1290 ms] TerrainManager: Generating terrain: 90%
+00:42:54.752  [Info] [1620 ms] TerrainManager: Generating terrain: 92%
+00:42:55.834  [Info] [1080 ms] TerrainManager: Generating terrain: 94%
+00:42:59.440  [Info] [3610 ms] TerrainManager: Generating terrain: 100%
+00:42:59.447  [Info] [6,86 ms] TerrainManager: Generating terrain: 100%
+00:43:03.253  [Info] Removed old map cache file: All-In-One (Update 3)--0-46-90B35-031D2CAF.cache
+00:43:03.257  [Info] [3810 ms] TerrainManager: Finalizing terrain generation
+00:43:03.261  [Info] [4,98 ms] TerrainManager: Finalizing terrain generation: 33%
+00:43:03.321  [Info] [59,9 ms] TerrainManager: Finalizing terrain generation: 67%
+00:43:03.501  [Info] [179 ms] TerrainManager: Finalizing terrain generation: 100%
+00:43:06.762  [Info] [3260 ms] TerrainManager: Finalizing terrain generation: 100%
+00:43:06.776  [Info] [13,6 ms] WorldMapManager: Generating new world map.
+00:43:06.844  [Info] [68,0 ms] WorldMapManager: World map generated.
+00:43:06.847  [Info] [3,06 ms] WorldMapManager: World map generated.
+00:43:07.148  [Info] [300 ms] Performing init sim updates: 0, still waiting on: 
+00:43:07.151  [Info] [3,31 ms] TerrainMiningManager
+00:43:07.152  [Info] [1,48 ms] OceanEntitiesManager
+00:43:07.156  [Info] [3,97 ms] OfficeBuildingsManager
+00:43:07.157  [Info] [1,20 ms] BridgesManager
+00:43:07.159  [Info] [1,24 ms] AirshipHQManager
+00:43:07.160  [Info] [1,21 ms] Initialized
+00:43:07.162  [Info] [1,93 ms] CameraController
+00:43:07.165  [Info] [3,59 ms] TerrainSurfaceTextureManager
+00:43:08.663  [Info] [1500 ms] TerrainRenderer
+00:43:08.875  [Info] [212 ms] WaterRendererFft
+00:43:08.883  [Info] [8,54 ms] WeatherController
+00:43:08.885  [Info] [1,51 ms] TerrainDesignationsRenderer
+00:43:08.886  [Info] [1,41 ms] SurfaceDesignationsRenderer
+00:43:08.887  [Info] [1,34 ms] TowerAreasRenderer
+00:43:08.889  [Info] [1,43 ms] LogisticsZonesRenderer
+00:43:09.296  [Info] [408 ms] ResVisBarsRenderer
+00:43:09.525  [Info] Products renderer: built 182 texture slices - albedo 512x512 DXT1 (177 copied, 0 recompressed, 5 fallback), normals 512x512 DXT5 (4 copied, 0 recompressed, 178 fallback), smooth/metal 512x512 DXT5 (118 copied, 0 recompressed, 64 fallback).
+00:43:09.530  [Info] Products renderer: built 50 unique meshes (48 combined).
+00:43:09.533  [Info] [237 ms] ProductsRenderer: [FORCE FRAME] Loading product textures.
+00:43:09.536  [Info] [2,68 ms] ProductsRenderer: [FORCE FRAME] Loading product textures.
+00:43:09.538  [Warning] Products renderer: source textures still not fully loaded, building the texture arrays anyway.
+00:43:12.065  [Info] Products renderer: built 182 texture slices - albedo 512x512 DXT1 (177 copied, 4 recompressed, 1 fallback), normals 512x512 DXT5 (4 copied, 175 recompressed, 3 fallback), smooth/metal 512x512 DXT5 (118 copied, 61 recompressed, 3 fallback).
+00:43:12.069  [Info] [2530 ms] ProductsRenderer: [FORCE FRAME] Product textures.
+00:43:12.103  [Info] [34,1 ms] ProductsRenderer: [FORCE FRAME] Product textures.
+00:43:12.147  [Info] Registered 149 console commands.
+00:43:12.148  [Info] [44,2 ms] GameConsoleCommandsExecutor
+00:43:12.151  [Info] [2,90 ms] AutoForestryDesignationsMod
+00:43:12.152  [Info] [AFD] AutoForestryDesignations v0.1.12 | dll: 2026-07-27 15:29:56
+00:43:12.153  [Info] [AFD] Localization: late apply at renderer init state.
+00:43:12.160  [Info] [AFD] Localization: probing directory 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations'.
+00:43:12.161  [Info] [AFD] Localization: discovered 8 file(s): C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\de.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\en.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\es.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\it.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\pt.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\ru.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\sv.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations\zh.json
+00:43:12.163  [Info] [AFD] Localization: current game culture before apply = 'ru-RU'.
+00:43:12.170  [Info] [AFD] Localization: applied locale='ru', upserted=75, scannedFields=75, reboundFields=75, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
+00:43:12.172  [Info] [AFD] Localization diagnostic [Info] source='C:\Users\www\AppData\Roaming\Captain of Industry\Mods\AutoForestryDesignations\translations': Scanned 0 static LocStr field(s) before rebinding.
+00:43:12.194  [Info] [AFD] TreesRenderer resolved successfully.
+00:43:12.195  [Info] [AFD] ButtonClick audio source resolved successfully.
+00:43:12.196  [Info] [AFD] TreeHarvestingHighlightManager resolved successfully.
+00:43:12.199  [Info] [49,2 ms] AutoTerrainDesignationsMod
+00:43:12.203  [Info] [ATD] AutoTerrainDesignations v0.5.4 | dll: 2026-07-27 18:53:47
+00:43:12.203  [Info] [ATD] Diagnostics: active=Info, configured=Default, buildDefault=Info.
+00:43:12.216  [Info] [ATD] Localization: applied locale='ru', upserted=167, scannedFields=167, reboundFields=167, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
+00:43:12.256  [Info] [55,6 ms] AutoTerrainDesignationsMod
+00:43:12.258  [Info] [BDT] Localization: late apply at renderer init state.
+00:43:12.259  [Info] [BDT] Localization: probing directory 'C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations'.
+00:43:12.261  [Info] [BDT] Localization: discovered 8 file(s): C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\de.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\en.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\es.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\it.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\pt.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\ru.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\sv.json, C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations\zh.json
+00:43:12.269  [Info] [BDT] Localization: applied locale='ru', upserted=126, scannedFields=126, reboundFields=126, readonlySkipped=0, missingTranslationSkipped=0, failedWrites=0, diagnostics=1.
+00:43:12.270  [Info] [BDT] Localization diagnostic [Info] source='C:\Users\www\AppData\Roaming\Captain of Industry\Mods\DesignerToolkit\translations': Scanned 0 static LocStr field(s) before rebinding.
+00:43:12.272  [Info] [16,7 ms] DesignerToolkitMod
+00:43:12.274  [Info] [LayoutBoxMode] Using shader: Standard
+00:43:12.275  [Info] [LayoutBoxMode] Init complete. Mesh=BDT_LayoutBoxCube, BodyMaterial=Standard, TopMaterial=Standard, Shader=Standard
+00:43:12.277  [Info] [5,88 ms] EntitiesRenderingManager
+00:43:12.342  [Info] [64,3 ms] TreesRenderer
+00:43:12.345  [Info] [3,57 ms] IoPortsRenderer
+00:43:12.346  [Info] [1,65 ms] OceanAreasOverlayRenderer
+00:43:12.349  [Info] [1,32 ms] LayoutEntityPreviewManager
+00:43:12.350  [Info] [1,46 ms] VehiclesRenderingManager
+00:43:12.380  [Info] [29,9 ms] TerrainPropsRenderer
+00:43:12.384  [Info] [3,71 ms] ConstructionCubesRenderer
+00:43:12.385  [Info] [1,54 ms] TreeHarvestingHighlightManager
+00:43:12.389  [Info] [3,62 ms] Controller
+00:43:12.390  [Info] [1,51 ms] TrackEndsRenderer
+00:43:12.391  [Info] [1,35 ms] TowerAreaStatusOverlay
+00:43:12.393  [Info] [1,31 ms] NotificationsEntityIconManager
+00:43:12.394  [Info] [1,41 ms] PauseIconManager
+00:43:12.396  [Info] [1,26 ms] TrainTrackCablesRenderer
+00:43:12.397  [Info] All renderers initialized in 5236 ms.
+00:43:12.398  [GameProgress] New game
+00:43:14.712  [Info] [2320 ms] [FORCE FRAME] Init game step.
+00:43:14.735  [Info] [22,3 ms] [FORCE FRAME] Init game step.
+00:43:14.836  [Info] [102 ms] [FORCE FRAME] Init game step.
+00:43:14.847  [Info] [9,81 ms] [FORCE FRAME] Init game step.
+00:43:14.856  [Info] Increased vehicles pose readout delay by 1 tick to 4
+00:43:14.860  [Info] [BDT.HeightFilter] Initial delay frames completed. Triggering initial height filter.
+00:43:14.868  [Info] [20,5 ms] [FORCE FRAME] Init game step.
+00:43:14.877  [Info] [9,73 ms] [FORCE FRAME] Init game step.
+00:43:14.886  [Info] [8,71 ms] [FORCE FRAME] Init game step.
+00:43:14.893  [Info] [8,02 ms] [FORCE FRAME] Init game step.
+00:43:14.902  [Info] [8,91 ms] [FORCE FRAME] Init game step.
+00:43:14.911  [Info] [8,93 ms] [FORCE FRAME] Init game step.
+00:43:14.919  [Info] Game was initialized in 114 steps and took 70,5 seconds to complete.
+00:44:14.924  [Info] Decreased vehicles pose readout delay by 1 tick to 3
+00:45:24.917  [Info] ResearchQueue: ResearchWindow found!
+00:45:24.921  [Info] ResearchQueue: Using native MIN_WIDTH = 480
+00:45:24.922  [Info] ResearchQueue: Deferred extraction succeeded on attempt 1!
+00:45:25.063  [Info] ResearchQueue: Hooked native cancel button — queue will be preserved on native cancel
+00:45:25.065  [Info] ResearchQueue: Queue panel injected into research tree!
+00:46:02.294  [Info] Decreased vehicles pose readout delay by 1 tick to 2
+00:47:02.395  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+00:47:02.792  [Info] Increased vehicles pose readout delay by 1 tick to 2
+00:48:02.895  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+00:49:02.177  [Info] Increased vehicles pose readout delay by 1 tick to 2
+00:49:32.820  [Info] Program termination requested.
+00:49:35.917  [Info] UndergroundTransportMod : ============>  19 Remove UT Harmony patches
+00:49:35.957  [Info] Core mod disposed
+00:49:37.557  [Info] Terminating
+00:49:37.618  [Info] Closing graylog logging.
+00:49:37.733  [Info] Closing file logging

@@ -28,8 +28,8 @@
   "markHarvestReadyForHarvest": false,
 
   "_comment_forestryDesignationsPanelCollapsed": "Default collapsed state for the Forestry designations panel when a forestry tower inspector is created. false = expanded by default, true = collapsed by default. Default: false.",
-  "forestryDesignationsPanelCollapsed": false,
+  "forestryDesignationsPanelCollapsed": true,
 
   "_comment_forestryInformationPanelCollapsed": "Default collapsed state for the Forestry information panel when a forestry tower inspector is created. false = expanded by default, true = collapsed by default. Default: false.",
-  "forestryInformationPanelCollapsed": false
+  "forestryInformationPanelCollapsed": true
 }
