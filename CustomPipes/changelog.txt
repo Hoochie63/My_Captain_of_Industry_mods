@@ -1,10 +1,16 @@
+v2.0.5 | 2026-07-28
+2026年7月28日08:13:57
+从26日开始到28日,经过48小时的调试分析,尽一切可能跳过系统限制.
+初步解决六级传送带的吞吐和速度适配问题.需测试.
+After 48 hours of debugging and analysis starting from the 26th to the 28th, every possible measure has been taken to bypass system restrictions.
+The throughput and speed adaptation issues of the sixth-level conveyor belt have been preliminarily resolved and require testing.
+
 v2.0.4 | 2026-07-27
 * 根据社区玩家 Hoochie提供建议对RU语言更新国际化,依照现有版本内置英文版为基础进行更新改造
 * Update the internationalization of the RU language based on suggestions provided by community player Hoochie, with the built-in English version of the existing release serving as the foundation for updates and modifications
 为表示对社区玩家 Hoochie 对本mod的俄语国际化做出的贡献,特单独发布一个版本,作为纪念
 A separate version is released as a tribute to acknowledge the contributions made by community player Hoochie to the Russian localization of this mod.
 Отдельная версия выпущена в знак признательности за вклад сообщественного игрока Hoochie в русификацию этого мода.
-
 
 v2.0.3 | 2026-07-26
 2026年7月26日21:52:09
