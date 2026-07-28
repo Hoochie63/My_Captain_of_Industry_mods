@@ -1,3 +1,30 @@
+V0.7.1 | 2026-07-28
+* 删除占位状态界面,状态识别系统内置.
+* Remove the placeholder status interface; the status recognition system is built-in.
+
+V0.7.0 | 2026-07-28
+* 社区玩家 Hoochie 等玩家不断提醒.
+* 添加更加繁琐的地形匹配代码.添加新的判断逻辑.
+* 新增 - 动态高度计算管理器
+* 修改 - 飞行控制补丁
+* 修改 - 停靠台管理
+* 修改 - 停靠台实体补丁
+* 修改 - 修改停靠台高度,和默认巡航高度.
+* 修复 - 动态高度计算（修复穿山问题）
+* 修复 -螺旋桨控制
+* 修复- 飞艇停靠管理
+* Community players including Hoochie and others kept sending reminders.
+* Added more cumbersome terrain matching code and new judgment logic.
+* New Feature - Dynamic Height Calculation Manager
+* Modified - Flight Control Patch
+* Modified - Docking Station Management
+* Modified - Docking Station Entity Patch
+* Modified - Adjusted the height of docking stations and the default cruising altitude.
+* Fixed - Dynamic height calculation (resolved the terrain penetration issue)
+* Fixed - Propeller control
+* Fixed - Airship docking management
+
+
 V0.6.0 | 2026-07-17
 *根据Denis和NightFury提供的建议
 1,现在用户可以根据自己喜好进行参数自定义,自己决定油料消耗,容量,污染等参数完全可以自定义.
