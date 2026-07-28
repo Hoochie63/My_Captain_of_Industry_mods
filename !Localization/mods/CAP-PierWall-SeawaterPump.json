@@ -1,7 +1,7 @@
 [
     [
         "Pier wall seawater pump",
-        "Морской насос (причал)"
+        "Морской насос (причальный)"
     ],
     [
         "Pumps seawater from the ocean through a CAP Pier Wall. Requires Pier Wall support under the marked support area.",
@@ -9,7 +9,7 @@
     ],
     [
         "Remove the pier wall seawater pump first.",
-        "Сначала необходимо удалить «Морской насос (причал)»."
+        "Сначала необходимо удалить «Морской насос (причальный)»."
     ],
     [
         "Unlocks a seawater pump that must be built on Pier Wall support tiles.",

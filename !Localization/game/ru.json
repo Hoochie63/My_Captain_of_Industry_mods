@@ -8955,7 +8955,7 @@
     ],
     [
         "OceanWaterPumpLarge__name",
-        "Береговой насос, ур. II"
+        "Морской насос, ур. II (береговой)"
     ],
     [
         "OceanWaterPumpT1__desc",
@@ -8963,7 +8963,7 @@
     ],
     [
         "OceanWaterPumpT1__name",
-        "Береговой насос, ур. I"
+        "Морской насос, ур. I (береговой)"
     ],
     [
         "Off_Option",
@@ -18697,7 +18697,7 @@
     ],
     [
         "WasteDump__name",
-        "Сливная труба"
+        "Сливная труба (береговая)"
     ],
     [
         "WasteSortingOutputs__Tooltip",
