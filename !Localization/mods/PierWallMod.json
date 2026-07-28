@@ -1,0 +1,34 @@
+[
+    [
+        "Pier wall (short)",
+        "Береговая стена (короткая)"
+    ],
+    [
+        "Pier wall (long)",
+        "Береговая стена (длинная)"
+    ],
+    [
+        "Pier wall (corner)",
+        "Береговая стена (угловая)"
+    ],
+    [
+        "Pier wall (cross)",
+        "Береговая стена (крестовая)"
+    ],
+    [
+        "Pier wall (tee)",
+        "Береговая стена (Т-образная)"
+    ],
+    [
+        "Can be placed on land and in the ocean. Useful for cleaner island edges. Holds up to {0} units of retained height.",
+        "Может размещаться на суше и в океане. Позволяет формировать аккуратные береговые линии. Удерживает перепад высот до {0} уровней высоты."
+    ],
+    [
+        "Pier walls",
+        "Береговые стены"
+    ],
+    [
+        "Unlocks pier wall variants for cleaner island edges. These walls can be placed on land and in the ocean.",
+        "Разблокирует варианты береговых стен для формирования аккуратных береговых линий. Эти стены можно размещать как на суше, так и в океане."
+    ]
+]

@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 187034993
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 15735ef830f34993c2d40c5199fb7f5f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8ed81b296f435bff7379a355cd1d66d9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ffe5295849fb094ae137309d6039bc43
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_DarkMetal.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_Valve.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_Barrel.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_Concrete.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_Fluid.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_Railing.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_Hatch.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_PipeIn.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_PipeEnd.mat
+- Assets/CAP/PierWall/LiquidDump/Mat/MAT_PipeOut.mat
+Dependencies: []

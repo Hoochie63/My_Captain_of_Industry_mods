@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 555544719
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf95571aed54782c7f4004bb98cf9870
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dedbafd1ab2d5b1952246bc17c639a7b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CAP/PierWall/LiquidDump/Icons/CAP_PierWall_LiquidDump_icon.png
+Dependencies: []

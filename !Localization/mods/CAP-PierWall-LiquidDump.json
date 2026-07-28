@@ -1,0 +1,22 @@
+[
+    [
+        "Pier wall liquid dump",
+        "Сливная труба (причал)"
+    ],
+    [
+        "Dumps liquids into the ocean from a Pier Wall. Requires Pier Wall support under the marked support area.",
+        "Позволяет сбрасывать жидкости в океан прямо с причала. Требуется береговая стена под местом установки."
+    ],
+    [
+        "Requires CAP Pier Wall support under the marked support area.",
+        "Требуется береговая стена под местом установки."
+    ],
+    [
+        "Remove the pier wall liquid dump first.",
+        "Сначала необходимо удалить «Сливную трубу (причал)»."
+    ],
+    [
+        "Unlocks a liquid dump that must be built on Pier Wall support tiles.",
+        "Разблокирует сливное устройство, которое можно размещать только на береговой стене."
+    ]
+]

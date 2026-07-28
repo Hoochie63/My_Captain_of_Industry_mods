@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2134580479
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f71f4845705c904702fb989490637ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9f349c36d7a6532f767333f9299b3e74
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6c02f84b7b9fd8e898a1432215d031e2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PierWallMod/Icons/PierWallCross.png
+- Assets/PierWallMod/Icons/PierWallStraight4.png
+- Assets/PierWallMod/Icons/PierWallStraight1.png
+- Assets/PierWallMod/Icons/PierWallTee.png
+- Assets/PierWallMod/Icons/PierWallCorner.png
+Dependencies: []

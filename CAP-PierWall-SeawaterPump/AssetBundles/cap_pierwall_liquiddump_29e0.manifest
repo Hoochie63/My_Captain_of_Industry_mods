@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2068444922
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f03a777233b1d540961c444a1e0fe8e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cbdd3da77ec5930516cd3038ff5060f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b354daa70445f36bba70fb430261e2a6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CAP/PierWall/LiquidDump/CAP_PierWall_LiquidDump.prefab
+Dependencies:
+- E:/Programieren/4_COI-Mods/CAP.PierWall.LiquidDump/CAP.PierWall.LiquidDump.Unity/AssetBundles/mat_8881
