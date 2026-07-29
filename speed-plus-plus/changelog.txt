@@ -1,3 +1,6 @@
+v1.0.7 | 2026-07-29
+* Now supports game version 0.8.6b.
+
 v1.0.6 | 2026-07-21
 * Fixed game speed (1x-15x) not applying on freshly started games after the recent game update — previously needed a save & reload to take effect.
 

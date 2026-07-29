@@ -1,6 +1,8 @@
+v1.1.9 | 2026-07-29
+* Now supports game version 0.8.6b.
+
 v1.1.8 | 2026-07-20
 * Saved settings now live in a shared "Mori++ Saved settings" folder outside the mod folder, so a manual delete or a mod manager wiping the folder no longer loses them. Because of this move, all your current settings reset to default one time — set everything up again and from then on they're kept safe in that folder.
-* Fixed the Bio Processor no longer sending GMO Seeds out to connected belts after the last update. (thanks Denis for the report)
 
 v1.1.7 | 2026-07-19
 * Fixed the Bio Processor no longer sending GMO Seeds out to connected belts after the last update. (thanks Denis for the report)
