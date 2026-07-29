@@ -27,3 +27,5 @@ BetterLife Roads and Signs
 	1.1.0 QoL Update, now placing a road  piece will show a preview window of current direction and piece with camera rotation.
 
 	1.1.11 Fix for update 4.2 (0.8.6)
+
+	1.1.12 Fix for sign icons not showing up.

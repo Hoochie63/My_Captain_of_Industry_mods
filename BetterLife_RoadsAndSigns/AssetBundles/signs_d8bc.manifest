@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.19f1
-CRC: 3824572581
+CRC: 4164820181
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 40a2566c5380df6b4dda5a1c805f8ad6
+    Hash: 263dcf8caae644d79c24c2f1e22d8209
   TypeTreeHash:
     serializedVersion: 2
     Hash: bc9f87c7e64ff656997db0f2b2a91703
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 89cd747e0eec18591153ddb189bdfd18
+    Hash: 74c1e3dd2e48feedca4a780d4cef4624
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -20,25 +20,47 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/BetterLife/IconsRoad/Signs/workers.png
-- Assets/BetterLife/IconsRoad/Signs/limit50.png
-- Assets/BetterLife/IconsRoad/Signs/limit80.png
+- "Assets/BetterLife/IconsRoad/Signs/Zeichen_306_-_Vorfahrtstra\xDFe,_StVO_1970.svg"
+- Assets/BetterLife/IconsRoad/Signs/Sign_LeftRight.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_NoRight.svg
 - Assets/BetterLife/IconsRoad/Signs/sign_300m.png
 - Assets/BetterLife/IconsRoad/Signs/tunnel.png
 - Assets/BetterLife/IconsRoad/Signs/Sign_Stop.png
 - Assets/BetterLife/IconsRoad/Signs/autoSign.png
 - Assets/BetterLife/IconsRoad/Signs/Sign_CedaElPaso.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Stop.svg
 - Assets/BetterLife/IconsRoad/Signs/sign_100m.png
-- Assets/BetterLife/IconsRoad/Signs/prohibidoelpaso.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_80plus.svg
 - Assets/BetterLife/IconsRoad/Signs/Sign_Drop.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_FuelDiesel.svg
 - Assets/BetterLife/IconsRoad/Signs/DobleSentido2.png
 - Assets/BetterLife/IconsRoad/Signs/Sign_Train.png
-- Assets/BetterLife/IconsRoad/Signs/limit120.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Hospital.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_TrainModern.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_LevelCrossing.svg
 - Assets/BetterLife/IconsRoad/Signs/Sign_Fwd.png
-- Assets/BetterLife/IconsRoad/Signs/sign_200m.png
-- Assets/BetterLife/IconsRoad/Signs/limit100.png
-- Assets/BetterLife/IconsRoad/Signs/Sign_Lft.png
-- Assets/BetterLife/IconsRoad/Signs/Sign_Rocks.png
 - Assets/BetterLife/IconsRoad/Signs/coisign1.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_BiDirectional.svg
 - Assets/BetterLife/IconsRoad/Signs/pedestian.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_NoRightTurn.svg
+- Assets/BetterLife/IconsRoad/Signs/limit50.png
+- Assets/BetterLife/IconsRoad/Signs/limit80.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_DeadEndRight.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_ForwardRight.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_DangerFall.svg
+- Assets/BetterLife/IconsRoad/Signs/prohibidoelpaso.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_Parking.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_DeadEndLeft.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_100plus.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_Port.svg
+- Assets/BetterLife/IconsRoad/Signs/limit120.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_EndOfRoad.svg
+- Assets/BetterLife/IconsRoad/Signs/sign_200m.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_FuelH2.svg
+- Assets/BetterLife/IconsRoad/Signs/limit100.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_120plus.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_Rocks.png
+- Assets/BetterLife/IconsRoad/Signs/Sign_50plus.svg
+- Assets/BetterLife/IconsRoad/Signs/Sign_Lft.png
 - Assets/BetterLife/IconsRoad/Signs/highway.png
 Dependencies: []
