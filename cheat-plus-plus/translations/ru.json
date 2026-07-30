@@ -65,9 +65,9 @@
     "New limit...": "Новый лимит...",
     "Set Limit": "Установить лимит",
     "Research": "Древо исследований",
-    "Instantly complete the currently active research.": "Мгновенное завершение <b>текущего</b> исследования",
+    "Instantly complete the currently active research.": "Раздел предоставляет несколько опций для управления исследованиями.",
     "Finish Current Research": "Мгновенно завершить<br><b>текущее</b> исследование",
-    "Unlock All Research": "Мгновенно разблокировать<br><b>все</b>исследования",
+    "Unlock All Research": "Мгновенно разблокировать<br><b>все</b> исследования",
     "World Map": "Карта мира",
     "Reveal all locations on the world map.": "Открыть все локации на «Карте мира».",
     "Reveal Entire World Map": "Открыть всю «Карту мира»",
@@ -75,8 +75,8 @@
     "Temporary fix for a WorldGen++ bug where some saves don't get the Radar 2 unlock placed on the world map. Use this until the bug is fixed.": "Временное исправление бага «WorldGen++», из-за которого в некоторых сохранениях разблокировка «Радара, ур. II» не появляется на «Карте мира». Используйте эту функцию, пока баг не будет исправлен.",
     "Radar 2 unlocked!": "«Радар, ур. II» разблокирован!",
     "Radar 2 tech proto not found.": "Прототип технологии «Радар, ур. II» не найден.",
-    "Radar 2/Corn WorldGen bug, temp fix": "Баг «WorldGen++» с «Радаром, ур. II/Кукурузой», временное исправление",
-    "Only needed for WorldGen++ versions below v1.0.3 — fixes a bug where some maps don't place the Radar 2, Corn, Sugar cane or Poppy seeds unlock on the world map. Click to unlock all four. Not needed on newer WorldGen++ versions.": "Нужно только для версий «WorldGen++» ниже v1.0.3 — исправляет баг, из-за которого на некоторых картах не появляется разблокировка «Радара, ур. II», «Кукурузы», «Сахарного тростника» или семян «Мака» на «Карте мира». Нажмите, чтобы разблокировать все четыре. Не требуется в более новых версиях «WorldGen++».",
+    "Radar 2/Corn WorldGen bug, temp fix": "Баг «WorldGen++»<br>с «Радаром, ур. II / Кукурузой»",
+    "Only needed for WorldGen++ versions below v1.0.3 — fixes a bug where some maps don't place the Radar 2, Corn, Sugar cane or Poppy seeds unlock on the world map. Click to unlock all four. Not needed on newer WorldGen++ versions.": "Временное исправление. Нужно только для версий «WorldGen++» ниже v1.0.3 — исправляет баг, из-за которого на некоторых картах не появляется разблокировка «Радара, ур. II», «Кукурузы», «Сахарного тростника» или семян «Мака» на «Карте мира». Нажмите, чтобы разблокировать все четыре. Не требуется в более новых версиях «WorldGen++».",
     "Radar 1, Radar 2, Corn, Sugar cane and Poppy unlocked!": "«Радар, ур. I», «Радар, ур. II», «Кукуруза», «Сахарный тростник» и «Мак» разблокированы!",
     "WorldGen techs not found.": "Технологии «WorldGen++» не найдены.",
     "Unity": "«Единство»",
@@ -201,5 +201,6 @@
     "Hold this modifier and click a storage to instantly fill or empty it.": "Удерживайте эту клавишу и щёлкните по хранилищу, чтобы мгновенно заполнить или опустошить его.",
     "Keep Unity full": "Поддерживать «Единство» полным",
     "Keeps Unity full at all times, thanks to YouTuber \"Whatchamacallit Gaming\" being annoyed to manually refill it so now it's here ;)": "Поддерживает «Единство» полностью заполненным в любой момент. Появилось благодаря тому, что ютубер Whatchamacallit Gaming замучился пополнять его вручную ;)",
-    "Unlimited Oil": "Бесконечная нефть"
+    "Unlimited Oil": "Бесконечная нефть",
+    "Added {0} {1} to shipyard!": "На «Верфь» добавлено: {0} единиц {1}!"
 }
