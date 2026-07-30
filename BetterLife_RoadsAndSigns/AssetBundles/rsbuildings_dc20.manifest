@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.19f1
+CRC: 6035514
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 03c4c8f5b831487905c7d60975358c9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1cfddeea06ce0ec573e0d0ec81ebe20e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7a7f31be9549b23a12f141260df7bc96
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BetterLife/IconsRoad/RSBuildings/fuelstation1.png
+Dependencies: []

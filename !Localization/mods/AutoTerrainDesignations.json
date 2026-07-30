@@ -179,12 +179,12 @@
         "settings.tab.ore_quality",
         "Качество руды"
     ],
-  [
-    "settings.tab.pathfinder",
-    "Подъездные пути"
-  ],
- [
-   "settings.heading.mining_defaults",
+    [
+        "settings.tab.pathfinder",
+        "Подъездные пути"
+    ],
+    [
+        "settings.heading.mining_defaults",
         "Настройки диспетчерской вышки по умолчанию"
     ],
     [
@@ -311,12 +311,12 @@
         "settings.world.safety_policy.maximum",
         "Максимум"
     ],
-  [
-    "settings.pathfinder.costs",
-    "Стоимость маршрута"
-  ],
- [
-   "settings.pathfinder.generated_v_fixed.label",
+    [
+        "settings.pathfinder.costs",
+        "Стоимость маршрута"
+    ],
+    [
+        "settings.pathfinder.generated_v_fixed.label",
         "Стоимость разметки рельефа"
     ],
     [
@@ -331,52 +331,52 @@
         "settings.pathfinder.direct_work_weight.tooltip",
         "Вес, применяемый к карьерным работам или отвалам непосредственно над или под созданной разметкой рельефа."
     ],
-  [
-    "settings.pathfinder.side_ray_weight.label",
-    "Вес боковых лучей работ"
-  ],
-  [
-    "settings.pathfinder.side_ray_weight.tooltip",
-    "Вес, применяемый к боковым и поворотным лучам ландшафтных работ."
-  ],
- [
-   "settings.pathfinder.candidate_distance.label",
+    [
+        "settings.pathfinder.side_ray_weight.label",
+        "Вес боковых лучей работ"
+    ],
+    [
+        "settings.pathfinder.side_ray_weight.tooltip",
+        "Вес, применяемый к боковым и поворотным лучам ландшафтных работ."
+    ],
+    [
+        "settings.pathfinder.candidate_distance.label",
         "Максимальное расстояние луча-кандидата"
     ],
     [
         "settings.pathfinder.candidate_distance.tooltip",
         "Максимальное расстояние трассировки лучей-кандидатов. Более высокие значения защищают и снижают цену очень больших боковых клиньев, но требуют больше времени на поиск. По умолчанию: 16."
     ],
-  [
-    "settings.pathfinder.limits",
-    "Ограничения поиска"
-  ],
-  [
-    "settings.pathfinder.visited.label",
-    "Максимум посещённых узлов"
-  ],
-  [
-    "settings.pathfinder.visited.tooltip",
-    "Максимальное число рассматриваемых состояний. Большие значения могут находить более сложные маршруты, но требуют больше времени и памяти."
-  ],
-  [
-    "settings.pathfinder.timeout.label",
-    "Тайм-аут поиска (секунды)"
-  ],
-  [
-    "settings.pathfinder.timeout.tooltip",
-    "Максимальное реальное время для одного поиска подъездного пути."
-  ],
-  [
-    "settings.pathfinder.frame_budget.label",
-    "Бюджет кадра (мс)"
-  ],
-  [
-    "settings.pathfinder.frame_budget.tooltip",
-    "Примерный бюджет вычислений поиска на игровой кадр. Большие значения завершают поиск быстрее, но вызывают более долгие задержки."
-  ],
- [
-   "settings.pathfinder.ray_max_cost.label",
+    [
+        "settings.pathfinder.limits",
+        "Ограничения поиска"
+    ],
+    [
+        "settings.pathfinder.visited.label",
+        "Максимум посещённых узлов"
+    ],
+    [
+        "settings.pathfinder.visited.tooltip",
+        "Максимальное число рассматриваемых состояний. Большие значения могут находить более сложные маршруты, но требуют больше времени и памяти."
+    ],
+    [
+        "settings.pathfinder.timeout.label",
+        "Тайм-аут поиска (секунды)"
+    ],
+    [
+        "settings.pathfinder.timeout.tooltip",
+        "Максимальное реальное время для одного поиска подъездного пути."
+    ],
+    [
+        "settings.pathfinder.frame_budget.label",
+        "Бюджет кадра (мс)"
+    ],
+    [
+        "settings.pathfinder.frame_budget.tooltip",
+        "Примерный бюджет вычислений поиска на игровой кадр. Большие значения завершают поиск быстрее, но вызывают более долгие задержки."
+    ],
+    [
+        "settings.pathfinder.ray_max_cost.label",
         "Максимальная стоимость за луч"
     ],
     [
@@ -647,24 +647,24 @@
         "panel.farming.idle_release_trucks.tooltip",
         "Автоматически снимает назначение грузовиков с этой вышки, когда ни у одной разметки нет ожидающих задач по карьерным работам или когда вышка приостановлена.<br>Грузовая техника отслеживается и назначается заново, когда задачи по карьерным работам возобновляются."
     ],
-  [
-    "panel.farming.vehicle_status.assigned",
-    "Назначено: {0}"
-  ],
-  [
-    "panel.farming.vehicle_status.none",
-    "нет"
-  ],
-  [
-    "panel.farming.vehicle_status.released",
-    "Освобождено ATD: "
-  ],
-  [
-    "panel.farming.vehicle_status.destroyed",
-    "<уничтожен>"
-  ],
- [
-   "toolbox.corner_outer.tooltip",
+    [
+        "panel.farming.vehicle_status.assigned",
+        "Назначено: {0}"
+    ],
+    [
+        "panel.farming.vehicle_status.none",
+        "нет"
+    ],
+    [
+        "panel.farming.vehicle_status.released",
+        "Освобождено ATD: "
+    ],
+    [
+        "panel.farming.vehicle_status.destroyed",
+        "<уничтожен>"
+    ],
+    [
+        "toolbox.corner_outer.tooltip",
         "Угол (внешний): размещать выпуклые угловые рампы."
     ],
     [
@@ -673,43 +673,43 @@
     ],
     [
         "notification.ramp_access_failed",
-        "[ATD] {entity} не удалось начать строительство подъездной рампы"
+        "[ATD] «{entity}» не удалось начать строительство подъездной рампы"
     ],
     [
         "notification.ramp_access_truncated",
-        "[ATD] {entity} не удалось разместить полную подъездную рампу"
+        "[ATD] «{entity}» не удалось разместить полную подъездную рампу"
     ],
     [
         "notification.ramp_access_not_accessible",
-        "[ATD] {entity} не удалось проложить путь к рампе"
+        "[ATD] «{entity}» не удалось проложить путь к рампе"
     ],
     [
         "notification.farming_complete",
-        "[ATD] {entity} завершил подготовку и засыпку полей для посевов"
+        "[ATD] «{entity}» завершил подготовку и засыпку полей для посевов"
     ],
     [
         "notification.excavator_completed",
-        "[ATD] {entity} завершил сборку экскаватора"
+        "[ATD] «{entity}» завершил сборку экскаватора"
     ],
     [
         "notification.debris_cleanup_queued",
-        "[ATD] {entity} поставил расчистку мусора в очередь"
+        "[ATD] «{entity}» поставил расчистку мусора в очередь"
     ],
     [
         "notification.debris_cleanup_none_found",
-        "[ATD] {entity} не обнаружил мусора для расчистки"
+        "[ATD] «{entity}» не обнаружил мусора для расчистки"
     ],
     [
         "notification.debris_cleanup_none_reachable",
-        "[ATD] {entity} не обнаружил доступного мусора для расчистки. Удерживая клавишу «Ctrl», щёлкните, чтобы включить расчистку недоступного мусора."
+        "[ATD] «{entity}» не обнаружил доступного мусора для расчистки. Удерживая клавишу «Ctrl», щёлкните, чтобы включить расчистку недоступного мусора."
     ],
     [
         "vehicle_order.confirm.singular",
-        "Поставить {0} в очередь для {2} в {1}?"
+        "Поставить «{0}» в очередь на «{1}»? Получатель — «{2}»"
     ],
     [
         "vehicle_order.confirm.plural",
-        "Поставить в очередь {0} единиц техники типа {1} для {3} в {2}?"
+        "Поставить в очередь {0} единиц техники типа «{1}» в «{2}»? Получатель — «{3}»"
     ],
     [
         "vehicle_order.confirm.button",
@@ -717,14 +717,14 @@
     ],
     [
         "vehicle_order.zoom.tooltip",
-        "Приблизить к {0}"
+        "Приблизить камеру на «{0}»"
     ],
     [
         "vehicle_order.preassigned.tooltip",
-        "Предварительно назначено {0}"
+        "<align=\"center\">Предварительно назначено для:<br>«{0}»</align>"
     ],
     [
         "vehicle_order.shortcut.tooltip",
-        "Щёлкните, удерживая клавиши «Shift+Alt», чтобы заказать новый {0} для {2} в {1}"
+        "Щёлкните, удерживая клавиши «Shift+Alt», чтобы отправить заказ на новый «{0}» в «{1}». Получатель — «{2}»"
     ]
 ]

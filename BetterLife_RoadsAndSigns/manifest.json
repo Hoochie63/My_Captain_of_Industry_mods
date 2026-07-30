@@ -1,6 +1,6 @@
 {
 	"id": "BetterLife_RoadsAndSigns",
-	"version": "1.0.12",
+	"version": "1.0.15",
 	"primary_dlls": [ "0Harmony.dll", "BetterLife_RoadsAndSigns.dll" ],
 	"non_locking_dll_load": true,
 	"can_add_to_saved_game": true,

@@ -1,6 +1,6 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.19f1
-CRC: 3550239287
+CRC: 140310322
 HashAppended: 0
 AssetBundleManifest:
   AssetBundleInfos:
@@ -11,302 +11,302 @@ AssetBundleManifest:
       Name: iconsroad_9cbe
       Dependencies: {}
     Info_2:
-      Name: buildings_b922
-      Dependencies: {}
-    Info_3:
       Name: roadindustrial_74a7
       Dependencies: {}
-    Info_4:
+    Info_3:
       Name: signs_d8bc
       Dependencies: {}
-    Info_5:
+    Info_4:
       Name: toolbar_ae40
       Dependencies: {}
-    Info_6:
+    Info_5:
       Name: base_dd43
       Dependencies: {}
-    Info_7:
+    Info_6:
       Name: sign_100_96b2
       Dependencies:
         Dependency_0: base_dd43
-    Info_8:
+    Info_7:
       Name: sign_100m_25ca
       Dependencies:
         Dependency_0: base_dd43
-    Info_9:
+    Info_8:
       Name: sign_100plus_6511
       Dependencies:
         Dependency_0: base_dd43
-    Info_10:
+    Info_9:
       Name: sign_120_488f
       Dependencies:
         Dependency_0: base_dd43
-    Info_11:
+    Info_10:
       Name: sign_120plus_5f39
       Dependencies:
         Dependency_0: base_dd43
-    Info_12:
+    Info_11:
       Name: sign_200m_9def
       Dependencies:
         Dependency_0: base_dd43
-    Info_13:
+    Info_12:
       Name: sign_300m_dee0
       Dependencies:
         Dependency_0: base_dd43
-    Info_14:
+    Info_13:
       Name: sign_50_a89d
       Dependencies:
         Dependency_0: base_dd43
-    Info_15:
+    Info_14:
       Name: sign_50plus_5f00
       Dependencies:
         Dependency_0: base_dd43
-    Info_16:
+    Info_15:
       Name: sign_80_a346
       Dependencies:
         Dependency_0: base_dd43
-    Info_17:
+    Info_16:
       Name: sign_80plus_c62f
       Dependencies:
         Dependency_0: base_dd43
-    Info_18:
+    Info_17:
       Name: sign_deadend_f05b
       Dependencies:
         Dependency_0: base_dd43
-    Info_19:
+    Info_18:
       Name: sign_deadendleft_3f04
       Dependencies:
         Dependency_0: base_dd43
-    Info_20:
+    Info_19:
       Name: sign_forward_d4aa
       Dependencies:
         Dependency_0: base_dd43
-    Info_21:
+    Info_20:
       Name: sign_fueldiesel_d098
       Dependencies:
         Dependency_0: base_dd43
-    Info_22:
+    Info_21:
       Name: sign_fuelh2_86ac
       Dependencies:
         Dependency_0: base_dd43
-    Info_23:
+    Info_22:
       Name: sign_hospital_8745
       Dependencies:
         Dependency_0: base_dd43
-    Info_24:
+    Info_23:
       Name: sign_leftright_fdd5
       Dependencies:
         Dependency_0: base_dd43
-    Info_25:
+    Info_24:
       Name: sign_levelcrossing_36ef
       Dependencies:
         Dependency_0: base_dd43
-    Info_26:
+    Info_25:
       Name: sign_parking_5e58
       Dependencies:
         Dependency_0: base_dd43
-    Info_27:
+    Info_26:
       Name: sign_pedestian_c281
       Dependencies:
         Dependency_0: base_dd43
-    Info_28:
+    Info_27:
       Name: sign_port_15f8
       Dependencies:
         Dependency_0: base_dd43
-    Info_29:
+    Info_28:
       Name: sign_rocks_e7ea
       Dependencies:
         Dependency_0: base_dd43
-    Info_30:
+    Info_29:
       Name: sign_romboamarillo_8711
       Dependencies:
         Dependency_0: base_dd43
-    Info_31:
+    Info_30:
       Name: sign_stop_410a
       Dependencies:
         Dependency_0: base_dd43
-    Info_32:
+    Info_31:
       Name: sign_train_0250
       Dependencies:
         Dependency_0: base_dd43
-    Info_33:
+    Info_32:
       Name: sign_tunnel_59a7
       Dependencies:
         Dependency_0: base_dd43
-    Info_34:
+    Info_33:
       Name: sign_workers_8bbd
       Dependencies:
         Dependency_0: base_dd43
-    Info_35:
+    Info_34:
       Name: sign_wrongway_ff73
       Dependencies:
         Dependency_0: base_dd43
-    Info_36:
+    Info_35:
       Name: sign_bothdirections_b1a9
       Dependencies:
         Dependency_0: base_dd43
-    Info_37:
+    Info_36:
       Name: sign_drop_807e
       Dependencies:
         Dependency_0: base_dd43
-    Info_38:
+    Info_37:
       Name: sign_forwardright_0d4a
       Dependencies:
         Dependency_0: base_dd43
-    Info_39:
+    Info_38:
       Name: sign_giveway_789c
       Dependencies:
         Dependency_0: base_dd43
-    Info_40:
+    Info_39:
       Name: sign_highway_f2ef
       Dependencies:
         Dependency_0: base_dd43
-    Info_41:
+    Info_40:
       Name: sign_left_2129
       Dependencies:
         Dependency_0: base_dd43
-    Info_42:
+    Info_41:
       Name: sign_priority_d587
       Dependencies:
         Dependency_0: base_dd43
-    Info_43:
+    Info_42:
       Name: sign_rightnotallowed_662d
       Dependencies:
         Dependency_0: base_dd43
-    Info_44:
+    Info_43:
       Name: sign_train2_7b25
       Dependencies:
         Dependency_0: base_dd43
-    Info_45:
+    Info_44:
       Name: base1_5e93
       Dependencies: {}
-    Info_46:
+    Info_45:
       Name: onewaycross_e3b3
       Dependencies:
         Dependency_0: base1_5e93
-    Info_47:
+    Info_46:
       Name: onewayentrance_c115
       Dependencies:
         Dependency_0: base1_5e93
-    Info_48:
+    Info_47:
       Name: onewayentranceexit_1a2e
       Dependencies:
         Dependency_0: base1_5e93
-    Info_49:
+    Info_48:
       Name: onewayexit_e6af
       Dependencies:
         Dependency_0: base1_5e93
-    Info_50:
+    Info_49:
       Name: onewayindustrialzone_86ef
       Dependencies:
         Dependency_0: base1_5e93
-    Info_51:
+    Info_50:
       Name: onewaystraight_fa28
       Dependencies:
         Dependency_0: base1_5e93
-    Info_52:
+    Info_51:
       Name: onewaystraightsmall_6b61
       Dependencies:
         Dependency_0: base1_5e93
-    Info_53:
+    Info_52:
       Name: onewaytee_3eea
       Dependencies:
         Dependency_0: base1_5e93
-    Info_54:
+    Info_53:
       Name: onewaytrainbridgecorner1_69b1
       Dependencies:
         Dependency_0: base1_5e93
-    Info_55:
+    Info_54:
       Name: onewaytrainbridgeentrance1_38cb
       Dependencies:
         Dependency_0: base1_5e93
-    Info_56:
+    Info_55:
       Name: onewaytrainbridgeexit1_f3e5
       Dependencies:
         Dependency_0: base1_5e93
-    Info_57:
+    Info_56:
       Name: onewaytrainbridgestraight1_ebd8
       Dependencies:
         Dependency_0: base1_5e93
-    Info_58:
+    Info_57:
       Name: onewaytrainbridgestraight2x_3eb1
       Dependencies:
         Dependency_0: base1_5e93
-    Info_59:
+    Info_58:
       Name: onewaycorner_4555
       Dependencies:
         Dependency_0: base2_861f
-    Info_60:
+    Info_59:
       Name: onewaycross_d2f5
       Dependencies:
         Dependency_0: base2_861f
-    Info_61:
+    Info_60:
       Name: onewayentrance_2652
       Dependencies:
         Dependency_0: base2_861f
-    Info_62:
+    Info_61:
       Name: onewayentranceexit_bb0e
       Dependencies:
         Dependency_0: base2_861f
-    Info_63:
+    Info_62:
       Name: onewayexit_9c50
       Dependencies:
         Dependency_0: base2_861f
-    Info_64:
+    Info_63:
       Name: onewayindustrialzone_a769
       Dependencies:
         Dependency_0: base2_861f
-    Info_65:
+    Info_64:
       Name: onewaystraight_b22a
       Dependencies:
         Dependency_0: base2_861f
-    Info_66:
+    Info_65:
       Name: onewaystraightsmall_13e8
       Dependencies:
         Dependency_0: base2_861f
-    Info_67:
+    Info_66:
       Name: onewaytee_6fd0
       Dependencies:
         Dependency_0: base2_861f
-    Info_68:
+    Info_67:
       Name: onewaytrainbridgecorner1_39df
       Dependencies:
         Dependency_0: base2_861f
-    Info_69:
+    Info_68:
       Name: onewaytrainbridgeentrance1_06ff
       Dependencies:
         Dependency_0: base2_861f
-    Info_70:
+    Info_69:
       Name: onewaytrainbridgeexit1_22dd
       Dependencies:
         Dependency_0: base2_861f
-    Info_71:
+    Info_70:
       Name: onewaytrainbridgestraight1_a8fd
       Dependencies:
         Dependency_0: base2_861f
-    Info_72:
+    Info_71:
       Name: onewaytrainbridgestraight2x_84ef
       Dependencies:
         Dependency_0: base2_861f
-    Info_73:
+    Info_72:
       Name: base2_861f
       Dependencies: {}
-    Info_74:
+    Info_73:
       Name: set2_e25d
       Dependencies: {}
-    Info_75:
+    Info_74:
       Name: rampend1_6359
       Dependencies: {}
-    Info_76:
+    Info_75:
       Name: rampmiddle1_cf45
       Dependencies: {}
-    Info_77:
+    Info_76:
       Name: rampstart1_1f54
       Dependencies: {}
-    Info_78:
+    Info_77:
       Name: onewaycorner_fa03
       Dependencies:
         Dependency_0: base1_5e93
-    Info_79:
+    Info_78:
       Name: sprites_ffac
+      Dependencies: {}
+    Info_79:
+      Name: rsbuildings_dc20
       Dependencies: {}
