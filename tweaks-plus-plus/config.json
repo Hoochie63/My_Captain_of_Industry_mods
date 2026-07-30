@@ -1,4 +1,1 @@
-{
-    "message": { "default": 0, "is_integer": true, "description": "Tweaking perfection takes time. Your island won't optimize itself!", "min": 0, "max": 0 },
-    "placebo": { "default": 0, "is_integer": true, "description": "This setting does nothing. But somehow your island runs better now.", "min": 0, "max": 0 }
-}
+{"message": {"default": 0, "is_integer": true, "description": "Tweaking perfection takes time. Your island won't optimize itself!", "min": 0, "max": 0}}
