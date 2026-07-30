@@ -1,5 +1,33 @@
 # Cargo Helicopter changelog
 
+## 0.19.1 (UPDATE-4.2-CHEAT-COMPAT)
+
+- Set the COI Hub compatibility target to the public **0.8.6** release. The mod was also locally
+  tested on the game's `0.8.6a / Update 4 build 610` hotfix identifier.
+- Updated the bundled Harmony runtime from 2.2.2 to 2.4.2, matching Cheat++ 1.3.0. Cargo Helicopter
+  can no longer load an older process-wide Harmony assembly before Cheat++ and silently downgrade it.
+- Declared Cheat++ as an optional dependency so, when both mods are enabled, the game initializes
+  Cheat++ first without making it mandatory for Cargo Helicopter users.
+- Added an optional UI compatibility watchdog. If Cheat++ is active but its one-shot delayed
+  C/Overlord toolbar insertion ran before the Update 4.2 HUD was ready, Cargo Helicopter asks
+  Cheat++ to retry its own idempotent installer every eight seconds until the button is registered.
+
+## 0.19.0 (UPDATE-4.2-PRODUCTION-FIX)
+
+- Added verified support for Captain of Industry 0.8.6a / Update 4.2 and its Unity 6000.3.19f1
+  runtime. The manifest now accepts 0.8.6 while retaining 0.8.5 as the minimum supported version.
+- Fixed the normal (non-instant) production deadlock. A completed helicopter was marked `JobHeld`
+  before the stock `SpawnJob` could execute its initial `Vehicle.Spawn`, leaving the first aircraft
+  invisible and eventually filling every assembly lane. Heliports now use the game's valid direct-spawn
+  path after the normal material, time and queue checks, then run the authored vertical emerge.
+- Added bounded production recovery: a stripped direct-spawn patch releases the stock spawn job after
+  10 seconds, a missing Unity view bypasses emerge after 20 seconds, and an emerge stuck for 60 seconds
+  is safely handed to the regular stand dispatcher. A broken animation can no longer reserve a lane forever.
+- Multiple heliports no longer amplify the production stall: each completed helicopter keeps its producing
+  depot and lane through spawn, emerge and first-flight equipment pickup.
+- Enabled the game's replacement workflow from an ordinary vehicle to a helicopter at an Open Heliport.
+  Normal trucks remain hidden from the heliport construction menu.
+
 ## 0.18.0 (CONFIGURABLE-ECONOMY)
 
 - EDITABLE ECONOMY via the in-game mod settings (config.json): fuel consumption multiplier, cargo capacity

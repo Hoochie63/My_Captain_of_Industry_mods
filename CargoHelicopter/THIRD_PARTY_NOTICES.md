@@ -1,6 +1,6 @@
 # Third-party notices
 
-Cargo Helicopter distributes **Harmony 2.2.2** (`0Harmony.dll`). Harmony is licensed under the
+Cargo Helicopter distributes **Harmony 2.4.2** (`0Harmony.dll`). Harmony is licensed under the
 MIT License; the complete license text is included at `licenses/0Harmony-LICENSE.txt`.
 
 ## Sikorsky S-64 Skycrane helicopter model

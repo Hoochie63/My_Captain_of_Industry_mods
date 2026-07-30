@@ -1,6 +1,7 @@
-# Cargo Helicopter 0.13.4
+# Cargo Helicopter 0.19.1
 
-Cargo Helicopter adds three tiers of flying cargo vehicles to **Captain of Industry 0.8.5**.
+Cargo Helicopter adds three tiers of flying cargo vehicles to **Captain of Industry 0.8.5-0.8.6
+(Update 4.2)**.
 They use the normal truck logistics system, but can cross cliffs, mountains, buildings and water.
 
 ## Features
@@ -38,7 +39,10 @@ vanilla Vehicle Depot / Auto Vehicle Factory. They use the normal pickup, delive
 
 ## Compatibility
 
-- Minimum and verified game version: **0.8.5**.
+- Supported game versions: **0.8.5-0.8.6**; locally tested against **0.8.6a / Update 4.2 build 610**.
+- Cheat++ is optional. When both mods are enabled, Cargo Helicopter declares the correct load order,
+  ships the same Harmony 2.4.2 runtime and retries Cheat++'s C/Overlord toolbar insertion if the
+  Update 4.2 HUD was not ready for its first attempt.
 - Can be added to an existing save.
 - Do not remove it from a save that already contains its prototypes or vehicles.
 - The aircraft is simulated as a truck in X/Z; the flight altitude and aircraft visuals are
