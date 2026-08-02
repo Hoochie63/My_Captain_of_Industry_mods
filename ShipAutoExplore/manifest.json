@@ -1,0 +1,13 @@
+{
+  "id": "ShipAutoExplore",
+  "version": "0.1.0",
+  "display_name": "ShipAutoExplore",
+  "description_short": "Automatically dispatches the ship to explore after returning to port.",
+  "authors": "RinSwift",
+  "primary_dlls": ["ShipAutoExplore.dll"],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "min_game_version": "0.8.4",
+  "max_verified_game_version": "0.8.4"
+}

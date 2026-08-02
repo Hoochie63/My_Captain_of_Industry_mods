@@ -1,0 +1,4 @@
+{
+    "Auto-explore when idle": "Авто-исследование при простое",
+    "Mod: ShipAutoExplore\nAutomatically dispatch the ship to explore the nearest viable node when idle at port.": "Мод: ShipAutoExplore<br>Автоматически отправляет корабль для исследования ближайшей доступной локации, когда он простаивает в порту."
+}
