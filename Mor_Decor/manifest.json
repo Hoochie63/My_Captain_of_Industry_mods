@@ -1,0 +1,17 @@
+{
+  "id": "Mor_Decor",
+  "version": "1.0.2",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "Mor_Decor.dll"
+  ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+  "authors": "tsdfab",
+  "description_short": "Adds mulch, foliage, rocks, and other decorative landscaping options.",
+  "description_long": "Beautify your world with placeable bushes, flowers, grass, rocks, debris and dumpable mulch.",
+  "display_name": "Mor Decor",
+  "min_game_version": "0.8.4",
+  "max_verified_game_version": "0.8.6a"
+}

@@ -1,0 +1,18 @@
+v1.0.2 | 2026-07-30
+* Fixed an issue where loading a save with overlapping Mor Decor props could prevent removed debris from disappearing visually.
+* Existing affected saves are cleaned automatically when loaded with this version.
+* Added Decorative Landscaping research for Mulch and Decorative Rock production.
+* Added descriptions to the Foliage Decor placement tools.
+
+v1.0.0 | 2026-07-24
+* Initial prerelease of Mor Decor.
+* Adds mulch as a loose product.
+* Mulch can be used as a terrain material for dumping and placement.
+* Adds a shredder recipe that produces mulch from wood. (WIP)
+* Adds decorative terrain props using existing in-game assets. No research required. (WIP)
+* Adds placeable bushes, flowers, grass, rocks, and debris-style decorations.
+* [CTRL] + [Scroll-Wheel] to rescale decorations.
+* [Shift] + [Scroll-Wheel] to cycle different decoration variants.
+* Adds a dedicated foliage category in the toolbar's Forestry menu.
+* Supports adding the mod to existing saved games.
+* Not remove-safe: Removal has not been tested. Foliage decorations use vanilla assets, while the mulch terrain does not.

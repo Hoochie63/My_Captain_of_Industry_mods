@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 947877229
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 33a24005146c02c9333568fdb0733eec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8ffd48c6713cd04766010f6b176bbe16
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dcdcdfa45117206ae494b0793021ac01
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/MorDecor/Icons/RocksIcon.png
+- Assets/MorDecor/Icons/GrassIcon.png
+- Assets/MorDecor/Icons/FlowersIcon.png
+- Assets/MorDecor/Icons/MulchLoose.mat
+- Assets/MorDecor/Icons/BushIcon.png
+- Assets/MorDecor/Icons/LooseMatSource.shader
+- Assets/MorDecor/Icons/Mulch-1024-albedo.png
+- Assets/MorDecor/Icons/Mulch-2048-normal-s-ao.png
+- Assets/MorDecor/Icons/DebrisIcon.png
+- Assets/MorDecor/Icons/Mulch-512-smoothmetal.png
+- Assets/MorDecor/Icons/Mulch-1024-normal.png
+- Assets/MorDecor/Icons/mulchicon.png
+- Assets/MorDecor/Icons/Mulch-2048-albedo-height.png
+Dependencies: []
