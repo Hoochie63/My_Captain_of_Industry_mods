@@ -1,3 +1,8 @@
+v0.2.1 | 2026-08-02
+*IMPROVED: Minor solver adjustments for balanced crop overproduction.
+*IMPROVED: Optimizer results remain stable with excess farms.
+*Ensured game v0.8.6c compatibility.
+
 v0.2.0 | 2026-07-27
 Livestock & Co-Production Engine
 
@@ -19,7 +24,7 @@ v0.1.0 | 2026-07-24
 * IMPROVED: Enhanced solver calculation speed and overall optimization time.
 * IMPROVED: Adjusted the main window dimensions for better UI layout and balance.
 
-v0.0.5 | 2026-07-23
+v0.0.6 | 2026-07-23
 Stable Release
 
 * IMPROVED: Minor solver adjustments to better minimize overproduction.
