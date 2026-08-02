@@ -1,0 +1,11 @@
+v1.0.2 | 2026-07-31
+* Fixes vehicle filters so shown vehicles are checked and hidden vehicles are unchecked.
+
+v1.0.0 | 2026-07-31
+* Prevents heavily modded vehicle-assignment sections from stretching the tower menu until vehicles clip out of view and become unselectable.
+* Makes excavator and truck assignment sections collapsible.
+* Supports Gameplay++'s future collapsible vehicle sections so mods won't conflict.
+* Adds independent controls for displaying one through eight rows.
+* Adds a vertical scrollbar automatically when the available vehicle cards exceed the selected row limit.
+* Adds a filter settings window for hiding vehicle variants you no longer wish to see or use, showing vehicle & fuel-product icons for easier identification.
+* Adapts dynamically to compatible vanilla and modded vehicle types registered in the tower assignment menu.

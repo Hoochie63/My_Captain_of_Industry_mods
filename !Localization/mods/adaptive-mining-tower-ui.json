@@ -1,0 +1,13 @@
+{
+    "Toggle movable vehicle filters.": "Вкл/Выкл перемещаемые фильтры техники.",
+    "Show the minimum of one vehicle row.": "Показывать минимум одну строку техники.",
+    "Show fewer vehicle rows.": "Показывать меньше строк техники.",
+    "Show more vehicle rows.": "Показывать больше строк техники.",
+    "Show the maximum of eight vehicle rows.": "Показывать максимум восемь строк техники.",
+    "Rows": "Строки",
+    "Tower vehicle visibility": "Видимость техники у вышек",
+    "Checked vehicle variants are shown in the assignment rows.": "Отмеченные варианты техники отображаются в строках назначения.",
+    "The second icon shows the vehicle's detected fuel product.": "Вторая иконка показывает определённый тип топлива для техники.",
+    "No tower vehicle variants were detected.": "Варианты техники для вышек не обнаружены.",
+    "Tower vehicle filters": "Фильтры техники у вышек"
+}
