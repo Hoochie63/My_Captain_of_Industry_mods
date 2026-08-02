@@ -1,0 +1,20 @@
+{
+  "id": "TruckParking",
+  "version": "1.0.1",
+  "display_name": "Truck Parking",
+  "description_short": "Idle unassigned trucks use player-built parking areas.",
+  "description_long": "Adds a rotatable four-slot truck parking area. Empty, unassigned idle trucks reserve the closest compatible free slot and drive there using an interruptible low-priority job. Logistics zones and all normal truck jobs retain priority.",
+  "authors": [
+    "Maxim",
+    "TaskEcho"
+  ],
+  "primary_dlls": [
+    "TruckParking.dll"
+  ],
+  "primary_mod_class_name": "TruckParking.TruckParkingMod",
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+  "min_game_version": "0.8.6",
+  "max_verified_game_version": "0.8.6a"
+}
