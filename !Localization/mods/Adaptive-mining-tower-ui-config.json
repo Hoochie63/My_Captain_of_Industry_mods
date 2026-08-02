@@ -1,0 +1,46 @@
+{
+    "excavator_visible_rows": {
+        "default": 4,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции экскаваторов «Диспетчерской вышки».",
+        "min": 1,
+        "max": 8
+    },
+    "vehicle_visible_rows": {
+        "default": 4,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции грузовиков и прочей техники «Диспетчерской вышки».",
+        "min": 1,
+        "max": 8
+    },
+    "dump_material_visible_rows": {
+        "default": 2,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции для материалов и отвалов «Диспетчерской вышки».",
+        "min": 1,
+        "max": 8
+    },
+    "route_visible_rows": {
+        "default": 2,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции доставки и отправки «Диспетчерской вышки».",
+        "min": 1,
+        "max": 8
+    },
+    "auto_hide_unowned_excavators": {
+        "default": false,
+        "description": "Автоматически скрывать варианты экскаваторов, которых в данный момент нет в мире."
+    },
+    "auto_hide_unowned_trucks": {
+        "default": false,
+        "description": "Автоматически скрывать варианты грузовиков и совместимой техники, которых в данный момент нет в мире."
+    },
+    "hidden_vehicle_proto_ids_json": {
+        "default": "{\"schemaVersion\":1,\"hiddenProtoIds\":[]}",
+        "description": "Внутреннее хранилище выбранных вручную фильтров по типу топлива и отдельной технике."
+    },
+    "tower_panel_state_json": {
+        "default": "{\"schemaVersion\":1,\"towers\":[]}",
+        "description": "Внутреннее хранилище состояний свёрнутых секций адаптивного интерфейса для каждой вышки (4 секции)."
+    }
+}

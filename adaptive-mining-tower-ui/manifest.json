@@ -1,15 +1,16 @@
 {
   "id": "adaptive-mining-tower-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "display_name": "Adaptive Mining Tower UI",
-  "description_short": "Keeps tower vehicle-assignment menus usable with large modded vehicle catalogs.",
-  "description_long": "**ADAPTIVE MINING TOWER UI**\nPrevents large modded vehicle catalog from clipping out of view and become impossible to select in the Mining Tower's UI.\nSet 1-8 visible rows for each vehicle section. When more vehicles are available than fit within that limit, a vertical scrollbar appears automatically.\nExcavator and truck sections can also be collapsed.\nNo save data is added. The mod can be added to or removed from an existing save.\n\nThe layout works from the shared tower assignment component, allowing modded vehicle to appear without per-vehicle patches.",
+  "description_short": "Prevent Tower UI from growing too large while heavily modded.",
+  "description_long": "**ADAPTIVE MINING TOWER UI**\n\nStops oversized Mining Tower sections from clipping content.\n\n**ROWS AND SCROLLING**\n- Choose one to eight visible rows.\n- Covers excavators, trucks, materials, and routes.\n- Scrollbars appear only when needed.\n- Split sections scroll independently.\n- Row limits persist across every tower.\n\n**VEHICLE FILTERS**\n- Excavators and trucks use separate settings pages.\n- [Auto-hide unowned]: Show only built variants.\n- Manual filters: Fuel type or individual vehicle.\n- [Show all]: Restore every available variant.\n\n**COLLAPSE CONTROLS**\n- Collapse every tower section instantly.\n- Expand only the four standard sections.\n- Each tower remembers its collapsed sections.\n\n**COMPATIBILITY**\n- Supports compatible vanilla and modded vehicles.\n- Works with Gameplay++ and Auto Terrain Designations.\n- Keeps native localized names unchanged.\n- Includes an English translation template.\n- Safe to add or remove mid-save.",
   "authors": [
     "xTMagTx"
   ],
   "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.6a",
+  "max_verified_game_version": "0.8.6c",
   "primary_dlls": [
+    "0Harmony.dll",
     "AdaptiveMiningTowerUi.dll"
   ],
   "mod_dependencies": [],

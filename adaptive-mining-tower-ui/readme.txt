@@ -1,20 +1,42 @@
 ADAPTIVE MINING TOWER UI
 ========================
 
-Adaptive Mining Tower UI keeps tower vehicle-assignment panels usable when
-content mods add many trucks, excavators, helicopters, or other assignable
-vehicles.
+Stops oversized Mining Tower sections from clipping content.
 
-Without a height limit, a large vehicle catalog can stretch the tower inspector
-until cards clip out of view and become impossible to select. This mod lets you
-choose between one and eight visible rows for each vehicle section. When more
-cards are available than fit within that limit, a vertical scrollbar appears
-automatically.
+ROWS AND SCROLLING
+------------------
 
-Excavator and truck sections can also be collapsed. The layout works from the
-shared tower assignment component, allowing compatible vehicle mods to appear
-without per-vehicle patches.
+Choose one to eight visible rows for:
 
-Also includes a vehicle filter to hide unused early tier vehicles from taking up space on the vehicles section
+- Excavators
+- Trucks
+- Materials and disposal notifications
+- Import and export routes
 
-No save data is added. The mod can be added to or removed from an existing save.
+- Scrollbars appear only when needed.
+- Split sections scroll independently.
+- Row limits persist across every tower.
+
+VEHICLE FILTERS
+---------------
+
+- Excavators and trucks use separate settings pages.
+- [Auto-hide unowned]: Show only built variants.
+- Manual filters: Fuel type or individual vehicle.
+- [Show all]: Restore every available variant.
+
+COLLAPSE CONTROLS
+-----------------
+
+- Collapse every tower section instantly.
+- Expand only the four standard sections.
+- Each tower remembers its collapsed sections.
+
+COMPATIBILITY
+-------------
+
+- Supports compatible vanilla and modded vehicles.
+- Works with Gameplay++ and Auto Terrain Designations.
+- Keeps native localized names unchanged.
+- Includes an English translation template.
+- Safe to add or remove mid-save.

@@ -1,0 +1,21 @@
+{
+    "Adaptive Mining Tower UI settings": "Adaptive Mining Tower UI settings",
+    "Collapse all tower sections.": "Collapse all tower sections.",
+    "Expand standard tower sections.": "Expand standard tower sections.",
+    "Excavators": "Excavators",
+    "Trucks": "Trucks",
+    "Excavator rows": "Excavator rows",
+    "Truck rows": "Truck rows",
+    "Material/disposal rows": "Material/disposal rows",
+    "Import/export rows": "Import/export rows",
+    "Show all": "Show all",
+    "Fuel types": "Fuel types",
+    "Individual vehicles": "Individual vehicles",
+    "Auto-hide unowned": "Auto-hide unowned",
+    "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.",
+    "No tower vehicle variants were detected.": "No tower vehicle variants were detected.",
+    "Show the minimum of one visible row.": "Show the minimum of one visible row.",
+    "Show fewer rows.": "Show fewer rows.",
+    "Show more rows.": "Show more rows.",
+    "Show the maximum of eight visible rows.": "Show the maximum of eight visible rows."
+}

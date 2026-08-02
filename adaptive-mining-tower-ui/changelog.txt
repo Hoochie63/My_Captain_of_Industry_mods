@@ -1,3 +1,18 @@
+v1.0.3 | 2026-08-02
+* Fixes a load crash that could occur when no other installed mod preloaded the bundled Harmony library.
+* Updates compatibility for Captain of Industry 0.8.6c.
+* Cleaned up the settings menu created in first version.
+* Find settings by clicking the top-right settings button in the Mining Tower UI.
+* Expands features to four vanilla sections: Excavators, Trucks, Materials, and Import/Export.
+* Row settings: Set a row limit; a scrollbar appears when reached, preventing further UI growth.
+* Row & Filter settings are now saved between saves.
+* Filter settings: Hide unused excavators and trucks from Mining Tower assignments automatically, or filter by fuel type or individual vehicle.
+* Adds Collapse-all and Expand-all section buttons.
+* Each Mining Tower UI remembers its previous collapse state.
+* Preserves compatibility with Gameplay++ and Auto Terrain Designations without duplicating their collapse controls or taking ownership of their custom sections.
+* Adds an English translation template for text owned by Adaptive Mining Tower UI while retaining the game's localized vehicle, product, and section names.
+* See readme.txt for more details.
+
 v1.0.2 | 2026-07-31
 * Fixes vehicle filters so shown vehicles are checked and hidden vehicles are unchecked.
 
@@ -7,5 +22,5 @@ v1.0.0 | 2026-07-31
 * Supports Gameplay++'s future collapsible vehicle sections so mods won't conflict.
 * Adds independent controls for displaying one through eight rows.
 * Adds a vertical scrollbar automatically when the available vehicle cards exceed the selected row limit.
-* Adds a filter settings window for hiding vehicle variants you no longer wish to see or use, showing vehicle & fuel-product icons for easier identification.
+* Adds a filter settings window for hiding vehicle variants you no longer wish to see or use, showing vehicle and fuel-product icons for easier identification.
 * Adapts dynamically to compatible vanilla and modded vehicle types registered in the tower assignment menu.
