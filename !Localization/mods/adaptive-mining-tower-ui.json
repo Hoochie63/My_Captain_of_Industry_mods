@@ -9,5 +9,8 @@
     "Checked vehicle variants are shown in the assignment rows.": "Отмеченные варианты техники отображаются в строках назначения.",
     "The second icon shows the vehicle's detected fuel product.": "Вторая иконка показывает определённый тип топлива для техники.",
     "No tower vehicle variants were detected.": "Варианты техники для вышек не обнаружены.",
-    "Tower vehicle filters": "Фильтры техники у вышек"
+    "Show all": "Показать все",
+    "Excavators": "Экскаваторы",
+    "Trucks & vehicles": "Грузовики и грузовая техника",
+    "Tower vehicle filters": "Фильтр техники для вышек"
 }
