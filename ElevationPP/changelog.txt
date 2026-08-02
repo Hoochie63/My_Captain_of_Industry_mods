@@ -1,0 +1,152 @@
+Elevation++ — Changelog
+================================
+
+v0.9.5
+------
+Rail portals — run a train track under another track:
+- In the vanilla add/remove-pillars tool, shift- or ctrl-clicking a
+  block of an elevated track places TWO support pillars beside the
+  track (left and right, perpendicular to it) instead of the single
+  centre pillar, leaving the space underneath free for another track.
+  Both pillars count as full support for the clicked block.
+- Each side pillar lands on the first valid spot found by sliding
+  outward from the track; obstacles (including the other track of a
+  dual line) are slid past automatically. Shift places as close to the
+  track as possible; ctrl goes further out by a configurable distance
+  (RailPortalCtrlDistance, default 1 tile).
+- Other same-level tracks spanned by the portal (dual lines, with or
+  without a gap between them) are supported by the same click: they
+  receive their own pillars at the exact same column positions,
+  replacing any of their vanilla pillars standing inside the portal.
+  Tracks crossing 3.5+ tiles below are what the portal is for; decks
+  at awkward in-between heights (where a crossbeam could never fit)
+  make the placement invalid instead.
+- Removing any portal pillar demolishes the whole portal in one click.
+  Another track's share is only removed if that track can afford to
+  lose the support (same check the vanilla tool uses); otherwise its
+  columns stay up.
+- Shift/ctrl-clicking an EXISTING pillar replaces it with the side
+  pair (and converts a portal between the close and far stance). The
+  new spots are validated before anything is removed, with rollback,
+  so support is never lost.
+- Ghost previews of both columns follow the cursor with the modifier
+  held; the vanilla centre-pillar ghost is hidden meanwhile.
+- A concrete crossbeam is rendered between the two columns: two "long
+  saddle stones" matching the vanilla pillar-top blocks (procedurally
+  generated, textured with the game's own concrete), spanning under
+  the deck(s) and covering the pillars' saddle stones. Clearance under
+  the beam is kept so an electrified track can pass 4 tiles below.
+
+v0.9.4
+------
+Vertical pipe connections for pipe connectors:
+- Pipe connectors now have a top and a bottom port, so pipes can connect
+  to them vertically (from above and below), not just from the four
+  horizontal sides. Fluid flows through vertical ports exactly like
+  through horizontal ones. Existing connectors from older saves gain the
+  vertical ports when rebuilt or tier-upgraded.
+- A connector can be cut directly into an existing pipe at a riser's
+  corner (elbow) tile and even into the middle of a vertical run — the
+  pipe splits and reconnects through the connector's vertical ports.
+  (Vanilla refused both with "not flat".) Works from the connector
+  toolbar button and by clicking a 1-tile pipe placement on the pipe.
+- The connector model only has a riser stub on top; when a pipe connects
+  from below, the mod renders a mirrored copy of the stub underneath so
+  the joint looks finished from every side.
+
+Placement quality-of-life (connectors, balancers, sorters, lifts and
+elevated stations):
+- Their maximum placement elevation now follows TransportPillarMaxHeight
+  (previously stuck at the vanilla 5 tiles because the cap is baked into
+  the protos at registration, before the mod raises the pillar height).
+  Connectors now snap onto elevated pipes at any supported height.
+- The pipe tool's small height tooltip is now also shown when placing
+  any of these height-adjustable buildings.
+- Placing a connector onto an existing pipe now shows the green "will
+  connect" icons on the ports that the cut-in will reconnect (vanilla
+  showed them as red/blocked).
+- The placement cursor of a pipe connector now shows its vertical
+  (top/bottom) port arrows, with the same green feedback when a vertical
+  connection will be made; built connectors already showed them. The
+  down-facing port icon is drawn next to the connector instead of two
+  tiles below it.
+
+v0.9.3
+------
+- Verified against game version 0.8.6.
+- New: a single belt/pipe placement drag can now be much longer than the
+  vanilla ~31 tiles. Longer runs are routed internally as several stitched
+  sections, each still fully validated by the game (collisions, ramps,
+  pillar support, ports). Configurable via TransportPlacementMaxLength
+  (default 128 tiles, min 31 = vanilla behavior, max 512).
+
+v0.9.2
+------
+- Elevated belts/pipes can now be held up by the supported connectors
+  (balancers, mini-zippers, machine ports) at their ends. A short
+  segment spanning between two connectors no longer requires its own
+  pillar, so the auto-placed pillar there can be removed and the segment
+  stays up instead of collapsing. Only self-supported structures count
+  as anchors (not bare belt-to-belt junctions), and the normal support
+  distance still applies between the two anchors, so longer spans still
+  need a pillar. (The game still auto-places that pillar when you build;
+  this only lets you remove it.)
+
+v0.9.1
+------
+- The auto-built support pillars under elevated stations now render as a
+  hollow ring around the outer edge of the footprint instead of a solid
+  block beneath the whole building. Interior tiles carry no pillar (and
+  need none — the deck rests on the ring of edge pillars). The rule is
+  shape-aware, so thin modules stay fully pillared and the wide
+  molten/nuclear footprints get a proper outline.
+
+v0.9.0
+------
+Elevated train stations:
+- Every train station can now be built elevated on auto-rendered
+  support pillars: the root, all cargo modules (unit, loose, fluid,
+  molten, empty) and fuel modules (coal, liquid, nuclear), for both
+  normal and electrified rail.
+- They live in a dedicated "Elevated stations" toolbar tab, grouped
+  and ordered like the vanilla Stations menu (root first, molten last),
+  reuse the vanilla icons, and unlock with the same research as their
+  ground counterparts.
+- Obsolete / save-compatibility-only station protos (e.g. the legacy
+  standalone hydrogen fuel module) are skipped, matching the vanilla
+  menu.
+- A non-electrified elevated station can be converted in place with the
+  vanilla "Electrify track" tool, just like a ground station (previously
+  the tool reported "Collision with pillar" against the station's own
+  support pillars, or silently failed at elevation).
+- Electrified elevated stations grow their catenary support masts on the
+  platform like normal stations (the masts would otherwise be rejected
+  for sitting on the station's own footprint / support pillars).
+
+Pillar limits (formerly "Elevated Rails Plus", now extended to pipes
+and belts):
+
+Train tracks (rails):
+- Pillar height limit raised from 6 to 16 tiles (configurable up to 30
+  via RailPillarMaxHeight). This also lifts the rail build cursor's
+  up-arrow cap.
+- Maximum distance between elevated track and its supporting pillar
+  raised from 7 to 14 tiles (configurable up to 56 via
+  RailPillarSupportDistance). Auto-built pillars are placed roughly
+  twice this value apart.
+- Rendering fix for rail pillars taller than the vanilla tower mesh:
+  the mod stacks additional column segments down to the ground so tall
+  pillars no longer show a gap (Harmony patch on the pillar renderer).
+
+Pipes and belts (transports):
+- Pillar height limit raised from 6 to 16 tiles (configurable up to 30
+  via TransportPillarMaxHeight). This also lifts the pipe/belt build
+  cursor's up-arrow cap.
+- Maximum distance between an elevated pipe/belt and its supporting
+  pillar raised from 4 to 8 tiles (configurable up to 32 via
+  TransportPillarSupportDistance), so auto-built pillars are placed
+  roughly twice as far apart. Transport pillars are drawn tile-by-tile,
+  so they extend to the new heights with no rendering work needed.
+
+All four values are editable in the in-game mod settings and changes
+apply immediately.
