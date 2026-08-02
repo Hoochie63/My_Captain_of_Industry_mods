@@ -1,0 +1,7 @@
+{
+  "smart_flare_state": {
+    "default": "",
+    "max_length": 50000,
+    "description": "Interne Spielstanddaten von Smart Flare Mod. Nicht manuell ändern."
+  }
+}
