@@ -689,7 +689,7 @@
     ],
     [
         "notification.excavator_completed",
-        "[ATD] Пользователь «{entity}» завершил неназначенное задание {0}"
+        "[ATD] «{entity}» завершил сборку заказа. «{0}» ждёт назначения."
     ],
     [
         "notification.debris_cleanup_queued",
