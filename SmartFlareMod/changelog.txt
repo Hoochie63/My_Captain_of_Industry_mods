@@ -1,0 +1,7 @@
+Version 1.0.1 | 02.08.2026
+* Improved the Storage Mode user interface layout.
+* Added clear green/red pipe-network connection status to storage entries.
+* Storage lists are now rebuilt whenever a flare is opened, preventing entries from another flare from being shown.
+* Added storage size labels: Small, Medium, and Large.
+* Storage entries now show the player's custom storage name and update automatically when it is renamed.
+* Improved slider scale alignment and storage selection layout.

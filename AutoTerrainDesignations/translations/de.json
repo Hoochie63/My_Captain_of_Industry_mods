@@ -280,6 +280,14 @@
     "Sicherheitspolitik"
   ],
   [
+    "settings.world.allow_ramps_outside_tower_areas.label",
+    "Allow ramps outside tower areas"
+  ],
+  [
+    "settings.world.allow_ramps_outside_tower_areas.tooltip",
+    "If no V2 ramp can fit inside a tower area, retry within 16 tiles beyond its boundary. This fallback runs only after the in-area search fails and may trigger the game's normal outside-area alarm. Default: enabled."
+  ],
+  [
     "settings.world.safety_policy.tooltip",
     "Steuert, wie vorsichtig ATD Erdrutsche vorhersagt und welchen Abstand es zu geschützten Ozeanen und Gebäuden hält. Höhere Stufen reservieren mehr Platz; niedrigere Stufen erlauben Geländearbeiten näher an Gefahren. Standard: BAL."
   ],
@@ -690,10 +698,6 @@
   [
     "notification.excavator_completed",
     "[ATD] {entity} hat einen nicht zugewiesenen {0} abgeschlossen"
-  ],
-  [
-    "notification.debris_cleanup_queued",
-    "[ATD] {entity} hat die Warteschlange für die Trümmerbeseitigung"
   ],
   [
     "notification.debris_cleanup_none_found",

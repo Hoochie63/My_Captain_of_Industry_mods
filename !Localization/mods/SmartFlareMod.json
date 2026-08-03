@@ -5,8 +5,6 @@
     "Speicher wählen  ▼": "Выбрать хранилище  ▼",
     "Minimum: 30%": "Минимум: 30%",
     "Maximum: 90%": "Максимум: 90%",
-    "Minimum: {0}%": "Минимум: {0}%",
-    "Maximum: {0}%": "Максимум: {0}%",
     "Aktivierungsschwelle: Die Gasfackel wird aktiv, wenn der Speicherfüllstand über Maximum steigt.": "«Факельная установка» включается, когда уровень заполнения подключенного хранилища превышает установленную отметку «Максимум».",
     "Sie wird pausiert, wenn der Speicherfüllstand unter Minimum fällt.": "И приостанавливается, когда уровень заполнения подключенного хранилища падает ниже установленной отметки «Минимум»",
     "Speicher-Modus": "Режим хранилища",
@@ -17,7 +15,6 @@
     "kein gemeinsames Rohrnetz": "<color=#ED2835>✘ - не подключёно</color>",
     "verbunden": "<color=#50C878>✔ - подключёно</color>",
     "kein Rohrnetz": "<color=#ED2835>✘ - не подключёно</color>",
-    "{0}\n{1} Felder – {2}": "«{0}»\n- в радиусе {1} клеток -\n«{2}»",
-    "Keine gefüllten Flüssigkeitsspeicher im Umkreis von 100 Feldern gefunden.": "Заполненных резервуаров в радиусе 16 плиток не найдено.",
-    "Noch keinen Speicher ausgewählt": "Хранилище не выбрано"
+    "{0}\n{1} Felder – {2}": "«{0}»<br>- в радиусе {1} клеток -<br>«{2}»",
+    "Keine gefüllten Flüssigkeitsspeicher im Umkreis von 100 Feldern gefunden.": "Заполненных резервуаров в радиусе 16 плиток не найдено."
 }

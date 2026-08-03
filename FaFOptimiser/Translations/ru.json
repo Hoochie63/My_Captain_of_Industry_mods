@@ -89,7 +89,7 @@
     ],
     [
         "FaFOptimiser__FarmTooltip",
-        "{0}\nЦелевое плодородие:{1}\nТребуется воды:{2}\nТребуется удобрений:{3}"
+        "{0}<br>Целевое плодородие: {1}<br>Нужно воды: {2}<br>Нужно плодородия: {3}"
     ],
     [
         "FaFOptimiser__Inputs",
@@ -105,11 +105,11 @@
     ],
     [
         "FaFOptimiser__CropInScopeTooltip",
-        "{0}\n<color=#00FF00>Учитывается в расчетах</color> (ЛКМ — исключить/игнорировать)"
+        "{0}<br><color=#00FF00>Учитывается в расчетах</color> (ЛКМ — исключить/игнорировать)"
     ],
     [
         "FaFOptimiser__CropOutOfScopeTooltip",
-        "{0}\n<color=#AAAAAA>Исключено из расчетов</color> (ЛКМ — включить)"
+        "{0}<br><color=#AAAAAA>Исключено из расчетов</color> (ЛКМ — включить)"
     ],
     [
         "FaFOptimiser__CropOutOfScopeLabel",
