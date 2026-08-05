@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "オーバークロック設定",
+  "Overclock Level": "オーバークロックレベル",
+  "Overclock Level:": "オーバークロックレベル:",
+  "Power": "電力",
+  "Enable power consumption overclocking effect": "消費電力へのオーバークロック効果を有効にする",
+  "Workers": "労働者",
+  "Enable workers requirement overclocking effect": "労働者必要数へのオーバークロック効果を有効にする",
+  "Computing": "計算",
+  "Enable computing requirement overclocking effect": "計算リソースへのオーバークロック効果を有効にする",
+  "Maintenance": "メンテナンス",
+  "Enable maintenance requirement overclocking effect": "メンテナンス必要数へのオーバークロック効果を有効にする",
+  "Exact Value": "正確な値",
+  "Enter exact value 1-3000, press Enter to confirm": "正確な値(1-3000)を入力し、Enterで確認",
+  "Exact Input:": "正確な入力:",
+  "Buffer Settings - Overclocking MOD": "バッファ設定 - オーバークロックMOD",
+  "Restore Default": "デフォルトに戻す",
+  "Designed by BeeGongWeiYe": "BeeGongWeiYeによって設計",
+  "Overclocking MOD": "オーバークロックMOD",
+  "Farm Overclock Level": "農場オーバークロックレベル",
+  "Farm Overclocking Settings": "農場オーバークロック設定"
+}

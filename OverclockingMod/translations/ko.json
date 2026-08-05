@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "오버클록 설정",
+  "Overclock Level": "오버클록 레벨",
+  "Overclock Level:": "오버클록 레벨:",
+  "Power": "전력",
+  "Enable power consumption overclocking effect": "전력 소비에 대한 오버클록 효과 활성화",
+  "Workers": "노동자",
+  "Enable workers requirement overclocking effect": "노동자 요구량에 대한 오버클록 효과 활성화",
+  "Computing": "컴퓨팅",
+  "Enable computing requirement overclocking effect": "컴퓨팅 요구량에 대한 오버클록 효과 활성화",
+  "Maintenance": "유지보수",
+  "Enable maintenance requirement overclocking effect": "유지보수 요구량에 대한 오버클록 효과 활성화",
+  "Exact Value": "정확한 값",
+  "Enter exact value 1-3000, press Enter to confirm": "정확한 값(1-3000)을 입력하고 Enter를 누르세요",
+  "Exact Input:": "정확한 입력:",
+  "Buffer Settings - Overclocking MOD": "버퍼 설정 - 오버클록 MOD",
+  "Restore Default": "기본값 복원",
+  "Designed by BeeGongWeiYe": "BeeGongWeiYe 제작",
+  "Overclocking MOD": "오버클록 MOD",
+  "Farm Overclock Level": "농장 오버클록 레벨",
+  "Farm Overclocking Settings": "농장 오버클록 설정"
+}

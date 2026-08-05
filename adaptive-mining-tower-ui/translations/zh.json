@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "采矿塔界面设置",
+  "Collapse all tower sections.": "折叠采矿塔的所有区域。",
+  "Expand standard tower sections.": "展开采矿塔的标准区域。",
+  "Excavators": "挖掘机",
+  "Trucks": "卡车",
+  "Excavator rows": "挖掘机行数",
+  "Truck rows": "卡车行数",
+  "Material/disposal rows": "材料/处置行数",
+  "Import/export rows": "导入/导出行数",
+  "Show all": "全部显示",
+  "Fuel types": "燃料类型",
+  "Individual vehicles": "单个车辆",
+  "Auto-hide unowned": "自动隐藏未拥有车辆",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "仅显示世界中当前拥有的本区域车型。启用自动隐藏时，全部显示、燃料和单个车辆筛选将停用；关闭自动隐藏即可恢复自定义筛选。",
+  "No tower vehicle variants were detected.": "未检测到采矿塔车辆车型。",
+  "Show the minimum of one visible row.": "显示最少一行。",
+  "Show fewer rows.": "减少显示行数。",
+  "Show more rows.": "增加显示行数。",
+  "Show the maximum of eight visible rows.": "显示最多八行。"
+}

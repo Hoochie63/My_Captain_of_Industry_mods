@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "Inställningar för gruvtornets gränssnitt",
+  "Collapse all tower sections.": "Fäll ihop alla tornsektioner.",
+  "Expand standard tower sections.": "Fäll ut tornets standardsektioner.",
+  "Excavators": "Grävmaskiner",
+  "Trucks": "Lastbilar",
+  "Excavator rows": "Rader med grävmaskiner",
+  "Truck rows": "Rader med lastbilar",
+  "Material/disposal rows": "Rader för material/bortskaffning",
+  "Import/export rows": "Rader för import/export",
+  "Show all": "Visa alla",
+  "Fuel types": "Bränsletyper",
+  "Individual vehicles": "Enskilda fordon",
+  "Auto-hide unowned": "Dölj ej ägda automatiskt",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "Visar endast varianter i denna sektion som för närvarande ägs i världen. När automatisk döljning är aktiv är manuella filter inaktiverade; stäng av den för att återställa dem.",
+  "No tower vehicle variants were detected.": "Inga fordonsvarianter för tornet upptäcktes.",
+  "Show the minimum of one visible row.": "Visa minst en synlig rad.",
+  "Show fewer rows.": "Visa färre rader.",
+  "Show more rows.": "Visa fler rader.",
+  "Show the maximum of eight visible rows.": "Visa högst åtta synliga rader."
+}

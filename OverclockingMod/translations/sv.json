@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Overclockinställningar",
+  "Overclock Level": "Overclocknivå",
+  "Overclock Level:": "Overclocknivå:",
+  "Power": "Effekt",
+  "Enable power consumption overclocking effect": "Aktivera overclock-effekt på energiförbrukning",
+  "Workers": "Arbetare",
+  "Enable workers requirement overclocking effect": "Aktivera overclock-effekt på arbetskraftsbehov",
+  "Computing": "Beräkning",
+  "Enable computing requirement overclocking effect": "Aktivera overclock-effekt på beräkningsbehov",
+  "Maintenance": "Underhåll",
+  "Enable maintenance requirement overclocking effect": "Aktivera overclock-effekt på underhållsbehov",
+  "Exact Value": "Exakt värde",
+  "Enter exact value 1-3000, press Enter to confirm": "Ange exakt värde 1-3000, tryck Enter för att bekräfta",
+  "Exact Input:": "Exakt inmatning:",
+  "Buffer Settings - Overclocking MOD": "Buffertinställningar - Overclock MOD",
+  "Restore Default": "Återställ standard",
+  "Designed by BeeGongWeiYe": "Designad av BeeGongWeiYe",
+  "Overclocking MOD": "Overclock MOD",
+  "Farm Overclock Level": "Farm overclocknivå",
+  "Farm Overclocking Settings": "Farm overclockinställningar"
+}

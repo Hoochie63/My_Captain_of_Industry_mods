@@ -1,3 +1,9 @@
+v1.0.4 | 2026-08-04
+* Adds translations for 18 additional supported languages.
+* Included languages include: Catalan, Simplified Chinese, Czech, Dutch, Estonian, French, German, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Ukrainian.
+* Contact me on Discord or in the forums to make any needed corrections to the translations.
+* Adjusted icons so they are the same in sections and settings for vehicles and import/export.
+
 v1.0.3 | 2026-08-02
 * Fixes a load crash that could occur when no other installed mod preloaded the bundled Harmony library.
 * Updates compatibility for Captain of Industry 0.8.6c.

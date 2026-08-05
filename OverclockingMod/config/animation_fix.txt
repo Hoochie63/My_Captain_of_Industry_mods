@@ -1,0 +1,20 @@
+# OverclockingMod 动画计时修正配置
+# 此文件在 MOD 加载时自动生成
+#
+# 是否启用动画计时修正功能
+EnableAnimationFix=true
+#
+# 最大安全超频倍数，超过此值会记录警告
+MaxSafeOverclockMultiplier=30
+#
+# 最小暂停时间阈值（毫秒），过短时会直接播放完动画
+MinPauseThresholdMs=50
+#
+# 是否记录详细日志
+LogDetails=false
+#
+# 是否限制最大动画速度
+LimitAnimationSpeed=true
+#
+# 最大动画速度限制（百分比）
+MaxAnimationSpeedPercent=300

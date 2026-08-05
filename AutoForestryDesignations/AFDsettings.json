@@ -1,5 +1,5 @@
 {
-  "settingsVersion": "0.2.3",
+  "settingsVersion": "0.2.4",
 
   "_comment": "AutoForestryDesignations settings. These values set the defaults loaded at game start. Most settings can also be changed per forestry tower in-game via the tower inspector.",
 

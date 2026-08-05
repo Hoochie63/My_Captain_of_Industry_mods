@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Configuración de overclocking",
+  "Overclock Level": "Nivel de overclocking",
+  "Overclock Level:": "Nivel de overclocking:",
+  "Power": "Energía",
+  "Enable power consumption overclocking effect": "Habilitar efecto de overclocking en el consumo de energía",
+  "Workers": "Trabajadores",
+  "Enable workers requirement overclocking effect": "Habilitar efecto de overclocking en la necesidad de trabajadores",
+  "Computing": "Cómputo",
+  "Enable computing requirement overclocking effect": "Habilitar efecto de overclocking en la necesidad de cómputo",
+  "Maintenance": "Mantenimiento",
+  "Enable maintenance requirement overclocking effect": "Habilitar efecto de overclocking en la necesidad de mantenimiento",
+  "Exact Value": "Valor exacto",
+  "Enter exact value 1-3000, press Enter to confirm": "Ingrese valor exacto 1-3000, presione Enter para confirmar",
+  "Exact Input:": "Entrada exacta:",
+  "Buffer Settings - Overclocking MOD": "Configuración de búfer - MOD de overclocking",
+  "Restore Default": "Restaurar predeterminado",
+  "Designed by BeeGongWeiYe": "Diseñado por BeeGongWeiYe",
+  "Overclocking MOD": "MOD de overclocking",
+  "Farm Overclock Level": "Nivel de overclocking de granja",
+  "Farm Overclocking Settings": "Configuración de overclocking de granja"
+}

@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Overclock Ayarları",
+  "Overclock Level": "Overclock Seviyesi",
+  "Overclock Level:": "Overclock Seviyesi:",
+  "Power": "Güç",
+  "Enable power consumption overclocking effect": "Güç tüketimi overclock etkisini etkinleştir",
+  "Workers": "Çalışanlar",
+  "Enable workers requirement overclocking effect": "Çalışan gereksinimi overclock etkisini etkinleştir",
+  "Computing": "Hesaplama",
+  "Enable computing requirement overclocking effect": "Hesaplama gereksinimi overclock etkisini etkinleştir",
+  "Maintenance": "Bakım",
+  "Enable maintenance requirement overclocking effect": "Bakım gereksinimi overclock etkisini etkinleştir",
+  "Exact Value": "Tam Değer",
+  "Enter exact value 1-3000, press Enter to confirm": "Tam değer 1-3000 girin, onaylamak için Enter'a basın",
+  "Exact Input:": "Tam Giriş:",
+  "Buffer Settings - Overclocking MOD": "Buffer Ayarları - Overclock MOD",
+  "Restore Default": "Varsayılanı Geri Yükle",
+  "Designed by BeeGongWeiYe": "BeeGongWeiYe tarafından tasarlandı",
+  "Overclocking MOD": "Overclock MOD",
+  "Farm Overclock Level": "Çiftlik Overclock Seviyesi",
+  "Farm Overclocking Settings": "Çiftlik Overclock Ayarları"
+}

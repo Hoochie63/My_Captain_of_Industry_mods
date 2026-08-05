@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Paramètres de surtension",
+  "Overclock Level": "Niveau de surtension",
+  "Overclock Level:": "Niveau de surtension :",
+  "Power": "Énergie",
+  "Enable power consumption overclocking effect": "Activer l'effet de surtension sur la consommation d'énergie",
+  "Workers": "Ouvriers",
+  "Enable workers requirement overclocking effect": "Activer l'effet de surtension sur les besoins en ouvriers",
+  "Computing": "Informatique",
+  "Enable computing requirement overclocking effect": "Activer l'effet de surtension sur les besoins en informatique",
+  "Maintenance": "Maintenance",
+  "Enable maintenance requirement overclocking effect": "Activer l'effet de surtension sur les besoins en maintenance",
+  "Exact Value": "Valeur exacte",
+  "Enter exact value 1-3000, press Enter to confirm": "Entrez une valeur exacte 1-3000, appuyez sur Entrée pour confirmer",
+  "Exact Input:": "Entrée exacte :",
+  "Buffer Settings - Overclocking MOD": "Paramètres de tampon - MOD de surtension",
+  "Restore Default": "Restaurer les paramètres par défaut",
+  "Designed by BeeGongWeiYe": "Conçu par BeeGongWeiYe",
+  "Overclocking MOD": "MOD de surtension",
+  "Farm Overclock Level": "Niveau de surtension de la ferme",
+  "Farm Overclocking Settings": "Paramètres de surtension de la ferme"
+}

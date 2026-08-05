@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "Configuració de la IU de la torre minera",
+  "Collapse all tower sections.": "Replega totes les seccions de la torre.",
+  "Expand standard tower sections.": "Desplega les seccions estàndard de la torre.",
+  "Excavators": "Excavadores",
+  "Trucks": "Camions",
+  "Excavator rows": "Files d'excavadores",
+  "Truck rows": "Files de camions",
+  "Material/disposal rows": "Files de materials/eliminació",
+  "Import/export rows": "Files d'importació/exportació",
+  "Show all": "Mostra-ho tot",
+  "Fuel types": "Tipus de combustible",
+  "Individual vehicles": "Vehicles individuals",
+  "Auto-hide unowned": "Oculta els no disponibles",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "Mostra només les variants d'aquesta secció que tens actualment al món. Amb l'ocultació automàtica activa, els filtres manuals queden desactivats; desactiva-la per recuperar-los.",
+  "No tower vehicle variants were detected.": "No s'han detectat variants de vehicles per a la torre.",
+  "Show the minimum of one visible row.": "Mostra el mínim d'una fila visible.",
+  "Show fewer rows.": "Mostra menys files.",
+  "Show more rows.": "Mostra més files.",
+  "Show the maximum of eight visible rows.": "Mostra el màxim de vuit files visibles."
+}

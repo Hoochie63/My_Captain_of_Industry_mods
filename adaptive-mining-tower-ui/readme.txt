@@ -38,5 +38,11 @@ COMPATIBILITY
 - Supports compatible vanilla and modded vehicles.
 - Works with Gameplay++ and Auto Terrain Designations.
 - Keeps native localized names unchanged.
-- Includes an English translation template.
 - Safe to add or remove mid-save.
+
+LANGUAGES
+---------
+
+- Includes English and translations for 18 additional supported languages.
+- Included languages include: Catalan, Simplified Chinese, Czech, Dutch, Estonian, French, German, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Ukrainian.
+- Contact me on Discord or in the forums to make any needed corrections to the translations.

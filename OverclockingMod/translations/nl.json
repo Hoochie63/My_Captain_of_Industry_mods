@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Overclock-instellingen",
+  "Overclock Level": "Overclock-niveau",
+  "Overclock Level:": "Overclock-niveau:",
+  "Power": "Stroom",
+  "Enable power consumption overclocking effect": "Overclock-effect op stroomverbruik inschakelen",
+  "Workers": "Werkers",
+  "Enable workers requirement overclocking effect": "Overclock-effect op werknemersvereisten inschakelen",
+  "Computing": "Computing",
+  "Enable computing requirement overclocking effect": "Overclock-effect op computing-vereisten inschakelen",
+  "Maintenance": "Onderhoud",
+  "Enable maintenance requirement overclocking effect": "Overclock-effect op onderhoudsvereisten inschakelen",
+  "Exact Value": "Exacte waarde",
+  "Enter exact value 1-3000, press Enter to confirm": "Voer exacte waarde 1-3000 in, druk Enter om te bevestigen",
+  "Exact Input:": "Exacte invoer:",
+  "Buffer Settings - Overclocking MOD": "Buffer-instellingen - Overclock MOD",
+  "Restore Default": "Standaard herstellen",
+  "Designed by BeeGongWeiYe": "Ontworpen door BeeGongWeiYe",
+  "Overclocking MOD": "Overclock MOD",
+  "Farm Overclock Level": "Boerderij overclock-niveau",
+  "Farm Overclocking Settings": "Boerderij overclock-instellingen"
+}

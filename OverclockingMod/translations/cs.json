@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Nastavení překvokování",
+  "Overclock Level": "Úroveň překvokování",
+  "Overclock Level:": "Úroveň překvokování:",
+  "Power": "Elektřina",
+  "Enable power consumption overclocking effect": "Povolit účinek překvokování na spotřebu energie",
+  "Workers": "Pracovníci",
+  "Enable workers requirement overclocking effect": "Povolit účinek překvokování na potřebu pracovníků",
+  "Computing": "Výpočetní síla",
+  "Enable computing requirement overclocking effect": "Povolit účinek překvokování na potřebu výpočetní síly",
+  "Maintenance": "Údržba",
+  "Enable maintenance requirement overclocking effect": "Povolit účinek překvokování na potřebu údržby",
+  "Exact Value": "Přesná hodnota",
+  "Enter exact value 1-3000, press Enter to confirm": "Zadejte přesnou hodnotu 1-3000, potvrďte klávesou Enter",
+  "Exact Input:": "Přesný vstup:",
+  "Buffer Settings - Overclocking MOD": "Nastavení bufferu - MOD překvokování",
+  "Restore Default": "Obnovit výchozí",
+  "Designed by BeeGongWeiYe": "Navrhl BeeGongWeiYe",
+  "Overclocking MOD": "MOD překvokování",
+  "Farm Overclock Level": "Úroveň překvokování farmy",
+  "Farm Overclocking Settings": "Nastavení překvokování farmy"
+}

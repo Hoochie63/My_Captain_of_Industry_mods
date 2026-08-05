@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "Bányatorony felületének beállításai",
+  "Collapse all tower sections.": "A torony összes szakaszának összecsukása.",
+  "Expand standard tower sections.": "A torony alapértelmezett szakaszainak kibontása.",
+  "Excavators": "Markológépek",
+  "Trucks": "Teherautók",
+  "Excavator rows": "Markológépsorok",
+  "Truck rows": "Teherautósorok",
+  "Material/disposal rows": "Anyag-/ártalmatlanítási sorok",
+  "Import/export rows": "Import-/exportsorok",
+  "Show all": "Összes megjelenítése",
+  "Fuel types": "Üzemanyagtípusok",
+  "Individual vehicles": "Egyes járművek",
+  "Auto-hide unowned": "Nem birtokoltak elrejtése",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "Csak az ebben a szakaszban szereplő, jelenleg birtokolt változatokat mutatja. Automatikus elrejtéskor a kézi szűrők le vannak tiltva; kapcsold ki a visszaállításukhoz.",
+  "No tower vehicle variants were detected.": "A toronyhoz nem található járműváltozat.",
+  "Show the minimum of one visible row.": "Legalább egy látható sor megjelenítése.",
+  "Show fewer rows.": "Kevesebb sor megjelenítése.",
+  "Show more rows.": "Több sor megjelenítése.",
+  "Show the maximum of eight visible rows.": "Legfeljebb nyolc látható sor megjelenítése."
+}

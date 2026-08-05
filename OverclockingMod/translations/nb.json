@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Overclock-indstillinger",
+  "Overclock Level": "Overclock-nivå",
+  "Overclock Level:": "Overclock-nivå:",
+  "Power": "Strøm",
+  "Enable power consumption overclocking effect": "Aktiver overclock-effekt på strømforbrug",
+  "Workers": "Arbejdere",
+  "Enable workers requirement overclocking effect": "Aktiver overclock-effekt på arbejdskrav",
+  "Computing": "Computing",
+  "Enable computing requirement overclocking effect": "Aktiver overclock-effekt på computing-krav",
+  "Maintenance": "Vedligeholdelse",
+  "Enable maintenance requirement overclocking effect": "Aktiver overclock-effekt på vedligeholdelses krav",
+  "Exact Value": "Præcist værdi",
+  "Enter exact value 1-3000, press Enter to confirm": "Indtast præcist værdi 1-3000, tryk Enter for at bekræfte",
+  "Exact Input:": "Præcist indtastning:",
+  "Buffer Settings - Overclocking MOD": "Buffer-indstillinger - Overclock MOD",
+  "Restore Default": "Nulstil til standard",
+  "Designed by BeeGongWeiYe": "Designet af BeeGongWeiYe",
+  "Overclocking MOD": "Overclock MOD",
+  "Farm Overclock Level": "Farm overclock-nivå",
+  "Farm Overclocking Settings": "Farm overclock-indstillinger"
+}

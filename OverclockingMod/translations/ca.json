@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Parametres d'overclocking",
+  "Overclock Level": "Nivell d'overclocking",
+  "Overclock Level:": "Nivell d'overclocking:",
+  "Power": "Potència",
+  "Enable power consumption overclocking effect": "Activa l'efecte d'overclocking sobre el consum d'energia",
+  "Workers": "Treballadors",
+  "Enable workers requirement overclocking effect": "Activa l'efecte d'overclocking sobre la necessitat de treballadors",
+  "Computing": "Computació",
+  "Enable computing requirement overclocking effect": "Activa l'efecte d'overclocking sobre la necessitat de computació",
+  "Maintenance": "Manteniment",
+  "Enable maintenance requirement overclocking effect": "Activa l'efecte d'overclocking sobre la necessitat de manteniment",
+  "Exact Value": "Valor exacte",
+  "Enter exact value 1-3000, press Enter to confirm": "Introdueix un valor exacte 1-3000, prem Enter per confirmar",
+  "Exact Input:": "Entrada exacta:",
+  "Buffer Settings - Overclocking MOD": "Parametres de búfer - MOD d'overclocking",
+  "Restore Default": "Restaura el valor per defecte",
+  "Designed by BeeGongWeiYe": "Dissenyat per BeeGongWeiYe",
+  "Overclocking MOD": "MOD d'overclocking",
+  "Farm Overclock Level": "Nivell d'overclocking de la granja",
+  "Farm Overclocking Settings": "Parametres d'overclocking de la granja"
+}

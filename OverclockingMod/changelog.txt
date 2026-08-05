@@ -1,0 +1,81 @@
+v8.0.2 | 2026-08-02
+兼容086C,修正部分数据重新加载后不能正确恢复配置的问题.
+*已经做了多次日志调试和数据分析,确认样本数据都被保存和恢复加载.
+*调整了json解析的错误问题.
+*添加了对地下抽水机的数据存储.
+*修正矿石分拣厂的ui界面选择错误问题.
+*OnActivated 是在 BaseInspector<OreSortingPlant> 基类 中声明的 virtual 方法， OreSortingPlantInspector 没有重写它。Harmony 要求修补 声明 该方法的类，而我的代码试图在派生类上找此方法，修补失败。
+导致 InspectorOnActivatedPostfix 从未被调用 → 面板创建后从不更新 → 点击第二个分拣厂时面板仍显示第一个的数据。
+修复 ： OreSortingInspectorPatch.cs 直接使用 typeof(BaseInspector<OreSortingPlant>) 查找并修补 OnActivated 方法。
+Compatible with 086C; fixed the issue where configurations could not be restored correctly after partial data reloading.
+* Multiple rounds of log debugging and data analysis have been performed, confirming that all sample data is saved, restored and loaded properly.
+* Fixed errors in JSON parsing.
+* Added data storage support for underground water pumps.
+* Fixed incorrect selection issues on the UI interface of the ore sorting plant.
+* OnActivated is a virtual method declared in the base class BaseInspector<OreSortingPlant>. OreSortingPlantInspector does not override it. Harmony requires patching the class that declares the method, but my code attempted to locate this method on the derived class, resulting in a failed patch.
+This caused InspectorOnActivatedPostfix to never be invoked → the panel never updates after creation → data from the first sorting plant remains displayed when clicking the second sorting plant.
+Fix: OreSortingInspectorPatch.cs directly uses typeof(BaseInspector<OreSortingPlant>) to locate and patch the OnActivated method. 
+感谢 Grayers0123 以及中国玩家的bug反馈  Thanks to Grayers0123 and Chinese players for reporting the bugs
+v8.0.1 | 2026-07-22
+* 添加了对雨水收集器的超频功能,现在能够更多收集水.Overclocking functionality for rainwater collectors has been added, allowing more water to be collected now.
+* 本次更新淘汰了超级雨水收集器MOd,从此这个mod不再更新了.
+
+v8.0.0 | 2026-07-21
+* 修复支持V086游戏版本.
+* Fixed support for game version V086.
+
+v7.0.0 | 2026-07-17
+v7.0.0 对全部底层逻辑进行大规模修正.
+更加高效的真实的超频,对性能进行优化处理.
+地下水泵可以超频.
+以往的超频并不彻底,现在从底层逻辑重构,生产速度更高,真正实现一台机器满足全部生产,配和大仓储和大运输载具更加适合.
+v7.0.0 has undergone extensive revisions to all underlying logic.
+It delivers more efficient and genuine overclocking with optimized performance.
+Underground water pumps support overclocking.
+Previous overclocking implementations were incomplete. Now the underlying logic has been reconstructed for higher production speeds, enabling a single machine to handle all production tasks. It pairs exceptionally well with large warehouses and large transport vehicles.
+
+v0.8.5 | 2026-06-04
+* v6.0.2 以json文件保存在每个存盘文件目录,实现独立存储方案.
+Save as JSON files in the directory of each saved file to implement an independent storage solution
+
+v0.8.4b | 2026-06-01
+* v6.0.1 ，将``prototype`` 改为``prototype.Id`` 。日志显示 Protos that are not equal references have equal IDs 错误。这是因为使用 IProto 作为字典键时，字典比较的是对象 引用 而不是 ID ，导致不同的Proto对象实例即使ID相同也被视为不同的键。紧急修复这个报错问题.2026年6月1日15:35:36
+* v6.0.1: Change prototype to prototype.Id. The log reports the error: Protos that are not equal references have equal IDs.
+This issue occurs because when using IProto as dictionary keys, the dictionary compares object references instead of IDs. As a result, different Proto instances are treated as distinct keys even if their IDs are identical. Urgent bug fix required.
+2026-06-01 15:35:36
+
+v0.8.4b | 2026-06-01
+* v6.0 加入设为默认按钮.
+* v6.0 Added the button for setting as default.
+
+v0.8.4b | 2026-05-28
+* v5.0 加入矿石分拣厂超频功能,提高分拣厂的容量.
+Add the overclocking function to the ore sorting plant to increase its capacity.
+* 免除人工,免维护,免电力.免维护可能有时候无效
+No manual operation required, maintenance-free and electricity-free. The maintenance-free feature may not work occasionally.
+
+v0.8.4b | 2026-05-28
+* v4.0 加入农场和温室的超频功能,提高农业产能.
+# v4.0 Add overclocking features to farms and greenhouses to boost agricultural productivity.
+
+v0.8.4b | 2026-05-28
+* v3.0 加入缓冲区,加入算力,加入维护开关,实现20国语言国际化方案2026年5月28日09:26:02
+# v3.0 Add buffers, increase computing power, add maintenance switches, and implement an internationalization solution supporting 20 languages. 09:26:02, May 28, 2026
+
+v0.8.4b | 2026-05-18
+* v2.0 加入电力和员工分别控制的方案,用户可以决定是否启用电力和员工
+# Version 2.0 adds separate control schemes for power supply and staff. Users can choose whether to enable the power supply and staff management functions.
+
+v0.8.4b | 2026-05-18
+* 使用核反应堆的温度和功率界面
+Interface for monitoring the temperature and power of nuclear reactors
+* 优化代码结构，检测日志无报错
+Optimize the code structure and verify that there are no errors in the logs.
+* 修复存盘卸载mod时使用旧版代码产生的报错
+Fix the errors caused by using outdated code when saving files and uninstalling mods
+
+v0.8.4 | 2026-05-03
+* 完成机器超频MOD基础设计，支持最高3000%超频
+* 修复重复构建代码的问题
+Complete the basic design of the machine overclocking MOD, supporting a maximum overclock of 3000%
+* Fixed the issue of repeated code building

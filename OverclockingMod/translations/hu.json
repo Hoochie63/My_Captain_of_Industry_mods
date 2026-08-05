@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Overclock beállítások",
+  "Overclock Level": "Overclock szint",
+  "Overclock Level:": "Overclock szint:",
+  "Power": "Energia",
+  "Enable power consumption overclocking effect": "Az energiafogyasztásra vonatkozó overclock effekt engedélyezése",
+  "Workers": "Dolgozók",
+  "Enable workers requirement overclocking effect": "A dolgozók igényére vonatkozó overclock effekt engedélyezése",
+  "Computing": "Számítás",
+  "Enable computing requirement overclocking effect": "A számítási igényre vonatkozó overclock effekt engedélyezése",
+  "Maintenance": "Karbantartás",
+  "Enable maintenance requirement overclocking effect": "A karbantartási igényre vonatkozó overclock effekt engedélyezése",
+  "Exact Value": "Pontos érték",
+  "Enter exact value 1-3000, press Enter to confirm": "Adjon meg egy pontosan 1-3000 közötti értéket, nyomja meg az Entert a megerősítéshez",
+  "Exact Input:": "Pontos bemenet:",
+  "Buffer Settings - Overclocking MOD": "Puffer beállítások - Overclock MOD",
+  "Restore Default": "Alapértelmezett visszaállítása",
+  "Designed by BeeGongWeiYe": "BeeGongWeiYe tervezte",
+  "Overclocking MOD": "Overclock MOD",
+  "Farm Overclock Level": "Farm overclock szint",
+  "Farm Overclocking Settings": "Farm overclock beállítások"
+}

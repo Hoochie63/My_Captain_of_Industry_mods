@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "Paramètres de l’interface de la tour minière",
+  "Collapse all tower sections.": "Réduire toutes les sections de la tour.",
+  "Expand standard tower sections.": "Développer les sections standard de la tour.",
+  "Excavators": "Excavatrices",
+  "Trucks": "Camions",
+  "Excavator rows": "Lignes d’excavatrices",
+  "Truck rows": "Lignes de camions",
+  "Material/disposal rows": "Lignes de matériaux/évacuation",
+  "Import/export rows": "Lignes d’import/export",
+  "Show all": "Tout afficher",
+  "Fuel types": "Types de carburant",
+  "Individual vehicles": "Véhicules individuels",
+  "Auto-hide unowned": "Masquer les non possédés",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "N’affiche que les variantes de cette section actuellement possédées dans le monde. Les filtres manuels sont désactivés pendant le masquage automatique ; désactivez-le pour les rétablir.",
+  "No tower vehicle variants were detected.": "Aucune variante de véhicule de tour détectée.",
+  "Show the minimum of one visible row.": "Afficher au minimum une ligne visible.",
+  "Show fewer rows.": "Afficher moins de lignes.",
+  "Show more rows.": "Afficher plus de lignes.",
+  "Show the maximum of eight visible rows.": "Afficher au maximum huit lignes visibles."
+}

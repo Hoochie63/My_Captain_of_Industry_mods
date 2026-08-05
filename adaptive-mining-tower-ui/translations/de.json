@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "Einstellungen der Minenturm-UI",
+  "Collapse all tower sections.": "Alle Turmbereiche einklappen.",
+  "Expand standard tower sections.": "Standardbereiche des Turms ausklappen.",
+  "Excavators": "Bagger",
+  "Trucks": "LKW",
+  "Excavator rows": "Baggerreihen",
+  "Truck rows": "LKW-Reihen",
+  "Material/disposal rows": "Material-/Entsorgungsreihen",
+  "Import/export rows": "Import-/Exportreihen",
+  "Show all": "Alle anzeigen",
+  "Fuel types": "Kraftstoffarten",
+  "Individual vehicles": "Einzelne Fahrzeuge",
+  "Auto-hide unowned": "Nicht vorhandene ausblenden",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "Zeigt nur Varianten dieses Bereichs, die derzeit in der Welt vorhanden sind. Während automatisches Ausblenden aktiv ist, sind die manuellen Filter deaktiviert; schalte es aus, um sie wiederherzustellen.",
+  "No tower vehicle variants were detected.": "Keine Turm-Fahrzeugvarianten erkannt.",
+  "Show the minimum of one visible row.": "Mindestens eine sichtbare Reihe anzeigen.",
+  "Show fewer rows.": "Weniger Reihen anzeigen.",
+  "Show more rows.": "Mehr Reihen anzeigen.",
+  "Show the maximum of eight visible rows.": "Höchstens acht sichtbare Reihen anzeigen."
+}

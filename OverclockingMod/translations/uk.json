@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Налаштування оверклоку",
+  "Overclock Level": "Рівень оверклоку",
+  "Overclock Level:": "Рівень оверклоку:",
+  "Power": "Енергія",
+  "Enable power consumption overclocking effect": "Увімкнути ефект оверклоку на споживання енергії",
+  "Workers": "Робітники",
+  "Enable workers requirement overclocking effect": "Увімкнути ефект оверклоку на потребу в роботниках",
+  "Computing": "Обчислення",
+  "Enable computing requirement overclocking effect": "Увімкнути ефект оверклоку на потребу в обчисленнях",
+  "Maintenance": "Технічне обслуговування",
+  "Enable maintenance requirement overclocking effect": "Увімкнути ефект оверклоку на потребу в технічному обслуговуванні",
+  "Exact Value": "Точне значення",
+  "Enter exact value 1-3000, press Enter to confirm": "Введіть точне значення 1-3000, натисніть Enter для підтвердження",
+  "Exact Input:": "Точне введення:",
+  "Buffer Settings - Overclocking MOD": "Налаштування буфера - MOD оверклоку",
+  "Restore Default": "Відновити за замовчуванням",
+  "Designed by BeeGongWeiYe": "Розроблено BeeGongWeiYe",
+  "Overclocking MOD": "MOD оверклоку",
+  "Farm Overclock Level": "Рівень оверклоку ферми",
+  "Farm Overclocking Settings": "Налаштування оверклоку ферми"
+}

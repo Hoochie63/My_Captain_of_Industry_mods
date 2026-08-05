@@ -1,5 +1,5 @@
 {
-  "settingsVersion": "0.5.7",
+  "settingsVersion": "0.5.8",
 
   "_comment_diagnosticLevel": "Controls ATD diagnostic output. Default selects Debug in Debug builds and Info in Release builds. Warning keeps only warnings/errors; Info adds concise operational messages; Debug adds search summaries and timings; Trace adds full paths, plan tiles, successors, and handoffs. The atd_diagnostic_level command overrides this for the current session. Allowed: Default, Warning, Info, Debug, Trace.",
   "diagnosticLevel": "Default",
@@ -134,6 +134,15 @@
 
   "_comment_accessSearchFrameBudgetMs": "Time budget in milliseconds per frame allocated to sliced background access search. Default: 30.",
   "accessSearchFrameBudgetMs": 30,
+
+  "_comment_accessManagerAutomatedFrameBudgetMs": "Managed farming and Construction Assist search budget per rendered frame during normal play. Default: 10.",
+  "accessManagerAutomatedFrameBudgetMs": 10,
+
+  "_comment_accessManagerInteractiveFrameBudgetMs": "Managed direct-interaction search budget per rendered frame during normal play. Reserved for interactive migration. Default: 15.",
+  "accessManagerInteractiveFrameBudgetMs": 15,
+
+  "_comment_accessManagerPausedMaxFrameBudgetMs": "Maximum managed access-search budget per rendered frame while paused. Default: 30.",
+  "accessManagerPausedMaxFrameBudgetMs": 30,
 
   "purityLevels": {
     "_comment": "Thresholds applied at each Ore Purity Level. Arrays have 5 entries: [Off, Low, Med, High, Max]. Off (index 0) should always be 0 / no filtering. These define what each level means — edit if you want to retune the purity steps.",

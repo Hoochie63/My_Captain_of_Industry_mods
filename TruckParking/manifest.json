@@ -1,9 +1,9 @@
 {
   "id": "TruckParking",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "display_name": "Truck Parking",
-  "description_short": "Idle unassigned trucks use player-built parking areas.",
-  "description_long": "Adds a rotatable four-slot truck parking area. Empty, unassigned idle trucks reserve the closest compatible free slot and drive there using an interruptible low-priority job. Logistics zones and all normal truck jobs retain priority.",
+  "description_short": "Parking for all idle vehicles in four sizes, with filters and maintenance bonuses.",
+  "description_long": "Adds a dedicated Parking toolbar next to Vehicles with 48 transparent and paved parking areas: 1, 2, 3, 4, 6, or 12 slots in Small, Medium, Large, and Super sizes. Idle, unassigned trucks, excavators, forestry vehicles, and compatible mod vehicles reserve fitting slots through interruptible low-priority jobs. Each area has a persistent many-vehicle-type filter. Transparent parking adds 5 percentage points of maintenance reduction; paved parking costs 10% fewer slabs than manual paving, blocks replacement tiles, and provides a 50% maintenance multiplier.",
   "authors": [
     "Maxim",
     "TaskEcho"
@@ -16,5 +16,5 @@
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": false,
   "min_game_version": "0.8.6",
-  "max_verified_game_version": "0.8.6a"
+  "max_verified_game_version": "0.8.6c"
 }

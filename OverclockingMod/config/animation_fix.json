@@ -1,0 +1,8 @@
+{
+  "EnableAnimationFix": true,
+  "MaxSafeOverclockMultiplier": 30,
+  "MinPauseThresholdMs": 50,
+  "LogDetails": false,
+  "LimitAnimationSpeed": true,
+  "MaxAnimationSpeedPercent": 300
+}

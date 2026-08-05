@@ -1,4 +1,120 @@
 {
-    "Truck parking (4 slots)": "Парковка для грузовиков",
-    "Idle, empty, unassigned trucks reserve and use one of four marked parking slots. Normal truck jobs always take priority.": "4-х местная парковка для грузовиков. Тут паркуются свободные грузовики, у которых нет груза или задания, они резервируют и используют одно из четырёх парковочных мест. Парковка не мешает работе, и обычные задания для грузовиков всегда имеют приоритет."
+    "TruckParking.TruckParkingLocalization": {
+        "Parking": "Парковка",
+        "Parking areas for idle vehicles in four size classes.": "Парковочные площадки для свободных и простаивающих машин без заданий. Площадки разделены на разные габаритные классы: малая, средняя, большая, и огромная техника.",
+        "Vehicle parking (legacy, 4 slots)": "Парковка для машин (устаревшая, 4 места)",
+        "Existing four-slot parking area retained for compatibility with older save games.": "Существующая парковочная площадка на четыре места сохранена для совместимости со старыми сохранениями.",
+        "Allowed vehicle types": "Фильтр разрешённой техники",
+
+        "Select any number of vehicle types. If none are selected, all supported base-game and mod vehicles are allowed.": "<align=\"center\">Фильтр разрешённой техники.<br>Выберите тип техники, которая будет разрешена для парковки. Если ничего не выбрано, разрешена вся поддерживаемая техника из основной игры и установленных модов.</align>",
+        "Reset the vehicle filter to allow all supported vehicles. This also removes saved entries for uninstalled vehicle mods.": "<align=\"center\">Сбрасывает фильтр и разрешает всю поддерживаемую технику. Также удаляет отсутствующую технику с модов, которые больше не установлены, или не активированы для этого сохранения.</align>",
+
+        "Parking slot": "Парковочное место",
+
+        "Small (T1)": "Малая техника (ур. I)",
+        "Medium (T2)": "Средняя техника (ур. II)",
+        "Large (T3)": "Большая техника (ур. III)",
+
+        "Super (T4)": "Огромная техника (ур. IV)",
+        "Parking areas in the small (T1) size class": "Парковочная площадка для малой техники (ур. I).",
+        "Parking areas in the medium (T2) size class": "Парковочная площадка для средней техники (ур. II).",
+        "Parking areas in the large (T3) size class": "Парковочная площадка для большой техники (ур. III).",
+        "Parking areas in the super (T4) size class": "Парковочная площадка для огромной техники (ур. IV).",
+
+        "Paved": "С дорожным покрытием",
+        "Transparent": "Без дорожного покрытия",
+
+        "Includes a non-replaceable driving surface, sets the maintenance multiplier to 50%, and uses 10% fewer concrete slabs than manual paving.": "Обратите внимание, что это парковочное место содержит <u><b>незаменяемое</b></u> дорожное покрытие и устанавливает коэффициент расхода запчастей для обслуживания у припаркованной техники на 50%. Для строительства требуется на 10% меньше бетонных блоков, чем ручная укладка покрытия.",
+        "Keeps the terrain visible, allows surfaces to be placed underneath, and reduces the maintenance multiplier by an additional 5 percentage points.": "Обратите внимание, что грунт под этим парковочным местом остаётся <u><b>видимым</b></u>, и на него можно разместить любое дорожное покрытие. Коэффициент расхода запчастей для обслуживания любой припаркованной техники дополнительно снижается на 5%.",
+
+        "Vehicle parking": "Парковка для машин",
+        "Provides {0} parking {1}, each ": "Предоставляет {0} {1} для свободной и простаивающей техники без груза или заданий.",
+        "{0} × {1} tiles, for ": " Размер каждого парковочного места составляет «{0} × {1}» клеток.",
+        "idle vehicles. ": "<br><br>{0}<br><br>Выбрать тип техники для этой парковки можно в интерфейсе.",
+        "Parking area {0} was not found.": "{0} парковочная площадка не найдена.",
+        "Vehicle prototype {0} was not found or ": "Прототип техники {0} не найден или ",
+        "is not supported.": "не поддерживается.",
+
+        "VariantSizeName": {
+            "Small": "малое",
+            "Medium": "среднее",
+            "Large": "большое",
+            "Super": "огромное"
+        },
+
+        "paved": "с покрытием",
+        "transparent": "без покрытия",
+
+        "_one slot": "парковочное место",
+        "_few slots": "парковочных места",
+        "_many slots": "парковочных мест",
+
+        "Includes a non-replaceable driving surface that sets parked vehicles' maintenance multiplier to 50%. Construction uses 10% fewer concrete slabs than manually paving the same area.": "Обратите внимание, что это парковочное место содержит <u><b>незаменяемое</b></u> дорожное покрытие и устанавливает коэффициент расхода запчастей для обслуживания у припаркованной техники на 50%. Для строительства требуется на 10% меньше бетонных блоков, чем ручная укладка покрытия.",
+        "The underlying terrain remains visible and can still be surfaced. The maintenance multiplier for parked vehicles is reduced by an additional 5 percentage points, including on player-built or modded surfaces.": "Обратите внимание, что грунт под этим парковочным местом остаётся <u><b>видимым</b></u>, и на него можно разместить любое дорожное покрытие. Коэффициент расхода запчастей для обслуживания любой припаркованной техники дополнительно снижается на 5%."
+    },
+
+    "Case TruckParkingLocalization.Language.Russian": {
+        "code_template": "text3 = String.Format(\"Предоставляет {0} {1} для свободной и простаивающей техники без груза или заданий.\", slotCount, text) + String.Format(\" Размер каждого парковочного места составляет «{0} × {1}» клеток.\", geometry.SlotWidth, geometry.SlotLength) + String.Format(\"<br><br>{0}<br><br>Выбрать тип техники для этой парковки можно в интерфейсе.\", text2)"
+    },
+
+    "il_reminder": {
+        "description": "IL код для ParkingAreaDescription (русская локализация)",
+        "lines": [
+            "87 00FF ldstr \"Предоставляет {0} {1} для свободной и простаивающей техники без груза или заданий.\"",
+            "88 0104 ldarg.1",
+            "89 0105 box [mscorlib]System.Int32",
+            "90 010A ldloc.0",
+            "91 010B call string [mscorlib]System.String::Format(string, object, object)",
+            "92 0110 ldstr \" Размер каждого парковочного места составляет «{0} × {1}» клеток.\"",
+            "93 0115 ldarga.s geometry (0)",
+            "94 0117 call instance int32 TruckParking.ParkingAreaGeometry::get_SlotWidth()",
+            "95 011C box [mscorlib]System.Int32",
+            "96 0121 ldarga.s geometry (0)",
+            "97 0123 call instance int32 TruckParking.ParkingAreaGeometry::get_SlotLength()",
+            "98 0128 box [mscorlib]System.Int32",
+            "99 012D call string [mscorlib]System.String::Format(string, object, object)",
+            "100 0132 ldstr \"<br><br>{0}<br><br>Выбрать тип техники для этой парковки можно в интерфейсе.\"",
+            "101 0137 ldloc.1",
+            "102 0138 call string [mscorlib]System.String::Format(string, object)",
+            "103 013D call string [mscorlib]System.String::Concat(string, string, string)",
+            "104 0142 stloc.2"
+        ]
+    },
+    "il_reminder_parking_name": {
+        "description": "IL код для ParkingAreaName (формирование названия парковки)",
+        "lines": [
+            "9 0029 ldc.i4.5 - создаем массив из 5 элементов",
+            "10 002A newarr [mscorlib]System.String",
+            "11 002F dup - дублируем ссылку на массив",
+            "12 0030 ldc.i4.0 - индекс 0",
+            "13 0031 ldstr \"{2} \" - строка с плейсхолдером {2}",
+            "14 0036 ldloc.0 - text (базовое название, игнорируется)",
+            "15 0037 ldarg.0 - size",
+            "16 0038 call VariantSizeName(size) - получаем название размера",
+            "17 003D ldarg.1 - slotCount",
+            "18 003E box int32 - упаковываем в object",
+            "19 0043 call String.Format(\"{2} \", text, VariantSizeName(size), slotCount) - подставляем slotCount в {2}",
+            "20 0048 stelem.ref - сохраняем в массив[0]",
+            "21 0049 dup - дублируем ссылку на массив",
+            "22 004A ldc.i4.1 - индекс 1",
+            "23 004B ldarg.1 - slotCount",
+            "24 004C call SlotWord(slotCount) - получаем склонение слова 'место'",
+            "25 0051 stelem.ref - сохраняем в массив[1]",
+            "26 0052 dup - дублируем ссылку на массив",
+            "27 0053 ldc.i4.2 - индекс 2",
+            "28 0054 ldstr \" (\" - открывающая скобка",
+            "29 0059 stelem.ref - сохраняем в массив[2]",
+            "30 005A dup - дублируем ссылку на массив",
+            "31 005B ldc.i4.3 - индекс 3",
+            "32 005C ldarg.0 - size",
+            "33 005D call VariantSizeName(size) - получаем название размера",
+            "34 0062 stelem.ref - сохраняем в массив[3]",
+            "35 0063 dup - дублируем ссылку на массив",
+            "36 0064 ldc.i4.4 - индекс 4",
+            "37 0065 ldstr \")\" - закрывающая скобка",
+            "38 006A stelem.ref - сохраняем в массив[4]",
+            "39 006B call String.Concat(string[]) - склеиваем все элементы",
+            "40 0070 ret - возвращаем результат"
+        ]
+    }
 }

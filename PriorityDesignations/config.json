@@ -1,0 +1,29 @@
+﻿{
+  "config_bool": {
+    "default": true,
+    "description": "Example of a boolean configuration option."
+  },
+  "config_string": {
+    "default": "default value",
+    "description": "Example of a string configuration option.",
+    "max_length": 20
+  },
+  "config_regex": {
+    "default": "aaa_bc",
+    "description": "Example of a regular expression checked string configuration option.",
+    "regex": "^[a-z]+_[a-z]+$"
+  },
+  "config_double": {
+    "default": 5.3,
+    "min": 5.2,
+    "max": 5.6,
+    "description": "Example of a floating configuration option."
+  },
+  "config_integer": {
+    "default": 42,
+    "min": 24,
+    "max": 96,
+    "is_integer": true,
+    "description": "Example of a integral configuration option. In example mod is used as amount of exhaust produced by custom recipe."
+  }
+}

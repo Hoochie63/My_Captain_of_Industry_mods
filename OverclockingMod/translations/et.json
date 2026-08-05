@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Overklokkeringu seaded",
+  "Overclock Level": "Overklokkeringu tase",
+  "Overclock Level:": "Overklokkeringu tase:",
+  "Power": "Võimsus",
+  "Enable power consumption overclocking effect": "Luba overklokkeringu mõju energiakulu",
+  "Workers": "Töötajad",
+  "Enable workers requirement overclocking effect": "Luba overklokkeringu mõju töötajate vajaolekule",
+  "Computing": "Arvutamine",
+  "Enable computing requirement overclocking effect": "Luba overklokkeringu mõju arvutamise vajaolekule",
+  "Maintenance": "Hooldus",
+  "Enable maintenance requirement overclocking effect": "Luba overklokkeringu mõju hoolduse vajaolekule",
+  "Exact Value": "Täpse väärtus",
+  "Enter exact value 1-3000, press Enter to confirm": "Sisestage täpne väärtus 1-3000, kinnitage Enter klahviga",
+  "Exact Input:": "Täpne sisend:",
+  "Buffer Settings - Overclocking MOD": "Puhveri seaded - Overklokkeringu MOD",
+  "Restore Default": "Taasta vaikimisi",
+  "Designed by BeeGongWeiYe": "BeeGongWeiYe poolt disainitud",
+  "Overclocking MOD": "Overklokkeringu MOD",
+  "Farm Overclock Level": "Põllu overklokkeringu tase",
+  "Farm Overclocking Settings": "Põllu overklokkeringu seaded"
+}

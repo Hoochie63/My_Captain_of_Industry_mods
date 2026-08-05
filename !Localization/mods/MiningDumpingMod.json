@@ -1,0 +1,26 @@
+{
+    "MiningDumpingMod.MDInfoPanel": {
+        " this/last month : ": " текущий/прошлый месяц : ",
+        "Enabled": "Включено",
+        "Only one of Mining or Dumping is allowed": "Одномоментно доступен только один режим работы: добыча или отвал",
+        "Toggle state : ": "Переключить состояние: ",
+        "Available Designations : ": "Доступные разметки: "
+    },
+
+    "MiningDumpingMod.MDInspector": {
+        "Mining Information": "Информация о добыче",
+        "Mined": "Добыто",
+        "Dumping Information": "Информация об отвалах",
+        "Dumped": "Сброшено"
+    },
+
+    "MiningDumpingMod.MDRegistrator": {
+        "MineDumpControl": "Управляющая вышка",
+        "A building to control a mining and dumping in an area": "Управляющее здание для карьерных работ и отвалов на размеченной территории."
+    },
+
+    "MiningDumpingMod.MDResearch": {
+        "MD Control Tower": "Вышка для добычи и отвалов",
+        "MD Control Tower": "Добавляет управляющую вышку, которая производит добычу и сброс ресурсов без использования грузовой техники и экскаваторов."
+    }
+}

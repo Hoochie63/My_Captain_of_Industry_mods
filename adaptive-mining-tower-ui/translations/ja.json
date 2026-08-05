@@ -1,0 +1,21 @@
+{
+  "Adaptive Mining Tower UI settings": "採掘タワーUI設定",
+  "Collapse all tower sections.": "タワーの全セクションを折りたたみます。",
+  "Expand standard tower sections.": "タワーの標準セクションを展開します。",
+  "Excavators": "掘削機",
+  "Trucks": "トラック",
+  "Excavator rows": "掘削機の行数",
+  "Truck rows": "トラックの行数",
+  "Material/disposal rows": "資材/処分の行数",
+  "Import/export rows": "輸入/輸出の行数",
+  "Show all": "すべて表示",
+  "Fuel types": "燃料タイプ",
+  "Individual vehicles": "個別車両",
+  "Auto-hide unowned": "未所有を自動で非表示",
+  "Shows only variants in this section that are currently owned in the world. Show all, fuel, and individual filters are disabled for this section while Auto-hide is active; turn it off to restore custom filtering.": "このセクションで現在所有している車両タイプのみを表示します。自動非表示が有効な間は、全表示、燃料、個別フィルターは無効になります。無効にするとカスタムフィルターに戻ります。",
+  "No tower vehicle variants were detected.": "タワー用の車両タイプが検出されませんでした。",
+  "Show the minimum of one visible row.": "表示行数を最小の1行にします。",
+  "Show fewer rows.": "表示行数を減らします。",
+  "Show more rows.": "表示行数を増やします。",
+  "Show the maximum of eight visible rows.": "表示行数を最大の8行にします。"
+}

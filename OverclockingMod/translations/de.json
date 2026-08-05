@@ -1,0 +1,22 @@
+{
+  "Overclocking Settings": "Übertaktungseinstellungen",
+  "Overclock Level": "Übertaktungsstufe",
+  "Overclock Level:": "Übertaktungsstufe:",
+  "Power": "Strom",
+  "Enable power consumption overclocking effect": "Übertaktungseffekt auf Stromverbrauch aktivieren",
+  "Workers": "Arbeiter",
+  "Enable workers requirement overclocking effect": "Übertaktungseffekt auf Arbeiterbedarf aktivieren",
+  "Computing": "Computing",
+  "Enable computing requirement overclocking effect": "Übertaktungseffekt auf Computing-Bedarf aktivieren",
+  "Maintenance": "Wartung",
+  "Enable maintenance requirement overclocking effect": "Übertaktungseffekt auf Wartungsbedarf aktivieren",
+  "Exact Value": "Genauer Wert",
+  "Enter exact value 1-3000, press Enter to confirm": "Genauen Wert 1-3000 eingeben, Enter drücken zur Bestätigung",
+  "Exact Input:": "Genaue Eingabe:",
+  "Buffer Settings - Overclocking MOD": "Puffereinstellungen - Übertaktungs MOD",
+  "Restore Default": "Standard wiederherstellen",
+  "Designed by BeeGongWeiYe": "Entwickelt von BeeGongWeiYe",
+  "Overclocking MOD": "Übertaktungs MOD",
+  "Farm Overclock Level": "Farm-Übertaktungsstufe",
+  "Farm Overclocking Settings": "Farm-Übertaktungseinstellungen"
+}

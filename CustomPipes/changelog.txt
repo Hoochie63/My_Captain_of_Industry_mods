@@ -1,3 +1,42 @@
+V2.1.0 | 2026-08-05
+* 由中国玩家 好少年！(786216376) 提供配置文件.
+* 设定默认为游戏原版T1-T3传送带原始数据.
+* Configuration file provided by Chinese player GoodYouth!(786216376).
+* The settings default to the original data of the vanilla‑game T1‑T3 conveyor belts.
+
+
+V2.0.9 | 2026-08-04
+* 紧急清理日志,原2.0.8版本包含了大量日志调试输出,3秒产生一条记录,严重影响用户日志质量.
+* Urgent log cleanup. The original version 2.0.8 contains a large number of debug‑log outputs, generating one record every 3 seconds, which seriously impairs user log quality.
+
+V2.0.8 | 2026-08-04
+- 原代码 ：4位掩码（ mask=15 , clear=-16 ），最大存储值 15，但配置 MaxQuantity 最高 30
+- 根因 ：每次从仓库传送 30 个物品到传送带， QuantityAndData 只存了 30 & 15 = 14 ， 每 tick 丢失 16 个物品
+- 修复 ：改为 7位掩码（ mask=127 , clear=-128 ），最大存储值 127，覆盖所有配置值
+- 验证 ： QuantityAndData 是 byte （8位），bit 7 被 IsImmediatelyBehindNextProduct 标志占用。7位掩码（bits 0-6）与 bit 7 的标志完全隔离，无冲突
+config.json 中所有 MaxQuantity 的 max 从 200 改为 127 ，防止用户设置超过遮罩容量的值导致静默截断。
+鸣谢 中国玩家 浪迹天涯(125422358),好少年！(786216376),666(3639596531),Candyboy(934764802),与时间的旅行(547709269),老人家(139958668) ,眷(3501762715)等众多中国玩家集体测试和提供大量bug日志数据以及实时评测效果反馈.  
+Acknowledgements Chinese players 
+Numerous Chinese players — including 浪迹天涯(125422358),好少年！(786216376),666(3639596531),Candyboy(934764802),与时间的旅行(547709269),老人家(139958668) ,眷(3501762715) and many more — have taken part in collective testing, and provided large volumes of bug‑log data as well as real‑time evaluation feedback.
+
+V2.0.7 | 2026-08-04
+感谢 中国玩家 好少年！(786216376) 提供bug信息和实时评测
+*修正底层逻辑,增补3个补丁和内存掩码原则.
+*调整传送带的容量逻辑.
+* 欢迎测试和反馈
+Thanks to the Chinese player GoodYouth! (786216376) for providing bug reports and real-time evaluation.
+* Fixed underlying logic, added 3 patches and memory masking rules.
+* Adjusted the capacity logic of conveyor belts.
+* Testing and feedback are welcome.
+
+v2.0.6 | 2026-08-03
+2026年8月3日16:48:13
+经过几天的调整,已经全面重构底层逻辑,已经使用独立逻辑跳过系统限制.
+已经可以用户自定义传送带参数
+After several days of adjustments, the underlying logic has been fully reconstructed, and independent logic is adopted to bypass system restrictions.
+Users are now able to customize conveyor belt parameters.
+
+
 v2.0.5 | 2026-07-28
 2026年7月28日08:13:57
 从26日开始到28日,经过48小时的调试分析,尽一切可能跳过系统限制.
