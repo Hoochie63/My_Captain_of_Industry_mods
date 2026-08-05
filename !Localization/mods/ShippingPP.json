@@ -1,17 +1,21 @@
 {
     "ShippingPP.ShippingManager": {
-        "Not a local cargo terminal.": "Не является местным грузовым терминалом.",
+        "Not a local cargo terminal.": "Не является островным грузовым терминалом.",
         "The terminal is not fully constructed.": "Терминал построен не полностью.",
-        "A ship is already under construction.": "Судно уже строится."
+        "A ship is already under construction.": "Судно уже строится.","Shipping++: started ship construction at terminal {0} ({1}).": "Shipping++: начато строительство судна в терминале «{0}» ({1}).",
+        "Shipping++: cancelled ship construction at terminal {0}.": "Shipping++: строительство судна в терминале «{0}» отменено.",
+        "Shipping++: ship {0} built at terminal {1} ": "Shipping++: судно «{0}» построено в терминале «{1}» ",
+        "docked": "пристыковано",
+        "waiting off the dock": "ожидает у терминала"
     },
 
     "ShippingPP.Lines.NavBuoyData": {
         "Navigation buoy": "Навигационный буй",
-        "A route marker for shipping lines: add it as a stop in the shipping lines manager and line ships will sail past it on their way to the next stop — useful to route ships around islands or through wide channels. Ships aim near the buoy, not at it.": "Маркер маршрута для судоходства: добавьте его как остановку в менеджере судоходных линий, и корабли будут проходить мимо него по пути к следующей остановке — полезно для прокладки маршрутов вокруг островов или по широким каналам. Корабли направляются к точке рядом с буем, а не точно в него."
+        "A route marker for shipping lines: add it as a stop in the shipping lines manager and line ships will sail past it on their way to the next stop — useful to route ships around islands or through wide channels. Ships aim near the buoy, not at it.": "Маркер маршрута для судоходства: добавьте его как остановку в менеджере судоходных маршрутов, и грузовые суда будут проходить мимо него по пути к следующей остановке — полезно для прокладки маршрутов вокруг островов или по широким каналам. Грузовые суда направляются к точке рядом с буем, а не точно в него."
     },
 
     "ShippingPP.Lines.ShippingLine": {
-        "Line {0}": "Маршрут {0}"
+        "Line {0}": "Маршрут №{0}"
     },
 
     "ShippingPP.Lines.ShippingLinesManagerWindow": {
@@ -22,44 +26,48 @@
         "Ships": "Суда",
         "Delete line": "Удалить маршрут",
         "No line selected. Create a line and add terminal stops.": "Маршрут не выбран. Создайте маршрут и добавьте терминальные остановки.",
+        "[buoy] ": "[буй] ",
         "Stop {0}": "Остановка {0}",
         "{0}  —  {1} stops": "{0}  —  {1} остановок",
         "remove": "удалить",
+        "{0}. {1}": "«{0}». «{1}»",
         "this line": "этот маршрут",
-        "line {0}": "маршрут {0}",
+        "line {0}": "маршрут №{0}",
         "auto dispatch": "авто-отправка",
         "unassign": "открепить",
         "assign": "назначить",
         " (home: ": " (дом: ",
-        "Shipping lines": "Судоходные линии"
+        "Shipping lines": "Судоходные маршруты"
     },
 
     "ShippingPP.Ships.LocalShipJobProvider": {
         "Not enough fuel for the next trip": "Недостаточно топлива для следующего рейса",
         "Transferring cargo": "Перемещение груза",
-        "Waiting for a free berth at ": "Ожидание свободного причала у ",
-        "On line {0}": "На маршруте {0}",
-        "Serving local terminals": "Обслуживает местные терминалы"
+        "Waiting for a free berth at ": "Ожидание свободного терминала у ",
+        "On line {0}": "На маршруте №{0}",
+        "Serving local terminals": "Обслуживает островные терминалы"
     },
 
     "ShippingPP.Terminals.LocalTerminalData": {
-        "Local cargo terminal": "Местный грузовой терминал",
-        "A cargo terminal for local shipping: its ship carries products to and from other local cargo terminals on this island instead of trading with the world. Terminal modules set to export offer their product to the network; modules set to import request it. The terminal's ship is built on site from delivered materials.": "Грузовой терминал для местных перевозок: его судно перевозит продукты между другими местными грузовыми терминалами на этом острове, вместо торговли с миром. Модули терминала, настроенные на отправку, предлагают свои продукты в сеть; модули, настроенные на доставку, запрашивают их. Корабль терминала строится на месте из доставленных материалов.",
-        "ship cost {0}).": "стоимость корабля: {0})."
+        "Local cargo terminal": "Грузовой терминал",
+        "A cargo terminal for local shipping: its ship carries products to and from other local cargo terminals on this island instead of trading with the world. Terminal modules set to export offer their product to the network; modules set to import request it. The terminal's ship is built on site from delivered materials.": "Грузовой терминал для местных островных перевозок: его судно перевозит продукты между другими грузовыми терминалами на этом острове, вместо торговли с поселениями на «Карте мира». Модули терминала, настроенные на <b><i>отправку</i></b>, предлагают свои продукты в сеть; модули, настроенные на <b><i>доставку</i></b>, запрашивают их. Грузовое судно терминала строится на месте из доставленных материалов.",
+        "ship cost {0}).": "стоимость судна: {0})."
     },
 
     "ShippingPP.Terminals.LocalTerminalInspector": {
-        "Build ship": "Построить корабль",
-        "Builds this terminal's cargo ship on site: the construction materials are requested from truck logistics, and the ship enters service at this terminal once everything is delivered.": "Строит грузовое судно для этого терминала на месте: материалы запрашиваются у логистики грузовиков, и судно поступает в строительство, как только всё будет доставлено.",
+        "Build ship": "Построить судно",
+        "{0} x {1}": "<br>{0} x {1}",
+        "Builds this terminal's cargo ship on site: the construction materials are requested from truck logistics, and the ship enters service at this terminal once everything is delivered.": "Строит грузовое судно для этого терминала на месте: материалы запрашиваются через логистику грузовой техники, и судно поступает в строительство, как только всё будет доставлено.",
         " Requires: ": " Требуется: ",
         "Cargo ship": "Грузовое судно",
         "The terminal's own ship, built on site from delivered materials. It serves this terminal only.": "Собственное грузовое судно терминала, построенное на месте из доставленных материалов. Обслуживает только этот терминал.",
-        "Ships built on site from delivered materials, homed at this terminal. Build as many as you like — arrivals queue up and hold at anchor while the dock serves one ship at a time.": "Грузовые суда строятся на месте из доставленных материалов и приписаны к этому терминалу. Стройте сколько угодно — прибывающие суда становятся в очередь и ожидают на якоре, пока причал освободится. Причал может обслуживать только одно грузовое судно за раз.",
-        "Building ship": "Строительство корабля",
+        "Ships built on site from delivered materials, homed at this terminal. Build as many as you like — arrivals queue up and hold at anchor while the dock serves one ship at a time.": "Грузовые суда строятся на месте из доставленных материалов и приписаны к этому терминалу. Стройте сколько угодно — прибывающие суда становятся в очередь и ожидают на якоре, пока терминал освободится. Помните, грузовой терминал может обслуживать только одно грузовое судно за раз.",
+        "Ships: {0}": "Судов: {0}",
+        "Building ship": "Строительство грузового судна",
         "Offer (export)": "Предложение (отправка)",
         "On: this module OFFERS its product to the shipping network — trucks fill it from your factory and docked ships are loaded from it. Off: this module REQUESTS its product — docked ships are unloaded into it and trucks distribute the goods to your factory.": "Включено: этот модуль <b>ПРЕДЛАГАЕТ</b> свой продукт в судоходную сеть — техника завозит его с Ваших фабрик, и причаленные суда загружаются из него. Выключено: этот модуль <b>ЗАПРАШИВАЕТ</b> свой продукт — причаленные суда разгружаются в него, и техника развозит товары по Вашим фабрикам.",
-        "Network threshold: an import module requests cargo only while filled below this, an export module offers only while filled above (100 % minus this). 100 % = always active.": "Условие активации сети:<br>«модуль отправки» запрашивает груз, только когда его запас ниже этого значения;<br>«модуль отправки» предлагает груз, только когда его запас выше (100% минус указанное значение).<br>100% = всегда активно.",
+        "Network threshold: an import module requests cargo only while filled below this, an export module offers only while filled above (100 % minus this). 100 % = always active.": "Условие активации сети:<br>«Модуль доставки» запрашивает груз, только когда его запас ниже этого значения;<br>«Модуль отправки» предлагает груз, только когда его запас выше этого значения (100% минус указанное значение).<br>100% = всегда активно.",
         "Shipping": "Судоходство",
-        "Direction of each terminal module. Assign a product in the module's own window first; any product of the module's type can be shipped.": "Назначение каждого модуля терминала. Сначала назначьте продукт в окне самого модуля; перевозить можно любой продукт, соответствующий типу модуля."
+        "Direction of each terminal module. Assign a product in the module's own window first; any product of the module's type can be shipped.": "Назначение каждого модуля терминала. Сначала назначьте продукт в интерфейсе самого модуля; перевозить можно любой продукт, соответствующий типу модуля."
     }
 }
