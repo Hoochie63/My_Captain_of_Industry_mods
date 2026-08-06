@@ -8,7 +8,7 @@
     "maintenanceEnabled": {"204":true}
   },
   "farms": {
-    "clockRates": {}
+    "clockRates": {"29":200,"30":200,"955":200,"956":200}
   },
   "oreSorting": {
     "clockRates": {"170":100},
