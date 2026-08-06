@@ -1,29 +1,29 @@
 ﻿{
-  "config_bool": {
-    "default": true,
-    "description": "Example of a boolean configuration option."
-  },
-  "config_string": {
-    "default": "default value",
-    "description": "Example of a string configuration option.",
-    "max_length": 20
-  },
-  "config_regex": {
-    "default": "aaa_bc",
-    "description": "Example of a regular expression checked string configuration option.",
-    "regex": "^[a-z]+_[a-z]+$"
-  },
-  "config_double": {
-    "default": 5.3,
-    "min": 5.2,
-    "max": 5.6,
-    "description": "Example of a floating configuration option."
-  },
-  "config_integer": {
-    "default": 42,
-    "min": 24,
-    "max": 96,
-    "is_integer": true,
-    "description": "Example of a integral configuration option. In example mod is used as amount of exhaust produced by custom recipe."
-  }
+    "config_bool": {
+        "default": true,
+        "description": "Пример состояния этой настройки. Булево значение (true/false или включено/выключено). Используется для включения или отключения функции. В этом примере: По умолчанию — включено."
+    },
+    "config_string": {
+        "default": "default value",
+        "description": "Пример состояния этой настройки. Строковое значение. Используется для текстовых параметров (например, название, префикс, путь). В этом примере: Максимальная длина — 20 символов.",
+        "max_length": 20
+    },
+    "config_regex": {
+        "default": "aaa_bc",
+        "description": "Пример состояния этой настройки. Строка с проверкой по регулярному выражению. Используется, когда формат ввода должен строго соответствовать шаблону (например, ID предметов). В этом примере: два слова из латиницы через нижнее подчёркивание.",
+        "regex": "^[a-z]+_[a-z]+$"
+    },
+    "config_double": {
+        "default": 5.3,
+        "min": 5.2,
+        "max": 5.6,
+        "description": "Пример состояния этой настройки. Число с плавающей запятой (дробное). Используется для параметров, где нужна высокая точность, например, множители скорости или коэффициенты. В этом примере: Диапазон: от 5.2 до 5.6."
+    },
+    "config_integer": {
+        "default": 42,
+        "min": 24,
+        "max": 96,
+        "is_integer": true,
+        "description": "Целое число. Используется для параметров, где нужны только целые значения, например, в моде может использоваться как количество выбросов для пользовательского рецепта. В этом примере: Диапазон: от 24 до 96, по умолчанию используется 42."
+    }
 }

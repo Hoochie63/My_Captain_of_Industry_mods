@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-setlocal enabledelayedexpansion
+setlocal
 
 echo ============================================
 echo   Проверка и обновление файлов по дате
@@ -24,26 +24,26 @@ set "SRC=%~1"
 set "DST=%~2"
 
 REM Проверка, что источник существует
-if not exist "!SRC!" (
-    echo [ОШИБКА]    Источник не найден:    !SRC!
+if not exist "%SRC%" (
+    echo [ОШИБКА]    Источник не найден:    %SRC%
     goto :eof
 )
 
 REM Если назначения нет - просто предупреждаем, ничего не копируем
-if not exist "!DST!" (
-    echo [ВНИМАНИЕ]  Назначение НЕ найдено:  !DST!
+if not exist "%DST%" (
+    echo [ВНИМАНИЕ]  Назначение НЕ найдено:  %DST%
     goto :eof
 )
 
-REM Сравнение дат изменения через PowerShell (надёжнее, чем строками в batch)
-for /f %%T in ('powershell -NoProfile -Command "if ((Get-Item -LiteralPath '!SRC!').LastWriteTime -gt (Get-Item -LiteralPath '!DST!').LastWriteTime) {'NEWER'} else {'OLDER'}"') do set "RESULT=%%T"
+REM Сравнение дат изменения через PowerShell
+for /f %%T in ('powershell -NoProfile -Command "if ((Get-Item -LiteralPath '%SRC%').LastWriteTime -gt (Get-Item -LiteralPath '%DST%').LastWriteTime) {'NEWER'} else {'OLDER'}"') do set "RESULT=%%T"
 
-if "!RESULT!"=="NEWER" (
-    echo [КОПИРУЮ]   Источник новее:         !SRC!
-    echo             -^> !DST!
-    copy /Y "!SRC!" "!DST!" >nul
+if "%RESULT%"=="NEWER" (
+    echo [КОПИРУЮ]   Источник новее:         %SRC%
+    echo             -^> %DST%
+    copy /Y "%SRC%" "%DST%" >nul
 ) else (
-    echo [ПРОПУСК]   Назначение свежее/равно: !DST!
+    echo [ПРОПУСК]   Назначение свежее/равно: %DST%
 )
 
 echo.
