@@ -315,11 +315,11 @@
     ],
     [
         "AnimalFarmMissingFood__name",
-        "«{entity}» — недостаточно корма"
+        "«<color=#FFCE56>{entity}</color>» — недостаточно корма"
     ],
     [
         "AnimalFarmMissingWater__name",
-        "«{entity}» — недостаточно воды"
+        "«<color=#FFCE56>{entity}</color>» — недостаточно воды"
     ],
     [
         "AnimalFarm_AddAnimals_Tooltip",
@@ -885,7 +885,7 @@
     ],
     [
         "BattleShipCannotLeave__name",
-        "«{entity}» не может найти выход в океан"
+        "«<color=#FFCE56>{entity}</color>» не может найти выход в океан"
     ],
     [
         "BattleShipState__Destroyed",
@@ -1571,7 +1571,7 @@
     ],
     [
         "CannotDeliverFromMineTower__name",
-        "«{entity}» — нет доступного места для разгрузки продукции"
+        "«<color=#FFCE56>{entity}</color>» — нет доступного места для разгрузки продукции"
     ],
     [
         "CannotQuit_SaveInProgress",
@@ -1743,7 +1743,7 @@
     ],
     [
         "CargoShipCannotLeave__name",
-        "«{entity}» не может выйти в океан"
+        "«<color=#FFCE56>{entity}</color>» не может выйти в океан"
     ],
     [
         "CargoShipContractLacksUpoints__name",
@@ -1759,7 +1759,7 @@
     ],
     [
         "CargoShipMissingFuel__name",
-        "«{entity}» нуждается в топливе"
+        "«<color=#FFCE56>{entity}</color>» нуждается в топливе"
     ],
     [
         "CargoShipT1__desc",
@@ -2387,19 +2387,19 @@
     ],
     [
         "CropCouldNotBeStored__name",
-        "Плантация: «{0}» в избытке, хранилище переполнено"
+        "«<color=#FFCE56>Плантация</color>»: «{0}» в избытке, хранилище переполнено"
     ],
     [
         "CropDiedNoFertility__name",
-        "Плантация: «{0}» без удобрений не растёт — посевы засохли"
+        "«<color=#FFCE56>Плантация</color>»: «{0}» без удобрений не растёт — посевы засохли"
     ],
     [
         "CropDiedNoMaintenance__name",
-        "Плантация: «{0}» теперь гниёт, за посевами некому было ухаживать"
+        "«<color=#FFCE56>Плантация</color>»: «{0}» теперь гниёт, за посевами некому было ухаживать"
     ],
     [
         "CropDiedNoWater__name",
-        "Плантация: «{0}» без воды не растёт — посевы засохли"
+        "«<color=#FFCE56>Плантация</color>»: «{0}» без воды не растёт — посевы засохли"
     ],
     [
         "CropHarvestNow__Action",
@@ -2415,7 +2415,7 @@
     ],
     [
         "CropLacksMaintenance__name",
-        "Плантация: «{0}» будет выращиваться только если нанять рабочих"
+        "«<color=#FFCE56>Плантация</color>»: «{0}» будет выращиваться только если нанять рабочих"
     ],
     [
         "CropOverdue",
@@ -3319,7 +3319,7 @@
     ],
     [
         "EntityCannotBeReached__name",
-        "«{entity}» находится в недоступном для технике месте."
+        "«<color=#FFCE56>{entity}</color>» находится в недоступном для технике месте."
     ],
     [
         "EntityComputingConsumptionTooltip",
@@ -3367,7 +3367,7 @@
     ],
     [
         "EntityMayCollapseUnevenTerrain__name",
-        "«{entity}» может обрушиться из-за неровностей рельефа"
+        "«<color=#FFCE56>{entity}</color>» может обрушиться из-за неровностей рельефа"
     ],
     [
         "EntityMonthlyUnitTooltip",
@@ -3707,7 +3707,7 @@
     ],
     [
         "ExcavatorHasNoValidTruck__name",
-        "«{entity}» нуждается в грузовой технике совместимого типа"
+        "«<color=#FFCE56>{entity}</color>» нуждается в грузовой технике совместимого типа"
     ],
     [
         "ExcavatorT1__desc",
@@ -3935,7 +3935,7 @@
     ],
     [
         "FarmYieldIncrease__name",
-        "Увеличение урожайности, ур."
+        "Интенсивное земледелие, ур."
     ],
     [
         "Farm_PlantedCrop",
@@ -4279,7 +4279,7 @@
     ],
     [
         "FuelReduction__name",
-        "Экономия топлива для техники, ур."
+        "Топливная эффективность, ур."
     ],
     [
         "FuelStationHydrogenT1__name",
@@ -4287,11 +4287,11 @@
     ],
     [
         "FuelStationNotConnected__name",
-        "«{entity}» — не подключён топливопровод"
+        "«<color=#FFCE56>{entity}</color>» — не подключён топливопровод"
     ],
     [
         "FuelStationOutOfFuel__name",
-        "«{entity}» нуждается в топливе"
+        "«<color=#FFCE56>{entity}</color>» нуждается в топливе"
     ],
     [
         "FuelStationT1__desc",
@@ -5941,7 +5941,7 @@
     ],
     [
         "InvalidExportRoute__name",
-        "«{entity}» — назначен неверный маршрут."
+        "«<color=#FFCE56>{entity}</color>» — назначен неверный маршрут."
     ],
     [
         "InvalidImportRouteSuffix",
@@ -5949,7 +5949,7 @@
     ],
     [
         "InvalidImportRoute__name",
-        "«{entity}» — назначен неверный маршрут."
+        "«<color=#FFCE56>{entity}</color>» — назначен неверный маршрут."
     ],
     [
         "IoLabel__IN",
@@ -8469,7 +8469,7 @@
     ],
     [
         "NeedsTransportConnected__name",
-        "«{entity}» нужен транспортёр для выгрузки продукции («{0}»)"
+        "«<color=#FFCE56>{entity}</color>» нужен транспортёр для выгрузки продукции («{0}»)"
     ],
     [
         "NewBlueprintTitlePlaceholder",
@@ -8569,7 +8569,7 @@
     ],
     [
         "NoAvailableMineDesignInTowerArea__name",
-        "«{entity}» — все карьерные работы завершены"
+        "«<color=#FFCE56>{entity}</color>» — все карьерные работы завершены"
     ],
     [
         "NoCropToGrow__name",
@@ -8581,7 +8581,7 @@
     ],
     [
         "NoForestryDesignInTowerArea__name",
-        "«{entity}» — в области управления нет работы"
+        "«<color=#FFCE56>{entity}</color>» — в области управления нет работы"
     ],
     [
         "NoLabAvailable",
@@ -8589,7 +8589,7 @@
     ],
     [
         "NoMineDesignInTowerArea__name",
-        "«{entity}» — в области управления нет работы"
+        "«<color=#FFCE56>{entity}</color>» — в области управления нет работы"
     ],
     [
         "NoOptions",
@@ -8597,11 +8597,11 @@
     ],
     [
         "NoProductAssignedToEntity__name",
-        "«{entity}» — продукция не назначена"
+        "«<color=#FFCE56>{entity}</color>» — продукция не назначена"
     ],
     [
         "NoRecipeSelected__name",
-        "«{entity}» — рецепт не назначен"
+        "«<color=#FFCE56>{entity}</color>» — рецепт не назначен"
     ],
     [
         "NoRecipesAssigned",
@@ -8613,19 +8613,19 @@
     ],
     [
         "NoResourceToExtract__name",
-        "«{entity}» — залежи исчерпаны"
+        "«<color=#FFCE56>{entity}</color>» — залежи исчерпаны"
     ],
     [
         "NoTreeSaplingsForPlanter__name",
-        "«{entity}» — нет саженцев для посадки"
+        "«<color=#FFCE56>{entity}</color>» — нет саженцев для посадки"
     ],
     [
         "NoTreesToHarvest__name",
-        "«{entity}» не может найти деревья для заготовки"
+        "«<color=#FFCE56>{entity}</color>» не может найти деревья для заготовки"
     ],
     [
         "NoTruckAssignedToTreeHarvester__name",
-        "«{entity}» нуждается в технике для отгрузки"
+        "«<color=#FFCE56>{entity}</color>» нуждается в технике для отгрузки"
     ],
     [
         "NoVehicleDepotAvailable",
@@ -8681,7 +8681,7 @@
     ],
     [
         "NotEnoughUpointsForEntity__name",
-        "«{entity}» — недостаточно «<color=#BB98EC>Единства</color>»"
+        "«<color=#FFCE56>{entity}</color>» — недостаточно «<color=#BB98EC>Единства</color>»"
     ],
     [
         "NotEnoughUpoints__name",
@@ -12283,7 +12283,7 @@
     ],
     [
         "RoadHasInvalidConnection__name",
-        "«{entity}» имеет неверное соединение"
+        "«<color=#FFCE56>{entity}</color>» имеет неверное соединение"
     ],
     [
         "RoadTwoWay_Reversed__name",
@@ -13269,11 +13269,11 @@
     ],
     [
         "SortingPlantBlockedOutput__name",
-        "«{entity}» — переполнение продукцией"
+        "«<color=#FFCE56>{entity}</color>» — переполнение продукцией"
     ],
     [
         "SortingPlantNoProductSet__name",
-        "«{entity}» требует настройки сортируемых материалов"
+        "«<color=#FFCE56>{entity}</color>» требует настройки сортируемых материалов"
     ],
     [
         "SourWaterStripper__desc",
@@ -13421,11 +13421,11 @@
     ],
     [
         "StackerTowerExtensionBlockedNotification__name",
-        "Рельсовое расширение «{entity}» заблокировано"
+        "Рельсовое расширение «<color=#FFCE56>{entity}</color>» заблокировано"
     ],
     [
         "StackerTowerFullNotification__name",
-        "«{entity}» — нет места для отсыпки материала"
+        "«<color=#FFCE56>{entity}</color>» — нет места для отсыпки материала"
     ],
     [
         "StackerTowerRail__desc",
@@ -13573,7 +13573,7 @@
     ],
     [
         "StationHasNoAssignedUnloadModule__name",
-        "«{entity}» — у разгрузочных модульных хранилищ не указан товар"
+        "«<color=#FFCE56>{entity}</color>» — у разгрузочных модульных хранилищ не указан товар"
     ],
     [
         "Statistics",
@@ -13871,11 +13871,11 @@
     ],
     [
         "StorageSupplyTooHigh__name",
-        "«{entity}» — «{0}» в избытке"
+        "«<color=#FFCE56>{entity}</color>» — «{0}» в избытке"
     ],
     [
         "StorageSupplyTooLow__name",
-        "«{entity}» — «{0}» на исходе!"
+        "«<color=#FFCE56>{entity}</color>» — «{0}» на исходе!"
     ],
     [
         "StorageUnitT2__name",
@@ -14741,15 +14741,15 @@
     ],
     [
         "TrainAlignmentFork__name",
-        "«{entity}» — станция пропущена из-за разветвления путей"
+        "«<color=#FFCE56>{entity}</color>» — станция пропущена из-за разветвления путей"
     ],
     [
         "TrainCannotFindPathFromDepot__name",
-        "Находящийся в «{entity}» поезд не может проложить маршрут"
+        "Находящийся в «<color=#FFCE56>{entity}</color>» поезд не может проложить маршрут"
     ],
     [
         "TrainCannotFindPath__name",
-        "«{entity}» не может добраться до пункта назначения"
+        "«<color=#FFCE56>{entity}</color>» не может добраться до пункта назначения"
     ],
     [
         "TrainCarInfo__MustBeBehind",
@@ -15037,11 +15037,11 @@
     ],
     [
         "TrainDestroyedNoLine__name",
-        "«{entity}» был уничтожен из-за обрушения рельсов"
+        "«<color=#FFCE56>{entity}</color>» был уничтожен из-за обрушения рельсов"
     ],
     [
         "TrainDestroyed__name",
-        "«{entity}» на «{0}» был уничтожен из-за обрушения путей"
+        "«<color=#FFCE56>{entity}</color>» на «{0}» был уничтожен из-за обрушения путей"
     ],
     [
         "TrainDriveMode__Manual",
@@ -15061,23 +15061,23 @@
     ],
     [
         "TrainHasInvalidScheduleItemFromDepot__name",
-        "«{entity}» содержит поезд с недействительным следующим пунктом расписания"
+        "«<color=#FFCE56>{entity}</color>» содержит поезд с недействительным следующим пунктом расписания"
     ],
     [
         "TrainHasInvalidScheduleItem__name",
-        "Следующий пункт расписания у «{entity}» недействителен"
+        "Следующий пункт расписания у «<color=#FFCE56>{entity}</color>» недействителен"
     ],
     [
         "TrainHasNoScrapDepot__name",
-        "«{entity}» не может проехать ни в одно депо для утилизации"
+        "«<color=#FFCE56>{entity}</color>» не может проехать ни в одно депо для утилизации"
     ],
     [
         "TrainIsIdleError__name",
-        "«{entity}» простаивает уже более {0} минут"
+        "«<color=#FFCE56>{entity}</color>» простаивает уже более {0} минут"
     ],
     [
         "TrainIsIdleWarning__name",
-        "«{entity}» простаивает уже более {0} минут"
+        "«<color=#FFCE56>{entity}</color>» простаивает уже более {0} минут"
     ],
     [
         "TrainIssue_AllStationsSkipped",
@@ -15369,7 +15369,7 @@
     ],
     [
         "TrainNetworkNoWaitingBayFromDepot__name",
-        "«{entity}» не может отправить «сетевой» поезд — нет свободной зоны ожидания"
+        "«<color=#FFCE56>{entity}</color>» не может отправить «сетевой» поезд — нет свободной зоны ожидания"
     ],
     [
         "TrainNetwork_AddToNetwork",
@@ -15433,7 +15433,7 @@
     ],
     [
         "TrainNoPowerFromDepot__name",
-        "«{entity}» — поезд не может выехать, нет топлива (или энергии)"
+        "«<color=#FFCE56>{entity}</color>» — поезд не может выехать, нет топлива (или энергии)"
     ],
     [
         "TrainPathfindingRestriction_Allow",
@@ -15561,7 +15561,7 @@
     ],
     [
         "TrainSelfIntersect__name",
-        "«{entity}» не может продолжить движение из-за риска столкновения с самим собой"
+        "«<color=#FFCE56>{entity}</color>» не может продолжить движение из-за риска столкновения с самим собой"
     ],
     [
         "TrainStationAdditionError__InvalidStationGroup",
@@ -15925,7 +15925,7 @@
     ],
     [
         "TrainStuckAtStation__name",
-        "«{entity}» покинул станцию из-за длительного простоя"
+        "«<color=#FFCE56>{entity}</color>» покинул станцию из-за длительного простоя"
     ],
     [
         "TrainTitle",
@@ -16101,7 +16101,7 @@
     ],
     [
         "TransportTooLong__name",
-        "«{entity}» слишком длинный"
+        "«<color=#FFCE56>{entity}</color>» слишком длинный"
     ],
     [
         "TransportTool__NoTurnTooltip",
@@ -16245,11 +16245,11 @@
     ],
     [
         "TruckCannotDeliverMixedCargo__name",
-        "«{entity}» не может найти подходящий сортировочный завод для разгрузки смешанного груза"
+        "«<color=#FFCE56>{entity}</color>» не может найти подходящий сортировочный завод для разгрузки смешанного груза"
     ],
     [
         "TruckCannotDeliver__name",
-        "«{entity}» не может доставить «{0}». Нет действительного пункта назначения"
+        "«<color=#FFCE56>{entity}</color>» не может доставить «{0}». Нет действительного пункта назначения"
     ],
     [
         "TruckCapacityIncrease__desc",
@@ -16301,7 +16301,7 @@
     ],
     [
         "TruckHasNoValidExcavator__name",
-        "«{entity}» нуждается в экскаваторе подходящего типа"
+        "«<color=#FFCE56>{entity}</color>» нуждается в экскаваторе подходящего типа"
     ],
     [
         "TruckRestrictions__ConstructionJobs",
@@ -18227,19 +18227,19 @@
     ],
     [
         "VehicleGoalStrugglingCannotGoUnder__name",
-        "«{entity}» не может найти доступный пункт назначения."
+        "«<color=#FFCE56>{entity}</color>» не может найти доступный пункт назначения."
     ],
     [
         "VehicleGoalStruggling__name",
-        "«{entity}» не может найти путь к цели."
+        "«<color=#FFCE56>{entity}</color>» не может найти путь к цели."
     ],
     [
         "VehicleGoalUnreachableCannotGoUnder__name",
-        "«{entity}» не может добраться до места назначения."
+        "«<color=#FFCE56>{entity}</color>» не может добраться до места назначения."
     ],
     [
         "VehicleGoalUnreachable__name",
-        "«{entity}» не может достичь пункта назначения."
+        "«<color=#FFCE56>{entity}</color>» не может достичь пункта назначения."
     ],
     [
         "VehicleGoal__SurfaceModification",
@@ -18381,11 +18381,11 @@
     ],
     [
         "VehicleNoFuel__name",
-        "«{entity}» нуждается в топливе"
+        "«<color=#FFCE56>{entity}</color>» нуждается в топливе"
     ],
     [
         "VehicleNoReachableDesignations__name",
-        "«{entity}» не может найти работу"
+        "«<color=#FFCE56>{entity}</color>» не может найти работу"
     ],
     [
         "VehicleRamp2__name",
