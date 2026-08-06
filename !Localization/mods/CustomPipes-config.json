@@ -1,0 +1,278 @@
+{
+  "flat_conveyor_t1_max_quantity": {
+    "default": 3,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T1 Flat MaxQty / 平板T1最大堆叠",
+    "description": "T1 flat conveyor max quantity per product (max 127) / 平板T1每物品最大堆叠数(最大127)"
+  },
+  "flat_conveyor_t2_max_quantity": {
+    "default": 3,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T2 Flat MaxQty / 平板T2最大堆叠",
+    "description": "T2 flat conveyor max quantity per product / 平板T2每物品最大堆叠数"
+  },
+  "flat_conveyor_t3_max_quantity": {
+    "default": 3,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T3 Flat MaxQty / 平板T3最大堆叠",
+    "description": "T3 flat conveyor max quantity per product / 平板T3每物品最大堆叠数"
+  },
+  "flat_conveyor_t4_max_quantity": {
+    "default": 12,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T4 Flat MaxQty / 平板T4最大堆叠",
+    "description": "T4 flat conveyor max quantity per product / 平板T4每物品最大堆叠数"
+  },
+  "flat_conveyor_t5_max_quantity": {
+    "default": 12,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T5 Flat MaxQty / 平板T5最大堆叠",
+    "description": "T5 flat conveyor max quantity per product / 平板T5每物品最大堆叠数 (12=Waypoints=2, capacity=Count/2)"
+  },
+  "flat_conveyor_t6_max_quantity": {
+    "default": 12,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T6 Flat MaxQty / 平板T6最大堆叠",
+    "description": "T6 flat conveyor max quantity per product / 平板T6每物品最大堆叠数"
+  },
+  "flat_conveyor_t1_speed": {
+    "default": 1.0,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T1 Flat Speed / 平板T1速度",
+    "description": "T1 flat conveyor speed (tiles/sec) / 平板T1传送带速度"
+  },
+  "flat_conveyor_t1_throughput": {
+    "default": 60,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T1 Flat Throughput / 平板T1吞吐量",
+    "description": "T1 flat conveyor throughput (items/60s) / 平板T1传送带吞吐量"
+  },
+  "flat_conveyor_t2_speed": {
+    "default": 1.5,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T2 Flat Speed / 平板T2速度",
+    "description": "T2 flat conveyor speed (tiles/sec) / 平板T2传送带速度"
+  },
+  "flat_conveyor_t2_throughput": {
+    "default": 200,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T2 Flat Throughput / 平板T2吞吐量",
+    "description": "T2 flat conveyor throughput (items/60s) / 平板T2传送带吞吐量"
+  },
+  "flat_conveyor_t3_speed": {
+    "default": 2.0,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T3 Flat Speed / 平板T3速度",
+    "description": "T3 flat conveyor speed (tiles/sec) / 平板T3传送带速度"
+  },
+  "flat_conveyor_t3_throughput": {
+    "default": 450,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T3 Flat Throughput / 平板T3吞吐量",
+    "description": "T3 flat conveyor throughput (items/60s) / 平板T3传送带吞吐量"
+  },
+  "flat_conveyor_t4_speed": {
+    "default": 2.9,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T4 Flat Speed / 平板T4速度",
+    "description": "T4 flat conveyor speed (tiles/sec) / 平板T4传送带速度"
+  },
+  "flat_conveyor_t4_throughput": {
+    "default": 2400,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T4 Flat Throughput / 平板T4吞吐量",
+    "description": "T4 flat conveyor throughput (items/60s) / 平板T4传送带吞吐量"
+  },
+  "flat_conveyor_t5_speed": {
+    "default": 5.8,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T5 Flat Speed / 平板T5速度",
+    "description": "T5 flat conveyor speed (tiles/sec) / 平板T5传送带速度"
+  },
+  "flat_conveyor_t5_throughput": {
+    "default": 3600,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T5 Flat Throughput / 平板T5吞吐量",
+    "description": "T5 flat conveyor throughput (items/60s) / 平板T5传送带吞吐量"
+  },
+  "flat_conveyor_t6_speed": {
+    "default": 11.6,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T6 Flat Speed / 平板T6速度",
+    "description": "T6 flat conveyor speed (tiles/sec) / 平板T6传送带速度"
+  },
+  "flat_conveyor_t6_throughput": {
+    "default": 7200,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T6 Flat Throughput / 平板T6吞吐量",
+    "description": "T6 flat conveyor throughput (items/60s) / 平板T6传送带吞吐量"
+  },
+  "loose_conveyor_t1_max_quantity": {
+    "default": 3,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T1 Loose MaxQty / 散料T1最大堆叠",
+    "description": "T1 loose conveyor max quantity per product / 散料T1每物品最大堆叠数"
+  },
+  "loose_conveyor_t2_max_quantity": {
+    "default": 3,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T2 Loose MaxQty / 散料T2最大堆叠",
+    "description": "T2 loose conveyor max quantity per product / 散料T2每物品最大堆叠数"
+  },
+  "loose_conveyor_t3_max_quantity": {
+    "default": 3,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T3 Loose MaxQty / 散料T3最大堆叠",
+    "description": "T3 loose conveyor max quantity per product / 散料T3每物品最大堆叠数"
+  },
+  "loose_conveyor_t4_max_quantity": {
+    "default": 12,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T4 Loose MaxQty / 散料T4最大堆叠",
+    "description": "T4 loose conveyor max quantity per product / 散料T4每物品最大堆叠数"
+  },
+  "loose_conveyor_t5_max_quantity": {
+    "default": 12,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T5 Loose MaxQty / 散料T5最大堆叠",
+    "description": "T5 loose conveyor max quantity per product / 散料T5每物品最大堆叠数 (12=Waypoints=2, capacity=Count/2)"
+  },
+  "loose_conveyor_t6_max_quantity": {
+    "default": 12,
+    "min": 1,
+    "max": 127,
+    "is_integer": true,
+    "name": "T6 Loose MaxQty / 散料T6最大堆叠",
+    "description": "T6 loose conveyor max quantity per product / 散料T6每物品最大堆叠数"
+  },
+  "loose_conveyor_t1_speed": {
+    "default": 1.0,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T1 Loose Speed / 散料T1速度",
+    "description": "T1 loose conveyor speed (tiles/sec) / 散料T1传送带速度"
+  },
+  "loose_conveyor_t1_throughput": {
+    "default": 60,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T1 Loose Throughput / 散料T1吞吐量",
+    "description": "T1 loose conveyor throughput (items/60s) / 散料T1传送带吞吐量"
+  },
+  "loose_conveyor_t2_speed": {
+    "default": 1.5,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T2 Loose Speed / 散料T2速度",
+    "description": "T2 loose conveyor speed (tiles/sec) / 散料T2传送带速度"
+  },
+  "loose_conveyor_t2_throughput": {
+    "default": 200,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T2 Loose Throughput / 散料T2吞吐量",
+    "description": "T2 loose conveyor throughput (items/60s) / 散料T2传送带吞吐量"
+  },
+  "loose_conveyor_t3_speed": {
+    "default": 2.0,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T3 Loose Speed / 散料T3速度",
+    "description": "T3 loose conveyor speed (tiles/sec) / 散料T3传送带速度"
+  },
+  "loose_conveyor_t3_throughput": {
+    "default": 450,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T3 Loose Throughput / 散料T3吞吐量",
+    "description": "T3 loose conveyor throughput (items/60s) / 散料T3传送带吞吐量"
+  },
+  "loose_conveyor_t4_speed": {
+    "default": 2.9,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T4 Loose Speed / 散料T4速度",
+    "description": "T4 loose conveyor speed (tiles/sec) / 散料T4传送带速度"
+  },
+  "loose_conveyor_t4_throughput": {
+    "default": 2400,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T4 Loose Throughput / 散料T4吞吐量",
+    "description": "T4 loose conveyor throughput (items/60s) / 散料T4传送带吞吐量"
+  },
+  "loose_conveyor_t5_speed": {
+    "default": 5.8,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T5 Loose Speed / 散料T5速度",
+    "description": "T5 loose conveyor speed (tiles/sec) / 散料T5传送带速度"
+  },
+  "loose_conveyor_t5_throughput": {
+    "default": 3600,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T5 Loose Throughput / 散料T5吞吐量",
+    "description": "T5 loose conveyor throughput (items/60s) / 散料T5传送带吞吐量"
+  },
+  "loose_conveyor_t6_speed": {
+    "default": 11.6,
+    "min": 0.1,
+    "max": 100.0,
+    "name": "T6 Loose Speed / 散料T6速度",
+    "description": "T6 loose conveyor speed (tiles/sec) / 散料T6传送带速度"
+  },
+  "loose_conveyor_t6_throughput": {
+    "default": 7200,
+    "min": 60,
+    "max": 72000,
+    "is_integer": true,
+    "name": "T6 Loose Throughput / 散料T6吞吐量",
+    "description": "T6 loose conveyor throughput (items/60s) / 散料T6传送带吞吐量"
+  }
+}

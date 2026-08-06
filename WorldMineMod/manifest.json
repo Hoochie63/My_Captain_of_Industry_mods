@@ -1,0 +1,17 @@
+{
+  "id": "WorldMineMod",
+  "version": "1.0.0",
+  "authors": ["蜂功伟业"],
+  "display_name": "世界矿山mod",
+  "description": "在世界矿山加入铜矿山和铁矿山.",
+  
+   "min_game_version": "0.8.6",
+  "max_verified_game_version": "0.8.6c",
+  "primary_dlls": ["0Harmony.dll","WorldMineMod.dll"],
+ "primary_mod_class_name": "WorldMineMod",
+ "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+"description_short": "在世界矿山加入铜矿山和铁矿山",
+"description_long": "在世界矿山加入铜矿山和铁矿山</b>"
+}

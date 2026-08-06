@@ -1,0 +1,5 @@
+V1.0.0 | 2026-08-03
+* 为世界矿山地图加入铁矿山和铜矿山.
+* Add iron mines and copper mines to the global mine map.
+* 本mod已经国际化.适合有特殊需求的用户.
+* This mod has been internationalized and is suitable for users with special requirements.

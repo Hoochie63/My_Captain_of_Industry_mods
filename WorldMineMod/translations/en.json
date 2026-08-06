@@ -1,0 +1,6 @@
+{
+  "IronMine__name": "Iron ore mine",
+  "IronMine__desc": "A world-map mine that produces Iron Ore when assigned with workers.",
+  "CopperMine__name": "Copper ore mine",
+  "CopperMine__desc": "A world-map mine that produces Copper Ore when assigned with workers."
+}
