@@ -1304,3 +1304,238 @@
 13:11:17.861  [Info] Increased vehicles pose readout delay by 1 tick to 2
 13:12:17.964  [Info] Decreased vehicles pose readout delay by 1 tick to 1
 13:13:03.032  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:14:20.824  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+13:14:20.828  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+13:14:20.832  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+13:14:20.833  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+13:14:20.835  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+13:14:20.836  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+13:14:20.838  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+13:14:20.839  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+13:14:20.841  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+13:14:20.966  [Info] MiningDumpingMod : ============>  68 MD Manager serialize 24 towers
+13:14:21.208  [Info] GameSaver: Saving took 366 ms
+13:14:22.116  [Info] GameSaver: Save finalize took 906 ms
+13:14:22.221  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_17-14-autosave.save' (size: 7,6 MB).
+13:14:27.519  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:14:50.526  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:15:50.636  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:16:57.823  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:18:02.429  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:18:07.201  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:19:07.308  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:19:09.116  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:20:09.229  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:21:00.902  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:22:01.015  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:23:18.913  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:24:19.001  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:26:07.300  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:27:07.401  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:28:09.000  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:29:09.108  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:29:21.884  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+13:29:21.894  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+13:29:21.898  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+13:29:21.899  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+13:29:21.901  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+13:29:21.902  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+13:29:21.904  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+13:29:21.905  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+13:29:21.906  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+13:29:22.050  [Info] MiningDumpingMod : ============>  69 MD Manager serialize 24 towers
+13:29:22.382  [Info] GameSaver: Saving took 475 ms
+13:29:22.396  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:29:23.276  [Info] GameSaver: Save finalize took 891 ms
+13:29:23.396  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_17-29-autosave.save' (size: 7,6 MB).
+13:30:22.497  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:31:03.299  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:32:03.403  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:33:11.312  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:34:11.416  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:35:04.612  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:36:04.720  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:36:59.621  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:37:59.697  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:38:57.097  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:39:57.205  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:40:51.811  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:41:51.914  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:42:50.017  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:43:50.109  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:44:22.875  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+13:44:22.879  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+13:44:22.884  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+13:44:22.885  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+13:44:22.886  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+13:44:22.887  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+13:44:22.889  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+13:44:22.890  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+13:44:22.893  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+13:44:23.018  [Info] MiningDumpingMod : ============>  70 MD Manager serialize 24 towers
+13:44:23.354  [Info] GameSaver: Saving took 460 ms
+13:44:23.372  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:44:24.260  [Info] GameSaver: Save finalize took 898 ms
+13:44:24.374  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_17-44-autosave.save' (size: 7,7 MB).
+13:45:23.474  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:45:59.384  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:46:59.487  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:47:54.701  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:48:54.795  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:49:53.198  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:50:53.301  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:51:53.471  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:52:53.586  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:53:58.600  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:54:58.703  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:55:21.697  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:56:21.797  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:57:58.598  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:58:58.700  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+13:59:23.939  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+13:59:23.941  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+13:59:23.944  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+13:59:23.945  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+13:59:23.946  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+13:59:23.949  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+13:59:23.951  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+13:59:23.952  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+13:59:23.953  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+13:59:24.091  [Info] MiningDumpingMod : ============>  71 MD Manager serialize 24 towers
+13:59:24.335  [Info] GameSaver: Saving took 380 ms
+13:59:24.340  [Info] Increased vehicles pose readout delay by 1 tick to 2
+13:59:25.319  [Info] GameSaver: Save finalize took 978 ms
+13:59:25.482  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_17-59-autosave.save' (size: 7,7 MB).
+14:00:24.582  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:01:17.652  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:02:17.782  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:02:57.876  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:04:46.171  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:05:56.876  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:06:56.982  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:07:41.351  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:08:41.465  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:10:05.378  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:11:05.471  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:11:05.678  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:12:05.760  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:12:08.759  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:13:08.866  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:14:00.800  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:14:25.036  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+14:14:25.038  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+14:14:25.039  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+14:14:25.041  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+14:14:25.041  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+14:14:25.044  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+14:14:25.045  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+14:14:25.046  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+14:14:25.048  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+14:14:25.176  [Info] MiningDumpingMod : ============>  72 MD Manager serialize 24 towers
+14:14:25.407  [Info] GameSaver: Saving took 358 ms
+14:14:26.301  [Info] GameSaver: Save finalize took 889 ms
+14:14:26.422  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_18-14-autosave.save' (size: 7,7 MB).
+14:15:01.227  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:15:08.021  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:17:59.725  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:18:53.628  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:19:53.732  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:20:48.333  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:21:48.438  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:22:42.945  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:23:43.047  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:24:39.652  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:25:39.723  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:26:44.721  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:27:44.825  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:28:33.548  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:29:26.091  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+14:29:26.092  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+14:29:26.094  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+14:29:26.095  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+14:29:26.097  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+14:29:26.099  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+14:29:26.100  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+14:29:26.103  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+14:29:26.104  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+14:29:26.239  [Info] MiningDumpingMod : ============>  73 MD Manager serialize 24 towers
+14:29:26.474  [Info] GameSaver: Saving took 369 ms
+14:29:27.369  [Info] GameSaver: Save finalize took 893 ms
+14:29:27.488  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_18-29-autosave.save' (size: 7,7 MB).
+14:29:33.987  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:30:14.389  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:31:14.501  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:31:45.211  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:32:45.312  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:33:41.492  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:34:41.593  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:35:36.697  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:36:36.799  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:37:41.390  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:38:41.495  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:39:56.789  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:40:56.893  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:42:06.594  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:43:06.696  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:44:11.598  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:44:27.160  [Info] [AFD] Persistence: staged 0 tower setting override record(s) in vanilla-mod-json-config.
+14:44:27.170  [Info] [AFD] Pending allocations: staged in vanilla-mod-json-config.
+14:44:27.172  [Info] [ATD] Persistence: staged 7 tower setting override record(s) in vanilla-mod-json-config.
+14:44:27.174  [Info] [ATD] Pending allocations: staged in vanilla-mod-json-config.
+14:44:27.175  [Info] [OverclockingMod] 游戏保存中，保存MOD数据
+14:44:27.177  [Info] [OverclockingMod] Save: CollectData 完成
+  机器: 1 个
+  Machine[204]: rate=100%, power=True, workers=True, computing=True, maintenance=True
+  农场: 4 个
+  矿石分拣: 1 个
+  OreSorting[170]: rate=100%, power=False, workers=False, maintenance=False
+  集水器: 0 个
+14:44:27.179  [Info] [OverclockingMod] Saved to MOD directory: C:\Users\www\AppData\Roaming\Captain of Industry\Mods\OverclockingMod\saves\www-2.json
+14:44:27.181  [Info] [OverclockingMod] Saved to game saves directory: C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\OverclockingMod.json
+14:44:27.182  [Info] [OverclockingMod] Total: 1 machines, 4 farms, 1 ore sorters
+14:44:27.306  [Info] MiningDumpingMod : ============>  74 MD Manager serialize 24 towers
+14:44:27.537  [Info] GameSaver: Saving took 354 ms
+14:44:28.468  [Info] GameSaver: Save finalize took 927 ms
+14:44:28.551  [Info] Game saved to 'C:\Users\www\AppData\Roaming\Captain of Industry\Saves\www-2\26-08-06_18-44-autosave.save' (size: 7,7 MB).
+14:45:12.051  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:45:35.759  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:46:35.862  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:47:40.160  [Info] Increased vehicles pose readout delay by 1 tick to 2
+14:48:40.277  [Info] Decreased vehicles pose readout delay by 1 tick to 1
+14:49:45.551  [Info] Increased vehicles pose readout delay by 1 tick to 2
