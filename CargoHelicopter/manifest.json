@@ -1,6 +1,6 @@
-﻿{
+{
   "id": "CargoHelicopter",
-  "version": "0.19.1",
+  "version": "0.19.9",
   "display_name": "Cargo Helicopter",
   "description_short": "Three tiers of flying cargo helicopter that haul goods like trucks but fly over mountains, cliffs, water and buildings. Cargo rides in a slung container lowered by winch.",
   "authors": "pique",

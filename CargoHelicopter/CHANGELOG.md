@@ -1,5 +1,114 @@
 # Cargo Helicopter changelog
 
+## 0.19.9 (TERRAIN-ANCHORED-HELIPORTS)
+
+- Fixed the actual Open Heliport placement defect shown in the tester screenshot. Previously only the building origin
+  followed terrain; the remaining 232 x 114 m T2 footprint had no terrain-height contract, so a platform spanning
+  uneven ground could legally float over a valley on one side and pass through a hill on the other.
+- Every occupied T1/T2 footprint tile now declares terrain surface height zero relative to the building. Placement and
+  construction therefore use one foundation plane across the complete model. A dedicated placement validator also
+  rejects the preview until every terrain vertex is within the ground-plane tolerance; instant-build tools can no
+  longer turn a terrain-blocked designation into a finished floating/submerged platform. No hardened-floor surface
+  is painted, and no 3D model or AssetBundle was changed.
+- Existing incorrectly placed platforms are not teleported; dismantle and rebuild them after updating.
+- Retains the mandatory material-production and landed-scrapping fixes from 0.19.8.
+- Built for Captain of Industry **0.8.6c / Update 4.2**.
+- COI Hub compatibility metadata uses `0.8.6` because the Hub currently treats the public `0.8.6c` hotfix suffix
+  as a version newer than its known `0.8.6` release; runtime verification remains 0.8.6c.
+
+## 0.19.8 (TESTER-FEEDBACK / PRODUCTION-AND-SCRAP)
+
+- Audited object-overlap placement. Current T1/T2 layouts occupy every tile of a footprint slightly larger than each
+  complete model (T2: 232 x 114 m layout around a 228.6 x 110.6 m mesh), so walls, buildings and other occupied tiles
+  are rejected. Terrain-height anchoring itself was corrected separately in 0.19.9 after an exact screenshot exposed
+  the distinct uneven-ground case.
+- Removed the Unity quick-build purchase path from both Open Heliports. Helicopter production now always consumes
+  its existing per-tier Vehicle Parts/Rubber inputs and construction time; the stock depot continues to expose
+  material inputs and stores recovered helicopter/fuel products in its outputs after scrapping.
+- Fixed Scrap Vehicle and replacement behaviour for helicopters. After the stock return route reaches the Open
+  Heliport queue, the aircraft now descends to the deck, confirms touchdown, keeps its rotors at ground idle, rolls
+  to the despawn position, and only then is removed. The fake 100-keyframe door wait on the door-less deck was
+  reduced to one keyframe, removing the unexplained 20-40 second hover/despawn delay.
+- Retains 0.19.7's active direct-air route and strongly damped sling fixes for the tester's mountain-flight and
+  container-swing reports. No 3D models or AssetBundles were changed in this release.
+- Built for Captain of Industry **0.8.6c / Update 4.2**.
+
+## 0.19.7 (ACTIVE-DIRECT-FLIGHT / SLING-STABILITY)
+
+- Fixed the remaining car-like turns on old and already-active routes. Direct flight is now enforced inside the
+  synchronized active-route update, not only when a new pathfinding result arrives. A loaded terrain/road segment,
+  its road-driving trajectory and queued waypoints are cleared, then the hidden vehicle receives the final goal as
+  one long-distance, obstacle-independent target. Existing saves therefore switch to a straight bearing without
+  waiting for the job to finish or for a new route to be calculated.
+- The legacy terrain-segment fallback now also targets the final goal directly; it can no longer walk along the
+  next saved ground waypoint.
+- Tamed the slung-load motion: physical pitch/roll is limited to roughly 4.6-6.9 degrees, angular speed and
+  acceleration impulses are clamped, damping is substantially stronger, and the extra synthetic wobble is now
+  below one degree instead of stacking another 6-14 degrees on top of the pendulum.
+- Built for the current public Captain of Industry **0.8.6c / Update 4.2**.
+
+## 0.19.6 (DIRECT-AIR-ROUTING / GAME-0.8.6C)
+
+- Helicopter X/Z movement is now genuinely point-to-point. The game still selects and validates the logistics
+  destination, but after a successful search the mod discards every ground, road and traffic waypoint and keeps
+  one direct air leg to the selected goal. The existing bounded-hop driver follows that same bearing all the way,
+  so mountains, cliffs, water, buildings and roads can no longer make the aircraft snake like a truck.
+- Terrain remains fully relevant to vertical safety only: the altitude controller scans the new direct line at
+  6 m intervals, starts climbing before a ridge, keeps roof/terrain clearance under the belly, and descends smoothly
+  after the crest. It never feeds those samples back into the horizontal route.
+- Rebuilt and API-verified against the current public Captain of Industry **0.8.6c / Update 4.2** installation.
+  The manifest now explicitly verifies through `0.8.6c`; the direct-flight API is also present in 0.8.6a/b.
+
+## 0.19.5 (MOUNTAIN-REGRESSION-FIX)
+
+- Fixed the 0.19.4 mountain regression: removing the ground under the helicopter from the altitude
+  target pushed all terrain reaction into the clearance clamp, and the 11 m/s climb cap could not
+  keep up with steep slopes at cruise speed — the hard emergency backstop fired every few meters.
+  The ground beneath the aircraft is part of the (smoothed) altitude target again, so climbs start
+  early, and when clearance runs out the climb rate boosts to 25 m/s instead of snapping.
+  The ridge "shelf" behavior from 0.19.4 is kept: fast follow uphill, slow shallow descent.
+
+## 0.19.4 (MOUNTAIN-FLIGHT-SMOOTHNESS)
+
+- Fixed jerky flight over mountains. The altitude target no longer follows the ground directly
+  under the helicopter: in cruise it looks ahead along the route only, so the aircraft holds a
+  level "shelf" over a ridge instead of rolling down every slope like a car.
+- Emergency altitude snaps now trigger only when the helicopter physically cannot climb in time
+  (climb rate vs distance to the obstacle), not merely because terrain rises within 100 m —
+  ridgeline flicker can no longer yank the aircraft upward.
+- Descent past a ridge is much shallower far from the destination (2.5 m/s, ramping to 6 m/s on
+  final approach) with a shorter peak-hold, so the helicopter glides down instead of nosing over.
+- Route obstacle scan is anti-aliased: 6 m sampling step (was 12 m) and rescanned every 0.25 s
+  instead of every frame.
+- Nose pitch from vertical speed limited to ±3° so gentle altitude corrections don't bob the nose.
+- Safety: the under-belly clearance clamp and backstop now consider building roofs as well as
+  terrain, so cruise without terrain-following is strictly safer than before.
+
+## 0.19.3 (FLIGHT-SMOOTHNESS)
+
+- Fixed the jerky stop-start crawl after every load/unload. While the winch is still reeling the
+  sling in, the helicopter now holds its next job in a stable hover instead of fighting the game
+  with per-tick StopDriving calls. Winch retract is faster (14/16/18 m/s), and the hold has a
+  20-second failsafe so an aircraft can never be stuck held forever.
+- Smoothed the cruise altitude target: descending to a lower route base is now low-pass filtered
+  (climbs stay instant for obstacle safety), and the hard clearance clamp at obstacle edges is a
+  soft ramp instead of an instant pop. Altitude-traffic lanes no longer collapse and reappear
+  during loading, taxi and cargo drops.
+- Tamed the weather wobble: crosswind crab reduced from 13° to 6.5°, gust sway roughly halved,
+  and gusts no longer speed up at 2x/3x game speed. Heading follow is more responsive
+  (120°/s), so the nose no longer lags in steps on route corners.
+- Added visual smoothing (SmoothDamp, ~0.1 s) between the simulated and rendered altitude,
+  removing vertical steps at high game speed or low FPS. Scripted sequences (assembly emerge,
+  equipment yard, taxi) are unaffected.
+- Long helicopter routes now use 22-tile pathfinding hops instead of 16 (engine assert limit is
+  24), reducing micro-stops on long flights by about a third.
+- Steady cruise flight: the altitude target no longer ratchets up and down over narrow buildings
+  (rate-limited rise at 25 m/s with an emergency snap only below 100 m, hysteresis and a 2 s
+  peak-hold before descending). The helicopter holds a level attitude in straight flight — banking
+  now comes from turn rate (coordinated turn) and pitch from vertical speed, both zero on a
+  straight leg. Crosswind crab is steady instead of breathing with gusts, and the hover bob and
+  aero jitter fade out above walking speed. Rotor sound no longer calls out every altitude wobble.
+
 ## 0.19.1 (UPDATE-4.2-CHEAT-COMPAT)
 
 - Set the COI Hub compatibility target to the public **0.8.6** release. The mod was also locally
