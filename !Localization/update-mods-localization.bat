@@ -173,7 +173,7 @@ PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\Re
 PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\ShipAutoExplore-config.json|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\ShipAutoExplore\config.json
 ::PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\ShipAutoExplore.json|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\ShipAutoExplore\translations\ru.json
 
-::PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\ShippingPP.json|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\ShippingPP\translations\ru.json
+PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\ShippingPP.json|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\ShippingPP\Translations\ru.json
 
 PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\SmartFlareMod-config.json|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\SmartFlareMod\config.json
 ::PAIR|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\!Localization\mods\SmartFlareMod.json|C:\Users\www\AppData\Roaming\Captain of Industry\Mods\SmartFlareMod\translations\ru.json
