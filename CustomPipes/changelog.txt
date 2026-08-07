@@ -1,3 +1,12 @@
+V2.1.1 | 2026-08-05
+* 修复内存潜在风险和清理非必要日志输出
+* 对系统的日志进行屏蔽处理,避免因为遮罩产生动画报错的问题.
+* 减少热修改状态的响应速度
+* Fix potential memory risks and remove unnecessary log outputs
+* Shield system logs to prevent animation errors caused by masking
+* Improve the response speed of hot‑modification status
+
+
 V2.1.0 | 2026-08-05
 * 由中国玩家 好少年！(786216376) 提供配置文件.
 * 设定默认为游戏原版T1-T3传送带原始数据.
