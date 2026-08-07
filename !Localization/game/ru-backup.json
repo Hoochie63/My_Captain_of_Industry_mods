@@ -211,13 +211,13 @@
     ],
     [
         "AdoptPopsAction",
-        "Принять {0}-го жителя",
-        "Принять {0}-х жителей",
-        "Принять {0} жителей"
+        "Принять {0}-го мигранта",
+        "Принять {0}-х мигрантов",
+        "Принять {0} мигрантов"
     ],
     [
         "AdoptPops__Title",
-        "Принять жителей"
+        "Принять мигрантов"
     ],
     [
         "AdoptPops__Tooltip",
@@ -1374,11 +1374,11 @@
     ],
     [
         "BridgeLane_TrainTrack_Electric__name",
-        "Электрифицированные железнодорожные пути"
+        "Ж/Д пути (электр.)"
     ],
     [
         "BridgeLane_TrainTrack__name",
-        "Железнодорожные пути"
+        "Ж/Д путь"
     ],
     [
         "BridgeLanesSuffix",
@@ -1821,7 +1821,7 @@
     ],
     [
         "CargoShip__NotEnoughToPickUp",
-        "Ожидает достаточного количества материалов для загрузки"
+        "Ожидает достаточного количества материалов для отправки"
     ],
     [
         "CargoShip__NothingToPickUp",
@@ -3405,7 +3405,7 @@
     ],
     [
         "EntityPropertyModifier_PopulationSmall__Tooltip",
-        "Влияние жителей"
+        "Влияние численности населения"
     ],
     [
         "EntityPropertyModifier_Research__Tooltip",
@@ -8945,7 +8945,7 @@
     ],
     [
         "OceanAccessPartlyBlocked__name",
-        "Доступ к океану почти заблокирован"
+        "Доступ к океану частично заблокирован"
     ],
     [
         "OceanRenderingQuality",
@@ -15891,7 +15891,7 @@
     ],
     [
         "TrainTracks_Name",
-        "Железнодорожные пути"
+        "Ж/Д пути"
     ],
     [
         "TrainTracks_Super",
