@@ -1,10 +1,10 @@
 {
 	"id": "Bagger288Mod",
-	"version": "0.5.0",
+	"version": "0.7.0",
 	"min_game_version": "0.8.6c",
 	"display_name": "Bagger 288",
 	"description_short": "Bucket-wheel excavator for continuous strip mining with buffered loose outputs.",
-	"description_long": "Adds a Bagger 288-style excavator. Digs loose materials at the bucket wheel, buffers them internally, and exports via four rear ports (A–D). Place from Terraforming after researching the Bagger 288 node (next to Ultra-large vehicles). Set travel distance and optional reverse in the inspector. Alpha — back up your save.",
+	"description_long": "Adds a Bagger 288-style excavator. Digs loose materials at the bucket wheel, buffers them internally, and exports via four rear ports (A–D). Place from Terraforming after researching the Bagger 288 node (next to Ultra-large vehicles). Set travel distance, dig-arc yaw limits, optional reverse, and dig-arc overlay in the inspector. Alpha — back up your save.",
 	"authors": "aneverse",
 	"primary_dlls": [ "Bagger288Mod.dll" ],
 	"non_locking_dll_load": true,

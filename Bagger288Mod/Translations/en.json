@@ -1,0 +1,70 @@
+[
+	[
+		"Bagger288__name",
+		"Bagger 288"
+	],
+	[
+		"Bagger288__desc",
+		"Massive bucket-wheel excavator for continuous strip mining."
+	],
+	[
+		"UnlockBagger288__name",
+		"Bagger 288 excavator"
+	],
+	[
+		"UnlockBagger288__desc",
+		"Unlocks the Bagger 288 — a massive bucket-wheel excavator for continuous strip mining."
+	],
+	[
+		"Bagger288Mod__Planner",
+		"Planner"
+	],
+	[
+		"Bagger288Mod__MinedProducts",
+		"Mined material"
+	],
+	[
+		"Bagger288Mod__OutputPorts",
+		"Output ports"
+	],
+	[
+		"Bagger288Mod__TravelDistance",
+		"Travel distance"
+	],
+	[
+		"Bagger288Mod__TraveledForward",
+		"Traveled forward:"
+	],
+	[
+		"Bagger288Mod__ReverseWhenDistanceReached",
+		"Reverse when travel distance is reached"
+	],
+	[
+		"Bagger288Mod__YawLimitLeft",
+		"Max yaw left"
+	],
+	[
+		"Bagger288Mod__YawLimitRight",
+		"Max yaw right"
+	],
+	[
+		"Bagger288Mod__ShowYawArc",
+		"Show dig arc"
+	],
+	[
+		"Bagger288Mod__AssignProductToOutputPort",
+		"Assign this product to an output port."
+	],
+	[
+		"Bagger288Mod__TileUnit0",
+		"tile"
+	],
+	[
+		"Bagger288Mod__TileUnit1",
+		"tiles"
+	],
+	[
+		"Bagger288Mod__TileUnit2",
+		"tiles"
+	]
+]

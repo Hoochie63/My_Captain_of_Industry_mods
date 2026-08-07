@@ -21,6 +21,8 @@ How to use
    - Travel distance — how far (in tiles) the chassis may advance while mining this strip (0–200).
    - Reverse when distance reached — after hitting the limit, reverse and keep mining on the way back instead of stopping.
    - Traveled forward — progress so far on the current strip.
+   - Max yaw left / right — dig sector limits (22°–150° per side). Mining and aiming stay inside this arc.
+   - Show dig arc — world overlay of the current dig sector (two rays + front arc).
 4. Assign each mined product to at least one output port A–D (use the product pickers in the inspector). A warning icon appears on buffers that have no port assigned; those products will not leave. (works like ore sorter)
 
 Notes

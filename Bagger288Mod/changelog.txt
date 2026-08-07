@@ -1,3 +1,18 @@
+0.7.0
+- Dig-arc limits: set max tower yaw left and right (22°–150°); mining and aiming stay inside that sector.
+- Optional dig-arc world overlay (two rays + front arc); toggle in the inspector; saved and copied with blueprints.
+- Planner UI: yaw left/right on one row, horizontal divider, spacing around travel and dig-arc controls.
+- Rear conveyor ports A–D sit on a sparse aft layout row (storage-style perimeter), not inside solid construction cubes.
+
+0.6.1
+- Planner UI: traveled distance and travel-distance controls on one row; reverse toggle below.
+- Travel-distance controls stay fixed when the traveled value changes width.
+- Localized tile plural forms.
+
+0.6.0
+- Localization from Translations/ (en.json, ru.json); player-facing strings no longer hardcoded.
+- Fix blueprint copy wiping A–D port bindings and travel settings.
+
 0.5.0
 - Bagger 288 bucket-wheel excavator: dig, buffer, and export via rear ports A–D.
 - Research under Ultra-large vehicles; build from Terraforming toolbar.
