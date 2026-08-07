@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 3911087809
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c5f59a44b97872637a7ad814865a3a3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5e18fbacad9dd67605b8d367e0ce9f56
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bagger288Mod/Icons/Bagger288.png
+Dependencies: []

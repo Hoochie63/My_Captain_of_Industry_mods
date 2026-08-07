@@ -1,0 +1,5 @@
+0.5.0
+- Bagger 288 bucket-wheel excavator: dig, buffer, and export via rear ports A–D.
+- Research under Ultra-large vehicles; build from Terraforming toolbar.
+- Travel distance / reverse-after-max controls, workers, Maintenance II, power.
+- Custom toolbar icon and mod thumbnail.

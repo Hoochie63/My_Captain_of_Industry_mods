@@ -1,0 +1,12 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 1731945119
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bagger288_2fce
+      Dependencies: {}
+    Info_1:
+      Name: icons_5098
+      Dependencies: {}

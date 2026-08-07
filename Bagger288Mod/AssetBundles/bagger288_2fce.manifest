@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 191364975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 09ef8283e1c8798bd034a7ad58e8c334
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 482bedb00b97bd1f0956c28d0e2e48b9
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: afbd0d9cfc91ada7f76c5993710a62fc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Bagger288Mod/Bagger288.prefab
+Dependencies: []
