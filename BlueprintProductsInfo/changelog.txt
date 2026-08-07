@@ -1,0 +1,8 @@
+1.1.0
+- Fix crash on game 0.8.6c: recipe Duration moved to IRecipeForUi / machine bindings.
+- Blueprint detail panel no longer goes blank when selecting a blueprint.
+- Requires Captain of Industry 0.8.6c+.
+
+1.0.0
+- Initial release: inputs, outputs, and pollution per minute in blueprint details.
+- Netting of matching input/output products; mod thumbnail.

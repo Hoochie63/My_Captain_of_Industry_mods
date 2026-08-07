@@ -1,7 +1,7 @@
 {
   "id": "BlueprintProductsInfo",
-  "version": "1.0.0",
-  "min_game_version": "0.8.4b",
+  "version": "1.1.0",
+  "min_game_version": "0.8.6c",
   "display_name": "Blueprint Products Info",
   "description_short": "Shows input and output products for buildings in blueprint details.",
   "authors": "aneverse",
