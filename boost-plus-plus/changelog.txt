@@ -1,3 +1,12 @@
+v1.2.1 | 2026-07-29
+* Now supports game version 0.8.7.
+* Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Boost++ now supports every language the base game does.
+* Fixed the Overlord window title, and its Save and Load buttons and their tooltips, always showing in English no matter your language.
+* Fixed a few status messages (sorting-boost percentages, group add/remove notices) that stayed in English in every language.
+* Fixed the Save button showing as an unrelated word in Russian and Ukrainian.
+* General UI fixes — several buttons and names no longer wrap or overlap in some languages.
+
 v1.2.0 | 2026-07-29
 * Now supports game version 0.8.6b.
 

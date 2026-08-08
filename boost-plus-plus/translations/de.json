@@ -193,5 +193,19 @@
   "Lift": "Aufzug",
   "Sorter": "Sortierer",
   "Balancer": "Balancer",
-  "Click to change order: default, by speed, by name (A-Ö), or by type.": "Klicken, um die Reihenfolge zu ändern: Standard, nach Tempo, nach Name (A-Ö) oder nach Typ."
+  "Click to change order: default, by speed, by name (A-Ö), or by type.": "Klicken, um die Reihenfolge zu ändern: Standard, nach Tempo, nach Name (A-Ö) oder nach Typ.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Öffnet die Mori++ Suite-Einstellungen. Tastenkürzel zum Öffnen: Alt + W",
+  "Overlord": "Overlord",
+  "Load": "Laden",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Speichert alle Einstellungen dieses Mods (jeder Tab in diesem Fenster) in einem Profil, das du in anderen Spielen wieder laden kannst.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Lädt ein gespeichertes Profil und stellt alle Einstellungen dieses Mods (jeder Tab in diesem Fenster) wieder her.",
+  "Overwrite your saved profile with your current settings?": "Dein gespeichertes Profil mit den aktuellen Einstellungen überschreiben?",
+  "Load your saved profile? Your current settings will be replaced.": "Gespeichertes Profil laden? Deine aktuellen Einstellungen werden ersetzt.",
+  "Sorting boost: +{0}%": "Sortier-Boost: +{0}%",
+  "+0% inventory": "+0% Inventar",
+  "+{0}% inventory": "+{0}% Inventar",
+  "Not a boostable entity": "Keine boostbare Entität",
+  "Removed from {0}": "Aus {0} entfernt",
+  "Added to {0}": "Zu {0} hinzugefügt",
+  "✕  Close": "✕  Schließen"
 }
