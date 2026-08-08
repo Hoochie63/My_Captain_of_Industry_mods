@@ -7,7 +7,7 @@
         "Allowed vehicle types": "Фильтр разрешённой техники",
 
         "Select any number of vehicle types. If none are selected, all supported base-game and mod vehicles are allowed.": "<align=\"center\">Фильтр разрешённой техники.<br>Выберите тип техники, которая будет разрешена для парковки. Если ничего не выбрано, разрешена вся поддерживаемая техника из основной игры и установленных модов.</align>",
-        "Reset the vehicle filter to allow all supported vehicles. This also removes saved entries for uninstalled vehicle mods.": "<align=\"center\">Сбрасывает фильтр и разрешает всю поддерживаемую технику. Также удаляет отсутствующую технику с модов, которые больше не установлены, или не активированы для этого сохранения.</align>",
+        "Reset the vehicle filter to allow all supported vehicles. This also removes saved entries for uninstalled vehicle mods.": "<align=\"center\">Сбрасывает фильтр и разрешает всю поддерживаемую технику. Также удаляет отсутствующую технику с разных модов, которые больше не установлены, или не активированы для этого сохранения.</align>",
 
         "Parking slot": "Парковочное место",
 
@@ -83,7 +83,7 @@
     "il_reminder_parking_name": {
         "description": "IL код для ParkingAreaName (формирование названия парковки)",
         "lines": [
-            "9 0029 ldc.i4.5 - создаем массив из 5 элементов",
+            "9 0029 ldc.i4.5 - создаём массив из 5 элементов",
             "10 002A newarr [mscorlib]System.String",
             "11 002F dup - дублируем ссылку на массив",
             "12 0030 ldc.i4.0 - индекс 0",
