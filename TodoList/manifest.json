@@ -1,0 +1,19 @@
+{
+	"id": "TodoList",
+	"version": "0.1.0",
+	"display_name": "To-Do List",
+	"description_short": "An in-game to-do list: write down what is left to build, tick it off when done. Saved with your game.",
+	"description_long": "<b>To-Do List</b>\n\nAdds a to-do list right inside the game, so you never lose track of what you were about to build.\n\n<b>Features</b>\n- Open the panel from the toolbar button, or with <b>F8</b>.\n- Type a task and press Enter to add it.\n- Tick a task off: it moves to a collapsible <i>Done</i> section instead of cluttering your list.\n- Reorder tasks with the up and down arrows.\n- Delete a task you no longer need.\n\n<b>The window behaves like the game's own panels</b>\n- Drag it by its title bar; the position is remembered.\n- Resize its width by dragging the right edge.\n- Pin it so it stays open while you work.\n\n<i>Your list is stored in the save file, so each game keeps its own tasks. The mod can be added to or removed from an existing save at any time.</i>",
+	"authors": [
+		"Lofwyr"
+	],
+	"min_game_version": "0.8.6",
+	"max_verified_game_version": "0.8.6",
+	"primary_dlls": [
+		"TodoList.dll"
+	],
+	"non_locking_dll_load": true,
+	"can_add_to_saved_game": true,
+	"can_remove_from_saved_game": true,
+	"primary_mod_class_name": "TodoListMod"
+}

@@ -1,0 +1,17 @@
+{
+    "TodoList.Tr": {
+        "TodoList_WindowTitle": "Список задач",
+        "TodoList_SectionTodo": "Запланировано ({0})",
+        "TodoList_SectionDone": "Выполнено ({0})",
+        "TodoList_EmptyList": "Пока ничего не запланировано.",
+        "TodoList_InputPlaceholder": "<i>Напишите тут задачу или напоминание</i>",
+        "TodoList_AddTooltip": "Добавить эту задачу в список",
+        "TodoList_DeleteTooltip": "Удалить эту задачу",
+        "TodoList_PinTooltip": "Закрепить окно",
+        "TodoList_CloseTooltip": "Закрыть",
+        "TodoList_ResizeTooltip": "Перетащите, чтобы изменить ширину",
+        "TodoList_MoveUpTooltip": "Переместить вверх",
+        "TodoList_MoveDownTooltip": "Переместить вниз",
+        "TodoList_CollapseTooltip": "Нажмите, чтобы свернуть или развернуть раздел"
+    }
+}
