@@ -34,6 +34,7 @@ Keys used by this mod
 - UnlockBagger288__name / UnlockBagger288__desc — research node
 - Bagger288Mod__* — inspector UI labels
 - Bagger288Mod__YawLimitLeft / YawLimitRight / ShowYawArc — dig-arc limits and overlay
+- Bagger288Mod__UseExtendedPorts — wider rear ports model (shifts C/D)
 - Bagger288Mod__TileUnit0/1/2 — plural forms of "tile" (language plural index)
 
 Game-supported languages (file name)

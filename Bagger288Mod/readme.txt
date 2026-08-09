@@ -23,6 +23,7 @@ How to use
    - Traveled forward — progress so far on the current strip.
    - Max yaw left / right — dig sector limits (22°–150° per side). Mining and aiming stay inside this arc.
    - Show dig arc — world overlay of the current dig sector (two rays + front arc).
+   - Extended ports — wider rear sleeve so ports C and D sit one tile farther out (easier conveyor spacing). Saved with the machine and blueprints; default is the standard sleeve.
 4. Assign each mined product to at least one output port A–D (use the product pickers in the inspector). A warning icon appears on buffers that have no port assigned; those products will not leave. (works like ore sorter)
 
 Notes

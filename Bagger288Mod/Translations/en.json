@@ -52,6 +52,10 @@
 		"Show dig arc"
 	],
 	[
+		"Bagger288Mod__UseExtendedPorts",
+		"Extended rear ports"
+	],
+	[
 		"Bagger288Mod__AssignProductToOutputPort",
 		"Assign this product to an output port."
 	],

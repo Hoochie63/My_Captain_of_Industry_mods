@@ -1,3 +1,7 @@
+0.7.1
+- Update ru localization.
+- Optional extended rear ports model (wider sleeve; C/D shift one tile); toggle in inspector; saved and copied with blueprints.
+
 0.7.0
 - Dig-arc limits: set max tower yaw left and right (22°–150°); mining and aiming stay inside that sector.
 - Optional dig-arc world overlay (two rays + front arc); toggle in the inspector; saved and copied with blueprints.

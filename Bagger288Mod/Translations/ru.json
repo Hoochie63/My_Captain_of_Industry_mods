@@ -49,7 +49,11 @@
 	],
 	[
 		"Bagger288Mod__ShowYawArc",
-		"Показать дугу копания"
+		"Показать дугу поворота башни"
+	],
+	[
+		"Bagger288Mod__UseExtendedPorts",
+		"Расширенные выходные порты"
 	],
 	[
 		"Bagger288Mod__AssignProductToOutputPort",
