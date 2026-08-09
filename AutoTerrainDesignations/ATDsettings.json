@@ -1,5 +1,5 @@
 {
-  "settingsVersion": "0.5.8",
+  "settingsVersion": "0.5.10",
 
   "_comment_diagnosticLevel": "Controls ATD diagnostic output. Default selects Debug in Debug builds and Info in Release builds. Warning keeps only warnings/errors; Info adds concise operational messages; Debug adds search summaries and timings; Trace adds full paths, plan tiles, successors, and handoffs. The atd_diagnostic_level command overrides this for the current session. Allowed: Default, Warning, Info, Debug, Trace.",
   "diagnosticLevel": "Default",

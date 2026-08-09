@@ -281,7 +281,7 @@
   ],
   [
     "settings.world.allow_ramps_outside_tower_areas.label",
-    "Allow ramps outside tower areas"
+    "Tillåt ramper utanför tornområden"
   ],
   [
     "settings.world.allow_ramps_outside_tower_areas.tooltip",
@@ -678,6 +678,10 @@
   [
     "toolbox.corner_inner.tooltip",
     "Hörn (inre): placera konkava hörnramper."
+  ],
+  [
+    "toolbox.corner_planar.tooltip",
+    "Planar hörna: placera en diagonal planramp."
   ],
   [
     "notification.ramp_access_failed",
