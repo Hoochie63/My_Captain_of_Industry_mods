@@ -35,6 +35,7 @@ COLLAPSE CONTROLS
 COMPATIBILITY
 -------------
 
+- Verified for Captain of Industry 0.8.7.
 - Supports compatible vanilla and modded vehicles.
 - Works with Gameplay++ and Auto Terrain Designations.
 - Keeps native localized names unchanged.
@@ -43,6 +44,6 @@ COMPATIBILITY
 LANGUAGES
 ---------
 
-- Includes English and translations for 18 additional supported languages.
-- Included languages include: Catalan, Simplified Chinese, Czech, Dutch, Estonian, French, German, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Ukrainian.
+- Includes all 21 languages available in the game: English plus 20 translations.
+- Included languages: Catalan, Simplified Chinese, Traditional Chinese, Czech, Dutch, Estonian, French, German, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Turkish, Ukrainian.
 - Contact me on Discord or in the forums to make any needed corrections to the translations.

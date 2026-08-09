@@ -1,3 +1,7 @@
+v1.0.5 | 2026-08-09
+* Verifies compatibility with Captain of Industry 0.8.7.
+* Adds Turkish and Traditional Chinese translations, completing support for all 21 languages available in the game.
+
 v1.0.4 | 2026-08-04
 * Adds translations for 18 additional supported languages.
 * Included languages include: Catalan, Simplified Chinese, Czech, Dutch, Estonian, French, German, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese (Brazil), Russian, Spanish, Swedish, Ukrainian.
