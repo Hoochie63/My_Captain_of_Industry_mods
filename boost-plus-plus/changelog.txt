@@ -1,3 +1,18 @@
+v1.2.2 | 2026-08-07
+* Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
+* New "Auto Boost" checkmark in a building's Boost++ panel. When ticked, the building sets its own boost speed based on how full your global storage of the
+  product it makes is — speeding up when stock runs low and slowing down when it piles up. It never uses more power or workers than you have spare, and the
+  slider locks while it is on. Available on machines such as smelters and assemblies.
+
+  - Buildings slowed below 100% now use less electricity and fewer workers instead of costing the same as default speed.
+
+  - Auto Boost can also be turned on and off from the Boost Manager — an Auto column in the group member list and in the Mass Select tab.
+
+  - The Boost++ settings let you tune the storage thresholds, how often it updates, how much power and how many workers to keep spare, and how big each
+    change can be.
+
+  - You can also set how much electricity and how many workers a slowed-down building saves.
+
 v1.2.1 | 2026-07-29
 * Now supports game version 0.8.7.
 * Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.

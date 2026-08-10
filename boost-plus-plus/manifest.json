@@ -1,6 +1,6 @@
 {
     "id": "boost-plus-plus",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "display_name": "Boost++",
     "description": "Boost++ adds individual boost controls to every building and transport in your factory. Adjust machines, offices, ore sorters, waste plants, belts and pipes from a central manager. Rename buildings, attach searchable comments, jump the camera to any entry, copy boost between buildings, apply mass boosts, and more.",
     "description_short": "Fine-tune production speed for every machine, belt and pipe individually — with a manager for sorting, renaming, comments, mass-boost, copy-boost, and more",
