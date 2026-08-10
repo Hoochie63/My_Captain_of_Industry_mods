@@ -1,5 +1,6 @@
 {
-  "settingsVersion": "0.5.10",
+  "settingsVersion": "0.5.11",
+  "settingsDefaultsRevision": 3,
 
   "_comment_diagnosticLevel": "Controls ATD diagnostic output. Default selects Debug in Debug builds and Info in Release builds. Warning keeps only warnings/errors; Info adds concise operational messages; Debug adds search summaries and timings; Trace adds full paths, plan tiles, successors, and handoffs. The atd_diagnostic_level command overrides this for the current session. Allowed: Default, Warning, Info, Debug, Trace.",
   "diagnosticLevel": "Default",
@@ -57,7 +58,7 @@
   "autoReleaseTrucksWhenIdle": false,
 
   "_comment_turningRampsExperimental": "When enabled, AUTO and T1-T3 may use routed turning or switchback accessways. Legacy 3-5 remain straight-only. Default: true.",
-  "turningRampsExperimental": false,
+  "turningRampsExperimental": true,
 
   "_comment_suppressLegacyAccessRamps": "Disable the legacy straight-ramp generator so experimental accessway results and failures can be tested directly. Leave false for normal fallback behavior. Default: false.",
   "suppressLegacyAccessRamps": false,

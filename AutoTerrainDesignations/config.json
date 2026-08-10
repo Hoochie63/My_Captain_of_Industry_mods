@@ -1,6 +1,6 @@
 {
     "atdTowerSettingsStateJson": {
-        "default": "Оставьте меня! Я необходим для сохранения настроек вышек мода в стандартном файле сохранения.",
+        "default": "Keep me! I am required to persist the mod tower settings within the vanilla save file.",
         "description": "Не удаляйте — требуется для регистрации параметра «atdTowerSettingsStateJson» игрой, используется для сохранения настроек вышек мода в стандартном файле сохранения. Не редактируйте вручную."
     },
     "atdPendingVehicleAllocations": {
