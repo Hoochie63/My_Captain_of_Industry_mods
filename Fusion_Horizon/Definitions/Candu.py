@@ -166,7 +166,7 @@ candu_reactor_t1 = build_nuclear_reactor(
     computingConsumed = 0,
     fuel_pairs             = [
         FuelPair(fuelIn="Product_UraniumRod", spentFuelOut="Product_SpentFuel", durationSeconds=120),
-        FuelPair(fuelIn="Product_Candu_rod", spentFuelOut="Product_SpentFuel", durationSeconds=120)
+        FuelPair(fuelIn="Product_Candu_rod", spentFuelOut="Product_SpentFuel", durationSeconds=60)
     ],
     coolantIn = "Product_heavy_water",
     coolantOut = "Product_heavy_water_high",
@@ -189,7 +189,7 @@ candu_reactor_t2 = build_nuclear_reactor(
     fuel_pairs             = [
         FuelPair(fuelIn="Product_MoxRod", spentFuelOut="Product_SpentMox", durationSeconds=120),
         FuelPair(fuelIn="Product_UraniumRod", spentFuelOut="Product_SpentFuel", durationSeconds=120),
-        FuelPair(fuelIn="Product_Candu_rod", spentFuelOut="Product_SpentFuel", durationSeconds=120)
+        FuelPair(fuelIn="Product_Candu_rod", spentFuelOut="Product_SpentFuel", durationSeconds=60)
     ],
     coolantIn = "Product_heavy_water",
     coolantOut = "Product_heavy_water_high",
@@ -198,3 +198,4 @@ candu_reactor_t2 = build_nuclear_reactor(
     layout_str = "      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][5][5][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][5][6][7][7][7][7][7][7][7][7][6][5][5]   \n      [4][5][6][7][7][7][7][7][7][7][7][6][5][5]   \n      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n      [4][4][6][7][7][7][7][7][7][7][7][5][5][5]   \n   [3][4][4][6][7][7][7][7][7][7][7][7][5][5][5]   \nF#>[3][4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \n   [3][4][4][4][7][7][7][7][7][7][7][7][5][5][5]   \nS#<[3][4][4][4][4][4][6][6][6][6][4][4][4][4][4]   \n   [3][4][4][4][4][5][5][5][5][5][5][4][4][4][4][3]\n   [3][4][4][4][6][6][6][6][6][6][6][5][4][4][4][3]\n   [3][4][4][6][6]-3]-3]-3]-3][6][6][6][5][5][4][3]\n   [3][4][5][6]-3]-3]-5]-5]-3]-3]-3][6][6][5][4][3]\n   [3][4]-3]-3]-3]-5]-5]-5]-5]-5]-3]-3]-3][5][4][3]\n   [3][4]-4]-4]-5]-5]-5]-5]-5]-5]-4]-4]-3][5][4][3]\n   [3][4]-4]-4]-5]-5]-5]-5]-5]-5]-4]-4]-3][5][4][3]\n   [3][4]-3]-3]-5]-5]-5]-5]-5]-5]-3]-3]-3][5][4][3]\n   [3][4][5]-3]-3]-5]-5]-5]-5]-5]-3][6][6][5][4][3]\n   [3][4][4][5]-3]-3]-3]-3]-3]-3]-3][6][5][5][4][3]\n      [4][4][4][5][6][6][6][6][6][6][5][4][4][4]   \n         [4][4][4][5][5][5][5][5][5][4][4][4]      \n      D@>[4][4][4][4][4][4][4][4][4][4][4][4]W@>   \n         [4][4][4][4][4][4][4][4][4][4][4][4]      \n      A@>[4][4][4][4][4][4][4][4][4][4][4][4]X@>   \n      B@>[4][4][4][4][4][4][4][4][4][4][4][4]Y@>   \n         [4][4][4][4][4][4][4][4][4][4][4][4]      ",
     research = "ResearchNuclearReactor2"
 )
+

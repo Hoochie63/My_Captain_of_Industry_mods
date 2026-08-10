@@ -87,3 +87,33 @@ unlock_plasma_refined_recipe = add_unlock_recipe(
     "Recipe_plasma"
 )
 
+with build_recipe(
+    "Helium_discharged_T2",
+    "Helium Discharged",
+    "",
+    ingredients = [
+        Product("Product_helium", Quantity(30))
+    ]
+) as helium_discarded_T2_recipe:
+    bind_recipe(
+        "SmokeStackLarge",
+        duration = Duration.FromSec(30),
+        ports = [],
+        research = "Research_Fusion_Reactor"
+    )
+
+with build_recipe(
+    "Helium_discharged_T1",
+    "Helium Discharged",
+    "",
+    ingredients = [
+        Product("Product_helium", Quantity(30))
+    ]
+) as helium_discarded_T1_recipe:
+    bind_recipe(
+        "SmokeStack",
+        duration = Duration.FromSec(30),
+        ports = [],
+        research = "Research_Fusion_Reactor"
+    )
+
