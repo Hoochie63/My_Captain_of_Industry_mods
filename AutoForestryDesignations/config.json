@@ -1,6 +1,6 @@
 {
     "afdTowerSettingsStateJson": {
-        "default": "{\"schemaVersion\":1,\"towerSettings\":[]}",
+        "default": "{\"schemaVersion\":1,\"worldSettings\":{\"keepLoadedPlantersInTheField\":false},\"towerSettings\":[]}",
         "description": "Внутреннее сохранённое состояние настроек вышки для Auto Forestry Designations. Не редактируйте вручную."
     },
     "afdPendingVehicleAllocations": {

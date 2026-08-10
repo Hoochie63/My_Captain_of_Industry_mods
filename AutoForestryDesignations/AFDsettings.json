@@ -1,5 +1,5 @@
 {
-  "settingsVersion": "0.2.5",
+  "settingsVersion": "0.2.6",
 
   "_comment": "AutoForestryDesignations settings. These values set the defaults loaded at game start. Most settings can also be changed per forestry tower in-game via the tower inspector.",
 
@@ -34,5 +34,8 @@
   "forestryInformationPanelCollapsed": false,
 
   "_comment_truckPoolingEnabled": "Default for new tower panels. When true, trucks assigned to forestry towers are pooled and automatically distributed among its active tree harvesters. Default: true.",
-  "truckPoolingEnabled": true
+  "truckPoolingEnabled": true,
+
+  "_comment_keepLoadedPlantersInTheField": "World-level setting. When true, loaded tree planters stay in the field and retry planting instead of returning to their forestry tower when no target is immediately available. Default: false.",
+  "keepLoadedPlantersInTheField": false
 }
