@@ -1,3 +1,6 @@
+0.7.2
+- Fix leftover blocked tiles at the rear after demolishing a bagger that had advanced while mining.
+
 0.7.1
 - Update ru localization.
 - Optional extended rear ports model (wider sleeve; C/D shift one tile); toggle in inspector; saved and copied with blueprints.
