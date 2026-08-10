@@ -1,3 +1,20 @@
+v1.3.1 | 2026-07-29
+* Now supports game version 0.8.7.
+* Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.
+* New Save/Load buttons in the settings window — save all your Cheat++ settings to a profile and reload them in any save or new game, so you never set everything up twice.
+* Cheats tab tidied up — the window is wider, cheat names are no longer cut off, and the Set Power/Set Load and research buttons no longer sit glued together.
+* Fixed the Unlimited Oil cheat showing in English in every language — its name was renamed but the translations were not updated (thanks yazora for the report).
+* Shipyard and Spawner buttons now show their confirmation message on the first click instead of only after a second click (thanks Hoochie for the report).
+* Those messages are now translated into all languages, and they clear themselves after 3 seconds instead of staying on screen while you switch tabs.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Cheat++ now supports every language the base game does.
+* Fixed the Overlord window title, and its Save and Load buttons and their tooltips, always showing in English no matter your language.
+* Fixed dozens of status messages — research, world map, Unity, tree removal, vehicle limits, profile save/load, and more — that stayed in English in every language.
+* Fixed the WorldGen tab name always showing in English.
+* Save, Load and Reveal Entire World Map now ask you to confirm first, so you cannot overwrite your settings or reveal the map by accident. (thanks Mag for the suggestion)
+* New "I am a naughty cheater!" toggle unlocks the sandbox sources and sinks in a normal game — find them under Transports, I/O markers. (thanks Hoochie for the suggestion)
+* Fixed "Move Cargo" on the Shipyard tab destroying the ship's cargo instead of moving it. It now transfers everything, even past the limit. (thanks Hoochie for the report)
+* General UI fixes — several buttons and names no longer wrap or overlap in some languages.
+
 v1.3.0 | 2026-07-29
 * Now supports game version 0.8.6b.
 
