@@ -1,3 +1,9 @@
+v1.3.2 | 2026-08-10
+* Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
+* The "Ignore Research Item Requirements" and "Ignore Research Parent Requirements" tooltips now note that they don't include World Map item requirements. (thanks Hoochie for the report)
+* Fixed Keep Full/Keep Empty buttons on storage buildings appearing twice in Sandbox games or saves. (thanks Hoochie for the report)
+* Keep Full/Keep Empty floating labels now update when you use the game's own Sandbox buttons, not just Cheat++'s. (thanks Hoochie for the report)
+
 v1.3.1 | 2026-07-29
 * Now supports game version 0.8.7.
 * Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.
