@@ -1,0 +1,24 @@
+{
+  "id": "Toolbar-Tweaks",
+  "version": "1.0.0",
+  "display_name": "Toolbar Tweaks",
+  "description_short": "Customize your toolbar—move, resize, scale and layer up to 20 sections • drag & drop buttons; add bottom borders • Save & Load multiple profiles.",
+  "description_long": "Toolbar Tweaks provides a complete visual editor for the Captain of Industry toolbar. Move and resize sections, reorganize existing buttons, manage layers, scale toolbar components, and save reusable .toolbar profiles without rewriting menu contents, IDs, translations, actions, unlocks, or gameplay behavior.",
+  "authors": [
+    "xTMagTx"
+  ],
+  "min_game_version": "0.8.6",
+  "max_verified_game_version": "0.8.6c",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "AdaptiveToolbarUi.dll"
+  ],
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [
+    "keybind-framework"
+  ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "AdaptiveToolbarUiMod"
+}

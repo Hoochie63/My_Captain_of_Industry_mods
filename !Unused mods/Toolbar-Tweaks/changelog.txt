@@ -1,0 +1,51 @@
+v1.0.0 | 2026-08-07
+
+GETTING STARTED
+* Create a dedicated Mod menus section for detected mod-toolbar menus.
+* Add a gold Toolbar Tweaks wrench button to the toolbar.
+* Left-click the wrench to open or close the Editor & Settings panel.
+* Right-click the wrench to toggle Edit Mode immediately.
+* Ctrl + [ and Ctrl + ] available as native fallback shortcuts.
+* Register both shortcuts in a dedicated Toolbar Tweaks tab when Keybind Framework is installed
+* Reuse the original live toolbar buttons so their names, IDs, icons, actions, unlocks, visibility rules, and translations remain unchanged.
+
+LAYOUT EDITOR
+* Highlight every editable toolbar component while Edit Mode is active.
+* Ctrl + Left-drag moves a section anywhere within the screen boundaries.
+* Shift + Left-drag resizes a section horizontally.
+* Alt + Left-drag resizes a section vertically and can shrink its buttons below their normal height.
+* Ctrl + Shift + Left-drag reorders buttons or moves them between sections with Drag & Drop.
+* Ctrl + Shift + Alt + Left/Right-click controls which overlapping section or search panel appears in front.
+* Invalid button drops return safely without losing the button.
+* Toggle option to move all sections while moving the toolbar background
+* Auto Shift automatically adds new sections to the end of the toolbar and adjusts empty space when dragging & dropping icons from one section to another for easy setup.
+* Toggle Auto-shift for making more complex multi-row layouts when you do not want this behavior.
+* Scale sliders for Toolbar, Ctrl+F search, and submenu between 50% and 200%
+* Add up to 20 custom sections to organize your buttons, removing sections will target empty sections with no buttons.
+* Show or hide individual toolbar buttons.
+* Reset individual components or restore the complete default layout.
+
+CUSTOMIZE SECTIONS
+* Select any active section from a dropdown
+* Rename each section and use identify to highlight the currently selected section.
+* Reset the currently selected section's position, size, layer, and border while preserving its name and assigned buttons.
+* Customize each section's bottom border between Off, Concave, and Convex styles.
+
+SETTINGS AND TOOLBAR PROFILES
+* Save complete toolbar arrangements as reusable .toolbar profile files.
+* Select, load, overwrite, rename, or permanently delete toolbar profiles.
+* Separately identify the selected profile and the profile currently active on the toolbar.
+* Display success and error feedback in a Status panel.
+* Copy toolbar profiles folder path for File Explorer access and profile sharing.
+* Use the refresh button to update the profiles shown after making out-of-game .toolbar file changes.
+
+LANGUAGE SUPPORT
+* Basic translation support for Catalan, Czech, German, Spanish, Estonian, French, Hungarian, Italian, Japanese, Korean, Norwegian, Dutch, Polish, Portuguese, Russian, Swedish, Ukrainian, and Chinese.
+* If you find a translation issue, please report it on the forums here or contact me on Discord.
+* Will try to improve interface to support language support better, with less text wrapping in future versions.
+
+KNOWN BUGS OR LIMITATIONS
+* May need to load a profile a 2nd time to get sections or submenu & items panel to update to your saved profile positions. (will fix)
+* Optional calendar T button only works until you exit the game. (will fix soon)
+* Complex layouts involving the top of the screen may require you to load the profile after loading your game. — (hopefully fixed)
+* Submenu & Item panel may not always behave perfectly when rescaled or too close to screen's edge, try reloading the profile, or reset the Submenu & Item panel in layout editor. (will try to find better system for manipulating item-panel in future)
