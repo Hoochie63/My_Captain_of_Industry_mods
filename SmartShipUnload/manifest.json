@@ -1,0 +1,11 @@
+﻿{
+	"id": "SmartShipUnload",
+	"display_name": "Smart Ship Unload",
+	"version": "0.1.1a",
+	"primary_dlls": ["0Harmony.dll", "SmartShipUnload.dll" ],
+	"min_game_version": "0.8.5",
+	"max_verified_game_version": "0.8.6",
+	"non_locking_dll_load": true,
+	"can_add_to_saved_game": true,
+	"can_remove_from_saved_game": true
+}
