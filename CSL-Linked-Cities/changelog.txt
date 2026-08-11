@@ -1,0 +1,11 @@
+v1.0.1 | 2026-08-07
+* Rebuilt and verified compatibility with Captain of Industry 0.8.7 while retaining support for Captain of Industry 0.8.6 through 0.8.6c.
+* Fixed startup failing when Linked Cities was enabled without another Harmony-based mod by ensuring the bundled Harmony library loads first.
+
+v1.0.0 | 2026-08-02
+* Public beta: links every player City Block into one shared vanilla Settlement economy, even when towns are physically separated across the island.
+* Population stats will show shared/combined population, housing, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity stats across all linked City Blocks.
+* Allows exterior, interior, and bridge City Blocks, including unbuilt plans, to be removed without requiring the physical town to remain contiguous. Attached settlement services must still be removed first.
+* Can be added to existing saves. Established settlements with active monthly history may finish the current month before their first link.
+* Registers no custom gameplay entities or prototypes and can be removed from saves. Already-linked vanilla Settlements are not automatically split apart when the mod is disabled.
+* Mod will be considered stable once all deep late-game testing is complete and mod proves to correctly preserve accurate math across all population data under equal input/output conditions. In other words, the same amount of city tiles should produce the EXACT same demand, satisfaction, intput, and output numbers whether they are connected, or separated. Early-to-Mid game testing has proven correct so far, but there's alot of edge cases to test by myself that require many hours of beta testing. — If you notice any incorrect population data, please report so I can ensure all game balance & population systems remain preserved & unbroken.
