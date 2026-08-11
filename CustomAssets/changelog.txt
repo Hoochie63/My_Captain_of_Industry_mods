@@ -1,4 +1,67 @@
-﻿v0.2.0 | 2026-06-12:
+﻿v0.4.0 | 2026-07-27:
+- new auto_select_recipes flag on build_machine / clone_machine controls whether a
+  freshly-placed machine auto-selects its recipes:
+  - True  = the machine auto-selects every unlocked recipe on placement / unlock
+  - False = the machine starts with NO recipe selected so the player picks one
+  - blank = inherit the source machine's behaviour (unchanged from before)
+  note: the game still auto-selects when a machine has exactly one unlocked recipe -
+  this is a game-side rule the flag cannot override
+- edit_machine_ports gained the same auto_select_recipes flag so an EXISTING (vanilla
+  or modded) machine's recipe auto-select behaviour can be flipped in place; the call
+  may be used purely for this, with no add_ports
+- visual editor: build_machine and edit_machine_ports now show a live read-out of the
+  source/target machine's current auto-select state and the effective result of the
+  override, so you can see whether the behaviour is active before saving
+
+v0.3.0 | 2026-07-20:
+- updated for the Captain of Industry build from 2026-07-18, which made recipes
+  machine-less - a RecipeProto no longer carries a duration or ports
+- recipes are now defined in two steps:
+  - build_recipe(...) defines only the recipe itself (inputs, outputs, power)
+  - new bind_recipe(recipe, machine, duration, ports, multiplier,
+    minPartialUtilization, research) attaches it to a machine
+  - one recipe can be bound to several machines, each with its own duration,
+    port mapping and throughput multiplier
+  - legacy build_recipe(machine = ..., duration = ...) keeps working unchanged
+- new PortMap(product, port) describes a binding's port mapping - product and
+  port only, no quantity (quantities belong to the recipe). A port can be a
+  single letter "A", several ports "AB", or "*" for the first free compatible
+  slot
+- outputs of the same product type are now spread across distinct ports
+  automatically - fixes "output port matching is ambiguous" for recipes with
+  several fluid (or several loose) outputs
+- python scripts: the parser understands `with` / `as`, so a recipe can be
+  written as `with build_recipe(...) as r:` with the bind_recipe(...) calls in
+  the body attaching to it implicitly (the recipe may also be passed explicitly)
+- visual editor: a recipe's machines are shown as TABS with [add] / [remove]
+  above the tab strip; duration, port mapping, multiplier, partial utilization
+  and research are edited per machine tab instead of on the recipe itself
+- visual editor: recipes are saved as `with build_recipe(...) as r:` blocks -
+  opening a legacy build_recipe(machine = ...) recipe and saving it upgrades
+  the file to the split format
+- fixed build_product_loose against the new LooseProductProto.Gfx (prefabPath
+  and useRoughPileMeshes were replaced by a shared product mesh family)
+- docs: new RECIPES.md covering the split API, the `with` form, PortMap and the
+  legacy one-shot form; recipes section of MODDING.md updated to match
+- added the CustomAssets_RecipeSplitTest sample pack, which exercises every
+  recipe path (with/as, with without as, explicit bind, multi-type outputs,
+  legacy one-shot)
+- visual editor: added search box to the "add definition" picker (filters all
+  entries, hides section headers with no matches)
+- visual editor: added "new definition file..." entry to the "add definition"
+  picker - asks for a name, creates Definitions/<name>.py and registers
+  "import <name>" in __init__.py
+- visual editor: definitions can now be added directly to __init__.py
+  (previously the "+ add definition" button was hidden there)
+- visual editor: added "takes effect after a game restart" note where it
+  applies - under "+ add port" in every port list, and at the top of every
+  entity clone editor (protos are registered at load time, so new ports and
+  clones cannot show up in the in-game lists until the next launch)
+- docs: new "When changes take effect" section in MODDING.md, plus a note in
+  the PortMap section of RECIPES.md
+  recipes guide online: https://coigame.com/Topic/1704/-Recipes
+
+v0.2.0 | 2026-06-12:
 - new big feature:
   - added option to use ingame visual tool to change game data (instead of python scripts)
 - fixed order of products in exhaust scrubber

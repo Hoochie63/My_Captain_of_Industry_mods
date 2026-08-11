@@ -200,6 +200,43 @@ def product_exist(product: ProductProto | ProductProto.ID | str) -> bool:
     """
     pass
 
+def migrate_recipe(
+        old: RecipeProto | RecipeProto.ID | str,
+        new: RecipeProto | RecipeProto.ID | str,
+        since: str | None = None
+    ) -> str:
+    """
+    Declares that a recipe you USED TO ship has been renamed or merged into another one.
+    Machines and blueprints in existing saves that still point at `old` are remapped to
+    `new` when the save loads. Without this, the player silently loses the recipe: the
+    game drops any assigned recipe its machine no longer knows about.
+
+    Parameters:
+        old: required - the recipe id you removed. It must NO LONGER be built by this
+            pack; a migration replaces the old recipe rather than aliasing it.
+        new: required - the replacement recipe. Must already be registered, so declare
+            the migration after the build_recipe(...) that creates it.
+        since: optional - documents the pack version this rename shipped in, e.g.
+            "0.4.0". Defaults to the pack's current manifest version. It does not
+            affect whether the migration applies; migrations always apply.
+
+    Keep the line forever once written - it is the only record that the old id ever
+    existed, and deleting it strands every save still holding that id.
+
+    Order does not matter. Declarations may appear in any file, in any sequence, and
+    chains are resolved for you, so renaming the same recipe again later just works:
+
+        migrate_recipe(old = "A", new = "B", since = "0.4.0")
+        migrate_recipe(old = "B", new = "C", since = "0.5.0")   # A now lands on C too
+
+    Merging several old ids into one is fine; duplicates are collapsed on load:
+
+        build_recipe(id = "MyPack_SteelPlate", ...)
+        migrate_recipe(old = "MyPack_SteelPlateT1", new = "MyPack_SteelPlate")
+        migrate_recipe(old = "MyPack_SteelPlateT2", new = "MyPack_SteelPlate")
+    """
+    pass
+
 def add_texture(path: str, replace: str = None) -> Tex:
     """
     Parameters:
@@ -484,7 +521,8 @@ def build_recipe(
         duration: Duration | None = Duration(60),
         ingredients: list[Product] | None = [],
         products: list[Product] | None = [],
-        power: Percent | int | None = None
+        power: Percent | int | None = None,
+        replaces: list[str] | str | None = None
     ) -> RecipeProto:
     """
     Register a RECIPE (inputs → outputs). As of the 0.3.0 game API, a recipe is a
@@ -524,6 +562,28 @@ def build_recipe(
             Each Product's `port` becomes the output port selector for the legacy bind.
         power: optional - Percent value defining power consumption modification (lives
             on the recipe, applies to every machine it is bound to).
+        replaces: optional - one recipe id, or a list of them, that THIS recipe
+            supersedes. Each entry behaves exactly like a standalone
+            `migrate_recipe(old = <entry>, new = <this recipe>)`: saves still holding
+            the old id are remapped on load. Written here so the tombstone cannot
+            drift away from the recipe that replaces it.
+
+            The listed ids must no longer be built by this pack.
+
+            Consolidating tiers is the usual case:
+
+                build_recipe(
+                    "MyPack_SteelPlate", "Steel plate", "",
+                    ingredients = [...],
+                    products = [...],
+                    replaces = ["MyPack_SteelPlateT1", "MyPack_SteelPlateT2"]
+                )
+
+            Remapping the id is only half the rescue: the game also drops any recipe
+            the machine no longer offers, so a save is only fully recovered if this
+            recipe is bound to the machine the old one was on. When that is not true,
+            reach for `migrate_recipe(...)` and point it at whatever recipe the
+            player's machines should end up with.
     """
     pass
 
@@ -606,6 +666,73 @@ def edit_recipe(
         ingredients: list - none, empty or at least one Product in case products are empty
         products: list - none, empty or at least one Product in case ingredients are empty
         power: optional - Percent value defining power consumption modification
+
+    Block form (preferred):
+        `edit_recipe` is also a context manager, so a patch can be written as
+        `with edit_recipe(recipe):` and the individual changes listed as
+        sub-actions in the body. This keeps the header down to just the recipe
+        being patched and makes each change its own reviewable line:
+
+            with edit_recipe(Ids.Recipes.SteelPlate):
+                set_ingredient(Ids.Products.IronOre, Quantity(4))
+                remove_ingredient(Ids.Products.Coal)
+                set_product(Ids.Products.Steel, Quantity(2))
+                remove_product(Ids.Products.Slag)
+                bind_recipe(Ids.Machines.SmelterT2, duration=Duration.FromSec(30),
+                            research=Ids.Research.Steel)
+                unbind_recipe(Ids.Machines.SmelterT1)
+
+        The sub-actions (set_ingredient / set_product / remove_ingredient /
+        remove_product / bind_recipe / unbind_recipe) read the recipe from the
+        enclosing `with edit_recipe(...)`, so none of them repeats it. They are
+        only meaningful inside such a block.
+    """
+    pass
+
+def set_ingredient(product: ProductProto | ProductProto.ID | str, quantity: Quantity | int) -> RecipeProto:
+    """
+    Inside `with edit_recipe(recipe):` — change the amount of an ingredient the
+    recipe already has. Raises if the recipe has no such ingredient; this edits
+    an existing amount, it does not add a new one (a new ingredient would need a
+    machine-port assignment this sub-action can't express — rebuild the recipe
+    for that).
+    """
+    pass
+
+def set_product(product: ProductProto | ProductProto.ID | str, quantity: Quantity | int) -> RecipeProto:
+    """
+    Inside `with edit_recipe(recipe):` — change the amount of a product the recipe
+    already produces. Raises if the recipe has no such product. Edits an existing
+    amount only; it does not add a new product.
+    """
+    pass
+
+def remove_ingredient(product: ProductProto | ProductProto.ID | str) -> RecipeProto:
+    """
+    Inside `with edit_recipe(recipe):` — drop an ingredient from the recipe.
+    A no-op (with a diagnostic) if the recipe has no such ingredient.
+    """
+    pass
+
+def remove_product(product: ProductProto | ProductProto.ID | str) -> RecipeProto:
+    """
+    Inside `with edit_recipe(recipe):` — drop a product from the recipe.
+    A no-op (with a diagnostic) if the recipe has no such product.
+    """
+    pass
+
+def unbind_recipe(machine: MachineProto | MachineProto.ID | str, research: ResearchNodeProto | ResearchNodeProto.ID | str | None = None) -> RecipeProto:
+    """
+    Inside `with edit_recipe(recipe):` — detach the recipe from a machine and
+    remove the research unlock(s) that pointed at that (recipe, machine) pair.
+
+    machine: the machine to unbind from (required).
+    research: optional; reserved for scoping the unlock removal. When omitted,
+        every research node unlocking this recipe on this machine is cleaned up.
+
+    Note: a save that referenced this recipe on the machine will drop it on load
+    (the machine no longer lists the recipe), so unbinding affects existing
+    savegames, not just new ones.
     """
     pass
 
@@ -726,7 +853,8 @@ def add_toolbar_category(
 
 def edit_machine_ports(
         machine: MachineProto | MachineProto.ID | LayoutEntityProto | str,
-        add_ports: list[Port] = []
+        add_ports: list[Port] = [],
+        auto_select_recipes: bool = None
     ) -> LayoutEntityProto:
     """
     Append one or more ports to an existing machine (or any LayoutEntityProto). The
@@ -734,11 +862,21 @@ def edit_machine_ports(
     connectivity surface changes. Existing recipe port selectors (`Product(..., port=...)`)
     keep working because the original ports stay in place; new ports are simply added.
 
+    Also lets you flip the machine's recipe auto-select behaviour in place via
+    auto_select_recipes — you may call it purely for that, passing no add_ports.
+
     Parameters:
         machine:    target building. Accepts MachineProto, MachineProto.ID, a string id,
                     or any LayoutEntityProto. Resolved through the prototypes DB.
         add_ports:  list of Port(...) specs. Each Port carries name, type, shape,
                     position, direction, and optional canOnlyConnectToTransports.
+        auto_select_recipes:
+                    optional. Overrides the machine's UseAllRecipesAtStartOrAfterUnlock
+                    flag. True = a freshly-placed machine auto-selects every unlocked
+                    recipe; False = it starts with NO recipe selected so the player picks
+                    one; blank/None = leave the machine's current value unchanged. Only
+                    applies to MachineProto targets. Note: even with False, the game still
+                    auto-selects when the machine has exactly one unlocked recipe.
 
     Constraints:
         - Must be called during definition loading (before LockAndInitializeProtos). The
@@ -778,6 +916,7 @@ def clone_machine(
         copy_layout: bool = True,
         copy_ports: bool = True,
         copy_graphics: bool = True,
+        auto_select_recipes: bool = None,
         layout_str: str = None,
         lockedOnInit: bool = None
     ) -> MachineProto:
@@ -808,6 +947,12 @@ def clone_machine(
                                source machine is republished onto the clone. Set False
                                to start with no recipes and hand-curate via build_recipe
                                (passing the new machine id).
+        auto_select_recipes:   optional. Overrides the source's recipe auto-select flag.
+                               True = the placed machine auto-selects every unlocked
+                               recipe; False = it starts with no recipe selected so the
+                               player picks; blank/None = inherit the source's value.
+                               (Even with False, a machine with a single unlocked recipe
+                               still auto-selects it — a game-side rule.)
         lockedOnInit:          override the auto-lock behavior (default True when
                                research is provided, False otherwise).
 
@@ -838,6 +983,7 @@ def build_machine(
         copy_layout: bool = True,
         copy_ports: bool = True,
         copy_graphics: bool = True,
+        auto_select_recipes: bool = None,
         layout_str: str = None,
         lockedOnInit: bool = None
     ) -> MachineProto:
@@ -865,6 +1011,12 @@ def build_machine(
         copy_recipes:          default True. When True, every recipe registered on the
                                source is republished onto the new machine. Set False to
                                start empty and hand-curate via build_recipe.
+        auto_select_recipes:   optional. Overrides the source's recipe auto-select flag.
+                               True = the placed machine auto-selects every unlocked
+                               recipe; False = it starts with no recipe selected so the
+                               player picks; blank/None = inherit the source's value.
+                               (Even with False, a machine with a single unlocked recipe
+                               still auto-selects it — a game-side rule.)
         lockedOnInit:          override the auto-lock (default True when research is set).
 
     Example — water-cooled chemical plant variant with extra ports + recipe set carried over:

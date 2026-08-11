@@ -1,6 +1,6 @@
 {
 	"id": "CustomAssets",
-	"version": "0.2.2",
+	"version": "0.4.0",
 	"display_name": "Custom Assets Loader",
 	"description_short": "Loads additional contend from definition in .py config files",
 	"description_long": "Loads additional contend from definition in .py config files contianed in Definition directory and loads additional asset bundles",
