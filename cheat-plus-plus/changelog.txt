@@ -1,3 +1,8 @@
+v1.3.3 | 2026-08-10
+* Fixed Fake Power Consumption not increasing the Demand shown in the Electricity window, so it can now properly stress-test your power grid. (thanks Hoochie for the report)
+
+* Fixed the same issue for Fake Computing Consumption not increasing the Demand shown in the Computing window.
+
 v1.3.2 | 2026-08-10
 * Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
 * The "Ignore Research Item Requirements" and "Ignore Research Parent Requirements" tooltips now note that they don't include World Map item requirements. (thanks Hoochie for the report)
