@@ -1,3 +1,26 @@
+v1.3.1 | 2026-08-11
+* Fixed Truck HQ and Excavator HQ fighting the Truck Parking mod over vehicles — a truck or excavator already parked there is left alone instead of being pulled back and forth.
+
+v1.3.0 | 2026-07-29
+* Now supports game version 0.8.7.
+* The Huge Excavator, The Terex and Heavy Tanker now require Microchip technology (found on the world map) before they can be built, to line up better with the base game's vehicle progression.
+* Fixed the Large Pipe Balancer showing split in/out arrows on its ports while placing it — every port now correctly shows fluid flows both ways, like the finished building.(thanks eragon1213 for the report)
+* Heavy Hauler (diesel and hydrogen) now has a bigger fuel tank and burns 25% less fuel, so it runs longer between refuels. (thanks rgreat for the balance suggestion)
+* Mine tower window is shorter — excavator/truck lists, dumping/notify filters and import/export routes fold away; filters and routes start folded. (thanks Mag for the report)
+* New optional mod: Adaptive Mining Tower UI by Mag picks up where the folding above leaves off — choose how many excavator and truck rows you want to see and scroll through the rest, so a big collection of modded vehicles stays easy to pick from. Mag and I have made sure the two work together nicely.
+* Fixed Keep Full and Keep Empty only working on the Warehouse's first slot — they now fill or drain all 4 slots, on every Warehouse type. (thanks SirColibris)
+* New building: Helicopter HQ — home base for cargo helicopters, with per-type limits, priority, refuelling and a serviced garage. Needs Pique's Cargo Helicopter mod.
+  Huge thanks to Pique for letting me build the Helicopter HQ for his Cargo Helicopter mod and for the use of his heliport model.
+* Bridge Port Host must now be placed next to a bridge entrance and locks onto that bridge — it turns red elsewhere, and the bridge it joins lights up while you place it.
+* Fixed hubs still moving goods across a bridge with a piece removed — cutting a bridge now stops both hubs until it is whole again. (thanks Serjevski for the report)
+* Hub ports are now marked on top of the building: an arrow shows in or out, and a letter shows loose (L) or fluid (F).
+* Trucks no longer pick up from or deliver to a Bridge Port Host — it moves goods with belts and pipes only.
+* Language fixes for the Terex, Heavy Tanker, Heavy Hauler and Huge Excavator — some languages still showed the English names,
+  or used two different names for the same vehicle so its variants looked unrelated. Names and descriptions now match in German, Spanish, Portuguese, Russian and Ukrainian, and a Ukrainian description that described the wrong vehicle has been corrected.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Gameplay++ now supports every language the base game does.
+* Fixed the Bridge Belt name/description and the Heavy Hauler/Heavy Tanker group names always showing in English.
+* Fixed the "Move the Truck HQ panel" keybind description not being translatable.
+
 v1.2.9 | 2026-07-29
 * Now supports game version 0.8.6b.
 

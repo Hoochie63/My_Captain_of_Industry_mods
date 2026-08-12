@@ -85,6 +85,7 @@
   "Transport": "Transporto",
   "Other": "Altro",
   "Another Bridge Port Host is already on this end of the bridge. Place hubs on opposite ends — only one per side.": "Un altro Hub portuale del ponte è già presente su questa estremità del ponte. Piazza gli hub sulle estremità opposte — uno solo per lato.",
+  "Must be placed next to a bridge entrance.": "Deve essere posizionato accanto all'ingresso di un ponte.",
   "Stores up to 4 different products in one building — 4,000 capacity per slot.\n\nEach I/O port can be filtered to a specific product, so different items enter and leave on different sides without sorter belts.\n\nUse it as a central buffer for mixed factory output, or to replace 4 separate vanilla storages where space is tight.": "Immagazzina fino a 4 prodotti diversi in un solo edificio — capacità di 4.000 per slot.\n\nOgni porta I/O può essere filtrata per un prodotto specifico, così oggetti diversi entrano ed escono su lati diversi senza nastri smistatori.\n\nUsalo come buffer centrale per la produzione mista di fabbrica, o per sostituire 4 magazzini separati della versione base dove lo spazio è limitato.",
   "Warehouse": "Magazzino multiplo",
   "Warehouse Flat": "Magazzino Unità",
@@ -115,7 +116,7 @@
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Tubo del ponte (fluido) - Diretto all'hub d'uscita",
   "Hold this modifier and drag the Parking HQ panel to reposition it.": "Tieni premuto questo tasto e trascina il pannello del Parking HQ per riposizionarlo.",
   "Helicopter HQ": "QG Elicotteri",
-  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "Un grande eliporto aperto che funge da base per gli elicotteri da carico. Gli elicotteri inattivi volano qui da soli, atterrano su una delle 40 piazzole di sosta e attendono il prossimo incarico.\n\nQuesta base non assembla elicotteri: costruiscili in un Open Heliport.",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.\n\nHuge thanks to Pique for letting me use the model from his Cargo Helicopter mod.": "Un grande eliporto aperto che funge da base per gli elicotteri da carico. Gli elicotteri inattivi volano qui da soli, atterrano su una delle 40 piazzole di sosta e attendono il prossimo incarico.\n\nQuesta base non assembla elicotteri: costruiscili in un Open Heliport.\n\nUn enorme grazie a Pique per avermi permesso di usare il modello della sua mod Cargo Helicopter.",
   "Helicopters based here": "Elicotteri di stanza qui",
   "On the deck now": "Ora sul ponte",
   "HQ Priority": "Priorità del QG",
@@ -123,5 +124,10 @@
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "I QG con priorità più alta ricevono gli elicotteri per primi. Ogni QG viene riempito prima di qualsiasi Open Heliport: gli elicotteri restano in un Open Heliport solo quando tutti i QG sono pieni.",
   "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Se attivo, gli elicotteri posati su questo QG vengono riforniti dal suo deposito di diesel. Riempi il deposito tramite gli attacchi dei tubi o lascia che i camion lo consegnino.",
   "Helicopter Types": "Tipi di elicottero",
-  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Officina — I meccanici revisionano gli elicotteri posati su questa base, riducendo il consumo di manutenzione fino alla percentuale indicata. Valori più alti richiedono più energia e meccanici. Gli elicotteri vengono revisionati solo mentre sono sul ponte."
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Officina — I meccanici revisionano gli elicotteri posati su questa base, riducendo il consumo di manutenzione fino alla percentuale indicata. Valori più alti richiedono più energia e meccanici. Gli elicotteri vengono revisionati solo mentre sono sul ponte.",
+  "Bridge Belt": "Nastro del ponte",
+  "Auto-placed underground transport for cable bridge tunnels. Not player-buildable.": "Trasporto sotterraneo posizionato automaticamente per i tunnel dei ponti a cavi. Non costruibile dal giocatore.",
+  "Heavy Haulers": "Mega Camion",
+  "Heavy Tankers": "Mega Autocisterne",
+  "Move the Parking HQ panel": "Sposta il pannello del QG Parcheggio"
 }

@@ -85,6 +85,7 @@
   "Transport": "Transport",
   "Other": "Other",
   "Another Bridge Port Host is already on this end of the bridge. Place hubs on opposite ends — only one per side.": "Another Bridge Port Host is already on this end of the bridge. Place hubs on opposite ends — only one per side.",
+  "Must be placed next to a bridge entrance.": "Must be placed next to a bridge entrance.",
   "Stores up to 4 different products in one building — 4,000 capacity per slot.\n\nEach I/O port can be filtered to a specific product, so different items enter and leave on different sides without sorter belts.\n\nUse it as a central buffer for mixed factory output, or to replace 4 separate vanilla storages where space is tight.": "Stores up to 4 different products in one building — 4,000 capacity per slot.\n\nEach I/O port can be filtered to a specific product, so different items enter and leave on different sides without sorter belts.\n\nUse it as a central buffer for mixed factory output, or to replace 4 separate vanilla storages where space is tight.",
   "Warehouse": "Warehouse",
   "Warehouse Flat": "Warehouse Flat",
@@ -113,9 +114,9 @@
   "Bridge Belt (Loose) - Going to Exit Hub": "Bridge Belt (Loose) - Going to Exit Hub",
   "Bridge Pipe (Fluid) - Going to Entrance Hub": "Bridge Pipe (Fluid) - Going to Entrance Hub",
   "Bridge Pipe (Fluid) - Going to Exit Hub": "Bridge Pipe (Fluid) - Going to Exit Hub",
-  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Hold this modifier and drag the Parking HQ panel to reposition it.",
+  "Hold this modifier and drag the Parking HQ panel to reposition it.": "Hold this modifier and drag the Truck HQ panel to reposition it.",
   "Helicopter HQ": "Helicopter HQ",
-  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.\n\nHuge thanks to Pique for letting me use the model from his Cargo Helicopter mod.": "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.\n\nHuge thanks to Pique for letting me use the model from his Cargo Helicopter mod.",
   "Helicopters based here": "Helicopters based here",
   "On the deck now": "On the deck now",
   "HQ Priority": "HQ Priority",
@@ -123,5 +124,10 @@
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.",
   "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.",
   "Helicopter Types": "Helicopter Types",
-  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck."
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.",
+  "Bridge Belt": "Bridge Belt",
+  "Auto-placed underground transport for cable bridge tunnels. Not player-buildable.": "Auto-placed underground transport for cable bridge tunnels. Not player-buildable.",
+  "Heavy Haulers": "Heavy Haulers",
+  "Heavy Tankers": "Heavy Tankers",
+  "Move the Parking HQ panel": "Move the Truck HQ panel"
 }

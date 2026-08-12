@@ -1,5 +1,11 @@
 Credits
 -------
+Helicopter HQ model by [Pique]
+Source: [https://coigame.com/Mod/1102/Cargo-Helicopter]
+Huge thanks to Pique for letting me use the Open Heliport model from his Cargo Helicopter mod for the Helicopter HQ.
+
+-------
+
 Cargo van by [mrglebister]
 Source: [https://www.cgtrader.com/free-3d-models/vehicle/truck/cargo-van-with-platform-of-the-nineties-3d-model]
 License: Royality free - https://www.cgtrader.com/pages/terms-and-conditions#royalty-free-license

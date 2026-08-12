@@ -85,6 +85,7 @@
   "Transport": "运输",
   "Other": "其他",
   "Another Bridge Port Host is already on this end of the bridge. Place hubs on opposite ends — only one per side.": "桥的这一端已经有一个桥港主机了。请把集线器放在两端——每侧只能放一个。",
+  "Must be placed next to a bridge entrance.": "必须放置在桥梁入口旁边。",
   "Stores up to 4 different products in one building — 4,000 capacity per slot.\n\nEach I/O port can be filtered to a specific product, so different items enter and leave on different sides without sorter belts.\n\nUse it as a central buffer for mixed factory output, or to replace 4 separate vanilla storages where space is tight.": "一栋建筑内可存储最多 4 种不同产品——每个槽位容量 4,000。\n\n每个输入/输出口都可过滤为特定产品，这样不同物品就能从不同侧面进出，无需分拣传送带。\n\n可用作混合工厂输出的中央缓冲，或者在空间紧张时替代 4 个独立原版仓库。",
   "Warehouse": "仓库",
   "Warehouse Flat": "单件仓库",
@@ -115,7 +116,7 @@
   "Bridge Pipe (Fluid) - Going to Exit Hub": "桥梁管道（流体）- 通往出口集线器",
   "Hold this modifier and drag the Parking HQ panel to reposition it.": "按住此键并拖动 Parking HQ 面板即可重新放置。",
   "Helicopter HQ": "直升机总部",
-  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.": "一座大型开放式直升机场，是货运直升机的母港。空闲的直升机会自动飞到这里，降落在40个停机位之一，等待下一个任务。\n\n该基地不组装直升机 - 请在 Open Heliport 建造。",
+  "A large open heliport that acts as a home base for cargo helicopters. Idle helicopters fly here on their own, land on one of the 40 parking stands, and wait for their next assignment.\n\nThis base does not assemble helicopters - build those at an Open Heliport.\n\nHuge thanks to Pique for letting me use the model from his Cargo Helicopter mod.": "一座大型开放式直升机场，是货运直升机的母港。空闲的直升机会自动飞到这里，降落在40个停机位之一，等待下一个任务。\n\n该基地不组装直升机 - 请在 Open Heliport 建造。\n\n非常感谢 Pique 允许我使用他的 Cargo Helicopter 模组中的模型。",
   "Helicopters based here": "驻扎直升机",
   "On the deck now": "当前在停机坪",
   "HQ Priority": "总部优先级",
@@ -123,5 +124,10 @@
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "优先级更高的直升机总部会先接收直升机。所有直升机总部都会在 Open Heliport 之前被填满 - 只有当所有总部都满员时，直升机才会停留在 Open Heliport。",
   "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "启用后，停在该总部的直升机将从其柴油储罐加油。可通过管道接口或卡车运送来填充储罐。",
   "Helicopter Types": "直升机类型",
-  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "维修机库 — 机械师会维护停在该基地的直升机，将其维护消耗最多降低所示百分比。设置越高，耗电和所需机械师越多。直升机仅在停机坪上时才会被维护。"
+  "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "维修机库 — 机械师会维护停在该基地的直升机，将其维护消耗最多降低所示百分比。设置越高，耗电和所需机械师越多。直升机仅在停机坪上时才会被维护。",
+  "Bridge Belt": "桥梁传送带",
+  "Auto-placed underground transport for cable bridge tunnels. Not player-buildable.": "为缆索桥隧道自动放置的地下运输设施。玩家无法自行建造。",
+  "Heavy Haulers": "重型运输车",
+  "Heavy Tankers": "重型罐车",
+  "Move the Parking HQ panel": "移动卡车总部面板"
 }
