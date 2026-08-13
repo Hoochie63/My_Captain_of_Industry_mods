@@ -1,3 +1,6 @@
+v1.0.6 | 2026-08-12
+* If Automatic Terrain Designations is installed, using collapse-all button will now properly save the collapsed state of it's three sections, without needing to click them individually.
+
 v1.0.5 | 2026-08-09
 * Verifies compatibility with Captain of Industry 0.8.7.
 * Adds Turkish and Traditional Chinese translations, completing support for all 21 languages available in the game.

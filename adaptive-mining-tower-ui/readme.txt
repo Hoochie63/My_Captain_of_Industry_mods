@@ -31,6 +31,7 @@ COLLAPSE CONTROLS
 - Collapse every tower section instantly.
 - Expand only the four standard sections.
 - Each tower remembers its collapsed sections.
+- Collapse-all also saves Auto Terrain Designations section states when installed.
 
 COMPATIBILITY
 -------------
