@@ -1,6 +1,6 @@
 {
-  "settingsVersion": "0.5.11",
-  "settingsDefaultsRevision": 3,
+  "settingsVersion": "0.5.12",
+  "settingsDefaultsRevision": 4,
 
   "_comment_diagnosticLevel": "Controls ATD diagnostic output. Default selects Debug in Debug builds and Info in Release builds. Warning keeps only warnings/errors; Info adds concise operational messages; Debug adds search summaries and timings; Trace adds full paths, plan tiles, successors, and handoffs. The atd_diagnostic_level command overrides this for the current session. Allowed: Default, Warning, Info, Debug, Trace.",
   "diagnosticLevel": "Default",
@@ -54,8 +54,8 @@
   "_comment_autoReleaseExcavatorsWhenIdle": "Default starting value for the Auto-release excavators when idle toggle on each mine tower. When enabled, ATD automatically unassigns excavators from the tower once no managed designation has pending excavation work, or while the tower is paused. Vehicles are tracked and re-assigned when excavation work returns. Can be toggled per tower in-game. Default: false.",
   "autoReleaseExcavatorsWhenIdle": false,
 
-  "_comment_autoReleaseTrucksWhenIdle": "Default starting value for the Auto-release trucks when idle toggle on each mine tower. When enabled, ATD automatically unassigns trucks from the tower once no managed designation has pending excavation work, or while the tower is paused. Vehicles are tracked and re-assigned when excavation work returns. Can be toggled per tower in-game. Default: false.",
-  "autoReleaseTrucksWhenIdle": false,
+  "_comment_truckIdlePolicy": "Default starting behavior for trucks assigned to a mine tower when no managed designation has pending excavation work, or while the tower is paused. 0 = Park at tower (vanilla), 1 = Stay put (keeps trucks assigned without sending them back), 2 = Soft release (temporarily unassigns trucks and reassigns them when work returns). Default: 1.",
+  "truckIdlePolicy": 1,
 
   "_comment_turningRampsExperimental": "When enabled, AUTO and T1-T3 may use routed turning or switchback accessways. Legacy 3-5 remain straight-only. Default: true.",
   "turningRampsExperimental": true,
