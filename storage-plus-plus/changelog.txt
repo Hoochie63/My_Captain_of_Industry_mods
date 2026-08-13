@@ -1,3 +1,25 @@
+v1.2.0 | 2026-08-10
+* Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
+
+v1.1.9 | 2026-08-10
+* Fixed the search box on the Storage Ground, Storage Trains and Storage Ship tabs not filtering the list — typing a search term had no effect. (thanks rgreat for the report)
+
+v1.1.8 | 2026-07-29
+* Now supports game version 0.8.7.
+* Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.
+* New Save/Load buttons in the settings window — save all your Storage++ settings (capacities and throughput) to a profile and reload them in any save or new game.
+* Cargo ship storage modules now have the Custom Capacity override — open a module and set its own capacity, the same as storages. (thanks rgreat for the suggestion)
+* Train station modules and their fuel modules now have the Custom Capacity override too — open one and set its own capacity per module.
+* The Storage++ window now also lists the fuel modules and the electrified module variants, so you can set their capacity and throughput globally.
+* Window is wider, and the hint text at the bottom now sits next to the buttons instead of being squeezed above them where it was hard to read.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Storage++ now supports every language the base game does.
+* Fixed the Overlord window title, and its Save and Load buttons and their tooltips, always showing in English no matter your language.
+* Fixed the Cargo Ship Storages and Thermal Storages section headers always showing in English.
+* Fixed many status messages (capacity/throughput changes, profile save/load) that stayed in English in every language.
+* The message next to the buttons now clears itself after 3 seconds and returns to the hint, instead of staying on screen until you do something else.
+* Save and Load now ask you to confirm first, so you cannot overwrite your saved profile or your current settings by accident. (thanks Mag for the suggestion)
+* General UI fixes — several buttons and names no longer wrap or overlap in some languages.
+
 v1.1.7 | 2026-07-29
 * Now supports game version 0.8.6b.
 
