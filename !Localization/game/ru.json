@@ -881,7 +881,7 @@
     ],
     [
         "BattleScore",
-        "Счёт боя"
+        "Боевой рейтинг"
     ],
     [
         "BattleShipCannotLeave__name",
@@ -2419,7 +2419,7 @@
     ],
     [
         "CropOverdue",
-        "«{0}» без воды. Посевы погибнут через {1}"
+        "«{0}» без воды. Посевы выживут без воды {1}"
     ],
     [
         "CropOverdue__Tooltip",
@@ -8669,7 +8669,7 @@
     ],
     [
         "NotEnoughMaintenance__name",
-        "«{0}» на исходе!"
+        "<color=#FFCE56>«{0}»</color> на исходе!"
     ],
     [
         "NotEnoughPower__name",
