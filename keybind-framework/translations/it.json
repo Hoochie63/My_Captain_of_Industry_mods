@@ -39,5 +39,18 @@
     "Customized first": "Prima le personalizzate",
     "Unbound first": "Prima le non assegnate",
     "Original order": "Ordine originale",
-    "Changes the order of these tabs. Your choice is remembered.": "Cambia l'ordine di queste schede. La tua scelta viene ricordata."
+    "Changes the order of these tabs. Your choice is remembered.": "Cambia l'ordine di queste schede. La tua scelta viene ricordata.",
+    "By group": "Per gruppo",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "Quando è attivo, la ricerca guarda i titoli dei gruppi sopra i tasti invece dei tasti stessi, e vengono mostrati tutti i tasti sotto un titolo corrispondente. Mentre è attivo, la ricerca per nome del tasto, per nome della mod e per combinazione di tasti è disattivata.",
+    "No keybind groups match your search.": "Nessun gruppo di tasti corrisponde alla tua ricerca.",
+  "No conflicts found.": "Nessun conflitto trovato.",
+  "Reset this tab to default": "Ripristina questa scheda",
+  "Resets only the conflicting keybinds shown here.": "Reimposta solo le scorciatoie in conflitto mostrate qui.",
+  "Check conflicts": "Controlla conflitti",
+  "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "Mostra in un unico posto tutte le scorciatoie di tutti i mod attualmente in conflitto tra loro, così non devi controllare ogni scheda. Premi Esc per tornare alle tue schede.",
+  "Close the conflict list and go back to your tabs.": "Chiudi l'elenco dei conflitti e torna alle tue schede.",
+  "Click the X or press Escape to exit conflict check.": "Clicca sulla X o premi Esc per uscire dal controllo dei conflitti.",
+  "Apply all to this tab": "Applica tutto a questa scheda",
+  "Vanilla": "Base",
+  "Mod": "Mod"
 }

@@ -39,5 +39,18 @@
     "Customized first": "Customized first",
     "Unbound first": "Unbound first",
     "Original order": "Original order",
-    "Changes the order of these tabs. Your choice is remembered.": "Changes the order of these tabs. Your choice is remembered."
+    "Changes the order of these tabs. Your choice is remembered.": "Changes the order of these tabs. Your choice is remembered.",
+    "By group": "By group",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.",
+    "No keybind groups match your search.": "No keybind groups match your search.",
+    "No conflicts found.": "No conflicts found.",
+    "Reset this tab to default": "Reset this tab to default",
+    "Resets only the conflicting keybinds shown here.": "Resets only the conflicting keybinds shown here.",
+    "Check conflicts": "Check conflicts",
+    "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.",
+    "Close the conflict list and go back to your tabs.": "Close the conflict list and go back to your tabs.",
+    "Click the X or press Escape to exit conflict check.": "Click the X or press Escape to exit conflict check.",
+    "Apply all to this tab": "Apply all to this tab",
+    "Vanilla": "Vanilla",
+    "Mod": "Mod"
 }

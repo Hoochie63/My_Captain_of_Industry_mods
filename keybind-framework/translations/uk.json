@@ -39,5 +39,18 @@
     "Customized first": "Спочатку змінені",
     "Unbound first": "Спочатку непризначені",
     "Original order": "Початковий порядок",
-    "Changes the order of these tabs. Your choice is remembered.": "Змінює порядок цих вкладок. Ваш вибір зберігається."
+    "Changes the order of these tabs. Your choice is remembered.": "Змінює порядок цих вкладок. Ваш вибір зберігається.",
+    "By group": "За групами",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "Коли увімкнено, пошук дивиться на заголовки груп над клавішами, а не на самі клавіші, і показуються всі клавіші під відповідним заголовком. Поки увімкнено, пошук за назвою клавіші, за назвою мода та за комбінацією клавіш вимкнено.",
+    "No keybind groups match your search.": "Немає груп клавіш, що відповідають вашому пошуку.",
+  "No conflicts found.": "Конфліктів не знайдено.",
+  "Reset this tab to default": "Скинути цю вкладку",
+  "Resets only the conflicting keybinds shown here.": "Скидає лише конфліктні гарячі клавіші, показані тут.",
+  "Check conflicts": "Перевірити конфлікти",
+  "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "Показує всі гарячі клавіші всіх модів, які наразі конфліктують з іншими, в одному місці, щоб не перевіряти кожну вкладку окремо. Натисніть Escape, щоб повернутися до своїх вкладок.",
+  "Close the conflict list and go back to your tabs.": "Закриває список конфліктів і повертає до ваших вкладок.",
+  "Click the X or press Escape to exit conflict check.": "Натисніть X або Escape, щоб вийти з перевірки конфліктів.",
+  "Apply all to this tab": "Застосувати все на цій вкладці",
+  "Vanilla": "Vanilla",
+  "Mod": "Mod"
 }

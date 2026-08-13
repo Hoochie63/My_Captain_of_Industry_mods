@@ -39,5 +39,18 @@
     "Customized first": "Angepasste zuerst",
     "Unbound first": "Nicht belegte zuerst",
     "Original order": "Ursprüngliche Reihenfolge",
-    "Changes the order of these tabs. Your choice is remembered.": "Ändert die Reihenfolge dieser Tabs. Deine Auswahl wird gespeichert."
+    "Changes the order of these tabs. Your choice is remembered.": "Ändert die Reihenfolge dieser Tabs. Deine Auswahl wird gespeichert.",
+    "By group": "Nach Gruppe",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "Wenn dies aktiviert ist, durchsucht deine Suche die Gruppenüberschriften über den Tastenbelegungen statt der Tastenbelegungen selbst, und jede Tastenbelegung unter einer passenden Überschrift wird angezeigt. Die Suche nach Name der Tastenbelegung, nach Mod-Name und nach Tastenkombination ist währenddessen deaktiviert.",
+    "No keybind groups match your search.": "Keine Tastenbelegungs-Gruppen entsprechen deiner Suche.",
+  "No conflicts found.": "Keine Konflikte gefunden.",
+  "Reset this tab to default": "Diesen Tab zurücksetzen",
+  "Resets only the conflicting keybinds shown here.": "Setzt nur die hier angezeigten, in Konflikt stehenden Tastenkürzel zurück.",
+  "Check conflicts": "Konflikte prüfen",
+  "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "Zeigt an einem Ort jedes Tastenkürzel aus allen Mods, das aktuell mit einem anderen in Konflikt steht, damit du nicht jeden Tab einzeln prüfen musst. Drücke Escape, um zu deinen Tabs zurückzukehren.",
+  "Close the conflict list and go back to your tabs.": "Schließt die Konfliktliste und kehrt zu deinen Tabs zurück.",
+  "Click the X or press Escape to exit conflict check.": "Klicke auf das X oder drücke Escape, um die Konfliktprüfung zu verlassen.",
+  "Apply all to this tab": "Alles auf diesen Tab anwenden",
+  "Vanilla": "Vanilla",
+  "Mod": "Mod"
 }

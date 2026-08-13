@@ -39,5 +39,18 @@
     "Customized first": "Personalizados primero",
     "Unbound first": "Sin asignar primero",
     "Original order": "Orden original",
-    "Changes the order of these tabs. Your choice is remembered.": "Cambia el orden de estas pestañas. Tu elección se recuerda."
+    "Changes the order of these tabs. Your choice is remembered.": "Cambia el orden de estas pestañas. Tu elección se recuerda.",
+    "By group": "Por grupo",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "Cuando está activado, la búsqueda mira los títulos de grupo que hay sobre las teclas en lugar de las teclas en sí, y se muestran todas las teclas bajo un título coincidente. Mientras esté activado, se desactiva la búsqueda por nombre de tecla, por nombre de mod y por combinación de teclas.",
+    "No keybind groups match your search.": "Ningún grupo de teclas coincide con tu búsqueda.",
+    "No conflicts found.": "No se encontraron conflictos.",
+    "Reset this tab to default": "Restablecer esta pestaña a los valores predeterminados",
+    "Resets only the conflicting keybinds shown here.": "Restablece solo los atajos en conflicto que se muestran aquí.",
+    "Check conflicts": "Comprobar conflictos",
+    "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "Muestra todos los atajos de todos los mods que actualmente están en conflicto con otro, todos en un solo lugar, para que no tengas que revisar cada pestaña. Pulsa Escape para volver a tus pestañas.",
+    "Close the conflict list and go back to your tabs.": "Cierra la lista de conflictos y vuelve a tus pestañas.",
+    "Click the X or press Escape to exit conflict check.": "Haz clic en la X o pulsa Escape para salir de la comprobación de conflictos.",
+    "Apply all to this tab": "Aplicar todo en esta pestaña",
+    "Vanilla": "Original",
+    "Mod": "Mod"
 }

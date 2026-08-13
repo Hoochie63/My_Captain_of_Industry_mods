@@ -7,13 +7,45 @@ right after Controls. Register your mod's keybinds with it and you get, for free
 - Your own tab in Settings (named after your mod), or a shared tab with your other mods if you want one
 - Optionally, split a mod with lots of keybinds into its own sub-tabs by group, instead of one long scrolling list (see *split your own mod's keybinds into sub-tabs* below)
 - A rebinding UI (click a field, press a new key, Apply)
-- Primary + Secondary key slots
+- Primary + Secondary key slots — both fire, so the player can have two shortcuts for one action
 - Automatic conflict detection against vanilla shortcuts **and every other mod** registered with the framework — the player is told exactly which mod owns the key they clashed with
 - Optionally, hand your keybind straight to the game's own shortcut dispatcher — no input polling code in your mod at all (see *Skip the polling* below)
 
 You talk to the framework purely through **reflection** — there is no DLL to reference and no
 compile-time dependency. This means your mod keeps working fine even if a player doesn't have
 the Keybind Framework installed; it just falls back to your own hard-coded default keys.
+
+---
+
+## What changed in framework 2.0.2 — re-check this guide
+
+If you integrated before this version, three things need a small change on your side. Everything
+else keeps working exactly as before.
+
+1. **Both key slots now fire.** The Secondary slot used to be only a fallback, activating just
+   when the Primary clashed with something. Now Primary and Secondary both fire, so a player can
+   have two working shortcuts for one action. If you poll for input (Step 4) you must also read
+   the second slot, using the new `GetComboSecondary` — otherwise your players set a second
+   keybind and nothing happens, which is the single most-reported bug this change fixes. If you
+   use the dispatcher instead (*Skip the polling* below), you get both slots with **no code
+   change at all**.
+2. **Left and right Ctrl / Shift / Alt are now separate keys.** `LeftControl + W` and
+   `RightControl + W` are two different binds that do not clash. Your input check has to compare
+   the exact side — the common "either Ctrl counts" style now fires on both sides and quietly
+   throws away the player's choice.
+3. **Right Alt and AltGr are the same key.** Windows has no separate AltGr key — it is the right
+   Alt, and Unity reports `KeyCode.AltGr` for that key on every layout, including the many
+   layouts (US, Canadian, UK) where the key is plain Alt and has no AltGr behaviour at all. The
+   framework therefore stores it as `RightAlt` and accepts an older `AltGr` token as the same
+   key. Your input check must treat the two names as one key, and ignore the LeftControl that
+   Windows sends alongside AltGr on layouts that do have it — otherwise a plain `Ctrl + W` bind
+   of yours also fires when the player presses AltGr + W. **Never test `KeyCode.AltGr` on its
+   own:** Unity sets it from the generic Alt, so it is true for the LEFT Alt as well. Test
+   `KeyCode.RightAlt` and use AltGr only as a fallback when no left Alt is down — see
+   `RightAltDown()` in the sample below.
+
+The Step 4 snippet and the Full example at the end of this guide are already updated for all
+three. If you integrated from an older copy, take them again from here.
 
 ---
 
@@ -44,7 +76,7 @@ Describe each keybind as a row of 7 plain strings:
 | `id` | A short internal name only your mod uses, e.g. `"MyMod_OpenWindow"`. Never shown to the player. |
 | `label` | The text the player sees next to the keybind field. |
 | `type` | `"Discrete"` for a normal key press, or `"Modifier"` for a held key (like Ctrl) combined with a mouse action. |
-| `default combo` | The key(s) it's bound to out of the box. One key: `"G"`. Several keys: join with `" + "`, e.g. `"LeftControl + M"`. Names must match Unity's `KeyCode` enum exactly (`LeftControl`, `LeftShift`, `LeftAlt`, `Insert`, `PageUp`, letters/numbers as-is, etc). |
+| `default combo` | The key(s) it's bound to out of the box. One key: `"G"`. Several keys: join with `" + "`, e.g. `"LeftControl + M"`. Names must match Unity's `KeyCode` enum exactly (`LeftControl`, `LeftShift`, `LeftAlt`, `Insert`, `PageUp`, letters/numbers as-is, etc). **Sides are meaningful:** `"LeftControl + M"` means the left Ctrl specifically, and `"RightControl"` / `"RightShift"` / `"RightAlt"` are valid too — pick left-side unless you have a reason not to, since that is what most players reach for. `"AltGr"` is accepted too and means the same key as `"RightAlt"`. |
 | `gesture hint` | Only used for `"Modifier"` rows — short text describing what to do while holding it, e.g. `"Left-drag"` or `"Left-click"`. Leave `""` for `"Discrete"` rows. |
 | `group heading` | Optional. Bindings that share the same group text get a yellow subheading above them in your tab (exactly like the "Tools" / "View/Layers" headings in the Mori++ tab). Leave `""` for a flat list with no headings. |
 | `tooltip` | Optional. If set, the player sees a small "i" next to the label — hovering shows this text. Leave `""` for no tooltip. |
@@ -76,6 +108,7 @@ private const string DISPLAY = "My Cool Mod";     // shown as your tab's title
 private const string SEP = "~|~";
 
 private static MethodInfo s_getCombo;
+private static MethodInfo s_getComboSecondary;
 private static bool s_initialized;
 
 public static void Register()
@@ -93,6 +126,7 @@ public static void Register()
         if (apiType == null) return; // framework not installed - your mod just keeps its own defaults
 
         s_getCombo = apiType.GetMethod("GetCombo", new[] { typeof(string), typeof(string) });
+        s_getComboSecondary = apiType.GetMethod("GetComboSecondary", new[] { typeof(string), typeof(string) });
         var reg = apiType.GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]) });
         if (reg == null) return;
 
@@ -107,7 +141,8 @@ public static void Register()
 
 A couple of things worth knowing:
 - `RegisterRaw` must be looked up with its exact parameter types (`GetMethod("RegisterRaw", new[] { typeof(string), typeof(string), typeof(string[]) })`), not just by name — the framework has more than one method called `RegisterRaw`, and a name-only lookup throws.
-- The empty `""` in the middle of the row is a reserved slot for a Secondary default key, which you don't need to set — see *Conflicts are automatic* below.
+- The empty `""` in the middle of the row is a default for the Secondary key. You don't have to set one — leave it `""` and the player can fill it in themselves — but you may ship a second default combo there if your action deserves two shortcuts out of the box. See *Two slots, both live* below.
+- `GetComboSecondary` comes back `null` on framework versions older than 2.0.2. That's fine — the helper in Step 4 falls back to `"None"`, and your mod behaves exactly as it did before.
 - Everything is wrapped in `try/catch` so a missing or older framework DLL can never crash your mod.
 
 ---
@@ -133,9 +168,34 @@ private static string ComboFor(string id, string fallbackDefault)
 }
 ```
 
-`GetCombo` always returns the combo that's actually in effect right now — including any
-rebind the player made, and including an automatic switch to the Secondary slot if the
-Primary is clashing with something (see below). You never need to check overrides yourself.
+`GetCombo` always returns the combo that's actually in effect right now, including any rebind the
+player made. You never need to check overrides yourself.
+
+**But `GetCombo` is only the first slot.** Every `"Discrete"` keybind also has a Secondary slot,
+and it fires independently — so read it too, with the same shape:
+
+```csharp
+private static string SecondaryComboFor(string id)
+{
+    try
+    {
+        if (s_getComboSecondary != null)
+        {
+            var c = s_getComboSecondary.Invoke(null, new object[] { MOD_ID, id }) as string;
+            if (!string.IsNullOrEmpty(c)) return c;
+        }
+    }
+    catch { }
+    return "None"; // framework absent or older than 2.0.2 - no second slot, nothing extra fires
+}
+```
+
+Then your input check tries the first slot and, failing that, the second — see `IsPressed` in the
+Full example. **Skip this and your players will set a second keybind and find it does nothing.**
+
+`GetComboSecondary` returns `"None"` when there is nothing extra to fire — including the case
+where the framework has already switched the player over to the Secondary because their Primary
+clashed. So you never double-fire, and you never have to reason about which slot is "active".
 
 ---
 
@@ -153,6 +213,10 @@ if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf &&
 
 This flag is set by the framework only while a rebind capture is actually in progress, and it
 expires automatically after one frame, so it's safe to check unconditionally every time.
+
+You do **not** need to do anything about text boxes. The framework already stops all keybinds from
+firing while the player is typing in a search box or any other input field — the game's own
+building search included — and that happens whether or not your mod checks the flag above.
 
 ---
 
@@ -204,6 +268,9 @@ How it behaves:
 
 - The function you pass in is re-read every time the game checks input, so a rebind the player
   makes in Settings applies instantly — no re-registering, no restart needed.
+- **Both key slots fire on this path for free.** The framework fills in the game's own Primary and
+  Secondary fields, so a player who sets two shortcuts gets both, with no extra code in your mod.
+  This is the main reason to prefer this path over polling where your keybind allows it.
 - The game won't fire it while the player is typing in a text field, and the framework keeps it
   quiet during rebind capture automatically — the `MoriPP_KeybindCapturingFrame` check from the
   previous section is not needed on this path.
@@ -233,10 +300,25 @@ Conflicts with: [Tweaks++] Toggle the Tweaks++ window
 — never just a bare "conflict". This works the same way whether the clash is with a vanilla
 shortcut (`[Vanilla] ...`) or with any other mod built on the framework, including yours.
 
-Every `"Discrete"` keybind also gets an optional **Secondary** slot in the UI for free. If a
-player's Primary combo is clashing with something and they've set a free Secondary, the game
-automatically switches to the Secondary and tells them so — `GetCombo` always hands you back
-whichever slot is actually active, so there's nothing extra for you to do.
+---
+
+## Two slots, both live
+
+Every `"Discrete"` keybind gets a **Secondary** slot in the UI for free, next to the Primary. The
+two are independent: whatever the player puts in each one fires, so they can keep `Ctrl + M` and
+`RCtrl + M` — or a completely different combo — on the same action at once.
+
+There is one exception, and it works in your favour. If the player's Primary clashes with a vanilla
+shortcut or another mod, and their Secondary is clash-free, the framework quietly moves them over
+to the Secondary and says so in the UI. In that case only the Secondary fires, so you never trip
+the clash.
+
+What this means for your code:
+
+- **Dispatcher path** (*Skip the polling*): nothing to do, both slots already fire.
+- **Polling path**: read `GetCombo` **and** `GetComboSecondary` and fire if either matches, as
+  Step 4 and the Full example show. `GetComboSecondary` handles the exception above for you by
+  returning `"None"` whenever the second slot shouldn't fire separately.
 
 ---
 
@@ -312,6 +394,7 @@ namespace MyCoolMod
         };
 
         private static MethodInfo s_getCombo;
+        private static MethodInfo s_getComboSecondary;
         private static bool s_initialized;
 
         public static void Register()
@@ -329,6 +412,7 @@ namespace MyCoolMod
                 if (apiType == null) return;
 
                 s_getCombo = apiType.GetMethod("GetCombo", new[] { typeof(string), typeof(string) });
+                s_getComboSecondary = apiType.GetMethod("GetComboSecondary", new[] { typeof(string), typeof(string) });
 
                 // 5-arg overload: (modId, displayName, bindings, bundle, groupsAsTabs)
                 //   bundle:        a shared name (e.g. "My Studio's Mods") to share one tab with your
@@ -361,6 +445,21 @@ namespace MyCoolMod
             return fallbackDefault;
         }
 
+        // The player's second shortcut for this action, or "None" if there isn't one to fire.
+        private static string SecondaryComboFor(string id)
+        {
+            try
+            {
+                if (s_getComboSecondary != null)
+                {
+                    var c = s_getComboSecondary.Invoke(null, new object[] { MOD_ID, id }) as string;
+                    if (!string.IsNullOrEmpty(c)) return c;
+                }
+            }
+            catch { }
+            return "None";
+        }
+
         private static bool IsModifierKey(KeyCode k)
         {
             switch (k)
@@ -368,35 +467,69 @@ namespace MyCoolMod
                 case KeyCode.LeftControl: case KeyCode.RightControl:
                 case KeyCode.LeftShift:   case KeyCode.RightShift:
                 case KeyCode.LeftAlt:     case KeyCode.RightAlt:
+                case KeyCode.AltGr:
                     return true;
                 default:
                     return false;
             }
         }
 
-        private static bool ModifiersHeldExactly(List<KeyCode> mods)
+        // Windows has no AltGr key: it is the right Alt. Do not trust KeyCode.AltGr on its own -
+        // Unity sets it from the generic Alt, so it is also true for the LEFT Alt. Use RightAlt as
+        // the real signal and keep AltGr only as a fallback when no left Alt is down.
+        private static bool AltGrDown()
         {
-            bool wantCtrl = false, wantShift = false, wantAlt = false;
-            foreach (var m in mods)
-            {
-                if (m == KeyCode.LeftControl || m == KeyCode.RightControl) wantCtrl = true;
-                if (m == KeyCode.LeftShift || m == KeyCode.RightShift) wantShift = true;
-                if (m == KeyCode.LeftAlt || m == KeyCode.RightAlt) wantAlt = true;
-            }
-            bool hasCtrl = Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
-            bool hasShift = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
-            bool hasAlt = Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt);
-            return wantCtrl == hasCtrl && wantShift == hasShift && wantAlt == hasAlt;
+            try { return Input.GetKey(KeyCode.AltGr); }
+            catch { return false; }
         }
 
-        public static bool IsPressed(string id, string defaultCombo)
+        private static bool RightAltDown()
         {
-            if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf && Time.frameCount - cf <= 1)
-                return false;
+            if (Input.GetKey(KeyCode.RightAlt)) return true;
+            return AltGrDown() && !Input.GetKey(KeyCode.LeftAlt);
+        }
 
-            if (!s_initialized) Register();
+        // On layouts with AltGr, Windows sends a LeftControl along with the right Alt, and a real
+        // Ctrl press looks exactly the same. So while the right Alt is down, treat LeftControl as
+        // "don't care" - matching either way. Do NOT force it off: that throws away the Ctrl of a
+        // player who really did press Ctrl + AltGr + key.
+        private static bool LeftCtrlMatches(bool required)
+        {
+            bool down = Input.GetKey(KeyCode.LeftControl);
+            if (down && RightAltDown()) return true;
+            return required == down;
+        }
 
-            string combo = ComboFor(id, defaultCombo);
+        // Left and right modifiers are separate keys: LeftControl + W and RightControl + W are
+        // two different binds, so compare each side on its own rather than "either Ctrl".
+        private static bool ModifiersHeldExactly(List<KeyCode> mods)
+        {
+            bool wantLCtrl = false, wantRCtrl = false;
+            bool wantLShift = false, wantRShift = false, wantLAlt = false, wantRAlt = false;
+            foreach (var m in mods)
+            {
+                switch (m)
+                {
+                    case KeyCode.AltGr: wantRAlt = true; break;
+                    case KeyCode.LeftControl: wantLCtrl = true; break;
+                    case KeyCode.RightControl: wantRCtrl = true; break;
+                    case KeyCode.LeftShift: wantLShift = true; break;
+                    case KeyCode.RightShift: wantRShift = true; break;
+                    case KeyCode.LeftAlt: wantLAlt = true; break;
+                    case KeyCode.RightAlt: wantRAlt = true; break;
+                }
+            }
+            return LeftCtrlMatches(wantLCtrl)
+                && wantRCtrl == Input.GetKey(KeyCode.RightControl)
+                && wantLShift == Input.GetKey(KeyCode.LeftShift)
+                && wantRShift == Input.GetKey(KeyCode.RightShift)
+                && wantLAlt == Input.GetKey(KeyCode.LeftAlt)
+                && wantRAlt == RightAltDown();
+        }
+
+        private static bool ComboPressed(string combo)
+        {
+            if (string.IsNullOrWhiteSpace(combo) || combo.Trim() == "None") return false;
             KeyCode mainKey = KeyCode.None;
             var mods = new List<KeyCode>();
             foreach (var token in combo.Split('+'))
@@ -411,31 +544,26 @@ namespace MyCoolMod
             return Input.GetKeyDown(mainKey);
         }
 
-        private static bool HeldKey(KeyCode k)
-        {
-            switch (k)
-            {
-                case KeyCode.LeftControl: case KeyCode.RightControl:
-                    return Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
-                case KeyCode.LeftShift: case KeyCode.RightShift:
-                    return Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
-                case KeyCode.LeftAlt: case KeyCode.RightAlt:
-                    return Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt);
-                default:
-                    return Input.GetKey(k);
-            }
-        }
-
-        // For "Modifier" rows and anything hold-based - true while every key of the combo is held.
-        // A combo cleared to "None" returns true: the gesture then needs no held key at all.
-        public static bool IsHeld(string id, string defaultCombo)
+        public static bool IsPressed(string id, string defaultCombo)
         {
             if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf && Time.frameCount - cf <= 1)
                 return false;
 
             if (!s_initialized) Register();
 
-            string combo = ComboFor(id, defaultCombo);
+            // Both slots fire - check the player's first shortcut, then their second.
+            if (ComboPressed(ComboFor(id, defaultCombo))) return true;
+            return ComboPressed(SecondaryComboFor(id));
+        }
+
+        private static bool HeldKey(KeyCode k)
+        {
+            if (k == KeyCode.AltGr || k == KeyCode.RightAlt) return RightAltDown();
+            return Input.GetKey(k);
+        }
+
+        private static bool ComboHeld(string combo)
+        {
             if (string.IsNullOrWhiteSpace(combo)) return true;
             combo = combo.Trim();
             if (combo == "None") return true;
@@ -447,6 +575,22 @@ namespace MyCoolMod
                 if (!HeldKey(key)) return false;
             }
             return true;
+        }
+
+        // For "Modifier" rows and anything hold-based - true while every key of the combo is held.
+        // A combo cleared to "None" returns true: the gesture then needs no held key at all.
+        public static bool IsHeld(string id, string defaultCombo)
+        {
+            if (AppDomain.CurrentDomain.GetData("MoriPP_KeybindCapturingFrame") is int cf && Time.frameCount - cf <= 1)
+                return false;
+
+            if (!s_initialized) Register();
+
+            if (ComboHeld(ComboFor(id, defaultCombo))) return true;
+            // Only try the second slot if there is one - "None" means "no key needed", which
+            // would otherwise make this always return true.
+            string secondary = SecondaryComboFor(id);
+            return secondary.Trim() != "None" && ComboHeld(secondary);
         }
     }
 }

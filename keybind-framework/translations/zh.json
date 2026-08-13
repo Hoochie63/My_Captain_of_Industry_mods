@@ -39,5 +39,18 @@
     "Customized first": "已自定义优先",
     "Unbound first": "未绑定优先",
     "Original order": "原始顺序",
-    "Changes the order of these tabs. Your choice is remembered.": "更改这些标签页的顺序。你的选择会被记住。"
+    "Changes the order of these tabs. Your choice is remembered.": "更改这些标签页的顺序。你的选择会被记住。",
+    "By group": "按分组",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "开启后，搜索会查看快捷键上方的分组标题，而不是快捷键本身，并显示匹配标题下的所有快捷键。开启期间，按快捷键名称、按模组名称和按按键组合的搜索会被关闭。",
+    "No keybind groups match your search.": "没有与你的搜索匹配的快捷键分组。",
+  "No conflicts found.": "未发现任何冲突。",
+  "Reset this tab to default": "将此标签页重置为默认值",
+  "Resets only the conflicting keybinds shown here.": "仅重置此处显示的冲突快捷键。",
+  "Check conflicts": "检查冲突",
+  "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "在同一处显示所有模组中当前互相冲突的快捷键，无需逐一检查每个标签页。按 Esc 即可返回你的标签页。",
+  "Close the conflict list and go back to your tabs.": "关闭冲突列表并返回你的标签页。",
+  "Click the X or press Escape to exit conflict check.": "点击 X 或按 Esc 即可退出冲突检查。",
+  "Apply all to this tab": "全部应用到此标签页",
+  "Vanilla": "原版",
+  "Mod": "模组"
 }

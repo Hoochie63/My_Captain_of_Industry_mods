@@ -39,5 +39,18 @@
     "Customized first": "Personalizados primeiro",
     "Unbound first": "Não atribuídos primeiro",
     "Original order": "Ordem original",
-    "Changes the order of these tabs. Your choice is remembered.": "Muda a ordem destas abas. A sua escolha é lembrada."
+    "Changes the order of these tabs. Your choice is remembered.": "Muda a ordem destas abas. A sua escolha é lembrada.",
+    "By group": "Por grupo",
+    "When this is on, your search looks at the group headings above the keybinds instead of the keybinds themselves, and every keybind under a matching heading is shown. Searching by keybind name, by mod name and by key combination is turned off while this is on.": "Quando está ligado, a pesquisa olha para os títulos de grupo acima das teclas em vez das próprias teclas, e são mostradas todas as teclas sob um título correspondente. Enquanto estiver ligado, a pesquisa por nome da tecla, por nome do mod e por combinação de teclas fica desligada.",
+    "No keybind groups match your search.": "Nenhum grupo de teclas corresponde à sua pesquisa.",
+    "No conflicts found.": "Nenhum conflito encontrado.",
+    "Reset this tab to default": "Repor este separador",
+    "Resets only the conflicting keybinds shown here.": "Repõe apenas os atalhos em conflito mostrados aqui.",
+    "Check conflicts": "Verificar conflitos",
+    "Shows every keybind across all mods that currently conflicts with another, all in one place, so you don't have to check each tab. Press Escape to return to your tabs.": "Mostra, num só lugar, todos os atalhos de todos os mods que atualmente estão em conflito com outro, para não ter de verificar cada separador. Pressione Escape para voltar aos seus separadores.",
+    "Close the conflict list and go back to your tabs.": "Fecha a lista de conflitos e volta aos seus separadores.",
+    "Click the X or press Escape to exit conflict check.": "Clique no X ou pressione Escape para sair da verificação de conflitos.",
+    "Apply all to this tab": "Aplicar tudo neste separador",
+    "Vanilla": "Vanilla",
+    "Mod": "Mod"
 }

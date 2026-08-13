@@ -1,3 +1,23 @@
+v2.0.2 | 2026-07-29
+* Now supports game version 0.8.7.
+* Users: new By group checkbox next to the search box — with it on, your search matches the group headings above the keybinds and shows every keybind under a matching heading, instead of searching keybind names, mod names and key combinations. Hover the checkbox to see what it does. Your choice is remembered. (thanks Mag for the idea)
+* Users: the second keybind now works at the same time as the first one. Before, it only did something if the first was cleared or clashed with another shortcut, so setting both looked like the second one was ignored. Now both fire, giving you two working shortcuts for the same action.
+* Users: the second keybind now also blocks the base game's shorter shortcut, the same way the first one always has. A second keybind of Ctrl + S no longer moves the camera backwards at the same time.
+* Users: left and right Ctrl, Shift and Alt now count as separate keys. You can put Ctrl + W on one keybind and right Ctrl + W on the other and they stay apart, and the key fields now show RCtrl, RShift and RAlt so you can see which side you pressed.
+* Users: AltGr can now be used in a keybind, for example AltGr + W. Before it was read as Ctrl + Alt + AltGr and could not be combined with another key at all.
+* Users: typing in a search box no longer sets off keybinds — both the search in this tab and the game's own building search at the bottom of the screen. Before, typing a name could trigger any mod shortcut that used those letters. This is handled for every mod at once, so it works even for mods that were never updated for it.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Keybind Framework now supports every language the base game does.
+* Fixed several labels and tooltips in the Check Conflicts panel — including the Vanilla/Mod category labels — that were never translatable.
+* Users: fixed the keyboard going dead everywhere, including the base game's Controls tab, after clicking a key field and leaving without finishing the rebind. Keys now start working again as soon as you leave the tab.
+* Users: the conflict list now has an X button to close it, so you no longer have to press Escape to get back to your tabs.
+* Modders: if your mod adds its keybinds to this framework, read the updated guide that ships with it ("Guide add keybinds.json") — it has a What changed section at the top.
+  In short: you can add one extra call in your input check so the second keybind fires too, giving the player two working shortcuts for the same action.
+  The second keybind also still takes over on its own when the main one clashes with something, exactly as before — you get that with or without the extra call.
+  So the extra call is optional: leave it out and the second keybind stays the clash-only backup it always was, running the same action.
+  Left and right Ctrl, Shift and Alt are now separate keys, and AltGr can be used in a combo.
+  If you let the game fire your keybind instead of checking input yourself, the second keybind and the left/right key sides need no changes from you.
+  Right Alt / AltGr is the exception — it still needs the small check shown in the guide, or a player can bind it and it will simply never fire.
+
 v2.0.1 | 2026-07-29
 * Now supports game version 0.8.6b.
 
