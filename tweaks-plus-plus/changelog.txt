@@ -1,3 +1,29 @@
+v1.2.5 | 2026-08-10
+* Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
+
+v1.2.4 | 2026-08-10
+* New "Pre load" button on the Shipyard window — opens the Upgrade Manager's Pre Load Shipyard tab directly, with a tooltip explaining what it does.
+* Fixed preloaded cargo sitting unused once a repair or upgrade job started (thanks rgreat for the report)
+* Fixed Pre Load Shipyard trucks repeatedly unloading and reloading the same cargo near the end of an order instead of settling once it was full.
+
+v1.2.3 | 2026-07-29
+* Now supports game version 0.8.7.
+* Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.
+* New Save/Load buttons in the settings window — save all your Tweaks++ settings to a profile and reload them in any save or new game, so you never set everything up twice.
+* Fixed the Mine Tower boundary-line color picker disappearing (leaving just the pause button) after loading a save from within a game — it now stays put. (thanks Serjevski for the report)
+* Window is wider and the Designations checkboxes on the Modifications tab no longer overlap or cut off their names.
+* New on the Gameplay tab: set if trucks may import/export on newly built unit, loose, fluid and warehouse storages. Existing and blueprint ones are untouched. (thanks SlyPulsar)
+* New on the Gameplay tab: choose what newly built mine control towers can dump and warn about. Leave a list empty to keep the base game's choice.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Tweaks++ now supports every language the base game does.
+* Fixed the Overlord window title, and its Save and Load buttons and their tooltips, always showing in English no matter your language.
+* Fixed vehicle scrapping/ordering and profile save/load status messages that stayed in English.
+* Fixed the Load button showing as an unrelated word in Simplified Chinese.
+* Save and Load now ask you to confirm first, so you cannot overwrite your saved profile or your current settings by accident. (thanks Mag for the suggestion)
+* New Pre Load Shipyard tab in the Upgrade Manager — pick a product and amount, trucks fill the ship's hold and it stays locked until released. (thanks rgreat for the suggestion)
+* General UI fixes — several buttons and names no longer wrap or overlap in some languages.
+* New HUD tab checkmark "Remove Notifications background" — turn it on to hide the background plate behind the Alert/Notifications and Research panels.
+* Save/Load now also captures your HUD layout — dragged positions, element scale, hidden elements and notification panel sizes — and restores it live, no reload needed.
+
 v1.2.2 | 2026-07-29
 * Now supports game version 0.8.6b.
 
