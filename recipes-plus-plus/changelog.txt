@@ -1,3 +1,16 @@
+v1.2.0 | 2026-07-29
+* Now supports game version 0.8.7.
+* Reworked where the synthetic diesel vehicles unlock in the research tree so they line up better with the base game's vehicle progression. The synthetic trucks now unlock with the Mega Vehicles research (both standard and hydrogen) instead of being available too early. The synthetic Heavy Hauler now unlocks with the regular Heavy Hauler research, and the synthetic Terex and Huge Excavator now unlock with their diesel and hydrogen versions.
+* The battery-electric vehicles and the synthetic Terex and Huge Excavator now require Microchip technology (found on the world map) before they can be built.
+* The synthetic and battery Heavy Hauler now have a bigger fuel tank and use 25% less fuel, so they run longer between refuels. (thanks rgreat for the balance suggestion)
+* Thanks to Serjevski for pointing out the synthetic vehicle unlock issue that led to all these balance improvements.
+* Two settlements now offer Raw Lithium contracts, one for Crude Oil and one for Diesel, so Lithium is obtainable without world-map deposits. (thanks sbenza for the great suggestion)
+* Three more settlement contracts: 18650 Battery (Empty) for Hydrogen, Synthetic diesel for Sulfur, and Liquified coal for Fuel Gas.
+* Language fixes for the synthetic and battery vehicles — the Russian Terex S and Terex B were still named in English,
+  several Italian names were missing their S and looked identical to the regular vehicle, and some names and descriptions used a different name than the vehicle they belong to. Fixed in German, Spanish, Italian, Portuguese, Russian and Ukrainian.
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Recipes++ now supports every language the base game does.
+* Fixed battery-electric and synthetic diesel vehicles failing to build due to a load order issue with Fusion Horizon. (thanks wolf for the report)
+
 v1.1.9 | 2026-07-29
 * Now supports game version 0.8.6b.
 

@@ -27,11 +27,11 @@
 
   "Synth Trucks": "Synth-LKW",
 
-  "Unlocks synthetic diesel variants of the T2 industrial truck, T3 haul trucks, and the Heavy Hauler. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten des T2-Industrie-LKW, der T3-Transport-LKW und des Heavy Hauler frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+  "Unlocks synthetic diesel variants of the T2 industrial truck and T3 haul trucks. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten des T2-Industrie-LKW und der T3-Transport-LKW frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
   "Synth Heavy Fleet": "Synth-Schwerflotte",
 
-  "Unlocks synthetic diesel variants of The Terex and Huge Excavator. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten von The Terex und Huge Excavator frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+  "Unlocks synthetic diesel variants of The Terex and Huge Excavator. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten des Terex und des Riesigen Baggers frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
   "Liquifier": "Verflüssiger",
   "Liquified coal": "Verflüssigte Kohle",
@@ -64,7 +64,7 @@
 
   "Heavy Hauler S": "Schwerer Lastwagen S",
 
-  "Synthetic diesel Heavy Hauler with 100 cargo capacity. 25% slower. 65% less pollution than diesel, 25% faster fuel burn.": "Synthetikdiesel-Schwerlasttransporter mit 100 Ladekapazität. 25% langsamer, 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
+  "Synthetic diesel Heavy Hauler with 100 cargo capacity. 25% slower. 65% less pollution than diesel, 25% faster fuel burn.": "Schwerer Lastwagen mit Synthetikdiesel und 100 Ladekapazität. 25% langsamer, 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
   "The Terex S": "Der Terex S",
 
@@ -141,7 +141,7 @@
   "Battery Vehicles": "Batteriefahrzeuge",
   "Unlocks battery-electric trucks that run on charged 18650 cells with zero pollution, and the Battery charging station that refuels them.": "Schaltet batterieelektrische Lastwagen frei, die mit geladenen 18650-Zellen ohne jegliche Verschmutzung fahren, sowie die Batterieladestation, die sie betankt.",
   "Heavy Hauler B": "Schwerer Lastwagen B",
-  "Battery-electric Heavy Hauler with 100 cargo capacity. 25% slower. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Schwerlasttransporter mit 100 Ladekapazität. 25% langsamer. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
+  "Battery-electric Heavy Hauler with 100 cargo capacity. 25% slower. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer schwerer Lastwagen mit 100 Ladekapazität. 25% langsamer. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
   "The Terex B": "Der Terex B",
   "Battery-electric Terex. Massive 412 cargo capacity, 50% reduced speed. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Terex. Massive 412 Ladekapazität, 50% reduzierte Geschwindigkeit. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
   "Huge Excavator B": "Riesiger Bagger B",
