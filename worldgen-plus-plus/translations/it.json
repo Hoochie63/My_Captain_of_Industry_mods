@@ -130,5 +130,21 @@
   "Search": "Cerca",
   "Filter by product name...": "Filtra per nome prodotto...",
   "Product": "Prodotto",
-  "Drag to reorder": "Trascina per riordinare"
+  "Drag to reorder": "Trascina per riordinare",
+  "Pending arrivals from {0}": "Arrivi in attesa da {0}",
+  "Target: {0}": "Obiettivo: {0}",
+  "Switch to {0}": "Passa a {0}",
+  "Trucks dispatched to deliver up to {0} {1}": "Camion inviati per consegnare fino a {0} {1}",
+  "{0} (active)": "{0} (attiva)",
+  "(other home)": "(altra casa)",
+  "Live: {0}": "Attuale: {0}",
+  "{0} values from last save": "{0} valori dall'ultimo salvataggio",
+  "Home 2 not registered yet": "Casa 2 non ancora registrata",
+  "Drag the ≡ handle to reorder. Order is shared across both homes.": "Trascina la maniglia ≡ per riordinare. L'ordine è condiviso tra entrambe le case.",
+  "Other home: (not registered yet)": "Altra casa: (non ancora registrata)",
+  "Other home: {0}": "Altra casa: {0}",
+  "⚓ Loading on ship:": "⚓ Caricamento sulla nave:",
+  "⛴ On ship to {0}:": "⛴ In nave verso {0}:",
+  "📦 Pending delivery to {0}:": "📦 Consegna in attesa a {0}:",
+  "{0}  (Home 1: {1})": "{0}  (Casa 1: {1})"
 }

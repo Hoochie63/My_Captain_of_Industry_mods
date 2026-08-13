@@ -143,5 +143,22 @@
   "Search": "Search",
   "Filter by product name...": "Filter by product name...",
   "Product": "Product",
-  "Drag to reorder": "Drag to reorder"
+  "Drag to reorder": "Drag to reorder",
+
+  "Pending arrivals from {0}": "Pending arrivals from {0}",
+  "Target: {0}": "Target: {0}",
+  "Switch to {0}": "Switch to {0}",
+  "Trucks dispatched to deliver up to {0} {1}": "Trucks dispatched to deliver up to {0} {1}",
+  "{0} (active)": "{0} (active)",
+  "(other home)": "(other home)",
+  "Live: {0}": "Live: {0}",
+  "{0} values from last save": "{0} values from last save",
+  "Home 2 not registered yet": "Home 2 not registered yet",
+  "Drag the ≡ handle to reorder. Order is shared across both homes.": "Drag the ≡ handle to reorder. Order is shared across both homes.",
+  "Other home: (not registered yet)": "Other home: (not registered yet)",
+  "Other home: {0}": "Other home: {0}",
+  "⚓ Loading on ship:": "⚓ Loading on ship:",
+  "⛴ On ship to {0}:": "⛴ On ship to {0}:",
+  "📦 Pending delivery to {0}:": "📦 Pending delivery to {0}:",
+  "{0}  (Home 1: {1})": "{0}  (Home 1: {1})"
 }

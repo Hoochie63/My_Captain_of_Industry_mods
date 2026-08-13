@@ -200,5 +200,21 @@
   "Search": "Suche",
   "Filter by product name...": "Nach Produktname filtern...",
   "Product": "Produkt",
-  "Drag to reorder": "Zum Umsortieren ziehen"
+  "Drag to reorder": "Zum Umsortieren ziehen",
+  "Pending arrivals from {0}": "Ausstehende Lieferungen von {0}",
+  "Target: {0}": "Ziel: {0}",
+  "Switch to {0}": "Zu {0} wechseln",
+  "Trucks dispatched to deliver up to {0} {1}": "Lkw entsandt, um bis zu {0} {1} zu liefern",
+  "{0} (active)": "{0} (aktiv)",
+  "(other home)": "(andere Heimat)",
+  "Live: {0}": "Live: {0}",
+  "{0} values from last save": "{0} Werte vom letzten Speicherstand",
+  "Home 2 not registered yet": "Heimat 2 ist noch nicht registriert",
+  "Drag the ≡ handle to reorder. Order is shared across both homes.": "Ziehe den ≡-Griff, um umzusortieren. Die Reihenfolge gilt für beide Heimaten.",
+  "Other home: (not registered yet)": "Andere Heimat: (noch nicht registriert)",
+  "Other home: {0}": "Andere Heimat: {0}",
+  "⚓ Loading on ship:": "⚓ Wird auf Schiff geladen:",
+  "⛴ On ship to {0}:": "⛴ Auf dem Schiff nach {0}:",
+  "📦 Pending delivery to {0}:": "📦 Ausstehende Lieferung nach {0}:",
+  "{0}  (Home 1: {1})": "{0}  (Heimat 1: {1})"
 }

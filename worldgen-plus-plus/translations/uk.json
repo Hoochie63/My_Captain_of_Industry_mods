@@ -130,5 +130,21 @@
   "Search": "Пошук",
   "Filter by product name...": "Фільтр за назвою товару...",
   "Product": "Товар",
-  "Drag to reorder": "Перетягніть, щоб змінити порядок"
+  "Drag to reorder": "Перетягніть, щоб змінити порядок",
+  "Pending arrivals from {0}": "Очікувані надходження з {0}",
+  "Target: {0}": "Ціль: {0}",
+  "Switch to {0}": "Перемкнутися на {0}",
+  "Trucks dispatched to deliver up to {0} {1}": "Вантажівки вирушили доставити до {0} {1}",
+  "{0} (active)": "{0} (активний)",
+  "(other home)": "(інший дім)",
+  "Live: {0}": "Наживо: {0}",
+  "{0} values from last save": "{0} значення з останнього збереження",
+  "Home 2 not registered yet": "Дім 2 ще не зареєстровано",
+  "Drag the ≡ handle to reorder. Order is shared across both homes.": "Перетягніть маркер ≡, щоб змінити порядок. Порядок спільний для обох домів.",
+  "Other home: (not registered yet)": "Інший дім: (ще не зареєстровано)",
+  "Other home: {0}": "Інший дім: {0}",
+  "⚓ Loading on ship:": "⚓ Завантаження на корабель:",
+  "⛴ On ship to {0}:": "⛴ На кораблі до {0}:",
+  "📦 Pending delivery to {0}:": "📦 Очікує доставки до {0}:",
+  "{0}  (Home 1: {1})": "{0}  (Дім 1: {1})"
 }

@@ -130,5 +130,21 @@
   "Search": "Pesquisar",
   "Filter by product name...": "Filtrar por nome do produto...",
   "Product": "Produto",
-  "Drag to reorder": "Arraste para reordenar"
+  "Drag to reorder": "Arraste para reordenar",
+  "Pending arrivals from {0}": "Chegadas pendentes de {0}",
+  "Target: {0}": "Alvo: {0}",
+  "Switch to {0}": "Trocar para {0}",
+  "Trucks dispatched to deliver up to {0} {1}": "Caminhões despachados para entregar até {0} {1}",
+  "{0} (active)": "{0} (ativo)",
+  "(other home)": "(outro lar)",
+  "Live: {0}": "Ao vivo: {0}",
+  "{0} values from last save": "{0} valores do último save",
+  "Home 2 not registered yet": "Lar 2 ainda não registrado",
+  "Drag the ≡ handle to reorder. Order is shared across both homes.": "Arraste a alça ≡ para reordenar. A ordem é compartilhada entre os dois lares.",
+  "Other home: (not registered yet)": "Outro lar: (ainda não registrado)",
+  "Other home: {0}": "Outro lar: {0}",
+  "⚓ Loading on ship:": "⚓ Carregando no navio:",
+  "⛴ On ship to {0}:": "⛴ No navio para {0}:",
+  "📦 Pending delivery to {0}:": "📦 Entrega pendente para {0}:",
+  "{0}  (Home 1: {1})": "{0}  (Lar 1: {1})"
 }

@@ -1,5 +1,5 @@
 {
-    "WorldGen": " GeneraciónMundial ",
+    "WorldGen": "Generación mundial",
     "Enable Custom WorldGen": "Activar Generación mundial personalizado",
     "World Shape": "Forma del mundo",
     "Entities": "Entidades",
@@ -130,5 +130,21 @@
     "Search": "Buscar",
     "Filter by product name...": "Filtrar por nombre de producto...",
     "Product": "Producto",
-    "Drag to reorder": "Arrastra para reordenar"
+    "Drag to reorder": "Arrastra para reordenar",
+    "Pending arrivals from {0}": "Llegadas pendientes desde {0}",
+    "Target: {0}": "Objetivo: {0}",
+    "Switch to {0}": "Cambiar a {0}",
+    "Trucks dispatched to deliver up to {0} {1}": "Camiones despachados para entregar hasta {0} {1}",
+    "{0} (active)": "{0} (activo)",
+    "(other home)": "(otro hogar)",
+    "Live: {0}": "En vivo: {0}",
+    "{0} values from last save": "Valores de {0} de la última partida guardada",
+    "Home 2 not registered yet": "Hogar 2 aún no registrado",
+    "Drag the ≡ handle to reorder. Order is shared across both homes.": "Arrastra el tirador ≡ para reordenar. El orden se comparte entre ambos hogares.",
+    "Other home: (not registered yet)": "Otro hogar: (aún no registrado)",
+    "Other home: {0}": "Otro hogar: {0}",
+    "⚓ Loading on ship:": "⚓ Cargando en el barco:",
+    "⛴ On ship to {0}:": "⛴ En barco hacia {0}:",
+    "📦 Pending delivery to {0}:": "📦 Entrega pendiente a {0}:",
+    "{0}  (Home 1: {1})": "{0}  (Hogar 1: {1})"
 }

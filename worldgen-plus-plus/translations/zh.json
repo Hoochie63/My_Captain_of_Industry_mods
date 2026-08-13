@@ -130,5 +130,21 @@
   "Search": "搜索",
   "Filter by product name...": "按产品名称筛选...",
   "Product": "产品",
-  "Drag to reorder": "拖动以重新排序"
+  "Drag to reorder": "拖动以重新排序",
+  "Pending arrivals from {0}": "来自 {0} 的待送货物",
+  "Target: {0}": "目标：{0}",
+  "Switch to {0}": "切换到 {0}",
+  "Trucks dispatched to deliver up to {0} {1}": "已派遣卡车运送最多 {0} {1}",
+  "{0} (active)": "{0}（使用中）",
+  "(other home)": "（另一家园）",
+  "Live: {0}": "即时：{0}",
+  "{0} values from last save": "{0}（上次存档的数值）",
+  "Home 2 not registered yet": "家园 2 尚未注册",
+  "Drag the ≡ handle to reorder. Order is shared across both homes.": "拖动 ≡ 手柄以重新排序。顺序会在两个家园之间共享。",
+  "Other home: (not registered yet)": "另一家园：（尚未注册）",
+  "Other home: {0}": "另一家园：{0}",
+  "⚓ Loading on ship:": "⚓ 装船中：",
+  "⛴ On ship to {0}:": "⛴ 船运往 {0}：",
+  "📦 Pending delivery to {0}:": "📦 待送达 {0}：",
+  "{0}  (Home 1: {1})": "{0}  （家园 1：{1}）"
 }
