@@ -1,3 +1,6 @@
+v1.0.8 | 2026-07-29
+* Now supports game version 0.8.7.
+
 v1.0.7 | 2026-07-29
 * Now supports game version 0.8.6b.
 
