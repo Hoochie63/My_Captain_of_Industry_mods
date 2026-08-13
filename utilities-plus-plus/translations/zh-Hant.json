@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "要用目前的設定覆寫已儲存的設定檔嗎？",
+  "Load your saved profile? Your current settings will be replaced.": "要載入已儲存的設定檔嗎？目前的設定將被取代。",
+  "Vehicles":"車輛",
+  "Start the drag-select tool to move vehicles in an area.": "啟動框選工具以移動區域內的車輛。",
+  "Start the drag-select tool to recover vehicles in an area.": "啟動框選工具以恢復區域內的車輛。",
+  "Cycle vehicle type": "切換車輛類型",
+  "Select all vehicle types": "選擇所有車輛類型",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "切換「車輛批次移動」/「車輛批次恢復」所選定的車輛類型。",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "重設「車輛批次移動」/「車輛批次恢復」，使其套用於所有車輛類型。",
+  "Toggle the Overlord window": "切換 Overlord 視窗",
+  "Open or close the Mori++ Overlord window.": "開啟或關閉 Mori++ Overlord 視窗。",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "選擇一種車輛類型即包含其所有燃料變體（柴油、電池、氫、合成柴油）——無需逐一選擇。",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "包含此車輛的所有燃料變體（柴油、電池、氫、合成柴油）。",
+  "Mass Vehicle Mover (Shift+M)": "車輛批次移動 (Shift+M)",
+  "Mass Recover (Shift+R)": "車輛批次恢復 (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "切換車輛類型 (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "重設為所有車輛類型 (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "工具",
+  "View/Layers": "檢視/圖層",
+  "Window": "視窗",
+
+  "Keybinds": "快速鍵",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "重新綁定 Mori++ 系列的快速鍵。遊戲自身的快速鍵也會被檢查，因此發生衝突時會提醒您。",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "點擊一個欄位，然後按下一個組合鍵。按右鍵清除，Esc 取消。",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "更改立即生效。其他模組會在幾秒內更新——無需重新啟動。",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "修飾鍵在設計上會與許多遊戲快速鍵重疊；僅當與其他模組工具衝突時才會提示。",
+  "Press a key…": "按一個鍵…",
+  "Conflicts with: {0}": "與以下衝突：{0}",
+  "None": "無",
+  "Reset": "重設",
+  "Clear": "移除產品",
+  "Reset all to defaults": "全部重設為預設值",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "多顯示一層傳送帶/管道",
+  "Hide one more belt/pipe level": "多隱藏一層傳送帶/管道",
+  "Show one more belt/pipe level from bottom": "從底部多顯示一層傳送帶/管道",
+  "Hide one more belt/pipe level from bottom": "從底部多隱藏一層傳送帶/管道",
+  "Cycle Surplus Power modes": "切換冗餘電力模式",
+  "Toggle efficiency overlay": "切換效率圖層",
+  "Toggle the Tweaks++ window": "切換 Tweaks++ 視窗",
+
+  "Efficiency": "效率",
+  "Efficiency Overlay": "效率圖層",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "每台機器上方會浮動顯示其即時運作效率。一眼就能看出哪些建築缺料、堵塞或電力不足。",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "顏色含義：綠色 = 運行 75-100%，黃色 = 50-74%，橙色 = 1-49%，紅色 = 停滯（無輸入 / 輸出已滿 / 無電力 / 故障），灰色 = 暫停。",
+  "Show machine efficiency overlay": "顯示機器效率圖層",
+  "Toggle the floating efficiency labels above every machine in the world.": "切換世界中每台機器上方的浮動效率標籤。",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "快速鍵：Ctrl+E 開關效率圖層。",
+  "Efficiency: ON": "效率：開",
+  "Efficiency: OFF": "效率：關",
+  "Background transparency": "背景透明度",
+  "Number size": "數字大小",
+  "Background size": "背景大小",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "預設顏色：綠色 = 運行良好，琥珀色 = 減速，紅色 = 停滯，灰色 = 暫停。下方可自訂每個狀態的顏色。",
+  "State label colors": "狀態標籤顏色",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "點擊一個狀態，然後在下面選擇顏色。預設值與原始配色一致。",
+  "Editing: {0}": "正在編輯：{0}",
+  "Reset all colors to default": "將所有顏色重設為預設",
+  "Reset every state's label color back to its default.": "將每個狀態的標籤顏色重設回預設值。",
+  "Running 75-100%": "運行 75-100%",
+  "Running 50-74%": "運行 50-74%",
+  "Running 1-49%": "運行 1-49%",
+  "Running below 1%": "運行低於 1%",
+  "Output full": "輸出已滿",
+  "No input": "無輸入",
+  "No power": "無電力",
+  "No computing": "無算力",
+  "No workers": "無工人",
+  "Broken": "故障",
+  "Paused / off": "暫停/關閉",
+
+
+  "Belts/Pipes": "傳送帶/管道",
+
+  "Coming Soon": "即將推出",
+
+  "More utilities coming in future updates.": "更多實用工具將在後續更新中加入。",
+
+  "Surplus Power": "冗餘電力",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "在放置藍圖或貼上副本時，覆寫每個適用建築的「冗餘電力」設定。「預設」會保留每個建築已儲存的設定。",
+
+  "Hotkey: Ctrl+S cycles between modes.": "快速鍵：Ctrl+S 在模式間循環。",
+
+  "Default": "預設",
+
+  "Surplus ON": "冗餘電力 開",
+
+  "Surplus OFF": "冗餘電力 關",
+
+  "Keep each building's saved surplus setting from the blueprint.": "保留藍圖中每個建築已儲存的冗餘電力設定。",
+
+  "Force every applicable building to consume only when there is surplus power.": "強制每個適用建築僅在有冗餘電力時消耗電力。",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "強制每個適用建築正常消耗電力（不限於冗餘電力）。",
+
+  "Surplus Power: Default": "冗餘電力：預設",
+  "Surplus Power: ON": "冗餘電力：開",
+  "Surplus Power: OFF": "冗餘電力：關",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "切換層級，顯示或隱藏對應高度的傳送帶和管道。",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "快速鍵：PageUp 多顯示一層，PageDown 多隱藏一層。",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "快速鍵：Ctrl+PageUp 多顯示一層，Ctrl+PageDown 多隱藏一層。",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "快速鍵：Shift+PageUp 從底部多顯示一層，Shift+PageDown 從底部多隱藏一層。",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "已載入 Kayser 的 Blueprint Designer's Toolkit，因此這些快速鍵已改為 Ctrl+PageUp / Ctrl+PageDown，以避免與其快速鍵衝突。",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "注意：如果在放置傳送帶或管道時隱藏了層級，來自隱藏層級的連接箭頭仍會顯示。退出並重新進入建造模式即可重新整理。",
+
+
+  "Level {0}": "層級 {0}",
+
+  "Show All": "顯示全部",
+
+  "Hide All": "隱藏全部",
+
+  "Show lifts, sorters & balancers": "顯示升降機、分類器與平衡器",
+
+  "Show Lifts": "顯示升降機",
+  "Show Sorters": "顯示分類器",
+  "Show Balancers": "顯示平衡器",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "取消勾選後，將隱藏所有升降機，與高度層級無關——獨立於上方的層級核取方塊。依存檔分別儲存。",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "取消勾選後，將隱藏所有分類器，與高度層級無關——獨立於上方的層級核取方塊。依存檔分別儲存。",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "取消勾選後，將隱藏所有平衡器，與高度層級無關——獨立於上方的層級核取方塊。依存檔分別儲存。",
+
+  "Show buildings & trees": "顯示建築與樹木",
+
+  "Show Housing & Services": "顯示住宅與服務",
+
+  "Show All Trees": "顯示所有樹木",
+  "Show Offices": "顯示辦公室",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "取消勾選時，隱藏所有辦公大樓（一級、二級和三級），避免它們擋住工廠視野。可復原。依存檔分別儲存。",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "取消勾選時，隱藏所有住宅（所有等級）以及整個「住宅與服務」分頁——食品市場、模組、水、變壓器、廢棄物、診所、網路、廣場。依存檔分別儲存。",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "取消勾選時，隱藏地圖上的所有樹木（野生和種植），避免遮擋視線。可復原，不影響採收。依存檔分別儲存。",
+
+  "Close": "關閉",
+
+  "Balancers": "平衡器",
+
+  "Lifts": "升降機",
+
+  "Vehicle Mover": "車輛移動器",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "選擇一種車輛類型，拖曳以框選地圖上的車輛，然後點擊目的地將其移動過去。",
+
+  "Select vehicle type": "選擇車輛類型",
+
+  "All Types": "所有類型",
+
+  "Mass Vehicle Mover": "車輛批次移動",
+
+  "Mass Recover": "車輛批次恢復",
+
+  "Drag to select vehicles to recover...": "拖曳以選擇要恢復的車輛...",
+
+  "Recovered {0} vehicles": "已恢復 {0} 輛車",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "關閉此視窗。在世界中拖曳一個方框，恢復框內所有已選定的車輛（將它們送回車庫）。若未選擇類型，則恢復框內所有車輛。按 Esc 退出。",
+
+  "Drag to select vehicles...": "拖曳以選擇車輛...",
+
+  "Click destination for {0} vehicles": "為 {0} 輛車點擊目的地",
+
+  "No vehicles found in selection": "選擇區域內未找到車輛",
+
+  "Moved {0} vehicles": "已移動 {0} 輛車",
+
+  "Windows": "視窗",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "記住建築視窗的拖曳位置，使其在存檔重新載入後仍然保留。沒有此功能，遊戲會在載入時將每個視窗重設到螢幕中央。",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "依存檔分別儲存。拖曳一次建築視窗並儲存遊戲——下次載入該存檔時，視窗會在拖曳過的位置開啟。",
+
+  "Remember window positions across save reload": "在存檔重新載入時記住視窗位置",
+
+  "Positions saved: {0}": "已儲存的位置數：{0}",
+
+  "Clear all saved positions": "清除所有已儲存的位置",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "為藍圖建造者設計：在完全暫停的世界中編輯，避免編輯過程中卡車或液體移動物品。",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "開啟時，放置和拆除會在同一影格內完成，即使遊戲處於暫停狀態。不會扣除材料。強制關閉 Cheat++ 的「瞬間建造」（本開關將取代它）。依存檔分別儲存。",
+  "Insta-place & insta-remove (works even when paused)": "瞬間放置和瞬間拆除（暫停時也有效）",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "開啟時，放置和拆除會在同一影格內完成，即使遊戲處於暫停狀態——為藍圖建造者在靜止世界中編輯而設計。同時強制關閉 Cheat++ 的「瞬間建造」（本開關將取代它）。依存檔分別儲存。",
+
+  "Drag tools": "拖曳工具",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "點擊按鈕關閉此視窗並開始拖曳選擇。在一組建築上拖出一個框，可立即免費升級或降級一個等級。工具在多次拖曳之間保持啟用——按 Esc 退出。",
+  "Drag Upgrade": "拖曳升級",
+  "Drag Downgrade": "拖曳降級",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "關閉此視窗。在世界中拖出一個框，可立即免費將框內每個建築升級一個等級。傳送帶和管道也適用。按 Esc 退出。",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "關閉此視窗。在世界中拖出一個框，可立即免費將框內每個建築降級一個等級。標記為「無法降級」的建築會被跳過。按 Esc 退出。",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "拖曳升級——拖出一個框來升級框內建築。按 Esc 退出。",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "拖曳降級——拖出一個框來降級框內建築。按 Esc 退出。",
+  "Upgraded {0} buildings": "已升級 {0} 個建築",
+  "Downgraded {0} buildings": "已降級 {0} 個建築",
+
+  "Cleanup": "清理",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "清除斷開的傳送帶/管道殘段——連接端少於 2 個的段（死端殘段和懸空段）。完全連接的線路絕不會被觸碰。",
+  "Belt/Pipe Cleanup": "傳送帶/管道清理",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "關閉此視窗。在世界中拖出一個框，刪除框內斷開的傳送帶/管道殘段（連接端少於 2 個的段）。完全連接的線路不受影響。按 Esc 退出。",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "傳送帶/管道清理——拖出一個框來刪除框內斷開的殘段。按 Esc 退出。",
+  "Removed {0} belts/pipes": "已移除 {0} 條傳送帶/管道",
+  "Show or hide the live efficiency status label above each machine.": "顯示或隱藏每台機器上方的即時效率標籤。",
+  "Cycle through the Surplus Power modes.": "在冗餘電力模式之間循環切換。",
+  "Reveal one more belt/pipe elevation level in the height filter.": "在高度篩選中顯示多一層傳送帶/管道高度。",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "在高度篩選中隱藏最上層傳送帶/管道高度。",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "在高度篩選中顯示多一層傳送帶/管道高度，從底部開始而不是從頂部。",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "在高度篩選中隱藏最下層傳送帶/管道高度，而不是最上層。",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "您正在使用 Kayser 的 Blueprint Designer's Toolkit。我把我的工具給了他去改進，而且他的模組還有許多更好的藍圖功能，所以請改用他的模組。載入 BDT 期間，這裡的一切都會被永久關閉。",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "開啟 Mori++ 套件的設定。開啟快速鍵：Alt + W",
+  "Cancel Deconstruction": "取消拆除",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "不小心把整片區域標記為拆除了？在其上拖出一個方框，即可取消框內所有待拆除的任務——建築、傳送帶和管道都會原地保留。",
+  "Hotkey: Shift+Alt+D": "快速鍵：Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "關閉此視窗。在世界中拖出一個方框，即可取消框內所有物體的拆除，效果與逐一點擊取消按鈕相同。不會拆除任何東西，也不會退還任何材料——只是撤銷該工作指令。已經完全拆除的物體無法復原。工具會在多次拖曳之間保持啟用——按 Esc 退出。",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "取消拆除——拖出方框以取消框內的拆除。按 Esc 退出。",
+  "Cancelled deconstruction of {0}": "已取消 {0} 處拆除",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "啟動拖框工具，取消方框內所有物體的拆除。",
+  "Overlord": "Overlord",
+  "Save": "存檔",
+  "Load": "載入存檔",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "將這個模組的所有設定（此視窗中的每個分頁）儲存成設定檔，之後可在其他遊戲中重新載入。",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "載入已儲存的設定檔，還原這個模組的所有設定（此視窗中的每個分頁）。",
+  "FULL": "已滿",
+  "NO IN": "無輸入",
+  "NO PWR": "無電力",
+  "NO CPU": "無算力",
+  "NO WRK": "無工人",
+  "BROKEN": "故障",
+  "OFF": "關閉",
+  "Utilities++ profile saved.": "Utilities++ 設定檔已儲存。",
+  "Utilities++ profile loaded.": "Utilities++ 設定檔已載入。"
+}

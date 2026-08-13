@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "Kas kirjutada salvestatud profiil praeguste seadetega üle?",
+  "Load your saved profile? Your current settings will be replaced.": "Kas laadida salvestatud profiil? Praegused seaded asendatakse.",
+  "Vehicles":"Sõidukid",
+  "Start the drag-select tool to move vehicles in an area.": "Käivita lohistusvalimise tööriist, et liigutada sõidukeid alal.",
+  "Start the drag-select tool to recover vehicles in an area.": "Käivita lohistusvalimise tööriist, et päästa sõidukeid alal.",
+  "Cycle vehicle type": "Vaheta sõidukitüüpi",
+  "Select all vehicle types": "Vali kõik sõidukitüübid",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Vaheta sõidukitüüpi, mis on valitud tööriistadele Sõidukite hulgiteisaldaja / Hulgipääste.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Lähtesta Sõidukite hulgiteisaldaja / Hulgipääste, et need mõjutaksid kõiki sõidukitüüpe.",
+  "Toggle the Overlord window": "Lülita Overlordi aken sisse/välja",
+  "Open or close the Mori++ Overlord window.": "Ava või sulge Mori++ Overlordi aken.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Sõidukitüübi valimine hõlmab kõiki selle kütusevariante (Diisel, Aku, Vesinik, Sünteetiline diisel) — igaüht ei ole vaja eraldi valida.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Hõlmab kõiki selle sõiduki kütusevariante (Diisel, Aku, Vesinik, Sünteetiline diisel).",
+  "Mass Vehicle Mover (Shift+M)": "Sõidukite hulgiteisaldaja (Shift+M)",
+  "Mass Recover (Shift+R)": "Hulgipääste (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "Vaheta sõidukitüüpe (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "Lähtesta kõigile sõidukitüüpidele (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "Tööriistad",
+  "View/Layers": "Vaade/kihid",
+  "Window": "Aken",
+
+  "Keybinds": "Kiirklahvid",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Määra Mori++ suite'i kiirklahvid ümber. Kontrollitakse ka mängu enda kiirklahve, nii et konfliktide korral saad hoiatuse.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Klõpsa väljal ja vajuta seejärel klahvikombinatsiooni. Parema hiireklõpsuga tühjendad selle. Esc katkestab.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Muudatused rakenduvad kohe. Teised modid uuenevad mõne sekundi jooksul — taaskäivitust pole vaja.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Muuteklahvid kattuvad tahtlikult paljude mängu kiirklahvidega; hoiatus antakse ainult konflikti korral mõne teise modi tööriistaga.",
+  "Press a key…": "Vajuta klahvi…",
+  "Conflicts with: {0}": "Konflikt: {0}",
+  "None": "Puudub",
+  "Reset": "Lähtesta",
+  "Clear": "Eemalda",
+  "Reset all to defaults": "Lähtesta kõik vaikeväärtustele",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "Näita ühte taset rohkem (lindid/torud)",
+  "Hide one more belt/pipe level": "Peida üks tase rohkem (lindid/torud)",
+  "Show one more belt/pipe level from bottom": "Näita ühte taset rohkem alt (lindid/torud)",
+  "Hide one more belt/pipe level from bottom": "Peida üks tase rohkem alt (lindid/torud)",
+  "Cycle Surplus Power modes": "Vaheta ülejääva energia režiime",
+  "Toggle efficiency overlay": "Lülita tõhususe kiht sisse/välja",
+  "Toggle the Tweaks++ window": "Lülita Tweaks++ aken sisse/välja",
+
+  "Efficiency": "Tõhusus",
+  "Efficiency Overlay": "Tõhususe kiht",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Iga masina kohal hõljuvad sildid näitavad selle reaalajas tootlikkust. Kasulik, et kiirelt märgata sisendi puudumist, ummistusi või alatoitega hooneid.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Värvid: roheline = töötab 75-100%, kollane = 50-74%, oranž = 1-49%, punane = seiskunud (sisend puudub / väljund täis / energia puudub / katkine), hall = peatatud.",
+  "Show machine efficiency overlay": "Näita masinate tõhususe kihti",
+  "Toggle the floating efficiency labels above every machine in the world.": "Lülita sisse/välja hõljuvad tõhususe sildid iga masina kohal maailmas.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Kiirklahv: Ctrl+E lülitab tõhususe kihi sisse või välja.",
+  "Efficiency: ON": "Tõhusus: SEES",
+  "Efficiency: OFF": "Tõhusus: VÄLJAS",
+  "Background transparency": "Tausta läbipaistvus",
+  "Number size": "Numbri suurus",
+  "Background size": "Tausta suurus",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "Vaikevärvid: roheline = töötab hästi, merevaigukollane = aeglustub, punane = seiskunud, hall = peatatud. Kohanda iga oleku värvi allpool.",
+  "State label colors": "Olekusiltide värvid",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "Klõpsa olekul ja vali seejärel allpool värv. Vaikeväärtused vastavad algsele värviskeemile.",
+  "Editing: {0}": "Muudan: {0}",
+  "Reset all colors to default": "Lähtesta kõik värvid vaikeväärtusele",
+  "Reset every state's label color back to its default.": "Lähtesta iga oleku sildi värv tagasi vaikeväärtusele.",
+  "Running 75-100%": "Töötab 75-100%",
+  "Running 50-74%": "Töötab 50-74%",
+  "Running 1-49%": "Töötab 1-49%",
+  "Running below 1%": "Töötab alla 1%",
+  "Output full": "Väljund täis",
+  "No input": "Sisend puudub",
+  "No power": "Energia puudub",
+  "No computing": "Arvutusvõimsus puudub",
+  "No workers": "Töötajaid pole",
+  "Broken": "Katkine",
+  "Paused / off": "Peatatud / väljas",
+
+
+  "Belts/Pipes": "Lindid/torud",
+
+  "Coming Soon": "Peagi tulemas",
+
+  "More utilities coming in future updates.": "Rohkem tööriistu tulevastes uuendustes.",
+
+  "Surplus Power": "Ülejääv energia",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Tühista ülejääva energia seadistus igas sobivas hoones, kui paigutad joonise või kleebid koopia. 'Vaikeväärtus' jätab iga hoone salvestatud seadistuse puutumata.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "Kiirklahv: Ctrl+S vahetab režiime.",
+
+  "Default": "Vaikeväärtus",
+
+  "Surplus ON": "Ülejääk SEES",
+
+  "Surplus OFF": "Ülejääk VÄLJAS",
+
+  "Keep each building's saved surplus setting from the blueprint.": "Säilita iga hoone salvestatud ülejäägi seadistus joonisest.",
+
+  "Force every applicable building to consume only when there is surplus power.": "Sunni iga sobiv hoone tarbima energiat ainult siis, kui on ülejääk.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "Sunni iga sobiv hoone tarbima energiat tavapäraselt (mitte ainult ülejäägist).",
+
+  "Surplus Power: Default": "Ülejääv energia: vaikeväärtus",
+  "Surplus Power: ON": "Ülejääv energia: SEES",
+  "Surplus Power: OFF": "Ülejääv energia: VÄLJAS",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "Lülita tasemeid, et näidata või peita linte ja torusid igal kõrgusel.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "Kiirklahvid: PageUp näitab ühte taset rohkem, PageDown peidab ühe taseme.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "Kiirklahvid: Ctrl+PageUp näitab ühte taset rohkem, Ctrl+PageDown peidab ühe taseme.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "Kiirklahvid: Shift+PageUp näitab ühte taset rohkem alt, Shift+PageDown peidab ühe taseme alt.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "Kayser's Blueprint Designer's Toolkit on laaditud, seega need kiirklahvid nihutati Ctrl+PageUp / Ctrl+PageDown peale, et vältida konflikti selle kiirklahvidega.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "Märkus: kui peidad tasemeid lintide või torude paigutamise ajal, jäävad peidetud tasemete ühendusnooled ikkagi näha. Värskendamiseks välju ehitusrežiimist ja sisene uuesti.",
+
+
+  "Level {0}": "Tase {0}",
+
+  "Show All": "Näita kõiki",
+
+  "Hide All": "Peida kõik",
+
+  "Show lifts, sorters & balancers": "Näita tõstukeid, sorteerijaid ja tasakaalustajaid",
+
+  "Show Lifts": "Näita tõstukeid",
+  "Show Sorters": "Näita sorteerijaid",
+  "Show Balancers": "Näita tasakaalustajaid",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Kui märkimata, peidab kõik tõstukid olenemata kõrgustasemest — sõltumatult ülalolevatest taseme märkeruutudest. Salvestuse kohta.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Kui märkimata, peidab kõik sorteerijad olenemata kõrgustasemest — sõltumatult ülalolevatest taseme märkeruutudest. Salvestuse kohta.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Kui märkimata, peidab kõik tasakaalustajad olenemata kõrgustasemest — sõltumatult ülalolevatest taseme märkeruutudest. Salvestuse kohta.",
+
+  "Show buildings & trees": "Näita hooneid ja puid",
+
+  "Show Housing & Services": "Näita elamuid ja teenuseid",
+
+  "Show All Trees": "Näita kõiki puid",
+  "Show Offices": "Näita kontoreid",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "Kui märkimata, peidab kõik kontorihooned (Kontor I, II ja III), et need ei jääks tehase vaate ette. Pöörduv. Salvestuse kohta.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "Kui märkimata, peidab kõik elamud (iga tase) ja kogu vahekaardi Elamud ja teenused — toiduturud, moodulid, vesi, muundur, jäätmed, kliinik, internet, väljak. Salvestuse kohta.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "Kui märkimata, peidab kõik puud kaardil (metsikud ja istutatud), et need ei jääks vaate ette. Pöörduv, ei mõjuta raiet. Salvestuse kohta.",
+
+  "Close": "Sulge",
+
+  "Balancers": "Tasakaalustajad",
+
+  "Lifts": "Tõstukid",
+
+  "Vehicle Mover": "Sõidukiteisaldaja",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Vali sõidukitüüp ja lohista, et valida sõidukid kaardil, seejärel klõpsa sihtkohale, et need sinna liigutada.",
+
+  "Select vehicle type": "Valige sõiduki tüüp",
+
+  "All Types": "Kõik tüübid",
+
+  "Mass Vehicle Mover": "Sõidukite hulgiteisaldaja",
+
+  "Mass Recover": "Hulgipääste",
+
+  "Drag to select vehicles to recover...": "Lohista, et valida päästetavad sõidukid...",
+
+  "Recovered {0} vehicles": "Päästeti {0} sõidukit",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "Sulgeb selle akna. Lohista kastiga maailmas, et päästa kõik valitud sõidukid selle sees (saadab need tagasi depoosse). Kui tüüpi ei ole valitud, päästetakse kõik kasti sees olevad sõidukid. Väljumiseks vajuta Esc.",
+
+  "Drag to select vehicles...": "Lohista, et valida sõidukid...",
+
+  "Click destination for {0} vehicles": "Klõpsa sihtkohale {0} sõiduki jaoks",
+
+  "No vehicles found in selection": "Valikust ei leitud ühtegi sõidukit",
+
+  "Moved {0} vehicles": "Liigutati {0} sõidukit",
+
+  "Windows": "Aknad",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "Jäta meelde, kuhu lohistad hoonete aknaid, et positsioon säiliks ka pärast salvestuse taaslaadimist. Ilma selleta lähtestab mäng iga akna laadimisel ekraani keskele.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "Salvestatakse mängu kohta. Lohista hoone aken korra ümber, salvesta mäng — järgmisel korral, kui salvestuse laadid, avaneb see lohistatud kohas.",
+
+  "Remember window positions across save reload": "Jäta akende asukohad meelde ka pärast salvestuse taaslaadimist",
+
+  "Positions saved: {0}": "Salvestatud asukohti: {0}",
+
+  "Clear all saved positions": "Eemalda kõik salvestatud asukohad",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Loodud jooniste ehitajatele: muuda täielikult peatatud maailma, ilma et veokid või vedelikud liiguksid muutmise ajal.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Kui SEES, toimuvad paigutamine ja lammutamine samas kaadris, isegi kui mäng on pausil. Materjale ei arvestata. Lülitab sundkorras välja Cheat++ funktsiooni 'Instant Build' (see lüliti asendab selle). Salvestuse kohta.",
+  "Insta-place & insta-remove (works even when paused)": "Kohene paigutamine ja eemaldamine (töötab ka pausil)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Kui SEES, toimuvad paigutamine ja lammutamine samas kaadris isegi mängu pausi ajal — loodud jooniste ehitajatele, kes muudavad külmutatud maailma. Lülitab samuti sundkorras välja Cheat++ funktsiooni 'Instant Build' (see lüliti asendab selle). Salvestuse kohta.",
+
+  "Drag tools": "Lohistamistööriistad",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Klõpsa nupul, et sulgeda see aken ja alustada lohistades valimist. Kukuta kast mis tahes hoonete grupile, et need koheselt ühe taseme võrra täiustada või taandada, tasuta. Tööriist jääb aktiivseks korduva lohistamise ajal — väljumiseks vajuta Esc.",
+  "Drag Upgrade": "Lohista täiustamiseks",
+  "Drag Downgrade": "Lohista taandamiseks",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Sulgeb selle akna. Lohista kastiga maailmas, et koheselt täiustada kõiki selle sees olevaid hooneid ühe taseme võrra (tasuta). Toimib ka lintide ja torudega. Väljumiseks vajuta Esc.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Sulgeb selle akna. Lohista kastiga maailmas, et koheselt taandada kõiki selle sees olevaid hooneid ühe taseme võrra (tasuta). Hooneid, mis on märgitud 'ei saa taandada', jäetakse vahele. Väljumiseks vajuta Esc.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Lohista täiustamiseks — lohista kast, et täiustada selle sees olevaid hooneid. Väljumiseks vajuta Esc.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Lohista taandamiseks — lohista kast, et taandada selle sees olevaid hooneid. Väljumiseks vajuta Esc.",
+  "Upgraded {0} buildings": "Täiustati {0} hoonet",
+  "Downgraded {0} buildings": "Taandati {0} hoonet",
+
+  "Cleanup": "Koristus",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "Koristab lahtiühendatud lindi/toru jäänused — segmendid, mis on ühendatud vähem kui 2 otsaga (umbotsad ja hõljuvad tükid). Täielikult ühendatud lõike ei puudutata kunagi.",
+  "Belt/Pipe Cleanup": "Lindi/toru koristus",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "Sulgeb selle akna. Lohista kastiga maailmas, et kustutada selle sees lahtiühendatud lindi/toru jäänused (segmendid, mis on ühendatud vähem kui 2 otsaga). Täielikult ühendatud lõike ei puudutata. Väljumiseks vajuta Esc.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "Lindi/toru koristus — lohista kast, et kustutada selle sees olevad lahtiühendatud lindi/toru jäänused. Väljumiseks vajuta Esc.",
+  "Removed {0} belts/pipes": "Eemaldati {0} linti/toru",
+  "Show or hide the live efficiency status label above each machine.": "Näita või peida iga masina kohal olev reaalajas tõhususe olekusilt.",
+  "Cycle through the Surplus Power modes.": "Vaheta järjest ülejääva energia režiime.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "Näita kõrgusfiltris ühte kõrgustaset rohkem (lindid/torud).",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "Peida kõrgusfiltris kõige ülemine lindi/toru kõrgustase.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Näita kõrgusfiltris ühte kõrgustaset rohkem, alustades altpoolt, mitte ülevalt.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Peida kõrgusfiltris kõige alumine lindi/toru kõrgustase, mitte kõige ülemine.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Kasutad Kayser's Blueprint Designer's Toolkit'i. Andsin talle oma tööriistad, et neid täiustada, ja tema modil on palju rohkem toredaid joonisefunktsioone, seega kasuta hoopis tema modi. Kõik siin on BDT laadimise ajal jäädavalt välja lülitatud.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Avab Mori++ Suite'i seaded. Kiirklahv avamiseks: Alt + W",
+  "Cancel Deconstruction": "Tühista lammutamine",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Märkisid kogemata terve ala lammutamiseks? Lohista kast selle üle, et tühistada kõik pooleliolevad lammutused sees — hooned, lindid ja torud jäävad oma kohale.",
+  "Hotkey: Shift+Alt+D": "Kiirklahv: Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "Sulgeb selle akna. Lohista kastiga maailmas, et tühistada kõige selle sees oleva lammutamine, täpselt nagu klõpsaksid igaühe tühistamisnupul. Midagi ei lammutata ja midagi ei tagastata — tööülesanne lihtsalt tühistatakse. Juba täielikult lammutatut ei saa tagasi tuua. Tööriist jääb aktiivseks korduva lohistamise ajal — väljumiseks vajuta Esc.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "Tühista lammutamine — lohista kast, et tühistada selle sees olev lammutamine. Väljumiseks vajuta Esc.",
+  "Cancelled deconstruction of {0}": "Tühistati lammutamine: {0}",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "Käivita lohistustööriist, mis tühistab lammutamise kõige kasti sees oleva jaoks.",
+  "Overlord": "Overlord",
+  "Save": "Salvesta",
+  "Load": "Laadi",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Salvestab kõik selle modi seaded (kõik selle akna vahelehed) profiili, mille saab teistes mängudes uuesti laadida.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Laadib salvestatud profiili ja taastab kõik selle modi seaded (kõik selle akna vahelehed).",
+  "FULL": "TÄIS",
+  "NO IN": "SISEND",
+  "NO PWR": "ENERGIA",
+  "NO CPU": "ARVUTUS",
+  "NO WRK": "TÖÖTAJA",
+  "BROKEN": "KATKINE",
+  "OFF": "VÄLJAS",
+  "Utilities++ profile saved.": "Utilities++ profiil salvestatud.",
+  "Utilities++ profile loaded.": "Utilities++ profiil laaditud."
+}

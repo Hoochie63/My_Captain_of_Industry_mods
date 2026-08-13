@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "Overskrive den lagrede profilen din med de nåværende innstillingene?",
+  "Load your saved profile? Your current settings will be replaced.": "Laste inn den lagrede profilen din? De nåværende innstillingene blir erstattet.",
+  "Vehicles":"Kjøretøy",
+  "Start the drag-select tool to move vehicles in an area.": "Start dra-og-velg-verktøyet for å flytte kjøretøy i et område.",
+  "Start the drag-select tool to recover vehicles in an area.": "Start dra-og-velg-verktøyet for å berge kjøretøy i et område.",
+  "Cycle vehicle type": "Bla gjennom kjøretøytyper",
+  "Select all vehicle types": "Velg alle kjøretøytyper",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Bla gjennom kjøretøytypen som er valgt for Masseflytting av kjøretøy / Masseberging.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Tilbakestill Masseflytting av kjøretøy / Masseberging slik at alle kjøretøytyper påvirkes.",
+  "Toggle the Overlord window": "Slå av/på Overlord-vinduet",
+  "Open or close the Mori++ Overlord window.": "Åpne eller lukk Mori++ Overlord-vinduet.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Når du velger en kjøretøytype, tas alle drivstoffvariantene med (Diesel, Batteri, Hydrogen, Syntetisk diesel) — du trenger ikke velge hver enkelt av dem.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Inkluderer alle drivstoffvariantene (Diesel, Batteri, Hydrogen, Syntetisk diesel) av dette kjøretøyet.",
+  "Mass Vehicle Mover (Shift+M)": "Masseflytting av kjøretøy (Shift+M)",
+  "Mass Recover (Shift+R)": "Masseberging (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "Bla gjennom kjøretøytyper (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "Tilbakestill til alle kjøretøytyper (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "Verktøy",
+  "View/Layers": "Visning/lag",
+  "Window": "Vindu",
+
+  "Keybinds": "Hurtigtaster",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Endre hurtigtastene i Mori++-pakken. Spillets egne snarveier sjekkes også, så du blir varslet om konflikter.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Klikk i et felt og trykk deretter en tastekombinasjon. Høyreklikk tømmer feltet. Esc avbryter.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Endringene trer i kraft med en gang. Andre moder oppdateres i løpet av et par sekunder — ingen omstart er nødvendig.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Modifikatortaster overlapper med mange av spillets snarveier med vilje; bare en konflikt med et annet mod-verktøy blir merket.",
+  "Press a key…": "Trykk en tast…",
+  "Conflicts with: {0}": "I konflikt med: {0}",
+  "None": "Ingen",
+  "Reset": "Tilbakestill",
+  "Clear": "Fjern",
+  "Reset all to defaults": "Tilbakestill alt til standard",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "Vis ett nivå til med transportbånd/rør",
+  "Hide one more belt/pipe level": "Skjul ett nivå til med transportbånd/rør",
+  "Show one more belt/pipe level from bottom": "Vis ett nivå til med transportbånd/rør nedenfra",
+  "Hide one more belt/pipe level from bottom": "Skjul ett nivå til med transportbånd/rør nedenfra",
+  "Cycle Surplus Power modes": "Bla gjennom Overskuddskraft-modusene",
+  "Toggle efficiency overlay": "Slå av/på effektivitetsoverlegget",
+  "Toggle the Tweaks++ window": "Slå av/på Tweaks++-vinduet",
+
+  "Efficiency": "Effektivitet",
+  "Efficiency Overlay": "Effektivitetsoverlegg",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Flytende etiketter over hver maskin viser driftseffektiviteten i sanntid. Nyttig for raskt å oppdage bygninger som mangler input, er blokkert eller har for lite strøm.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Farger: grønn = kjører 75-100%, gul = 50-74%, oransje = 1-49%, rød = stanset (ingen input / utgang full / ingen strøm / ødelagt), grå = pauset.",
+  "Show machine efficiency overlay": "Vis effektivitetsoverlegg for maskiner",
+  "Toggle the floating efficiency labels above every machine in the world.": "Slå av/på de flytende effektivitetsetikettene over hver maskin i verden.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Hurtigtast: Ctrl+E slår effektivitetsoverlegget av eller på.",
+  "Efficiency: ON": "Effektivitet: PÅ",
+  "Efficiency: OFF": "Effektivitet: AV",
+  "Background transparency": "Bakgrunnsgjennomsiktighet",
+  "Number size": "Tallstørrelse",
+  "Background size": "Bakgrunnsstørrelse",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "Standardfarger: grønn = går bra, ravgul = går tregere, rød = stanset, grå = pauset. Tilpass fargen for hver enkelt tilstand nedenfor.",
+  "State label colors": "Farger på tilstandsetiketter",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "Klikk på en tilstand og velg deretter en farge nedenfor. Standardverdiene følger det opprinnelige fargeskjemaet.",
+  "Editing: {0}": "Redigerer: {0}",
+  "Reset all colors to default": "Tilbakestill alle farger til standard",
+  "Reset every state's label color back to its default.": "Tilbakestill etikettfargen for hver enkelt tilstand til standard.",
+  "Running 75-100%": "Kjører 75-100%",
+  "Running 50-74%": "Kjører 50-74%",
+  "Running 1-49%": "Kjører 1-49%",
+  "Running below 1%": "Kjører under 1%",
+  "Output full": "Utgang full",
+  "No input": "Ingen input",
+  "No power": "Ingen strøm",
+  "No computing": "Ingen databehandling",
+  "No workers": "Ingen arbeidere",
+  "Broken": "Ødelagt",
+  "Paused / off": "Pauset / av",
+
+
+  "Belts/Pipes": "Transportbånd/rør",
+
+  "Coming Soon": "Kommer snart",
+
+  "More utilities coming in future updates.": "Flere verktøy kommer i fremtidige oppdateringer.",
+
+  "Surplus Power": "Overskuddskraft",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Overstyr innstillingen for overskuddskraft på alle aktuelle bygninger når du plasserer en tegning eller limer inn en kopi. 'Standard' lar den lagrede innstillingen til hver bygning være i fred.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "Hurtigtast: Ctrl+S blar mellom modusene.",
+
+  "Default": "Standard",
+
+  "Surplus ON": "Overskudd PÅ",
+
+  "Surplus OFF": "Overskudd AV",
+
+  "Keep each building's saved surplus setting from the blueprint.": "Behold den lagrede overskuddsinnstillingen fra tegningen for hver enkelt bygning.",
+
+  "Force every applicable building to consume only when there is surplus power.": "Tving alle aktuelle bygninger til å bruke strøm bare når det finnes overskuddskraft.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "Tving alle aktuelle bygninger til å bruke strøm som vanlig (ikke bare overskudd).",
+
+  "Surplus Power: Default": "Overskuddskraft: Standard",
+  "Surplus Power: ON": "Overskuddskraft: PÅ",
+  "Surplus Power: OFF": "Overskuddskraft: AV",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "Slå nivåer av og på for å vise eller skjule transportbånd og rør i hver høyde.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "Hurtigtaster: PageUp viser ett nivå til, PageDown skjuler ett nivå til.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "Hurtigtaster: Ctrl+PageUp viser ett nivå til, Ctrl+PageDown skjuler ett nivå til.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "Hurtigtaster: Shift+PageUp viser ett nivå til nedenfra, Shift+PageDown skjuler ett nivå til nedenfra.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "Kayser's Blueprint Designer's Toolkit er lastet inn, så disse hurtigtastene ble flyttet til Ctrl+PageUp / Ctrl+PageDown for å unngå konflikt med hurtigtastene der.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "Merk: Hvis du skjuler nivåer mens du plasserer transportbånd eller rør, vises tilkoblingspilene fra skjulte nivåer likevel. Gå ut av byggemodus og inn igjen for å oppdatere.",
+
+
+  "Level {0}": "Nivå {0}",
+
+  "Show All": "Vis alle",
+
+  "Hide All": "Skjul alle",
+
+  "Show lifts, sorters & balancers": "Vis heiser, sorterere og balanseporter",
+
+  "Show Lifts": "Vis heiser",
+  "Show Sorters": "Vis sorterere",
+  "Show Balancers": "Vis balanseporter",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Når dette ikke er huket av, skjules alle heiser uansett høydenivå — uavhengig av nivåavkrysningsboksene over. Per lagret spill.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Når dette ikke er huket av, skjules alle sorterere uansett høydenivå — uavhengig av nivåavkrysningsboksene over. Per lagret spill.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Når dette ikke er huket av, skjules alle balanseporter uansett høydenivå — uavhengig av nivåavkrysningsboksene over. Per lagret spill.",
+
+  "Show buildings & trees": "Vis bygninger og trær",
+
+  "Show Housing & Services": "Vis boliger og tjenester",
+
+  "Show All Trees": "Vis alle trær",
+  "Show Offices": "Vis kontorer",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "Når dette ikke er huket av, skjules alle kontorbygninger (Kontor I, II og III) slik at de ikke sperrer for utsikten til fabrikken. Kan reverseres. Per lagret spill.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "Når dette ikke er huket av, skjules alle boliger (alle nivåer) og hele fanen Boliger og tjenester — matmarkeder, moduler, vann, transformator, avfall, klinikk, internett og torg. Per lagret spill.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "Når dette ikke er huket av, skjules hvert tre på kartet (både ville og plantede) slik at de ikke sperrer for utsikten. Kan reverseres, og påvirker ikke hogsten. Per lagret spill.",
+
+  "Close": "Lukk",
+
+  "Balancers": "Balanseporter",
+
+  "Lifts": "Heiser",
+
+  "Vehicle Mover": "Kjøretøyflytting",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Velg en kjøretøytype og dra for å merke kjøretøy på kartet, og klikk deretter på et mål for å flytte dem.",
+
+  "Select vehicle type": "Velg kjøretøytype",
+
+  "All Types": "Alle typer",
+
+  "Mass Vehicle Mover": "Masseflytting av kjøretøy",
+
+  "Mass Recover": "Masseberging",
+
+  "Drag to select vehicles to recover...": "Dra for å merke kjøretøy som skal berges...",
+
+  "Recovered {0} vehicles": "Berget {0} kjøretøy",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "Lukker dette vinduet. Dra en boks i verden for å berge hvert valgt kjøretøy inni den (de sendes tilbake til et depot). Hvis ingen type er valgt, berges alle kjøretøy i boksen. Trykk Esc for å avslutte.",
+
+  "Drag to select vehicles...": "Dra for å merke kjøretøy...",
+
+  "Click destination for {0} vehicles": "Klikk på et mål for {0} kjøretøy",
+
+  "No vehicles found in selection": "Fant ingen kjøretøy i utvalget",
+
+  "Moved {0} vehicles": "Flyttet {0} kjøretøy",
+
+  "Windows": "Vinduer",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "Husk hvor du drar bygningsvinduene, slik at posisjonen overlever at et lagret spill lastes inn på nytt. Uten dette flytter spillet hvert vindu tilbake til midten av skjermen ved innlasting.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "Lagres per lagret spill. Dra et bygningsvindu én gang og lagre spillet — neste gang du laster inn det lagrede spillet, åpnes vinduet der du dro det.",
+
+  "Remember window positions across save reload": "Husk vindusposisjoner ved innlasting av lagret spill",
+
+  "Positions saved: {0}": "Lagrede posisjoner: {0}",
+
+  "Clear all saved positions": "Fjern alle lagrede posisjoner",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Laget for deg som bygger tegninger: rediger en helt pauset verden uten at lastebiler eller væsker flytter ting midt i redigeringen.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Når denne er PÅ, fullføres plassering og riving i samme bilde, selv når spillet er pauset. Materialer belastes ikke. Deaktiverer Cheat++ 'Umiddelbar bygging' med tvang (denne bryteren erstatter den). Per lagret spill.",
+  "Insta-place & insta-remove (works even when paused)": "Umiddelbar plassering og fjerning (virker også når spillet er pauset)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Når denne er PÅ, fullføres plassering og riving i samme bilde selv når spillet er pauset — laget for deg som bygger tegninger i en frossen verden. Deaktiverer også Cheat++ 'Umiddelbar bygging' med tvang (denne bryteren erstatter den). Per lagret spill.",
+
+  "Drag tools": "Draverktøy",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Klikk på en knapp for å lukke dette vinduet og begynne å dra-merke. Legg en boks over en hvilken som helst gruppe bygninger for å oppgradere eller nedgradere dem ett nivå umiddelbart, uten materialkostnad. Verktøyet forblir aktivt mellom dragene — trykk Esc for å avslutte.",
+  "Drag Upgrade": "Dra-oppgrader",
+  "Drag Downgrade": "Dra-nedgrader",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Lukker dette vinduet. Dra en boks i verden for å oppgradere hver bygning inni den ett nivå umiddelbart (gratis). Transportbånd og rør fungerer også. Trykk Esc for å avslutte.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Lukker dette vinduet. Dra en boks i verden for å nedgradere hver bygning inni den ett nivå umiddelbart (gratis). Bygninger som er merket 'kan ikke nedgraderes', hoppes over. Trykk Esc for å avslutte.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Dra-oppgrader — dra en boks for å oppgradere bygningene inni. Trykk Esc for å avslutte.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Dra-nedgrader — dra en boks for å nedgradere bygningene inni. Trykk Esc for å avslutte.",
+  "Upgraded {0} buildings": "Oppgraderte {0} bygninger",
+  "Downgraded {0} buildings": "Nedgraderte {0} bygninger",
+
+  "Cleanup": "Opprydding",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "Rydd opp i frakoblede rester av transportbånd og rør — segmenter som er koblet til i færre enn 2 ender (blindstubber og løse biter). Fullt tilkoblede strekk røres aldri.",
+  "Belt/Pipe Cleanup": "Opprydding av bånd/rør",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "Lukker dette vinduet. Dra en boks i verden for å slette frakoblede bånd- og rørstubber inni den (segmenter som er koblet til i færre enn 2 ender). Fullt tilkoblede strekk får stå i fred. Trykk Esc for å avslutte.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "Opprydding av bånd/rør — dra en boks for å slette frakoblede bånd- og rørstubber inni. Trykk Esc for å avslutte.",
+  "Removed {0} belts/pipes": "Fjernet {0} bånd/rør",
+  "Show or hide the live efficiency status label above each machine.": "Vis eller skjul den løpende effektivitetsetiketten over hver maskin.",
+  "Cycle through the Surplus Power modes.": "Bla gjennom Overskuddskraft-modusene.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "Vis ett høydenivå til med transportbånd/rør i høydefilteret.",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "Skjul det øverste høydenivået med transportbånd/rør i høydefilteret.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Vis ett høydenivå til med transportbånd/rør i høydefilteret, nedenfra i stedet for ovenfra.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Skjul det nederste høydenivået med transportbånd/rør i høydefilteret i stedet for det øverste.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Du bruker Kayser's Blueprint Designer's Toolkit. Jeg ga ham verktøyene mine så han kunne forbedre dem, og moden hans har mange flere fine tegningsfunksjoner, så bruk moden hans i stedet. Alt her er permanent slått av så lenge BDT er lastet inn.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Åpner innstillingene for Mori++ Suite. Hurtigtast for å åpne: Alt + W",
+  "Cancel Deconstruction": "Avbryt dekonstruksjon",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Har du ved et uhell merket et helt område for riving? Dra en boks over det for å avbryte all ventende dekonstruksjon inni — bygninger, transportbånd og rør blir stående.",
+  "Hotkey: Shift+Alt+D": "Hurtigtast: Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "Lukker dette vinduet. Dra en boks i verden for å avbryte dekonstruksjonen av alt inni den, akkurat som å klikke på avbryt-knappen på hver enkelt. Ingenting rives og ingenting refunderes — arbeidsordren blir bare kalt tilbake. Det som allerede er ferdig revet, kan ikke hentes tilbake. Verktøyet forblir aktivt mellom dragene — trykk Esc for å avslutte.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "Avbryt dekonstruksjon — dra en boks for å avbryte dekonstruksjonen inni den. Trykk Esc for å avslutte.",
+  "Cancelled deconstruction of {0}": "Avbrøt dekonstruksjonen av {0}",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "Start draverktøyet som avbryter dekonstruksjonen av alt inni boksen.",
+  "Overlord": "Overlord",
+  "Save": "Lagre",
+  "Load": "Last",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Lagre alle innstillingene i denne moden (alle faner i dette vinduet) i en profil du kan laste inn igjen i andre spill.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Last inn en lagret profil og gjenopprett alle innstillingene i denne moden (alle faner i dette vinduet).",
+  "FULL": "FULL",
+  "NO IN": "0 INPUT",
+  "NO PWR": "0 STRØM",
+  "NO CPU": "0 DATA",
+  "NO WRK": "0 ARB",
+  "BROKEN": "ØDELAGT",
+  "OFF": "AV",
+  "Utilities++ profile saved.": "Utilities++-profil lagret.",
+  "Utilities++ profile loaded.": "Utilities++-profil lastet inn."
+}

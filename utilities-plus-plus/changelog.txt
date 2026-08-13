@@ -1,3 +1,19 @@
+v1.1.9 | 2026-08-09
+* Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
+
+v1.1.8 | 2026-07-29
+* Now supports game version 0.8.7.
+* New Cancel Deconstruction tool in the Tools tab (Shift+Alt+D) — drag a box to call off pending demolition on everything inside (thanks rgreat for the idea).
+* Hovering the "O" button on the HUD now explains that it opens the Mori++ Suite settings and shows the keybind to open it (Alt + W). Translated into all languages.
+* New Save/Load buttons in the settings window — save all your Utilities++ settings to a profile and reload them in any save or new game, so you never set up everything twice.
+* Renamed the Blueprint Tools tab to Tools.
+* Window is now the same width as the other Overlord tabs, so it no longer changes size when you switch tabs.
+* Save and Load now ask you to confirm first, so you cannot overwrite your saved profile or your current settings by accident. (thanks Mag for the suggestion)
+* Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. Utilities++ now supports every language the base game does.
+* Fixed the Overlord window title, and its Save and Load buttons and their tooltips, always showing in English no matter your language.
+* Fixed the floating machine status labels (Full, No Power, Broken, etc.) always showing in English.
+* Fixed profile save/load status messages that stayed in English.
+
 v1.1.7 | 2026-07-29
 * Now supports game version 0.8.6b.
 

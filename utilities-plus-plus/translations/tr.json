@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "Kayıtlı profiliniz mevcut ayarlarınızla değiştirilsin mi?",
+  "Load your saved profile? Your current settings will be replaced.": "Kayıtlı profiliniz yüklensin mi? Mevcut ayarlarınız değiştirilecek.",
+  "Vehicles":"Araçlar",
+  "Start the drag-select tool to move vehicles in an area.": "Bir alandaki araçları taşımak için sürükle-seç aracını başlatır.",
+  "Start the drag-select tool to recover vehicles in an area.": "Bir alandaki araçları kurtarmak için sürükle-seç aracını başlatır.",
+  "Cycle vehicle type": "Araç türünü değiştir",
+  "Select all vehicle types": "Tüm araç türlerini seç",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Toplu araç taşıyıcı / Toplu kurtarma için seçilen araç türünü değiştirir.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Toplu araç taşıyıcı / Toplu kurtarmayı tüm araç türlerini etkileyecek şekilde sıfırlar.",
+  "Toggle the Overlord window": "Overlord penceresini aç/kapat",
+  "Open or close the Mori++ Overlord window.": "Mori++ Overlord penceresini açar veya kapatır.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Bir araç türünü seçmek tüm yakıt çeşitlerini de kapsar (Dizel, Pil, Hidrojen, Sentetik Dizel) — her birini ayrı ayrı seçmenize gerek yoktur.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Bu aracın tüm yakıt çeşitlerini kapsar (Dizel, Pil, Hidrojen, Sentetik Dizel).",
+  "Mass Vehicle Mover (Shift+M)": "Toplu araç taşıyıcı (Shift+M)",
+  "Mass Recover (Shift+R)": "Toplu kurtarma (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "Araç türlerini değiştir (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "Tüm araç türlerine sıfırla (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "Aletler",
+  "View/Layers": "Görünüm/Katmanlar",
+  "Window": "Pencere",
+
+  "Keybinds": "Kısayol tuşları",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Mori++ paketinin kısayol tuşlarını yeniden atayın. Oyunun kendi kısayolları da kontrol edilir, böylece çakışmalar konusunda uyarılırsınız.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Bir alana tıklayın, ardından bir tuş kombinasyonuna basın. Sağ tıklama temizler. Esc iptal eder.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Değişiklikler anında uygulanır. Diğer modlar birkaç saniye içinde güncellenir — yeniden başlatmaya gerek yoktur.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Değiştirici tuşlar tasarım gereği birçok oyun kısayoluyla çakışır; yalnızca başka bir mod aracıyla çakışma durumunda uyarı verilir.",
+  "Press a key…": "Bir tuşa basın…",
+  "Conflicts with: {0}": "Şununla çakışıyor: {0}",
+  "None": "Yok",
+  "Reset": "Sıfırla",
+  "Clear": "Temizle",
+  "Reset all to defaults": "Tümünü varsayılana sıfırla",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "Bir bant/boru seviyesi daha göster",
+  "Hide one more belt/pipe level": "Bir bant/boru seviyesini gizle",
+  "Show one more belt/pipe level from bottom": "Alttan bir bant/boru seviyesi daha göster",
+  "Hide one more belt/pipe level from bottom": "Alttan bir bant/boru seviyesini gizle",
+  "Cycle Surplus Power modes": "Fazla güç modlarını değiştir",
+  "Toggle efficiency overlay": "Verimlilik katmanını aç/kapat",
+  "Toggle the Tweaks++ window": "Tweaks++ penceresini aç/kapat",
+
+  "Efficiency": "Verimlilik",
+  "Efficiency Overlay": "Verimlilik katmanı",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Her makinenin üzerinde beliren etiketler, canlı çalışma verimliliğini gösterir. Girdisi yetersiz, çıkışı tıkanmış veya güçsüz binaları bir bakışta fark etmek için kullanışlıdır.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Renkler: yeşil = %75-100 çalışıyor, sarı = %50-74, turuncu = %1-49, kırmızı = durdu (girdi yok / çıkış dolu / güç yok / bozuk), gri = duraklatıldı.",
+  "Show machine efficiency overlay": "Makine verimlilik katmanını göster",
+  "Toggle the floating efficiency labels above every machine in the world.": "Dünyadaki her makinenin üzerindeki verimlilik etiketlerini aç/kapat.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Kısayol: Ctrl+E verimlilik katmanını açar veya kapatır.",
+  "Efficiency: ON": "Verimlilik: AÇIK",
+  "Efficiency: OFF": "Verimlilik: KAPALI",
+  "Background transparency": "Arka plan saydamlığı",
+  "Number size": "Sayı boyutu",
+  "Background size": "Arka plan boyutu",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "Varsayılan renkler: yeşil = iyi çalışıyor, kehribar = yavaşlıyor, kırmızı = durdu, gri = duraklatıldı. Aşağıdan herhangi bir durumun rengini özelleştirebilirsiniz.",
+  "State label colors": "Durum etiketi renkleri",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "Bir duruma tıklayın, ardından aşağıdan bir renk seçin. Varsayılanlar orijinal renk şemasıyla eşleşir.",
+  "Editing: {0}": "Düzenleniyor: {0}",
+  "Reset all colors to default": "Tüm renkleri varsayılana sıfırla",
+  "Reset every state's label color back to its default.": "Her durumun etiket rengini varsayılanına geri sıfırlar.",
+  "Running 75-100%": "%75-100 çalışıyor",
+  "Running 50-74%": "%50-74 çalışıyor",
+  "Running 1-49%": "%1-49 çalışıyor",
+  "Running below 1%": "%1'in altında çalışıyor",
+  "Output full": "Çıkış dolu",
+  "No input": "Girdi yok",
+  "No power": "Güç yok",
+  "No computing": "Bilgi işlem yok",
+  "No workers": "İşçi yok",
+  "Broken": "Bozuk",
+  "Paused / off": "Duraklatıldı / kapalı",
+
+
+  "Belts/Pipes": "Bantlar/Borular",
+
+  "Coming Soon": "Yakında",
+
+  "More utilities coming in future updates.": "Gelecek güncellemelerde daha fazla yardımcı araç geliyor.",
+
+  "Surplus Power": "Fazla güç",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Bir plan yerleştirirken veya bir kopya yapıştırırken, uygulanabilir her binadaki fazla güç ayarını geçersiz kılar. 'Varsayılan' her binanın kayıtlı ayarını olduğu gibi bırakır.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "Kısayol: Ctrl+S modlar arasında geçiş yapar.",
+
+  "Default": "Varsayılan",
+
+  "Surplus ON": "Fazla AÇIK",
+
+  "Surplus OFF": "Fazla KAPALI",
+
+  "Keep each building's saved surplus setting from the blueprint.": "Plandaki her binanın kayıtlı fazla güç ayarını korur.",
+
+  "Force every applicable building to consume only when there is surplus power.": "Uygulanabilir her binayı yalnızca fazla güç olduğunda tüketim yapmaya zorlar.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "Uygulanabilir her binayı normal şekilde güç tüketmeye zorlar (yalnızca fazla güçle değil).",
+
+  "Surplus Power: Default": "Fazla güç: Varsayılan",
+  "Surplus Power: ON": "Fazla güç: AÇIK",
+  "Surplus Power: OFF": "Fazla güç: KAPALI",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "Her yükseklikteki bant ve boruları göstermek veya gizlemek için seviyeleri değiştirin.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "Kısayollar: PageUp bir seviye daha gösterir, PageDown bir seviyeyi gizler.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "Kısayollar: Ctrl+PageUp bir seviye daha gösterir, Ctrl+PageDown bir seviyeyi gizler.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "Kısayollar: Shift+PageUp alttan bir seviye daha gösterir, Shift+PageDown alttan bir seviyeyi gizler.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "Kayser's Blueprint Designer's Toolkit yüklü olduğundan, kendi kısayollarıyla çakışmayı önlemek için bu kısayollar Ctrl+PageUp / Ctrl+PageDown olarak değiştirildi.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "Not: Bant veya boru yerleştirirken seviyeleri gizlerseniz, gizli seviyelerden gelen bağlantı okları görünmeye devam eder. Yenilemek için yapım modundan çıkıp tekrar girin.",
+
+
+  "Level {0}": "Seviye {0}",
+
+  "Show All": "Tümünü göster",
+
+  "Hide All": "Tümünü gizle",
+
+  "Show lifts, sorters & balancers": "Asansörleri, ayırıcıları ve dengeleyicileri göster",
+
+  "Show Lifts": "Asansörleri göster",
+  "Show Sorters": "Ayırıcıları göster",
+  "Show Balancers": "Dengeleyicileri göster",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "İşareti kaldırıldığında, yükseklik seviyesinden bağımsız olarak tüm asansörleri gizler — yukarıdaki Seviye kutucuklarından bağımsızdır. Kayıt başına geçerlidir.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "İşareti kaldırıldığında, yükseklik seviyesinden bağımsız olarak tüm ayırıcıları gizler — yukarıdaki Seviye kutucuklarından bağımsızdır. Kayıt başına geçerlidir.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "İşareti kaldırıldığında, yükseklik seviyesinden bağımsız olarak tüm dengeleyicileri gizler — yukarıdaki Seviye kutucuklarından bağımsızdır. Kayıt başına geçerlidir.",
+
+  "Show buildings & trees": "Binaları ve ağaçları göster",
+
+  "Show Housing & Services": "Barınma ve hizmetleri göster",
+
+  "Show All Trees": "Tüm ağaçları göster",
+  "Show Offices": "Ofisleri göster",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "İşareti kaldırıldığında, tüm ofis binalarını (Ofis I, II ve III) gizleyerek fabrika görüşünüzü engellememelerini sağlar. Geri alınabilir. Kayıt başına geçerlidir.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "İşareti kaldırıldığında, tüm barınmayı (her seviye) ve Barınma ve hizmetler sekmesinin tamamını gizler — gıda marketleri, modüller, su, trafo, atık, klinik, internet, meydan. Kayıt başına geçerlidir.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "İşareti kaldırıldığında, haritadaki her ağacı (yabani ve dikili) gizleyerek görüşü engellememelerini sağlar. Geri alınabilir, hasadı etkilemez. Kayıt başına geçerlidir.",
+
+  "Close": "Kapat",
+
+  "Balancers": "Dengeleyiciler",
+
+  "Lifts": "Asansörler",
+
+  "Vehicle Mover": "Araç taşıyıcı",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Bir araç türü seçin ve haritadaki araçları seçmek için sürükleyin, ardından taşımak için bir hedefe tıklayın.",
+
+  "Select vehicle type": "Araç türü seç",
+
+  "All Types": "Tüm türler",
+
+  "Mass Vehicle Mover": "Toplu araç taşıyıcı",
+
+  "Mass Recover": "Toplu kurtarma",
+
+  "Drag to select vehicles to recover...": "Kurtarmak için araçları seçmek üzere sürükleyin...",
+
+  "Recovered {0} vehicles": "{0} araç kurtarıldı",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "Bu pencereyi kapatır. İçindeki seçili tüm araçları kurtarmak için dünya üzerinde bir kutu sürükleyin (bir depoya geri gönderilirler). Hiçbir tür seçilmemişse, kutudaki tüm araçlar kurtarılır. Çıkmak için Esc tuşuna basın.",
+
+  "Drag to select vehicles...": "Araçları seçmek için sürükleyin...",
+
+  "Click destination for {0} vehicles": "{0} araç için hedefe tıklayın",
+
+  "No vehicles found in selection": "Seçimde araç bulunamadı",
+
+  "Moved {0} vehicles": "{0} araç taşındı",
+
+  "Windows": "Pencereler",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "Bina pencerelerini sürüklediğiniz yeri hatırlar, böylece konum kayıt yeniden yüklendiğinde de korunur. Bu olmadan, oyun yükleme sırasında her pencereyi ekranın ortasına sıfırlar.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "Kayıt başına saklanır. Bir bina penceresini bir kez sürükleyin, oyunu kaydedin — kaydı bir sonraki yüklemenizde pencere sürüklediğiniz konumda açılır.",
+
+  "Remember window positions across save reload": "Pencere konumlarını kayıt yeniden yüklemeleri arasında hatırla",
+
+  "Positions saved: {0}": "Kaydedilen konumlar: {0}",
+
+  "Clear all saved positions": "Kayıtlı tüm konumları temizle",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Plan tasarımcıları için: düzenleme sırasında kamyonların veya sıvıların ürün taşımadığı, tamamen duraklatılmış bir dünyada düzenleme yapın.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "AÇIK olduğunda, yerleştirme ve yıkma işlemleri oyun duraklatılmışken bile aynı karede tamamlanır. Malzeme ücreti alınmaz. Cheat++ 'Instant Build' özelliğini zorla devre dışı bırakır (bu seçenek onun yerini alır). Kayıt başına geçerlidir.",
+  "Insta-place & insta-remove (works even when paused)": "Anında yerleştir ve anında kaldır (duraklatılmışken de çalışır)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "AÇIK olduğunda, yerleştirme ve yıkma işlemleri oyun duraklatılmışken bile aynı karede tamamlanır — donmuş bir dünyada düzenleme yapan plan tasarımcıları için tasarlanmıştır. Ayrıca Cheat++ 'Instant Build' özelliğini zorla devre dışı bırakır (bu seçenek onun yerini alır). Kayıt başına geçerlidir.",
+
+  "Drag tools": "Sürükleme araçları",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Bu pencereyi kapatıp sürükle-seçime başlamak için bir düğmeye tıklayın. Herhangi bir bina grubunun üzerine bir kutu bırakarak onları anında ve malzemesiz olarak bir seviye yükseltin veya düşürün. Araç, sürüklemeler arasında etkin kalır — çıkmak için Esc tuşuna basın.",
+  "Drag Upgrade": "Sürükleyerek yükselt",
+  "Drag Downgrade": "Sürükleyerek düşür",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Bu pencereyi kapatır. İçindeki her binayı anında ve ücretsiz olarak bir seviye yükseltmek için dünya üzerinde bir kutu sürükleyin. Bantlar ve borular için de çalışır. Çıkmak için Esc tuşuna basın.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Bu pencereyi kapatır. İçindeki her binayı anında ve ücretsiz olarak bir seviye düşürmek için dünya üzerinde bir kutu sürükleyin. 'Düşürülemez' olarak işaretlenmiş binalar atlanır. Çıkmak için Esc tuşuna basın.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Sürükleyerek yükselt — içindeki binaları yükseltmek için bir kutu sürükleyin. Çıkmak için Esc tuşuna basın.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Sürükleyerek düşür — içindeki binaları düşürmek için bir kutu sürükleyin. Çıkmak için Esc tuşuna basın.",
+  "Upgraded {0} buildings": "{0} bina yükseltildi",
+  "Downgraded {0} buildings": "{0} bina düşürüldü",
+
+  "Cleanup": "Temizlik",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "Bağlantısız bant/boru artıklarını temizler — 2'den az uca bağlı parçalar (çıkmaz uçlar ve boşta kalan parçalar). Tamamen bağlı hatlara asla dokunulmaz.",
+  "Belt/Pipe Cleanup": "Bant/Boru temizliği",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "Bu pencereyi kapatır. İçindeki bağlantısız bant/boru parçalarını silmek için dünya üzerinde bir kutu sürükleyin (2'den az uca bağlı parçalar). Tamamen bağlı hatlara dokunulmaz. Çıkmak için Esc tuşuna basın.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "Bant/Boru temizliği — içindeki bağlantısız bant/boru parçalarını silmek için bir kutu sürükleyin. Çıkmak için Esc tuşuna basın.",
+  "Removed {0} belts/pipes": "{0} bant/boru kaldırıldı",
+  "Show or hide the live efficiency status label above each machine.": "Her makinenin üzerindeki canlı verimlilik durumu etiketini gösterir veya gizler.",
+  "Cycle through the Surplus Power modes.": "Fazla güç modları arasında geçiş yapar.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "Yükseklik filtresinde bir bant/boru seviyesi daha gösterir.",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "Yükseklik filtresindeki en üst bant/boru seviyesini gizler.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Yükseklik filtresinde, en üstten değil en alttan başlayarak bir bant/boru seviyesi daha gösterir.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Yükseklik filtresinde, en üstteki yerine en alttaki bant/boru seviyesini gizler.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Kayser's Blueprint Designer's Toolkit kullanıyorsunuz. Araçlarımı geliştirmesi için kendisine verdim ve onun modunda çok daha fazla güzel plan özelliği var, bu yüzden onun yerine onun modunu kullanın. BDT yüklüyken buradaki her şey kalıcı olarak kapatılır.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Mori++ Suite ayarlarını açar. Açmak için kısayol: Alt + W",
+  "Cancel Deconstruction": "Yıkımı iptal et",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Yanlışlıkla koca bir alanı yıkım için mi işaretlediniz? Üzerine bir kutu sürükleyerek içindeki tüm bekleyen yıkımları iptal edin — binalar, bantlar ve borular oldukları yerde kalır.",
+  "Hotkey: Shift+Alt+D": "Kısayol: Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "Bu pencereyi kapatır. İçindeki her şeyin yıkımını, her birinin üzerindeki iptal düğmesine tıklamışsınız gibi iptal etmek için dünya üzerinde bir kutu sürükleyin. Hiçbir şey yıkılmaz ve hiçbir geri ödeme yapılmaz — iş emri yalnızca iptal edilir. Tamamen yıkılmış olan hiçbir şey geri getirilemez. Araç, sürüklemeler arasında etkin kalır — çıkmak için Esc tuşuna basın.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "Yıkımı iptal et — içindeki yıkımı iptal etmek için bir kutu sürükleyin. Çıkmak için Esc tuşuna basın.",
+  "Cancelled deconstruction of {0}": "{0} yıkımı iptal edildi",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "Kutu içindeki her şeyin yıkımını iptal eden sürükleme aracını başlatır.",
+  "Overlord": "Overlord",
+  "Save": "Kaydet",
+  "Load": "Yükle",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Bu modun tüm ayarlarını (bu penceredeki her sekmeyi) başka oyunlarda yeniden yükleyebileceğiniz bir profile kaydeder.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Kayıtlı bir profili yükleyerek bu modun tüm ayarlarını (bu penceredeki her sekmeyi) geri yükler.",
+  "FULL": "DOLU",
+  "NO IN": "GİR YOK",
+  "NO PWR": "GÜÇ YOK",
+  "NO CPU": "CPU YOK",
+  "NO WRK": "İŞÇ YOK",
+  "BROKEN": "BOZUK",
+  "OFF": "KAPALI",
+  "Utilities++ profile saved.": "Utilities++ profili kaydedildi.",
+  "Utilities++ profile loaded.": "Utilities++ profili yüklendi."
+}

@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "저장된 프로필을 현재 설정으로 덮어쓸까요?",
+  "Load your saved profile? Your current settings will be replaced.": "저장된 프로필을 불러올까요? 현재 설정은 대체됩니다.",
+  "Vehicles":"차량",
+  "Start the drag-select tool to move vehicles in an area.": "차량을 이동시킬 영역을 드래그로 선택하는 도구를 시작합니다.",
+  "Start the drag-select tool to recover vehicles in an area.": "차량을 복구할 영역을 드래그로 선택하는 도구를 시작합니다.",
+  "Cycle vehicle type": "차량 유형 순환",
+  "Select all vehicle types": "모든 차량 유형 선택",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "차량 일괄 이동 / 일괄 복구에 사용할 차량 유형을 순환 선택합니다.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "차량 일괄 이동 / 일괄 복구가 모든 차량 유형에 적용되도록 초기화합니다.",
+  "Toggle the Overlord window": "Overlord 창 전환",
+  "Open or close the Mori++ Overlord window.": "Mori++ Overlord 창을 열거나 닫습니다.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "차량 유형을 선택하면 모든 연료 변형(디젤, 배터리, 수소, 합성 디젤)이 포함되므로 각각 따로 선택할 필요가 없습니다.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "이 차량의 모든 연료 변형(디젤, 배터리, 수소, 합성 디젤)을 포함합니다.",
+  "Mass Vehicle Mover (Shift+M)": "차량 일괄 이동 (Shift+M)",
+  "Mass Recover (Shift+R)": "일괄 복구 (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "차량 유형 순환 (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "모든 차량 유형으로 초기화 (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "도구",
+  "View/Layers": "보기/레이어",
+  "Window": "창",
+
+  "Keybinds": "단축키",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Mori++ 모음의 단축키를 다시 지정합니다. 게임 자체 단축키도 함께 확인하여 충돌을 경고합니다.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "필드를 클릭한 다음 키 조합을 누르세요. 우클릭하면 지워지고, Esc를 누르면 취소됩니다.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "변경 사항은 즉시 적용됩니다. 다른 Mod는 몇 초 안에 갱신되며 재시작이 필요 없습니다.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "보조 키는 의도적으로 여러 게임 단축키와 겹치며, 다른 Mod 도구와 충돌할 때만 표시됩니다.",
+  "Press a key…": "키를 누르세요…",
+  "Conflicts with: {0}": "충돌 항목: {0}",
+  "None": "없음",
+  "Reset": "초기화",
+  "Clear": "지우기",
+  "Reset all to defaults": "전체를 기본값으로 초기화",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "벨트/파이프 레벨을 한 단계 더 표시",
+  "Hide one more belt/pipe level": "벨트/파이프 레벨을 한 단계 더 숨기기",
+  "Show one more belt/pipe level from bottom": "아래부터 벨트/파이프 레벨을 한 단계 더 표시",
+  "Hide one more belt/pipe level from bottom": "아래부터 벨트/파이프 레벨을 한 단계 더 숨기기",
+  "Cycle Surplus Power modes": "잉여 전력 모드 순환",
+  "Toggle efficiency overlay": "효율 오버레이 전환",
+  "Toggle the Tweaks++ window": "Tweaks++ 창 전환",
+
+  "Efficiency": "효율",
+  "Efficiency Overlay": "효율 오버레이",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "모든 기계 위에 떠 있는 라벨이 실시간 가동 효율을 보여줍니다. 재료 부족, 출력 막힘, 전력 부족 건물을 한눈에 찾는 데 유용합니다.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "색상: 초록 = 가동률 75~100%, 노랑 = 50~74%, 주황 = 1~49%, 빨강 = 정지(재료 없음 / 출력 가득참 / 전력 없음 / 고장), 회색 = 일시정지.",
+  "Show machine efficiency overlay": "기계 효율 오버레이 표시",
+  "Toggle the floating efficiency labels above every machine in the world.": "세계의 모든 기계 위에 떠 있는 효율 라벨을 전환합니다.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "단축키: Ctrl+E로 효율 오버레이를 켜고 끕니다.",
+  "Efficiency: ON": "효율: 켜짐",
+  "Efficiency: OFF": "효율: 꺼짐",
+  "Background transparency": "배경 투명도",
+  "Number size": "숫자 크기",
+  "Background size": "배경 크기",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "기본 색상: 초록 = 정상 가동, 호박색 = 저하 중, 빨강 = 정지, 회색 = 일시정지. 아래에서 각 상태의 색상을 원하는 대로 바꿀 수 있습니다.",
+  "State label colors": "상태 라벨 색상",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "상태를 클릭한 다음 아래에서 색상을 선택하세요. 기본값은 원래 색상 구성과 같습니다.",
+  "Editing: {0}": "편집 중: {0}",
+  "Reset all colors to default": "모든 색상을 기본값으로 초기화",
+  "Reset every state's label color back to its default.": "모든 상태의 라벨 색상을 기본값으로 되돌립니다.",
+  "Running 75-100%": "가동률 75~100%",
+  "Running 50-74%": "가동률 50~74%",
+  "Running 1-49%": "가동률 1~49%",
+  "Running below 1%": "가동률 1% 미만",
+  "Output full": "출력 가득참",
+  "No input": "재료 없음",
+  "No power": "전력 없음",
+  "No computing": "연산력 없음",
+  "No workers": "근로자 없음",
+  "Broken": "고장",
+  "Paused / off": "일시정지 / 꺼짐",
+
+
+  "Belts/Pipes": "벨트/파이프",
+
+  "Coming Soon": "출시 예정",
+
+  "More utilities coming in future updates.": "더 많은 유틸리티가 향후 업데이트에 추가될 예정입니다.",
+
+  "Surplus Power": "잉여 전력",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "청사진을 배치하거나 복사본을 붙여넣을 때 해당하는 모든 건물의 잉여 전력 설정을 덮어씁니다. '기본값'을 선택하면 각 건물에 저장된 설정을 그대로 둡니다.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "단축키: Ctrl+S로 모드를 순환합니다.",
+
+  "Default": "기본값",
+
+  "Surplus ON": "잉여 전력 켜짐",
+
+  "Surplus OFF": "잉여 전력 꺼짐",
+
+  "Keep each building's saved surplus setting from the blueprint.": "청사진에 저장된 각 건물의 잉여 전력 설정을 그대로 유지합니다.",
+
+  "Force every applicable building to consume only when there is surplus power.": "해당하는 모든 건물이 잉여 전력이 있을 때만 소비하도록 강제합니다.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "해당하는 모든 건물이 평소처럼 전력을 소비하도록 강제합니다(잉여 전력 전용 아님).",
+
+  "Surplus Power: Default": "잉여 전력: 기본값",
+  "Surplus Power: ON": "잉여 전력: 켜짐",
+  "Surplus Power: OFF": "잉여 전력: 꺼짐",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "각 높이의 벨트와 파이프를 표시하거나 숨기도록 레벨을 전환합니다.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "단축키: PageUp을 누르면 레벨을 하나 더 표시하고, PageDown을 누르면 하나 더 숨깁니다.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "단축키: Ctrl+PageUp을 누르면 레벨을 하나 더 표시하고, Ctrl+PageDown을 누르면 하나 더 숨깁니다.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "단축키: Shift+PageUp을 누르면 아래부터 레벨을 하나 더 표시하고, Shift+PageDown을 누르면 아래부터 하나 더 숨깁니다.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "Kayser's Blueprint Designer's Toolkit이 로드되어 있어 단축키 충돌을 피하기 위해 이 단축키가 Ctrl+PageUp / Ctrl+PageDown으로 옮겨졌습니다.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "참고: 벨트나 파이프를 배치하는 중에 레벨을 숨겨도 숨겨진 레벨의 연결 화살표는 계속 표시됩니다. 건설 모드를 나갔다가 다시 들어오면 새로고침됩니다.",
+
+
+  "Level {0}": "레벨 {0}",
+
+  "Show All": "전체 보기",
+
+  "Hide All": "전체 숨기기",
+
+  "Show lifts, sorters & balancers": "리프트, 분류기, 밸런서 표시",
+
+  "Show Lifts": "리프트 표시",
+  "Show Sorters": "분류기 표시",
+  "Show Balancers": "밸런서 표시",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "체크 해제하면 높이 레벨과 상관없이 모든 리프트를 숨깁니다 — 위의 레벨 체크박스와는 별개입니다. 세이브별로 저장됩니다.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "체크 해제하면 높이 레벨과 상관없이 모든 분류기를 숨깁니다 — 위의 레벨 체크박스와는 별개입니다. 세이브별로 저장됩니다.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "체크 해제하면 높이 레벨과 상관없이 모든 밸런서를 숨깁니다 — 위의 레벨 체크박스와는 별개입니다. 세이브별로 저장됩니다.",
+
+  "Show buildings & trees": "건물과 나무 표시",
+
+  "Show Housing & Services": "주거 및 서비스 표시",
+
+  "Show All Trees": "모든 나무 표시",
+  "Show Offices": "사무소 표시",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "체크 해제하면 모든 사무소 건물(사무소 I, II, III)을 숨겨 공장 시야를 가리지 않게 합니다. 되돌릴 수 있으며 세이브별로 저장됩니다.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "체크 해제하면 모든 등급의 주거지와 주거 및 서비스 탭 전체 — 식품 시장, 모듈, 물, 변전소, 폐기물, 진료소, 인터넷, 광장 — 을 숨깁니다. 세이브별로 저장됩니다.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "체크 해제하면 지도에 있는 모든 나무(야생 및 심은 나무)를 숨겨 시야를 가리지 않게 합니다. 되돌릴 수 있으며 벌목에는 영향을 주지 않습니다. 세이브별로 저장됩니다.",
+
+  "Close": "닫기",
+
+  "Balancers": "밸런서",
+
+  "Lifts": "리프트",
+
+  "Vehicle Mover": "차량 이동",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "차량 유형을 선택한 다음 지도에서 드래그로 차량을 선택하고, 목적지를 클릭하여 이동시키세요.",
+
+  "Select vehicle type": "차량 유형 선택",
+
+  "All Types": "모든 유형",
+
+  "Mass Vehicle Mover": "차량 일괄 이동",
+
+  "Mass Recover": "일괄 복구",
+
+  "Drag to select vehicles to recover...": "드래그로 복구할 차량을 선택하세요...",
+
+  "Recovered {0} vehicles": "차량 {0}대 복구됨",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "이 창을 닫습니다. 세계에 상자를 드래그하면 그 안의 선택된 차량을 모두 복구합니다(차고지로 돌려보냅니다). 유형을 선택하지 않으면 상자 안의 모든 차량을 복구합니다. Esc를 누르면 종료됩니다.",
+
+  "Drag to select vehicles...": "드래그로 차량을 선택하세요...",
+
+  "Click destination for {0} vehicles": "차량 {0}대의 목적지를 클릭하세요",
+
+  "No vehicles found in selection": "선택 영역에 차량이 없습니다",
+
+  "Moved {0} vehicles": "차량 {0}대 이동됨",
+
+  "Windows": "창",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "건물 창을 드래그한 위치를 기억하여 저장 후 다시 불러와도 유지되게 합니다. 이 기능이 없으면 게임은 불러올 때마다 모든 창을 화면 중앙으로 되돌립니다.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "세이브별로 저장됩니다. 건물 창을 한 번 드래그하고 게임을 저장하면, 다음에 그 세이브를 불러올 때 드래그한 위치에 열립니다.",
+
+  "Remember window positions across save reload": "저장 후 다시 불러와도 창 위치 기억",
+
+  "Positions saved: {0}": "저장된 위치: {0}개",
+
+  "Clear all saved positions": "저장된 위치 전체 지우기",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "청사진 제작자를 위한 기능입니다: 트럭이나 유체가 편집 중에 움직이지 않도록 완전히 일시정지된 세계를 편집할 수 있습니다.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "켜면 게임이 일시정지된 상태에서도 배치와 철거가 같은 프레임에 즉시 처리됩니다. 자재는 소모되지 않습니다. Cheat++의 'Instant Build'를 강제로 비활성화합니다(이 토글이 이를 대체합니다). 세이브별로 저장됩니다.",
+  "Insta-place & insta-remove (works even when paused)": "즉시 배치 및 즉시 제거(일시정지 중에도 작동)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "켜면 게임이 일시정지된 상태에서도 배치와 철거가 같은 프레임에 완료됩니다 — 정지된 세계를 편집하는 청사진 제작자를 위한 기능입니다. Cheat++의 'Instant Build'도 강제로 비활성화합니다(이 토글이 이를 대체합니다). 세이브별로 저장됩니다.",
+
+  "Drag tools": "드래그 도구",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "버튼을 클릭하면 이 창이 닫히고 드래그 선택이 시작됩니다. 건물 그룹 위에 상자를 놓으면 자재 소모 없이 즉시 한 단계 업그레이드 또는 다운그레이드됩니다. 도구는 드래그 후에도 계속 활성 상태이며, Esc를 누르면 종료됩니다.",
+  "Drag Upgrade": "드래그 업그레이드",
+  "Drag Downgrade": "드래그 다운그레이드",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "이 창을 닫습니다. 세계에 상자를 드래그하면 그 안의 모든 건물을 즉시 한 단계 업그레이드합니다(무료). 벨트와 파이프도 적용됩니다. Esc를 누르면 종료됩니다.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "이 창을 닫습니다. 세계에 상자를 드래그하면 그 안의 모든 건물을 즉시 한 단계 다운그레이드합니다(무료). '다운그레이드 불가' 표시가 있는 건물은 건너뜁니다. Esc를 누르면 종료됩니다.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "드래그 업그레이드 — 상자를 드래그하면 안의 건물이 업그레이드됩니다. Esc를 누르면 종료됩니다.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "드래그 다운그레이드 — 상자를 드래그하면 안의 건물이 다운그레이드됩니다. Esc를 누르면 종료됩니다.",
+  "Upgraded {0} buildings": "건물 {0}개 업그레이드됨",
+  "Downgraded {0} buildings": "건물 {0}개 다운그레이드됨",
+
+  "Cleanup": "정리",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "연결되지 않은 벨트/파이프 잔여물 — 양 끝 중 한쪽만 연결되었거나 아예 연결되지 않은 조각(막다른 토막과 떠 있는 조각) — 을 정리합니다. 완전히 연결된 구간은 절대 건드리지 않습니다.",
+  "Belt/Pipe Cleanup": "벨트/파이프 정리",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "이 창을 닫습니다. 세계에 상자를 드래그하면 그 안의 연결되지 않은 벨트/파이프 토막(양 끝 중 한쪽만 연결되었거나 연결되지 않은 조각)을 삭제합니다. 완전히 연결된 구간은 그대로 둡니다. Esc를 누르면 종료됩니다.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "벨트/파이프 정리 — 상자를 드래그하면 안의 연결되지 않은 토막이 삭제됩니다. Esc를 누르면 종료됩니다.",
+  "Removed {0} belts/pipes": "벨트/파이프 {0}개 제거됨",
+  "Show or hide the live efficiency status label above each machine.": "각 기계 위의 실시간 효율 상태 라벨을 표시하거나 숨깁니다.",
+  "Cycle through the Surplus Power modes.": "잉여 전력 모드를 순환합니다.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "높이 필터에서 벨트/파이프 레벨을 한 단계 더 표시합니다.",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "높이 필터에서 가장 위쪽 벨트/파이프 레벨을 숨깁니다.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "높이 필터에서 위쪽 대신 아래쪽부터 벨트/파이프 레벨을 한 단계 더 표시합니다.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "높이 필터에서 가장 위쪽 대신 가장 아래쪽 벨트/파이프 레벨을 숨깁니다.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Kayser's Blueprint Designer's Toolkit을 사용 중이시네요. 제 도구들을 그분께 드려 더 발전시켰고, 그분의 Mod에는 훌륭한 청사진 기능이 훨씬 많으니 그쪽을 사용하세요. BDT가 로드되어 있는 동안 여기 있는 기능은 모두 영구적으로 꺼집니다.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Mori++ Suite 설정을 엽니다. 열기 단축키: Alt + W",
+  "Cancel Deconstruction": "해체 취소",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "실수로 넓은 구역을 철거 대상으로 지정하셨나요? 그 위에 상자를 드래그하면 안의 모든 대기 중인 해체 작업이 취소됩니다 — 건물, 벨트, 파이프는 그대로 남습니다.",
+  "Hotkey: Shift+Alt+D": "단축키: Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "이 창을 닫습니다. 세계에 상자를 드래그하면 그 안의 모든 것에 대한 해체를 취소합니다. 각각의 취소 버튼을 클릭하는 것과 동일합니다. 아무것도 철거되지 않고 환불도 없습니다 — 작업 지시가 그냥 취소될 뿐입니다. 이미 완전히 철거된 것은 되돌릴 수 없습니다. 도구는 드래그 후에도 계속 활성 상태이며, Esc를 누르면 종료됩니다.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "해체 취소 — 상자를 드래그하면 안의 해체가 취소됩니다. Esc를 누르면 종료됩니다.",
+  "Cancelled deconstruction of {0}": "{0}의 해체를 취소함",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "상자 안의 모든 것에 대한 해체를 취소하는 드래그 도구를 시작합니다.",
+  "Overlord": "Overlord",
+  "Save": "저장",
+  "Load": "불러오기",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "이 Mod의 모든 설정(이 창의 모든 탭)을 프로필로 저장하여 다른 게임에서 다시 불러올 수 있습니다.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "저장된 프로필을 불러와 이 Mod의 모든 설정(이 창의 모든 탭)을 복원합니다.",
+  "FULL": "가득참",
+  "NO IN": "재료없음",
+  "NO PWR": "전력없음",
+  "NO CPU": "연산없음",
+  "NO WRK": "인력없음",
+  "BROKEN": "고장",
+  "OFF": "꺼짐",
+  "Utilities++ profile saved.": "Utilities++ 프로필을 저장했습니다.",
+  "Utilities++ profile loaded.": "Utilities++ 프로필을 불러왔습니다."
+}

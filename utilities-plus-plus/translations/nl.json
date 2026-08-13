@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "Je opgeslagen profiel overschrijven met je huidige instellingen?",
+  "Load your saved profile? Your current settings will be replaced.": "Je opgeslagen profiel laden? Je huidige instellingen worden vervangen.",
+  "Vehicles":"Voertuigen",
+  "Start the drag-select tool to move vehicles in an area.": "Start het sleepgereedschap om voertuigen in een gebied te verplaatsen.",
+  "Start the drag-select tool to recover vehicles in an area.": "Start het sleepgereedschap om voertuigen in een gebied te herstellen.",
+  "Cycle vehicle type": "Voertuigtype wisselen",
+  "Select all vehicle types": "Alle voertuigtypes selecteren",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Wisselt het voertuigtype dat is gekozen voor Voertuigen massaal verplaatsen / Massaal herstellen.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Zet Voertuigen massaal verplaatsen / Massaal herstellen terug zodat alle voertuigtypes worden meegenomen.",
+  "Toggle the Overlord window": "Overlord-venster aan/uit",
+  "Open or close the Mori++ Overlord window.": "Open of sluit het Mori++ Overlord-venster.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Het kiezen van een voertuigtype omvat meteen alle brandstofvarianten (Diesel, Batterij, Waterstof, Synthetische diesel) — je hoeft ze niet apart te kiezen.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Omvat alle brandstofvarianten (Diesel, Batterij, Waterstof, Synthetische diesel) van dit voertuig.",
+  "Mass Vehicle Mover (Shift+M)": "Voertuigen massaal verplaatsen (Shift+M)",
+  "Mass Recover (Shift+R)": "Massaal herstellen (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "Voertuigtypes wisselen (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "Terug naar alle voertuigtypes (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "Gereedschap",
+  "View/Layers": "Weergave/lagen",
+  "Window": "Venster",
+
+  "Keybinds": "Sneltoetsen",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Wijs de sneltoetsen van de Mori++ Suite opnieuw toe. Ook de sneltoetsen van het spel zelf worden gecontroleerd, zodat je wordt gewaarschuwd bij conflicten.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Klik op een veld en druk daarna op een toetsencombinatie. Rechtsklikken wist de toewijzing. Esc annuleert.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Wijzigingen werken meteen. Andere mods nemen ze binnen een paar seconden over — opnieuw opstarten is niet nodig.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Modificatietoetsen overlappen bewust met veel sneltoetsen van het spel; alleen een conflict met gereedschap van een andere mod wordt gemeld.",
+  "Press a key…": "Druk op een toets…",
+  "Conflicts with: {0}": "In conflict met: {0}",
+  "None": "Geen",
+  "Reset": "Resetten",
+  "Clear": "Leegmaken",
+  "Reset all to defaults": "Standaardinstellingen herstellen",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "Eén transporthoogte meer tonen",
+  "Hide one more belt/pipe level": "Eén transporthoogte meer verbergen",
+  "Show one more belt/pipe level from bottom": "Eén transporthoogte meer tonen vanaf onderen",
+  "Hide one more belt/pipe level from bottom": "Eén transporthoogte meer verbergen vanaf onderen",
+  "Cycle Surplus Power modes": "Elektriciteitsoverschot-modi wisselen",
+  "Toggle efficiency overlay": "Efficiëntieoverzicht aan/uit",
+  "Toggle the Tweaks++ window": "Tweaks++-venster aan/uit",
+
+  "Efficiency": "Efficiëntie",
+  "Efficiency Overlay": "Efficiëntieoverzicht",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Zwevende labels boven elke machine tonen de actuele bedrijfsefficiëntie. Handig om in één oogopslag gebouwen te vinden die te weinig invoer krijgen, geblokkeerd zijn of te weinig elektriciteit hebben.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Kleuren: groen = draait 75-100%, geel = 50-74%, oranje = 1-49%, rood = stilstand (geen invoer / uitvoer vol / geen elektriciteit / defect), grijs = gepauzeerd.",
+  "Show machine efficiency overlay": "Efficiëntieoverzicht van machines tonen",
+  "Toggle the floating efficiency labels above every machine in the world.": "Zet de zwevende efficiëntielabels boven elke machine in de wereld aan of uit.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Sneltoets: Ctrl+E zet het efficiëntieoverzicht aan of uit.",
+  "Efficiency: ON": "Efficiëntie: AAN",
+  "Efficiency: OFF": "Efficiëntie: UIT",
+  "Background transparency": "Achtergrondtransparantie",
+  "Number size": "Cijfergrootte",
+  "Background size": "Achtergrondgrootte",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "Standaardkleuren: groen = draait goed, amber = wordt trager, rood = stilstand, grijs = gepauzeerd. Pas hieronder de kleur van elke status aan.",
+  "State label colors": "Kleuren van statuslabels",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "Klik op een status en kies hieronder een kleur. De standaardwaarden komen overeen met het oorspronkelijke kleurenschema.",
+  "Editing: {0}": "Bewerken: {0}",
+  "Reset all colors to default": "Alle kleuren resetten",
+  "Reset every state's label color back to its default.": "Zet de labelkleur van elke status terug naar de standaardkleur.",
+  "Running 75-100%": "Draait 75-100%",
+  "Running 50-74%": "Draait 50-74%",
+  "Running 1-49%": "Draait 1-49%",
+  "Running below 1%": "Draait onder 1%",
+  "Output full": "Uitvoer vol",
+  "No input": "Geen invoer",
+  "No power": "Geen elektriciteit",
+  "No computing": "Geen rekenkracht",
+  "No workers": "Geen arbeiders",
+  "Broken": "Defect",
+  "Paused / off": "Gepauzeerd / uit",
+
+
+  "Belts/Pipes": "Transportsystemen",
+
+  "Coming Soon": "Binnenkort beschikbaar",
+
+  "More utilities coming in future updates.": "Meer hulpmiddelen volgen in toekomstige updates.",
+
+  "Surplus Power": "Elektriciteitsoverschot",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Overschrijft de instelling voor elektriciteitsoverschot in elk geschikt gebouw bij het plaatsen van een blauwdruk of het plakken van een kopie. Met 'Standaard' blijft de opgeslagen instelling van elk gebouw ongewijzigd.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "Sneltoets: Ctrl+S wisselt tussen de modi.",
+
+  "Default": "Standaard",
+
+  "Surplus ON": "Overschot AAN",
+
+  "Surplus OFF": "Overschot UIT",
+
+  "Keep each building's saved surplus setting from the blueprint.": "Behoudt per gebouw de overschotinstelling die in de blauwdruk is opgeslagen.",
+
+  "Force every applicable building to consume only when there is surplus power.": "Dwingt elk geschikt gebouw om alleen te verbruiken als er elektriciteitsoverschot is.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "Dwingt elk geschikt gebouw om elektriciteit normaal te verbruiken (niet alleen bij overschot).",
+
+  "Surplus Power: Default": "Elektriciteitsoverschot: Standaard",
+  "Surplus Power: ON": "Elektriciteitsoverschot: AAN",
+  "Surplus Power: OFF": "Elektriciteitsoverschot: UIT",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "Schakel hoogtes in of uit om transportbanden en pijpleidingen op die hoogte te tonen of te verbergen.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "Sneltoetsen: PageUp toont één hoogte meer, PageDown verbergt één hoogte meer.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "Sneltoetsen: Ctrl+PageUp toont één hoogte meer, Ctrl+PageDown verbergt één hoogte meer.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "Sneltoetsen: Shift+PageUp toont één hoogte meer vanaf onderen, Shift+PageDown verbergt één hoogte meer vanaf onderen.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "Kayser's Blueprint Designer's Toolkit is geladen, dus deze sneltoetsen zijn verplaatst naar Ctrl+PageUp / Ctrl+PageDown om conflicten met de sneltoetsen daarvan te voorkomen.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "Let op: als je hoogtes verbergt terwijl je transportbanden of pijpleidingen plaatst, blijven de verbindingspijlen van verborgen hoogtes zichtbaar. Verlaat de bouwmodus en ga er opnieuw in om dit te verversen.",
+
+
+  "Level {0}": "Hoogte {0}",
+
+  "Show All": "Alles tonen",
+
+  "Hide All": "Alles verbergen",
+
+  "Show lifts, sorters & balancers": "Transportliften, sorteerunits & verdeelunits tonen",
+
+  "Show Lifts": "Transportliften tonen",
+  "Show Sorters": "Sorteerunits tonen",
+  "Show Balancers": "Verdeelunits tonen",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Als dit is uitgevinkt, worden alle transportliften verborgen, ongeacht hun hoogte — los van de hoogtevakjes hierboven. Per opgeslagen spel.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Als dit is uitgevinkt, worden alle sorteerunits verborgen, ongeacht hun hoogte — los van de hoogtevakjes hierboven. Per opgeslagen spel.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Als dit is uitgevinkt, worden alle verdeelunits verborgen, ongeacht hun hoogte — los van de hoogtevakjes hierboven. Per opgeslagen spel.",
+
+  "Show buildings & trees": "Gebouwen & bomen tonen",
+
+  "Show Housing & Services": "Huisvesting & dienstverlening tonen",
+
+  "Show All Trees": "Alle bomen tonen",
+  "Show Offices": "Kantoren tonen",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "Als dit is uitgevinkt, worden alle kantoorgebouwen (Kantoorgebouw I, II en III) verborgen zodat ze het zicht op je fabriek niet blokkeren. Omkeerbaar. Per opgeslagen spel.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "Als dit is uitgevinkt, worden alle huisvesting (elk niveau) en het hele tabblad Huisvesting & dienstverlening verborgen — voedselmarkten, modules, water, transformator, afval, kliniek, internet, plein. Per opgeslagen spel.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "Als dit is uitgevinkt, wordt elke boom op de kaart verborgen (wild en geplant) zodat ze het zicht niet blokkeren. Omkeerbaar, heeft geen invloed op het oogsten. Per opgeslagen spel.",
+
+  "Close": "Afsluiten",
+
+  "Balancers": "Verdeelunits",
+
+  "Lifts": "Transportliften",
+
+  "Vehicle Mover": "Voertuigen verplaatsen",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Kies een voertuigtype en sleep een kader om voertuigen op de kaart te selecteren. Klik daarna op een bestemming om ze daarheen te sturen.",
+
+  "Select vehicle type": "Selecteer voertuigtype",
+
+  "All Types": "Alle types",
+
+  "Mass Vehicle Mover": "Voertuigen massaal verplaatsen",
+
+  "Mass Recover": "Massaal herstellen",
+
+  "Drag to select vehicles to recover...": "Sleep om voertuigen te selecteren die je wilt herstellen...",
+
+  "Recovered {0} vehicles": "{0} voertuigen hersteld",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "Sluit dit venster. Sleep een kader over de wereld om elk geselecteerd voertuig erin te herstellen (ze worden teruggestuurd naar een depot). Als er geen type is gekozen, worden alle voertuigen in het kader hersteld. Druk op Esc om te stoppen.",
+
+  "Drag to select vehicles...": "Sleep om voertuigen te selecteren...",
+
+  "Click destination for {0} vehicles": "Klik op de bestemming voor {0} voertuigen",
+
+  "No vehicles found in selection": "Geen voertuigen gevonden in de selectie",
+
+  "Moved {0} vehicles": "{0} voertuigen verplaatst",
+
+  "Windows": "Vensters",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "Onthoudt waar je gebouwvensters naartoe sleept, zodat de positie het herladen van een opgeslagen spel overleeft. Zonder dit zet het spel elk venster bij het laden terug naar het midden van het scherm.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "Wordt per opgeslagen spel bewaard. Sleep een gebouwvenster één keer en sla het spel op — de volgende keer dat je het laadt, opent het op de gesleepte positie.",
+
+  "Remember window positions across save reload": "Vensterposities onthouden na herladen",
+
+  "Positions saved: {0}": "Opgeslagen posities: {0}",
+
+  "Clear all saved positions": "Alle opgeslagen posities wissen",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Gemaakt voor blauwdrukbouwers: bewerk een volledig gepauzeerde wereld zonder dat vrachtwagens of vloeistoffen tijdens het bewerken items verplaatsen.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Als dit AAN staat, worden plaatsen en slopen in hetzelfde frame afgerond, zelfs terwijl het spel gepauzeerd is. Materialen worden niet in rekening gebracht. Schakelt 'Direct bouwen' van Cheat++ geforceerd uit (deze schakelaar vervangt het). Per opgeslagen spel.",
+  "Insta-place & insta-remove (works even when paused)": "Direct plaatsen & direct verwijderen (werkt ook in pauze)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Als dit AAN staat, worden plaatsen en slopen in hetzelfde frame afgerond, zelfs terwijl het spel gepauzeerd is — gemaakt voor blauwdrukbouwers die een bevroren wereld bewerken. Schakelt bovendien 'Direct bouwen' van Cheat++ geforceerd uit (deze schakelaar vervangt het). Per opgeslagen spel.",
+
+  "Drag tools": "Sleepgereedschap",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Klik op een knop om dit venster te sluiten en te beginnen met slepend selecteren. Sleep een kader over een groep gebouwen om ze direct één niveau te upgraden of te downgraden, zonder materiaalkosten. Het gereedschap blijft actief tussen sleepacties door — druk op Esc om te stoppen.",
+  "Drag Upgrade": "Slepend upgraden",
+  "Drag Downgrade": "Slepend downgraden",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Sluit dit venster. Sleep een kader over de wereld om elk gebouw erin direct één niveau te upgraden (gratis). Transportbanden en pijpleidingen werken ook. Druk op Esc om te stoppen.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Sluit dit venster. Sleep een kader over de wereld om elk gebouw erin direct één niveau te downgraden (gratis). Gebouwen met de markering 'kan niet downgraden' worden overgeslagen. Druk op Esc om te stoppen.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Slepend upgraden — sleep een kader om de gebouwen erin te upgraden. Druk op Esc om te stoppen.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Slepend downgraden — sleep een kader om de gebouwen erin te downgraden. Druk op Esc om te stoppen.",
+  "Upgraded {0} buildings": "{0} gebouwen geüpgraded",
+  "Downgraded {0} buildings": "{0} gebouwen gedowngraded",
+
+  "Cleanup": "Opruimen",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "Ruimt losse resten van transportbanden en pijpleidingen op — segmenten die aan minder dan 2 uiteinden zijn aangesloten (doodlopende stukjes en zwevende delen). Volledig aangesloten trajecten worden nooit aangeraakt.",
+  "Belt/Pipe Cleanup": "Transportsystemen opruimen",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "Sluit dit venster. Sleep een kader over de wereld om losse stukjes transportband of pijpleiding erin te verwijderen (segmenten die aan minder dan 2 uiteinden zijn aangesloten). Volledig aangesloten trajecten blijven onaangeroerd. Druk op Esc om te stoppen.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "Transportsystemen opruimen — sleep een kader om losse stukjes transportband of pijpleiding erin te verwijderen. Druk op Esc om te stoppen.",
+  "Removed {0} belts/pipes": "{0} transportbanden/pijpleidingen verwijderd",
+  "Show or hide the live efficiency status label above each machine.": "Toont of verbergt het actuele efficiëntielabel boven elke machine.",
+  "Cycle through the Surplus Power modes.": "Doorloopt de modi van Elektriciteitsoverschot.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "Toont één transporthoogte meer in het hoogtefilter.",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "Verbergt de bovenste transporthoogte in het hoogtefilter.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Toont één transporthoogte meer in het hoogtefilter, beginnend vanaf onderen in plaats van bovenaan.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Verbergt de onderste transporthoogte in het hoogtefilter in plaats van de bovenste.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Je gebruikt Kayser's Blueprint Designer's Toolkit. Ik heb hem mijn gereedschap gegeven om het te verbeteren, en zijn mod heeft nog veel meer mooie blauwdrukfuncties, dus gebruik zijn mod in plaats hiervan. Alles hier staat permanent uit zolang BDT geladen is.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Opent de instellingen van de Mori++ Suite. Sneltoets om te openen: Alt + W",
+  "Cancel Deconstruction": "Sloop annuleren",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Per ongeluk een heel gebied gemarkeerd om te slopen? Sleep er een kader overheen om elke lopende sloopopdracht erin af te blazen — gebouwen, transportbanden en pijpleidingen blijven gewoon staan.",
+  "Hotkey: Shift+Alt+D": "Sneltoets: Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "Sluit dit venster. Sleep een kader over de wereld om de sloop van alles erin te annuleren, precies zoals wanneer je bij elk object op de annuleerknop klikt. Er wordt niets gesloopt en niets vergoed — de opdracht wordt simpelweg afgeblazen. Wat al volledig gesloopt is, kan niet worden teruggehaald. Het gereedschap blijft actief tussen sleepacties door — druk op Esc om te stoppen.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "Sloop annuleren — sleep een kader om de sloop erin te annuleren. Druk op Esc om te stoppen.",
+  "Cancelled deconstruction of {0}": "Sloop van {0} geannuleerd",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "Start het sleepgereedschap dat de sloop van alles in het kader annuleert.",
+  "Overlord": "Overlord",
+  "Save": "Opslaan",
+  "Load": "Laden",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Sla alle instellingen van deze mod op (elk tabblad in dit venster) in een profiel dat je in andere spellen opnieuw kunt laden.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Laad een opgeslagen profiel en herstel alle instellingen van deze mod (elk tabblad in dit venster).",
+  "FULL": "VOL",
+  "NO IN": "GEEN IN",
+  "NO PWR": "GEEN EL",
+  "NO CPU": "GEEN RK",
+  "NO WRK": "GEEN AR",
+  "BROKEN": "DEFECT",
+  "OFF": "UIT",
+  "Utilities++ profile saved.": "Utilities++-profiel opgeslagen.",
+  "Utilities++ profile loaded.": "Utilities++-profiel geladen."
+}

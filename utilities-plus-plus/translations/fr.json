@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "Remplacer votre profil sauvegardé par vos paramètres actuels ?",
+  "Load your saved profile? Your current settings will be replaced.": "Charger votre profil sauvegardé ? Vos paramètres actuels seront remplacés.",
+  "Vehicles":"Véhicules",
+  "Start the drag-select tool to move vehicles in an area.": "Démarre l'outil de sélection par glissement pour déplacer les véhicules d'une zone.",
+  "Start the drag-select tool to recover vehicles in an area.": "Démarre l'outil de sélection par glissement pour récupérer les véhicules d'une zone.",
+  "Cycle vehicle type": "Changer de type de véhicule",
+  "Select all vehicle types": "Sélectionner tous les types de véhicules",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Change le type de véhicule choisi pour Déplacement groupé de véhicules / Récupération groupée.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Réinitialise Déplacement groupé de véhicules / Récupération groupée pour agir sur tous les types de véhicules.",
+  "Toggle the Overlord window": "Ouvrir/fermer la fenêtre Overlord",
+  "Open or close the Mori++ Overlord window.": "Ouvre ou ferme la fenêtre Mori++ Overlord.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "Choisir un type de véhicule inclut toutes ses variantes de carburant (Diesel, Batterie, Hydrogène, Diesel synthétique) — inutile de les choisir une par une.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Inclut toutes les variantes de carburant (Diesel, Batterie, Hydrogène, Diesel synthétique) de ce véhicule.",
+  "Mass Vehicle Mover (Shift+M)": "Déplacement groupé de véhicules (Shift+M)",
+  "Mass Recover (Shift+R)": "Récupération groupée (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "Changer de type de véhicule (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "Rétablir tous les types de véhicules (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "Outils",
+  "View/Layers": "Vue/Calques",
+  "Window": "Fenêtre",
+
+  "Keybinds": "Raccourcis",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Reconfigurez les raccourcis de la suite Mori++. Les raccourcis du jeu sont également vérifiés, vous êtes donc averti en cas de conflit.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Cliquez sur un champ, puis appuyez sur une combinaison de touches. Le clic droit l'efface. Esc annule.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Les modifications s'appliquent immédiatement. Les autres mods se mettent à jour en quelques secondes — aucun redémarrage n'est nécessaire.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Les touches de modification recoupent volontairement de nombreux raccourcis du jeu ; seul un conflit avec un autre outil de mod est signalé.",
+  "Press a key…": "Appuyez sur une touche…",
+  "Conflicts with: {0}": "En conflit avec : {0}",
+  "None": "Aucun",
+  "Reset": "Réinitialiser",
+  "Clear": "Retirer",
+  "Reset all to defaults": "Tout réinitialiser aux valeurs par défaut",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "Afficher un niveau de convoyeur/tuyau de plus",
+  "Hide one more belt/pipe level": "Masquer un niveau de convoyeur/tuyau de plus",
+  "Show one more belt/pipe level from bottom": "Afficher un niveau de convoyeur/tuyau de plus depuis le bas",
+  "Hide one more belt/pipe level from bottom": "Masquer un niveau de convoyeur/tuyau de plus depuis le bas",
+  "Cycle Surplus Power modes": "Changer de mode Surplus d'énergie",
+  "Toggle efficiency overlay": "Afficher/masquer le calque d'efficacité",
+  "Toggle the Tweaks++ window": "Ouvrir/fermer la fenêtre Tweaks++",
+
+  "Efficiency": "Efficacité",
+  "Efficiency Overlay": "Calque d'efficacité",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Des étiquettes flottantes au-dessus de chaque machine affichent son efficacité de fonctionnement en direct. Pratique pour repérer d'un coup d'œil les bâtiments privés de ressources, bloqués ou en manque d'énergie.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Couleurs : vert = en marche 75-100 %, jaune = 50-74 %, orange = 1-49 %, rouge = à l'arrêt (pas d'entrée / sortie pleine / pas d'énergie / cassé), gris = en pause.",
+  "Show machine efficiency overlay": "Afficher le calque d'efficacité des machines",
+  "Toggle the floating efficiency labels above every machine in the world.": "Affiche ou masque les étiquettes d'efficacité flottantes au-dessus de chaque machine du monde.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Raccourci : Ctrl+E active ou désactive le calque d'efficacité.",
+  "Efficiency: ON": "Efficacité : activée",
+  "Efficiency: OFF": "Efficacité : désactivée",
+  "Background transparency": "Transparence du fond",
+  "Number size": "Taille des chiffres",
+  "Background size": "Taille du fond",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "Couleurs par défaut : vert = fonctionne bien, ambre = ralentit, rouge = à l'arrêt, gris = en pause. Personnalisez ci-dessous la couleur de chaque état.",
+  "State label colors": "Couleurs des étiquettes d'état",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "Cliquez sur un état, puis choisissez une couleur ci-dessous. Les valeurs par défaut reprennent les couleurs d'origine.",
+  "Editing: {0}": "Modification : {0}",
+  "Reset all colors to default": "Réinitialiser toutes les couleurs",
+  "Reset every state's label color back to its default.": "Rétablit la couleur par défaut de l'étiquette de chaque état.",
+  "Running 75-100%": "En marche 75-100 %",
+  "Running 50-74%": "En marche 50-74 %",
+  "Running 1-49%": "En marche 1-49 %",
+  "Running below 1%": "En marche sous 1 %",
+  "Output full": "Sortie pleine",
+  "No input": "Pas d'entrée",
+  "No power": "Pas d'énergie",
+  "No computing": "Pas de puissance de calcul",
+  "No workers": "Pas d'ouvriers",
+  "Broken": "Cassé",
+  "Paused / off": "En pause / éteint",
+
+
+  "Belts/Pipes": "Convoyeurs/Tuyaux",
+
+  "Coming Soon": "Bientôt disponible",
+
+  "More utilities coming in future updates.": "D'autres utilitaires arriveront dans les prochaines mises à jour.",
+
+  "Surplus Power": "Surplus d'énergie",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Remplace le réglage de surplus d'énergie sur chaque bâtiment concerné lors du placement d'un plan ou du collage d'une copie. « Valeur par défaut » conserve le réglage enregistré de chaque bâtiment.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "Raccourci : Ctrl+S fait défiler les modes.",
+
+  "Default": "Valeur par défaut",
+
+  "Surplus ON": "Surplus activé",
+
+  "Surplus OFF": "Surplus désactivé",
+
+  "Keep each building's saved surplus setting from the blueprint.": "Conserve le réglage de surplus enregistré de chaque bâtiment du plan.",
+
+  "Force every applicable building to consume only when there is surplus power.": "Force chaque bâtiment concerné à ne consommer que lorsqu'il y a un surplus d'énergie.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "Force chaque bâtiment concerné à consommer l'énergie normalement (pas uniquement le surplus).",
+
+  "Surplus Power: Default": "Surplus d'énergie : valeur par défaut",
+  "Surplus Power: ON": "Surplus d'énergie : activé",
+  "Surplus Power: OFF": "Surplus d'énergie : désactivé",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "Cochez les niveaux pour afficher ou masquer les convoyeurs et les tuyaux à chaque hauteur.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "Raccourcis : PageUp affiche un niveau de plus, PageDown en masque un de plus.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "Raccourcis : Ctrl+PageUp affiche un niveau de plus, Ctrl+PageDown en masque un de plus.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "Raccourcis : Shift+PageUp affiche un niveau de plus depuis le bas, Shift+PageDown en masque un de plus depuis le bas.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "Kayser's Blueprint Designer's Toolkit est chargé ; ces raccourcis ont donc été déplacés sur Ctrl+PageUp / Ctrl+PageDown pour éviter tout conflit avec les siens.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "Remarque : si vous masquez des niveaux pendant la pose de convoyeurs ou de tuyaux, les flèches de connexion des niveaux masqués resteront visibles. Quittez puis réactivez le mode construction pour actualiser.",
+
+
+  "Level {0}": "Niveau {0}",
+
+  "Show All": "Tout afficher",
+
+  "Hide All": "Tout masquer",
+
+  "Show lifts, sorters & balancers": "Afficher élévateurs, trieurs & équilibreurs",
+
+  "Show Lifts": "Afficher les élévateurs",
+  "Show Sorters": "Afficher les trieurs",
+  "Show Balancers": "Afficher les équilibreurs",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Une fois décoché, masque tous les élévateurs quel que soit leur niveau de hauteur — indépendamment des cases Niveau ci-dessus. Propre à chaque sauvegarde.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Une fois décoché, masque tous les trieurs quel que soit leur niveau de hauteur — indépendamment des cases Niveau ci-dessus. Propre à chaque sauvegarde.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Une fois décoché, masque tous les équilibreurs quel que soit leur niveau de hauteur — indépendamment des cases Niveau ci-dessus. Propre à chaque sauvegarde.",
+
+  "Show buildings & trees": "Afficher bâtiments & arbres",
+
+  "Show Housing & Services": "Afficher Logements & services",
+
+  "Show All Trees": "Afficher tous les arbres",
+  "Show Offices": "Afficher les bureaux",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "Une fois décoché, masque tous les bureaux (Bureau I, II et III) pour qu'ils ne gênent plus la vue sur votre usine. Réversible. Propre à chaque sauvegarde.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "Une fois décoché, masque tous les logements (tous niveaux) ainsi que tout l'onglet Logements & services — magasins de nourriture, modules, eau, transformateur, déchets, clinique, internet, place. Propre à chaque sauvegarde.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "Une fois décoché, masque tous les arbres de la carte (sauvages et plantés) pour qu'ils ne gênent plus la vue. Réversible, sans effet sur l'abattage. Propre à chaque sauvegarde.",
+
+  "Close": "Fermer",
+
+  "Balancers": "Équilibreurs",
+
+  "Lifts": "Élévateurs",
+
+  "Vehicle Mover": "Déplacement de véhicules",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Sélectionnez un type de véhicule et faites glisser pour sélectionner des véhicules sur la carte, puis cliquez sur une destination pour les y envoyer.",
+
+  "Select vehicle type": "Sélectionner un type de véhicule",
+
+  "All Types": "Tous les types",
+
+  "Mass Vehicle Mover": "Déplacement groupé de véhicules",
+
+  "Mass Recover": "Récupération groupée",
+
+  "Drag to select vehicles to recover...": "Faites glisser pour sélectionner les véhicules à récupérer...",
+
+  "Recovered {0} vehicles": "{0} véhicules récupérés",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "Ferme cette fenêtre. Tracez un rectangle sur le monde pour récupérer tous les véhicules sélectionnés qui s'y trouvent (ils sont renvoyés vers un dépôt). Si aucun type n'est choisi, tous les véhicules du rectangle sont récupérés. Appuyez sur Esc pour quitter.",
+
+  "Drag to select vehicles...": "Faites glisser pour sélectionner des véhicules...",
+
+  "Click destination for {0} vehicles": "Cliquez sur la destination pour {0} véhicules",
+
+  "No vehicles found in selection": "Aucun véhicule trouvé dans la sélection",
+
+  "Moved {0} vehicles": "{0} véhicules déplacés",
+
+  "Windows": "Fenêtres",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "Mémorise l'endroit où vous déplacez les fenêtres des bâtiments afin que leur position soit conservée au rechargement d'une sauvegarde. Sans cela, le jeu replace chaque fenêtre au centre de l'écran au chargement.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "Enregistré pour chaque sauvegarde. Déplacez une fois la fenêtre d'un bâtiment, sauvegardez la partie — au prochain chargement, elle s'ouvrira à l'endroit choisi.",
+
+  "Remember window positions across save reload": "Mémoriser la position des fenêtres entre les chargements",
+
+  "Positions saved: {0}": "Positions enregistrées : {0}",
+
+  "Clear all saved positions": "Effacer toutes les positions enregistrées",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Conçu pour les créateurs de plans : modifiez un monde entièrement en pause, sans camions ni fluides qui déplacent des éléments en cours d'édition.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Une fois activé, la pose et la démolition se terminent dans la même image, même lorsque le jeu est en pause. Aucun matériau n'est facturé. Désactive de force « Construction instantanée » de Cheat++ (cette option la remplace). Propre à chaque sauvegarde.",
+  "Insta-place & insta-remove (works even when paused)": "Pose & retrait instantanés (fonctionne même en pause)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Une fois activé, la pose et la démolition se terminent dans la même image même lorsque le jeu est en pause — conçu pour les créateurs de plans qui modifient un monde figé. Désactive également de force « Construction instantanée » de Cheat++ (cette option la remplace). Propre à chaque sauvegarde.",
+
+  "Drag tools": "Outils de sélection",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Cliquez sur un bouton pour fermer cette fenêtre et commencer la sélection par glissement. Tracez un rectangle sur un groupe de bâtiments pour les améliorer ou les rétrograder d'un niveau instantanément, sans matériaux. L'outil reste actif entre les sélections — appuyez sur Esc pour quitter.",
+  "Drag Upgrade": "Améliorer par glissement",
+  "Drag Downgrade": "Rétrograder par glissement",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Ferme cette fenêtre. Tracez un rectangle sur le monde pour améliorer instantanément d'un niveau tous les bâtiments qui s'y trouvent (gratuit). Fonctionne aussi avec les convoyeurs et les tuyaux. Appuyez sur Esc pour quitter.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Ferme cette fenêtre. Tracez un rectangle sur le monde pour rétrograder instantanément d'un niveau tous les bâtiments qui s'y trouvent (gratuit). Les bâtiments marqués « impossible à rétrograder » sont ignorés. Appuyez sur Esc pour quitter.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Améliorer par glissement — tracez un rectangle pour améliorer les bâtiments à l'intérieur. Appuyez sur Esc pour quitter.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Rétrograder par glissement — tracez un rectangle pour rétrograder les bâtiments à l'intérieur. Appuyez sur Esc pour quitter.",
+  "Upgraded {0} buildings": "{0} bâtiments améliorés",
+  "Downgraded {0} buildings": "{0} bâtiments rétrogradés",
+
+  "Cleanup": "Nettoyage",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "Fait le ménage parmi les restes de convoyeurs/tuyaux déconnectés — les segments raccordés par moins de 2 extrémités (bouts en impasse et morceaux isolés). Les tracés entièrement raccordés ne sont jamais touchés.",
+  "Belt/Pipe Cleanup": "Nettoyage convoyeurs/tuyaux",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "Ferme cette fenêtre. Tracez un rectangle sur le monde pour supprimer les bouts de convoyeurs/tuyaux déconnectés qui s'y trouvent (segments raccordés par moins de 2 extrémités). Les tracés entièrement raccordés ne sont pas touchés. Appuyez sur Esc pour quitter.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "Nettoyage convoyeurs/tuyaux — tracez un rectangle pour supprimer les bouts de convoyeurs/tuyaux déconnectés à l'intérieur. Appuyez sur Esc pour quitter.",
+  "Removed {0} belts/pipes": "{0} convoyeurs/tuyaux supprimés",
+  "Show or hide the live efficiency status label above each machine.": "Affiche ou masque l'étiquette d'état d'efficacité en direct au-dessus de chaque machine.",
+  "Cycle through the Surplus Power modes.": "Fait défiler les modes Surplus d'énergie.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "Affiche un niveau de hauteur de convoyeur/tuyau supplémentaire dans le filtre de hauteur.",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "Masque le niveau de hauteur de convoyeur/tuyau le plus élevé dans le filtre de hauteur.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Affiche un niveau de hauteur de convoyeur/tuyau supplémentaire dans le filtre de hauteur, en partant du bas au lieu du haut.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Masque le niveau de hauteur de convoyeur/tuyau le plus bas dans le filtre de hauteur, au lieu du plus élevé.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Vous utilisez Kayser's Blueprint Designer's Toolkit. Je lui ai confié mes outils pour qu'il les améliore, et son mod propose bien d'autres fonctions intéressantes pour les plans : utilisez plutôt le sien. Tout ce qui se trouve ici est définitivement désactivé tant que BDT est chargé.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Ouvre les paramètres de la suite Mori++. Raccourci pour l'ouvrir : Alt + W",
+  "Cancel Deconstruction": "Annuler la déconstruction",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Vous avez marqué toute une zone pour la démolition par erreur ? Tracez un rectangle dessus pour annuler toutes les déconstructions en attente qui s'y trouvent — les bâtiments, convoyeurs et tuyaux restent en place.",
+  "Hotkey: Shift+Alt+D": "Raccourci : Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "Ferme cette fenêtre. Tracez un rectangle sur le monde pour annuler la déconstruction de tout ce qui s'y trouve, exactement comme si vous cliquiez sur le bouton d'annulation de chaque élément. Rien n'est démoli et rien n'est remboursé — l'ordre de travail est simplement annulé. Ce qui est déjà entièrement démoli ne peut pas être récupéré. L'outil reste actif entre les sélections — appuyez sur Esc pour quitter.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "Annuler la déconstruction — tracez un rectangle pour annuler la déconstruction à l'intérieur. Appuyez sur Esc pour quitter.",
+  "Cancelled deconstruction of {0}": "Déconstruction annulée : {0}",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "Démarre l'outil de sélection qui annule la déconstruction de tout ce qui se trouve dans le rectangle.",
+  "Overlord": "Overlord",
+  "Save": "Sauvegarder",
+  "Load": "Chargement",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Sauvegarde tous les paramètres de ce mod (tous les onglets de cette fenêtre) dans un profil que vous pourrez recharger dans d'autres parties.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Charge un profil sauvegardé et restaure tous les paramètres de ce mod (tous les onglets de cette fenêtre).",
+  "FULL": "PLEIN",
+  "NO IN": "PAS ENT",
+  "NO PWR": "PAS ÉNE",
+  "NO CPU": "PAS CPU",
+  "NO WRK": "PAS OUV",
+  "BROKEN": "CASSÉ",
+  "OFF": "ARRÊT",
+  "Utilities++ profile saved.": "Profil Utilities++ sauvegardé.",
+  "Utilities++ profile loaded.": "Profil Utilities++ chargé."
+}

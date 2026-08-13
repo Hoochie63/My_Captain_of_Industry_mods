@@ -1,0 +1,238 @@
+{
+  "Overwrite your saved profile with your current settings?": "Voleu sobreescriure el perfil desat amb la configuració actual?",
+  "Load your saved profile? Your current settings will be replaced.": "Voleu carregar el perfil desat? La configuració actual se substituirà.",
+  "Vehicles":"Vehicles",
+  "Start the drag-select tool to move vehicles in an area.": "Inicieu l'eina de selecció per arrossegament per moure vehicles en una àrea.",
+  "Start the drag-select tool to recover vehicles in an area.": "Inicieu l'eina de selecció per arrossegament per recuperar vehicles en una àrea.",
+  "Cycle vehicle type": "Canvia el tipus de vehicle",
+  "Select all vehicle types": "Selecciona tots els tipus de vehicle",
+  "Cycle the vehicle type picked for Mass Vehicle Mover / Mass Recover.": "Canvia el tipus de vehicle triat per al Moviment massiu de vehicles / la Recuperació massiva.",
+  "Reset Mass Vehicle Mover / Mass Recover to affect all vehicle types.": "Restableix el Moviment massiu de vehicles / la Recuperació massiva perquè afecti tots els tipus de vehicle.",
+  "Toggle the Overlord window": "Commuta la finestra Overlord",
+  "Open or close the Mori++ Overlord window.": "Obre o tanca la finestra Overlord de Mori++.",
+  "Picking a vehicle type includes all its fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) — no need to pick each one separately.": "En triar un tipus de vehicle s'inclouen totes les seves variants de combustible (Gasoil, Bateria, Hidrogen, Gasoil sintètic) — no cal triar-les una per una.",
+  "Includes all fuel variants (Diesel, Battery, Hydrogen, Synthetic Diesel) of this vehicle.": "Inclou totes les variants de combustible (Gasoil, Bateria, Hidrogen, Gasoil sintètic) d'aquest vehicle.",
+  "Mass Vehicle Mover (Shift+M)": "Moviment massiu de vehicles (Shift+M)",
+  "Mass Recover (Shift+R)": "Recuperació massiva (Shift+R)",
+  "Cycle vehicle types (Alt+T)": "Canvia els tipus de vehicle (Alt+T)",
+  "Reset to all vehicle types (Alt+A)": "Restableix a tots els tipus de vehicle (Alt+A)",
+  "Utilities++": "Utilities++",
+  "Tools": "Eines",
+  "View/Layers": "Vista/Capes",
+  "Window": "Finestra",
+
+  "Keybinds": "Dreceres",
+  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Torneu a assignar les dreceres de Mori++ Suite. També es comproven les dreceres del propi joc, de manera que se us avisa si hi ha conflictes.",
+  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Feu clic a un camp i, tot seguit, premeu una combinació de tecles. El clic dret l'esborra. Esc ho cancel·la.",
+  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Els canvis s'apliquen a l'instant. Els altres mods s'actualitzen en pocs segons — no cal reiniciar.",
+  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Les tecles modificadores coincideixen amb moltes dreceres del joc de manera intencionada; només s'avisa quan hi ha conflicte amb una altra eina d'un mod.",
+  "Press a key…": "Premeu una tecla…",
+  "Conflicts with: {0}": "Genera conflictes amb: {0}",
+  "None": "Cap",
+  "Reset": "Restableix",
+  "Clear": "Elimina",
+  "Reset all to defaults": "Restableix-ho tot als valors per defecte",
+  "Tweaks++": "Tweaks++",
+  "Cheat++": "Cheat++",
+  "Gameplay++": "Gameplay++",
+  "Show one more belt/pipe level": "Mostra un nivell més de cinta/canonada",
+  "Hide one more belt/pipe level": "Amaga un nivell més de cinta/canonada",
+  "Show one more belt/pipe level from bottom": "Mostra un nivell més de cinta/canonada des de baix",
+  "Hide one more belt/pipe level from bottom": "Amaga un nivell més de cinta/canonada des de baix",
+  "Cycle Surplus Power modes": "Canvia entre els modes d'Energia excedent",
+  "Toggle efficiency overlay": "Commuta la superposició d'eficiència",
+  "Toggle the Tweaks++ window": "Commuta la finestra de Tweaks++",
+
+  "Efficiency": "Eficiència",
+  "Efficiency Overlay": "Superposició d'eficiència",
+  "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Unes etiquetes flotants sobre cada màquina mostren la seva eficiència de funcionament en temps real. Útil per detectar d'un cop d'ull edificis desproveïts, blocats o amb poca energia.",
+  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Colors: verd = funcionant al 75-100%, groc = 50-74%, taronja = 1-49%, vermell = aturat (sense entrada / sortida plena / sense energia / trencat), gris = en pausa.",
+  "Show machine efficiency overlay": "Mostra la superposició d'eficiència de les màquines",
+  "Toggle the floating efficiency labels above every machine in the world.": "Commuta les etiquetes flotants d'eficiència sobre cada màquina del món.",
+  "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Drecera: Ctrl+E activa o desactiva la superposició d'eficiència.",
+  "Efficiency: ON": "Eficiència: ACTIVADA",
+  "Efficiency: OFF": "Eficiència: DESACTIVADA",
+  "Background transparency": "Transparència del fons",
+  "Number size": "Mida del número",
+  "Background size": "Mida del fons",
+
+  "Default colors: green = running well, amber = slowing down, red = stalled, gray = paused. Customize any state's color below.": "Colors per defecte: verd = funcionant bé, ambre = alentint-se, vermell = aturat, gris = en pausa. Personalitzeu el color de qualsevol estat a continuació.",
+  "State label colors": "Colors de les etiquetes d'estat",
+  "Click a state, then pick a color below. Defaults match the original color scheme.": "Feu clic a un estat i, tot seguit, trieu un color a continuació. Els valors per defecte coincideixen amb l'esquema de colors original.",
+  "Editing: {0}": "Editant: {0}",
+  "Reset all colors to default": "Restableix tots els colors als valors per defecte",
+  "Reset every state's label color back to its default.": "Restableix el color de l'etiqueta de cada estat al seu valor per defecte.",
+  "Running 75-100%": "Funcionant al 75-100%",
+  "Running 50-74%": "Funcionant al 50-74%",
+  "Running 1-49%": "Funcionant a l'1-49%",
+  "Running below 1%": "Funcionant per sota de l'1%",
+  "Output full": "Sortida plena",
+  "No input": "Sense entrada",
+  "No power": "Sense energia",
+  "No computing": "Sense computació",
+  "No workers": "Sense treballadors",
+  "Broken": "Trencat",
+  "Paused / off": "En pausa / aturat",
+
+
+  "Belts/Pipes": "Cintes/Canonades",
+
+  "Coming Soon": "Properament",
+
+  "More utilities coming in future updates.": "Més utilitats properament en futures actualitzacions.",
+
+  "Surplus Power": "Energia excedent",
+
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Sobreescriu la configuració d'energia excedent de tots els edificis aplicables en col·locar un plànol o enganxar una còpia. «Per defecte» deixa la configuració desada de cada edifici tal com és.",
+
+  "Hotkey: Ctrl+S cycles between modes.": "Drecera: Ctrl+S canvia entre els modes.",
+
+  "Default": "Per defecte",
+
+  "Surplus ON": "Excedent ACTIVAT",
+
+  "Surplus OFF": "Excedent DESACTIVAT",
+
+  "Keep each building's saved surplus setting from the blueprint.": "Mantén la configuració d'excedent desada de cada edifici del plànol.",
+
+  "Force every applicable building to consume only when there is surplus power.": "Obliga tots els edificis aplicables a consumir només quan hi ha energia excedent.",
+
+  "Force every applicable building to consume power normally (not surplus-only).": "Obliga tots els edificis aplicables a consumir energia amb normalitat (no només l'excedent).",
+
+  "Surplus Power: Default": "Energia excedent: Per defecte",
+  "Surplus Power: ON": "Energia excedent: ACTIVADA",
+  "Surplus Power: OFF": "Energia excedent: DESACTIVADA",
+
+  "Toggle levels to show or hide belts and pipes at each height.": "Commuta els nivells per mostrar o amagar cintes i canonades a cada alçada.",
+
+  "Hotkeys: PageUp shows one more level, PageDown hides one more level.": "Dreceres: PageUp mostra un nivell més, PageDown n'amaga un.",
+  "Hotkeys: Ctrl+PageUp shows one more level, Ctrl+PageDown hides one more level.": "Dreceres: Ctrl+PageUp mostra un nivell més, Ctrl+PageDown n'amaga un.",
+  "Hotkeys: Shift+PageUp shows one more level from the bottom, Shift+PageDown hides one more level from the bottom.": "Dreceres: Shift+PageUp mostra un nivell més des de baix, Shift+PageDown n'amaga un des de baix.",
+  "Kayser's Blueprint Designer's Toolkit is loaded, so these hotkeys were moved to Ctrl+PageUp / Ctrl+PageDown to avoid clashing with its keybinds.": "El Kayser's Blueprint Designer's Toolkit està carregat, així que aquestes dreceres s'han mogut a Ctrl+PageUp / Ctrl+PageDown per evitar conflictes amb les seves dreceres.",
+
+  "Note: If you hide levels while placing belts or pipes, connection arrows from hidden levels will still show. Exit and re-enter build mode to refresh.": "Nota: si amagueu nivells mentre col·loqueu cintes o canonades, les fletxes de connexió dels nivells amagats es continuaran mostrant. Sortiu i torneu a entrar al mode de construcció per actualitzar-ho.",
+
+
+  "Level {0}": "Nivell {0}",
+
+  "Show All": "Mostra-ho tot",
+
+  "Hide All": "Amaga-ho tot",
+
+  "Show lifts, sorters & balancers": "Mostra muntacàrregues, classificadors i distribuïdors",
+
+  "Show Lifts": "Mostra els muntacàrregues",
+  "Show Sorters": "Mostra els classificadors",
+  "Show Balancers": "Mostra els distribuïdors",
+  "When unchecked, hides all Lifts regardless of height level — independent from the Level checkboxes above. Per-save.": "Si es desmarca, amaga tots els muntacàrregues independentment del nivell d'alçada — independent de les caselles de Nivell de dalt. Per partida.",
+  "When unchecked, hides all Sorters regardless of height level — independent from the Level checkboxes above. Per-save.": "Si es desmarca, amaga tots els classificadors independentment del nivell d'alçada — independent de les caselles de Nivell de dalt. Per partida.",
+  "When unchecked, hides all Balancers regardless of height level — independent from the Level checkboxes above. Per-save.": "Si es desmarca, amaga tots els distribuïdors independentment del nivell d'alçada — independent de les caselles de Nivell de dalt. Per partida.",
+
+  "Show buildings & trees": "Mostra edificis i arbres",
+
+  "Show Housing & Services": "Mostra l'habitatge i els serveis",
+
+  "Show All Trees": "Mostra tots els arbres",
+  "Show Offices": "Mostra les oficines",
+  "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "Si es desmarca, amaga tots els edificis d'oficina (Oficina I, II i III) perquè no bloquegin la vista de la fàbrica. Reversible. Per partida.",
+
+  "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "Si es desmarca, amaga tot l'habitatge (tots els nivells) i tota la pestanya d'Habitatge i serveis — mercats d'aliments, mòduls, aigua, transformador, residus, clínica, internet, plaça. Per partida.",
+
+  "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "Si es desmarca, amaga tots els arbres del mapa (silvestres i plantats) perquè no bloquegin la vista. Reversible, no afecta la collita. Per partida.",
+
+  "Close": "Tanca",
+
+  "Balancers": "Distribuïdors",
+
+  "Lifts": "Muntacàrregues",
+
+  "Vehicle Mover": "Moviment de vehicles",
+
+  "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Trieu un tipus de vehicle i arrossegueu per seleccionar vehicles al mapa; després, feu clic a una destinació per moure'ls.",
+
+  "Select vehicle type": "Tria el tipus de vehicle",
+
+  "All Types": "Tots els tipus",
+
+  "Mass Vehicle Mover": "Moviment massiu de vehicles",
+
+  "Mass Recover": "Recuperació massiva",
+
+  "Drag to select vehicles to recover...": "Arrossegueu per seleccionar vehicles a recuperar...",
+
+  "Recovered {0} vehicles": "S'han recuperat {0} vehicles",
+
+  "Closes this window. Drag a box on the world to recover every selected vehicle inside (sends them back to a depot). If no type is picked, recovers all vehicles in the box. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per recuperar tots els vehicles seleccionats que hi hagi dins (els envia de tornada a un dipòsit de vehicles). Si no s'ha triat cap tipus, es recuperen tots els vehicles del requadre. Premeu Esc per sortir.",
+
+  "Drag to select vehicles...": "Arrossegueu per seleccionar vehicles...",
+
+  "Click destination for {0} vehicles": "Feu clic a la destinació per a {0} vehicles",
+
+  "No vehicles found in selection": "No s'ha trobat cap vehicle a la selecció",
+
+  "Moved {0} vehicles": "S'han mogut {0} vehicles",
+
+  "Windows": "Finestres",
+
+  "Remember where you drag building windows so the position survives a save reload. Without this, the game resets every window to the center of the screen on load.": "Recorda on arrossegueu les finestres dels edificis perquè la posició es mantingui després de recarregar la partida. Sense això, el joc restableix totes les finestres al centre de la pantalla en carregar.",
+
+  "Saved per save game. Drag a building window once, save the game — next time you load the save it opens at the dragged position.": "Es desa per partida. Arrossegueu una finestra d'edifici un cop, deseu la partida — la propera vegada que la carregueu, s'obrirà a la posició on la vau deixar.",
+
+  "Remember window positions across save reload": "Recorda les posicions de les finestres en recarregar la partida",
+
+  "Positions saved: {0}": "Posicions desades: {0}",
+
+  "Clear all saved positions": "Elimina totes les posicions desades",
+
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Dissenyat per a constructors de plànols: editeu un món totalment en pausa sense que els camions o els fluids moguin productes durant l'edició.",
+  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quan està ACTIVAT, la col·locació i l'enderrocament es resolen al mateix fotograma, fins i tot amb el joc en pausa. No es cobren materials. Desactiva forçosament la 'Construcció instantània' de Cheat++ (aquest interruptor la substitueix). Per partida.",
+  "Insta-place & insta-remove (works even when paused)": "Col·locació i eliminació instantànies (funciona fins i tot en pausa)",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quan està ACTIVAT, la col·locació i l'enderrocament es completen al mateix fotograma fins i tot amb el joc en pausa — dissenyat per a constructors de plànols que editen un món congelat. També desactiva forçosament la 'Construcció instantània' de Cheat++ (aquest interruptor la substitueix). Per partida.",
+
+  "Drag tools": "Eines d'arrossegament",
+  "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Feu clic a un botó per tancar aquesta finestra i començar a seleccionar per arrossegament. Deixeu anar un requadre sobre qualsevol grup d'edificis per millorar-los o rebaixar-los un nivell a l'instant, sense cost de materials. L'eina es manté activa entre arrossegaments — premeu Esc per sortir.",
+  "Drag Upgrade": "Millora per arrossegament",
+  "Drag Downgrade": "Rebaixa per arrossegament",
+  "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per millorar a l'instant un nivell tots els edificis que hi hagi dins (gratuït). Les cintes i les canonades també funcionen. Premeu Esc per sortir.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per rebaixar a l'instant un nivell tots els edificis que hi hagi dins (gratuït). Els edificis marcats com a 'no es pot rebaixar' s'ometen. Premeu Esc per sortir.",
+  "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Millora per arrossegament — arrossegueu un requadre per millorar els edificis que hi hagi dins. Premeu Esc per sortir.",
+  "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Rebaixa per arrossegament — arrossegueu un requadre per rebaixar els edificis que hi hagi dins. Premeu Esc per sortir.",
+  "Upgraded {0} buildings": "S'han millorat {0} edificis",
+  "Downgraded {0} buildings": "S'han rebaixat {0} edificis",
+
+  "Cleanup": "Neteja",
+  "Sweep up disconnected belt/pipe leftovers — segments connected on fewer than 2 ends (dead-end stubs and floating pieces). Fully-connected runs are never touched.": "Elimina les restes de cintes/canonades desconnectades — segments connectats per menys de 2 extrems (trossos sense sortida i peces flotants). Els trams totalment connectats no es toquen mai.",
+  "Belt/Pipe Cleanup": "Neteja de cintes/canonades",
+  "Closes this window. Drag a box on the world to delete disconnected belt/pipe stubs inside it (segments connected on fewer than 2 ends). Fully-connected runs are left alone. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per eliminar els trossos de cinta/canonada desconnectats que hi hagi dins (segments connectats per menys de 2 extrems). Els trams totalment connectats es deixen tal com són. Premeu Esc per sortir.",
+  "Belt/Pipe Cleanup — drag a box to delete disconnected belt/pipe stubs inside. Press Esc to exit.": "Neteja de cintes/canonades — arrossegueu un requadre per eliminar els trossos de cinta/canonada desconnectats que hi hagi dins. Premeu Esc per sortir.",
+  "Removed {0} belts/pipes": "S'han eliminat {0} cintes/canonades",
+  "Show or hide the live efficiency status label above each machine.": "Mostra o amaga l'etiqueta d'estat d'eficiència en temps real sobre cada màquina.",
+  "Cycle through the Surplus Power modes.": "Canvia entre els modes d'Energia excedent.",
+  "Reveal one more belt/pipe elevation level in the height filter.": "Mostra un nivell d'alçada més de cinta/canonada al filtre d'alçada.",
+  "Hide the topmost belt/pipe elevation level in the height filter.": "Amaga el nivell d'alçada més alt de cinta/canonada al filtre d'alçada.",
+  "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Mostra un nivell d'alçada més de cinta/canonada al filtre d'alçada, començant per baix en lloc de per dalt.",
+  "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Amaga el nivell d'alçada més baix de cinta/canonada al filtre d'alçada, en lloc del més alt.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Feu servir el Kayser's Blueprint Designer's Toolkit. Li vaig donar les meves eines perquè les millorés, i el seu mod té moltes més funcions interessants per a plànols, així que feu servir el seu mod en lloc d'aquest. Tot això es desactiva permanentment mentre el BDT estigui carregat.",
+  "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Obre la configuració de Mori++ Suite. Drecera per a obrir-la: Alt + W",
+  "Cancel Deconstruction": "Cancel·la la desconstrucció",
+  "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Heu marcat sense voler tota una zona per enderrocar? Arrossegueu un requadre sobre l'àrea per cancel·lar totes les desconstruccions pendents que hi hagi dins — els edificis, les cintes i les canonades es queden on són.",
+  "Hotkey: Shift+Alt+D": "Drecera: Shift+Alt+D",
+  "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per cancel·lar la desconstrucció de tot el que hi hagi dins, exactament igual que si féssiu clic al botó de cancel·lar de cadascun. No s'enderroca res ni es retorna res — simplement es cancel·la l'ordre de treball. El que ja s'hagi enderrocat del tot no es pot recuperar. L'eina es manté activa entre arrossegaments — premeu Esc per sortir.",
+  "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "Cancel·la la desconstrucció — arrossegueu un requadre per cancel·lar la desconstrucció que hi hagi dins. Premeu Esc per sortir.",
+  "Cancelled deconstruction of {0}": "S'ha cancel·lat la desconstrucció de {0}",
+  "Start the drag tool that cancels deconstruction on everything inside the box.": "Inicia l'eina d'arrossegament que cancel·la la desconstrucció de tot el que hi hagi dins el requadre.",
+  "Overlord": "Overlord",
+  "Save": "Desa",
+  "Load": "Carrega",
+  "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Desa tota la configuració d'aquest mod (totes les pestanyes d'aquesta finestra) en un perfil que podreu tornar a carregar en altres partides.",
+  "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Carrega un perfil desat i restaura tota la configuració d'aquest mod (totes les pestanyes d'aquesta finestra).",
+  "FULL": "PLE",
+  "NO IN": "NO ENTR",
+  "NO PWR": "NO ENER",
+  "NO CPU": "NO CPU",
+  "NO WRK": "NO TREB",
+  "BROKEN": "TRENCAT",
+  "OFF": "ATURAT",
+  "Utilities++ profile saved.": "S'ha desat el perfil d'Utilities++.",
+  "Utilities++ profile loaded.": "S'ha carregat el perfil d'Utilities++."
+}
