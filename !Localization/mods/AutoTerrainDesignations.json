@@ -657,7 +657,7 @@
     ],
     [
         "panel.farming.truck_idle_policy.park_at_tower",
-        "Возвращаться"
+        "Возвращать"
     ],
     [
         "panel.farming.truck_idle_policy.park_at_tower.tooltip",
@@ -717,19 +717,19 @@
     ],
     [
         "notification.ramp_access_failed",
-        "[ATD] «{entity}» не смогла начать строительство подъездных путей"
+        "[ATD] <color=#FFCE56>«{entity}»</color> не удалось начать строительство подъездных путей."
     ],
     [
         "notification.ramp_access_truncated",
-        "[ATD] «{entity}» не смогла полностью разместить подъездные пути"
+        "[ATD] <color=#FFCE56>«{entity}»</color> не удалось полностью разместить подъездные пути."
     ],
     [
         "notification.ramp_access_not_accessible",
-        "[ATD] «{entity}» не удалось проложить путь к подъездным путям."
+        "[ATD] <color=#FFCE56>«{entity}»</color> не удалось проложить путь к подъездным путям."
     ],
     [
         "notification.farming_complete",
-        "[ATD] «{entity}» завершил подготовку и засыпку полей для посевов."
+        "[ATD] <color=#FFCE56>«{entity}»</color> завершил подготовку и засыпку полей для посевов."
     ],
     [
         "notification.excavator_completed",
@@ -737,19 +737,19 @@
     ],
     [
         "notification.debris_cleanup_none_found",
-        "[ATD] «{entity}» не обнаружил мусора для расчистки"
+        "[ATD] <color=#FFCE56>«{entity}»</color> не обнаружил мусора для расчистки"
     ],
     [
         "notification.debris_cleanup_none_reachable",
-        "[ATD] «{entity}» не обнаружил доступного мусора для расчистки. Удерживая клавишу «Ctrl», щёлкните, чтобы включить расчистку недоступного мусора."
+        "[ATD] <color=#FFCE56>«{entity}»</color> не обнаружил доступного мусора для расчистки. Удерживая клавишу «Ctrl», щёлкните, чтобы включить расчистку недоступного мусора."
     ],
     [
         "vehicle_order.confirm.singular",
-        "Поставить «{0}» в очередь на «{1}»? Получатель — «{2}»"
+        "Поставить «{0}» в очередь на <color=#FFCE56>«{1}»</color>? Получатель — <color=#FFCE56>«{2}»</color>"
     ],
     [
         "vehicle_order.confirm.plural",
-        "Поставить в очередь {0} единиц техники типа «{1}» в «{2}»? Получатель — «{3}»"
+        "Поставить в очередь {0} единиц техники типа <color=#FFCE56>«{1}»</color> в <color=#FFCE56>«{2}»</color>? Получатель — <color=#FFCE56>«{3}»</color>"
     ],
     [
         "vehicle_order.confirm.button",
@@ -757,14 +757,14 @@
     ],
     [
         "vehicle_order.zoom.tooltip",
-        "Приблизить камеру на «{0}»"
+        "Приблизить камеру на <color=#FFCE56>«{0}»</color>"
     ],
     [
         "vehicle_order.preassigned.tooltip",
-        "<align=\"center\">Предварительно назначено для:<br>«{0}»</align>"
+        "<align=\"center\">Предварительно назначено для:<br><color=#FFCE56>«{0}»</color></align>"
     ],
     [
         "vehicle_order.shortcut.tooltip",
-        "Щёлкните, удерживая клавиши «Shift+Alt», чтобы отправить заказ на новый «{0}» в «{1}». Получатель — «{2}»"
+        "Щёлкните, удерживая клавиши «Shift+Alt», чтобы отправить заказ на новый <color=#FFCE56>«{0}»</color> в <color=#FFCE56>«{1}»</color>. Получатель — <color=#FFCE56>«{2}»</color>"
     ]
 ]
