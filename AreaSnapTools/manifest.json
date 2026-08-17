@@ -1,7 +1,7 @@
 ﻿{
 	"id": "AreaSnapTools",
 	"display_name": "Area Snap Tool",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"primary_dlls": ["0Harmony.dll", "AreaSnapTools.dll" ],
 	"min_game_version": "0.8.5",
 	"max_verified_game_version": "0.8.7",
