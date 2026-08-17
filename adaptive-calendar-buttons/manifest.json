@@ -1,0 +1,21 @@
+{
+  "id": "adaptive-calendar-buttons",
+  "version": "1.0.6",
+  "display_name": "Adaptive Calendar Buttons",
+  "description_short": "Customize top right game-speed & mod buttons in the calendar HUD. Per-button Hover visibility & Icon Color Pickers. Compatible .w Tweaks/Speed++",
+  "description_long": "Adaptive Calendar Buttons organizes native and mod-added calendar buttons while preserving their original actions and metadata. Configure two independent button views, switch them on click or hover, recolor individual icons, and retain one global layout across every world and game session.",
+  "authors": [
+    "xTMagTx"
+  ],
+  "min_game_version": "0.8.6c",
+  "max_verified_game_version": "0.8.7a",
+  "primary_dlls": [
+    "SexyCalendar.dll"
+  ],
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "SexyCalendarMod"
+}
