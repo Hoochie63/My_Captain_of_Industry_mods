@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Mostrar no mínimo uma linha visível.",
   "Show fewer rows.": "Mostrar menos linhas.",
   "Show more rows.": "Mostrar mais linhas.",
-  "Show the maximum of eight visible rows.": "Mostrar no máximo oito linhas visíveis."
+  "Show the maximum of eight visible rows.": "Mostrar no máximo oito linhas visíveis.",
+  "Default": "Padrão",
+  "Sections opened by default": "Seções abertas por padrão",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "As seções marcadas abrem ao posicionar uma nova torre de mineração. As torres existentes permanecem inalteradas."
 }

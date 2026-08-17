@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Visa minst en synlig rad.",
   "Show fewer rows.": "Visa färre rader.",
   "Show more rows.": "Visa fler rader.",
-  "Show the maximum of eight visible rows.": "Visa högst åtta synliga rader."
+  "Show the maximum of eight visible rows.": "Visa högst åtta synliga rader.",
+  "Default": "Standard",
+  "Sections opened by default": "Sektioner öppna som standard",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Markerade sektioner öppnas när ett nytt gruvtorn placeras. Befintliga torn förblir oförändrade."
 }

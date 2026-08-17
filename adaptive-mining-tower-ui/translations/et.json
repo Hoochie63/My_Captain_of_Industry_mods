@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Kuva vähemalt üks nähtav rida.",
   "Show fewer rows.": "Kuva vähem ridu.",
   "Show more rows.": "Kuva rohkem ridu.",
-  "Show the maximum of eight visible rows.": "Kuva kuni kaheksa nähtavat rida."
+  "Show the maximum of eight visible rows.": "Kuva kuni kaheksa nähtavat rida.",
+  "Default": "Vaikimisi",
+  "Sections opened by default": "Vaikimisi avatud jaotised",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Märgitud jaotised avanevad uue kaevandustorni paigaldamisel. Olemasolevad tornid ei muutu."
 }

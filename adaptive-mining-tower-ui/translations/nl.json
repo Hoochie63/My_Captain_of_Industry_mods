@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Minimaal één zichtbare rij tonen.",
   "Show fewer rows.": "Minder rijen tonen.",
   "Show more rows.": "Meer rijen tonen.",
-  "Show the maximum of eight visible rows.": "Maximaal acht zichtbare rijen tonen."
+  "Show the maximum of eight visible rows.": "Maximaal acht zichtbare rijen tonen.",
+  "Default": "Standaard",
+  "Sections opened by default": "Standaard geopende secties",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Aangevinkte secties worden geopend wanneer een nieuwe mijntoren wordt geplaatst. Bestaande torens blijven ongewijzigd."
 }

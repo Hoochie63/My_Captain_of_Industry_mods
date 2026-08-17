@@ -1,5 +1,16 @@
+v1.0.8 | 2026-08-15
+* Adds a translated explanation to the Default tab for settings that apply to newly placed Mining Towers.
+
+v1.0.7 | 2026-08-14
+* Adds a Default tab for choosing which sections start open on newly placed Mining Towers.
+* Keeps existing per-tower collapsed states authoritative after a tower is placed.
+* Uses Auto Terrain Designations' live localized section names when that mod is installed.
+* Uses the Mining Tower's live localized section titles for the four vanilla default-state settings.
+* Adds horizontal resizing to the settings window from its native width up to 130%.
+* Verifies compatibility with Captain of Industry 0.8.7a.
+
 v1.0.6 | 2026-08-12
-* If Automatic Terrain Designations is installed, using collapse-all button will now properly save the collapsed state of it's three sections, without needing to click them individually.
+* If Automatic Terrain Designations is installed, using collapse-all button will now properly saves the collapsed state of it's three sections, without needing to click them individually.
 
 v1.0.5 | 2026-08-09
 * Verifies compatibility with Captain of Industry 0.8.7.

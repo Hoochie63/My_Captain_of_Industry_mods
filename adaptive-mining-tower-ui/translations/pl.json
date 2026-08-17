@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Pokaż co najmniej jeden widoczny rząd.",
   "Show fewer rows.": "Pokaż mniej rzędów.",
   "Show more rows.": "Pokaż więcej rzędów.",
-  "Show the maximum of eight visible rows.": "Pokaż maksymalnie osiem widocznych rzędów."
+  "Show the maximum of eight visible rows.": "Pokaż maksymalnie osiem widocznych rzędów.",
+  "Default": "Domyślne",
+  "Sections opened by default": "Sekcje otwarte domyślnie",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Zaznaczone sekcje otwierają się po postawieniu nowej wieży górniczej. Istniejące wieże pozostają bez zmian."
 }

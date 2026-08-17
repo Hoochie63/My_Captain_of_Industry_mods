@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Показати щонайменше один видимий ряд.",
   "Show fewer rows.": "Показати менше рядів.",
   "Show more rows.": "Показати більше рядів.",
-  "Show the maximum of eight visible rows.": "Показати щонайбільше вісім видимих рядів."
+  "Show the maximum of eight visible rows.": "Показати щонайбільше вісім видимих рядів.",
+  "Default": "За замовчуванням",
+  "Sections opened by default": "Розділи, відкриті за замовчуванням",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Позначені розділи відкриваються під час розміщення нової диспетчерської вежі. Існуючі вежі не змінюються."
 }

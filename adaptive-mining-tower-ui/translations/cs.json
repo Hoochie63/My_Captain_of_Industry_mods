@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Zobrazit minimálně jeden řádek.",
   "Show fewer rows.": "Zobrazit méně řádků.",
   "Show more rows.": "Zobrazit více řádků.",
-  "Show the maximum of eight visible rows.": "Zobrazit maximálně osm řádků."
+  "Show the maximum of eight visible rows.": "Zobrazit maximálně osm řádků.",
+  "Default": "Výchozí",
+  "Sections opened by default": "Výchozí otevřené sekce",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Zaškrtnuté sekce se otevřou při umístění nové těžební věže. Stávající věže se nezmění."
 }

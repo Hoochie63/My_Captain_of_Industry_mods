@@ -33,10 +33,23 @@ COLLAPSE CONTROLS
 - Each tower remembers its collapsed sections.
 - Collapse-all also saves Auto Terrain Designations section states when installed.
 
+NEW TOWER DEFAULTS
+------------------
+
+- Choose which sections start open on newly placed Mining Towers.
+- Existing towers retain their individual collapsed-section states.
+- Auto Terrain Designations sections appear when that mod is installed.
+- Section names use their live localized text.
+
+SETTINGS WINDOW
+---------------
+
+- Resize the settings window horizontally from its native width up to 130%.
+
 COMPATIBILITY
 -------------
 
-- Verified for Captain of Industry 0.8.7.
+- Verified for Captain of Industry 0.8.7a.
 - Supports compatible vanilla and modded vehicles.
 - Works with Gameplay++ and Auto Terrain Designations.
 - Keeps native localized names unchanged.

@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "显示最少一行。",
   "Show fewer rows.": "减少显示行数。",
   "Show more rows.": "增加显示行数。",
-  "Show the maximum of eight visible rows.": "显示最多八行。"
+  "Show the maximum of eight visible rows.": "显示最多八行。",
+  "Default": "默认",
+  "Sections opened by default": "默认打开的分区",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "放置新的采矿塔时，已勾选的分区将会打开。现有采矿塔不会改变。"
 }

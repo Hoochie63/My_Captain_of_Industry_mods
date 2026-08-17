@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "최소 한 행을 표시합니다.",
   "Show fewer rows.": "표시 행을 줄입니다.",
   "Show more rows.": "표시 행을 늘립니다.",
-  "Show the maximum of eight visible rows.": "최대 여덟 행을 표시합니다."
+  "Show the maximum of eight visible rows.": "최대 여덟 행을 표시합니다.",
+  "Default": "기본값",
+  "Sections opened by default": "기본으로 열리는 섹션",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "체크한 섹션은 새 채굴 타워를 배치할 때 열립니다. 기존 타워는 변경되지 않습니다."
 }

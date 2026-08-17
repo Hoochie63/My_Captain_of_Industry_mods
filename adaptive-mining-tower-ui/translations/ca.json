@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Mostra el mínim d'una fila visible.",
   "Show fewer rows.": "Mostra menys files.",
   "Show more rows.": "Mostra més files.",
-  "Show the maximum of eight visible rows.": "Mostra el màxim de vuit files visibles."
+  "Show the maximum of eight visible rows.": "Mostra el màxim de vuit files visibles.",
+  "Default": "Per defecte",
+  "Sections opened by default": "Seccions obertes per defecte",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Les seccions marcades s'obren en col·locar una torre minera nova. Les torres existents no canvien."
 }

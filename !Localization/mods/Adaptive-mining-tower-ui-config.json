@@ -27,6 +27,34 @@
         "min": 1,
         "max": 8
     },
+    "default_atd_mining_section_open": {
+        "default": false,
+        "description": "Определяет, будет ли раздел разметки добычи «ATD» развёрнут на новых «Диспетчерских вышках»."
+    },
+    "default_atd_ore_section_open": {
+        "default": false,
+        "description": "Определяет, будет ли раздел состава руды «ATD» развёрнут на новых «Диспетчерских вышках»."
+    },
+    "default_atd_farming_section_open": {
+        "default": false,
+        "description": "Определяет, будет ли раздел подготовки полей «ATD» развёрнут на новых «Диспетчерских вышках»."
+    },
+    "default_excavator_section_open": {
+        "default": true,
+        "description": "Определяет, будет ли раздел экскаваторов развёрнут на новых «Диспетчерских вышках»."
+    },
+    "default_vehicle_section_open": {
+        "default": true,
+        "description": "Определяет, будет ли раздел грузовиков развёрнут на новых «Диспетчерских вышках»."
+    },
+    "default_material_section_open": {
+        "default": false,
+        "description": "Определяет, будет ли раздел материалов и отвалов развёрнут на новых «Диспетчерских вышках»."
+    },
+    "default_route_section_open": {
+        "default": false,
+        "description": "Определяет, будет ли раздел доставки и отправки развёрнут на новых «Диспетчерских вышках»."
+    },
     "auto_hide_unowned_excavators": {
         "default": false,
         "description": "Автоматически скрывать варианты экскаваторов, которых в данный момент нет в мире."

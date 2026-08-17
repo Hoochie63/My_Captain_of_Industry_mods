@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "表示行数を最小の1行にします。",
   "Show fewer rows.": "表示行数を減らします。",
   "Show more rows.": "表示行数を増やします。",
-  "Show the maximum of eight visible rows.": "表示行数を最大の8行にします。"
+  "Show the maximum of eight visible rows.": "表示行数を最大の8行にします。",
+  "Default": "既定",
+  "Sections opened by default": "デフォルトで開くセクション",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "チェックしたセクションは、新しい採掘タワーを設置したときに開きます。既存のタワーは変更されません。"
 }

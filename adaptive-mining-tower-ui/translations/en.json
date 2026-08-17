@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "Show the minimum of one visible row.",
   "Show fewer rows.": "Show fewer rows.",
   "Show more rows.": "Show more rows.",
-  "Show the maximum of eight visible rows.": "Show the maximum of eight visible rows."
+  "Show the maximum of eight visible rows.": "Show the maximum of eight visible rows.",
+  "Default": "Default",
+  "Sections opened by default": "Sections opened by default",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Checked sections open when placing a new Mining Tower. Existing towers are unchanged."
 }

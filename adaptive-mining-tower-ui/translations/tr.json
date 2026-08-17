@@ -17,5 +17,8 @@
   "Show the minimum of one visible row.": "En az bir görünür satır göster.",
   "Show fewer rows.": "Daha az satır göster.",
   "Show more rows.": "Daha fazla satır göster.",
-  "Show the maximum of eight visible rows.": "En fazla sekiz görünür satır göster."
+  "Show the maximum of eight visible rows.": "En fazla sekiz görünür satır göster.",
+  "Default": "Varsayılan",
+  "Sections opened by default": "Varsayılan olarak açık bölümler",
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "İşaretli bölümler yeni bir maden kulesi yerleştirildiğinde açılır. Mevcut kuleler değişmez."
 }

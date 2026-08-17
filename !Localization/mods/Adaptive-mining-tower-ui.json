@@ -17,5 +17,8 @@
     "Show the minimum of one visible row.": "Показать минимум: 1 ряд.",
     "Show fewer rows.": "Показать меньше рядов.",
     "Show more rows.": "Показать больше рядов.",
-    "Show the maximum of eight visible rows.": "Показать максимум: 8 рядов."
+    "Show the maximum of eight visible rows.": "Показать максимум: 8 рядов.",
+    "Default": "По умолчанию",
+    "Sections opened by default": "Разделы, свёрнутые по умолчанию",
+    "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Выбрать разделы, которые останутся развёрнутыми при размещении новой диспетчерской вышки. Существующие вышки не изменяются."
 }
