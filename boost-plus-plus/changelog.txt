@@ -1,3 +1,93 @@
+v1.2.5 | 2026-08-15
+* The Overlord window now always shows at 100% size, whatever UI scale you play at (thanks warrenc for the report). At 125% and higher the buttons at the bottom were cut off the screen and everything needed far more scrolling.
+
+* The Computing Cost Scaling sliders no longer jump back to their default value after loading a save when set to 0 (thanks warrenc for the report).
+
+v1.2.4 | 2026-08-14
+* Boosted connectors are no longer stuck at 1800 per minute — at 260% boost they now move up to 5400, and even more with higher boost unlocked.
+
+* Boosted lifts are no longer stuck at 1800 per minute either — they now keep up with the boosted belts feeding them.
+
+* Belt, pipe, connector, balancer, sorter and lift windows now show a live throughput readout that updates while the window is open.
+
+* Added two new sliders to the group color picker: S controlls saturation, and A controls how see-through the highlight is.
+
+* The "+X% inventory" text on belt windows is now "+X% capacity", and hovering it now explains what it does.
+
+* Group highlighting is now drawn by the mods custom version itself instead of the game's built-in one, so a selected group is far easier to pick out.
+
+  - Machines are colored over their whole shape, instead of only getting a thin outline that was easy to miss.
+
+  - Belts and pipes are covered along their full length, including the items riding on them.
+
+  - Dark colors now show up properly — a dark green group looks dark green instead of turning bright or invisible almost.
+
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
+v1.2.3 | 2026-08-12
+* Now supports game version 0.8.7a.
+
+* The Overlord window is now the same size on every tab, so it no longer jumps in size when you switch between boost and the other mod tab.
+
+* Copying a boosted belt or pipe now keeps its boost — the new belt you place comes out at the same speed instead of dropping back to 100%. Belts and pipes
+  copied as part of an area selection or a blueprint keep their boost too. (thanks Denis for mentioning this)
+
+  - If you connect it to a belt or pipe running at a different speed, the two become one belt and the whole connected run goes back to the default 100%. Set
+    the speed again afterwards if you want the finished run boosted.
+
+* The Boost Manager has had a full visual revamp. It now uses the same look as the rest of the game and the other Mori++ windows, with proper tabs, clear
+  section headings and dividing lines between each part, and more room to breathe. Everything used to sit crammed together in one block, which made it hard
+  to read at a glance — the group list, group details, production rate and member list are now clearly separated.
+
+* You can now pick any color you like for a group, instead of only the twelve preset ones. The Color button is now a palette icon — click it and you get the
+  presets as before, plus red, green and blue sliders with a live preview of the color you are mixing. Drag a slider or click its number and type a value,
+  then press Apply changes.
+
+  - The color you choose is used both for the group's highlight in the world and for the group in the Boost Manager.
+
+* New Statistics button next to a group's production rate. It opens a window listing every product the group takes in and everything it makes, so you can
+  see at a glance which single item is holding the whole group back instead of guessing from the bar.
+
+  - Each line shows the normal speed rate (what the group would do with no boost), what it is actually managing right now, and the difference as a
+    percentage. The difference goes plus when boost puts the group ahead and minus when it falls behind, and is colored green, amber or red.
+
+  - All rates are per month and update live while the window is open.
+
+* Deleting a group now asks you to confirm first. Clicking Delete Group opens a small box showing the group's name with
+  Yes and No buttons, so one stray click can no longer wipe a group you spent time filling.
+
+* The selected group in the list now has a gold border around it as well as the green highlight, so it is obvious at a
+  glance which group you are looking at.
+
+* The buttons at the bottom of the Settings tab (Save Settings, Reset all to Default, Backup Settings, Restore Settings)
+  now sit in their own block that is always on screen.
+
+* The red reminder at the top of the Settings tab now spans the whole window and wraps onto more lines, so longer
+  translations are no longer cut off.
+
+* The selected Belts / Pipes / Sorters filter buttons are now marked with a yellow border around the whole button
+  instead of a thin line under the text, so it is easier to see which types you have picked.
+
+* Fixed wrong text on the group lock button and its tooltip in two languages.
+
+  - Russian showed a padlock symbol instead of words, and the two symbols were swapped, so a locked group looked
+    unlocked and an unlocked one looked locked. It now reads Заблокирована / Разблокирована.
+
+  - The Ukrainian tooltip told you to unlock the group, when it should say to lock a group once you have finished
+    filling it.
+
+* Huge thanks to Hoochie for the suggestions that led to the interface changes above.
+
 v1.2.2 | 2026-08-07
 * Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
 * New "Auto Boost" checkmark in a building's Boost++ panel. When ticked, the building sets its own boost speed based on how full your global storage of the
