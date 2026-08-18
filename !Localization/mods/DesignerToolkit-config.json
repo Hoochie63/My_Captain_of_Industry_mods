@@ -1,7 +1,7 @@
 {
     "startNewGamePaused": {
         "default": true,
-        "description": "При запуске новой игры автоматически ставить симуляцию на паузу на 0 тике."
+        "description": "При запуске новой игры автоматически ставить симуляцию на паузу, на 0 тике."
     },
     "saveGameOnFirstDayAs": {
         "default": "Initial",
@@ -10,7 +10,7 @@
     "blueprint_spacing": {
         "default": 6,
         "is_integer": true,
-        "description": "Исходный параметр расстояния между чертежами [0–12] для массовой вставки.",
+        "description": "Исходный параметр расстояния между чертежами для массовой вставки. Доступный диапазон: от 0 до 12.",
         "min": 0,
         "max": 12
     },
@@ -79,10 +79,14 @@
         "default": false,
         "description": "Исходное состояние видимости свечения загрязнения."
     },
+    "pollution_glow_color": {
+        "default": "white",
+        "description": "Начальный цвет свечения тепловой карты загрязнения. Используйте white (белый), brown (коричневый), purple (фиолетовый) или формат #RRGGBB."
+    },
     "pollution_days_to_average": {
         "default": 360,
         "is_integer": true,
-        "description": "Исходное число дней для усреднения загрязнения (0-360, 0 отключает сбор данных)."
+        "description": "Исходное число дней для усреднения загрязнения. Доступный диапазон: от 0 до 360. 0 отключает сбор данных."
     },
     "pollution_show_air": {
         "default": true,
@@ -100,6 +104,10 @@
         "default": true,
         "description": "Исходное состояние отображения загрязнения от кораблей."
     },
+    "pollution_show_solid_waste": {
+        "default": true,
+        "description": "Исходное состояние отображения загрязнения от твёрдых отходов."
+    },
     "radiation_overlay_enabled": {
         "default": false,
         "description": "Исходное состояние видимости наложения радиации. При включении отобранные опасные радиоактивные материалы будут отображаться в мире."
@@ -111,7 +119,7 @@
     "radiation_days_to_average": {
         "default": 30,
         "is_integer": true,
-        "description": "Исходное количество дней для усреднения радиации (0–360, 0 - отключает сбор данных)."
+        "description": "Исходное количество дней для усреднения радиации. Доступный диапазон: от 0 до 360. 0 отключает сбор данных."
     },
     "dtkSettingsStateJson": {
         "default": "{\"schemaVersion\":1}",
@@ -124,6 +132,14 @@
     "bdtThroughputConfigStateJson": {
         "default": "{\"schemaVersion\":1}",
         "description": "Внутреннее состояние конфигураций пропускной способности «Designer Toolkit» для конкретного сохранения. Редактирование может сбросить сохранённые конфигурации пропускной способности «BDT»."
+    },
+    "bdtTransportRemovalOrdersStateJson": {
+        "default": "{\"schemaVersion\":1,\"orders\":[]}",
+        "description": "Внутреннее состояние заказов на удаление продуктов с транспортёров для «Designer Toolkit» в сохранении. Редактирование может сбросить активные заказы на удаление."
+    },
+    "bdtLegacyStackerFullAlertStateJson": {
+        "default": "{\"schemaVersion\":1,\"disabledEntityIds\":[]}",
+        "description": "Внутреннее состояние уведомлений о заполнении отвалообразователей (устаревшее) для «Designer Toolkit» в сохранении. Редактирование может сбросить настройки уведомлений для отвалообразователей."
     },
     "last_blueprint_folder": {
         "default": "",
