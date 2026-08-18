@@ -1,0 +1,120 @@
+Truck Parking – Änderungsverlauf
+================================
+
+Version 1.3.3
+-------------
+
+- Regression bei Tankwagen behoben: Native Rückfahrten zur Tankstelle werden
+  nicht mehr als ersetzbare Leerlauffahrten behandelt oder zugunsten eines
+  Parkplatzes abgebrochen.
+- Teilbeladene Tankwagen bleiben für das native Nachladen reserviert. Leere
+  Tankwagen dürfen nur bei deaktivierter oder treibstoffloser Station parken;
+  voll beladene Tankwagen mit passendem Treibstoff weiterhin jederzeit.
+- Parkfahrten verwenden nun einen eigenen selektiv unterbrechbaren Job. Echte
+  Tank-, Transfer- und Arbeitsaufträge bleiben vollständig erhalten und
+  rücken sofort nach, statt zusammen mit dem Parkjob gelöscht zu werden.
+- Kompatibilitätsbereich anhand der unveränderten nativen Tankstellenpfade und
+  der installierten Spielassemblies bis Captain of Industry 0.8.7 erweitert.
+- Bestehende Spielstände und Parkflächen bleiben aufwärtskompatibel. Nach dem
+  Speichern mit 1.3.3 wird ein Downgrade auf ältere Mod-Versionen nicht
+  unterstützt.
+
+Version 1.3.2
+-------------
+
+- Rotationsabhängigen Versatz des exakten Stellplatzmittelpunkts behoben.
+- Fahrzeuge rasten nun auch auf um 90, 180 oder 270 Grad gedrehten
+  Parkflächen exakt auf der gelben Mittellinie ein.
+- Spielstandformat, Filter, Gebäudezuordnungen und Richtungseinstellungen
+  bleiben unverändert kompatibel.
+
+Version 1.3.1
+-------------
+
+- Gesonderten gelben Mittelpunkt entfernt; der unsichtbare, befahrbare
+  Platzierungs- und Dreh-Pivot bleibt unverändert erhalten.
+- Zwei eindeutige Richtungsschaltflächen ergänzt: mit dem Parkplatzpfeil oder
+  exakt 180 Grad entgegen dem Pfeil.
+- Erneuter Klick auf die aktive Richtung gibt die Fahrzeugausrichtung frei;
+  die exakte Zentrierung bleibt unabhängig davon aktiv.
+- Neue Gegenrichtung abwärtskompatibel gespeichert und kopiert. Alte
+  aktivierte Rotationseinstellungen werden weiterhin als Pfeilrichtung geladen.
+- Alle MultiLangLib-Kataloge um den neuen 180-Grad-Hinweis erweitert.
+
+Version 1.3.0
+-------------
+
+- Optionale Zuordnung einer Parkfläche zu einem statischen Gebäude mit
+  eigener Fahrzeugzuweisung ergänzt.
+- Native Karten-Auswahl mit Hervorhebung, aktuellem Gebäudenamen,
+  Kamera-Sprung sowie Ändern- und Löschen-Aktion im Parkplatz-Inspektor
+  ergänzt.
+- Mehrere Parkflächen können dasselbe Gebäude bedienen; verknüpfte Flächen
+  akzeptieren ausschließlich Fahrzeuge, die exakt diesem Gebäude zugewiesen
+  sind.
+- Echte Arbeitsaufträge behalten immer Vorrang. Ist kein Stellplatz frei,
+  bleibt das native Warteverhalten des Gebäudes erhalten.
+- Gebäudezuordnungen werden gespeichert und beim Kopieren übernommen.
+  Blaupausen ordnen gemeinsam enthaltene Ziele neu zu und verwerfen externe
+  Ziele; fehlende, zerstörte oder nicht unterstützte Ziele fallen sicher auf
+  das unverknüpfte Verhalten zurück.
+- Verknüpfte Flächen dürfen die Logistikzone für ihr Zielgebäude überbrücken;
+  nach dem Löschen der Verbindung gilt wieder die normale Zonenprüfung.
+- Alle 21 Spielübersetzungen und der englische Fallback um die neue Bedienung
+  und präzise Fehlermeldungen erweitert.
+
+Version 1.2.0
+-------------
+
+- Lokalisierung vollständig auf MultiLangLib und externe JSON-Kataloge
+  umgestellt.
+- Alle 21 von Captain of Industry bereitgestellten Spielsprachen ergänzt.
+- Passend beladene, einer Tankstelle zugewiesene Tankfahrzeuge dürfen im
+  Leerlauf externe Parkplätze nutzen. Leere Fahrzeuge parken nur, solange die
+  Station keinen Treibstoff lagert oder deaktiviert ist; bei neuem Bestand
+  beziehungsweise beim Aktivieren kehrt die native Rückfahrt zurück.
+  Treibstoff wird niemals vom Parkplatz erzeugt.
+- Luftfahrzeuge bei leerem Filter standardmäßig ausgeschlossen; ein
+  ausdrücklicher Filtereintrag erlaubt weiterhin das bewusste Opt-in.
+- Planungsmodus, Auswahl-Collider und befahrbaren Pivot verbessert; der gelbe
+  Marker ist kleiner und blockiert keine Fahrwege.
+- Gleichzeitige Parkzuweisungen auf vier pro Prüfintervall begrenzt, um
+  Pathfinding-Spitzen nach dem Laden großer Spielstände zu vermeiden.
+- Drei eigene, hochkontrastreiche Parkplatz-Icons im CoI-UI-Stil ergänzt.
+- Namen zeigen die Stellplatzzahl vor der Größenklasse und sind dadurch in
+  der Toolbar schneller erfassbar.
+- Reproduzierbaren Release-Build, statische Regressionstests und eine Prüfung
+  des Paketumfangs ergänzt.
+
+Version 1.1.4
+-------------
+
+- Stellplatzquader am Tile-Raster zentriert und die freie Reihe zwischen
+  benachbarten Stellplätzen auf exakt ein Tile korrigiert.
+- Fahrzeuge rasten nach erfolgreicher Parkfahrt längs und quer exakt in der
+  Quader-Mitte ein.
+- Optionale Pfeilausrichtung pro Parkplatz ergänzt; standardmäßig ist die
+  Fahrzeugrotation ausgeschaltet.
+
+Version 1.1.2
+-------------
+
+- Parkflächen wie andere mehrstufige UI-Elemente gruppiert.
+- Eigene Unterreiter für transparente und gepflasterte Varianten ergänzt.
+- Je Slotanzahl einen nativen T1-bis-T4-Selektor ergänzt.
+- Bestehende Gebäude- und Toolbar-IDs für Spielstände beibehalten.
+
+Version 1.1.0
+-------------
+
+- Eigenen Parking-Reiter direkt neben Vehicles ergänzt.
+- Größenreiter Small, Medium, Large und Super ergänzt.
+- Variantenbestand von 12 auf 48 sichtbare Parkflächen erweitert.
+- Manager und 1:n-Filter von Trucks auf alle Vehicle-Unterklassen erweitert.
+- Bagger und weitere Arbeitsfahrzeuge mit sicheren Idle-Prüfungen ergänzt.
+- Vollständiges Leeren des Filters inklusive verwaister Mod-IDs ergänzt.
+- Größenprüfung für Basis- und Modfahrzeuge ergänzt.
+- Doppelte Manager-Freigabe beim Beenden behoben.
+- Abbruch veralteter Niedrigprioritäts-Parkjobs korrigiert.
+- Vollständige Ingame-Texte auf Deutsch, Englisch, Ukrainisch, Russisch,
+  Französisch, Spanisch und Portugiesisch ergänzt.

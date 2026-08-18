@@ -1,9 +1,9 @@
 {
   "id": "TruckParking",
-  "version": "1.1.4",
+  "version": "1.3.3",
   "display_name": "Truck Parking",
-  "description_short": "Parking for all idle vehicles in four sizes, with filters and maintenance bonuses.",
-  "description_long": "Adds a dedicated Parking toolbar next to Vehicles with 48 transparent and paved parking areas: 1, 2, 3, 4, 6, or 12 slots in Small, Medium, Large, and Super sizes. Idle, unassigned trucks, excavators, forestry vehicles, and compatible mod vehicles reserve fitting slots through interruptible low-priority jobs. Each area has a persistent many-vehicle-type filter. Transparent parking adds 5 percentage points of maintenance reduction; paved parking costs 10% fewer slabs than manual paving, blocks replacement tiles, and provides a 50% maintenance multiplier.",
+  "description_short": "Parking for idle vehicles, with building links, two-way alignment, safe filters, custom icons, and maintenance bonuses.",
+  "description_long": "Adds a dedicated Parking toolbar next to Vehicles with 48 transparent and paved parking areas: 1, 2, 3, 4, 6, or 12 slots in Small, Medium, Large, and Super sizes. Each area offers separate arrow-direction and 180-degree reverse alignment controls, while leaving both off keeps direction unrestricted. A parking area can optionally be linked to a truck-owning building so its idle assigned vehicles use matching slots while real work always has priority; multiple areas may serve the same building. Unlinked areas retain general idle-vehicle and fuel-station support. Empty filters allow ground vehicles and exclude detected aircraft by default; explicit filters can opt them in. MultiLangLib supplies all supported game languages. Custom toolbar icons, marker-free planning selection, maintenance bonuses, and discounted paved variants are included.",
   "authors": [
     "Maxim",
     "TaskEcho"
@@ -12,9 +12,12 @@
     "TruckParking.dll"
   ],
   "primary_mod_class_name": "TruckParking.TruckParkingMod",
+  "mod_dependencies": [
+    "MultiLangLib>=0.1.0"
+  ],
   "non_locking_dll_load": true,
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": false,
-  "min_game_version": "0.8.6",
-  "max_verified_game_version": "0.8.6c"
+  "min_game_version": "0.8.6c",
+  "max_verified_game_version": "0.8.7"
 }
