@@ -1,0 +1,22 @@
+[
+	[ "TodoList_WindowTitle", "Lista de tarefas" ],
+	[ "TodoList_SectionTodo", "A fazer ({0})" ],
+	[ "TodoList_SectionDone", "Concluído ({0})" ],
+	[ "TodoList_EmptyList", "Nada a fazer por enquanto." ],
+	[ "TodoList_InputPlaceholder", "<i>Escreva aqui para adicionar uma tarefa ou um lembrete</i>" ],
+	[ "TodoList_AddTooltip", "Adicionar esta tarefa à lista" ],
+	[ "TodoList_DeleteTooltip", "Excluir esta tarefa" ],
+	[ "TodoList_PinTooltip", "Manter a janela aberta" ],
+	[ "TodoList_CloseTooltip", "Fechar" ],
+	[ "TodoList_ResizeTooltip", "Arraste para ajustar a largura" ],
+	[ "TodoList_CollapseTooltip", "Clique para recolher ou expandir esta seção" ],
+	[ "TodoList_MoveUpTooltip", "Mover para cima (clique direito: para o topo)" ],
+	[ "TodoList_MoveDownTooltip", "Mover para baixo (clique direito: para o fim)" ],
+	[ "TodoList_ClearDoneTooltip", "Excluir todas as tarefas concluídas" ],
+	[ "TodoList_EditTooltip", "Editar esta tarefa" ],
+	[ "TodoList_EditSaveTooltip", "Salvar o novo texto (Enter)" ],
+	[ "TodoList_EditCancelTooltip", "Cancelar, manter o texto antigo (Esc)" ],
+	[ "TodoList_LinkTooltip", "Selecione um edifício e clique aqui para vinculá-lo a esta tarefa" ],
+	[ "TodoList_UnlinkTooltip", "Remover o vínculo com este edifício" ],
+	[ "TodoList_GoToTooltip", "Ir para o edifício vinculado" ]
+]

@@ -1,0 +1,22 @@
+[
+	[ "TodoList_WindowTitle", "Lista zadań" ],
+	[ "TodoList_SectionTodo", "Do zrobienia ({0})" ],
+	[ "TodoList_SectionDone", "Zrobione ({0})" ],
+	[ "TodoList_EmptyList", "Na razie nic do zrobienia." ],
+	[ "TodoList_InputPlaceholder", "<i>Wpisz tutaj, aby dodać zadanie lub przypomnienie</i>" ],
+	[ "TodoList_AddTooltip", "Dodaj to zadanie do listy" ],
+	[ "TodoList_DeleteTooltip", "Usuń to zadanie" ],
+	[ "TodoList_PinTooltip", "Utrzymuj okno otwarte" ],
+	[ "TodoList_CloseTooltip", "Zamknij" ],
+	[ "TodoList_ResizeTooltip", "Przeciągnij, aby dostosować szerokość" ],
+	[ "TodoList_CollapseTooltip", "Kliknij, aby zwinąć lub rozwinąć tę sekcję" ],
+	[ "TodoList_MoveUpTooltip", "Przenieś w górę (prawy przycisk: na samą górę)" ],
+	[ "TodoList_MoveDownTooltip", "Przenieś w dół (prawy przycisk: na sam dół)" ],
+	[ "TodoList_ClearDoneTooltip", "Usuń wszystkie ukończone zadania" ],
+	[ "TodoList_EditTooltip", "Edytuj to zadanie" ],
+	[ "TodoList_EditSaveTooltip", "Zapisz nowy tekst (Enter)" ],
+	[ "TodoList_EditCancelTooltip", "Anuluj, zachowaj stary tekst (Esc)" ],
+	[ "TodoList_LinkTooltip", "Wybierz budynek, a następnie kliknij tutaj, aby powiązać go z tym zadaniem" ],
+	[ "TodoList_UnlinkTooltip", "Usuń powiązanie z tym budynkiem" ],
+	[ "TodoList_GoToTooltip", "Przejdź do powiązanego budynku" ]
+]

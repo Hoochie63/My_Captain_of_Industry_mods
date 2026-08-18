@@ -1,0 +1,82 @@
+[
+	[
+		"TodoList_WindowTitle",
+		"Liste de tâches"
+	],
+	[
+		"TodoList_SectionTodo",
+		"À faire ({0})"
+	],
+	[
+		"TodoList_SectionDone",
+		"Terminé ({0})"
+	],
+	[
+		"TodoList_EmptyList",
+		"Rien à faire pour l'instant."
+	],
+	[
+		"TodoList_InputPlaceholder",
+		"<i>Écrivez ici pour ajouter une tâche ou un rappel</i>"
+	],
+	[
+		"TodoList_AddTooltip",
+		"Ajouter cette tâche à la liste"
+	],
+	[
+		"TodoList_DeleteTooltip",
+		"Supprimer cette tâche"
+	],
+	[
+		"TodoList_PinTooltip",
+		"Garder la fenêtre ouverte"
+	],
+	[
+		"TodoList_CloseTooltip",
+		"Fermer"
+	],
+	[
+		"TodoList_ResizeTooltip",
+		"Faire glisser pour ajuster la largeur"
+	],
+	[
+		"TodoList_CollapseTooltip",
+		"Cliquer pour plier ou déplier cette section"
+	],
+	[
+		"TodoList_MoveUpTooltip",
+		"Monter (clic droit : tout en haut)"
+	],
+	[
+		"TodoList_MoveDownTooltip",
+		"Descendre (clic droit : tout en bas)"
+	],
+	[
+		"TodoList_ClearDoneTooltip",
+		"Supprimer toutes les tâches terminées"
+	],
+	[
+		"TodoList_EditTooltip",
+		"Modifier cette tâche"
+	],
+	[
+		"TodoList_EditSaveTooltip",
+		"Enregistrer le nouveau texte (Entrée)"
+	],
+	[
+		"TodoList_EditCancelTooltip",
+		"Annuler, garder l'ancien texte (Échap)"
+	],
+	[
+		"TodoList_LinkTooltip",
+		"Sélectionnez un bâtiment, puis cliquez ici pour le lier à cette tâche"
+	],
+	[
+		"TodoList_UnlinkTooltip",
+		"Retirer le lien vers ce bâtiment"
+	],
+	[
+		"TodoList_GoToTooltip",
+		"Aller au bâtiment lié"
+	]
+]

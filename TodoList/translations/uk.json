@@ -1,0 +1,22 @@
+[
+	[ "TodoList_WindowTitle", "Список завдань" ],
+	[ "TodoList_SectionTodo", "До виконання ({0})" ],
+	[ "TodoList_SectionDone", "Виконано ({0})" ],
+	[ "TodoList_EmptyList", "Поки що нічого робити." ],
+	[ "TodoList_InputPlaceholder", "<i>Напишіть тут, щоб додати завдання або нагадування</i>" ],
+	[ "TodoList_AddTooltip", "Додати це завдання до списку" ],
+	[ "TodoList_DeleteTooltip", "Видалити це завдання" ],
+	[ "TodoList_PinTooltip", "Тримати вікно відкритим" ],
+	[ "TodoList_CloseTooltip", "Закрити" ],
+	[ "TodoList_ResizeTooltip", "Потягніть, щоб змінити ширину" ],
+	[ "TodoList_CollapseTooltip", "Натисніть, щоб згорнути або розгорнути розділ" ],
+	[ "TodoList_MoveUpTooltip", "Перемістити вгору (ПКМ: у самий верх)" ],
+	[ "TodoList_MoveDownTooltip", "Перемістити вниз (ПКМ: у самий низ)" ],
+	[ "TodoList_ClearDoneTooltip", "Видалити всі виконані завдання" ],
+	[ "TodoList_EditTooltip", "Змінити це завдання" ],
+	[ "TodoList_EditSaveTooltip", "Зберегти новий текст (Enter)" ],
+	[ "TodoList_EditCancelTooltip", "Скасувати, залишити старий текст (Esc)" ],
+	[ "TodoList_LinkTooltip", "Виберіть будівлю, потім натисніть тут, щоб пов'язати її з цим завданням" ],
+	[ "TodoList_UnlinkTooltip", "Прибрати зв'язок із цією будівлею" ],
+	[ "TodoList_GoToTooltip", "Перейти до пов'язаної будівлі" ]
+]

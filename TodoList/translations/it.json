@@ -1,0 +1,22 @@
+[
+	[ "TodoList_WindowTitle", "Lista delle cose da fare" ],
+	[ "TodoList_SectionTodo", "Da fare ({0})" ],
+	[ "TodoList_SectionDone", "Fatto ({0})" ],
+	[ "TodoList_EmptyList", "Niente da fare per ora." ],
+	[ "TodoList_InputPlaceholder", "<i>Scrivi qui per aggiungere un'attività o un promemoria</i>" ],
+	[ "TodoList_AddTooltip", "Aggiungi questa attività alla lista" ],
+	[ "TodoList_DeleteTooltip", "Elimina questa attività" ],
+	[ "TodoList_PinTooltip", "Mantieni la finestra aperta" ],
+	[ "TodoList_CloseTooltip", "Chiudi" ],
+	[ "TodoList_ResizeTooltip", "Trascina per regolare la larghezza" ],
+	[ "TodoList_CollapseTooltip", "Clicca per aprire o chiudere questa sezione" ],
+	[ "TodoList_MoveUpTooltip", "Sposta su (clic destro: in cima)" ],
+	[ "TodoList_MoveDownTooltip", "Sposta giù (clic destro: in fondo)" ],
+	[ "TodoList_ClearDoneTooltip", "Elimina tutte le attività completate" ],
+	[ "TodoList_EditTooltip", "Modifica questa attività" ],
+	[ "TodoList_EditSaveTooltip", "Salva il nuovo testo (Invio)" ],
+	[ "TodoList_EditCancelTooltip", "Annulla, mantieni il testo precedente (Esc)" ],
+	[ "TodoList_LinkTooltip", "Seleziona un edificio, poi clicca qui per collegarlo a questa attività" ],
+	[ "TodoList_UnlinkTooltip", "Rimuovi il collegamento a questo edificio" ],
+	[ "TodoList_GoToTooltip", "Vai all'edificio collegato" ]
+]

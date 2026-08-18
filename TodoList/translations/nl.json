@@ -1,0 +1,22 @@
+[
+	[ "TodoList_WindowTitle", "Takenlijst" ],
+	[ "TodoList_SectionTodo", "Te doen ({0})" ],
+	[ "TodoList_SectionDone", "Klaar ({0})" ],
+	[ "TodoList_EmptyList", "Nog niets te doen." ],
+	[ "TodoList_InputPlaceholder", "<i>Schrijf hier om een taak of herinnering toe te voegen</i>" ],
+	[ "TodoList_AddTooltip", "Deze taak aan de lijst toevoegen" ],
+	[ "TodoList_DeleteTooltip", "Deze taak verwijderen" ],
+	[ "TodoList_PinTooltip", "Venster open houden" ],
+	[ "TodoList_CloseTooltip", "Sluiten" ],
+	[ "TodoList_ResizeTooltip", "Sleep om de breedte aan te passen" ],
+	[ "TodoList_CollapseTooltip", "Klik om deze sectie in of uit te klappen" ],
+	[ "TodoList_MoveUpTooltip", "Omhoog verplaatsen (rechtermuisknop: helemaal naar boven)" ],
+	[ "TodoList_MoveDownTooltip", "Omlaag verplaatsen (rechtermuisknop: helemaal naar onderen)" ],
+	[ "TodoList_ClearDoneTooltip", "Alle voltooide taken verwijderen" ],
+	[ "TodoList_EditTooltip", "Deze taak bewerken" ],
+	[ "TodoList_EditSaveTooltip", "De nieuwe tekst opslaan (Enter)" ],
+	[ "TodoList_EditCancelTooltip", "Annuleren, oude tekst behouden (Esc)" ],
+	[ "TodoList_LinkTooltip", "Selecteer een gebouw en klik hier om het aan deze taak te koppelen" ],
+	[ "TodoList_UnlinkTooltip", "De koppeling met dit gebouw verwijderen" ],
+	[ "TodoList_GoToTooltip", "Ga naar het gekoppelde gebouw" ]
+]

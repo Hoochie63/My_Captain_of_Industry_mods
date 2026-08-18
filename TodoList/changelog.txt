@@ -1,0 +1,31 @@
+v1.1.0 | 2026-08-15
+* Added: Edit the text of an existing task. Hover the task and click the pencil icon, then press Enter to save or Esc to cancel
+* Note: Suggested by a player on the mod page
+
+v1.0.0 | 2026-08-10
+* Added: Right-click an arrow to send a task straight to the top or the bottom of the list
+* Added: Section headers now show how many tasks they hold
+* Changed: All eleven languages updated
+
+v0.3.0 | 2026-08-09
+* Added: Link a task to a building. Select a building, click the link icon on the task, and the task remembers it
+* Added: Click the gold pin on a linked task to move the camera there and open the building panel
+* Added: Click the link icon again to remove the link
+* Changed: Row buttons now appear on hover, so the list stays readable at rest
+* Note: A link to a demolished building clears itself
+
+v0.2.1 | 2026-08-09
+* Added: Changelog file, so the version history shows on the mod page
+
+v0.2.0 | 2026-08-09
+* Added: Localization. The mod now follows your game language
+* Added: Eleven languages included (English, French, German, Spanish, Italian, Portuguese (BR), Dutch, Polish, Czech, Russian, Ukrainian)
+* Added: Button to delete all completed tasks at once
+
+v0.1.0 | 2026-08-08
+* Initial release
+* Added: In-game to-do list, opened from the toolbar button or with F8
+* Added: Add tasks, tick them off, reorder them, delete them
+* Added: Completed tasks move to a collapsible Done section
+* Added: Movable window with adjustable width, both remembered between sessions
+* Added: Tasks are stored in the save file, so each game keeps its own list

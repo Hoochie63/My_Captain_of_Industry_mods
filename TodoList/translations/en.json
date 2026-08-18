@@ -1,0 +1,82 @@
+[
+	[
+		"TodoList_WindowTitle",
+		"To-do list"
+	],
+	[
+		"TodoList_SectionTodo",
+		"To do ({0})"
+	],
+	[
+		"TodoList_SectionDone",
+		"Done ({0})"
+	],
+	[
+		"TodoList_EmptyList",
+		"Nothing to do yet."
+	],
+	[
+		"TodoList_InputPlaceholder",
+		"<i>Write here to add a task or a reminder</i>"
+	],
+	[
+		"TodoList_AddTooltip",
+		"Add this task to the list"
+	],
+	[
+		"TodoList_DeleteTooltip",
+		"Delete this task"
+	],
+	[
+		"TodoList_PinTooltip",
+		"Keep the window open"
+	],
+	[
+		"TodoList_CloseTooltip",
+		"Close"
+	],
+	[
+		"TodoList_ResizeTooltip",
+		"Drag to adjust the width"
+	],
+	[
+		"TodoList_CollapseTooltip",
+		"Click to fold or unfold this section"
+	],
+	[
+		"TodoList_MoveUpTooltip",
+		"Move up (right-click: move to top)"
+	],
+	[
+		"TodoList_MoveDownTooltip",
+		"Move down (right-click: move to bottom)"
+	],
+	[
+		"TodoList_ClearDoneTooltip",
+		"Delete all completed tasks"
+	],
+	[
+		"TodoList_EditTooltip",
+		"Edit this task"
+	],
+	[
+		"TodoList_EditSaveTooltip",
+		"Save the new text (Enter)"
+	],
+	[
+		"TodoList_EditCancelTooltip",
+		"Cancel, keep the old text (Esc)"
+	],
+	[
+		"TodoList_LinkTooltip",
+		"Select a building, then click here to link it to this task"
+	],
+	[
+		"TodoList_UnlinkTooltip",
+		"Remove the link to this building"
+	],
+	[
+		"TodoList_GoToTooltip",
+		"Go to the linked building"
+	]
+]

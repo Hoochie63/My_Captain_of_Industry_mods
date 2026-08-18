@@ -1,14 +1,14 @@
 {
 	"id": "TodoList",
-	"version": "0.1.0",
+	"version": "1.1.0",
 	"display_name": "To-Do List",
 	"description_short": "An in-game to-do list: write down what is left to build, tick it off when done. Saved with your game.",
-	"description_long": "<b>To-Do List</b>\n\nAdds a to-do list right inside the game, so you never lose track of what you were about to build.\n\n<b>Features</b>\n- Open the panel from the toolbar button, or with <b>F8</b>.\n- Type a task and press Enter to add it.\n- Tick a task off: it moves to a collapsible <i>Done</i> section instead of cluttering your list.\n- Reorder tasks with the up and down arrows.\n- Delete a task you no longer need.\n\n<b>The window behaves like the game's own panels</b>\n- Drag it by its title bar; the position is remembered.\n- Resize its width by dragging the right edge.\n- Pin it so it stays open while you work.\n\n<i>Your list is stored in the save file, so each game keeps its own tasks. The mod can be added to or removed from an existing save at any time.</i>",
+	"description_long": "<b>To-Do List</b>\n\nAdds a to-do list right inside the game, so you never lose track of what you were about to build.\n\n<b>Features</b>\n- Open the panel from the toolbar button, or with <b>F8</b>.\n- Type a task and press Enter to add it.\n- Tick a task off: it moves to a collapsible <i>Done</i> section instead of cluttering your list.\n- Clear the whole <i>Done</i> list in one click when it gets long.\n- Reorder tasks with the up and down arrows. Right-click an arrow to send a task straight to the top or the bottom.\n- Edit a task later: hover it, click the pencil, type the new text and press Enter.\n- Delete a task you no longer need.\n\n<b>Link a task to a building</b>\nSelect a building, click the link icon on a task, and a gold pin appears. Click that pin later and the camera flies there with the building panel open. A link to a demolished building clears itself.\n\n<b>The window behaves like the game's own panels</b>\n- Drag it by its title bar; the position is remembered.\n- Resize its width by dragging the right edge.\n- Pin it so it stays open while you work.\n\n<b>Speaks your language</b>\nEnglish, French, German, Spanish, Italian, Portuguese (BR), Dutch, Polish, Czech, Russian and Ukrainian.\n\n<i>Your list is stored in the save file, so each game keeps its own tasks. The mod can be added to or removed from an existing save at any time.</i>",
 	"authors": [
 		"Lofwyr"
 	],
 	"min_game_version": "0.8.6",
-	"max_verified_game_version": "0.8.6",
+	"max_verified_game_version": "0.8.7",
 	"primary_dlls": [
 		"TodoList.dll"
 	],

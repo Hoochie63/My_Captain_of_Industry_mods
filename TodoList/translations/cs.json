@@ -1,0 +1,22 @@
+[
+	[ "TodoList_WindowTitle", "Seznam úkolů" ],
+	[ "TodoList_SectionTodo", "K vyřízení ({0})" ],
+	[ "TodoList_SectionDone", "Hotovo ({0})" ],
+	[ "TodoList_EmptyList", "Zatím není co dělat." ],
+	[ "TodoList_InputPlaceholder", "<i>Sem napište úkol nebo připomínku</i>" ],
+	[ "TodoList_AddTooltip", "Přidat tento úkol do seznamu" ],
+	[ "TodoList_DeleteTooltip", "Smazat tento úkol" ],
+	[ "TodoList_PinTooltip", "Nechat okno otevřené" ],
+	[ "TodoList_CloseTooltip", "Zavřít" ],
+	[ "TodoList_ResizeTooltip", "Přetažením upravíte šířku" ],
+	[ "TodoList_CollapseTooltip", "Kliknutím sbalíte nebo rozbalíte tuto sekci" ],
+	[ "TodoList_MoveUpTooltip", "Posunout nahoru (pravé tlačítko: úplně nahoru)" ],
+	[ "TodoList_MoveDownTooltip", "Posunout dolů (pravé tlačítko: úplně dolů)" ],
+	[ "TodoList_ClearDoneTooltip", "Smazat všechny dokončené úkoly" ],
+	[ "TodoList_EditTooltip", "Upravit tento úkol" ],
+	[ "TodoList_EditSaveTooltip", "Uložit nový text (Enter)" ],
+	[ "TodoList_EditCancelTooltip", "Zrušit, ponechat starý text (Esc)" ],
+	[ "TodoList_LinkTooltip", "Vyberte budovu a kliknutím sem ji propojte s tímto úkolem" ],
+	[ "TodoList_UnlinkTooltip", "Odebrat propojení s touto budovou" ],
+	[ "TodoList_GoToTooltip", "Přejít k propojené budově" ]
+]
