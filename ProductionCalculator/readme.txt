@@ -8,7 +8,8 @@ Features
 --------
 - Multiple product rows with individual rates (/min) and per-row machine counts
 - Input / Output flow mode per row (anchor rate on recipe input or output)
-- Recipe selection per row when a product has more than one recipe
+- Recipe selection per row when a product has more than one recipe or machine tier
+- Machine tier selection: rates and buildings use the chosen building's recipe binding
 - Live chain calculation (updates automatically as you edit rows)
 - Sync chain rates: propagate rates through linked rows
 - Fixed toggle: keep a row's rate and machine count when syncing

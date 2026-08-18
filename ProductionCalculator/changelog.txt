@@ -1,3 +1,7 @@
+0.2.0
+- Select machine tier per product row (rates use that building's recipe binding).
+- Old saved calculations without MachineId still load (fallback to highest tier).
+
 0.1.1
 - Compatibility fix for Captain of Industry 0.8.6a.
 
