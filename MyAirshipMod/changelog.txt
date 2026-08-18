@@ -1,10 +1,141 @@
-V0.7.3 | 2026-08-03
+v0.8.0 | 2026-08-17
+* 感谢中国玩家 五毛辣条(523004259) 反馈的bug.
+* 修复：OverclockingMod 共存时 4 缓冲区不显示（核心修复）
+  问题：单独加载 MyAirshipMod 时地面停机坪 4 个缓冲区正常，但只要加上 OverclockingMod，停机坪瞬间只显示 1 个主存储区。
+  根因：HelipadInspectorRedirect 在 Initialize 阶段手动 new 了一个 StorageInspector 单例，跳过了 Harmony 的 CtorPostfix（构造函数补丁），所以辅助槽面板从未被创建。同时，由于单例不在 InspectorsManager 的正常生命周期里  ，Activate(entity) 后 OnActivatedPostfix 也不触发。单独跑时还能凑合，加上 OverclockingMod 后对方 patch 了 Inspector 基类调用链，把这个脆弱的凑合也给打破了。
+* 修复：在 HelipadInspectorRedirect.cs 的 TryActivateForPrefix 命中 Helipad 并调用 Activate(entity) 后，主动调用 HelipadInspectorPatch.EnsurePanelsForHelipad(s_helipadInspector)，不再依赖游戏框架触发   CtorPostfix/OnActivatedPostfix，保证 3 个辅助槽面板 + 端口映射面板被创建，并启动 500ms Schedule 持续刷新。
+* 修复：辅助缓冲区存档加载丢失（严重 bug）
+  问题：保存游戏后重新读档，3 个辅助缓冲区的产品类型和数量全部丢失，只有主缓冲区被保留。
+  根因：HelipadSaveLoad.cs 的 ParseBufferLine 和 ParsePortLine 存在数组索引越界——存档格式是 entityId:slotIndex=productId,quantity（只有 2 段），但解析代码写成了 header[4]、parts[4]、data[4]（应为 header[1]、parts  [1]、data[1]）。每次解析都抛 IndexOutOfRangeException，被 catch { } 静默吞掉，所以永远加载不出来。
+* 修复：纠正所有索引：header[4]→header[1]、parts[4]→parts[1]、data[4]→data[1]
+  Split 时用 Split(new[] {'='}, 2) 避免产品 ID 里有 = 被误伤
+  保存格式升级 v2：缓冲区一行从 entityId:slotIndex=productId,quantity 升级为 entityId:slotIndex=productId,quantity,capacity（多带 capacity），加载时向后兼容 v1 格式
+  ParseBufferLine 返回 bool、ParsePortLine 返回 int，LoadAll 统计已加载条数
+  失败时打印 Warning（含原始 line 内容），不再 silent swallow
+* 修复：AirshipHQManager 编译错误
+  问题：AirshipHQManager.cs 同时引入了 Mafi.Core 和 UnityEngine 两个命名空间，两者都有 EntityId 类型，导致 12 处 EntityId 引用产生二义性编译错误。
+* 修复：在 AirshipHQManager.cs 顶部 using 区添加别名 using EntityId = Mafi.Core.EntityId;，统一指向 Mafi 的 EntityId。
+* 修复：BufferWithSlider 初值硬编码
+  问题：HelipadInspectorPatch.cs 的 CreateHelipadPanels 里 BufferWithSlider 初值硬编码为 new Quantity(500000)。
+  修复：改为引用 HelipadMultiBufferManager.DEFAULT_EXTRA_CAPACITY，避免后续调整辅助缓冲区容量时漏改。
+* 修复：清理调试日志
+  移除以下文件中的刷屏级 -Debug 诊断日志，只保留 Error / Warning 和存档结果日志：
+  MyAirshipMod.cs：RegisterPrototypes 11 步成功日志
+  HelipadStorageHooks.cs：补丁绑定成功、CanReceive/ReceiveFromPort 每实体首次日志、HashSet<int> 去重容器
+  HelipadInspectorPatch.cs：ApplyPatch/PatchOnActivated/CtorPostfix/OnActivatedPostfix/EnsurePanelsForHelipad 成功日志、UpdatePanelVisibility 状态变化诊断、Dictionary<int,int> / HashSet<int> 去重容器
+  HelipadInspectorRedirect.cs：Initialize/ApplyPatch/TryActivateForPrefix 成功日志、HashSet<int> 去重容器  
+  保留的日志：
+  存档保存/加载结果：[MyAirshipMod] HelipadSaveLoad 已保存/已加载: 辅助缓冲区=X条, 端口映射=Y条
+  所有 Error / Warning（绑定失败、反射失败、解析失败含原始行内容）** 
+* Thanks to Chinese player 五毛辣条(523004259) for reporting the bug.
+* Fix: 4‑buffer display failure when OverclockingMod is present (core fix)
+  Issue: The 4 buffers on the ground helipad work correctly when MyAirshipMod runs alone. However, once OverclockingMod is enabled, only 1 main storage area is shown on the helipad.
+  Root Cause: HelipadInspectorRedirect manually instantiated a StorageInspector singleton during the Initialize phase, bypassing Harmony’s CtorPostfix (constructor patch). As a result, auxiliary slot panels were never created. Furthermore, since this singleton lived outside the normal lifecycle of InspectorsManager, OnActivatedPostfix would not fire after Activate(entity). The setup barely worked on its own, but adding OverclockingMod broke this fragile workaround because the mod patched the Inspector base‑class call chain.
+* Fix: After TryActivateForPrefix in HelipadInspectorRedirect.cs matches a Helipad and calls Activate(entity), explicitly invoke HelipadInspectorPatch.EnsurePanelsForHelipad(s_helipadInspector). Remove reliance on the game framework to trigger CtorPostfix / OnActivatedPostfix. This guarantees creation of the 3 auxiliary‑slot panels plus the port‑mapping panel, and starts a 500ms Schedule for continuous refreshing.
+* Fix: Auxiliary buffers data lost on save‑game load (critical bug)
+  Issue: After saving and reloading a save file, product types and quantities for all 3 auxiliary buffers are lost; only the main buffer remains intact.
+  Root Cause: Array index out‑of‑bounds errors in ParseBufferLine and ParsePortLine within HelipadSaveLoad.cs. The save format is entityId:slotIndex=productId,quantity (two segments only), yet the parsing code accessed header[4], parts[4], data[4] (should be header[1], parts[1], data[1]). Each parse threw an IndexOutOfRangeException which was silently swallowed by catch { }, so the data never loaded.
+* Fix: Correct all indices: header[4] → header[1], parts[4] → parts[1], data[4] → data[1].
+  Use Split(new[] {'='}, 2) during splitting to prevent unintended parsing when product IDs contain '=' characters.
+  Save format upgraded to v2: each buffer line changes from entityId:slotIndex=productId,quantity to entityId:slotIndex=productId,quantity,capacity (added capacity field). Loader maintains backward compatibility with v1 format.
+  ParseBufferLine now returns bool, ParsePortLine returns int; LoadAll counts successfully loaded entries.
+  Print Warning (including the raw line content) on failure instead of silent swallowing.
+* Fix: Compilation error in AirshipHQManager
+  Issue: AirshipHQManager.cs imports both Mafi.Core and UnityEngine namespaces. Both define an EntityId type, causing ambiguous reference compile errors at 12 EntityId usages.
+* Fix: Add alias `using EntityId = Mafi.Core.EntityId;` in the top‑level using block of AirshipHQManager.cs to uniformly reference Mafi’s EntityId.
+* Fix: Hard‑coded initial value in BufferWithSlider
+  Issue: In CreateHelipadPanels of HelipadInspectorPatch.cs, BufferWithSlider was hard‑initialized as new Quantity(500000).
+* Fix: Reference HelipadMultiBufferManager.DEFAULT_EXTRA_CAPACITY instead, to avoid missing updates when adjusting auxiliary‑buffer capacity in the future.
+* Fix: Clean up debug logs
+  Remove spam‑heavy‑Debug diagnostic logs from the listed files; keep only Error / Warning logs and save‑game result logs:
+  MyAirshipMod.cs: RegisterPrototypes 11‑step success logs
+  HelipadStorageHooks.cs: patch‑binding success logs, first‑time per‑entity logs for CanReceive/ReceiveFromPort, HashSet<int> deduplication containers
+  HelipadInspectorPatch.cs: success logs for ApplyPatch/PatchOnActivated/CtorPostfix/OnActivatedPostfix/EnsurePanelsForHelipad, state‑change diagnostics for UpdatePanelVisibility, Dictionary<int,int> / HashSet<int> deduplication containers
+  HelipadInspectorRedirect.cs: success logs for Initialize/ApplyPatch/TryActivateForPrefix, HashSet<int> deduplication containers
+  Preserved logs:
+  Save‑game save / load results: [MyAirshipMod] HelipadSaveLoad Saved / Loaded: Auxiliary buffers=X entries, Port mappings=Y entries
+  All Error / Warning logs (binding failures, reflection failures, parse failures with raw line content)
+
+v0.7.9 | 2026-08-15
+* 感谢社区玩家 Denis多次反馈模型脱模现象.
+* 经查,我的测试环境正常,但是发布环境里面的模组信息一直没有同步,造成了氢气飞艇模型实际没有被加载.
+* 现在修复这个问题.
+* Thanks to community player Denis for repeatedly reporting the model‑detaching issue.
+* After investigation, my test environment works properly, but the mod information in the release environment was never synchronized, resulting in the hydrogen airship model failing to load in practice.
+* This issue has now been fixed.
+
+v0.7.8 | 2026-08-15
+* 感谢中国玩家 梁家二公子(81994673) 由2026/8/14 21:38:43反馈实测BUG结果数据.
+* 已经重构400多行底层飞控逻辑,在挖掘飞艇被四面传送包围情况下可以任意飞行离开不再受困.
+* 解决了地面停机坪被传送带围困后挖掘飞艇无法找到地面停机坪的问题.
+Thanks to Chinese player Second Young Master Liang (81994673) for submitting real‑world test bug result data at 21:38:43, 14/8/2026.
+* Over 400 lines of underlying flight‑control logic have been refactored. The Dig Airship can now fly away freely when surrounded on all sides by conveyors and will no longer get trapped.
+* Fixed the issue where the Dig Airship could not locate the ground landing pad after the pad was enclosed by conveyors.
+
+v0.7.7 | 2026-08-14
+* 发现本mod和FGWYStorageMOD同时加载时,会受到FGWYStorageMOD的影响,而地面停机坪界面会恢复成单缓冲区.功能不受到影响,但是
+  造成了0.7.6版本的部分新修改的建筑属性不会有视觉效果.现在已经修复和FGWYStorageMOD的兼容扩展.
+* 彻底解决了挖掘机报错的提示日志过于频繁的问题.
+
+v0.7.6 | 2026-08-13
+* 感谢中国玩家 五毛辣条(523004259) 反馈的bug.
+* 感谢社区玩家 Denis 反馈的脱模问题.
+* 关于模型丢失的问题,已经查明是氢气飞艇的模型文件名没有写入mafi_bundles造成.现已修复.
+* 关于中国玩家 五毛辣条(523004259) 反馈的挖掘飞艇会卡在建筑中无法重置的问题已经修复,现在将会采取更高的飞艇高度躲避建筑
+* 关于中国玩家 五毛辣条(523004259) 反馈的飞艇挖掘大量矿产和多个品种矿产时会出现挖掘飞艇不工作现象.其实这是因为地面停机坪是单货物卸载地这个设定造成.
+  为了解决这个问题,学习了Gameplay++ MOD(by Moriarty)的先进经验.对地面停机坪进行了深度改造.
+* 现在地面停机坪是可以支持4种货物的,自动识别,自动卸载分配.
+	用户可以不指定产品而让飞艇自己根据自身携带的矿物来决定这个地面停机坪应该有什么货物,然后用户自己决定由哪一个端口  进行输出.
+* 现在地面停机坪已经由以前的2个输出端口,修改为4个输出端口.
+* 地面停机坪设计参阅Gameplay++ MOD(by Moriarty)这个优秀的mod设计理念,对其作者 Moriarty 表示感谢. 
+* Thanks to Chinese player Wumaolatiao (523004259) for reporting the bug.
+* Thanks to community player Denis for reporting the demoulding‑related issue.
+* Regarding the missing‑model issue: It has been identified that the model file name for the hydrogen airship was not written into mafi_bundles. This issue has now been fixed.
+* The bug reported by Chinese player Wumaolatiao (523004259), where the mining airship would get stuck inside buildings and could not be reset, has been fixed. The airship will now use a higher altitude to avoid buildings.
+* The issue reported by Chinese player Wumaolatiao (523004259), in which the mining airship stops working when mining large quantities and multiple types of minerals, stems from the ground landing pad being designed as a single‑cargo unloading point.
+  To resolve this problem, we drew on advanced experience from the Gameplay++ MOD (by Moriarty) and carried out an in‑depth rework for the ground landing pad.
+* The ground landing pad now supports four types of cargo with automatic identification and automatic unloading allocation.
+	Players may skip specifying products and let the airship determine which cargo the ground landing pad should handle based on the minerals it carries. Players can then select which port to use for output.
+* The ground landing pad has been updated from 2 output ports to 4 output ports.
+* The ground landing pad design references the excellent design philosophy of the Gameplay++ MOD (by Moriarty). Special thanks go to its author Moriarty.
+
+v0.7.5 | 2026-08-10
+* 修改挖掘飞艇的飞行朝向
+* 补充地面停机坪图标和挖掘飞艇的图标.
+* 修改挖掘飞艇飞行路径计算方式避免日志崩溃输出.
+* 调整参数适配问题.
+* 解决着陆反馈的字段获取逻辑
+* 增加单货品唯一性的判定逻辑
+* Modify the flight orientation of the mining airship
+* Add icons for the ground apron and the mining airship.
+* Modify the calculation method for the mining airship's flight path to prevent log‑output crashes.
+* Adjust parameters for adaptation issues.
+* Fix the field acquisition logic for landing feedback
+* Add judgment logic for the uniqueness of single‑goods items
+
+v0.7.4 | 2026-08-09
+* 加入一个Mining Airship 挖掘飞艇 设定为5000容量.
+	可挖掘矿物,可分配给控制塔.可自行运载货物.
+* 加入一个建筑Mining Airship 地面停机坪. 自带50万仓储空间.适合单矿物储存转运.
+	设置2个出口,只允许挖掘飞艇使用,不允许货物进入.他不是仓库,他是挖掘飞艇专属指定卸货平台.
+* 感谢中国玩家 你真俗，还看名(1029490594)  的提醒,加入禁止跨海飞艇的设定,免得有人跨海挖掘.
+* 挖掘飞艇需要加油时将会停靠在飞艇停靠台.而卸货需要首先建设一个地面停机坪.他不会给其他建筑卸货.
+& 使用自定义的飞控逻辑和导航逻辑,因此难免会有bug,有问题请及时反馈,我将会及时更新.
+* Add a Mining Airship with a capacity of 5000.
+	It can mine minerals, assign resources to the control tower, and carry cargo on its own.
+* Add a building: Mining Airship Ground Landing Pad. It comes with 500,000 storage space, suitable for storage and transshipment of a single type of mineral.
+	Set up 2 exits that are only accessible to mining airships; no cargo is allowed to enter. This is not a general‑purpose warehouse, but a dedicated unloading platform exclusively for mining airships.
+* Thanks to Chinese player 你真俗，还看名(1029490594) for the reminder. Added a setting to block cross‑sea airships to prevent cross‑sea mining.
+* The mining airship will dock at the airship berth when refueling. A ground landing pad must be built first for unloading. It will not unload cargo to other buildings.
+& Custom flight‑control and navigation logic are used, so bugs may occur. Please report issues promptly and I will release updates in a timely manner.
+
+v0.7.3 | 2026-08-03
 * 根据Hoochie的建议!
 * 调整燃料管道口位置为同位置并行.
 * Per Hoochie's recommendation!
 * Adjust the fuel pipe openings to run parallel at the same location.
 
-V0.7.2 | 2026-08-03
+v0.7.2 | 2026-08-03
 * 分割燃油和氢气飞艇的模型.氢气飞艇使用单独的模型.
 * 单独设定氢气飞艇的飞控姿态调节和燃油飞艇数据匹配协调.
 * 修正氢气飞艇的寻路避障
@@ -14,11 +145,11 @@ V0.7.2 | 2026-08-03
 * Fix pathfinding and obstacle avoidance for hydrogen airships.
 * Correct the extreme values for invoking two sets of parameters to prevent invocation of negative IDs and    resolve a log error.
 
-V0.7.1 | 2026-07-28
+v0.7.1 | 2026-07-28
 * 删除占位状态界面,状态识别系统内置.
 * Remove the placeholder status interface; the status recognition system is built-in.
 
-V0.7.0 | 2026-07-28
+v0.7.0 | 2026-07-28
 * 社区玩家 Hoochie 等玩家不断提醒.
 * 添加更加繁琐的地形匹配代码.添加新的判断逻辑.
 * 新增 - 动态高度计算管理器
@@ -40,7 +171,7 @@ V0.7.0 | 2026-07-28
 * Fixed - Propeller control
 * Fixed - Airship docking management
 
-V0.6.0 | 2026-07-17
+v0.6.0 | 2026-07-17
 * 根据Denis和NightFury提供的建议
 * 1,现在用户可以根据自己喜好进行参数自定义,自己决定油料消耗,容量,污染等参数完全可以自定义.
 * 2,已经解决了氢气飞艇产生污染的问题.
@@ -49,12 +180,11 @@ V0.6.0 | 2026-07-17
 * Players can now customize parameters to their preference, including fuel consumption, tank capacity, pollution    output and other fully adjustable values.
 * The pollution generation issue of hydrogen airships has been resolved.
 * Tech tree rebalancing: Airship research is now locked behind heavy vehicle development. Airships can only be    unlocked after researching large vehicles.
-V0.5.0 | 2026-07-15
+v0.5.0 | 2026-07-15
 * 提高巡航高度,提高装卸速度.
 * 修正高度计算逻辑
 * 大量针对各种装卸逻辑的补充和修正.
 * 永久吐槽游戏的寻路系统,太烂了!各种bug头疼
-
 
 v0.2.1 | 2026-07-12
 * 添加了0.2.0缺失的飞艇停靠台预制体文件
