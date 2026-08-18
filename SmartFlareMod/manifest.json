@@ -1,6 +1,6 @@
 {
   "id": "SmartFlareMod",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "display_name": "Smart Flare Mod",
   "description_short": "Automatische Steuerung der Gasfackeln basierend auf dem Füllstand nahegelegener Speicher.",
   "description_long": "Diese Mod steuert Gasfackeln automatisch basierend auf dem Füllstand von Gas-Speichern in einem Radius von 6 Tiles. Die Fackel startet automatisch bei ≥90% Füllstand und pausiert bei ≤30% Füllstand. So wird Gas nur dann verbrannt, wenn die Speicher voll sind, und gespart, wenn sie leer laufen.",
@@ -10,5 +10,5 @@
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": true,
   "min_game_version": "0.8.6",
-  "max_verified_game_version": "0.8.6"
+  "max_verified_game_version": "0.8.7"
 }

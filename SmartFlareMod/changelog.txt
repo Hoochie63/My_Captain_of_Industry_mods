@@ -1,14 +1,4 @@
-Version 1.0.2 | 05.08.2026
-* Redesigned the tank area into independent selection and fixed-height status panels, with compact liquid, distance, and storage-size badges.
-* Added a clear localized status panel for tank selection and pipe-network connection.
-* The selected-tank area now shows liquid name, distance, storage size, and capacity.
-* Refined the threshold scale with labels every 20%, major tick marks every 10%, and minor tick marks every 5%.
-* Improved multi-line help-text alignment and renamed the storage-list button for clarity.
-* Replaced the threshold slider with a custom two-handle control so tick marks, percentages, and both grips use one exact shared scale.
-* Improved the panel help text and refined Russian storage-size grammar.
-* Fixed storage size labels: Small (200), Medium (500), Large (3,000), and Very Large (6,000).
-* Storage selection is now sorted by distance, with the nearest storage shown first.
-* Added in-game UI translations for every language currently shipped with Captain of Industry.
-* Smart Flare text now follows the language selected by the player.
-* Smart Flare settings now work with Captain of Industry's standard copy/paste settings tool and blueprints.
-* Copies the selected storage plus the minimum and maximum thresholds.
+Version 1.0.3 | 16.08.2026
+* Hovering a storage in the selection list now highlights that tank in the world with a pulsing outline.
+* The hover highlight is green for a shared pipe network and red when no shared pipe network exists.
+* Selecting a storage now gives a short green confirmation highlight.
