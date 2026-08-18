@@ -1,5 +1,18 @@
+v2.0.3 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
 v2.0.2 | 2026-07-29
-* Now supports game version 0.8.7.
+* Now supports game version 0.8.7a.
 * Users: new By group checkbox next to the search box — with it on, your search matches the group headings above the keybinds and shows every keybind under a matching heading, instead of searching keybind names, mod names and key combinations. Hover the checkbox to see what it does. Your choice is remembered. (thanks Mag for the idea)
 * Users: the second keybind now works at the same time as the first one. Before, it only did something if the first was cleared or clashed with another shortcut, so setting both looked like the second one was ignored. Now both fire, giving you two working shortcuts for the same action.
 * Users: the second keybind now also blocks the base game's shorter shortcut, the same way the first one always has. A second keybind of Ctrl + S no longer moves the camera backwards at the same time.

@@ -1,8 +1,6 @@
 {
   "to edit": "muutmiseks",
   "to clear": "tühjendamiseks",
-  "Apply all": "Rakenda kõik",
-  "Reset all to default": "Lähtesta kõik vaikeväärtusele",
   "Resets only the keybinds in this tab, not in other tabs.": "Lähtestab ainult selle vahelehe kiirklahvid, mitte teiste vahelehtede omi.",
   "Save all tabs": "Salvesta kõik vahelehed",
   "Reset all tabs to default": "Lähtesta kõik vahelehed vaikeväärtusele",
@@ -19,7 +17,6 @@
     "Install a mod that uses the Keybind Framework and its keybinds will appear here, each in its own sub-tab.": "Paigalda mod, mis kasutab Keybind Frameworki, ja selle kiirklahvid ilmuvad siia, igaüks oma alavahelehele.",
     "None": "Puudub",
     "Reset": "Lähtesta",
-    "Clear": "Eemalda",
     "Press a key...": "Vajuta klahvi...",
     "Primary conflicts with: {0}": "Esmane kiirklahv on vastuolus: {0}",
     "Secondary conflicts with: {0}": "Teisene kiirklahv on vastuolus: {0}",
@@ -27,7 +24,6 @@
     "Secondary": "Teisene",
     "General": "Üldteave",
     "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Teisene on kasutusel — sinu peamine otsetee ({0}) on vastuolus otseteega {1}.",
-    "Right-click a key field to reset it to default. Ctrl + right-click to clear it.": "Tee klahvivälja peal paremklõps, et see vaikeväärtusele lähtestada. Ctrl + paremklõps tühjendab selle.",
     "Search name or combo...": "Otsi nime või kombinatsiooni järgi...",
     "No keybinds match your search.": "Otsingule ei vastanud ükski kiirklahv.",
     "Resets only the keybinds currently shown by your search.": "Lähtestab ainult otsingu tulemusena praegu näidatud kiirklahvid.",
@@ -35,7 +31,6 @@
     "Sort by:": "Sorteeri:",
     "Alphabetical": "Tähestikuline",
     "Most keybinds": "Kõige rohkem kiirklahve",
-    "Conflicts first": "Konfliktid esimesena",
     "Customized first": "Kohandatud esimesena",
     "Unbound first": "Määramata esimesena",
     "Original order": "Algne järjestus",
@@ -51,6 +46,6 @@
     "Close the conflict list and go back to your tabs.": "Sulge konfliktide loend ja naase oma vahelehtede juurde.",
     "Click the X or press Escape to exit conflict check.": "Konfliktide kontrollist väljumiseks klõpsa X-il või vajuta Escape.",
     "Apply all to this tab": "Rakenda kõik sellele vahelehele",
-    "Vanilla": "Originaal",
+    "Vanilla": "Põhimäng",
     "Mod": "Mod"
 }
