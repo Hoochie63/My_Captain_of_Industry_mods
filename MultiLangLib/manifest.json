@@ -1,0 +1,15 @@
+{
+  "id": "MultiLangLib",
+  "version": "0.1.0",
+  "display_name": "MultiLangLib",
+  "description_short": "Shared translation library for Captain of Industry mods.",
+  "description_long": "Resolves namespaced translation keys from a mod's lang directory or MultiLangLib's central fallback directory.",
+  "authors": [ "MultiLangLib contributors" ],
+  "min_game_version": "0.8.6c",
+  "max_verified_game_version": "0.8.6c",
+  "primary_dlls": [ "MultiLangLib.dll" ],
+  "primary_mod_class_name": "MultiLangLibMod",
+  "non_locking_dll_load": false,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}
