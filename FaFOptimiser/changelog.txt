@@ -1,7 +1,35 @@
+v0.3.2 | 2026-08-18
+FIXED: The Optimizer solver sometimes failed to find an appropriate farm configuration for large settlements.
+FIXED: The Optimizer struggled to find configurations when a dominant crop's demand was more than twice as high as the next highest crop.
+IMPROVED: General under-the-hood code optimizations for better solver performance.
+
+v0.3.1 | 2026-08-15
+* NEW: Added a dedicated Farm Selection window, allowing players to individually select or exclude specific built farms from the optimizer's scope.
+* IMPROVED: Implemented logistics-standard color coding (Blue for inbound/imports, Orange for outbound/exports) in inputs and tooltips for better readability and colorblind accessibility.
+* IMPROVED: Adjusted UI icon scaling and centering for improved button clarity across the new panels.
+* FIXED: Resolved a bug where certain crops (like Soybeans and Fruits) incorrectly showed 0 monthly yield due to internal game naming mismatches.
+* LOCALIZATION: Added all missing translation strings for the new Production and Settlement panels, updating the English, Russian, and Simplified Chinese language files.
+
+v0.3.0 | 2026-08-12
+Settlement & Real Farm Production
+
+* NEW: Integrated Settlement management with population control and dedicated settlement food demand tracking.
+* NEW: Added live infrastructure scanning to read built farm configurations and real-time crop production.
+* NEW: Added real-time comparison between actual farm production and live crop demands.
+* NEW: Added sandbox mode via a production toggle allowing players to disconnect settlement demands and freely optimize farms for custom production.
+* NEW: Added manual product and crop demand additions with instant UI responsiveness.
+* NEW: Added support for external supply configuration (imports and exports) for food, production, and crops.
+* IMPROVED: Clear and intuitive user interface layouts with tight spacing and grouped controls.
+* IMPROVED: Optimized settlement food consumption to only recalculate when food items are explicitly added or modified in the Settlement panel, improving UI responsiveness.
+* IMPROVED: Switched production method selection to utilize direct recipe inspection rather than abstract production chains, complete with visual machinery and I/O rates.
+* IMPROVED: Enhanced utilization of production byproducts (such as animal feed) flowing back into secondary production chains.
+* IMPROVED: Optimizer results and crop balances now update dynamically in real time when production or demand settings are altered.
+* IMPROVED: Minor solver adjustments for alternative production methods and balanced crop overproduction.
+
 v0.2.1 | 2026-08-02
-*IMPROVED: Minor solver adjustments for balanced crop overproduction.
-*IMPROVED: Optimizer results remain stable with excess farms.
-*Ensured game v0.8.6c compatibility.
+* IMPROVED: Minor solver adjustments for balanced crop overproduction.
+* IMPROVED: Optimizer results remain stable with excess farms.
+* Ensured game v0.8.6c compatibility.
 
 v0.2.0 | 2026-07-27
 Livestock & Co-Production Engine

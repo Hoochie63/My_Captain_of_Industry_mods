@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.66f1
-CRC: 2006774398
+CRC: 1906324878
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2641993d0c0c9a3fd177ab93cbdae441
+    Hash: 0baf9ae8e021149afd0d291b69c06480
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5527383dc91eba37123fc67ad6efaa19
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c92820a1a17c265ec4143091eb3b705e
+    Hash: d213d3a1b45c124bfad65ad22a43da4a
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -19,7 +19,9 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/FaFoptimiser/target.png
 - Assets/FaFoptimiser/checkmark-16.png
+- Assets/FaFoptimiser/plus-minus-small.png
 - Assets/FaFoptimiser/target3.png
 - Assets/FaFoptimiser/cog1.png
 - Assets/FaFoptimiser/target1.png
+- Assets/FaFoptimiser/add-button-green.png
 Dependencies: []
