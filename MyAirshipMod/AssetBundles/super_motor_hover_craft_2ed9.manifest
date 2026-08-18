@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.50f1
+CRC: 3010450464
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a25c83247a01cb2c8f4a084990771d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1da930f7aba98f1ad0fa7c7983241637
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8b5cb7fab6f2ae859f3b74dcd30a1cc2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FGWY_FF/super_motor_hover_craft.prefab
+Dependencies: []

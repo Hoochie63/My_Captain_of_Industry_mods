@@ -1,3 +1,13 @@
+v0.8.1 | 2026-08-18
+* 加入对分拣机的支持,没有地面停机坪时,自动找寻附近的分拣厂卸货
+* 使用新的模型应用于挖掘飞艇.
+* 修正了相关动画和下降高度和速度等问题.
+* 修复了其他几个bug
+* Added support for sorters; automatically find nearby sorting plants for unloading when no ground landing pad is available
+* Applied the new model to mining airships.
+* Fixed issues with related animations, descent height, speed and other problems.
+* Fixed several other bugs
+
 v0.8.0 | 2026-08-17
 * 感谢中国玩家 五毛辣条(523004259) 反馈的bug.
 * 修复：OverclockingMod 共存时 4 缓冲区不显示（核心修复）
