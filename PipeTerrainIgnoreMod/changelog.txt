@@ -1,0 +1,319 @@
+1.2.0
+- Ein Kompatibilitaetsfehler mit Mods, die Harmony 2.3 oder 2.4 vor diesem
+  Mod laden, wurde behoben. Die bisherige private Methodenanbindung konnte
+  dann mit "method arguments are incompatible" fehlschlagen und anschliessend
+  die gesamte Transport-Baueingabe unterbrechen. Das erklaerte unsichtbare
+  Rohr- und Foerdertransportvorschauen sowie blockierte Gebaeudeanschluesse.
+- Die Hoehendaten-Anbindung verwendet nun die versionsstabile .NET-Delegate-
+  API und wird erst beim tatsaechlichen Pruefen eines unterirdischen Rohres
+  initialisiert. Normale Transporte und Anschluesse bleiben dadurch selbst
+  bei einer kuenftigen Inkompatibilitaet unbeeinflusst. Der komplette
+  Patch-Satz wurde mit Harmony 2.2.2, 2.3.3, 2.3.5, 2.3.6 und 2.4.2 getestet.
+- Das im Abrisswerkzeug direkt anvisierte unterirdische Rohrsegment erhaelt
+  jetzt ein abwechselnd dunkelrot-oranges Koerpermuster. Das Rot wurde
+  deutlich abgedunkelt. Orange Abschnitte und Richtungspfeile uebernehmen den
+  echten, prototypespezifischen Hoehenversatz des Rohrmodells, umschliessen
+  den Rohrkoerper und liegen nicht mehr sichtbar unter der Rohrstrecke.
+- Geplante und noch nicht fertiggestellte Rohre, Rohrverbinder und
+  Rohr-Ausgleicher verwenden in den Untergrundansichten jetzt ein
+  halbtransparentes Grau. Unfertige Rohrstrecken tragen zusaetzlich eine
+  statische dunkelweisse Strichmarkierung und behalten die animierten
+  Richtungspfeile, damit auch vor der Fertigstellung die spaetere
+  Flussrichtung erkennbar ist. Fertige leere Rohre bleiben cyan; fertige
+  benutzte Rohre behalten weiterhin die Farbe ihrer letzten Fluessigkeit.
+- Waehrend Rohrbau, Verbinderbau, Abriss und dauerhafter Untergrundansicht
+  wird das Netz alle 4 bis 5 Bilder statt alle 20 Bilder synchronisiert.
+  Automatisch erzeugte Anschluesse erscheinen dadurch nahezu sofort, ohne
+  die teure Netzpruefung in jedem einzelnen Bild auszufuehren.
+- Automatisch erzeugte kleine Rohrverbinder koennen das vorhandene Rohr in
+  einen gueltigen Transportabschnitt mit nur einem Wegpunkt aufteilen. Diese
+  kurzen Anschlussstuecke erhalten nun eine eigene Roentgengeometrie und
+  bleiben in Bau-, Dauer- und Abrissansicht sichtbar.
+- Der aktive Tiefenknopf verwendet nun den echten Toggle-Gruppenstil des
+  Spiels und ist dadurch deutlich als ausgewaehlt erkennbar.
+- Die zuvor sehr kraeftige rote Tiefenfarbe wurde durch ein helles Blau
+  ersetzt. So bleibt die originale feine rote Abrisskontur des Spiels auf dem
+  ausgewaehlten Rohr klar sichtbar.
+- Beim Wechsel der Tiefe wird die Roentgenansicht ohne vorheriges Leeren
+  ausgetauscht. Geaenderte Rohrgeometrie wird ueberwacht und das letzte
+  gueltige Modell bleibt stehen, falls Unity einen Ersatz erst im naechsten
+  Bild erzeugen kann. Das verhindert kurzzeitig ungefaerbte Rohrteile.
+- Die Abrissrahmen-Auswahl wird nach jedem Tiefenwechsel und nochmals direkt
+  vor dem Erzeugen der Befehle neu berechnet. Eine alte Auswahl aus "Alle"
+  kann dadurch keine Gebaeude oder andere Transportebenen in einen
+  tiefengefilterten Abriss uebernehmen.
+- Das normale Abrisswerkzeug besitzt jetzt die Tiefensegmente "Alle" sowie
+  -1 bis -6. Bei einer ausgewaehlten Tiefe koennen nur unterirdische
+  Fluessigkeitsrohre, Rohrverbinder und Rohr-Ausgleicher dieser Ebene
+  ausgewaehlt werden; Gebaeude, Baeume und andere Transporte bleiben sicher
+  ausserhalb der Abrissliste.
+- Der Filter gilt fuer einzelne Ziele und den roten Abrissrahmen. Auch wenn
+  ein Rahmen einen vollstaendigen Rohrstrang umfasst, werden nur die exakten
+  Teilstrecken der gewaehlten Tiefe zum Abriss vorgemerkt.
+- Rohrabschnitte der aktiven Tiefe werden in der Untergrundansicht hellblau
+  hervorgehoben. Andere vergrabene Rohre bleiben gedimmt sichtbar, damit der
+  Netzverlauf und kreuzende Ebenen weiterhin erkennbar sind.
+- Titel und "Alle"-Schaltflaeche des Tiefenfilters sind in alle 20
+  unterstuetzten Spielsprachen uebersetzt.
+
+1.1.0
+- Der hervorgehobene Begriff "unterirdische Fluessigkeitsrohre" wird in den
+  Kopier- und Abrissfragen jetzt zusaetzlich auf 120 Prozent vergroessert und
+  in einem warmen Goldton dargestellt. Dadurch hebt er sich auf dem dunklen
+  Spielfenster deutlich ab, ohne wie eine Fehlermeldung zu wirken.
+- Die Gestaltung wird zentral angewendet und ist deshalb in allen 20
+  Uebersetzungen identisch.
+- Die Sicherheitsfragen fuer Kopieren und Abriss nennen jetzt ausdruecklich
+  "unterirdische Fluessigkeitsrohre" und heben diesen Begriff fett hervor.
+- Der anschliessende Satz fragt eindeutig nach "diesen Rohren". Die
+  Praezisierung wurde in alle 20 unterstuetzten Spielsprachen uebernommen.
+- Das Bereichs-Kopierwerkzeug erkennt jetzt gemischte Auswahlen aus Gebaeuden
+  und unterirdischen Fluessigkeitsrohren. Vor dem Erzeugen der Blaupause
+  erscheint eine Abfrage mit "Ja" und "Nein", ob die Rohre mitkopiert werden
+  sollen.
+- Die exakte Kopierauswahl wird waehrend der Abfrage als Schnappschuss
+  festgehalten und die Simulation pausiert. "Nein" filtert nur unterirdische
+  Rohrtransporte, Teilabschnitte, Rohrverbinder und Rohr-Ausgleicher; alle
+  anderen Objekte, Oberflaechen und Decals bleiben in der Kopie.
+- Eine Auswahl, die ausschliesslich unterirdische Rohre enthaelt, wird ohne
+  Nachfrage kopiert. Das Ausschneiden-Werkzeug bleibt unveraendert.
+- Titel, Fragetext und Ja/Nein-Schaltflaechen sind fuer alle 20 von Captain of
+  Industry 0.8.7 angebotenen Sprachen uebersetzt.
+
+1.0.0
+- Erste stabile Vollversion nach den erfolgreichen Praxistests aller
+  Kernfunktionen: unterirdischer Rohrbau bis -6, Verbinder und Ausgleicher,
+  Roentgenansicht, Fluessigkeitsfarben, Richtungspfeile, Abrissschutz,
+  Abbauwarnungen, Uebersetzungen und dauerhafter Werkzeugschalter.
+- Ein letzter Lebenszyklusfehler der Abbauwarnung wurde behoben. Wenn der
+  Eingabecontroller noch ein Abschlussbild verarbeitet, nachdem sein
+  Gelaendecursor bereits deaktiviert wurde, wird die Warnung nun sauber
+  beendet. Dadurch entsteht kein "Terrain cursor was not activated"-Assert
+  mehr.
+- Der Funktionsumfang ist fuer 1.0 bewusst abgeschlossen. Gebaeude duerfen
+  weiterhin ohne Warnung ueber unterirdischen Rohren errichtet werden.
+
+0.7.17
+- Ein neuer Schalter mit dem originalen Roentgen-Symbol wurde unten in die
+  linke Werkzeugleiste eingefuegt. Er zeigt oder verbirgt alle fertigen
+  unterirdischen Fluessigkeitsrohre, Verbinder und Ausgleicher unabhaengig
+  vom aktuell verwendeten Werkzeug.
+- Beim Absenken eines Rohres erscheint am Mauszeiger die aktuelle relative
+  Tiefe, zum Beispiel "Tiefe: -4". Schaltername und Tiefenanzeige sind fuer
+  alle von Captain of Industry 0.8.7 angebotenen Sprachen uebersetzt.
+- Die Roentgenmaterialien und gespeicherten Fluessigkeitsfarben sind etwas
+  deckender. Dadurch bleibt der Rohrverlauf unter Gebaeuden deutlicher
+  sichtbar; Geschwindigkeit und Animation der Richtungspfeile bleiben
+  unveraendert.
+- Das Bauen von Gebaeuden ueber unterirdischen Rohren bleibt bewusst ohne
+  Warnung oder Sperre.
+
+0.7.16
+- Die Vanilla-Abstandspruefung fuer Mini-Verteiler wird ausschliesslich bei
+  unterirdischen Fluessigkeitsrohren gelockert. Dadurch kann die automatische
+  Rohrtrennung und Verbindung auch direkt neben einem vorhandenen
+  Rohrverbinder angelegt werden.
+- Die Vorschau meldet an diesem gueltigen Anschluss nicht mehr faelschlich
+  einen durch das Nachbarobjekt gesperrten Port. Nach dem Bau bleibt kein
+  unsichtbar weiterlaufendes, ungetrenntes Rohr unter dem neuen Verteiler.
+- Oberirdische Verbinder sowie alle Verteiler anderer Transportarten behalten
+  die originalen Abstands- und Kollisionsregeln.
+
+0.7.15
+- Ein leer gelaufenes Rohr behaelt jetzt die Farbe der zuletzt transportierten
+  Fluessigkeit. Die Farbe wechselt erst, wenn ein anderes Medium in das Rohr
+  gelangt.
+- Noch nie verwendete, leere Rohre verwenden weiterhin die cyanfarbene
+  Standarddarstellung.
+
+0.7.14
+- Fertige unterirdische Rohre uebernehmen beim Rohrbau und beim Platzieren
+  eines Verbinders automatisch die aktuelle Transportfarbe ihrer Fluessigkeit.
+- Leere Rohre bleiben cyan. Abriss- und Abbauwarnungen behalten bewusst ihre
+  gelb-orange Warnfarbe, die Richtungspfeile bleiben weiss.
+- Die Spiel-Farben werden leicht gebuendelt, damit laufende Farbuebergaenge
+  nicht unnoetig viele Unity-Materialien erzeugen.
+
+0.7.13
+- Vorschaubild auf ein kompaktes quadratisches Format mit 256x256 Pixeln
+  verkleinert. Dadurch sinkt die Dateigroesse von etwa 2,5 MB auf rund 160 KB.
+
+0.7.12
+- Englisches Vorschaubild "UNDERGROUND PIPES" als thumbnail.png zum
+  Installationspaket hinzugefuegt.
+
+0.7.11
+- Alle sichtbaren Texte des Abrissfensters und der Untergrundwarnungen folgen
+  jetzt automatisch der im Spiel gewaehlten Sprache.
+- Uebersetzungen fuer alle mit Captain of Industry 0.8.7 ausgelieferten
+  Sprachen hinzugefuegt. Nicht erkannte Sprachen verwenden Englisch.
+
+0.7.10
+- "Alles abreissen" verwendet nun wie "Rohre ignorieren" den normalen
+  sichtbaren Button-Stil. Zuvor erzeugte eine leere ButtonVariant nur
+  anklickbaren Text ohne erkennbaren Schaltflaechen-Hintergrund.
+
+0.7.9
+- Abschlussbereinigung nach dem erfolgreichen Praxistest von 0.7.8.
+- Der alte Deactivate-Schutz des Abriss-Handlers wurde entfernt. Seit der
+  Abrissrahmen beim Oeffnen der Abfrage fest vom Werkzeug getrennt wird, wird
+  dieser Patch nicht mehr ausgefuehrt und ist nicht mehr erforderlich.
+- Nicht verwendete Namespaces sowie die PDB-Debugdatei im Installationspaket
+  wurden entfernt. Quellcode, Shaderquelle und Harmony-Test bleiben fuer
+  spaetere Spielupdates erhalten.
+
+0.7.8
+- Sobald die Sicherheitsabfrage erscheint, wird der rote Abrissrahmen vom
+  aktiven Werkzeug getrennt und dadurch an seiner urspruenglichen Position
+  eingefroren. Mausbewegungen koennen weder den sichtbaren Rahmen noch die
+  gespeicherte Abrissliste veraendern.
+- Nach Auswahl oder Abbruch wird der eingefrorene Handler sauber beendet. Das
+  entfernt zugleich die interne Warnung, dass noch ein Abriss-Handler aktiv
+  sei, obwohl die Entscheidung bereits verarbeitet wurde.
+
+0.7.7
+- Die Sicherheitsabfrage greift nun direkt vor dem AreaRemovalHandler, bevor
+  dieser irgendeinen Simulations- oder Sofortabrissbefehl erzeugt. Damit kann
+  der Abriss auch in einem neuen Spielstand nicht mehr vor der Entscheidung
+  beginnen.
+- Die vollstaendige Auswahl des roten Abrissrahmens bleibt bis zum Klick auf
+  einen der beiden Buttons erhalten. Erst danach erzeugt das Spiel seine
+  Abrissliste.
+- "Rohre ignorieren" filtert nun auch Teiltransporte, Schnellabrissbefehle und
+  Bauabschlussbefehle unfertiger unterirdischer Rohre. Gebaeude, Baeume und
+  andere ausgewaehlte Ziele bleiben in der Abrissliste.
+- Zusaetzliche Logeintraege nennen fuer jeden Abrissrahmen die Anzahl normaler
+  Objekte, Teiltransporte, Baeume, unterirdischer Rohre und anderer Ziele.
+
+0.7.6
+- Die Abrissauswahl wird erst im naechsten Bild geoeffnet. Dadurch kann der
+  Maus-loslassen-Impuls des Abrissrahmens nicht mehr sofort eine Schaltflaeche
+  im neu geoeffneten Fenster ausloesen.
+- Solange "Alles abreissen" oder "Rohre ignorieren" noch nicht ausgewaehlt
+  wurde, wird die Simulation pausiert. Nach der Entscheidung wird nur dann
+  fortgesetzt, wenn das Spiel zuvor nicht bereits pausiert war.
+- Der aktive Abriss-Handler wird vor dem spaeteren Senden der ausgewaehlten
+  Befehle beendet. Das verhindert die Assertion, dass trotz ausstehender
+  Abrissbefehle noch ein Entfernungs-Handler aktiv ist.
+
+0.7.5
+- Die Abriss-Sicherheitsabfrage wertet nun den gesamten roten Abrissrahmen aus.
+  Sie erscheint nur, wenn die Auswahl sowohl andere Gebaeude als auch
+  unterirdische Fluessigkeitsrohre oder Rohrverteiler enthaelt.
+- Die neue Auswahl bietet "Alles abreissen" und "Rohre ignorieren". Beim
+  Ignorieren werden alle uebrigen ausgewaehlten Gebaeude abgerissen, die
+  unterirdischen Fluessigkeitsrohre und Verteiler bleiben jedoch erhalten.
+- Einzeln angeklickte unterirdische Rohre werden absichtlich ohne Nachfrage
+  abgerissen.
+- Beim Platzieren eines einzelnen Rohrverbinders oder Rohr-Ausgleichers werden
+  bereits gebaute unterirdische Rohre und Verteiler nun ebenfalls eingeblendet.
+
+0.7.4
+- Die Warnung des roten Abbau-/Entfernungsrahmens verwendet nun dessen
+  tatsaechlichen Startpunkt und die aktuelle Cursorposition. Dadurch werden
+  unterirdische Fluessigkeitsrohre auch beim Entfernen einer Flaeche erkannt.
+- Ein eigenes Mauszeiger-UI verhindert, dass die Spielvorschau die Warnung im
+  selben Bild wieder ueberschreibt.
+- Die Flaechenpruefung aktiviert sich direkt ueber InputUpdate und funktioniert
+  damit auch bei UI-Einstiegen, die den geerbten Activate-Aufruf umgehen.
+
+0.7.3
+- Spielstart unter der Mono-Laufzeit repariert: Der private Zustands-Enum des
+  Abbaucontrollers wird nicht mehr als Harmony-Feldparameter uebergeben. Diese
+  Konvertierung erzeugte in Version 0.7.2 ungueltigen IL-Code.
+- Die Flaechenwarnung verwendet weiterhin den roten Auswahlrahmen und die
+  bereits vorhandene Aenderungsmarkierung des Abbauwerkzeugs.
+
+0.7.2
+- Die Untergrundwarnung ist nun auch mit dem gelben Abbaugebiets-Editor des
+  Minenturms verbunden. Version 0.7.1 erfasste nur das normale
+  Gelaende-Abbauwerkzeug.
+- Die Warnung prueft die gesamte aktuell bearbeitete Minenturm-Flaeche und
+  erscheint am Mauszeiger, sobald diese ein unterirdisches Fluessigkeitsrohr
+  oder einen unterirdischen Rohrverteiler kreuzt.
+- Auch der rote rechteckige Auswahlrahmen des normalen Abbauwerkzeugs wird als
+  ganze Flaeche geprueft; der Mauszeiger muss nicht mehr direkt auf dem Rohr
+  liegen.
+- Der gemeinsam genutzte Gebietscontroller unterscheidet Minentuerme von
+  Logistikzonen; Logistikzonen erhalten weder Warnung noch Rohr-Roentgenansicht.
+
+0.7.1
+- Die Freigabe fuer Verbinder nutzt nun ausschliesslich die exakten Spiel-IDs
+  des Fluessigkeits-Rohrverbinders und des 2x2-Rohr-Ausgleichers. Verteiler
+  fuer Foerderbaender und andere Transportarten bleiben garantiert unberuehrt.
+- Der grosse 2x2-Rohr-Ausgleicher darf bei der einzelnen Fehlermeldung
+  "Gelaende zu hoch" vollstaendig unterirdisch gebaut werden. Alle anderen
+  Bau-, Ozean-, Sperrgebiets- und Kollisionspruefungen bleiben aktiv.
+- Vor dem Abriss unterirdischer Fluessigkeitsrohre und ihrer Verteiler wird
+  nahe dem Mauszeiger eine Sicherheitsabfrage mit Bestaetigen/Abbrechen
+  angezeigt. Abbrechen schickt keinen Abrissbefehl an die Simulation.
+- Das Abbauwerkzeug zeigt unterirdische Fluessigkeitsrohre orange an und warnt
+  am Mauszeiger, sobald der Geländecursor ein solches Rohr kreuzt.
+
+0.7.0
+- Maximale Bautiefe fuer Rohre von -3 auf -6 erweitert.
+- Rohrverbinder und Rohr-Ausgleicher koennen nun ebenfalls einzeln unter dem
+  Gelaende platziert werden.
+- Blaupausen und fertig gebaute unterirdische Rohrverbinder/Ausgleicher
+  erhalten die Roentgenansicht beim Rohrbau und mit dem Abrisswerkzeug.
+- Die Roentgenkopie grosser 2x2-Ausgleicher enthaelt ausschliesslich sichtbare
+  Meshes; ihre Kamera und alle Funktionskomponenten werden nicht kopiert.
+- Die Geländefreigabe ist auf belegte Vertices unterhalb der jeweiligen
+  lokalen Oberflaeche begrenzt; Ozean- und Sperrgebietpruefungen bleiben aktiv.
+
+0.6.3
+- Ein Rechtsklick beendet die Untergrundanzeige des Abrisswerkzeugs jetzt
+  auch dann, wenn die aktive Abrissroutine den Abbruch selbst verarbeitet und
+  der Controller deshalb nicht deaktiviert wird.
+- Nicht unterstuetzte originale Flussanzeigen wurden aus den kuenstlichen
+  Vorschau-Modellen entfernt; dadurch sind die Rohrlinien wieder durchgehend.
+- Eigene bewegte Roentgenpfeile zeigen nun stabil die Flussrichtung an.
+
+0.6.2
+- Absturz/Assertion beim Aktivieren des Abrisswerkzeugs behoben: Modelle mit
+  Richtungspfeilen werden nicht mehr als unzulaessiges Einzelmesh erzeugt.
+- Der Rueckgabewert von InputUpdate wird nicht mehr als True/False-Zustand des
+  Werkzeugs interpretiert; Activate und Deactivate steuern die Anzeige.
+- Fehler der optionalen Untergrundanzeige koennen den Zustand des
+  Abrisswerkzeugs nicht mehr unterbrechen.
+
+0.6.1
+- Ein Rechtsklick, der das Abrisswerkzeug beendet, entfernt die unterirdische
+  Warnansicht jetzt sofort, auch wenn Deactivate nicht aufgerufen wird.
+- Die Richtungspfeile behalten ihr originales Material und damit Textur und
+  Animation; nur Tiefentest und Renderreihenfolge werden fuer die
+  Untergrundsicht angepasst.
+
+0.6.0
+- Die unterirdische Roentgenansicht verwendet die originalen Richtungspfeile
+  des Spiels und zeigt sie hell durch das Gelaende hindurch an.
+- Beim aktiven Abrisswerkzeug werden vergrabene Rohre als gelb-orange
+  Warnansicht eingeblendet und laufend aktualisiert.
+- Die Abrissansicht wird beim Verlassen des Werkzeugs vollstaendig entfernt.
+
+0.5.0
+- Die Roentgenansicht wird als separates Mesh nur fuer vergrabene Abschnitte
+  erzeugt; oberirdische Vorschauabschnitte behalten ihr normales Material.
+- Bereits gebaute unterirdische Rohre sind beim Verlegen weiterer Rohre
+  ebenfalls sichtbar.
+- Temporaere Anzeigen werden beim Verlassen des Rohr-Bauwerkzeugs entfernt.
+
+0.4.0
+- Unterirdische Rohr-Blaupausen bleiben durch das Gelaende sichtbar.
+- Die Roentgenvorschau wird nur auf vergrabene Rohrabschnitte angewendet.
+- Fertige Rohre und Blaupausen anderer Transporte bleiben unveraendert.
+
+0.3.0
+- Die Blaupausenberechnung hebt unterirdische Rohrpositionen nicht mehr
+  automatisch auf die kollisionsfreie Gelaendehoehe an.
+- Die Korrektur gilt weiterhin ausschliesslich fuer Rohrtransporte.
+
+0.2.0
+- Die Abwaertssteuerung fuer Rohre reicht jetzt bis relative Hoehe -3.
+- Andere Transporte behalten die Vanilla-Untergrenze 0.
+
+0.1.0
+- Erste Version.
+- Geländekollision fuer Rohrtransporte in Wegsuche und Baupruefung entfernt.
+- Vergrabene Rohrabschnitte werden durch das umgebende Gelaende getragen.
+- Oberirdische Pfeilerregeln und alle Nicht-Rohr-Transporte bleiben unveraendert.
