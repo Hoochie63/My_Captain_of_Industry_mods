@@ -1,5 +1,34 @@
+v1.1.7 | 2026-08-16
+* Fixed a conflict that broke Airship mod's extra panels in Ground Helipad building window. (thanks warrenc for the report)
+
+v1.1.6 | 2026-08-16
+* New button on the world map hides transit lines that cross other lines, so the map reads cleaner (thanks rgreat for the suggestion).
+
+  - Ships will not use the hidden lines either, so they only travel along the lines you can see.
+
+  - Lines that are the only way to reach a location are always kept, so nowhere becomes unreachable.
+
+  - The button remembers its setting for each save, and turning it off puts every line back.
+
+* The village you start next to is now the trading village the early goals ask for, so you can buy concrete slabs for iron right away (thanks rgreat for the report).
+
+* Opening the world map for the first time now always starts centred on your home island instead of empty ocean.
+
+v1.1.5 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
 v1.1.4 | 2026-07-29
-* Now supports game version 0.8.7.
+* Now supports game version 0.8.7a.
 * Added support for 13 more languages — Catalan, Czech, Dutch, Estonian, French, Hungarian, Japanese, Korean, Norwegian, Polish, Swedish, Traditional Chinese and Turkish. WorldGen++ now supports every language the base game does.
 
 v1.1.3 | 2026-07-29

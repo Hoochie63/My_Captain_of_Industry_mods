@@ -1,13 +1,12 @@
 {
   "WorldGen": "Generowanie świata",
+  "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "Ukrywa linie tranzytowe, które przecinają inne linie, i uniemożliwia statkom korzystanie z nich. Linie potrzebne do dotarcia do lokacji są zawsze zachowywane.",
   "Enable Custom WorldGen": "Włącz własne generowanie świata",
   "World Shape": "Kształt świata",
   "Entities": "Obiekty",
   "Hostiles": "Wrogowie",
   "Mines & Rigs Selection": "Wybór kopalń i wiertnic",
   "Randomize": "Losuj",
-  "Preset": "Preset",
-  "Pick a preset to quickly set all values. You can still adjust individual settings after.": "Wybierz preset, aby szybko ustawić wszystkie wartości. Poszczególne ustawienia możesz potem nadal zmieniać.",
   "Map Preview": "Podgląd mapy",
   "Show Preview": "Pokaż podgląd",
   "This will spoil the map! Are you sure?": "To zdradzi zawartość mapy! Na pewno?",
@@ -24,20 +23,15 @@
 
   "World Size": "Rozmiar świata",
   "Max Nodes": "Maks. węzłów",
-  "Node Connections": "Połączenia węzłów",
   "Mines & Rigs": "Kopalnie i wiertnice",
   "Cargo Ship Wrecks": "Wraki statków towarowych",
   "Treasure Nodes": "Węzły ze skarbami",
-  "Max Villages": "Maks. wiosek",
   "Loot Multiplier": "Mnożnik łupów",
   "Max Pirates": "Maks. piratów",
 
   "Few": "Mało",
   "Normal": "Normalnie",
   "Many": "Dużo",
-  "Greedisgood": "Greedisgood",
-  "Hard": "Trudny",
-  "Please hurt me": "Proszę, zrób mi krzywdę",
 
   "Home": "Dom",
   "Village": "Wioska",
@@ -49,11 +43,9 @@
 
   "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "Jak duża jest mapa świata. Większa = więcej miejsca na węzły. Standard: 4096",
   "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70": "Łączna liczba lokacji na mapie świata. Więcej = gęstsza mapa z węzłami na zewnętrznym pierścieniu. Zakres zależy od rozmiaru świata. Standard: 70",
-  "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal": "Ile połączeń ma każdy węzeł z pobliskimi węzłami. Więcej połączeń = krótsze trasy. Standard: Normalnie",
   "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "Łączna liczba kopalń i platform wiertniczych na mapie. Maks.: {0}. Standard: 18",
   "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "Wraki statków do odkrycia, które odblokowują technologię statków towarowych. Maks.: {0}. Standard: 4",
   "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "Lokacje z dodatkowymi łupami, zawsze strzeżone przez piratów. Maks.: {0}. Standard: 10",
-  "Trading settlements on the map. Max: {0}. Vanilla: 8": "Osady handlowe na mapie. Maks.: {0}. Standard: 8",
   "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Zwielokrotnia ilość surowców znajdowanych w lokacjach. Standard: 1.0x",
   "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "Łączna liczba spotkań z piratami na mapie. Maks.: {0}. Standard: ~35",
 

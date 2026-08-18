@@ -1,13 +1,12 @@
 {
   "WorldGen": "WorldGen",
+  "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.",
   "Enable Custom WorldGen": "Enable Custom WorldGen",
   "World Shape": "World Shape",
   "Entities": "Entities",
   "Hostiles": "Hostiles",
   "Mines & Rigs Selection": "Mines & Rigs Selection",
   "Randomize": "Randomize",
-  "Preset": "Preset",
-  "Pick a preset to quickly set all values. You can still adjust individual settings after.": "Pick a preset to quickly set all values. You can still adjust individual settings after.",
   "Map Preview": "Map Preview",
   "Show Preview": "Show Preview",
   "This will spoil the map! Are you sure?": "This will spoil the map! Are you sure?",
@@ -24,20 +23,15 @@
 
   "World Size": "World Size",
   "Max Nodes": "Max Nodes",
-  "Node Connections": "Node Connections",
   "Mines & Rigs": "Mines & Rigs",
   "Cargo Ship Wrecks": "Cargo Ship Wrecks",
   "Treasure Nodes": "Treasure Nodes",
-  "Max Villages": "Max Villages",
   "Loot Multiplier": "Loot Multiplier",
   "Max Pirates": "Max Pirates",
 
   "Few": "Few",
   "Normal": "Normal",
   "Many": "Many",
-  "Greedisgood": "Greedisgood",
-  "Hard": "Hard",
-  "Please hurt me": "Please hurt me",
 
   "Home": "Home",
   "Village": "Village",
@@ -49,11 +43,9 @@
 
   "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "How big the world map is. Larger = more room for nodes. Vanilla: 4096",
   "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70": "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70",
-  "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal": "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal",
   "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18",
   "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4",
   "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10",
-  "Trading settlements on the map. Max: {0}. Vanilla: 8": "Trading settlements on the map. Max: {0}. Vanilla: 8",
   "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Multiplies the amount of resources found at locations. Vanilla: 1.0x",
   "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "Total pirate encounters on the map. Max: {0}. Vanilla: ~35",
 

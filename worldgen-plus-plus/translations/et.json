@@ -1,13 +1,12 @@
 {
   "WorldGen": "WorldGen",
+  "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "Peidab ühendusjooned, mis ristuvad teiste joontega, ja takistab laevadel neid kasutada. Asukohani jõudmiseks vajalikud jooned säilivad alati.",
   "Enable Custom WorldGen": "Luba kohandatud WorldGen",
   "World Shape": "Maailma kuju",
   "Entities": "Objektid",
   "Hostiles": "Vaenlased",
   "Mines & Rigs Selection": "Kaevanduste ja puurplatvormide valik",
   "Randomize": "Juhusta",
-  "Preset": "Eelseadistus",
-  "Pick a preset to quickly set all values. You can still adjust individual settings after.": "Vali eelseadistus, et kiiresti kõik väärtused määrata. Hiljem saad üksikuid seadeid ikka kohandada.",
   "Map Preview": "Kaardi eelvaade",
   "Show Preview": "Näita eelvaadet",
   "This will spoil the map! Are you sure?": "See rikub kaardi üllatuse ära! Oled kindel?",
@@ -24,20 +23,15 @@
 
   "World Size": "Maailma suurus",
   "Max Nodes": "Sõlmede maksimum",
-  "Node Connections": "Sõlmede ühendused",
   "Mines & Rigs": "Kaevandused ja puurplatvormid",
   "Cargo Ship Wrecks": "Kaubalaevavrakid",
   "Treasure Nodes": "Aardesõlmed",
-  "Max Villages": "Külade maksimum",
   "Loot Multiplier": "Saagi kordaja",
   "Max Pirates": "Piraatide maksimum",
 
   "Few": "Vähe",
   "Normal": "Tavaline",
   "Many": "Palju",
-  "Greedisgood": "Greedisgood",
-  "Hard": "Raske",
-  "Please hurt me": "Palun tee mulle haiget",
 
   "Home": "Kodu",
   "Village": "Küla",
@@ -49,11 +43,9 @@
 
   "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "Kui suur on maailmakaart. Suurem = rohkem ruumi sõlmedele. Põhimäng: 4096",
   "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70": "Asukohtade koguarv maailmakaardil. Suurem = tihedam kaart koos välisrõnga sõlmedega. Vahemik sõltub maailma suurusest. Põhimäng: 70",
-  "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal": "Mitu ühendust igal sõlmel lähedaste sõlmedega on. Rohkem ühendusi = lühemad marsruudid. Põhimäng: Tavaline",
   "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "Kaevanduste ja naftaplatvormide koguarv kaardil. Maksimum: {0}. Põhimäng: 18",
   "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "Avastatavad laevavrakid, mis avavad kaubalaevatehnoloogia. Maksimum: {0}. Põhimäng: 4",
   "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "Lisasaagiga asukohad, mida valvavad alati piraadid. Maksimum: {0}. Põhimäng: 10",
-  "Trading settlements on the map. Max: {0}. Vanilla: 8": "Kauplevad asumid kaardil. Maksimum: {0}. Põhimäng: 8",
   "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Korrutab asukohtades leiduvate ressursside kogust. Põhimäng: 1.0x",
   "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "Piraatide kohtumiste koguarv kaardil. Maksimum: {0}. Põhimäng: ~35",
 

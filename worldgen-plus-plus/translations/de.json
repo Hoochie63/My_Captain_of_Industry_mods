@@ -1,5 +1,6 @@
 {
   "WorldGen": "Weltgenerierung",
+  "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "Blendet Verbindungslinien aus, die andere Linien kreuzen, und verhindert, dass Schiffe sie nutzen. Linien, die zum Erreichen eines Ortes nötig sind, bleiben immer erhalten.",
 
   "Enable Custom WorldGen": "Benutzerdefinierte Weltgenerierung aktivieren",
 
@@ -12,10 +13,6 @@
   "Mines & Rigs Selection": "Minen- & Bohrinsel-Auswahl",
 
   "Randomize": "Zufällig",
-
-  "Preset": "Voreinstellung",
-
-  "Pick a preset to quickly set all values. You can still adjust individual settings after.": "Wähle eine Voreinstellung, um alle Werte schnell festzulegen. Einzelne Einstellungen können danach noch angepasst werden.",
 
   "Map Preview": "Kartenvorschau",
 
@@ -47,15 +44,11 @@
 
   "Max Nodes": "Maximale Knoten",
 
-  "Node Connections": "Knotenverbindungen",
-
   "Mines & Rigs": "Minen & Bohrinseln",
 
   "Cargo Ship Wrecks": "Frachtschiffswracks",
 
   "Treasure Nodes": "Schatz-Knoten",
-
-  "Max Villages": "Maximale Dörfer",
 
   "Loot Multiplier": "Beute-Multiplikator",
 
@@ -66,12 +59,6 @@
   "Normal": "Normal",
 
   "Many": "Viele",
-
-  "Greedisgood": "Greedisgood",
-
-  "Hard": "Schwer",
-
-  "Please hurt me": "Bitte tu mir weh",
 
   "Home": "Heimat",
 
@@ -87,23 +74,19 @@
 
   "Empty": "Leer",
 
-  "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "Wie groß die Weltkarte ist. Größer = mehr Platz für Knoten. Original: 4096",
+  "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "Wie groß die Weltkarte ist. Größer = mehr Platz für Knoten. Vanilla: 4096",
 
   "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70": "Gesamtzahl der Orte auf der Weltkarte. Höher = dichtere Karte mit Knoten im äußeren Ring. Der Bereich hängt von der Weltgröße ab. Vanilla: 70",
 
-  "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal": "Wie viele Verbindungen jeder Knoten zu benachbarten Knoten hat. Mehr Verbindungen = kürzere Routen. Original: Normal",
+  "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "Gesamtzahl der Minen und Ölbohrinseln auf der Karte. Max: {0}. Vanilla: 18",
 
-  "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "Gesamtzahl der Minen und Ölbohrinseln auf der Karte. Max: {0}. Original: 18",
+  "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "Entdeckbare Schiffswracks, die Frachtschiff-Technologie freischalten. Max: {0}. Vanilla: 4",
 
-  "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "Entdeckbare Schiffswracks, die Frachtschiff-Technologie freischalten. Max: {0}. Original: 4",
+  "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "Orte mit zusätzlicher Beute, die immer von Piraten bewacht werden. Max: {0}. Vanilla: 10",
 
-  "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "Orte mit zusätzlicher Beute, die immer von Piraten bewacht werden. Max: {0}. Original: 10",
+  "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Multipliziert die Menge der an Orten gefundenen Ressourcen. Vanilla: 1,0x",
 
-  "Trading settlements on the map. Max: {0}. Vanilla: 8": "Handelssiedlungen auf der Karte. Max: {0}. Original: 8",
-
-  "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Multipliziert die Menge der an Orten gefundenen Ressourcen. Original: 1,0x",
-
-  "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "Gesamtzahl der Piratenbegegnungen auf der Karte. Max: {0}. Original: ~35",
+  "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "Gesamtzahl der Piratenbegegnungen auf der Karte. Max: {0}. Vanilla: ~35",
 
   "Coal Mine": "Kohlemine",
 
@@ -138,7 +121,7 @@
 
   "Sand Quarry": "Sandgrube",
 
-  "Shipyard cargo (Cheat++)": "Werft-Lager (Cheat++)",
+  "Shipyard cargo (Cheat++)": "Werftfracht (Cheat++)",
   "Requires Cheat++ for this new game. Writes Cheat++ shipyard capacity when you launch (same as Cheat++ Shipyard tab). 0 = vanilla.": "Braucht Cheat++ für dieses Spiel. Schreibt beim Start die Cheat++-Werftkapazität (wie im Cheat++-Tab Werft). 0 = Vanilla.",
   "Enable Cheat++ in the mod list for this game — this field only applies with Cheat++.": "Cheat++ in der Mod-Liste für dieses Spiel aktivieren — dieses Feld gilt nur mit Cheat++.",
   "0 = vanilla": "0 = Vanilla",
@@ -162,12 +145,12 @@
   "This site mines Sand when assigned with workers.": "Diese Stätte fördert Sand, wenn ihr Arbeiter zugewiesen werden.",
   "This site mines Lithium when assigned with workers.": "Diese Stätte fördert Lithium, wenn ihr Arbeiter zugewiesen werden.",
   "Home Shipyard Trade": "Heimat-Handelswerft",
-  "Dedicated dock for trade ships travelling between Home 1 and Home 2 in a Two Homes campaign. Trucks deliver outgoing cargo here for pickup; arriving cargo is offloaded here for trucks to collect.": "Spezieller Anlegeplatz für Handelsschiffe, die in einer Zwei-Heimaten-Kampagne zwischen Heimat 1 und Heimat 2 verkehren. Lkw liefern ausgehende Fracht hier zur Abholung an; ankommende Fracht wird hier entladen, damit Lkw sie abholen können.",
-  "Holds products for trade with the other home. Products you've requested via the Trade Cargo Loader above are delivered here by trucks, then ship at the next trade timer cycle. Do NOT enable 'Keep empty' below — that would make trucks remove products before they ship.": "Lagert Produkte für den Handel mit der anderen Heimat. Produkte, die du über den Handels-Frachtlader oben angefordert hast, werden hier per Lkw angeliefert und im nächsten Handelszyklus verschifft. Aktiviere unten NICHT „Leer halten“ — das würde dazu führen, dass Lkw Produkte entfernen, bevor sie verschifft werden.",
+  "Dedicated dock for trade ships travelling between Home 1 and Home 2 in a Two Homes campaign. Trucks deliver outgoing cargo here for pickup; arriving cargo is offloaded here for trucks to collect.": "Spezieller Anlegeplatz für Handelsschiffe, die in einer Zwei-Heimaten-Kampagne zwischen Heimat 1 und Heimat 2 verkehren. Lastwagen liefern ausgehende Fracht hier zur Abholung an; ankommende Fracht wird hier entladen, damit Lastwagen sie abholen können.",
+  "Holds products for trade with the other home. Products you've requested via the Trade Cargo Loader above are delivered here by trucks, then ship at the next trade timer cycle. Do NOT enable 'Keep empty' below — that would make trucks remove products before they ship.": "Lagert Produkte für den Handel mit der anderen Heimat. Produkte, die du über den Handels-Frachtlader oben angefordert hast, werden hier per Lastwagen angeliefert und im nächsten Handelszyklus verschifft. Aktiviere unten NICHT „Leer halten“ — das würde dazu führen, dass Lastwagen Produkte entfernen, bevor sie verschifft werden.",
   "Pick a product to trade": "Produkt zum Handeln auswählen",
   "Quantity": "Menge",
-  "Pick a product, type a quantity, click Load. Trucks pick up that product from existing storage and deliver it here. Cargo ships to the other home on the trade timer.": "Wähle ein Produkt, gib eine Menge ein und klicke auf „Laden“. Lkw holen dieses Produkt aus dem vorhandenen Lager und liefern es hierher. Die Fracht wird zum Handelszeitpunkt zur anderen Heimat verschifft.",
-  "Trucks delivering:": "Lkw liefern:",
+  "Pick a product, type a quantity, click Load. Trucks pick up that product from existing storage and deliver it here. Cargo ships to the other home on the trade timer.": "Wähle ein Produkt, gib eine Menge ein und klicke auf „Laden“. Lastwagen holen dieses Produkt aus dem vorhandenen Lager und liefern es hierher. Die Fracht wird zum Handelszeitpunkt zur anderen Heimat verschifft.",
+  "Trucks delivering:": "Lastwagen liefern:",
   "Trade Cargo Loader": "Handels-Frachtlader",
   "--:-- until next ship": "--:-- bis zum nächsten Schiff",
   "Cargo loaded below ships every 2 real-time minutes to the other home.": "Die unten geladene Fracht wird alle 2 Echtzeitminuten zur anderen Heimat verschifft.",
@@ -179,10 +162,10 @@
   "Not in a Two Homes campaign.": "Nicht in einer Zwei-Heimaten-Kampagne.",
   "Home 2 not registered yet — trade is unavailable until both homes exist.": "Heimat 2 ist noch nicht registriert — Handel ist nicht verfügbar, bis beide Heimaten existieren.",
   "Trade": "Handel",
-  "How it works: open your Home Shipyard Trade and use its 'Add cargo' buttons (or route trucks to it) to load products. Every 15 real-time minutes, whatever's loaded ships to the other home and arrives in that home's trade shipyard the next time you switch.": "So funktioniert es: Öffne deine Heimat-Handelswerft und nutze ihre Schaltflächen „Fracht hinzufügen“ (oder leite Lkw dorthin), um Produkte zu laden. Alle 15 Echtzeitminuten wird alles Geladene zur anderen Heimat verschifft und trifft beim nächsten Wechsel in deren Handelswerft ein.",
+  "How it works: open your Home Shipyard Trade and use its 'Add cargo' buttons (or route trucks to it) to load products. Every 15 real-time minutes, whatever's loaded ships to the other home and arrives in that home's trade shipyard the next time you switch.": "So funktioniert es: Öffne deine Heimat-Handelswerft und nutze ihre Schaltflächen „Fracht hinzufügen“ (oder leite Lastwagen dorthin), um Produkte zu laden. Alle 15 Echtzeitminuten wird alles Geladene zur anderen Heimat verschifft und trifft beim nächsten Wechsel in deren Handelswerft ein.",
   "Next ship cycle": "Nächster Schiffszyklus",
   "Loaded in your shipyard now (will ship next cycle)": "Jetzt in deiner Werft geladen (wird im nächsten Zyklus verschifft)",
-  "No cargo loaded. Build a Home Shipyard Trade and route trucks to it.": "Keine Fracht geladen. Baue eine Heimat-Handelswerft und leite Lkw dorthin.",
+  "No cargo loaded. Build a Home Shipyard Trade and route trucks to it.": "Keine Fracht geladen. Baue eine Heimat-Handelswerft und leite Lastwagen dorthin.",
   "Nothing on its way — the other home hasn't sent anything yet.": "Nichts unterwegs — die andere Heimat hat noch nichts gesendet.",
   "Cargo from the other home is deposited into your trade shipyard the moment you switch homes.": "Fracht von der anderen Heimat wird in deine Handelswerft eingelagert, sobald du die Heimat wechselst.",
   "Statistics": "Statistiken",
@@ -204,7 +187,7 @@
   "Pending arrivals from {0}": "Ausstehende Lieferungen von {0}",
   "Target: {0}": "Ziel: {0}",
   "Switch to {0}": "Zu {0} wechseln",
-  "Trucks dispatched to deliver up to {0} {1}": "Lkw entsandt, um bis zu {0} {1} zu liefern",
+  "Trucks dispatched to deliver up to {0} {1}": "Lastwagen entsandt, um bis zu {0} {1} zu liefern",
   "{0} (active)": "{0} (aktiv)",
   "(other home)": "(andere Heimat)",
   "Live: {0}": "Live: {0}",

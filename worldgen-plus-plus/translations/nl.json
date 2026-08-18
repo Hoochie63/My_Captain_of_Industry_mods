@@ -1,13 +1,12 @@
 {
   "WorldGen": "Wereldgeneratie",
+  "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "Verbergt verbindingslijnen die andere lijnen kruisen en voorkomt dat schepen ze gebruiken. Lijnen die nodig zijn om een locatie te bereiken blijven altijd behouden.",
   "Enable Custom WorldGen": "Aangepaste wereldgeneratie inschakelen",
   "World Shape": "Wereldvorm",
   "Entities": "Objecten",
   "Hostiles": "Vijanden",
   "Mines & Rigs Selection": "Mijnen & booreilanden selecteren",
   "Randomize": "Willekeurig",
-  "Preset": "Voorinstelling",
-  "Pick a preset to quickly set all values. You can still adjust individual settings after.": "Kies een voorinstelling om snel alle waarden in te stellen. Je kunt daarna nog steeds afzonderlijke instellingen aanpassen.",
   "Map Preview": "Kaartvoorbeeld",
   "Show Preview": "Voorbeeld tonen",
   "This will spoil the map! Are you sure?": "Dit verklapt de kaart! Weet je het zeker?",
@@ -24,20 +23,15 @@
 
   "World Size": "Wereldgrootte",
   "Max Nodes": "Max. knooppunten",
-  "Node Connections": "Knooppuntverbindingen",
   "Mines & Rigs": "Mijnen & booreilanden",
   "Cargo Ship Wrecks": "Vrachtschipwrakken",
   "Treasure Nodes": "Schatknooppunten",
-  "Max Villages": "Max. dorpen",
   "Loot Multiplier": "Buitvermenigvuldiger",
   "Max Pirates": "Max. piraten",
 
   "Few": "Weinig",
   "Normal": "Normaal",
   "Many": "Veel",
-  "Greedisgood": "Greedisgood",
-  "Hard": "Moeilijk",
-  "Please hurt me": "Doe me maar pijn",
 
   "Home": "Thuis",
   "Village": "Dorp",
@@ -49,12 +43,10 @@
 
   "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "Hoe groot de wereldkaart is. Groter = meer ruimte voor knooppunten. Standaard: 4096",
   "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70": "Totaal aantal locaties op de wereldkaart. Hoger = dichtere kaart met knooppunten in de buitenring. Het bereik hangt af van de wereldgrootte. Standaard: 70",
-  "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal": "Hoeveel verbindingen elk knooppunt heeft met nabijgelegen knooppunten. Meer verbindingen = kortere routes. Standaard: Normaal",
   "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "Totaal aantal mijnen en booreilanden op de kaart. Max.: {0}. Standaard: 18",
   "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "Ontdekbare scheepswrakken die vrachtschiptechnologie ontgrendelen. Max.: {0}. Standaard: 4",
   "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "Locaties met extra buit, altijd bewaakt door piraten. Max.: {0}. Standaard: 10",
-  "Trading settlements on the map. Max: {0}. Vanilla: 8": "Handelsdorpen op de kaart. Max.: {0}. Standaard: 8",
-  "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Vermenigvuldigt de hoeveelheid grondstoffen die op locaties te vinden is. Standaard: 1.0x",
+  "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "Vermenigvuldigt de hoeveelheid grondstoffen die op locaties te vinden is. Standaard: 1,0x",
   "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "Totaal aantal piratenontmoetingen op de kaart. Max.: {0}. Standaard: ~35",
 
   "Coal Mine": "Kolenmijn",
@@ -127,7 +119,7 @@
   "Nothing on its way — the other home hasn't sent anything yet.": "Er is niets onderweg — het andere thuiseiland heeft nog niets verstuurd.",
   "Cargo from the other home is deposited into your trade shipyard the moment you switch homes.": "Vracht van het andere thuiseiland wordt in je handelsscheepswerf gestort zodra je van thuiseiland wisselt.",
 
-  "Statistics": "Overzichtstabellen",
+  "Statistics": "Statistieken",
   "Placeholder 3": "Placeholder 3",
   "Placeholder 4": "Placeholder 4",
   "Placeholder 5": "Placeholder 5",

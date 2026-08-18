@@ -1,13 +1,12 @@
 {
   "WorldGen": "세계 생성",
+  "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "다른 항로선과 교차하는 항로선을 숨기고 함선이 사용하지 못하게 합니다. 위치에 도달하는 데 필요한 항로선은 항상 유지됩니다.",
   "Enable Custom WorldGen": "사용자 지정 세계 생성 활성화",
   "World Shape": "세계 모양",
   "Entities": "개체",
   "Hostiles": "적대 세력",
   "Mines & Rigs Selection": "광산 및 굴착 시설 선택",
   "Randomize": "무작위화",
-  "Preset": "사전 설정",
-  "Pick a preset to quickly set all values. You can still adjust individual settings after.": "사전 설정을 선택하면 모든 값을 빠르게 지정할 수 있습니다. 이후에도 개별 설정을 조정할 수 있습니다.",
   "Map Preview": "지도 미리보기",
   "Show Preview": "미리보기 표시",
   "This will spoil the map! Are you sure?": "지도가 미리 드러납니다! 계속할까요?",
@@ -24,20 +23,15 @@
 
   "World Size": "세계 크기",
   "Max Nodes": "최대 노드 수",
-  "Node Connections": "노드 연결",
   "Mines & Rigs": "광산 및 굴착 시설",
   "Cargo Ship Wrecks": "화물선 난파선",
   "Treasure Nodes": "보물 노드",
-  "Max Villages": "최대 마을 수",
   "Loot Multiplier": "전리품 배율",
   "Max Pirates": "최대 해적 수",
 
   "Few": "적음",
   "Normal": "보통",
   "Many": "많음",
-  "Greedisgood": "Greedisgood",
-  "Hard": "어려움",
-  "Please hurt me": "저를 아프게 해주세요",
 
   "Home": "거점",
   "Village": "마을",
@@ -49,11 +43,9 @@
 
   "How big the world map is. Larger = more room for nodes. Vanilla: 4096": "세계 지도의 크기입니다. 클수록 노드를 배치할 공간이 늘어납니다. 바닐라: 4096",
   "Total locations on the world map. Higher = denser map with outer ring nodes. Range depends on world size. Vanilla: 70": "세계 지도에 있는 전체 장소 수입니다. 높을수록 외곽 고리 노드까지 포함해 지도가 더 촘촘해집니다. 범위는 세계 크기에 따라 달라집니다. 바닐라: 70",
-  "How many connections each node has to nearby nodes. More connections = shorter routes. Vanilla: Normal": "각 노드가 인근 노드와 맺는 연결 수입니다. 연결이 많을수록 경로가 짧아집니다. 바닐라: 보통",
   "Total mines and oil rigs on the map. Max: {0}. Vanilla: 18": "지도에 있는 광산과 원유 굴착 장치의 총 수입니다. 최대: {0}. 바닐라: 18",
   "Discoverable ship wrecks that unlock cargo ship tech. Max: {0}. Vanilla: 4": "화물선 기술을 해금하는 발견 가능한 난파선입니다. 최대: {0}. 바닐라: 4",
   "Locations with extra loot, always guarded by pirates. Max: {0}. Vanilla: 10": "추가 전리품이 있는 장소로, 항상 해적이 지키고 있습니다. 최대: {0}. 바닐라: 10",
-  "Trading settlements on the map. Max: {0}. Vanilla: 8": "지도에 있는 교역 정착지입니다. 최대: {0}. 바닐라: 8",
   "Multiplies the amount of resources found at locations. Vanilla: 1.0x": "장소에서 발견되는 자원량을 배로 늘립니다. 바닐라: 1.0x",
   "Total pirate encounters on the map. Max: {0}. Vanilla: ~35": "지도에 있는 해적 조우 총 수입니다. 최대: {0}. 바닐라: ~35",
 
