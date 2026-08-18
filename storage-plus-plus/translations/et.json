@@ -1,4 +1,5 @@
 {
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Lohista, et seda akent suuremaks teha, nii et pikem tekst ära mahub. Topeltklõps taastab vaikesuuruse.",
   "Overwrite your saved profile with your current settings?": "Kas kirjutada salvestatud profiil praeguste seadetega üle?",
   "Load your saved profile? Your current settings will be replaced.": "Kas laadida salvestatud profiil? Praegused seaded asendatakse.",
   "Capacity": "Kandevõime",
@@ -9,7 +10,6 @@
   "Storage Ground": "Maapealne ladu",
   "Storage Trains": "Rongiladu",
   "Storage Ship": "Laevaladu",
-  "{0}/60s": "{0}/60s",
   "Storage++": "Storage++",
   "Enter new capacity values and click Apply.": "Sisestage uued kandevõime väärtused ja klõpsake Rakenda.",
   "Apply All Changes": "Rakenda kõik muudatused",
@@ -17,10 +17,8 @@
   "Close": "Sulge",
   "Search storages...": "Otsi ladusid...",
   "New...": "Uus...",
-  "Apply": "Rakenda",
   "Nothing to apply. Enter new capacity values first.": "Pole midagi rakendada. Sisestage esmalt uued kandevõime väärtused.",
   "Invalid capacity value. Must be a positive number.": "Vigane kandevõime väärtus. Peab olema positiivne arv.",
-  "All fields cleared.": "Kõik väljad tühjendatud.",
   "No override set": "Ülekirjutust pole määratud",
   "Set": "Määra",
   "Reset": "Lähtesta",
@@ -29,7 +27,6 @@
   "Custom Capacity": "Kohandatud kandevõime",
   "Default: {0}": "Vaikeväärtus: {0}",
   "Current: {0}": "Praegu: {0}",
-  "Enter a new capacity value for {0}.": "Sisestage uus kandevõime väärtus ladustustüübi {0} jaoks.",
   "Override active: {0}": "Aktiivne ülekirjutus: {0}",
   "Fluid Storages": "Vedelikuladud",
   "Loose Storages": "Puisteladud",
@@ -72,7 +69,11 @@
   "Reset {0} storage type(s) on this tab to default.": "Lähtestati selle vahelehe {0} ladustustüüp vaikeväärtusele.",
   "Nothing to reset on this tab.": "Sellel vahelehel pole midagi lähtestada.",
   "Machine storage bonus reset to default.": "Masinate ladumahu boonus lähtestati vaikeväärtusele.",
-  "Storage++ profile saved.": "Storage++ profiil salvestati.",
-  "Storage++ profile loaded.": "Storage++ profiil laaditi.",
-  "No saved Storage++ profile found.": "Salvestatud Storage++ profiili ei leitud."
+  "Storage++ profile saved.": "Storage++ profiil salvestatud.",
+  "Storage++ profile loaded.": "Storage++ profiil laaditud.",
+  "No saved Storage++ profile found.": "Salvestatud Storage++ profiili ei leitud.",
+  "Cargo Ship ({0} modules)": "Kaubalaev ({0} moodulit)",
+  "Cargo Ship Modules": "Kaubalaeva moodulid",
+  "{0} capacity reset to {1}": "{0} mahutavus lähtestatud väärtusele {1}",
+  "{0} is already at its default.": "{0} on juba vaikeväärtusel."
 }

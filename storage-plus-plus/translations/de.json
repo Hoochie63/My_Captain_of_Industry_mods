@@ -1,4 +1,5 @@
 {
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Ziehen, um dieses Fenster zu vergrößern, damit längere Texte hineinpassen. Doppelklick setzt es auf die Standardgröße zurück.",
   "Overwrite your saved profile with your current settings?": "Dein gespeichertes Profil mit den aktuellen Einstellungen überschreiben?",
   "Load your saved profile? Your current settings will be replaced.": "Gespeichertes Profil laden? Deine aktuellen Einstellungen werden ersetzt.",
   "Capacity":"Kapazität",
@@ -6,10 +7,10 @@
   "Open or close the Mori++ Overlord window.": "Öffnet oder schließt das Mori++-Overlord-Fenster.",
   "Set the transfer rate (items or fluid per 60s) for each storage type and train station module.": "Lege die Transferrate (Waren oder Flüssigkeit pro 60s) für jeden Lagertyp und jedes Zugstationsmodul fest.",
   "Throughput": "Durchsatz",
-  "Storage Ground": "Boden-Lager",
-  "Storage Trains": "Zug-Lager",
-  "Storage Ship": "Schiffs-Lager",
-  "{0}/60s": "{0}/60s",
+  "Storage Ground": "Bodenlager",
+  "Storage Trains": "Zuglager",
+  "Storage Ship": "Schiffslager",
+  "Storage++": "Storage++",
 
   "Enter new capacity values and click Apply.": "Gib neue Kapazitätswerte ein und klicke auf Anwenden.",
 
@@ -23,13 +24,9 @@
 
   "New...": "Neu...",
 
-  "Apply": "Anwenden",
-
   "Nothing to apply. Enter new capacity values first.": "Nichts anzuwenden. Gib zuerst neue Kapazitätswerte ein.",
 
   "Invalid capacity value. Must be a positive number.": "Ungültiger Kapazitätswert. Muss eine positive Zahl sein.",
-
-  "All fields cleared.": "Alle Felder geleert.",
 
   "No override set": "Keine Überschreibung festgelegt",
 
@@ -47,15 +44,13 @@
 
   "Current: {0}": "Aktuell: {0}",
 
-  "Enter a new capacity value for {0}.": "Gib einen neuen Kapazitätswert für {0} ein.",
-
   "Override active: {0}": "Überschreibung aktiv: {0}",
 
   "Fluid Storages": "Flüssigkeitslager",
 
   "Loose Storages": "Schüttgutlager",
 
-  "Nuclear Storages": "Atomlager",
+  "Nuclear Storages": "Nuklearlager",
   "Ore Sorting Storages": "Erzsortierer-Lager",
   "Train Station Storages": "Zugbahnhof-Lager",
 
@@ -63,15 +58,13 @@
 
   "Enter capacity...": "Kapazität eingeben...",
 
-  "Storage++": "Storage++",
-
   "Machine Storage": "Maschinenlager",
 
   "Machine Storage Bonus": "Maschinenlager-Bonus",
 
-  "Increase the storage buffer of every machine — how much each machine can hold of its inputs and finished products. 0% keeps the normal game size.": "Erhöht den Pufferspeicher jeder Maschine — wie viel jede Maschine an Eingangs- und Fertigprodukten halten kann. 0 % behält die normale Spielgröße bei.",
+  "Increase the storage buffer of every machine — how much each machine can hold of its inputs and finished products. 0% keeps the normal game size.": "Erhöht den Pufferspeicher jeder Maschine — wie viel jede Maschine an Eingangs- und Fertigprodukten halten kann. 0% behält die normale Spielgröße bei.",
 
-  "Extra storage added to every machine's input and output buffers. 0% = default game size; at 300% machines hold up to four times as much.": "Zusätzlicher Speicher für die Eingangs- und Ausgangspuffer jeder Maschine. 0 % = Standardgröße des Spiels; bei 300 % fassen Maschinen bis zu viermal so viel.",
+  "Extra storage added to every machine's input and output buffers. 0% = default game size; at 300% machines hold up to four times as much.": "Zusätzlicher Speicher für die Eingangs- und Ausgangspuffer jeder Maschine. 0% = Standardgröße des Spiels; bei 300% fassen Maschinen bis zu viermal so viel.",
   "Allow all products": "Alle Produkte zulassen",
   "Allow all products of this storage's type (ignores normal restrictions).": "Lässt alle Produkte dieses Lagertyps zu (ignoriert die normalen Beschränkungen).",
   "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Öffnet die Mori++ Suite-Einstellungen. Tastenkürzel zum Öffnen: Alt + W",
@@ -81,7 +74,7 @@
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Speichert alle Einstellungen dieses Mods (jeder Tab in diesem Fenster) in einem Profil, das du in anderen Spielen wieder laden kannst.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Lädt ein gespeichertes Profil und stellt alle Einstellungen dieses Mods (jeder Tab in diesem Fenster) wieder her.",
   "Cargo Ship Storages": "Frachtschiff-Lager",
-  "Thermal Storages": "Thermolager",
+  "Thermal Storages": "Wärmespeicher",
   "Applies every new capacity and throughput value you've typed in, across all tabs, at once.": "Wendet alle eingegebenen neuen Kapazitäts- und Durchsatzwerte auf allen Tabs gleichzeitig an.",
   "Resets every storage type on the tab you're currently viewing back to its default value.": "Setzt jeden Lagertyp auf dem aktuell angezeigten Tab auf seinen Standardwert zurück.",
   "{0} capacity set to {1} ({2} updated)": "{0}-Kapazität auf {1} gesetzt ({2} aktualisiert)",
@@ -90,8 +83,8 @@
   "{0} sorted capacity set to {1}": "{0} sortierte Kapazität auf {1} gesetzt",
   "{0} unsorted capacity set to {1} ({2} updated)": "{0} unsortierte Kapazität auf {1} gesetzt ({2} aktualisiert)",
   "{0} unsorted capacity set to {1}": "{0} unsortierte Kapazität auf {1} gesetzt",
-  "Thermal storage heat capacity set to {0} ({1} updated)": "Wärmekapazität des Thermolagers auf {0} gesetzt ({1} aktualisiert)",
-  "Thermal storage heat capacity set to {0}": "Wärmekapazität des Thermolagers auf {0} gesetzt",
+  "Thermal storage heat capacity set to {0} ({1} updated)": "Wärmekapazität des Wärmespeichers auf {0} gesetzt ({1} aktualisiert)",
+  "Thermal storage heat capacity set to {0}": "Wärmekapazität des Wärmespeichers auf {0} gesetzt",
   "Capacity set for {0} storage type(s) — {1} building(s) updated!": "Kapazität für {0} Lagertyp(en) gesetzt — {1} Gebäude aktualisiert!",
   "Capacity set for {0} storage type(s)!": "Kapazität für {0} Lagertyp(en) gesetzt!",
   "Nothing to apply — enter a value first.": "Nichts anzuwenden — gib zuerst einen Wert ein.",
@@ -104,5 +97,17 @@
   "Machine storage bonus reset to default.": "Maschinenlager-Bonus auf Standard zurückgesetzt.",
   "Storage++ profile saved.": "Storage++-Profil gespeichert.",
   "Storage++ profile loaded.": "Storage++-Profil geladen.",
-  "No saved Storage++ profile found.": "Kein gespeichertes Storage++-Profil gefunden."
+  "No saved Storage++ profile found.": "Kein gespeichertes Storage++-Profil gefunden.",
+  "Cargo Ship ({0} modules)": "Frachtschiff ({0} Module)",
+  "Cargo Ship Modules": "Frachtschiff-Module",
+  "{0} capacity reset to {1}": "Kapazität von {0} auf {1} zurückgesetzt",
+  "{0} is already at its default.": "{0} ist bereits auf dem Standardwert.",
+  "Shipyard": "Werft",
+  "Shipyard Capacity": "Werftkapazität",
+  "Set the maximum amount of items the shipyard can store.": "Lege die maximale Menge an Gegenständen fest, die die Werft lagern kann.",
+  "New capacity...": "Neue Kapazität...",
+  "Set Capacity": "Kapazität festlegen",
+  "No shipyard found": "Keine Werft gefunden",
+  "Shipyard capacity set to {0}": "Werftkapazität auf {0} gesetzt",
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ ist geladen und steuert die Werftkapazität — ändere sie im Werft-Tab von Cheat++."
 }

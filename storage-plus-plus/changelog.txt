@@ -1,3 +1,41 @@
+v1.2.5 | 2026-08-16
+* The Throughput tab now lets you set how fast the small and large ore sorting plants push sorted materials out onto belts. (thanks petter566 for the suggestion)
+
+* Fixed a conflict that broke Airship mod's extra panels in Ground Helipad building window. (thanks warrenc for the report)
+
+v1.2.4 | 2026-08-15
+* The Overlord window now always shows at 100% size, whatever UI scale you play at (thanks warrenc for the report). At 125% and higher the buttons at the bottom were cut off the screen and everything needed far more scrolling.
+
+* Cargo ships no longer show up in the Throughput tab or under Storage Ground — they were listed there by mistake and had no real throughput to change.
+  Their capacity settings stay on the Storage Ship tab. (thanks warrenc for the report)
+
+v1.2.3 | 2026-08-14
+* Added a Shipyard Capacity setting to a new Shipyard tab, so you can resize shipyard storage without Cheat++. Auto-disabled if Cheat++ is loaded, since it already owns this setting. (thanks rgreat for the suggestion)
+
+v1.2.2 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
+v1.2.1 | 2026-08-12
+* Now supports game version 0.8.7a.
+
+* The Overlord window is now the same size on every tab, so it no longer jumps in size when you switch between boost and the other mod tab.
+
+* Cargo ships have their own section in the Storage Ship tab — set how much each cargo module carries, for each ship size. (thanks Hyperion2950 for the suggestion)
+
+* Every row in the storage list now has its own Reset button. The per-row Apply buttons are gone — type your values and press Apply All Changes to set them together.
+
+* The Throughput tab now shows each type's default rate next to its current one, so you can see what it started at before you changed it.(thanks Hoochie for the suggestion)
+
 v1.2.0 | 2026-08-10
 * Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
 

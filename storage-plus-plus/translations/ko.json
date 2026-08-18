@@ -1,4 +1,5 @@
 {
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "드래그하면 창이 커져 긴 문구도 들어갑니다. 두 번 클릭하면 기본 크기로 되돌립니다.",
   "Overwrite your saved profile with your current settings?": "저장된 프로필을 현재 설정으로 덮어쓸까요?",
   "Load your saved profile? Your current settings will be replaced.": "저장된 프로필을 불러올까요? 현재 설정은 대체됩니다.",
   "Capacity":"적재 용량",
@@ -9,7 +10,6 @@
   "Storage Ground": "지상 보관소",
   "Storage Trains": "열차 보관소",
   "Storage Ship": "선박 보관소",
-  "{0}/60s": "{0}/60s",
   "Storage++": "Storage++",
   "Enter new capacity values and click Apply.": "새 용량 값을 입력하고 적용을 클릭하세요.",
   "Apply All Changes": "모든 변경사항 적용",
@@ -17,10 +17,8 @@
   "Close": "닫기",
   "Search storages...": "보관소 검색...",
   "New...": "새 값...",
-  "Apply": "적용",
   "Nothing to apply. Enter new capacity values first.": "적용할 내용이 없습니다. 먼저 새 용량 값을 입력하세요.",
   "Invalid capacity value. Must be a positive number.": "잘못된 용량 값입니다. 양수를 입력해야 합니다.",
-  "All fields cleared.": "모든 입력란이 비워졌습니다.",
   "No override set": "설정된 재정의 없음",
   "Set": "설정",
   "Reset": "초기화",
@@ -29,7 +27,6 @@
   "Custom Capacity": "사용자 지정 용량",
   "Default: {0}": "기본값: {0}",
   "Current: {0}": "현재: {0}",
-  "Enter a new capacity value for {0}.": "{0}의 새 용량 값을 입력하세요.",
   "Override active: {0}": "재정의 적용 중: {0}",
   "Fluid Storages": "유체 보관소",
   "Loose Storages": "벌크 보관소",
@@ -74,5 +71,9 @@
   "Machine storage bonus reset to default.": "기계 보관 용량 보너스를 기본값으로 초기화했습니다.",
   "Storage++ profile saved.": "Storage++ 프로필을 저장했습니다.",
   "Storage++ profile loaded.": "Storage++ 프로필을 불러왔습니다.",
-  "No saved Storage++ profile found.": "저장된 Storage++ 프로필이 없습니다."
+  "No saved Storage++ profile found.": "저장된 Storage++ 프로필이 없습니다.",
+  "Cargo Ship ({0} modules)": "화물선 ({0}개 모듈)",
+  "Cargo Ship Modules": "화물선 모듈",
+  "{0} capacity reset to {1}": "{0} 용량을 {1}(으)로 초기화했습니다",
+  "{0} is already at its default.": "{0}은(는) 이미 기본값입니다."
 }

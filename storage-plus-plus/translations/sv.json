@@ -1,4 +1,5 @@
 {
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Dra för att göra det här fönstret större så att längre texter får plats. Dubbelklicka för att återgå till standardstorleken.",
   "Overwrite your saved profile with your current settings?": "Ersätta din sparade profil med dina nuvarande inställningar?",
   "Load your saved profile? Your current settings will be replaced.": "Ladda din sparade profil? Dina nuvarande inställningar ersätts.",
   "Capacity":"Lastkapacitet",
@@ -9,7 +10,6 @@
   "Storage Ground": "Markförvaring",
   "Storage Trains": "Tågförvaring",
   "Storage Ship": "Fartygsförvaring",
-  "{0}/60s": "{0}/60s",
   "Storage++": "Storage++",
   "Enter new capacity values and click Apply.": "Ange nya kapacitetsvärden och klicka på Verkställ.",
   "Apply All Changes": "Verkställ alla ändringar",
@@ -17,10 +17,8 @@
   "Close": "Stäng",
   "Search storages...": "Sök förvaring...",
   "New...": "Nytt...",
-  "Apply": "Verkställ",
   "Nothing to apply. Enter new capacity values first.": "Inget att verkställa. Ange nya kapacitetsvärden först.",
   "Invalid capacity value. Must be a positive number.": "Ogiltigt kapacitetsvärde. Måste vara ett positivt tal.",
-  "All fields cleared.": "Alla fält rensade.",
   "No override set": "Ingen åsidosättning inställd",
   "Set": "Ställ in",
   "Reset": "Återställ",
@@ -29,7 +27,6 @@
   "Custom Capacity": "Egen kapacitet",
   "Default: {0}": "Standard: {0}",
   "Current: {0}": "Nuvarande: {0}",
-  "Enter a new capacity value for {0}.": "Ange ett nytt kapacitetsvärde för {0}.",
   "Override active: {0}": "Åsidosättning aktiv: {0}",
   "Fluid Storages": "Vätskeförvaring",
   "Loose Storages": "Bulkförvaring",
@@ -74,5 +71,9 @@
   "Machine storage bonus reset to default.": "Bonus för maskinförvaring återställd till standard.",
   "Storage++ profile saved.": "Storage++-profilen sparad.",
   "Storage++ profile loaded.": "Storage++-profilen laddad.",
-  "No saved Storage++ profile found.": "Ingen sparad Storage++-profil hittades."
+  "No saved Storage++ profile found.": "Ingen sparad Storage++-profil hittades.",
+  "Cargo Ship ({0} modules)": "Lastfartyg ({0} moduler)",
+  "Cargo Ship Modules": "Lastfartygsmoduler",
+  "{0} capacity reset to {1}": "Kapaciteten för {0} återställd till {1}",
+  "{0} is already at its default.": "{0} har redan standardvärdet."
 }
