@@ -1,20 +1,21 @@
-v1.0.2 | 2026-08-17
-=============================
+v1.0.2b | 2026-08-18
 
-* Added a toggle for the City Block snapping grid, allowing nearby City Blocks to be placed freely without being pulled into settlement slots. While placing City Blocks, click the toggle in the placement toolbar or press G by default.
-* Added the new toggle to the game’s vanilla Controls screen, where its keybind can be changed.
+* Added a toggle for the City Block snapping grid, allowing nearby City Blocks to be placed freely without being pulled into existing settlement slots. 
+* While placing City Blocks, click the toggle in the placement toolbar or press G to toggle the snapping-grid.
+* Toggle Snapping-Grid's keybind can be changed in Escape Menu → Controls.
+* Fixed: The keybind.label on the toolbar toggle UI now properly updates to reflect keybind changes without needing a game restart.
 * Verified compatibility with Captain of Industry 0.8.7a.
 
-=============================
+v1.0.2 | 2026-08-17
+
+* Patch notes pushed to v1.0.2b hotfix
+
 v1.0.1 | 2026-08-07
-=============================
 
 * Rebuilt and verified compatibility with Captain of Industry 0.8.7 while retaining support for Captain of Industry 0.8.6 through 0.8.6c.
 * Fixed startup failing when Linked Cities was enabled without another Harmony-based mod by ensuring the bundled Harmony library loads first.
 
-=============================
 v1.0.0 | 2026-08-02
-=============================
 
 * Public beta: links every player City Block into one shared vanilla Settlement economy, even when towns are physically separated across the island.
 * Population stats will show shared/combined population, housing, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity stats across all linked City Blocks.

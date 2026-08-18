@@ -1,4 +1,4 @@
-COI SKYLINES - LINKED CITIES 1.0.2 PUBLIC BETA
+COI SKYLINES - LINKED CITIES 1.0.2b PUBLIC BETA
 
 Linked Cities lets you build physically separate towns while treating
 all player City Blocks as one shared vanilla Settlement economy.
