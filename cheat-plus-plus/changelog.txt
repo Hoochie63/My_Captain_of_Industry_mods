@@ -1,3 +1,55 @@
+v1.3.7 | 2026-08-15
+* Speed-boosted excavators and trucks assigned to a mining tower now brake down to normal speed when entering the mining area, so they no longer
+  get stuck driving in tiny circles on steep slopes. Full boosted speed comes back the moment they leave the area.
+
+* Max vehicle speed in the Vehicles tab is now 3 instead of 5 — 5 was far too fast and broke vehicle driving. Saved speeds above 3 automatically act as 3.
+
+* The underground pipe options now turn themselves off when another underground pipe mod is loaded
+  (Underground Pipes by Pique, or Underground Pipes by KleineEule), so the mods never fight over the same pipes.
+
+  - A red notice at the top of Global Cheats tells you why, and the four pipe options are greyed out.
+
+  - Their toolbar buttons and keyboard shortcuts are hidden while one of those mods is loaded.
+
+* The Overlord window now always shows at 100% size, whatever UI scale you play at (thanks warrenc for the report). At 125% and higher the buttons at the bottom were cut off the screen and everything needed far more scrolling.
+
+v1.3.6 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
+v1.3.5 | 2026-08-13
+* Now supports game version 0.8.7a.
+
+* The Overlord window is now the same size on every tab, so it no longer jumps in size when you switch between boost and the other mod tab.
+
+* The Spawner product list now starts with two columns instead of one, and gains more columns much earlier as you drag the window wider.
+
+* The product list is also taller and grows with the window height instead of staying a fixed height.
+
+* New box at the bottom of the Spawner tab holding everything you act with — the selected product, the quantity, the amount buttons and the buttons
+  themselves — separated from the product list so it is no longer mixed in with it.
+
+* New Exact amount box next to the quantity buttons — type any number you want instead of being limited to premade choises.
+
+* Double click a product in the list to add it straight to your favorites, and double click a favorite to remove it.
+
+* The selected product is now marked with a gold highlight instead of the old blue tint, so it stands out from the rest of the list.
+
+* The search box moved down into the bottom box next to the other buttons.
+
+v1.3.4 | 2026-08-14
+* Excavators now turn faster when you raise vehicle speed in the Vehicles tab, so they keep to the road at high speed instead of drifting off it
+  and appearing to float above bridges. Turn rate goes back to normal when you set the speed back to default.
+
 v1.3.3 | 2026-08-10
 * Fixed Fake Power Consumption not increasing the Demand shown in the Electricity window, so it can now properly stress-test your power grid. (thanks Hoochie for the report)
 
