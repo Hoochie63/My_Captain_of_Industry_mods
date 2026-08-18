@@ -1,3 +1,24 @@
+v1.3.3 | 2026-08-15
+* Compatibility update for the new fuel-type vehicle colors in Recipe++.
+   With the new Recipe++ installed, the Terex, Heavy Hauler, Heavy Tanker and Huge Excavator get their fuel color there, and each fuel version now has its own icon. Without Recipe++ everything looks the same as before.
+
+v1.3.2 | 2026-08-14
+* Now supports game version 0.8.7a.
+
+* Fixed the Helicopter HQ stopping helicopter upgrades — replacements are now built at the Open Heliport instead of never being started. (thanks warrenc for the report)
+
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
 v1.3.1 | 2026-08-11
 * Fixed Truck HQ and Excavator HQ fighting the Truck Parking mod over vehicles — a truck or excavator already parked there is left alone instead of being pulled back and forth.
 
