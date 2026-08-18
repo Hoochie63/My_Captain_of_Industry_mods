@@ -1,0 +1,11 @@
+﻿{
+	"id": "FlipSettlementModules",
+	"display_name": "Flip Settlement Modules",
+	"version": "0.1.1",
+	"primary_dlls": ["0Harmony.dll", "FlipSettlementModules.dll" ],
+	"min_game_version": "0.8.7",
+	"max_verified_game_version": "0.8.7",
+	"non_locking_dll_load": true,
+	"can_add_to_saved_game": true,
+	"can_remove_from_saved_game": true
+}
