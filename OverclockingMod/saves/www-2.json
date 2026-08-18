@@ -1,20 +1,20 @@
 {
   "version": 1,
   "machines": {
-    "clockRates": {"204":100},
-    "powerEnabled": {"204":true},
-    "workersEnabled": {"204":true},
-    "computingEnabled": {"204":true},
-    "maintenanceEnabled": {"204":true}
+    "clockRates": {},
+    "powerEnabled": {},
+    "workersEnabled": {},
+    "computingEnabled": {},
+    "maintenanceEnabled": {}
   },
   "farms": {
-    "clockRates": {"29":200,"30":200,"955":200,"956":200}
+    "clockRates": {}
   },
   "oreSorting": {
-    "clockRates": {"170":100},
-    "powerEnabled": {"170":false},
-    "workersEnabled": {"170":false},
-    "maintenanceEnabled": {"170":false}
+    "clockRates": {},
+    "powerEnabled": {},
+    "workersEnabled": {},
+    "maintenanceEnabled": {}
   },
   "rainwaterHarvester": {
     "clockRates": {}
