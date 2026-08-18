@@ -745,7 +745,7 @@
     ],
     [
         "vehicle_order.confirm.singular",
-        "Поставить «{0}» в очередь на <color=#FFCE56>«{1}»</color>? Получатель — <color=#FFCE56>«{2}»</color>"
+        "Поставить <color=#FFCE56>«{0}»</color> в очередь на <color=#FFCE56>«{1}»</color>? Получатель — <color=#FFCE56>«{2}»</color>"
     ],
     [
         "vehicle_order.confirm.plural",
@@ -757,7 +757,7 @@
     ],
     [
         "vehicle_order.zoom.tooltip",
-        "Приблизить камеру на <color=#FFCE56>«{0}»</color>"
+        "Переместить камеру на <color=#FFCE56>«{0}»</color>"
     ],
     [
         "vehicle_order.preassigned.tooltip",
