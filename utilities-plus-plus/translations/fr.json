@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Composez votre propre couleur avec les curseurs rouge, vert et bleu au lieu d'utiliser les couleurs prédéfinies ci-dessus. Elle est appliquée à l'état que vous modifiez.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Faites glisser pour agrandir cette fenêtre afin que les textes plus longs tiennent. Double-cliquez pour revenir à la taille par défaut.",
   "Overwrite your saved profile with your current settings?": "Remplacer votre profil sauvegardé par vos paramètres actuels ?",
   "Load your saved profile? Your current settings will be replaced.": "Charger votre profil sauvegardé ? Vos paramètres actuels seront remplacés.",
   "Vehicles":"Véhicules",
@@ -21,32 +23,16 @@
   "View/Layers": "Vue/Calques",
   "Window": "Fenêtre",
 
-  "Keybinds": "Raccourcis",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Reconfigurez les raccourcis de la suite Mori++. Les raccourcis du jeu sont également vérifiés, vous êtes donc averti en cas de conflit.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Cliquez sur un champ, puis appuyez sur une combinaison de touches. Le clic droit l'efface. Esc annule.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Les modifications s'appliquent immédiatement. Les autres mods se mettent à jour en quelques secondes — aucun redémarrage n'est nécessaire.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Les touches de modification recoupent volontairement de nombreux raccourcis du jeu ; seul un conflit avec un autre outil de mod est signalé.",
-  "Press a key…": "Appuyez sur une touche…",
-  "Conflicts with: {0}": "En conflit avec : {0}",
   "None": "Aucun",
-  "Reset": "Réinitialiser",
-  "Clear": "Retirer",
-  "Reset all to defaults": "Tout réinitialiser aux valeurs par défaut",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Afficher un niveau de convoyeur/tuyau de plus",
   "Hide one more belt/pipe level": "Masquer un niveau de convoyeur/tuyau de plus",
   "Show one more belt/pipe level from bottom": "Afficher un niveau de convoyeur/tuyau de plus depuis le bas",
   "Hide one more belt/pipe level from bottom": "Masquer un niveau de convoyeur/tuyau de plus depuis le bas",
   "Cycle Surplus Power modes": "Changer de mode Surplus d'énergie",
   "Toggle efficiency overlay": "Afficher/masquer le calque d'efficacité",
-  "Toggle the Tweaks++ window": "Ouvrir/fermer la fenêtre Tweaks++",
 
   "Efficiency": "Efficacité",
-  "Efficiency Overlay": "Calque d'efficacité",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Des étiquettes flottantes au-dessus de chaque machine affichent son efficacité de fonctionnement en direct. Pratique pour repérer d'un coup d'œil les bâtiments privés de ressources, bloqués ou en manque d'énergie.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Couleurs : vert = en marche 75-100 %, jaune = 50-74 %, orange = 1-49 %, rouge = à l'arrêt (pas d'entrée / sortie pleine / pas d'énergie / cassé), gris = en pause.",
   "Show machine efficiency overlay": "Afficher le calque d'efficacité des machines",
   "Toggle the floating efficiency labels above every machine in the world.": "Affiche ou masque les étiquettes d'efficacité flottantes au-dessus de chaque machine du monde.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Raccourci : Ctrl+E active ou désactive le calque d'efficacité.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Convoyeurs/Tuyaux",
-
-  "Coming Soon": "Bientôt disponible",
-
-  "More utilities coming in future updates.": "D'autres utilitaires arriveront dans les prochaines mises à jour.",
 
   "Surplus Power": "Surplus d'énergie",
 
@@ -142,10 +124,6 @@
 
   "Close": "Fermer",
 
-  "Balancers": "Équilibreurs",
-
-  "Lifts": "Élévateurs",
-
   "Vehicle Mover": "Déplacement de véhicules",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Sélectionnez un type de véhicule et faites glisser pour sélectionner des véhicules sur la carte, puis cliquez sur une destination pour les y envoyer.",
@@ -185,11 +163,10 @@
   "Clear all saved positions": "Effacer toutes les positions enregistrées",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Conçu pour les créateurs de plans : modifiez un monde entièrement en pause, sans camions ni fluides qui déplacent des éléments en cours d'édition.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Une fois activé, la pose et la démolition se terminent dans la même image, même lorsque le jeu est en pause. Aucun matériau n'est facturé. Désactive de force « Construction instantanée » de Cheat++ (cette option la remplace). Propre à chaque sauvegarde.",
   "Insta-place & insta-remove (works even when paused)": "Pose & retrait instantanés (fonctionne même en pause)",
-  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Une fois activé, la pose et la démolition se terminent dans la même image même lorsque le jeu est en pause — conçu pour les créateurs de plans qui modifient un monde figé. Désactive également de force « Construction instantanée » de Cheat++ (cette option la remplace). Propre à chaque sauvegarde.",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Une fois activé, la pose et la démolition se terminent dans la même image même lorsque le jeu est en pause — conçu pour les créateurs de plans qui modifient un monde figé. Désactive également de force « Construction gratuite et instantanée » de Cheat++ (cette option la remplace). Propre à chaque sauvegarde.",
 
-  "Drag tools": "Outils de sélection",
+  "Drag tools": "Outils par glissement",
   "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Cliquez sur un bouton pour fermer cette fenêtre et commencer la sélection par glissement. Tracez un rectangle sur un groupe de bâtiments pour les améliorer ou les rétrograder d'un niveau instantanément, sans matériaux. L'outil reste actif entre les sélections — appuyez sur Esc pour quitter.",
   "Drag Upgrade": "Améliorer par glissement",
   "Drag Downgrade": "Rétrograder par glissement",

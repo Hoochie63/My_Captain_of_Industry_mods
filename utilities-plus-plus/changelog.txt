@@ -1,3 +1,28 @@
+v1.2.2 | 2026-08-15
+* The Overlord window now always shows at 100% size, whatever UI scale you play at (thanks warrenc for the report). At 125% and higher the buttons at the bottom were cut off the screen and everything needed far more scrolling.
+
+v1.2.1 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
+v1.2.0 | 2026-08-13
+* Now supports game version 0.8.7a.
+
+* The Overlord window is now the same size on every tab, so it no longer jumps in size when you switch between boost and the other mod tab.
+
+* Efficiency tab: the colors for the floating machine status labels (Running 75-100%, Output full, No power, Broken and the rest) can now be any color you
+  want. Next to "Editing" there is a new color palette button — click it to mix your own color with red, green and blue sliders instead of only picking one of
+  the presets above, the same way group colors work in Boost++. The color you mix is applied to whichever state you are editing.
+
 v1.1.9 | 2026-08-09
 * Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
 

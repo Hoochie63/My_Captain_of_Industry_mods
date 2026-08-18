@@ -1,6 +1,8 @@
 {
-  "Overwrite your saved profile with your current settings?": "Substituir o teu perfil guardado pelas definições atuais?",
-  "Load your saved profile? Your current settings will be replaced.": "Carregar o teu perfil guardado? As definições atuais serão substituídas.",
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Misture sua própria cor com os controles deslizantes de vermelho, verde e azul, em vez de usar as cores predefinidas acima. É aplicada ao estado que você está editando.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Arraste para aumentar esta janela e caber textos mais longos. Clique duas vezes para voltar ao tamanho padrão.",
+  "Overwrite your saved profile with your current settings?": "Substituir seu perfil salvo pelas configurações atuais?",
+  "Load your saved profile? Your current settings will be replaced.": "Carregar seu perfil salvo? Suas configurações atuais serão substituídas.",
   "Vehicles":"Veículos",
   "Start the drag-select tool to move vehicles in an area.": "Inicia a ferramenta de seleção por arrasto para mover veículos numa área.",
   "Start the drag-select tool to recover vehicles in an area.": "Inicia a ferramenta de seleção por arrasto para recuperar veículos numa área.",
@@ -21,32 +23,16 @@
   "View/Layers": "Visão/Camadas",
   "Window": "Janela",
 
-  "Keybinds": "Atalhos de teclado",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Reatribua os atalhos da suíte Mori++. Os atalhos do próprio jogo também são verificados, então você é avisado sobre conflitos.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Clique em um campo e depois pressione uma combinação de teclas. O clique direito a apaga. Esc cancela.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "As alterações são aplicadas imediatamente. Outros mods atualizam em alguns segundos — sem necessidade de reiniciar.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "As teclas modificadoras se sobrepõem a muitos atalhos do jogo por natureza; apenas um conflito com a ferramenta de outro mod é sinalizado.",
-  "Press a key…": "Pressione uma tecla…",
-  "Conflicts with: {0}": "Conflito com: {0}",
   "None": "Nenhum",
-  "Reset": "Redefinir",
-  "Clear": "Limpar",
-  "Reset all to defaults": "Redefinir tudo para o padrão",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Mostrar mais um nível de esteiras/tubos",
   "Hide one more belt/pipe level": "Ocultar mais um nível de esteiras/tubos",
   "Show one more belt/pipe level from bottom": "Mostrar mais um nível de esteiras/tubos a partir de baixo",
   "Hide one more belt/pipe level from bottom": "Ocultar mais um nível de esteiras/tubos a partir de baixo",
   "Cycle Surplus Power modes": "Alternar os modos de Energia Excedente",
   "Toggle efficiency overlay": "Alternar sobreposição de eficiência",
-  "Toggle the Tweaks++ window": "Alternar a janela do Tweaks++",
 
   "Efficiency": "Eficiência",
-  "Efficiency Overlay": "Sobreposição de eficiência",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Etiquetas flutuantes acima de cada máquina mostram sua eficiência de operação ao vivo. Útil para identificar de relance edifícios sem suprimento, bloqueados ou com pouca energia.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Cores: verde = funcionando 75-100%, amarelo = 50-74%, laranja = 1-49%, vermelho = parado (sem entrada / saída cheia / sem energia / quebrado), cinza = pausado.",
   "Show machine efficiency overlay": "Mostrar sobreposição de eficiência das máquinas",
   "Toggle the floating efficiency labels above every machine in the world.": "Ativa ou desativa as etiquetas flutuantes de eficiência acima de cada máquina do mundo.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Atalho: Ctrl+E ativa ou desativa a sobreposição de eficiência.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Esteiras/tubulações",
-
-  "Coming Soon": "Em breve",
-
-  "More utilities coming in future updates.": "Mais utilidades chegarão em futuras atualizações.",
 
   "Surplus Power": "Energia excedente",
 
@@ -142,10 +124,6 @@
 
   "Close": "Fechar",
 
-  "Balancers": "Balanceadores",
-
-  "Lifts": "Elevadores",
-
   "Vehicle Mover": "Movedor de veículos",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Selecione um tipo de veículo e arraste para selecionar veículos no mapa, depois clique em um destino para movê-los.",
@@ -185,7 +163,6 @@
   "Clear all saved positions": "Limpar todas as posições salvas",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Pensado para criadores de projetos: edite um mundo totalmente pausado sem que caminhões ou fluidos movam itens durante a edição.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quando LIGADO, posicionar e demolir são concluídos no mesmo quadro, mesmo com o jogo pausado. Os materiais não são cobrados. Desativa à força a 'Construção Instantânea' do Cheat++ (este interruptor a substitui). Por save.",
   "Insta-place & insta-remove (works even when paused)": "Posicionar e remover instantâneo (funciona até com o jogo pausado)",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quando LIGADO, posicionar e demolir são concluídos no mesmo quadro, mesmo com o jogo pausado — pensado para criadores de projetos que editam um mundo congelado. Também desativa à força a 'Construção Instantânea' do Cheat++ (este interruptor a substitui). Por save.",
 

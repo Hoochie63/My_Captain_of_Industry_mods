@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.",
   "Overwrite your saved profile with your current settings?": "Overwrite your saved profile with your current settings?",
   "Load your saved profile? Your current settings will be replaced.": "Load your saved profile? Your current settings will be replaced.",
   "Vehicles":"Vehicles",
@@ -21,32 +23,16 @@
   "View/Layers": "View/Layers",
   "Window": "Window",
 
-  "Keybinds": "Keybinds",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Click a field, then press a key combination. Right-click clears it. Esc cancels.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.",
-  "Press a key…": "Press a key…",
-  "Conflicts with: {0}": "Conflicts with: {0}",
   "None": "None",
-  "Reset": "Reset",
-  "Clear": "Clear",
-  "Reset all to defaults": "Reset all to defaults",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Show one more belt/pipe level",
   "Hide one more belt/pipe level": "Hide one more belt/pipe level",
   "Show one more belt/pipe level from bottom": "Show one more belt/pipe level from bottom",
   "Hide one more belt/pipe level from bottom": "Hide one more belt/pipe level from bottom",
   "Cycle Surplus Power modes": "Cycle Surplus Power modes",
   "Toggle efficiency overlay": "Toggle efficiency overlay",
-  "Toggle the Tweaks++ window": "Toggle the Tweaks++ window",
 
   "Efficiency": "Efficiency",
-  "Efficiency Overlay": "Efficiency Overlay",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.",
   "Show machine efficiency overlay": "Show machine efficiency overlay",
   "Toggle the floating efficiency labels above every machine in the world.": "Toggle the floating efficiency labels above every machine in the world.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Hotkey: Ctrl+E toggles the efficiency overlay on or off.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Belts/Pipes",
-
-  "Coming Soon": "Coming Soon",
-
-  "More utilities coming in future updates.": "More utilities coming in future updates.",
 
   "Surplus Power": "Surplus Power",
 
@@ -142,10 +124,6 @@
 
   "Close": "Close",
 
-  "Balancers": "Balancers",
-
-  "Lifts": "Lifts",
-
   "Vehicle Mover": "Vehicle Mover",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.",
@@ -185,7 +163,6 @@
   "Clear all saved positions": "Clear all saved positions",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.",
   "Insta-place & insta-remove (works even when paused)": "Insta-place & insta-remove (works even when paused)",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.",
 

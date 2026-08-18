@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Sega oma värv punase, rohelise ja sinise liuguriga, selle asemel et kasutada ülal olevaid valmisvärve. See rakendub olekule, mida parasjagu muudad.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Lohista, et seda akent suuremaks teha, nii et pikem tekst ära mahub. Topeltklõps taastab vaikesuuruse.",
   "Overwrite your saved profile with your current settings?": "Kas kirjutada salvestatud profiil praeguste seadetega üle?",
   "Load your saved profile? Your current settings will be replaced.": "Kas laadida salvestatud profiil? Praegused seaded asendatakse.",
   "Vehicles":"Sõidukid",
@@ -21,32 +23,16 @@
   "View/Layers": "Vaade/kihid",
   "Window": "Aken",
 
-  "Keybinds": "Kiirklahvid",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Määra Mori++ suite'i kiirklahvid ümber. Kontrollitakse ka mängu enda kiirklahve, nii et konfliktide korral saad hoiatuse.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Klõpsa väljal ja vajuta seejärel klahvikombinatsiooni. Parema hiireklõpsuga tühjendad selle. Esc katkestab.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Muudatused rakenduvad kohe. Teised modid uuenevad mõne sekundi jooksul — taaskäivitust pole vaja.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Muuteklahvid kattuvad tahtlikult paljude mängu kiirklahvidega; hoiatus antakse ainult konflikti korral mõne teise modi tööriistaga.",
-  "Press a key…": "Vajuta klahvi…",
-  "Conflicts with: {0}": "Konflikt: {0}",
   "None": "Puudub",
-  "Reset": "Lähtesta",
-  "Clear": "Eemalda",
-  "Reset all to defaults": "Lähtesta kõik vaikeväärtustele",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Näita ühte taset rohkem (lindid/torud)",
   "Hide one more belt/pipe level": "Peida üks tase rohkem (lindid/torud)",
   "Show one more belt/pipe level from bottom": "Näita ühte taset rohkem alt (lindid/torud)",
   "Hide one more belt/pipe level from bottom": "Peida üks tase rohkem alt (lindid/torud)",
   "Cycle Surplus Power modes": "Vaheta ülejääva energia režiime",
   "Toggle efficiency overlay": "Lülita tõhususe kiht sisse/välja",
-  "Toggle the Tweaks++ window": "Lülita Tweaks++ aken sisse/välja",
 
   "Efficiency": "Tõhusus",
-  "Efficiency Overlay": "Tõhususe kiht",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Iga masina kohal hõljuvad sildid näitavad selle reaalajas tootlikkust. Kasulik, et kiirelt märgata sisendi puudumist, ummistusi või alatoitega hooneid.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Värvid: roheline = töötab 75-100%, kollane = 50-74%, oranž = 1-49%, punane = seiskunud (sisend puudub / väljund täis / energia puudub / katkine), hall = peatatud.",
   "Show machine efficiency overlay": "Näita masinate tõhususe kihti",
   "Toggle the floating efficiency labels above every machine in the world.": "Lülita sisse/välja hõljuvad tõhususe sildid iga masina kohal maailmas.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Kiirklahv: Ctrl+E lülitab tõhususe kihi sisse või välja.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Lindid/torud",
-
-  "Coming Soon": "Peagi tulemas",
-
-  "More utilities coming in future updates.": "Rohkem tööriistu tulevastes uuendustes.",
 
   "Surplus Power": "Ülejääv energia",
 
@@ -142,10 +124,6 @@
 
   "Close": "Sulge",
 
-  "Balancers": "Tasakaalustajad",
-
-  "Lifts": "Tõstukid",
-
   "Vehicle Mover": "Sõidukiteisaldaja",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Vali sõidukitüüp ja lohista, et valida sõidukid kaardil, seejärel klõpsa sihtkohale, et need sinna liigutada.",
@@ -185,7 +163,6 @@
   "Clear all saved positions": "Eemalda kõik salvestatud asukohad",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Loodud jooniste ehitajatele: muuda täielikult peatatud maailma, ilma et veokid või vedelikud liiguksid muutmise ajal.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Kui SEES, toimuvad paigutamine ja lammutamine samas kaadris, isegi kui mäng on pausil. Materjale ei arvestata. Lülitab sundkorras välja Cheat++ funktsiooni 'Instant Build' (see lüliti asendab selle). Salvestuse kohta.",
   "Insta-place & insta-remove (works even when paused)": "Kohene paigutamine ja eemaldamine (töötab ka pausil)",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Kui SEES, toimuvad paigutamine ja lammutamine samas kaadris isegi mängu pausi ajal — loodud jooniste ehitajatele, kes muudavad külmutatud maailma. Lülitab samuti sundkorras välja Cheat++ funktsiooni 'Instant Build' (see lüliti asendab selle). Salvestuse kohta.",
 

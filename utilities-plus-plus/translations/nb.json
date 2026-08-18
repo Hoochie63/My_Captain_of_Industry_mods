@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Bland din egen farge med glidebryterne for rød, grønn og blå i stedet for de forhåndsvalgte fargene over. Den brukes på tilstanden du redigerer.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Dra for å gjøre dette vinduet større slik at lengre tekst får plass. Dobbeltklikk for å gå tilbake til standardstørrelsen.",
   "Overwrite your saved profile with your current settings?": "Overskrive den lagrede profilen din med de nåværende innstillingene?",
   "Load your saved profile? Your current settings will be replaced.": "Laste inn den lagrede profilen din? De nåværende innstillingene blir erstattet.",
   "Vehicles":"Kjøretøy",
@@ -21,32 +23,16 @@
   "View/Layers": "Visning/lag",
   "Window": "Vindu",
 
-  "Keybinds": "Hurtigtaster",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Endre hurtigtastene i Mori++-pakken. Spillets egne snarveier sjekkes også, så du blir varslet om konflikter.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Klikk i et felt og trykk deretter en tastekombinasjon. Høyreklikk tømmer feltet. Esc avbryter.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Endringene trer i kraft med en gang. Andre moder oppdateres i løpet av et par sekunder — ingen omstart er nødvendig.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Modifikatortaster overlapper med mange av spillets snarveier med vilje; bare en konflikt med et annet mod-verktøy blir merket.",
-  "Press a key…": "Trykk en tast…",
-  "Conflicts with: {0}": "I konflikt med: {0}",
   "None": "Ingen",
-  "Reset": "Tilbakestill",
-  "Clear": "Fjern",
-  "Reset all to defaults": "Tilbakestill alt til standard",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Vis ett nivå til med transportbånd/rør",
   "Hide one more belt/pipe level": "Skjul ett nivå til med transportbånd/rør",
   "Show one more belt/pipe level from bottom": "Vis ett nivå til med transportbånd/rør nedenfra",
   "Hide one more belt/pipe level from bottom": "Skjul ett nivå til med transportbånd/rør nedenfra",
   "Cycle Surplus Power modes": "Bla gjennom Overskuddskraft-modusene",
   "Toggle efficiency overlay": "Slå av/på effektivitetsoverlegget",
-  "Toggle the Tweaks++ window": "Slå av/på Tweaks++-vinduet",
 
   "Efficiency": "Effektivitet",
-  "Efficiency Overlay": "Effektivitetsoverlegg",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Flytende etiketter over hver maskin viser driftseffektiviteten i sanntid. Nyttig for raskt å oppdage bygninger som mangler input, er blokkert eller har for lite strøm.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Farger: grønn = kjører 75-100%, gul = 50-74%, oransje = 1-49%, rød = stanset (ingen input / utgang full / ingen strøm / ødelagt), grå = pauset.",
   "Show machine efficiency overlay": "Vis effektivitetsoverlegg for maskiner",
   "Toggle the floating efficiency labels above every machine in the world.": "Slå av/på de flytende effektivitetsetikettene over hver maskin i verden.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Hurtigtast: Ctrl+E slår effektivitetsoverlegget av eller på.",
@@ -62,10 +48,10 @@
   "Editing: {0}": "Redigerer: {0}",
   "Reset all colors to default": "Tilbakestill alle farger til standard",
   "Reset every state's label color back to its default.": "Tilbakestill etikettfargen for hver enkelt tilstand til standard.",
-  "Running 75-100%": "Kjører 75-100%",
-  "Running 50-74%": "Kjører 50-74%",
-  "Running 1-49%": "Kjører 1-49%",
-  "Running below 1%": "Kjører under 1%",
+  "Running 75-100%": "Kjører 75–100 %",
+  "Running 50-74%": "Kjører 50–74 %",
+  "Running 1-49%": "Kjører 1–49 %",
+  "Running below 1%": "Kjører under 1 %",
   "Output full": "Utgang full",
   "No input": "Ingen input",
   "No power": "Ingen strøm",
@@ -77,13 +63,9 @@
 
   "Belts/Pipes": "Transportbånd/rør",
 
-  "Coming Soon": "Kommer snart",
-
-  "More utilities coming in future updates.": "Flere verktøy kommer i fremtidige oppdateringer.",
-
   "Surplus Power": "Overskuddskraft",
 
-  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Overstyr innstillingen for overskuddskraft på alle aktuelle bygninger når du plasserer en tegning eller limer inn en kopi. 'Standard' lar den lagrede innstillingen til hver bygning være i fred.",
+  "Override the surplus-power setting on every applicable building when placing a blueprint or pasting a copy. 'Default' leaves each building's saved setting alone.": "Overstyr innstillingen for overskuddskraft på alle aktuelle bygninger når du plasserer en blåkopi eller limer inn en kopi. 'Standard' lar den lagrede innstillingen til hver bygning være i fred.",
 
   "Hotkey: Ctrl+S cycles between modes.": "Hurtigtast: Ctrl+S blar mellom modusene.",
 
@@ -93,7 +75,7 @@
 
   "Surplus OFF": "Overskudd AV",
 
-  "Keep each building's saved surplus setting from the blueprint.": "Behold den lagrede overskuddsinnstillingen fra tegningen for hver enkelt bygning.",
+  "Keep each building's saved surplus setting from the blueprint.": "Behold den lagrede overskuddsinnstillingen fra blåkopien for hver enkelt bygning.",
 
   "Force every applicable building to consume only when there is surplus power.": "Tving alle aktuelle bygninger til å bruke strøm bare når det finnes overskuddskraft.",
 
@@ -142,10 +124,6 @@
 
   "Close": "Lukk",
 
-  "Balancers": "Balanseporter",
-
-  "Lifts": "Heiser",
-
   "Vehicle Mover": "Kjøretøyflytting",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Velg en kjøretøytype og dra for å merke kjøretøy på kartet, og klikk deretter på et mål for å flytte dem.",
@@ -184,10 +162,9 @@
 
   "Clear all saved positions": "Fjern alle lagrede posisjoner",
 
-  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Laget for deg som bygger tegninger: rediger en helt pauset verden uten at lastebiler eller væsker flytter ting midt i redigeringen.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Når denne er PÅ, fullføres plassering og riving i samme bilde, selv når spillet er pauset. Materialer belastes ikke. Deaktiverer Cheat++ 'Umiddelbar bygging' med tvang (denne bryteren erstatter den). Per lagret spill.",
+  "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Laget for deg som bygger blåkopier: rediger en helt pauset verden uten at lastebiler eller væsker flytter ting midt i redigeringen.",
   "Insta-place & insta-remove (works even when paused)": "Umiddelbar plassering og fjerning (virker også når spillet er pauset)",
-  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Når denne er PÅ, fullføres plassering og riving i samme bilde selv når spillet er pauset — laget for deg som bygger tegninger i en frossen verden. Deaktiverer også Cheat++ 'Umiddelbar bygging' med tvang (denne bryteren erstatter den). Per lagret spill.",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Når denne er PÅ, fullføres plassering og riving i samme bilde selv når spillet er pauset — laget for deg som bygger blåkopier i en frossen verden. Deaktiverer også Cheat++ 'Umiddelbar bygging' med tvang (denne bryteren erstatter den). Per lagret spill.",
 
   "Drag tools": "Draverktøy",
   "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Klikk på en knapp for å lukke dette vinduet og begynne å dra-merke. Legg en boks over en hvilken som helst gruppe bygninger for å oppgradere eller nedgradere dem ett nivå umiddelbart, uten materialkostnad. Verktøyet forblir aktivt mellom dragene — trykk Esc for å avslutte.",
@@ -212,7 +189,7 @@
   "Hide the topmost belt/pipe elevation level in the height filter.": "Skjul det øverste høydenivået med transportbånd/rør i høydefilteret.",
   "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Vis ett høydenivå til med transportbånd/rør i høydefilteret, nedenfra i stedet for ovenfra.",
   "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Skjul det nederste høydenivået med transportbånd/rør i høydefilteret i stedet for det øverste.",
-  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Du bruker Kayser's Blueprint Designer's Toolkit. Jeg ga ham verktøyene mine så han kunne forbedre dem, og moden hans har mange flere fine tegningsfunksjoner, så bruk moden hans i stedet. Alt her er permanent slått av så lenge BDT er lastet inn.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Du bruker Kayser's Blueprint Designer's Toolkit. Jeg ga ham verktøyene mine så han kunne forbedre dem, og moden hans har mange flere fine blåkopifunksjoner, så bruk moden hans i stedet. Alt her er permanent slått av så lenge BDT er lastet inn.",
   "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Åpner innstillingene for Mori++ Suite. Hurtigtast for å åpne: Alt + W",
   "Cancel Deconstruction": "Avbryt dekonstruksjon",
   "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Har du ved et uhell merket et helt område for riving? Dra en boks over det for å avbryte all ventende dekonstruksjon inni — bygninger, transportbånd og rør blir stående.",
@@ -233,6 +210,6 @@
   "NO WRK": "0 ARB",
   "BROKEN": "ØDELAGT",
   "OFF": "AV",
-  "Utilities++ profile saved.": "Utilities++-profil lagret.",
-  "Utilities++ profile loaded.": "Utilities++-profil lastet inn."
+  "Utilities++ profile saved.": "Utilities++-profilen er lagret.",
+  "Utilities++ profile loaded.": "Utilities++-profilen er lastet inn."
 }

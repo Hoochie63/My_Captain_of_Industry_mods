@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "使用紅、綠、藍滑桿調配你自己的顏色，而不必使用上方的預設顏色。它會套用到你正在編輯的狀態。",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "拖曳可放大此視窗，讓較長的文字能完整顯示。連按兩下可恢復預設大小。",
   "Overwrite your saved profile with your current settings?": "要用目前的設定覆寫已儲存的設定檔嗎？",
   "Load your saved profile? Your current settings will be replaced.": "要載入已儲存的設定檔嗎？目前的設定將被取代。",
   "Vehicles":"車輛",
@@ -21,32 +23,16 @@
   "View/Layers": "檢視/圖層",
   "Window": "視窗",
 
-  "Keybinds": "快速鍵",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "重新綁定 Mori++ 系列的快速鍵。遊戲自身的快速鍵也會被檢查，因此發生衝突時會提醒您。",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "點擊一個欄位，然後按下一個組合鍵。按右鍵清除，Esc 取消。",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "更改立即生效。其他模組會在幾秒內更新——無需重新啟動。",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "修飾鍵在設計上會與許多遊戲快速鍵重疊；僅當與其他模組工具衝突時才會提示。",
-  "Press a key…": "按一個鍵…",
-  "Conflicts with: {0}": "與以下衝突：{0}",
   "None": "無",
-  "Reset": "重設",
-  "Clear": "移除產品",
-  "Reset all to defaults": "全部重設為預設值",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "多顯示一層傳送帶/管道",
   "Hide one more belt/pipe level": "多隱藏一層傳送帶/管道",
   "Show one more belt/pipe level from bottom": "從底部多顯示一層傳送帶/管道",
   "Hide one more belt/pipe level from bottom": "從底部多隱藏一層傳送帶/管道",
   "Cycle Surplus Power modes": "切換冗餘電力模式",
   "Toggle efficiency overlay": "切換效率圖層",
-  "Toggle the Tweaks++ window": "切換 Tweaks++ 視窗",
 
   "Efficiency": "效率",
-  "Efficiency Overlay": "效率圖層",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "每台機器上方會浮動顯示其即時運作效率。一眼就能看出哪些建築缺料、堵塞或電力不足。",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "顏色含義：綠色 = 運行 75-100%，黃色 = 50-74%，橙色 = 1-49%，紅色 = 停滯（無輸入 / 輸出已滿 / 無電力 / 故障），灰色 = 暫停。",
   "Show machine efficiency overlay": "顯示機器效率圖層",
   "Toggle the floating efficiency labels above every machine in the world.": "切換世界中每台機器上方的浮動效率標籤。",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "快速鍵：Ctrl+E 開關效率圖層。",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "傳送帶/管道",
-
-  "Coming Soon": "即將推出",
-
-  "More utilities coming in future updates.": "更多實用工具將在後續更新中加入。",
 
   "Surplus Power": "冗餘電力",
 
@@ -142,10 +124,6 @@
 
   "Close": "關閉",
 
-  "Balancers": "平衡器",
-
-  "Lifts": "升降機",
-
   "Vehicle Mover": "車輛移動器",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "選擇一種車輛類型，拖曳以框選地圖上的車輛，然後點擊目的地將其移動過去。",
@@ -185,7 +163,6 @@
   "Clear all saved positions": "清除所有已儲存的位置",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "為藍圖建造者設計：在完全暫停的世界中編輯，避免編輯過程中卡車或液體移動物品。",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "開啟時，放置和拆除會在同一影格內完成，即使遊戲處於暫停狀態。不會扣除材料。強制關閉 Cheat++ 的「瞬間建造」（本開關將取代它）。依存檔分別儲存。",
   "Insta-place & insta-remove (works even when paused)": "瞬間放置和瞬間拆除（暫停時也有效）",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "開啟時，放置和拆除會在同一影格內完成，即使遊戲處於暫停狀態——為藍圖建造者在靜止世界中編輯而設計。同時強制關閉 Cheat++ 的「瞬間建造」（本開關將取代它）。依存檔分別儲存。",
 

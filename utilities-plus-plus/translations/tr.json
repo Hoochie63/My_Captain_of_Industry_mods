@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Yukarıdaki hazır renkler yerine kırmızı, yeşil ve mavi kaydırıcılarla kendi renginizi oluşturun. Düzenlediğiniz duruma uygulanır.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Bu pencereyi büyütmek ve uzun metinlerin sığması için sürükleyin. Varsayılan boyuta dönmek için çift tıklayın.",
   "Overwrite your saved profile with your current settings?": "Kayıtlı profiliniz mevcut ayarlarınızla değiştirilsin mi?",
   "Load your saved profile? Your current settings will be replaced.": "Kayıtlı profiliniz yüklensin mi? Mevcut ayarlarınız değiştirilecek.",
   "Vehicles":"Araçlar",
@@ -21,32 +23,16 @@
   "View/Layers": "Görünüm/Katmanlar",
   "Window": "Pencere",
 
-  "Keybinds": "Kısayol tuşları",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Mori++ paketinin kısayol tuşlarını yeniden atayın. Oyunun kendi kısayolları da kontrol edilir, böylece çakışmalar konusunda uyarılırsınız.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Bir alana tıklayın, ardından bir tuş kombinasyonuna basın. Sağ tıklama temizler. Esc iptal eder.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Değişiklikler anında uygulanır. Diğer modlar birkaç saniye içinde güncellenir — yeniden başlatmaya gerek yoktur.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Değiştirici tuşlar tasarım gereği birçok oyun kısayoluyla çakışır; yalnızca başka bir mod aracıyla çakışma durumunda uyarı verilir.",
-  "Press a key…": "Bir tuşa basın…",
-  "Conflicts with: {0}": "Şununla çakışıyor: {0}",
   "None": "Yok",
-  "Reset": "Sıfırla",
-  "Clear": "Temizle",
-  "Reset all to defaults": "Tümünü varsayılana sıfırla",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Bir bant/boru seviyesi daha göster",
   "Hide one more belt/pipe level": "Bir bant/boru seviyesini gizle",
   "Show one more belt/pipe level from bottom": "Alttan bir bant/boru seviyesi daha göster",
   "Hide one more belt/pipe level from bottom": "Alttan bir bant/boru seviyesini gizle",
   "Cycle Surplus Power modes": "Fazla güç modlarını değiştir",
   "Toggle efficiency overlay": "Verimlilik katmanını aç/kapat",
-  "Toggle the Tweaks++ window": "Tweaks++ penceresini aç/kapat",
 
   "Efficiency": "Verimlilik",
-  "Efficiency Overlay": "Verimlilik katmanı",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Her makinenin üzerinde beliren etiketler, canlı çalışma verimliliğini gösterir. Girdisi yetersiz, çıkışı tıkanmış veya güçsüz binaları bir bakışta fark etmek için kullanışlıdır.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Renkler: yeşil = %75-100 çalışıyor, sarı = %50-74, turuncu = %1-49, kırmızı = durdu (girdi yok / çıkış dolu / güç yok / bozuk), gri = duraklatıldı.",
   "Show machine efficiency overlay": "Makine verimlilik katmanını göster",
   "Toggle the floating efficiency labels above every machine in the world.": "Dünyadaki her makinenin üzerindeki verimlilik etiketlerini aç/kapat.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Kısayol: Ctrl+E verimlilik katmanını açar veya kapatır.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Bantlar/Borular",
-
-  "Coming Soon": "Yakında",
-
-  "More utilities coming in future updates.": "Gelecek güncellemelerde daha fazla yardımcı araç geliyor.",
 
   "Surplus Power": "Fazla güç",
 
@@ -142,10 +124,6 @@
 
   "Close": "Kapat",
 
-  "Balancers": "Dengeleyiciler",
-
-  "Lifts": "Asansörler",
-
   "Vehicle Mover": "Araç taşıyıcı",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Bir araç türü seçin ve haritadaki araçları seçmek için sürükleyin, ardından taşımak için bir hedefe tıklayın.",
@@ -185,9 +163,8 @@
   "Clear all saved positions": "Kayıtlı tüm konumları temizle",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Plan tasarımcıları için: düzenleme sırasında kamyonların veya sıvıların ürün taşımadığı, tamamen duraklatılmış bir dünyada düzenleme yapın.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "AÇIK olduğunda, yerleştirme ve yıkma işlemleri oyun duraklatılmışken bile aynı karede tamamlanır. Malzeme ücreti alınmaz. Cheat++ 'Instant Build' özelliğini zorla devre dışı bırakır (bu seçenek onun yerini alır). Kayıt başına geçerlidir.",
   "Insta-place & insta-remove (works even when paused)": "Anında yerleştir ve anında kaldır (duraklatılmışken de çalışır)",
-  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "AÇIK olduğunda, yerleştirme ve yıkma işlemleri oyun duraklatılmışken bile aynı karede tamamlanır — donmuş bir dünyada düzenleme yapan plan tasarımcıları için tasarlanmıştır. Ayrıca Cheat++ 'Instant Build' özelliğini zorla devre dışı bırakır (bu seçenek onun yerini alır). Kayıt başına geçerlidir.",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "AÇIK olduğunda, yerleştirme ve yıkma işlemleri oyun duraklatılmışken bile aynı karede tamamlanır — donmuş bir dünyada düzenleme yapan plan tasarımcıları için tasarlanmıştır. Ayrıca Cheat++ 'Anında ve ücretsiz inşa' özelliğini zorla devre dışı bırakır (bu seçenek onun yerini alır). Kayıt başına geçerlidir.",
 
   "Drag tools": "Sürükleme araçları",
   "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Bu pencereyi kapatıp sürükle-seçime başlamak için bir düğmeye tıklayın. Herhangi bir bina grubunun üzerine bir kutu bırakarak onları anında ve malzemesiz olarak bir seviye yükseltin veya düşürün. Araç, sürüklemeler arasında etkin kalır — çıkmak için Esc tuşuna basın.",
@@ -212,7 +189,7 @@
   "Hide the topmost belt/pipe elevation level in the height filter.": "Yükseklik filtresindeki en üst bant/boru seviyesini gizler.",
   "Reveal one more belt/pipe elevation level in the height filter, starting from the bottom instead of the top.": "Yükseklik filtresinde, en üstten değil en alttan başlayarak bir bant/boru seviyesi daha gösterir.",
   "Hide the bottommost belt/pipe elevation level in the height filter, instead of the topmost.": "Yükseklik filtresinde, en üstteki yerine en alttaki bant/boru seviyesini gizler.",
-  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Kayser's Blueprint Designer's Toolkit kullanıyorsunuz. Araçlarımı geliştirmesi için kendisine verdim ve onun modunda çok daha fazla güzel plan özelliği var, bu yüzden onun yerine onun modunu kullanın. BDT yüklüyken buradaki her şey kalıcı olarak kapatılır.",
+  "You're using Kayser's Blueprint Designer's Toolkit. I gave him my tools to improve them, and his mod has many more nice blueprint features, so use his mod instead. Everything here is permanently turned off while BDT is loaded.": "Kayser's Blueprint Designer's Toolkit kullanıyorsunuz. Araçlarımı geliştirmesi için kendisine verdim ve onun modunda çok daha fazla güzel plan özelliği var, bu yüzden onun yerine onunkini kullanın. BDT yüklüyken buradaki her şey kalıcı olarak kapatılır.",
   "Opens the Mori++ Suite settings. Keybind to open: Alt + W": "Mori++ Suite ayarlarını açar. Açmak için kısayol: Alt + W",
   "Cancel Deconstruction": "Yıkımı iptal et",
   "Accidentally marked a whole area for demolition? Drag a box over it to call off every pending deconstruction inside — buildings, belts and pipes stay where they are.": "Yanlışlıkla koca bir alanı yıkım için mi işaretlediniz? Üzerine bir kutu sürükleyerek içindeki tüm bekleyen yıkımları iptal edin — binalar, bantlar ve borular oldukları yerde kalır.",

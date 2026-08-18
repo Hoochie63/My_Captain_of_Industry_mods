@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Creeu el vostre propi color amb els controls lliscants de vermell, verd i blau en lloc dels colors predefinits de dalt. S'aplica a l'estat que esteu editant.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Arrossegueu per a fer aquesta finestra més gran i que hi càpiguen els textos més llargs. Feu doble clic per a restablir-la a la mida per defecte.",
   "Overwrite your saved profile with your current settings?": "Voleu sobreescriure el perfil desat amb la configuració actual?",
   "Load your saved profile? Your current settings will be replaced.": "Voleu carregar el perfil desat? La configuració actual se substituirà.",
   "Vehicles":"Vehicles",
@@ -21,32 +23,16 @@
   "View/Layers": "Vista/Capes",
   "Window": "Finestra",
 
-  "Keybinds": "Dreceres",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Torneu a assignar les dreceres de Mori++ Suite. També es comproven les dreceres del propi joc, de manera que se us avisa si hi ha conflictes.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Feu clic a un camp i, tot seguit, premeu una combinació de tecles. El clic dret l'esborra. Esc ho cancel·la.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Els canvis s'apliquen a l'instant. Els altres mods s'actualitzen en pocs segons — no cal reiniciar.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Les tecles modificadores coincideixen amb moltes dreceres del joc de manera intencionada; només s'avisa quan hi ha conflicte amb una altra eina d'un mod.",
-  "Press a key…": "Premeu una tecla…",
-  "Conflicts with: {0}": "Genera conflictes amb: {0}",
   "None": "Cap",
-  "Reset": "Restableix",
-  "Clear": "Elimina",
-  "Reset all to defaults": "Restableix-ho tot als valors per defecte",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Mostra un nivell més de cinta/canonada",
   "Hide one more belt/pipe level": "Amaga un nivell més de cinta/canonada",
   "Show one more belt/pipe level from bottom": "Mostra un nivell més de cinta/canonada des de baix",
   "Hide one more belt/pipe level from bottom": "Amaga un nivell més de cinta/canonada des de baix",
   "Cycle Surplus Power modes": "Canvia entre els modes d'Energia excedent",
   "Toggle efficiency overlay": "Commuta la superposició d'eficiència",
-  "Toggle the Tweaks++ window": "Commuta la finestra de Tweaks++",
 
   "Efficiency": "Eficiència",
-  "Efficiency Overlay": "Superposició d'eficiència",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Unes etiquetes flotants sobre cada màquina mostren la seva eficiència de funcionament en temps real. Útil per detectar d'un cop d'ull edificis desproveïts, blocats o amb poca energia.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Colors: verd = funcionant al 75-100%, groc = 50-74%, taronja = 1-49%, vermell = aturat (sense entrada / sortida plena / sense energia / trencat), gris = en pausa.",
   "Show machine efficiency overlay": "Mostra la superposició d'eficiència de les màquines",
   "Toggle the floating efficiency labels above every machine in the world.": "Commuta les etiquetes flotants d'eficiència sobre cada màquina del món.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Drecera: Ctrl+E activa o desactiva la superposició d'eficiència.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Cintes/Canonades",
-
-  "Coming Soon": "Properament",
-
-  "More utilities coming in future updates.": "Més utilitats properament en futures actualitzacions.",
 
   "Surplus Power": "Energia excedent",
 
@@ -142,10 +124,6 @@
 
   "Close": "Tanca",
 
-  "Balancers": "Distribuïdors",
-
-  "Lifts": "Muntacàrregues",
-
   "Vehicle Mover": "Moviment de vehicles",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "Trieu un tipus de vehicle i arrossegueu per seleccionar vehicles al mapa; després, feu clic a una destinació per moure'ls.",
@@ -185,16 +163,15 @@
   "Clear all saved positions": "Elimina totes les posicions desades",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Dissenyat per a constructors de plànols: editeu un món totalment en pausa sense que els camions o els fluids moguin productes durant l'edició.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quan està ACTIVAT, la col·locació i l'enderrocament es resolen al mateix fotograma, fins i tot amb el joc en pausa. No es cobren materials. Desactiva forçosament la 'Construcció instantània' de Cheat++ (aquest interruptor la substitueix). Per partida.",
   "Insta-place & insta-remove (works even when paused)": "Col·locació i eliminació instantànies (funciona fins i tot en pausa)",
-  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quan està ACTIVAT, la col·locació i l'enderrocament es completen al mateix fotograma fins i tot amb el joc en pausa — dissenyat per a constructors de plànols que editen un món congelat. També desactiva forçosament la 'Construcció instantània' de Cheat++ (aquest interruptor la substitueix). Per partida.",
+  "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Quan està ACTIVAT, la col·locació i l'enderrocament es completen al mateix fotograma fins i tot amb el joc en pausa — dissenyat per a constructors de plànols que editen un món congelat. També desactiva forçosament la «Construcció instantània» de Cheat++ (aquest interruptor la substitueix). Per partida.",
 
   "Drag tools": "Eines d'arrossegament",
   "Click a button to close this window and start drag-selecting. Drop a box on any group of buildings to upgrade or downgrade them by one tier instantly, free of materials. Tool stays active across drags — press Esc to exit.": "Feu clic a un botó per tancar aquesta finestra i començar a seleccionar per arrossegament. Deixeu anar un requadre sobre qualsevol grup d'edificis per millorar-los o rebaixar-los un nivell a l'instant, sense cost de materials. L'eina es manté activa entre arrossegaments — premeu Esc per sortir.",
   "Drag Upgrade": "Millora per arrossegament",
   "Drag Downgrade": "Rebaixa per arrossegament",
   "Closes this window. Drag a box on the world to instantly upgrade every building inside by one tier (free). Belts and pipes work too. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per millorar a l'instant un nivell tots els edificis que hi hagi dins (gratuït). Les cintes i les canonades també funcionen. Premeu Esc per sortir.",
-  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per rebaixar a l'instant un nivell tots els edificis que hi hagi dins (gratuït). Els edificis marcats com a 'no es pot rebaixar' s'ometen. Premeu Esc per sortir.",
+  "Closes this window. Drag a box on the world to instantly downgrade every building inside by one tier (free). Buildings flagged 'cannot downgrade' are skipped. Press Esc to exit.": "Tanca aquesta finestra. Arrossegueu un requadre sobre el món per rebaixar a l'instant un nivell tots els edificis que hi hagi dins (gratuït). Els edificis marcats com a «no es pot rebaixar» s'ometen. Premeu Esc per sortir.",
   "Drag Upgrade — drag a box to upgrade buildings inside. Press Esc to exit.": "Millora per arrossegament — arrossegueu un requadre per millorar els edificis que hi hagi dins. Premeu Esc per sortir.",
   "Drag Downgrade — drag a box to downgrade buildings inside. Press Esc to exit.": "Rebaixa per arrossegament — arrossegueu un requadre per rebaixar els edificis que hi hagi dins. Premeu Esc per sortir.",
   "Upgraded {0} buildings": "S'han millorat {0} edificis",

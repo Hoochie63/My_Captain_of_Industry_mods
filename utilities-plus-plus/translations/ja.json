@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "上のプリセット色を使わず、赤・緑・青のスライダーで好きな色を作れます。編集中の状態に適用されます。",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "ドラッグするとウィンドウが大きくなり、長い文章も収まります。ダブルクリックで既定のサイズに戻ります。",
   "Overwrite your saved profile with your current settings?": "現在の設定で保存済みプロファイルを上書きしますか？",
   "Load your saved profile? Your current settings will be replaced.": "保存済みプロファイルをロードしますか？現在の設定は置き換えられます。",
   "Vehicles":"車両",
@@ -21,32 +23,16 @@
   "View/Layers": "表示・レイヤー",
   "Window": "ウィンドウ",
 
-  "Keybinds": "キー割り当て",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Mori++ Suite のホットキーを再割り当てします。ゲーム本体のショートカットもチェックされるため、競合があれば警告されます。",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "欄をクリックしてからキーの組み合わせを押してください。右クリックで消去、Escでキャンセルします。",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "変更は即座に反映されます。他のModも数秒以内に更新され、再起動は不要です。",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "修飾キーはゲームの多くのショートカットと意図的に重複しています。警告されるのは他のModのツールと競合した場合のみです。",
-  "Press a key…": "キーを押してください…",
-  "Conflicts with: {0}": "競合: {0}",
   "None": "無し",
-  "Reset": "リセット",
-  "Clear": "除去",
-  "Reset all to defaults": "すべてデフォルトに戻す",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "ベルト・パイプの表示レベルを1段階上げる",
   "Hide one more belt/pipe level": "ベルト・パイプの表示レベルを1段階下げる",
   "Show one more belt/pipe level from bottom": "ベルト・パイプの表示レベルを下から1段階上げる",
   "Hide one more belt/pipe level from bottom": "ベルト・パイプの表示レベルを下から1段階下げる",
   "Cycle Surplus Power modes": "余剰電力モードを切り替え",
   "Toggle efficiency overlay": "効率オーバーレイの表示切り替え",
-  "Toggle the Tweaks++ window": "Tweaks++ ウィンドウの表示切り替え",
 
   "Efficiency": "効率",
-  "Efficiency Overlay": "効率オーバーレイ",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "すべての機械の上に、稼働効率をリアルタイムで示すラベルを表示します。資材不足、詰まり、電力不足の建物を一目で見つけるのに役立ちます。",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "色分け: 緑 = 稼働率75～100%、黄 = 50～74%、橙 = 1～49%、赤 = 停止（投入無し／出力満杯／電力無し／故障）、灰 = 一時停止。",
   "Show machine efficiency overlay": "機械の効率オーバーレイを表示",
   "Toggle the floating efficiency labels above every machine in the world.": "ワールド上のすべての機械に表示される効率ラベルの表示を切り替えます。",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "ホットキー: Ctrl+E で効率オーバーレイのオン・オフを切り替えます。",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "ベルト・パイプ",
-
-  "Coming Soon": "近日公開",
-
-  "More utilities coming in future updates.": "今後のアップデートで、さらに便利機能を追加予定です。",
 
   "Surplus Power": "余剰電力",
 
@@ -142,10 +124,6 @@
 
   "Close": "閉じる",
 
-  "Balancers": "調整器",
-
-  "Lifts": "リフト",
-
   "Vehicle Mover": "車両移動",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "車両タイプを選択し、マップ上でドラッグして車両を選択した後、移動先をクリックしてください。",
@@ -185,7 +163,6 @@
   "Clear all saved positions": "保存された位置をすべて消去",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "ブループリント作成者向け: 編集中にトラックや流体が動かないよう、完全に一時停止したワールドで編集できます。",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "ONにすると、ゲームが一時停止中でも設置と解体が同一フレームで完了します。資材は消費されません。Cheat++ の「Instant Build」を強制的に無効化します（このトグルがその代わりになります）。セーブごとに保存されます。",
   "Insta-place & insta-remove (works even when paused)": "即時設置・即時撤去（一時停止中でも動作）",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "ONにすると、ゲームが一時停止中でも設置と解体が同一フレームで完了します — 停止したワールドを編集するブループリント作成者向けです。また、Cheat++ の「Instant Build」を強制的に無効化します（このトグルがその代わりになります）。セーブごとに保存されます。",
 

@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "Meng je eigen kleur met de schuifregelaars voor rood, groen en blauw in plaats van de vaste kleuren hierboven. De kleur wordt toegepast op de status die je bewerkt.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Sleep om dit venster groter te maken zodat langere teksten passen. Dubbelklik om terug te gaan naar de standaardgrootte.",
   "Overwrite your saved profile with your current settings?": "Je opgeslagen profiel overschrijven met je huidige instellingen?",
   "Load your saved profile? Your current settings will be replaced.": "Je opgeslagen profiel laden? Je huidige instellingen worden vervangen.",
   "Vehicles":"Voertuigen",
@@ -21,32 +23,16 @@
   "View/Layers": "Weergave/lagen",
   "Window": "Venster",
 
-  "Keybinds": "Sneltoetsen",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Wijs de sneltoetsen van de Mori++ Suite opnieuw toe. Ook de sneltoetsen van het spel zelf worden gecontroleerd, zodat je wordt gewaarschuwd bij conflicten.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "Klik op een veld en druk daarna op een toetsencombinatie. Rechtsklikken wist de toewijzing. Esc annuleert.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "Wijzigingen werken meteen. Andere mods nemen ze binnen een paar seconden over — opnieuw opstarten is niet nodig.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "Modificatietoetsen overlappen bewust met veel sneltoetsen van het spel; alleen een conflict met gereedschap van een andere mod wordt gemeld.",
-  "Press a key…": "Druk op een toets…",
-  "Conflicts with: {0}": "In conflict met: {0}",
   "None": "Geen",
-  "Reset": "Resetten",
-  "Clear": "Leegmaken",
-  "Reset all to defaults": "Standaardinstellingen herstellen",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "Eén transporthoogte meer tonen",
   "Hide one more belt/pipe level": "Eén transporthoogte meer verbergen",
   "Show one more belt/pipe level from bottom": "Eén transporthoogte meer tonen vanaf onderen",
   "Hide one more belt/pipe level from bottom": "Eén transporthoogte meer verbergen vanaf onderen",
   "Cycle Surplus Power modes": "Elektriciteitsoverschot-modi wisselen",
   "Toggle efficiency overlay": "Efficiëntieoverzicht aan/uit",
-  "Toggle the Tweaks++ window": "Tweaks++-venster aan/uit",
 
   "Efficiency": "Efficiëntie",
-  "Efficiency Overlay": "Efficiëntieoverzicht",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "Zwevende labels boven elke machine tonen de actuele bedrijfsefficiëntie. Handig om in één oogopslag gebouwen te vinden die te weinig invoer krijgen, geblokkeerd zijn of te weinig elektriciteit hebben.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "Kleuren: groen = draait 75-100%, geel = 50-74%, oranje = 1-49%, rood = stilstand (geen invoer / uitvoer vol / geen elektriciteit / defect), grijs = gepauzeerd.",
   "Show machine efficiency overlay": "Efficiëntieoverzicht van machines tonen",
   "Toggle the floating efficiency labels above every machine in the world.": "Zet de zwevende efficiëntielabels boven elke machine in de wereld aan of uit.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "Sneltoets: Ctrl+E zet het efficiëntieoverzicht aan of uit.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "Transportsystemen",
-
-  "Coming Soon": "Binnenkort beschikbaar",
-
-  "More utilities coming in future updates.": "Meer hulpmiddelen volgen in toekomstige updates.",
 
   "Surplus Power": "Elektriciteitsoverschot",
 
@@ -133,7 +115,7 @@
   "Show Housing & Services": "Huisvesting & dienstverlening tonen",
 
   "Show All Trees": "Alle bomen tonen",
-  "Show Offices": "Kantoren tonen",
+  "Show Offices": "Kantoorgebouwen tonen",
   "When unchecked, hides all office buildings (Office I, II and III) so they don't block your factory view. Reversible. Per-save.": "Als dit is uitgevinkt, worden alle kantoorgebouwen (Kantoorgebouw I, II en III) verborgen zodat ze het zicht op je fabriek niet blokkeren. Omkeerbaar. Per opgeslagen spel.",
 
   "When unchecked, hides all housing (every tier) and the entire Housing & services tab — food markets, modules, water, transformer, waste, clinic, internet, square. Per-save.": "Als dit is uitgevinkt, worden alle huisvesting (elk niveau) en het hele tabblad Huisvesting & dienstverlening verborgen — voedselmarkten, modules, water, transformator, afval, kliniek, internet, plein. Per opgeslagen spel.",
@@ -141,10 +123,6 @@
   "When unchecked, hides every tree on the map (wild and planted) so they don't block the view. Reversible, does not affect harvesting. Per-save.": "Als dit is uitgevinkt, wordt elke boom op de kaart verborgen (wild en geplant) zodat ze het zicht niet blokkeren. Omkeerbaar, heeft geen invloed op het oogsten. Per opgeslagen spel.",
 
   "Close": "Afsluiten",
-
-  "Balancers": "Verdeelunits",
-
-  "Lifts": "Transportliften",
 
   "Vehicle Mover": "Voertuigen verplaatsen",
 
@@ -185,7 +163,6 @@
   "Clear all saved positions": "Alle opgeslagen posities wissen",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "Gemaakt voor blauwdrukbouwers: bewerk een volledig gepauzeerde wereld zonder dat vrachtwagens of vloeistoffen tijdens het bewerken items verplaatsen.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Als dit AAN staat, worden plaatsen en slopen in hetzelfde frame afgerond, zelfs terwijl het spel gepauzeerd is. Materialen worden niet in rekening gebracht. Schakelt 'Direct bouwen' van Cheat++ geforceerd uit (deze schakelaar vervangt het). Per opgeslagen spel.",
   "Insta-place & insta-remove (works even when paused)": "Direct plaatsen & direct verwijderen (werkt ook in pauze)",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "Als dit AAN staat, worden plaatsen en slopen in hetzelfde frame afgerond, zelfs terwijl het spel gepauzeerd is — gemaakt voor blauwdrukbouwers die een bevroren wereld bewerken. Schakelt bovendien 'Direct bouwen' van Cheat++ geforceerd uit (deze schakelaar vervangt het). Per opgeslagen spel.",
 

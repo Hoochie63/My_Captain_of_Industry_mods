@@ -1,4 +1,6 @@
 {
+  "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "위의 미리 설정된 색 대신 빨강, 초록, 파랑 슬라이더로 원하는 색을 직접 만들 수 있습니다. 편집 중인 상태에 적용됩니다.",
+  "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "드래그하면 창이 커져 긴 문구도 들어갑니다. 두 번 클릭하면 기본 크기로 되돌립니다.",
   "Overwrite your saved profile with your current settings?": "저장된 프로필을 현재 설정으로 덮어쓸까요?",
   "Load your saved profile? Your current settings will be replaced.": "저장된 프로필을 불러올까요? 현재 설정은 대체됩니다.",
   "Vehicles":"차량",
@@ -21,32 +23,16 @@
   "View/Layers": "보기/레이어",
   "Window": "창",
 
-  "Keybinds": "단축키",
-  "Rebind the Mori++ suite hotkeys. The game's own shortcuts are checked too, so you get warned about clashes.": "Mori++ 모음의 단축키를 다시 지정합니다. 게임 자체 단축키도 함께 확인하여 충돌을 경고합니다.",
-  "Click a field, then press a key combination. Right-click clears it. Esc cancels.": "필드를 클릭한 다음 키 조합을 누르세요. 우클릭하면 지워지고, Esc를 누르면 취소됩니다.",
-  "Changes apply immediately. Other mods update within a couple of seconds — no restart needed.": "변경 사항은 즉시 적용됩니다. 다른 Mod는 몇 초 안에 갱신되며 재시작이 필요 없습니다.",
-  "Modifier keys overlap with many game shortcuts by design; only a clash with another mod tool is flagged.": "보조 키는 의도적으로 여러 게임 단축키와 겹치며, 다른 Mod 도구와 충돌할 때만 표시됩니다.",
-  "Press a key…": "키를 누르세요…",
-  "Conflicts with: {0}": "충돌 항목: {0}",
   "None": "없음",
-  "Reset": "초기화",
-  "Clear": "지우기",
-  "Reset all to defaults": "전체를 기본값으로 초기화",
-  "Tweaks++": "Tweaks++",
-  "Cheat++": "Cheat++",
-  "Gameplay++": "Gameplay++",
   "Show one more belt/pipe level": "벨트/파이프 레벨을 한 단계 더 표시",
   "Hide one more belt/pipe level": "벨트/파이프 레벨을 한 단계 더 숨기기",
   "Show one more belt/pipe level from bottom": "아래부터 벨트/파이프 레벨을 한 단계 더 표시",
   "Hide one more belt/pipe level from bottom": "아래부터 벨트/파이프 레벨을 한 단계 더 숨기기",
   "Cycle Surplus Power modes": "잉여 전력 모드 순환",
   "Toggle efficiency overlay": "효율 오버레이 전환",
-  "Toggle the Tweaks++ window": "Tweaks++ 창 전환",
 
   "Efficiency": "효율",
-  "Efficiency Overlay": "효율 오버레이",
   "Floating labels above every machine show its live operating efficiency. Useful for spotting starved, blocked, or under-powered buildings at a glance.": "모든 기계 위에 떠 있는 라벨이 실시간 가동 효율을 보여줍니다. 재료 부족, 출력 막힘, 전력 부족 건물을 한눈에 찾는 데 유용합니다.",
-  "Colors: green = running 75-100%, yellow = 50-74%, orange = 1-49%, red = stalled (no input / output full / no power / broken), gray = paused.": "색상: 초록 = 가동률 75~100%, 노랑 = 50~74%, 주황 = 1~49%, 빨강 = 정지(재료 없음 / 출력 가득참 / 전력 없음 / 고장), 회색 = 일시정지.",
   "Show machine efficiency overlay": "기계 효율 오버레이 표시",
   "Toggle the floating efficiency labels above every machine in the world.": "세계의 모든 기계 위에 떠 있는 효율 라벨을 전환합니다.",
   "Hotkey: Ctrl+E toggles the efficiency overlay on or off.": "단축키: Ctrl+E로 효율 오버레이를 켜고 끕니다.",
@@ -76,10 +62,6 @@
 
 
   "Belts/Pipes": "벨트/파이프",
-
-  "Coming Soon": "출시 예정",
-
-  "More utilities coming in future updates.": "더 많은 유틸리티가 향후 업데이트에 추가될 예정입니다.",
 
   "Surplus Power": "잉여 전력",
 
@@ -142,10 +124,6 @@
 
   "Close": "닫기",
 
-  "Balancers": "밸런서",
-
-  "Lifts": "리프트",
-
   "Vehicle Mover": "차량 이동",
 
   "Select a vehicle type and drag to select vehicles on the map, then click a destination to move them.": "차량 유형을 선택한 다음 지도에서 드래그로 차량을 선택하고, 목적지를 클릭하여 이동시키세요.",
@@ -185,7 +163,6 @@
   "Clear all saved positions": "저장된 위치 전체 지우기",
 
   "Designed for blueprint builders: edit a fully paused world without trucks or fluids moving items mid-edit.": "청사진 제작자를 위한 기능입니다: 트럭이나 유체가 편집 중에 움직이지 않도록 완전히 일시정지된 세계를 편집할 수 있습니다.",
-  "When ON, placing and demolishing resolve the same frame, even while the game is paused. Materials are not charged. Force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "켜면 게임이 일시정지된 상태에서도 배치와 철거가 같은 프레임에 즉시 처리됩니다. 자재는 소모되지 않습니다. Cheat++의 'Instant Build'를 강제로 비활성화합니다(이 토글이 이를 대체합니다). 세이브별로 저장됩니다.",
   "Insta-place & insta-remove (works even when paused)": "즉시 배치 및 즉시 제거(일시정지 중에도 작동)",
   "When ON, placing and demolishing complete the same frame even while the game is paused — designed for blueprint builders editing a frozen world. Also force-disables Cheat++ 'Instant Build' (this toggle replaces it). Per-save.": "켜면 게임이 일시정지된 상태에서도 배치와 철거가 같은 프레임에 완료됩니다 — 정지된 세계를 편집하는 청사진 제작자를 위한 기능입니다. Cheat++의 'Instant Build'도 강제로 비활성화합니다(이 토글이 이를 대체합니다). 세이브별로 저장됩니다.",
 
