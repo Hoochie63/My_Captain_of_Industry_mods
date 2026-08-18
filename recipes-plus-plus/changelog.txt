@@ -1,3 +1,53 @@
+v1.2.3 | 2026-08-15
+* Every fuel type now has its own paint so you can tell your fleets apart at a glance:
+   Diesel is red, Synthetic diesel is green, Hydrogen is white, and Battery is orange with white tanks.
+   All vehicle icons in the build menus and windows match the new colors.
+
+* Every fuel tab in the vehicle depots has a "Colored vehicles" checkbox, so you can turn the paint on or off per fuel type if you prefer the normal look. Your choice is saved per save file and vehicles repaint on the spot.
+
+* Added synthetic diesel versions of all remaining vehicles:
+   Small excavator S, Excavator S, Mega excavator S, Amphibious excavator S, Amphibious truck S, Tree harvester S, Large tree harvester S and Heavy Tanker S.
+
+* Added battery versions of all remaining vehicles:
+   Small excavator B, Excavator B, Mega excavator B, Amphibious excavator B, Amphibious truck B, Tree harvester B and Large tree harvester B.
+
+* The "Synth Trucks" research is now called "Synth Vehicles" and unlocks all the new synthetic diesel vehicles. The Battery Vehicles research unlocks the new battery ones.
+
+v1.2.2 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
+v1.2.1 | 2026-08-12
+* Now supports game version 0.8.7a.
+
+* Realistic water electrolysis now makes half as much per batch and uses 4.2x power on both Electrolyzer tiers. (thanks antonio220 for the balance suggestion)
+
+* The Crude oil, Diesel and Naphtha recipes made from Liquified coal now sit in the Liquifier instead of the Chemical plant. 
+   Also moved Synthetic diesel to the Liquifier. Keeping base game buildings free of mod recipes and makes more sense to live there.
+
+  - They also make less per batch, so they stay a nice extra for spare coal rather than a stronger replacement or as a second extra recipe for the base game's oil chain.
+
+* The Liquid coal generator now puts out 5 MW instead of 3 MW while burning 16 Liquified coal a minute instead of 24, making it worth building as a peak power buffer.
+
+* Synthetic diesel now needs only 2 sulfur per batch instead of 6. (thanks antonio220 for the suggestion)
+
+  - The Synt generator now burns 25 synthetic diesel a minute instead of 30 for the same 3.8 MW output, so every unit of fuel goes further. (thanks antonio220 for the suggestion)
+
+* The Battery plant now charges 6 cells a minute instead of 4 every 90 seconds, and uses 6x power instead of 8x, so charged cells cost about a third of the power they used to and one plant keeps up with a lot more vehicles.
+
+  - Charging cells no longer needs any computing at all, and assembling them now needs 8 TFlops instead of 15. Building the cells is the part that needs computers, not pushing current into them. (thanks antonio220 for the suggestion)
+
+* The charging station now hands back 60% of the batteries it uses instead of 70%, so you still need to build new cells over time rather than recharging the same ones forever.
+
 v1.2.0 | 2026-07-29
 * Now supports game version 0.8.7.
 * Reworked where the synthetic diesel vehicles unlock in the research tree so they line up better with the base game's vehicle progression. The synthetic trucks now unlock with the Mega Vehicles research (both standard and hydrogen) instead of being available too early. The synthetic Heavy Hauler now unlocks with the regular Heavy Hauler research, and the synthetic Terex and Huge Excavator now unlock with their diesel and hydrogen versions.
