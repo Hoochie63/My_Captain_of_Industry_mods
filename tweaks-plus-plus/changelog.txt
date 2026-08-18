@@ -1,3 +1,28 @@
+v1.2.8 | 2026-08-15
+* New "Hide labels" option for mining tower labels, with a RShift + L shortcut to turn them off and on (thanks Serjevski for the idea). They come back when you load a save.
+
+* The Overlord window now always shows at 100% size, whatever UI scale you play at (thanks warrenc for the report). At 125% and higher the buttons at the bottom were cut off the screen and everything needed far more scrolling.
+
+* Dump to Shipyard no longer grabs trucks that are assigned to a building — only unassigned stuck trucks are sent to dump their cargo (thanks rgreat for the report).
+
+v1.2.7 | 2026-08-14
+* Lots of changes made to the translations.
+
+  - Many dead strings that are no longer in use have been removed.
+
+  - Missing strings for newer parts of the mod have been added.
+
+  - Text that was falling back to English now has its missing translations.
+
+  - Wrong translations, wording and grammar have been updated.
+
+  - If anything still reads wrong, update the translation yourself and send it to me in a DM or on the hub, and I will get it into the mod.
+
+v1.2.6 | 2026-08-13
+* Now supports game version 0.8.7a.
+
+* The Overlord window is now the same size on every tab, so it no longer jumps in size when you switch between boost and the other mod tab.
+
 v1.2.5 | 2026-08-10
 * Fixed the pin on the Overlord window doing nothing — it now actually closes the window when you open something else (a building, another window) while unpinned, and starts pinned by default the first time you open it each session. (thanks Hoochie for the report)
 
