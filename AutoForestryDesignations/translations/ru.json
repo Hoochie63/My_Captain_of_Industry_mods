@@ -8,6 +8,14 @@
         "Информация о лесном хозяйстве"
     ],
     [
+        "AFD_ForestryDesignationsTitleTipFmt",
+        "<align=\"center\">Создание автоматической разметки лесопосадок.<br>[Kayser's Automatic Forestry Designations v{0}]</align>"
+    ],
+    [
+        "AFD_ForestryInformationTitleTipFmt",
+        "<align=\"center\">Текущие деревья и прогнозируемое производство древесины в управляющей области этой вышки.<br>[Kayser's Automatic Forestry Designations v{0}]</align>"
+    ],
+    [
         "AFD_CreateDesignationsBtn",
         "Создать разметку"
     ],
@@ -48,12 +56,32 @@
         "<align=\"center\">При включении этой функции, пропускать плитки разметки, которые недостижимы для техники в области вышки.</align>"
     ],
     [
-        "AFD_AvoidTerrainDesignationsLabel",
-        "Избегать разметки рельефа"
+        "AFD_OverrideTerrainDesignationsLabel",
+        "Переопределять разметку рельефа"
     ],
     [
-        "AFD_AvoidTerrainDesignationsTip",
-        "<align=\"center\">Пропускать плитки, которые уже содержат любую разметку рельефа, включая карьерные работы, отвалы или выравнивание.</align>"
+        "AFD_OverrideTerrainDesignationsTip",
+        "<align=\"center\">Разрешить лесной разметке заменять существующую разметку рельефа местности, включая карьерные работы, отвалы и выравнивание.<br>По умолчанию выключено.</align>"
+    ],
+    [
+        "AFD_AvoidFlatTilesLabel",
+        "Избегать ровных клеток"
+    ],
+    [
+        "AFD_AvoidFlatTilesTip",
+        "<align=\"center\">Использовать для лесного хозяйства только неровные, пересечённые плитки.<br>(Ровные плитки сохраняются для строений.)</align>"
+    ],
+    [
+        "AFD_TargetYieldLabel",
+        "Целевая выработка"
+    ],
+    [
+        "AFD_TargetYieldTip",
+        "<align=\"center\">Целевая устойчивая добыча древесины за игровой месяц.<br>0 = без цели (∞).</align>"
+    ],
+    [
+        "AFD_TargetYieldLegacyTipFmt",
+        "Сохранённое устаревшее максимальное число назначений: {0}."
     ],
     [
         "AFD_MaxTilesLabel",
