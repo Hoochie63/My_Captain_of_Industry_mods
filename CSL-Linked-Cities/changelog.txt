@@ -1,26 +1,36 @@
+v1.0.3 | 2026-08-18
+
+=====================
+LINKED TOWN SERVICES
+=====================
+- Town Services can now be placed away from City Blocks without requiring a settlement slot, while still participating in the shared Settlement economy.
+- Detached Town Services retain their normal inputs, outputs, buffers, capacities, needs and satisfaction effects, workers, power, maintenance, and logistics requirements.
+- The existing snapping-grid toggle is now available while placing Town Services. Keep snapping enabled as an optional alignment helper.
+- Any City Block may be removed as long as at least one City Block remains. The final City Block is protected until all Town Services have been removed.
+- Properly registered modded Town Services should automatically receive detached-placement support.
+
+- This feature is in public beta. If any issues are found, please report them, and they will be addressed with top priority.
+
 v1.0.2b | 2026-08-18
 
-* Added a toggle for the City Block snapping grid, allowing nearby City Blocks to be placed freely without being pulled into existing settlement slots. 
-* While placing City Blocks, click the toggle in the placement toolbar or press G to toggle the snapping-grid.
-* Toggle Snapping-Grid's keybind can be changed in Escape Menu → Controls.
-* Fixed: The keybind.label on the toolbar toggle UI now properly updates to reflect keybind changes without needing a game restart.
-* Verified compatibility with Captain of Industry 0.8.7a.
-
-v1.0.2 | 2026-08-17
-
-* Patch notes pushed to v1.0.2b hotfix
+=====================
+SNAPPING GRID TOGGLE
+=====================
+- Added a toggle for the City Block snapping grid, allowing nearby City Blocks to be placed freely without being pulled into existing settlement slots. 
+- While placing City Blocks, click the toggle in the placement toolbar or press G to toggle the snapping-grid.
+- Toggle Snapping-Grid's keybind can be changed in Escape Menu → Controls.
+- Verified compatibility with Captain of Industry 0.8.7a.
 
 v1.0.1 | 2026-08-07
 
-* Rebuilt and verified compatibility with Captain of Industry 0.8.7 while retaining support for Captain of Industry 0.8.6 through 0.8.6c.
-* Fixed startup failing when Linked Cities was enabled without another Harmony-based mod by ensuring the bundled Harmony library loads first.
+- Rebuilt and verified compatibility with Captain of Industry 0.8.7 while retaining support for Captain of Industry 0.8.6 through 0.8.6c.
+- Fixed startup failing when Linked Cities was enabled without another Harmony-based mod by ensuring the bundled Harmony library loads first.
 
 v1.0.0 | 2026-08-02
 
-* Public beta: links every player City Block into one shared vanilla Settlement economy, even when towns are physically separated across the island.
-* Population stats will show shared/combined population, housing, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity stats across all linked City Blocks.
-* Allows exterior, interior, and bridge City Blocks, including unbuilt plans, to be removed without requiring the physical town to remain contiguous. Attached settlement services must still be removed first.
-* Can be added to existing saves. Established settlements with active monthly history may finish the current month before their first link.
-* Registers no custom gameplay entities or prototypes and can be removed from saves. Already-linked vanilla Settlements are not automatically split apart when the mod is disabled.
-* Mod will be considered stable once all deep late-game testing is complete and mod proves to correctly preserve accurate math across all population data under equal input/output conditions. In other words, the same amount of city tiles should produce the EXACT same demand, satisfaction, intput, and output numbers whether they are connected, or separated. Early-to-Mid game testing has proven correct so far, but there's alot of edge cases to test by myself that require many hours of beta testing. — If you notice any incorrect population data, please report so I can ensure all game balance & population systems remain preserved & unbroken.
-
+- Public beta: links every player City Block into one shared vanilla Settlement economy, even when towns are physically separated across the island.
+- Population stats will show shared/combined population, housing, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity stats across all linked City Blocks.
+- Allows exterior, interior, and bridge City Blocks, including unbuilt plans, to be removed without requiring the physical town to remain contiguous. Attached settlement services must still be removed first.
+- Can be added to existing saves. Established settlements with active monthly history may finish the current month before their first link.
+- Registers no custom gameplay entities or prototypes and can be removed from saves. Already-linked vanilla Settlements are not automatically split apart when the mod is disabled.
+- Mod will be considered stable once all deep late-game testing is complete and mod proves to correctly preserve accurate math across all population data under equal input/output conditions. In other words, the same amount of city tiles should produce the EXACT same demand, satisfaction, intput, and output numbers whether they are connected, or separated. Early-to-Mid game testing has proven correct so far, but there's alot of edge cases to test by myself that require many hours of beta testing. — If you notice any incorrect population data, please report so I can ensure all game balance & population systems remain preserved & unbroken.

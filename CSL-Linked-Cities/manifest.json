@@ -1,9 +1,9 @@
 {
   "id": "CSL-Linked-Cities",
-  "version": "1.0.2b",
+  "version": "1.0.3",
   "display_name": "C.O.I. Skylines - Linked Cities",
   "description_short": "Links physically separated City Blocks into one shared settlement.",
-  "description_long": "All player City Blocks share one real vanilla Settlement economy regardless of physical separation. Population, housing, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity are evaluated across the combined settlement. Exterior, interior, and bridge City Blocks can be removed without a physical-contiguity restriction, while attached settlement services remain protected. City Block grid snapping can be toggled during placement. Other placement validation, service slots, decoration influence, building buffers, pipes, trucks, and logistics remain local and vanilla.",
+  "description_long": "All player City Blocks share one real vanilla Settlement economy regardless of physical separation. Population, housing, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity are evaluated across the combined settlement. Town services can be placed away from City Blocks while retaining their full native settlement inputs, outputs, capacity, and satisfaction effects. City Block and town-service grid snapping can be toggled during placement. Decoration influence, building buffers, pipes, trucks, and logistics remain local and vanilla.",
   "authors": [
     "xTMagTx"
   ],
