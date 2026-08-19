@@ -1,4 +1,4 @@
-ADAPTIVE CALENDAR BUTTONS v1.0.6
+ADAPTIVE CALENDAR BUTTONS v1.0.7
 
 Adaptive Calendar Buttons keeps Captain of Industry Calendar 1 buttons compact,
 sortable, and under your control while preserving their original actions,
@@ -67,7 +67,9 @@ Direction controls are shown only while revealable buttons are enabled and a val
 Tweaks++ movement target is available. The untouched native calendar already
 positions itself correctly. During a real Tweaks++ drag, the right-edge
 correction is suspended and then adopts the completed position. Adaptive
-Calendar Buttons never resets or rewrites Tweaks++ HUD placement.
+Calendar Buttons preserves the visible placement and vertical coordinate while
+synchronizing the corrected horizontal coordinate through Tweaks++ so reloads
+remain stable.
 
 RESET TO DEFAULTS
 
@@ -76,11 +78,12 @@ Reset to defaults uses the game's native confirmation prompt. It restores:
 * The original discovered visual order.
 * Default button visibility, including the Speed++ conditional defaults.
 * Revealable buttons off.
-* On Click as the interaction mode and Secondary as the transient state.
+* On Click as the interaction mode and Primary as the remembered active view.
 * Expand left as the default direction.
 
-Reset never changes the calendar's screen position, the settings-window
-position, or any Tweaks++ HUD coordinates.
+Reset never moves the calendar on screen or changes the settings-window position.
+When needed, only Tweaks++'s stored horizontal coordinate is synchronized to the
+calendar position already shown on screen.
 
 SPEED / MOD MODE
 
@@ -104,10 +107,10 @@ GLOBAL SETTINGS
 One global configuration is shared by every world and survives complete game
 restarts. It remembers order, Enabled, both view assignments, interaction mode,
 expansion direction, per-button icon colors, and both control-state colors. The
-momentary click-selected view is not saved, so a new session starts safely in
-Secondary.
+active On Click view is also remembered, so Primary or Secondary resumes after
+loading. On Hover always begins safely in Primary / At Rest.
 
-There are no per-save profiles or multiple-profile setup in v1.0.6. New test
+There are no per-save profiles or multiple-profile setup in v1.0.7. New test
 worlds automatically use the same global configuration.
 
 SPEED++ DEFAULTS
@@ -169,6 +172,6 @@ OFFICIAL PACKAGE IDENTITY
 
 * Display name: Adaptive Calendar Buttons
 * Mod ID and installation folder: adaptive-calendar-buttons
-* Public ZIP: Adaptive Calendar Buttons v1.0.6.zip
+* Public ZIP: Adaptive Calendar Buttons v1.0.7.zip
 * ZIP root folder: adaptive-calendar-buttons
 * Runtime DLL: SexyCalendar.dll
