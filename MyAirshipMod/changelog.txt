@@ -1,3 +1,7 @@
+v0.8.2 | 2026-08-19
+* 修复0.8.1打包时丢失的地面停机坪图标
+Fix the missing ground apron icon during packaging in version 0.8.1
+
 v0.8.1 | 2026-08-18
 * 加入对分拣机的支持,没有地面停机坪时,自动找寻附近的分拣厂卸货
 * 使用新的模型应用于挖掘飞艇.
