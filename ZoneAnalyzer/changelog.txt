@@ -1,3 +1,28 @@
+1.3.0
+
+Whole island: a balance of everything, no selection needed. This update
+started as a suggestion by PForsberg on this very page.
+
+- A new "ALL" button in the panel's header switches to an island-wide
+  balance: every product produced or used anywhere on the island last
+  month, Makes / Needs / Net, shortages listed first. Click it again to
+  jump straight back to whatever area or line you had open.
+- These figures are read straight from totals the game already keeps for
+  the whole island, the same ones behind its own Statistics panel, so
+  there is no "full speed" column at this scale: only what was actually
+  measured.
+- A search box filters the list by product name, and a "Shortages first /
+  A to Z" switch controls the sort order.
+
+1.2.1
+
+The F9 shortcut is now reconfigurable.
+
+- If Moriarty's Keybind Framework is installed, Zone Analyzer's shortcut
+  shows up in the "Modded Keybinds" options tab, with F9 as the default. It
+  applies right away, no restart needed. Without that mod, nothing changes:
+  the shortcut stays F9.
+
 1.2.0
 
 Parallel branches, line preview on hover, and the mod finally has its own

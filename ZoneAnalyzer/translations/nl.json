@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} opgewekt"],
 	["ZoneAnalyzer_ResearchMade", "{0} onderzoek"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Zone Analyzer-gereedschap openen"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Pakt het gebiedsgereedschap op en opent het paneel. Nogmaals drukken sluit het."],
+
 	["ZoneAnalyzer_SectionNotes", "Hoe je deze cijfers leest ({0})"],
 	["ZoneAnalyzer_SectionShortage", "Tekort ({0})"],
 	["ZoneAnalyzer_SectionOk", "In evenwicht en overschot ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Beweegt de camera naar dit gebouw. Klik nogmaals voor het volgende."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} opslag(en) voeden deze lijn terwijl geen enkele band of pijp ze hier vult: ze kunnen alleen per vrachtwagen bevoorraad worden. Het spel registreert geen tempo voor vrachtwagenleveringen, dus hun aanvoer telt niet mee in de totalen; in plaats daarvan wordt hun voorraad getoond, en een slinkende voorraad betekent dat de leveringen het niet bijhouden."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Niets op deze lijn verraadt wat ze vervoert: ze is leeg, geen opslag of sorteerunit is aan een product toegewezen en er is geen producent aangesloten. De behoeften van de aangesloten gebouwen worden niet geteld: {0}."],
-	["ZoneAnalyzer_HelpLine", "De balans van een lijn volgt alles wat op het aangeklikte transport is aangesloten: wat haar voedt tegenover wat eraan onttrekt. Knelpunten vergelijken de capaciteit van elk segment, een gegeven uit het spel, met wat de gebouwen erachter op volle snelheid nodig hebben. Parallelle takken worden niet beoordeeld, en een per vrachtwagen bevoorrade opslag heeft geen meetbaar tempo."]
+	["ZoneAnalyzer_HelpLine", "De balans van een lijn volgt alles wat op het aangeklikte transport is aangesloten: wat haar voedt tegenover wat eraan onttrekt. Knelpunten vergelijken de capaciteit van elk segment, een gegeven uit het spel, met wat de gebouwen erachter op volle snelheid nodig hebben. Parallelle takken worden niet beoordeeld, en een per vrachtwagen bevoorrade opslag heeft geen meetbaar tempo."],
+
+	["ZoneAnalyzer_IslandLabel", "ALLES"],
+	["ZoneAnalyzer_IslandTooltip", "Hele eiland: productie en verbruik over je hele basis, niet alleen de huidige selectie van dit venster."],
+	["ZoneAnalyzer_IslandBanner", "Hele eiland"],
+	["ZoneAnalyzer_IslandSubtitle", "Gemeten over de afgelopen maand · {0} product(en) met activiteit"],
+	["ZoneAnalyzer_IslandEmpty", "Er is op dit eiland nog niets geproduceerd of verbruikt."],
+	["ZoneAnalyzer_IslandNote", "Deze cijfers komen rechtstreeks uit de eiland-brede totalen die het spel zelf al bijhoudt, dezelfde cijfers als achter het Statistieken-paneel. Hier wordt niets herberekend vanuit recepten, dus is er op deze schaal geen \"op volle snelheid\"-cijfer."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Typ om de lijst te filteren op productnaam"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Zoek een product…"],
+	["ZoneAnalyzer_IslandSortShortages", "Tekorten eerst"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

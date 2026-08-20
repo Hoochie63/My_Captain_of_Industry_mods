@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} generados"],
 	["ZoneAnalyzer_ResearchMade", "{0} de investigación"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Abrir la herramienta Zone Analyzer"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Toma la herramienta de área y abre el panel. Púlsalo de nuevo para cerrar."],
+
 	["ZoneAnalyzer_SectionNotes", "Cómo leer estas cifras ({0})"],
 	["ZoneAnalyzer_SectionShortage", "En déficit ({0})"],
 	["ZoneAnalyzer_SectionOk", "En equilibrio y con excedente ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Lleva la cámara a este edificio. Haz clic de nuevo para el siguiente."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} almacén(es) alimentan esta línea sin que ninguna cinta ni tubería los llene aquí: solo pueden abastecerse por camión. El juego no registra ninguna cadencia para las entregas por camión, así que su aporte no entra en los totales; en su lugar se muestra su stock, y un stock que mengua significa que las entregas no dan abasto."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Nada en esta línea revela lo que transporta: está vacía, ningún almacén ni clasificador tiene un producto asignado y ningún productor está conectado. Las necesidades de los edificios conectados no se cuentan: {0}."],
-	["ZoneAnalyzer_HelpLine", "El balance de una línea sigue todo lo conectado al transporte pulsado: lo que la alimenta frente a lo que extrae de ella. Los cuellos de botella comparan la capacidad de cada tramo, un dato del juego, con lo que necesitan a pleno rendimiento los edificios situados detrás. Las ramas paralelas no se evalúan, y un almacén abastecido por camión no tiene cadencia medible."]
+	["ZoneAnalyzer_HelpLine", "El balance de una línea sigue todo lo conectado al transporte pulsado: lo que la alimenta frente a lo que extrae de ella. Los cuellos de botella comparan la capacidad de cada tramo, un dato del juego, con lo que necesitan a pleno rendimiento los edificios situados detrás. Las ramas paralelas no se evalúan, y un almacén abastecido por camión no tiene cadencia medible."],
+
+	["ZoneAnalyzer_IslandLabel", "TODO"],
+	["ZoneAnalyzer_IslandTooltip", "Toda la isla: producción y consumo de toda tu base, no solo la selección actual de esta ventana."],
+	["ZoneAnalyzer_IslandBanner", "Toda la isla"],
+	["ZoneAnalyzer_IslandSubtitle", "Medido durante el último mes · {0} producto(s) con actividad"],
+	["ZoneAnalyzer_IslandEmpty", "Todavía no se ha producido ni consumido nada en esta isla."],
+	["ZoneAnalyzer_IslandNote", "Estas cifras vienen directamente de los totales de toda la isla que ya tiene el juego, los mismos números detrás de su panel de Estadísticas. Nada aquí se recalcula a partir de recetas, así que no existe una cifra «a toda velocidad» a esta escala."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Escribe para filtrar la lista por nombre de producto"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Buscar un producto…"],
+	["ZoneAnalyzer_IslandSortShortages", "Déficits primero"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

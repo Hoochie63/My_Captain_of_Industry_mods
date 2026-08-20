@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} erzeugt"],
 	["ZoneAnalyzer_ResearchMade", "{0} Forschung"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Zone-Analyzer-Werkzeug öffnen"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Nimmt das Bereichswerkzeug auf und öffnet das Fenster. Erneut drücken zum Schließen."],
+
 	["ZoneAnalyzer_SectionNotes", "So sind diese Zahlen zu lesen ({0})"],
 	["ZoneAnalyzer_SectionShortage", "Mangel ({0})"],
 	["ZoneAnalyzer_SectionOk", "Ausgeglichen und Überschuss ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Schwenkt die Kamera zu diesem Gebäude. Erneut klicken für das nächste."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} Lager versorgen diese Linie, aber kein Förderband und kein Rohr füllt sie hier: sie können nur per LKW beliefert werden. Das Spiel erfasst für LKW-Lieferungen keine Rate, ihr Beitrag fehlt daher in den Summen; stattdessen wird ihr Bestand gezeigt, und ein schrumpfender Bestand heißt, dass die Lieferungen nicht nachkommen."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Nichts auf dieser Linie verrät, was sie befördert: sie ist leer, kein Lager und kein Sortierer ist einem Produkt zugewiesen, und kein Erzeuger ist angeschlossen. Der Bedarf der angeschlossenen Gebäude wird nicht gezählt: {0}."],
-	["ZoneAnalyzer_HelpLine", "Die Bilanz einer Linie folgt allem, was am angeklickten Transport angeschlossen ist: was sie versorgt, gegen das, was aus ihr entnimmt. Engpässe vergleichen die Kapazität jedes Abschnitts, eine Angabe des Spiels, mit dem Bedarf der dahinterliegenden Gebäude bei voller Geschwindigkeit. Parallele Zweige werden nicht beurteilt, und per LKW belieferte Lager haben keine messbare Rate."]
+	["ZoneAnalyzer_HelpLine", "Die Bilanz einer Linie folgt allem, was am angeklickten Transport angeschlossen ist: was sie versorgt, gegen das, was aus ihr entnimmt. Engpässe vergleichen die Kapazität jedes Abschnitts, eine Angabe des Spiels, mit dem Bedarf der dahinterliegenden Gebäude bei voller Geschwindigkeit. Parallele Zweige werden nicht beurteilt, und per LKW belieferte Lager haben keine messbare Rate."],
+
+	["ZoneAnalyzer_IslandLabel", "ALLE"],
+	["ZoneAnalyzer_IslandTooltip", "Ganze Insel: Produktion und Verbrauch auf Ihrer gesamten Basis, nicht nur die aktuelle Auswahl dieses Fensters."],
+	["ZoneAnalyzer_IslandBanner", "Ganze Insel"],
+	["ZoneAnalyzer_IslandSubtitle", "Gemessen im letzten Monat · {0} Produkte mit Aktivität"],
+	["ZoneAnalyzer_IslandEmpty", "Auf dieser Insel wurde noch nichts produziert oder verbraucht."],
+	["ZoneAnalyzer_IslandNote", "Diese Zahlen stammen direkt aus den eigenen inselweiten Summen des Spiels, denselben Zahlen wie hinter seinem Statistik-Panel. Nichts wird hier aus Rezepten neu berechnet, es gibt auf dieser Ebene also keinen Wert „mit voller Leistung“."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Tippen, um die Liste nach Produktname zu filtern"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Produkt suchen…"],
+	["ZoneAnalyzer_IslandSortShortages", "Mängel zuerst"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} gerados"],
 	["ZoneAnalyzer_ResearchMade", "{0} de pesquisa"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Abrir a ferramenta Zone Analyzer"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Pega a ferramenta de área e abre o painel. Pressione de novo para fechar."],
+
 	["ZoneAnalyzer_SectionNotes", "Como ler estes números ({0})"],
 	["ZoneAnalyzer_SectionShortage", "Em falta ({0})"],
 	["ZoneAnalyzer_SectionOk", "Equilibrado e com excedente ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Leva a câmera até este edifício. Clique de novo para o próximo."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} armazém(ns) alimentam esta linha sem que nenhuma esteira ou tubo os encha aqui: só podem ser abastecidos por caminhão. O jogo não registra ritmo para entregas de caminhão, então esse aporte não entra nos totais; o estoque é mostrado no lugar, e um estoque que encolhe significa que as entregas não dão conta."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Nada nesta linha revela o que ela transporta: está vazia, nenhum armazém ou classificador tem produto atribuído e nenhum produtor está conectado. As necessidades dos edifícios conectados não são contadas: {0}."],
-	["ZoneAnalyzer_HelpLine", "O balanço de uma linha segue tudo o que está conectado ao transporte clicado: o que a alimenta contra o que retira dela. Os gargalos comparam a capacidade de cada trecho, um dado do jogo, com o que os edifícios atrás dele precisam a plena capacidade. Ramos paralelos não são avaliados, e um armazém abastecido por caminhão não tem ritmo mensurável."]
+	["ZoneAnalyzer_HelpLine", "O balanço de uma linha segue tudo o que está conectado ao transporte clicado: o que a alimenta contra o que retira dela. Os gargalos comparam a capacidade de cada trecho, um dado do jogo, com o que os edifícios atrás dele precisam a plena capacidade. Ramos paralelos não são avaliados, e um armazém abastecido por caminhão não tem ritmo mensurável."],
+
+	["ZoneAnalyzer_IslandLabel", "TUDO"],
+	["ZoneAnalyzer_IslandTooltip", "Ilha inteira: produção e consumo em toda a sua base, não apenas a seleção atual desta janela."],
+	["ZoneAnalyzer_IslandBanner", "Ilha inteira"],
+	["ZoneAnalyzer_IslandSubtitle", "Medido no último mês · {0} produto(s) com atividade"],
+	["ZoneAnalyzer_IslandEmpty", "Ainda não foi produzido nem consumido nada nesta ilha."],
+	["ZoneAnalyzer_IslandNote", "Esses números vêm diretamente dos totais que o próprio jogo já mantém para toda a ilha, os mesmos números por trás do seu painel de Estatísticas. Nada aqui é recalculado a partir de receitas, então não existe um valor \"a toda velocidade\" nessa escala."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Digite para filtrar a lista pelo nome do produto"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Buscar um produto…"],
+	["ZoneAnalyzer_IslandSortShortages", "Faltantes primeiro"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

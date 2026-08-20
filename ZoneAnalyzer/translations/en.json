@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} made"],
 	["ZoneAnalyzer_ResearchMade", "{0} research"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Open the Zone Analyzer tool"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Picks up the area tool and opens the panel. Press it again to close."],
+
 	["ZoneAnalyzer_SectionNotes", "How to read this ({0})"],
 	["ZoneAnalyzer_SectionShortage", "Shortages ({0})"],
 	["ZoneAnalyzer_SectionOk", "Balanced and surplus ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Pan the camera to this building. Click again for the next one."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} storage(s) feed this line but no belt or pipe fills them here: they can only be supplied by truck. The game keeps no rate for truck deliveries, so their supply is not part of the totals; their stock is shown instead, and a shrinking stock means the deliveries cannot keep up."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Nothing on this line reveals what it carries: it is empty, no storage or sorter is assigned to a product, and no producer is connected. The needs of the connected buildings are not counted: {0}."],
-	["ZoneAnalyzer_HelpLine", "A line balance follows everything connected to the clicked transport: what feeds it against what draws from it. Bottlenecks compare each segment's capacity, a game datum, with what the buildings behind it need at full speed. Parallel branches are not judged, and storages supplied by truck have no measurable rate."]
+	["ZoneAnalyzer_HelpLine", "A line balance follows everything connected to the clicked transport: what feeds it against what draws from it. Bottlenecks compare each segment's capacity, a game datum, with what the buildings behind it need at full speed. Parallel branches are not judged, and storages supplied by truck have no measurable rate."],
+
+	["ZoneAnalyzer_IslandLabel", "ALL"],
+	["ZoneAnalyzer_IslandTooltip", "Whole island: production and consumption across your entire base, not just this window's current selection."],
+	["ZoneAnalyzer_IslandBanner", "Whole island"],
+	["ZoneAnalyzer_IslandSubtitle", "Measured over the last month · {0} product(s) with activity"],
+	["ZoneAnalyzer_IslandEmpty", "Nothing has been produced or used on this island yet."],
+	["ZoneAnalyzer_IslandNote", "These figures come straight from the game's own island-wide totals, the same numbers behind its Statistics panel. Nothing here is recalculated from recipes, so there is no \"full speed\" figure at this scale."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Type to filter the list by product name"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Search a product…"],
+	["ZoneAnalyzer_IslandSortShortages", "Shortages first"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} produits"],
 	["ZoneAnalyzer_ResearchMade", "{0} de recherche"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Ouvrir l'outil Zone Analyzer"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Prend l'outil de zone en main et ouvre le panneau. Une seconde pression referme."],
+
 	["ZoneAnalyzer_SectionNotes", "Comment lire ces chiffres ({0})"],
 	["ZoneAnalyzer_SectionShortage", "Pénuries ({0})"],
 	["ZoneAnalyzer_SectionOk", "À l'équilibre et en excédent ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Déplace la caméra sur ce bâtiment. Cliquez encore pour le suivant."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} stockage(s) alimentent cette ligne sans qu'aucun convoyeur ni tuyau ne les remplisse ici : ils ne peuvent être approvisionnés que par camion. Le jeu n'enregistre aucune cadence pour les livraisons par camion : leur apport n'entre pas dans les totaux, leur stock est affiché à la place, et un stock qui fond signifie que les livraisons ne suivent pas."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Rien sur cette ligne ne révèle ce qu'elle transporte : elle est vide, aucun stockage ni trieur n'est assigné à un produit, et aucun producteur n'y est raccordé. Les besoins des bâtiments raccordés ne sont pas comptés : {0}."],
-	["ZoneAnalyzer_HelpLine", "Le bilan d'une ligne suit tout ce qui est raccordé au transport cliqué : ce qui l'alimente, face à ce qui y puise. Les goulots comparent la capacité de chaque tronçon, une donnée du jeu, à ce que les bâtiments situés derrière demandent à pleine vitesse. Les branches parallèles ne sont pas jugées, et un stockage livré par camion n'a aucune cadence mesurable."]
+	["ZoneAnalyzer_HelpLine", "Le bilan d'une ligne suit tout ce qui est raccordé au transport cliqué : ce qui l'alimente, face à ce qui y puise. Les goulots comparent la capacité de chaque tronçon, une donnée du jeu, à ce que les bâtiments situés derrière demandent à pleine vitesse. Les branches parallèles ne sont pas jugées, et un stockage livré par camion n'a aucune cadence mesurable."],
+
+	["ZoneAnalyzer_IslandLabel", "TOUT"],
+	["ZoneAnalyzer_IslandTooltip", "Toute l'île : ce qui est produit et consommé sur toute la base, pas seulement dans la sélection actuelle de la fenêtre."],
+	["ZoneAnalyzer_IslandBanner", "Toute l'île"],
+	["ZoneAnalyzer_IslandSubtitle", "Mesuré sur le dernier mois · {0} produit(s) avec de l'activité"],
+	["ZoneAnalyzer_IslandEmpty", "Rien n'a encore été produit ni consommé sur cette île."],
+	["ZoneAnalyzer_IslandNote", "Ces chiffres viennent directement des totaux que le jeu tient déjà pour toute l'île, les mêmes que son propre panneau Statistiques. Rien n'est ici recalculé depuis une recette, il n'y a donc pas de chiffre « à pleine vitesse » à cette échelle."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Tapez pour filtrer la liste par nom de produit"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Rechercher un produit…"],
+	["ZoneAnalyzer_IslandSortShortages", "Pénuries d'abord"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} prodotti"],
 	["ZoneAnalyzer_ResearchMade", "{0} di ricerca"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Apri lo strumento Zone Analyzer"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Prende lo strumento area e apre il pannello. Premi di nuovo per chiudere."],
+
 	["ZoneAnalyzer_SectionNotes", "Come leggere questi numeri ({0})"],
 	["ZoneAnalyzer_SectionShortage", "In carenza ({0})"],
 	["ZoneAnalyzer_SectionOk", "In pareggio e in eccedenza ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Porta la telecamera su questo edificio. Clicca di nuovo per il successivo."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} magazzino(i) alimentano questa linea senza che nessun nastro o tubo li riempia qui: possono essere riforniti solo dai camion. Il gioco non registra alcun ritmo per le consegne dei camion, quindi il loro apporto non entra nei totali; al suo posto è mostrata la scorta, e una scorta che cala significa che le consegne non tengono il passo."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Nulla su questa linea rivela cosa trasporta: è vuota, nessun magazzino o smistatore è assegnato a un prodotto e nessun produttore è collegato. I fabbisogni degli edifici collegati non sono conteggiati: {0}."],
-	["ZoneAnalyzer_HelpLine", "Il bilancio di una linea segue tutto ciò che è collegato al trasporto cliccato: ciò che la alimenta contro ciò che ne attinge. I colli di bottiglia confrontano la capacità di ogni tratto, un dato del gioco, con ciò che richiedono a pieno regime gli edifici situati oltre. I rami paralleli non vengono giudicati, e un magazzino rifornito dai camion non ha un ritmo misurabile."]
+	["ZoneAnalyzer_HelpLine", "Il bilancio di una linea segue tutto ciò che è collegato al trasporto cliccato: ciò che la alimenta contro ciò che ne attinge. I colli di bottiglia confrontano la capacità di ogni tratto, un dato del gioco, con ciò che richiedono a pieno regime gli edifici situati oltre. I rami paralleli non vengono giudicati, e un magazzino rifornito dai camion non ha un ritmo misurabile."],
+
+	["ZoneAnalyzer_IslandLabel", "TUTTO"],
+	["ZoneAnalyzer_IslandTooltip", "Tutta l'isola: produzione e consumo di tutta la tua base, non solo la selezione attuale di questa finestra."],
+	["ZoneAnalyzer_IslandBanner", "Tutta l'isola"],
+	["ZoneAnalyzer_IslandSubtitle", "Misurato nell'ultimo mese · {0} prodotto/i con attività"],
+	["ZoneAnalyzer_IslandEmpty", "Non è stato ancora prodotto o usato nulla su quest'isola."],
+	["ZoneAnalyzer_IslandNote", "Questi numeri provengono direttamente dai totali che il gioco tiene già per tutta l'isola, gli stessi dietro il suo pannello Statistiche. Qui nulla viene ricalcolato dalle ricette, quindi a questa scala non esiste un valore «a piena velocità»."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Scrivi per filtrare l'elenco per nome del prodotto"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Cerca un prodotto…"],
+	["ZoneAnalyzer_IslandSortShortages", "Prima le carenze"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]

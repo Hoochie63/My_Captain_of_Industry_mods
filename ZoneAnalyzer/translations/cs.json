@@ -9,6 +9,9 @@
 	["ZoneAnalyzer_PowerMade", "{0} vyráběno"],
 	["ZoneAnalyzer_ResearchMade", "{0} výzkumu"],
 
+	["ZoneAnalyzer_KeybindOpenTool", "Otevřít nástroj Zone Analyzer"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Vezme nástroj oblasti a otevře panel. Dalším stiskem se zavře."],
+
 	["ZoneAnalyzer_SectionNotes", "Jak číst tato čísla ({0})"],
 	["ZoneAnalyzer_SectionShortage", "Nedostatek ({0})"],
 	["ZoneAnalyzer_SectionOk", "Vyrovnané a přebytek ({0})"],
@@ -92,5 +95,16 @@
 	["ZoneAnalyzer_RowGotoTooltip", "Přesune kameru k této budově. Dalším kliknutím přejdete na další."],
 	["ZoneAnalyzer_WarnLineTruckStorage", "{0} skladišť zásobuje tuto linku, ačkoli je tu žádný dopravník ani potrubí neplní: mohou být zásobována jen nákladními auty. Hra u dodávek náklaďáky nezaznamenává žádné tempo, takže jejich přísun není v součtech; místo toho je zobrazena zásoba, a tenčící se zásoba znamená, že dodávky nestíhají."],
 	["ZoneAnalyzer_WarnLineNoProduct", "Nic na této lince neprozrazuje, co přepravuje: je prázdná, žádné skladiště ani třídič nemá přiřazený produkt a není připojen žádný výrobce. Potřeby připojených budov se nepočítají: {0}."],
-	["ZoneAnalyzer_HelpLine", "Bilance linky sleduje vše, co je připojeno ke kliknutému transportu: co ji zásobuje, proti tomu, co z ní odebírá. Úzká hrdla porovnávají kapacitu každého úseku, údaj ze hry, s tím, co na plný výkon potřebují budovy za ním. Paralelní větve se nehodnotí a skladiště zásobované náklaďáky nemá měřitelné tempo."]
+	["ZoneAnalyzer_HelpLine", "Bilance linky sleduje vše, co je připojeno ke kliknutému transportu: co ji zásobuje, proti tomu, co z ní odebírá. Úzká hrdla porovnávají kapacitu každého úseku, údaj ze hry, s tím, co na plný výkon potřebují budovy za ním. Paralelní větve se nehodnotí a skladiště zásobované náklaďáky nemá měřitelné tempo."],
+
+	["ZoneAnalyzer_IslandLabel", "VŠE"],
+	["ZoneAnalyzer_IslandTooltip", "Celý ostrov: výroba a spotřeba v celé vaší základně, ne jen aktuální výběr tohoto okna."],
+	["ZoneAnalyzer_IslandBanner", "Celý ostrov"],
+	["ZoneAnalyzer_IslandSubtitle", "Naměřeno za poslední měsíc · {0} produktů s aktivitou"],
+	["ZoneAnalyzer_IslandEmpty", "Na tomto ostrově se zatím nic nevyrobilo ani nespotřebovalo."],
+	["ZoneAnalyzer_IslandNote", "Tato čísla pocházejí přímo z celoostrovních součtů, které si hra sama vede, stejných jako v jejím panelu Statistiky. Nic zde není přepočítáno z receptů, takže na této úrovni neexistuje hodnota „na plný výkon“."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Psaním filtrujte seznam podle názvu produktu"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Hledat produkt…"],
+	["ZoneAnalyzer_IslandSortShortages", "Nejprve nedostatky"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"]
 ]
