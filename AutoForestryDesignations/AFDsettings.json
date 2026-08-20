@@ -1,0 +1,47 @@
+{
+  "settingsVersion": "0.4.0",
+
+  "_comment": "AutoForestryDesignations settings. These values set the world defaults loaded at game start. Tower-specific settings are saved in the mod cache.",
+
+  "_comment_batchSize": "Legacy compatibility setting. Scans now use 10 ms play / 30 ms paused planning budgets and commit with the game's bulk designation command.",
+  "batchSize": 30,
+
+  "_comment_onlyFertileTiles": "Default for new tower panels. When true, Create designations places designations only where the ground is fertile for tree growth. Default: true.",
+  "onlyFertileTiles": true,
+
+  "_comment_avoidTilesWithTrees": "Default for new tower panels. When true, Create designations skips tiles that already contain a tree. Default: false.",
+  "avoidTilesWithTrees": false,
+
+  "_comment_overrideTerrainDesignations": "World setting. When true, Create designations may replace existing terrain designations, including mining, dumping, or leveling. Default: false.",
+  "overrideTerrainDesignations": false,
+
+  "_comment_avoidFlatTiles": "Default for new tower panels. When true, Create designations skips flat 4x4 tiles whose four corner HeightTilesF values are within the game's 0.0625-tile surface-height tolerance of the same integer height. Default: false.",
+  "avoidFlatTiles": false,
+
+  "_comment_onlyReachableTiles": "Default for new tower panels. When true, Create designations skips candidate tiles that are not reachable by vehicle pathability from the tower area. Default: true.",
+  "onlyReachableTiles": true,
+
+  "_comment_pathabilityTargetSize": "Hidden tuning parameter for reachability matching. Interpreted as n*n area around each candidate center (for example 3 = 3x3). Larger values are more permissive and reduce holes; smaller values are stricter. Clamped to 1..9. Default: 3.",
+  "pathabilityTargetSize": 3,
+
+  "_comment_targetYield": "Default sustainable wood production target per in-game month for new tower panels. 0 = no target (∞). Default: 0.",
+  "targetYield": 0,
+
+  "_comment_maxTiles": "Legacy maximum number of forestry designation tiles to place per run. Retained for old settings and hidden once Target yield is adopted. 0 = no limit.",
+  "maxTiles": 0,
+
+  "_comment_markHarvestReadyForHarvest": "Default for new tower panels. When true, trees that match the tower's harvesting options are marked for harvest after creating designations. Default: false.",
+  "markHarvestReadyForHarvest": false,
+
+  "_comment_forestryDesignationsPanelCollapsed": "Default collapsed state for the Forestry designations panel when a forestry tower inspector is created. false = expanded by default, true = collapsed by default. Default: false.",
+  "forestryDesignationsPanelCollapsed": false,
+
+  "_comment_forestryInformationPanelCollapsed": "Default collapsed state for the Forestry information panel when a forestry tower inspector is created. false = expanded by default, true = collapsed by default. Default: false.",
+  "forestryInformationPanelCollapsed": false,
+
+  "_comment_truckPoolingEnabled": "Default for new tower panels. When true, trucks assigned to forestry towers are pooled and automatically distributed among its active tree harvesters. Default: true.",
+  "truckPoolingEnabled": true,
+
+  "_comment_forestryVehicleOptimizations": "World-level setting. When true, assigned forestry planters and harvesters stay in the field, coordinate future work, and do not return to their tower merely to wait. Default: true.",
+  "forestryVehicleOptimizations": true
+}
