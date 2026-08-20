@@ -34,7 +34,7 @@
     "Ore Sorting Storages": "Сортировка материалов",
     "Train Station Storages": "Хранилища ж/д станций",
     "Unit Storages": "Штучные изделия",
-    "Enter capacity...": "<color=#959596>\t<i>Введите новое значение...</i></color>",
+    "Enter capacity...": "<color=#959596><i>Введите новое значение...</i></color>",
     "Machine Storage": "Хранилище фабрик",
     "Machine Storage Bonus": "<align=\"center\">Увеличение вместимости<br>для хранилищ фабрик/заводов</align>",
     "Increase the storage buffer of every machine — how much each machine can hold of its inputs and finished products. 0% keeps the normal game size.": "<align=\"center\">Увеличивает буфер хранения для каждой фабрики (сколько каждая фабрика может хранить материалов и готовой продукции).<br>Установка значения «0%» сохранит стандартный игровой объём (по умолчанию).</align>",
