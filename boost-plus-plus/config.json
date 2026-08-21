@@ -2,259 +2,259 @@
     "maxBoostPercent": {
         "default": 260,
         "is_integer": true,
-        "description": "Максимальный процент ускорения для фабрик/заводов (100 = без ускорения, 260 = скорость ×2.6)",
+        "description": "Maximum boost percentage for machines (100 = no boost, 260 = 2.6x speed)",
         "min": 100,
         "max": 1000
     },
     "workerScaling": {
         "default": 285,
         "is_integer": true,
-        "description": "Масштабирование затрат рабочих для фабрик/заводов (100 = линейно, а при ускорении в 200% потребуется в 2 раза больше рабочих. 0 = бесплатно)",
+        "description": "Worker cost scaling for machines (100 = linear, 200% boost needs 2x workers. 0 = free)",
         "min": 0,
         "max": 400
     },
     "energyScaling": {
         "default": 330,
         "is_integer": true,
-        "description": "Масштабирование затрат электроэнергии для фабрик/заводов (100 = линейно, а при ускорении в 200% потребуется в 2 раза больше электроэнергии. 0 = бесплатно)",
+        "description": "Electricity cost scaling for machines (100 = linear, 200% boost needs 2x power. 0 = free)",
         "min": 0,
         "max": 400
     },
     "maintenanceScaling": {
         "default": 300,
         "is_integer": true,
-        "description": "Масштабирование затрат запчастей для обслуживания фабрик/заводов (100 = линейно, а при ускорении в 200% потребуется в 2 раза больше запчастей для обслуживания. 0 = бесплатно)",
+        "description": "Maintenance cost scaling for machines (100 = linear, 200% boost needs 2x maintenance. 0 = free)",
         "min": 0,
         "max": 400
     },
     "transportEnergyScaling": {
         "default": 385,
         "is_integer": true,
-        "description": "Масштабирование затрат электроэнергии для транспортёров (100 = линейно, а при ускорении в 200% потребуется в 2 раза больше электроэнергии. 0 = бесплатно)",
+        "description": "Belt/pipe electricity scaling (100 = linear, 200% boost needs 2x power. 0 = free)",
         "min": 0,
         "max": 400
     },
     "beltInventoryBonus": {
         "default": 100,
         "is_integer": true,
-        "description": "Максимальное количество дополнительных предметов, помещающихся на ускоренном транспортёре (100 = до +100% при ускорении, близком к максимальному, начинается примерно с +20% сразу после первого ускорения, 0 = отключено). Значение растёт пропорционально ускорению по всему транспортёру, и при максимальном бонусе к вместимости требует до ×3 электричества. На быстрых транспортёрах шаг изменения грубее.",
+        "description": "Max extra items a speed-boosted belt/pipe holds (100 = up to +100% near max boost, starts near +20% when first boosted, 0 = off). Ramps across the belt's max-boost range and costs up to 3x electricity at full inventory boost. Steps are coarse on faster belts.",
         "min": 0,
         "max": 100
     },
     "beltStackBonus": {
         "default": 200,
         "is_integer": true,
-        "description": "Насколько больше предметов помещается в каждую стопку на ускоренном транспортёре (200 = до ×3 около максимального ускорения, 0 = выключено). Именно это позволяет соединителям подавать на ускоренный транспортёр больше предметов, чем стандартный лимит. Предметы движутся с той же скоростью, но в каждой стопке их просто больше.",
+        "description": "How much more a speed-boosted belt fits into each group of items it carries (200 = up to 3x near max boost, 0 = off). This is what lets connectors feed a boosted belt faster than the normal limit. Items move at the same speed, each group just carries more.",
         "min": 0,
         "max": 400
     },
     "computingScaling": {
         "default": 185,
         "is_integer": true,
-        "description": "Масштабирование затрат вычислительных ресурсов для фабрик/заводов (150 = умеренный рост при высоком ускорении. 0 = бесплатно)",
+        "description": "Machine computing cost scaling (150 = moderate increase at higher boost. 0 = free)",
         "min": 0,
         "max": 400
     },
     "officeMaxBoostPercent": {
         "default": 260,
         "is_integer": true,
-        "description": "Максимальный процент ускорения для «Офисов» (100 = без ускорения, 260 = скорость ×2.6)",
+        "description": "Maximum boost percentage for offices (100 = no boost, 260 = 2.6x speed)",
         "min": 100,
         "max": 1000
     },
     "officeComputingScaling": {
         "default": 80,
         "is_integer": true,
-        "description": "Масштабирование затрат вычислительных ресурсов для «Офисов» (85 = мягче, чем для фабрик/заводов, так как офисы и так используют стандартное ускорение вычислений. 0 = бесплатно)",
+        "description": "Office computing cost scaling (85 = gentler than machines since offices already use vanilla computing boost. 0 = free)",
         "min": 0,
         "max": 400
     },
     "officeWorkerScaling": {
         "default": 220,
         "is_integer": true,
-        "description": "Масштабирование затрат рабочих для «Офисов» (100 = линейно. 0 = бесплатно)",
+        "description": "Office worker cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "officeEnergyScaling": {
         "default": 260,
         "is_integer": true,
-        "description": "Масштабирование затрат электроэнергии для «Офисов» (100 = линейно. 0 = бесплатно)",
+        "description": "Office electricity cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "officeMaintenanceScaling": {
         "default": 200,
         "is_integer": true,
-        "description": "Масштабирование затрат запчастей для обслуживания «Офисов» (100 = линейно. 0 = бесплатно)",
+        "description": "Office maintenance cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "officeFocusScaling": {
         "default": 120,
         "is_integer": true,
-        "description": "Масштабирование выработки очков развития для «Офисов» (100 = линейно, при 200% ускорении = ×2 очков развития. 200 = двойная скорость, при 200% ускорении = ×3 очков развития. 0 = ускорение не даёт дополнительных очков развития)",
+        "description": "Office focus output scaling (100 = linear, 200% boost = 2x focus. 200 = double rate, 200% boost = 3x focus. 0 = no extra focus from boost)",
         "min": 0,
         "max": 400
     },
     "oreSorterMaxBoostPercent": {
         "default": 260,
         "is_integer": true,
-        "description": "Максимальный процент ускорения для «Сортировщиков руды» (100 = без ускорения, 260 = скорость ×2.6)",
+        "description": "Maximum boost percentage for ore sorters (100 = no boost, 260 = 2.6x speed)",
         "min": 100,
         "max": 1000
     },
     "oreSorterWorkerScaling": {
         "default": 285,
         "is_integer": true,
-        "description": "Масштабирование затрат рабочих для «Сортировщиков руды» (100 = линейно. 0 = бесплатно)",
+        "description": "Ore sorter worker cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "oreSorterEnergyScaling": {
         "default": 330,
         "is_integer": true,
-        "description": "Масштабирование затрат электроэнергии для «Сортировщиков руды» (100 = линейно. 0 = бесплатно)",
+        "description": "Ore sorter electricity cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "oreSorterMaintenanceScaling": {
         "default": 300,
         "is_integer": true,
-        "description": "Масштабирование затрат запчастей для обслуживания «Сортировщиков руды» (100 = линейно. 0 = бесплатно)",
+        "description": "Ore sorter maintenance cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "oreSorterCapacityMultiplierT1": {
         "default": 100,
         "is_integer": true,
-        "description": "Дополнительный множитель вместимости для «Малого сортировщика руды (I уровня)», применяется поверх ползунка «Boost++» для каждого здания (100 = без изменений, 500 = ×5 дополнительного объёма). Скорость сортировки и затраты рабочих/энергии/запчастей НЕ меняются.",
+        "description": "Extra capacity multiplier for the small (T1) ore sorter, applied on top of the per-building Boost++ slider (100 = no extra, 500 = 5x extra storage). Sorting speed and worker/energy/maintenance costs are NOT affected.",
         "min": 100,
         "max": 500
     },
     "oreSorterCapacityMultiplierT2": {
         "default": 100,
         "is_integer": true,
-        "description": "Дополнительный множитель вместимости для «Большого сортировщика руды (II уровня)», применяется поверх ползунка«Boost++» для каждого здания (100 = без изменений, 500 = ×5 дополнительного объёма). Скорость сортировки и затраты рабочих/энергии/запчастей НЕ меняются.",
+        "description": "Extra capacity multiplier for the large (T2) ore sorter, applied on top of the per-building Boost++ slider (100 = no extra, 500 = 5x extra storage). Sorting speed and worker/energy/maintenance costs are NOT affected.",
         "min": 100,
         "max": 500
     },
     "oreSorterSortingSpeedBonus": {
         "default": 50,
         "is_integer": true,
-        "description": "Максимальный бонус к скорости сортировки для всех «Сортировщиков руды I и II уровня» (50 = стандартное ограничение игры +50%, 150 = до +150% скорости сортировки при максимальном ускорении).",
+        "description": "Max sorting speed bonus for ore sorters T1+T2 (50 = vanilla hard limit of +50%, 150 = up to +150% faster sorting at max boost).",
         "min": 50,
         "max": 150
     },
     "wasteMaxBoostPercent": {
         "default": 260,
         "is_integer": true,
-        "description": "Максимальный процент ускорения для «Заводов переработки вторсырья» (100 = без ускорения, 260 = скорость ×2.6)",
+        "description": "Maximum boost percentage for waste sorting plants (100 = no boost, 260 = 2.6x speed)",
         "min": 100,
         "max": 1000
     },
     "wasteWorkerScaling": {
         "default": 285,
         "is_integer": true,
-        "description": "Масштабирование затрат рабочих для «Заводов переработки вторсырья» (100 = линейно. 0 = бесплатно)",
+        "description": "Waste sorting worker cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "wasteEnergyScaling": {
         "default": 330,
         "is_integer": true,
-        "description": "Масштабирование затрат электроэнергии для «Заводов переработки вторсырья» (100 = линейно. 0 = бесплатно)",
+        "description": "Waste sorting electricity cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "wasteMaintenanceScaling": {
         "default": 300,
         "is_integer": true,
-        "description": "Масштабирование затрат запчастей для обслуживания «Заводов переработки вторсырья» (100 = линейно. 0 = бесплатно)",
+        "description": "Waste sorting maintenance cost scaling (100 = linear. 0 = free)",
         "min": 0,
         "max": 400
     },
     "underboostEnergyScaling": {
         "default": 100,
         "is_integer": true,
-        "description": "Экономия электроэнергии при замедлении строения ниже 100% (100 = полностью пропорционально: на 10% скорости — 10% энергии. 0 = экономии нет, расход как на 100%)",
+        "description": "Electricity saved when a building is slowed below 100% (100 = fully proportional, a building at 10% speed uses 10% power. 0 = no saving, it costs the same as 100%)",
         "min": 0,
         "max": 100
     },
     "underboostWorkerScaling": {
         "default": 100,
         "is_integer": true,
-        "description": "Освобождение рабочих при замедлении строения ниже 100% (100 = полностью пропорционально: на 10% скорости — 10% рабочих. 0 = экономии нет. Всегда остаётся минимум 1 рабочий)",
+        "description": "Workers freed when a building is slowed below 100% (100 = fully proportional, a building at 10% speed needs 10% of its workers. 0 = no saving. Always keeps at least 1 worker)",
         "min": 0,
         "max": 100
     },
     "autoBoostLowFillPercent": {
         "default": 10,
         "is_integer": true,
-        "description": "Авто-ускорение: уровень заполнения хранилища (%), при котором строение работает на максимальном ускорении.",
+        "description": "Auto Boost: storage fill % at or below which the building runs at maximum boost",
         "min": 0,
         "max": 100
     },
     "autoBoostNeutralFillPercent": {
         "default": 50,
         "is_integer": true,
-        "description": "Авто-ускорение: уровень заполнения хранилища (%), при котором строение работает ровно на 100% (без ускорения и замедления)",
+        "description": "Auto Boost: storage fill % at which the building runs at exactly 100% (no boost, no slowdown)",
         "min": 0,
         "max": 100
     },
     "autoBoostHighFillPercent": {
         "default": 90,
         "is_integer": true,
-        "description": "Авто-ускорение: уровень заполнения хранилища (%), при котором здание замедляется до минимального ускорения.",
+        "description": "Auto Boost: storage fill % at or above which the building slows to its minimum boost",
         "min": 0,
         "max": 100
     },
     "autoBoostIntervalMs": {
-        "default": 2000,
+        "default": 6000,
         "is_integer": true,
-        "description": "Авто-ускорение: частота пересчёта, в миллисекундах. Меньше — быстрее реакция, но менее стабильные показатели энергии и рабочих.",
+        "description": "Auto Boost: how often it recalculates, in milliseconds. Lower reacts faster but reads less settled power and worker numbers.",
         "min": 500,
         "max": 30000
     },
     "autoBoostPowerReservePercent": {
         "default": 10,
         "is_integer": true,
-        "description": "Авто-ускорение: доля общей выработки электроэнергии, всегда оставляемая в резерве (10 = оставлять 10% свободными)",
+        "description": "Auto Boost: share of total power generation always left unused as a safety margin (10 = keep 10% spare)",
         "min": 0,
         "max": 90
     },
     "autoBoostWorkerReserve": {
         "default": 5,
         "is_integer": true,
-        "description": "Авто-ускорение: количество свободных рабочих, всегда оставляемых в резерве",
+        "description": "Auto Boost: number of free workers always left unassigned as a safety margin",
         "min": 0,
         "max": 500
     },
     "autoBoostStepPercent": {
         "default": 5,
         "is_integer": true,
-        "description": "Авто-ускорение: шаг изменения. Процент ускорения всегда кратен этому значению.",
+        "description": "Auto Boost: granularity of changes. The boost % always lands on a multiple of this.",
         "min": 1,
         "max": 50
     },
     "autoBoostDeadbandPercent": {
-        "default": 5,
+        "default": 10,
         "is_integer": true,
-        "description": "Авто-ускорение: игнорирует изменения меньше этого значения, чтобы строения не дёргались между значениями.",
+        "description": "Auto Boost: ignores changes smaller than this, to stop buildings twitching between values",
         "min": 0,
         "max": 100
     },
     "autoBoostMaxStepPercent": {
-        "default": 25,
+        "default": 15,
         "is_integer": true,
-        "description": "Авто-ускорение: максимальное изменение процента ускорения за одно обновление",
+        "description": "Auto Boost: largest boost % change allowed in a single update",
         "min": 1,
         "max": 500
     },
     "autoBoostMaxTrimStepsPerCycle": {
         "default": 40,
         "is_integer": true,
-        "description": "Авто-ускорение: при нехватке электроэнергии — максимальное количество шагов замедления за одно обновление.",
+        "description": "Auto Boost: when power runs short, the maximum number of slow-down steps applied per update",
         "min": 1,
         "max": 500
     }

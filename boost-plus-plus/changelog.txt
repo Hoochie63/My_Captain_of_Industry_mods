@@ -1,3 +1,61 @@
+v1.2.6 | 2026-08-16
+────────────────────────────────────────────────────────────────────────
+* AUTO BOOST ON A SINGLE BUILDING STILL WORKS THE SIMPLE WAY AND ONLY WATCHES YOUR GLOBAL STORAGE OF WHAT IT MAKES. LEAVE A BUILDING OUT OF A GROUP AND NOTHING CHANGES FOR IT.
+
+  - A full by-product no longer holds a building back. A full slag pile or nitrogen tank no longer slows the furnace or air separator making what you need.
+
+  - Molten metals are now followed as well, read from the building's own output when you have no molten storage.
+
+  - Buildings no longer stack up a high boost when the stage after them is slowed down and cannot take what they make.
+
+────────────────────────────────────────────────────────────────────────
+* NEW: LINK A STORAGE TO A BOOST GROUP AND THE WHOLE PRODUCTION LINE WORKS TOGETHER TO KEEP THAT ONE STORAGE FULL, INSTEAD OF EACH BUILDING DECIDING ON ITS OWN.
+
+  - Click Link storage in the group's details, then click the storage you want kept full. The group then shows what it is linked to and how full it is.
+
+  - The boost goes to the stage that is actually holding the line back, instead of to a machine that already makes more than the next stage can take.
+
+  - A building waiting for products, or with a full output, drops to its slowest speed so it stops holding workers and power away from the rest of the line.
+
+────────────────────────────────────────────────────────────────────────
+* DRAG THE GRIP IN THE OVERLORD WINDOW'S BOTTOM-RIGHT CORNER TO SET ITS SIZE, AND EVERY TAB LAYS ITSELF OUT FOR THE SIZE YOU PICK.
+
+  - Text reflows to the width you give it, so long labels and tooltips stay readable as the window grows.
+
+  - Buttons, sliders and rows stretch and line up with the window, keeping columns even at any size.
+
+  - Double-click the grip to put the window back to its default size.
+
+────────────────────────────────────────────────────────────────────────
+* EACH BOOST GROUP CAN BE GIVEN A LOWEST AND HIGHEST BOOST, AND AUTO BOOST KEEPS ITS BUILDINGS INSIDE THAT RANGE NO MATTER HOW FULL OR EMPTY YOUR STORAGE GETS.
+
+  - Set both from the group's details, under Min/Max boost. Leave them off and Auto Boost can use the full boost range you have unlocked.
+
+  - Your own boost slider is never limited by this.
+
+────────────────────────────────────────────────────────────────────────
+* THE PIN BUTTON IN THE OVERLORD TITLE BAR HOLDS THE WINDOW IN PLACE WHILE YOU WORK, SO ESC AND PICKING A TOOL BOTH LEAVE IT OPEN (THANKS MAG FOR THE REPORT).
+
+  - It starts pinned each time you load a save. Unpin it and it stays unpinned every time you open the window, until you load a save again.
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW NOW HAS A SIZE DROPDOWN, 85% TO 120% IN 5% STEPS, SEPARATE FROM THE GAME'S OWN UI SCALE (THANKS VLADOVLAK FOR THE REPORT).
+
+  - Tooltips inside the window follow this size, while tooltips anywhere else in the game stay at their normal size (thanks Mag for the report).
+
+────────────────────────────────────────────────────────────────────────
+* AUTO BOOST NOW UPDATES EVERY 6 SECONDS AND MOVES EACH BUILDING IN SMALLER STEPS, SO POWER USE AND WORKER NUMBERS SETTLE INSTEAD OF SWINGING.
+
+  - A dip in power no longer slows the building you need most first. Buildings making something you already have plenty of are slowed down before it.
+
+────────────────────────────────────────────────────────────────────────
+* THE VANILLA COPY SETTINGS TOOL NOW ALSO COPIES BOOST++'S BOOST PERCENTAGE BETWEEN MACHINES AND SPEED BOOST BETWEEN MATCHING BELTS OR PIPES (THANKS DENIS FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+* A ROLL-UP BUTTON IN THE OVERLORD TITLE BAR FOLDS THE WINDOW DOWN TO JUST ITS TITLE BAR, AND CLICKING IT AGAIN OPENS IT BACK UP (THANKS MAG FOR THE ICONS).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.5 | 2026-08-15
 * The Overlord window now always shows at 100% size, whatever UI scale you play at (thanks warrenc for the report). At 125% and higher the buttons at the bottom were cut off the screen and everything needed far more scrolling.
 
