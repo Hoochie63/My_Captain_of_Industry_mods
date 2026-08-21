@@ -1,3 +1,16 @@
+v1.0.4 | 2026-08-20
+
+====================
+DECORATION ANARCHY
+====================
+- Settlement Decorations can now be placed away from City Block slots while still providing their Unity bonus to nearby City Blocks.
+- Decorations can be slightly offset or separated by small gaps and will still affect the nearby City Blocks they would normally reach.
+- The existing snapping-grid toggle now works while placing Settlement Decorations. Press G to switch between snapped and free placement.
+- Decoration Radius decides which nearby City Blocks receive the bonus. Decorations must still be fully built, and placing several together will not multiply the bonus.
+- A Decoration's radius of influence is recalculated after relevant placement, deconstruction, movement, rebuild, and load events, so they do not need continuous proximity scanning during normal gameplay.
+
+- This feature is in public beta. If any issues are found, please report them, and they will be addressed with top priority.
+
 v1.0.3 | 2026-08-18
 
 =====================
