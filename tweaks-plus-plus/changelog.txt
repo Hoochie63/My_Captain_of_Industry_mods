@@ -1,3 +1,119 @@
+v1.2.9 | 2026-08-16
+────────────────────────────────────────────────────────────────────────
+* NEW CENTRAL HUB BUTTON ON THE WORLD MAP OPENS ONE LIST OF ALL YOUR MINES AND SETTLEMENTS, SO YOU CAN FIND AND JUMP TO ANY OF THEM FAST (THANKS SERJEVSKI FOR THE SUGGESTION).
+
+  - Mines are split into two columns and grouped by what they produce, with settlements in a third column.
+
+  - Each resource heading adds up what all your working mines of that type make per cycle and what they cost you in unity.
+
+  - Clicking any entry moves the map to it and opens its window beside the list, and the list stays open so you can go through several in a row.
+
+  - Each entry shows its level, or reputation for settlements, and reads "Not Repaired" while it still needs repairs.
+
+  - A search box in its own box at the bottom filters the list by name or resource, so you can type coal, oil or water to find what you need.
+
+  - A Pre Load Shipyard button sits next to the search and opens the Upgrade Manager's Pre Load Shipyard tab.
+
+────────────────────────────────────────────────────────────────────────
+* NEW "BUILDINGS" SECTION ON THE GAMEPLAY TAB LETS YOU HIDE OR FADE THE PAUSE ICON ABOVE PAUSED BUILDINGS WHILE THE GAME IS RUNNING (THANKS MAG FOR THE SUGGESTION).
+
+  - "Hide paused icons in unpaused state" hides them completely while the game is running; they come back the moment you pause the game so you can see what's paused.
+
+  - "Transparency hide icons" fades them instead of hiding them outright, with a slider to pick how see-through they are.
+
+  - "Show pause icons only with Pause tool" keeps them hidden even while the game is paused — they only show up while the Pause tool is in your hand (thanks Mag for the suggestion).
+
+  - Only one of the three can be on at a time — turning one on turns the others off.
+
+  - Icons always show at full opacity while the Pause tool is active, whatever the checkmarks above are set to, so you can see what's paused while you pause more.
+
+────────────────────────────────────────────────────────────────────────
+* THE RESEARCH BAR IS NOW ITS OWN HUD ELEMENT THAT YOU CAN MOVE, SCALE AND HIDE SEPARATELY FROM THE NOTIFICATION BUTTONS NEXT TO IT.
+
+  - This can be toggled off on the checkmark.
+
+  - It no longer shrinks down to just the percentage when you move the unity panel past it — the full bar with the research name stays visible.
+
+  - Fixed the research bar disappearing after a restart, or after loading from the main menu, while "Remove Notifications background" was ticked.
+
+────────────────────────────────────────────────────────────────────────
+* DRAG THE GRIP IN THE OVERLORD WINDOW'S BOTTOM-RIGHT CORNER TO SET ITS SIZE, AND EVERY TAB LAYS ITSELF OUT FOR THE SIZE YOU PICK.
+
+  - Text reflows to the width you give it, so long labels and tooltips stay readable as the window grows.
+
+  - Buttons, sliders and rows stretch and line up with the window, keeping columns even at any size.
+
+  - Double-click the grip to put the window back to its default size.
+
+────────────────────────────────────────────────────────────────────────
+* THE NOTIFICATION POPUP THAT SLIDES IN WITH ALERTS CAN NOW BE MOVED ON ITS OWN, LIKE ANY OTHER HUD PART.
+
+  - Open the HUD tab and the real popup appears where alerts show up, so you can hold Ctrl and drag it into place without waiting for an alert.
+
+  - It only shows while "Draggable HUD Elements" is on and "Lock HUD Positions" is off, and it goes away when you lock HUD position. A real alert always takes priority over it.
+
+  - The popup also gets its own show/hide toggle and scale setting in the same tab.
+
+────────────────────────────────────────────────────────────────────────
+* NEW NUDGE SECTION ON THE HUD TAB — PICK ANY HUD ELEMENT AND MOVE IT ONE PIXEL AT A TIME WITH THE ARROW BUTTONS, FOR LINING THINGS UP EXACTLY (THANKS MAG FOR THE SUGGESTION).
+
+  - Click "Click to select HUD to nudge", then click the element on screen; the button then shows which one is selected.
+
+  - The arrows still work while "Lock HUD Positions" is on, so you can fine-tune without risking an accidental drag.
+
+────────────────────────────────────────────────────────────────────────
+* THE PIN BUTTON IN THE OVERLORD TITLE BAR HOLDS THE WINDOW IN PLACE WHILE YOU WORK, SO ESC AND PICKING A TOOL BOTH LEAVE IT OPEN (THANKS MAG FOR THE REPORT).
+
+  - It starts pinned each time you load a save. Unpin it and it stays unpinned every time you open the window, until you load a save again.
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW NOW HAS A SIZE DROPDOWN, 85% TO 120% IN 5% STEPS, SEPARATE FROM THE GAME'S OWN UI SCALE (THANKS VLADOVLAK FOR THE REPORT).
+
+  - Tooltips inside the window follow this size, while tooltips anywhere else in the game stay at their normal size (thanks Mag for the report).
+
+────────────────────────────────────────────────────────────────────────
+* THE PRE LOAD SHIPYARD AMOUNT NOW MEANS THE TOTAL YOU WANT KEPT, INSTEAD OF BEING ADDED ON TOP OF WHAT IS ALREADY IN THE SHIP'S CARGO HOLD.
+
+  - Anything above that amount is free again, so trucks can empty the rest back out of the shipyard.
+
+────────────────────────────────────────────────────────────────────────
+* A DROPDOWN ON THE HUD TAB LISTS EVERY HUD ELEMENT, SO YOU CAN PUT A SINGLE ONE BACK TO ITS DEFAULT SPOT INSTEAD OF RESETTING THEM ALL.
+
+  - Picking an element and clicking Reset Position asks you to confirm first, naming the element, so nothing moves by accident.
+
+────────────────────────────────────────────────────────────────────────
+* THE COMPUTING BOX IN THE TOP BAR NOW USES THE SAME PANEL BACKGROUND AS THE ELECTRICITY BOX, INSTEAD OF THE MIRRORED VERSION.
+
+  - This can be toggled off on the checkmark.
+
+────────────────────────────────────────────────────────────────────────
+* SARAH93 UNDERGROUND PIPES MOD'S DEMOLITION DEPTH WINDOW CAN NOW BE MOVED AND SCALED LIKE THE REST OF THE HUD.
+
+  - It shows up while HUD positions are unlocked, so you can place it without starting a demolition first.
+
+────────────────────────────────────────────────────────────────────────
+* REMOVED THE "DOUBLE STORAGE & TRANSPORT THROUGHPUT" CHECKMARK AND ITS EFFECT — STORAGES, SORTERS, CONNECTORS, BALANCERS AND LIFTS NO LONGER GET A THROUGHPUT BOOST FROM THIS MOD.
+
+────────────────────────────────────────────────────────────────────────
+* HUD ELEMENTS YOU HAVE MOVED KEEP THE SAME OVERLAP ORDER — RESETTING ONE'S POSITION NO LONGER MAKES IT DRAW ON TOP OF EVERY OTHER HUD ELEMENT (THANKS MAG FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* FIXED CLASSIC RECIPE DISPLAY DOING NOTHING SINCE GAME VERSION 0.8.7A — BUILDING WINDOWS SHOW REAL RECIPE AMOUNTS AGAIN, WITH THE 60S RATE BACK IN THE HOVER POPUP.
+
+────────────────────────────────────────────────────────────────────────
+* A ROLL-UP BUTTON IN THE OVERLORD TITLE BAR FOLDS THE WINDOW DOWN TO JUST ITS TITLE BAR, AND CLICKING IT AGAIN OPENS IT BACK UP (THANKS MAG FOR THE ICONS).
+
+────────────────────────────────────────────────────────────────────────
+* ALERTS, GOALS, MESSAGES AND RESEARCH EACH GET A CHECKMARK TO SWAP THEIR SEE-THROUGH FROSTED GLASS FOR THE PLAIN SOLID PANEL BACKGROUND.
+
+────────────────────────────────────────────────────────────────────────
+* THE PRE LOAD SHIPYARD LIST NOW SHOWS ONLY WHAT YOU PRELOADED, INSTEAD OF EVERYTHING ALREADY SITTING IN THE SHIP'S CARGO HOLD.
+
+────────────────────────────────────────────────────────────────────────
+* THE UPGRADE MANAGER WINDOW NOW FILLS OUT TO ITS FULL HEIGHT INSTEAD OF LEAVING A LARGE EMPTY AREA BELOW THE LISTS.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.8 | 2026-08-15
 * New "Hide labels" option for mining tower labels, with a RShift + L shortcut to turn them off and on (thanks Serjevski for the idea). They come back when you load a save.
 
