@@ -1,3 +1,9 @@
+v1.3.4 | 2026-08-20
+────────────────────────────────────────────────────────────────────────
+* THE PARKING PANEL NO LONGER STAYS ON SCREEN OVER THE SETTINGS MENU WHEN YOU HAVE NO TRUCK HQ OR EXCAVATOR HQ BUILT (THANKS MAG FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.3 | 2026-08-15
 * Compatibility update for the new fuel-type vehicle colors in Recipe++.
    With the new Recipe++ installed, the Terex, Heavy Hauler, Heavy Tanker and Huge Excavator get their fuel color there, and each fuel version now has its own icon. Without Recipe++ everything looks the same as before.
