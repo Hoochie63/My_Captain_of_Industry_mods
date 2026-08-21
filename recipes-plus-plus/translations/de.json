@@ -23,11 +23,9 @@
 
   "Synt generator": "Synthetik-Generator",
 
-  "Unlocks the Synt generator. Consumes 25 synthetic diesel per minute for 3.8 MW output, with lower pollution than a diesel generator II.": "Schaltet den Synthetik-Generator frei. Verbraucht 25 synthetischen Diesel pro Minute für 3,8 MW Leistung, bei geringerer Verschmutzung als Dieselgenerator II.",
+  "Unlocks the Synt generator. Consumes 15 synthetic diesel per minute for 3.8 MW output, with lower pollution than a diesel generator II.": "Schaltet den Synthetik-Generator frei. Verbraucht 15 synthetischen Diesel pro Minute für 3,8 MW Leistung, bei geringerer Verschmutzung als Dieselgenerator II.",
 
-  "Synth Trucks": "Synth-Lastwagen",
 
-  "Unlocks synthetic diesel variants of the T2 industrial truck and T3 haul trucks. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten des T2-Industrie-Lastwagens und der T3-Großlastwagen frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
   "Liquifier": "Verflüssiger",
   "Liquified coal": "Verflüssigte Kohle",
@@ -58,7 +56,7 @@
 
   "Synthetic diesel variant of the haul truck (tank). Same 180 capacity with 65% less pollution and 25% faster fuel burn.": "Synthetikdiesel-Variante des Großlastwagens (Tank). Gleiche Kapazität von 180 bei 65% weniger Verschmutzung und 25% schnellerem Kraftstoffverbrauch.",
 
-  "Heavy Hauler S": "Heavy Hauler S",
+  "Heavy Hauler S": "Schwerer Kipper S",
 
   "Synthetic diesel Heavy Hauler with 100 cargo capacity. 25% slower. 65% less pollution than diesel, 25% faster fuel burn.": "Heavy Hauler mit Synthetikdiesel und 100 Ladekapazität. 25% langsamer, 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
@@ -66,7 +64,7 @@
 
   "Synthetic diesel Terex. Massive 412 cargo capacity, 50% reduced speed. 65% less pollution than diesel, 25% faster fuel burn.": "The Terex mit Synthetikdiesel. Gewaltige 412 Ladekapazität, 50% geringere Geschwindigkeit. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
-  "Huge Excavator S": "Huge Excavator S",
+  "Huge Excavator S": "Riesenbagger S",
   "Amphibious truck S": "Amphibien-Lastwagen S",
   "Amphibious truck B": "Amphibien-Lastwagen B",
   "Colored vehicles": "Farbige Fahrzeuge",
@@ -89,7 +87,7 @@
   "Synthetic diesel variant of the tree harvester. 65% less pollution and 25% faster fuel burn.": "Synthetikdiesel-Variante des Holzernters. 65% weniger Verschmutzung und 25% schnellerer Kraftstoffverbrauch.",
   "Large tree harvester S": "Großer Holzernter S",
   "Synthetic diesel variant of the large tree harvester. 65% less pollution and 25% faster fuel burn.": "Synthetikdiesel-Variante des großen Holzernters. 65% weniger Verschmutzung und 25% schnellerer Kraftstoffverbrauch.",
-  "Heavy Tanker S": "Heavy Tanker S",
+  "Heavy Tanker S": "Schwerer Flüssigkeitstransporter S",
   "Synthetic diesel Heavy Tanker with 650 fluid cargo capacity. 65% less pollution than diesel, 25% faster fuel burn.": "Heavy Tanker mit Synthetikdiesel und 650 Flüssigkeits-Ladekapazität. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
   "Unlocks synthetic diesel variants of the trucks, excavators and tree harvesters. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten der Lastwagen, Bagger und Holzernter frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
   "Small excavator S": "Kleiner Bagger S",
@@ -101,7 +99,6 @@
   "Amphibious excavator S": "Amphibienbagger S",
   "Synthetic diesel amphibious excavator with bucket capacity of 16. Operates on land and water with 65% less pollution and 25% faster fuel burn.": "Amphibienbagger mit Synthetikdiesel und 16 Schaufelkapazität. Arbeitet an Land und im Wasser, mit 65% weniger Verschmutzung und 25% schnellerem Kraftstoffverbrauch.",
   "Synth Vehicles": "Synth-Fahrzeuge",
-  "Unlocks synthetic diesel variants of the industrial truck, the haul trucks and the excavators. 65% less pollution than diesel, 25% faster fuel burn.": "Schaltet Synthetikdiesel-Varianten des Industrie-Lastwagens, der Großlastwagen und der Bagger frei. 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
   "Synthetic diesel Huge Excavator with bucket capacity of 85. 20% slower. 65% less pollution than diesel, 25% faster fuel burn.": "Huge Excavator mit Synthetikdiesel und 85 Schaufelkapazität. 20% langsamer, 65% weniger Verschmutzung als Diesel, 25% schnellerer Kraftstoffverbrauch.",
 
@@ -112,7 +109,7 @@
   "Other": "Sonstiges",
 
   "Fuel station for synthetic diesel. Trucks assigned here will automatically refuel excavators and tree harvesters at their working site.": "Tankstelle für synthetischen Diesel. Hier zugewiesene Lastwagen betanken Bagger und Holzvollernter automatisch an ihrem Einsatzort.",
-  "Burns synthetic diesel to create electricity. Consumes 25 synthetic diesel per minute for 3.8 MW output, with lower pollution than a diesel generator II.": "Verbrennt synthetischen Diesel zur Stromerzeugung. Verbraucht 25 synthetischen Diesel pro Minute für 3,8 MW Leistung, bei geringerer Verschmutzung als Dieselgenerator II.",
+  "Burns synthetic diesel to create electricity. Consumes 15 synthetic diesel per minute for 3.8 MW output, with lower pollution than a diesel generator II.": "Verbrennt synthetischen Diesel zur Stromerzeugung. Verbraucht 15 synthetischen Diesel pro Minute für 3,8 MW Leistung, bei geringerer Verschmutzung als Dieselgenerator II.",
   "Burns liquified coal to generate electricity. 5 MW output. Liquified coal is easy to store and pipe, making it a convenient buffer for peak power demand.": "Verbrennt verflüssigte Kohle zur Stromerzeugung. 5 MW Leistung. Verflüssigte Kohle lässt sich leicht lagern und per Rohr transportieren und eignet sich daher gut als Puffer für Lastspitzen.",
 
   "Supercharged biomass-fired steam": "Dampf aus aufgeladener Biomasse",
@@ -171,12 +168,37 @@
   "Aluminum shredding": "Aluminium schreddern",
   "Gold shredding": "Gold schreddern",
   "Glass shredding": "Glas schreddern",
-  "Heavy Hauler B": "Heavy Hauler B",
+  "Heavy Hauler B": "Schwerer Kipper B",
   "Battery-electric Heavy Hauler with 100 cargo capacity. 25% slower. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Heavy Hauler mit 100 Ladekapazität. 25% langsamer. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
   "The Terex B": "The Terex B",
   "Battery-electric Terex. Massive 412 cargo capacity, 50% reduced speed. Runs on charged 18650 cells with zero pollution.": "The Terex mit Batterieantrieb. Gewaltige 412 Ladekapazität, 50% geringere Geschwindigkeit. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
-  "Huge Excavator B": "Huge Excavator B",
+  "Huge Excavator B": "Riesenbagger B",
   "Battery-electric Huge Excavator with bucket capacity of 85. 20% slower. Runs on charged 18650 cells with zero pollution.": "Batterieelektrischer Huge Excavator mit 85 Schaufelkapazität. 20% langsamer. Läuft mit geladenen 18650-Zellen und erzeugt keinerlei Verschmutzung.",
-  "Heavy Tanker B": "Heavy Tanker B",
-  "Battery-electric Heavy Tanker with 650 fluid cargo capacity. 15% faster than The Terex but still slower than standard trucks. Zero pollution.": "Batterieelektrischer Heavy Tanker mit 650 Ladekapazität für Flüssigkeiten. 15% schneller als The Terex, aber immer noch langsamer als Standard-Lastwagen. Keinerlei Verschmutzung."
+  "Heavy Tanker B": "Schwerer Flüssigkeitstransporter B",
+  "Battery-electric Heavy Tanker with 650 fluid cargo capacity. 15% faster than The Terex but still slower than standard trucks. Zero pollution.": "Batterieelektrischer Heavy Tanker mit 650 Ladekapazität für Flüssigkeiten. 15% schneller als The Terex, aber immer noch langsamer als Standard-Lastwagen. Keinerlei Verschmutzung.",
+  "Pimp My Ride": "Pimp My Ride",
+  "Opens a window where you can pick your own colors for this fuel type's vehicles and preview them on a 3D truck.": "Öffnet ein Fenster, in dem du eigene Farben für die Fahrzeuge dieses Kraftstofftyps wählen und an einem 3D-Lkw ansehen kannst.",
+  "Opens the Tweaks++ Vehicles tab for quick access to scrapping, ordering and replacing vehicles.": "Öffnet den Tweaks++-Tab Fahrzeuge für schnellen Zugriff auf das Verschrotten, Bestellen und Ersetzen von Fahrzeugen.",
+  "Fuel type": "Kraftstofftyp",
+  "Vehicle model": "Fahrzeugmodell",
+  "Mega Excavator": "Mega-Bagger",
+  "T3 Dump Truck": "T3-Kipplastwagen",
+  "T2 Truck": "T2-Lastwagen",
+  "Amphibious Truck": "Amphibien-Lastwagen",
+  "Paint area": "Lackierbereich",
+  "Primary color": "Hauptfarbe",
+  "Secondary color": "Zweitfarbe",
+  "Diesel": "Diesel",
+  "Hydrogen": "Wasserstoff",
+  "Color": "Farbe",
+  "Drag with the left mouse button to turn the vehicle. Scroll to zoom in and out.": "Mit der linken Maustaste ziehen, um das Fahrzeug zu drehen. Mit dem Mausrad heran- und herauszoomen.",
+  "Save color": "Farbe speichern",
+  "Reset to default color": "Auf Standardfarbe zurücksetzen",
+  "Colors saved for this game.": "Farben für diesen Spielstand gespeichert.",
+  "Your colors are used for this fuel type.": "Deine Farben werden für diesen Kraftstofftyp verwendet.",
+  "The default Recipes++ color is used for this fuel type.": "Für diesen Kraftstofftyp wird die Standardfarbe von Recipes++ verwendet.",
+  "This fuel type is back to the default Recipes++ color.": "Dieser Kraftstofftyp nutzt wieder die Standardfarbe von Recipes++.",
+  "3D preview is not available right now.": "Die 3D-Vorschau ist gerade nicht verfügbar.",
+  "Saves your colors and starts using them for this fuel type. Load your game again from the main menu to see the new color on the vehicles and their icons.": "Speichert deine Farben und verwendet sie ab sofort für diesen Kraftstofftyp. Lade dein Spiel über das Hauptmenü neu, damit die neue Farbe auf den Fahrzeugen und ihren Symbolen erscheint.",
+  "Puts this fuel type back to the default Recipes++ color and forgets the colors you picked.": "Setzt diesen Kraftstofftyp auf die Standardfarbe von Recipes++ zurück und verwirft deine gewählten Farben."
 }

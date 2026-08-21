@@ -1,3 +1,37 @@
+v1.2.4 | 2026-08-18
+────────────────────────────────────────────────────────────────────────
+* NEW "PIMP MY RIDE" PAINT SHOP — MIX YOUR OWN COLORS FOR EACH FUEL TYPE'S VEHICLES INSTEAD OF THE ONES THE MOD PICKS.
+
+  - The button sits next to the "Colored vehicles" checkbox on every fuel tab in the vehicle depots.
+
+  - Choose the fuel type, then mix the paint with the red, green, blue and saturation sliders. A 3D truck beside them shows the result as soon as you let go of a slider.
+
+  - Pick which vehicle shows in the 3D preview — Mega Excavator, T3 Dump Truck, T2 Truck or Amphibious Truck.
+
+  - Drag the truck with the left mouse button to turn it, and scroll to zoom in and out.
+
+  - Windows and headlights keep their original color.
+
+  - Hydrogen and battery vehicles get a second color of their own for the tanks, so the body and the tanks can be painted separately.
+
+  - "Save color" starts using your paint for that fuel type — vehicles on the map and their icons in the build menus repaint themselves.
+
+  - "Reset to default color" puts that fuel type back to the color the mod ships with.
+
+  - Your colors are kept per save file, so different saves can run different looking fleets.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED PERIODIC STUTTERING ON SAVES WITH LOTS OF COLORED VEHICLES.
+
+  - Vehicles were all re-checking their paint in the same instant, which added up to a noticeable freeze every few seconds on saves with hundreds or thousands of vehicles.
+
+  - Once a vehicle's paint is confirmed correct 3 times in a row, it stops re-checking and stays that way until you reload the save or change a color — about an 80-90% cut in recoloring work on large fleets.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED LITHIUM, REFINED LITHIUM, GMO SEED AND SUPERCHARGED BIOMASS SHOWING VANILLA TEXTURES ON CONVEYOR BELTS SINCE THE LATEST GAME UPDATE.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.3 | 2026-08-15
 * Every fuel type now has its own paint so you can tell your fleets apart at a glance:
    Diesel is red, Synthetic diesel is green, Hydrogen is white, and Battery is orange with white tanks.
@@ -40,7 +74,7 @@ v1.2.1 | 2026-08-12
 
 * Synthetic diesel now needs only 2 sulfur per batch instead of 6. (thanks antonio220 for the suggestion)
 
-  - The Synt generator now burns 25 synthetic diesel a minute instead of 30 for the same 3.8 MW output, so every unit of fuel goes further. (thanks antonio220 for the suggestion)
+  - The Synt generator now burns 25 synthetic diesel a minute instead of 30 for the same 3.8 MW output, so every unit of fuel goes further.
 
 * The Battery plant now charges 6 cells a minute instead of 4 every 90 seconds, and uses 6x power instead of 8x, so charged cells cost about a third of the power they used to and one plant keeps up with a lot more vehicles.
 
