@@ -23,7 +23,6 @@
   "View/Layers": "Weergave/lagen",
   "Window": "Venster",
 
-  "None": "Geen",
   "Show one more belt/pipe level": "Eén transporthoogte meer tonen",
   "Hide one more belt/pipe level": "Eén transporthoogte meer verbergen",
   "Show one more belt/pipe level from bottom": "Eén transporthoogte meer tonen vanaf onderen",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Start het sleepgereedschap dat de sloop van alles in het kader annuleert.",
   "Overlord": "Overlord",
   "Save": "Opslaan",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Alleen de grootte van dit venster. Deze blijft gelijk, ongeacht waarop de UI-schaal van het spel is ingesteld.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Klapt dit venster op zodat alleen de titelbalk overblijft. Klik nogmaals om het weer open te klappen.",
+  "Open this window back up to its full size.": "Klapt dit venster weer open op volledige grootte.",
   "Load": "Laden",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Sla alle instellingen van deze mod op (elk tabblad in dit venster) in een profiel dat je in andere spellen opnieuw kunt laden.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Laad een opgeslagen profiel en herstel alle instellingen van deze mod (elk tabblad in dit venster).",
@@ -211,5 +213,8 @@
   "BROKEN": "DEFECT",
   "OFF": "UIT",
   "Utilities++ profile saved.": "Utilities++-profiel opgeslagen.",
-  "Utilities++ profile loaded.": "Utilities++-profiel geladen."
+  "Utilities++ profile loaded.": "Utilities++-profiel geladen.",
+  "No saved Utilities++ profile found.": "Geen opgeslagen Utilities++-profiel gevonden.",
+  "Error saving profile: {0}": "Fout bij het opslaan van het profiel: {0}",
+  "Error loading profile: {0}": "Fout bij het laden van het profiel: {0}"
 }

@@ -23,7 +23,6 @@
   "View/Layers": "视图/图层",
   "Window": "窗口",
 
-  "None": "无",
   "Show one more belt/pipe level": "多显示一层传送带/管道",
   "Hide one more belt/pipe level": "多隐藏一层传送带/管道",
   "Show one more belt/pipe level from bottom": "从底部多显示一层传送带/管道",
@@ -150,6 +149,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "启动拖框工具，取消方框内所有物体的拆除。",
   "Overlord": "Overlord",
   "Save": "保存",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "仅调整此窗口的大小。无论游戏自身的界面缩放设为多少，它都保持不变。",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "将此窗口收起，只保留标题栏。再次点击即可重新展开。",
+  "Open this window back up to its full size.": "将此窗口重新展开到完整大小。",
   "Load": "加载",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "将这个模组的所有设置（此窗口中的每个标签页）保存为一份配置文件，可在其他游戏中重新加载。",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "加载已保存的配置文件，还原这个模组的所有设置（此窗口中的每个标签页）。",
@@ -161,5 +163,8 @@
   "BROKEN": "故障",
   "OFF": "关闭",
   "Utilities++ profile saved.": "Utilities++ 配置文件已保存。",
-  "Utilities++ profile loaded.": "Utilities++ 配置文件已加载。"
+  "Utilities++ profile loaded.": "Utilities++ 配置文件已加载。",
+  "No saved Utilities++ profile found.": "未找到已保存的 Utilities++ 配置文件。",
+  "Error saving profile: {0}": "保存配置文件时出错：{0}",
+  "Error loading profile: {0}": "加载配置文件时出错：{0}"
 }

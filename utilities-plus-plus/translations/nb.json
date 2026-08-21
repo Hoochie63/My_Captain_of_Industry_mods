@@ -23,7 +23,6 @@
   "View/Layers": "Visning/lag",
   "Window": "Vindu",
 
-  "None": "Ingen",
   "Show one more belt/pipe level": "Vis ett nivå til med transportbånd/rør",
   "Hide one more belt/pipe level": "Skjul ett nivå til med transportbånd/rør",
   "Show one more belt/pipe level from bottom": "Vis ett nivå til med transportbånd/rør nedenfra",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Start draverktøyet som avbryter dekonstruksjonen av alt inni boksen.",
   "Overlord": "Overlord",
   "Save": "Lagre",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Gjelder bare størrelsen på dette vinduet. Den forblir den samme uansett hva spillets egen grensesnittskalering er satt til.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Ruller dette vinduet sammen slik at bare tittellinjen er igjen. Klikk igjen for å åpne det opp igjen.",
+  "Open this window back up to its full size.": "Åpner dette vinduet opp igjen i full størrelse.",
   "Load": "Last",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Lagre alle innstillingene i denne moden (alle faner i dette vinduet) i en profil du kan laste inn igjen i andre spill.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Last inn en lagret profil og gjenopprett alle innstillingene i denne moden (alle faner i dette vinduet).",
@@ -211,5 +213,8 @@
   "BROKEN": "ØDELAGT",
   "OFF": "AV",
   "Utilities++ profile saved.": "Utilities++-profilen er lagret.",
-  "Utilities++ profile loaded.": "Utilities++-profilen er lastet inn."
+  "Utilities++ profile loaded.": "Utilities++-profilen er lastet inn.",
+  "No saved Utilities++ profile found.": "Fant ingen lagret Utilities++-profil.",
+  "Error saving profile: {0}": "Feil ved lagring av profilen: {0}",
+  "Error loading profile: {0}": "Feil ved lasting av profilen: {0}"
 }

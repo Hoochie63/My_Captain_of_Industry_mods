@@ -23,7 +23,6 @@
   "View/Layers": "Görünüm/Katmanlar",
   "Window": "Pencere",
 
-  "None": "Yok",
   "Show one more belt/pipe level": "Bir bant/boru seviyesi daha göster",
   "Hide one more belt/pipe level": "Bir bant/boru seviyesini gizle",
   "Show one more belt/pipe level from bottom": "Alttan bir bant/boru seviyesi daha göster",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Kutu içindeki her şeyin yıkımını iptal eden sürükleme aracını başlatır.",
   "Overlord": "Overlord",
   "Save": "Kaydet",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Yalnızca bu pencerenin boyutu. Oyunun kendi arayüz ölçeği ne olursa olsun aynı kalır.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Bu pencereyi yalnızca başlık çubuğu kalacak şekilde toplar. Geri açmak için tekrar tıklayın.",
+  "Open this window back up to its full size.": "Bu pencereyi tekrar tam boyutuna açar.",
   "Load": "Yükle",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Bu modun tüm ayarlarını (bu penceredeki her sekmeyi) başka oyunlarda yeniden yükleyebileceğiniz bir profile kaydeder.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Kayıtlı bir profili yükleyerek bu modun tüm ayarlarını (bu penceredeki her sekmeyi) geri yükler.",
@@ -211,5 +213,8 @@
   "BROKEN": "BOZUK",
   "OFF": "KAPALI",
   "Utilities++ profile saved.": "Utilities++ profili kaydedildi.",
-  "Utilities++ profile loaded.": "Utilities++ profili yüklendi."
+  "Utilities++ profile loaded.": "Utilities++ profili yüklendi.",
+  "No saved Utilities++ profile found.": "Kaydedilmiş Utilities++ profili bulunamadı.",
+  "Error saving profile: {0}": "Profil kaydedilirken hata: {0}",
+  "Error loading profile: {0}": "Profil yüklenirken hata: {0}"
 }

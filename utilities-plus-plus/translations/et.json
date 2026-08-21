@@ -23,7 +23,6 @@
   "View/Layers": "Vaade/kihid",
   "Window": "Aken",
 
-  "None": "Puudub",
   "Show one more belt/pipe level": "Näita ühte taset rohkem (lindid/torud)",
   "Hide one more belt/pipe level": "Peida üks tase rohkem (lindid/torud)",
   "Show one more belt/pipe level from bottom": "Näita ühte taset rohkem alt (lindid/torud)",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Käivita lohistustööriist, mis tühistab lammutamise kõige kasti sees oleva jaoks.",
   "Overlord": "Overlord",
   "Save": "Salvesta",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Ainult selle akna suurus. See jääb samaks olenemata sellest, millisele väärtusele on mängu enda liidese mastaap seatud.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Kerib selle akna kokku, nii et alles jääb ainult tiitliriba. Klõpsa uuesti, et see tagasi lahti kerida.",
+  "Open this window back up to its full size.": "Avab selle akna tagasi täissuuruses.",
   "Load": "Laadi",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Salvestab kõik selle modi seaded (kõik selle akna vahelehed) profiili, mille saab teistes mängudes uuesti laadida.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Laadib salvestatud profiili ja taastab kõik selle modi seaded (kõik selle akna vahelehed).",
@@ -211,5 +213,8 @@
   "BROKEN": "KATKINE",
   "OFF": "VÄLJAS",
   "Utilities++ profile saved.": "Utilities++ profiil salvestatud.",
-  "Utilities++ profile loaded.": "Utilities++ profiil laaditud."
+  "Utilities++ profile loaded.": "Utilities++ profiil laaditud.",
+  "No saved Utilities++ profile found.": "Salvestatud Utilities++ profiili ei leitud.",
+  "Error saving profile: {0}": "Viga profiili salvestamisel: {0}",
+  "Error loading profile: {0}": "Viga profiili laadimisel: {0}"
 }

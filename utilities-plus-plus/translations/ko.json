@@ -23,7 +23,6 @@
   "View/Layers": "보기/레이어",
   "Window": "창",
 
-  "None": "없음",
   "Show one more belt/pipe level": "벨트/파이프 레벨을 한 단계 더 표시",
   "Hide one more belt/pipe level": "벨트/파이프 레벨을 한 단계 더 숨기기",
   "Show one more belt/pipe level from bottom": "아래부터 벨트/파이프 레벨을 한 단계 더 표시",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "상자 안의 모든 것에 대한 해체를 취소하는 드래그 도구를 시작합니다.",
   "Overlord": "Overlord",
   "Save": "저장",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "이 창에만 적용되는 크기입니다. 게임 자체의 UI 배율을 어떻게 설정하든 그대로 유지됩니다.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "이 창을 접어 제목 표시줄만 남깁니다. 다시 클릭하면 원래대로 펼쳐집니다.",
+  "Open this window back up to its full size.": "이 창을 원래 크기로 다시 펼칩니다.",
   "Load": "불러오기",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "이 Mod의 모든 설정(이 창의 모든 탭)을 프로필로 저장하여 다른 게임에서 다시 불러올 수 있습니다.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "저장된 프로필을 불러와 이 Mod의 모든 설정(이 창의 모든 탭)을 복원합니다.",
@@ -211,5 +213,8 @@
   "BROKEN": "고장",
   "OFF": "꺼짐",
   "Utilities++ profile saved.": "Utilities++ 프로필을 저장했습니다.",
-  "Utilities++ profile loaded.": "Utilities++ 프로필을 불러왔습니다."
+  "Utilities++ profile loaded.": "Utilities++ 프로필을 불러왔습니다.",
+  "No saved Utilities++ profile found.": "저장된 Utilities++ 프로필이 없습니다.",
+  "Error saving profile: {0}": "프로필 저장 오류: {0}",
+  "Error loading profile: {0}": "프로필 불러오기 오류: {0}"
 }

@@ -23,7 +23,6 @@
   "View/Layers": "Vue/Calques",
   "Window": "Fenêtre",
 
-  "None": "Aucun",
   "Show one more belt/pipe level": "Afficher un niveau de convoyeur/tuyau de plus",
   "Hide one more belt/pipe level": "Masquer un niveau de convoyeur/tuyau de plus",
   "Show one more belt/pipe level from bottom": "Afficher un niveau de convoyeur/tuyau de plus depuis le bas",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Démarre l'outil de sélection qui annule la déconstruction de tout ce qui se trouve dans le rectangle.",
   "Overlord": "Overlord",
   "Save": "Sauvegarder",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Taille de cette fenêtre uniquement. Elle reste la même quelle que soit l'échelle de l'interface du jeu.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Replie cette fenêtre pour ne laisser que sa barre de titre. Cliquez à nouveau pour la rouvrir.",
+  "Open this window back up to its full size.": "Rouvre cette fenêtre à sa taille complète.",
   "Load": "Chargement",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Sauvegarde tous les paramètres de ce mod (tous les onglets de cette fenêtre) dans un profil que vous pourrez recharger dans d'autres parties.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Charge un profil sauvegardé et restaure tous les paramètres de ce mod (tous les onglets de cette fenêtre).",
@@ -211,5 +213,8 @@
   "BROKEN": "CASSÉ",
   "OFF": "ARRÊT",
   "Utilities++ profile saved.": "Profil Utilities++ sauvegardé.",
-  "Utilities++ profile loaded.": "Profil Utilities++ chargé."
+  "Utilities++ profile loaded.": "Profil Utilities++ chargé.",
+  "No saved Utilities++ profile found.": "Aucun profil Utilities++ sauvegardé n'a été trouvé.",
+  "Error saving profile: {0}": "Erreur lors de la sauvegarde du profil : {0}",
+  "Error loading profile: {0}": "Erreur lors du chargement du profil : {0}"
 }

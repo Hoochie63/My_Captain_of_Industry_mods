@@ -23,7 +23,6 @@
   "View/Layers": "View/Layers",
   "Window": "Window",
 
-  "None": "None",
   "Show one more belt/pipe level": "Show one more belt/pipe level",
   "Hide one more belt/pipe level": "Hide one more belt/pipe level",
   "Show one more belt/pipe level from bottom": "Show one more belt/pipe level from bottom",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Start the drag tool that cancels deconstruction on everything inside the box.",
   "Overlord": "Overlord",
   "Save": "Save",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Size of this window only. It stays the same whatever the game's own UI scale is set to.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Roll this window up so only its title bar is left. Click again to open it back up.",
+  "Open this window back up to its full size.": "Open this window back up to its full size.",
   "Load": "Load",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Load a saved profile, restoring all of this mod's settings (every tab in this window).",
@@ -211,5 +213,8 @@
   "BROKEN": "BROKEN",
   "OFF": "OFF",
   "Utilities++ profile saved.": "Utilities++ profile saved.",
-  "Utilities++ profile loaded.": "Utilities++ profile loaded."
+  "Utilities++ profile loaded.": "Utilities++ profile loaded.",
+  "No saved Utilities++ profile found.": "No saved Utilities++ profile found.",
+  "Error saving profile: {0}": "Error saving profile: {0}",
+  "Error loading profile: {0}": "Error loading profile: {0}"
 }

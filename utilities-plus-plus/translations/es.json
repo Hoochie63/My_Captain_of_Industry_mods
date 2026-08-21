@@ -23,7 +23,6 @@
     "View/Layers": "Vista/Capas",
     "Window": "Ventana",
 
-    "None": "Ninguno",
     "Show one more belt/pipe level": "Mostrar un nivel más de cintas/tuberías",
     "Hide one more belt/pipe level": "Ocultar un nivel más de cintas/tuberías",
     "Show one more belt/pipe level from bottom": "Mostrar un nivel más de cintas/tuberías desde abajo",
@@ -152,6 +151,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Inicia la herramienta de arrastre que cancela la demolición de todo lo que haya dentro del recuadro.",
   "Overlord": "Overlord",
   "Save": "Guardar",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Tamaño solo de esta ventana. Se mantiene igual sea cual sea la escala de interfaz configurada en el juego.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Pliega esta ventana para que solo quede su barra de título. Haz clic de nuevo para volver a abrirla.",
+  "Open this window back up to its full size.": "Vuelve a abrir esta ventana a su tamaño completo.",
   "Load": "Cargar",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Guarda todos los ajustes de este mod (todas las pestañas de esta ventana) en un perfil que puedes volver a cargar en otras partidas.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Carga un perfil guardado, restaurando todos los ajustes de este mod (todas las pestañas de esta ventana).",
@@ -163,5 +165,8 @@
   "BROKEN": "ROTO",
   "OFF": "APAG",
   "Utilities++ profile saved.": "Perfil de Utilities++ guardado.",
-  "Utilities++ profile loaded.": "Perfil de Utilities++ cargado."
+  "Utilities++ profile loaded.": "Perfil de Utilities++ cargado.",
+  "No saved Utilities++ profile found.": "No se encontró ningún perfil de Utilities++ guardado.",
+  "Error saving profile: {0}": "Error al guardar el perfil: {0}",
+  "Error loading profile: {0}": "Error al cargar el perfil: {0}"
 }

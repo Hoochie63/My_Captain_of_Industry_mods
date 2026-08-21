@@ -23,7 +23,6 @@
   "View/Layers": "Ansicht/Ebenen",
   "Window": "Fenster",
 
-  "None": "Keine",
   "Show one more belt/pipe level": "Eine Förderband-/Rohr-Ebene mehr anzeigen",
   "Hide one more belt/pipe level": "Eine Förderband-/Rohr-Ebene mehr ausblenden",
   "Show one more belt/pipe level from bottom": "Eine Förderband-/Rohr-Ebene mehr von unten anzeigen",
@@ -199,6 +198,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Startet das Ziehwerkzeug, das den Abriss von allem im Rahmen abbricht.",
   "Overlord": "Overlord",
   "Save": "Speichern",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Gilt nur für die Größe dieses Fensters. Sie bleibt gleich, egal worauf die UI-Skalierung des Spiels eingestellt ist.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Klappt dieses Fenster ein, sodass nur die Titelleiste übrig bleibt. Erneut klicken, um es wieder aufzuklappen.",
+  "Open this window back up to its full size.": "Klappt dieses Fenster wieder auf seine volle Größe auf.",
   "Load": "Laden",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Speichert alle Einstellungen dieses Mods (jeder Tab in diesem Fenster) in einem Profil, das du in anderen Spielen wieder laden kannst.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Lädt ein gespeichertes Profil und stellt alle Einstellungen dieses Mods (jeder Tab in diesem Fenster) wieder her.",
@@ -210,5 +212,8 @@
   "BROKEN": "DEFEKT",
   "OFF": "AUS",
   "Utilities++ profile saved.": "Utilities++-Profil gespeichert.",
-  "Utilities++ profile loaded.": "Utilities++-Profil geladen."
+  "Utilities++ profile loaded.": "Utilities++-Profil geladen.",
+  "No saved Utilities++ profile found.": "Kein gespeichertes Utilities++-Profil gefunden.",
+  "Error saving profile: {0}": "Fehler beim Speichern des Profils: {0}",
+  "Error loading profile: {0}": "Fehler beim Laden des Profils: {0}"
 }

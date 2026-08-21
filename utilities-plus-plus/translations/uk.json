@@ -23,7 +23,6 @@
   "View/Layers": "Вид/Шари",
   "Window": "Вікно",
 
-  "None": "Немає",
   "Show one more belt/pipe level": "Показати ще один рівень стрічок/труб",
   "Hide one more belt/pipe level": "Сховати ще один рівень стрічок/труб",
   "Show one more belt/pipe level from bottom": "Показати ще один рівень стрічок/труб знизу",
@@ -152,6 +151,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Запускає інструмент рамки, що скасовує знесення всього всередині неї.",
   "Overlord": "Володар",
   "Save": "Зберегти",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Розмір лише цього вікна. Він залишається незмінним, хоч би який масштаб інтерфейсу було задано в грі.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Згортає це вікно так, що залишається лише рядок заголовка. Натисніть ще раз, щоб розгорнути його назад.",
+  "Open this window back up to its full size.": "Розгортає це вікно назад до повного розміру.",
   "Load": "Завантажити",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Зберігає всі налаштування цього мода (кожну вкладку цього вікна) у профіль, який можна завантажити в інших іграх.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Завантажує збережений профіль, відновлюючи всі налаштування цього мода (кожну вкладку цього вікна).",
@@ -163,5 +165,8 @@
   "BROKEN": "ЗЛАМАНО",
   "OFF": "ВИМК.",
   "Utilities++ profile saved.": "Профіль Utilities++ збережено.",
-  "Utilities++ profile loaded.": "Профіль Utilities++ завантажено."
+  "Utilities++ profile loaded.": "Профіль Utilities++ завантажено.",
+  "No saved Utilities++ profile found.": "Збережений профіль Utilities++ не знайдено.",
+  "Error saving profile: {0}": "Помилка збереження профілю: {0}",
+  "Error loading profile: {0}": "Помилка завантаження профілю: {0}"
 }

@@ -23,7 +23,6 @@
   "View/Layers": "Vista/Capes",
   "Window": "Finestra",
 
-  "None": "Cap",
   "Show one more belt/pipe level": "Mostra un nivell més de cinta/canonada",
   "Hide one more belt/pipe level": "Amaga un nivell més de cinta/canonada",
   "Show one more belt/pipe level from bottom": "Mostra un nivell més de cinta/canonada des de baix",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Inicia l'eina d'arrossegament que cancel·la la desconstrucció de tot el que hi hagi dins el requadre.",
   "Overlord": "Overlord",
   "Save": "Desa",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Mida només d'aquesta finestra. Es manté igual sigui quina sigui l'escala d'interfície configurada al joc.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Plega aquesta finestra perquè només en quedi la barra de títol. Torna a fer clic per desplegar-la.",
+  "Open this window back up to its full size.": "Torna a desplegar aquesta finestra a la seva mida completa.",
   "Load": "Carrega",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Desa tota la configuració d'aquest mod (totes les pestanyes d'aquesta finestra) en un perfil que podreu tornar a carregar en altres partides.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Carrega un perfil desat i restaura tota la configuració d'aquest mod (totes les pestanyes d'aquesta finestra).",
@@ -211,5 +213,8 @@
   "BROKEN": "TRENCAT",
   "OFF": "ATURAT",
   "Utilities++ profile saved.": "S'ha desat el perfil d'Utilities++.",
-  "Utilities++ profile loaded.": "S'ha carregat el perfil d'Utilities++."
+  "Utilities++ profile loaded.": "S'ha carregat el perfil d'Utilities++.",
+  "No saved Utilities++ profile found.": "No s'ha trobat cap perfil d'Utilities++ desat.",
+  "Error saving profile: {0}": "Error en desar el perfil: {0}",
+  "Error loading profile: {0}": "Error en carregar el perfil: {0}"
 }

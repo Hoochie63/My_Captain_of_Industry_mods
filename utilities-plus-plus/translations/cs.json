@@ -22,7 +22,6 @@
   "Tools": "Nástroje",
   "View/Layers": "Zobrazení/Vrstvy",
   "Window": "Okno",
-  "None": "Žádné",
   "Show one more belt/pipe level": "Zobrazit o jednu úroveň pásů/potrubí navíc",
   "Hide one more belt/pipe level": "Skrýt o jednu úroveň pásů/potrubí navíc",
   "Show one more belt/pipe level from bottom": "Zobrazit o jednu úroveň pásů/potrubí navíc odspodu",
@@ -148,6 +147,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Spustí nástroj tažení, který zruší dekonstrukci všeho uvnitř rámečku.",
   "Overlord": "Overlord",
   "Save": "Uložit",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Velikost pouze tohoto okna. Zůstává stejná bez ohledu na to, jak je nastaveno měřítko rozhraní ve hře.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Sbalí toto okno tak, že zůstane jen záhlaví. Dalším kliknutím ho zase rozbalíte.",
+  "Open this window back up to its full size.": "Rozbalí toto okno zpět na plnou velikost.",
   "Load": "Načíst",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Uloží veškerá nastavení tohoto modu (všechny karty v tomto okně) do profilu, který můžete načíst v jiných hrách.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Načte uložený profil a obnoví veškerá nastavení tohoto modu (všechny karty v tomto okně).",
@@ -159,5 +161,8 @@
   "BROKEN": "ROZBITÉ",
   "OFF": "VYP",
   "Utilities++ profile saved.": "Profil Utilities++ uložen.",
-  "Utilities++ profile loaded.": "Profil Utilities++ načten."
+  "Utilities++ profile loaded.": "Profil Utilities++ načten.",
+  "No saved Utilities++ profile found.": "Nebyl nalezen žádný uložený profil Utilities++.",
+  "Error saving profile: {0}": "Chyba při ukládání profilu: {0}",
+  "Error loading profile: {0}": "Chyba při načítání profilu: {0}"
 }

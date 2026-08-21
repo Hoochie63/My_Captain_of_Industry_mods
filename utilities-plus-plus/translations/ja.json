@@ -23,7 +23,6 @@
   "View/Layers": "表示・レイヤー",
   "Window": "ウィンドウ",
 
-  "None": "無し",
   "Show one more belt/pipe level": "ベルト・パイプの表示レベルを1段階上げる",
   "Hide one more belt/pipe level": "ベルト・パイプの表示レベルを1段階下げる",
   "Show one more belt/pipe level from bottom": "ベルト・パイプの表示レベルを下から1段階上げる",
@@ -200,6 +199,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "範囲内のすべての解体をキャンセルするドラッグツールを開始します。",
   "Overlord": "Overlord",
   "Save": "セーブ",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "このウィンドウだけのサイズです。ゲーム本体のUIスケール設定がどうであっても変わりません。",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "このウィンドウを畳んでタイトルバーだけにします。もう一度クリックすると元に戻ります。",
+  "Open this window back up to its full size.": "このウィンドウを元の大きさに戻します。",
   "Load": "ロード",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "このModのすべての設定（このウィンドウの全タブ）を、他のゲームでも読み込めるプロファイルに保存します。",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "保存済みプロファイルをロードし、このModのすべての設定（このウィンドウの全タブ）を復元します。",
@@ -211,5 +213,8 @@
   "BROKEN": "故障",
   "OFF": "オフ",
   "Utilities++ profile saved.": "Utilities++ プロファイルを保存しました。",
-  "Utilities++ profile loaded.": "Utilities++ プロファイルをロードしました。"
+  "Utilities++ profile loaded.": "Utilities++ プロファイルをロードしました。",
+  "No saved Utilities++ profile found.": "保存された Utilities++ プロファイルが見つかりません。",
+  "Error saving profile: {0}": "プロファイルの保存に失敗しました：{0}",
+  "Error loading profile: {0}": "プロファイルの読み込みに失敗しました：{0}"
 }

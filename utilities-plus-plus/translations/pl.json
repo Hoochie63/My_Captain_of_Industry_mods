@@ -22,7 +22,6 @@
   "Tools": "Narzędzia",
   "View/Layers": "Widok/Warstwy",
   "Window": "Okno",
-  "None": "Brak",
   "Show one more belt/pipe level": "Pokaż kolejny poziom taśmociągów/rurociągów",
   "Hide one more belt/pipe level": "Ukryj kolejny poziom taśmociągów/rurociągów",
   "Show one more belt/pipe level from bottom": "Pokaż kolejny poziom taśmociągów/rurociągów od dołu",
@@ -148,6 +147,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Uruchamia narzędzie przeciągania, które anuluje rozbiórkę wszystkiego w zaznaczonym prostokącie.",
   "Overlord": "Overlord",
   "Save": "Zapisz",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Rozmiar tylko tego okna. Pozostaje taki sam niezależnie od tego, jak ustawiono skalę interfejsu w grze.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Zwija to okno tak, aby został tylko pasek tytułu. Kliknij ponownie, aby je z powrotem rozwinąć.",
+  "Open this window back up to its full size.": "Rozwija to okno z powrotem do pełnego rozmiaru.",
   "Load": "Wczytaj",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "Zapisuje wszystkie ustawienia tego moda (ze wszystkich zakładek tego okna) do profilu, który możesz wczytać w innych grach.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Wczytuje zapisany profil, przywracając wszystkie ustawienia tego moda (ze wszystkich zakładek tego okna).",
@@ -159,5 +161,8 @@
   "BROKEN": "ZEPSUTY",
   "OFF": "WYŁ.",
   "Utilities++ profile saved.": "Profil Utilities++ zapisany.",
-  "Utilities++ profile loaded.": "Profil Utilities++ wczytany."
+  "Utilities++ profile loaded.": "Profil Utilities++ wczytany.",
+  "No saved Utilities++ profile found.": "Nie znaleziono zapisanego profilu Utilities++.",
+  "Error saving profile: {0}": "Błąd zapisu profilu: {0}",
+  "Error loading profile: {0}": "Błąd wczytywania profilu: {0}"
 }

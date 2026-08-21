@@ -22,7 +22,6 @@
   "Tools": "Eszközök",
   "View/Layers": "Nézet/Rétegek",
   "Window": "Ablak",
-  "None": "Semmi",
   "Show one more belt/pipe level": "Eggyel több futószalag/cső szint mutatása",
   "Hide one more belt/pipe level": "Eggyel több futószalag/cső szint elrejtése",
   "Show one more belt/pipe level from bottom": "Eggyel több futószalag/cső szint mutatása alulról",
@@ -148,6 +147,9 @@
   "Start the drag tool that cancels deconstruction on everything inside the box.": "Elindítja a húzásos eszközt, amely visszavonja a kereten belüli minden dolog bontását.",
   "Overlord": "Overlord",
   "Save": "Mentés",
+  "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "Csak ennek az ablaknak a mérete. Ugyanakkora marad, bármire is van állítva a játék saját felületméretezése.",
+  "Roll this window up so only its title bar is left. Click again to open it back up.": "Felgöngyöli ezt az ablakot, hogy csak a címsora maradjon. Kattints újra a visszanyitásához.",
+  "Open this window back up to its full size.": "Visszanyitja ezt az ablakot a teljes méretére.",
   "Load": "Betöltés",
   "Save all of this mod's settings (every tab in this window) to a profile you can reload in other games.": "A mod összes beállításának mentése (az ablak minden füle) egy profilba, amelyet más játékokban is betölthetsz.",
   "Load a saved profile, restoring all of this mod's settings (every tab in this window).": "Mentett profil betöltése, visszaállítva a mod összes beállítását (az ablak minden füle).",
@@ -159,5 +161,8 @@
   "BROKEN": "HIBÁS",
   "OFF": "KI",
   "Utilities++ profile saved.": "Utilities++ profil mentve.",
-  "Utilities++ profile loaded.": "Utilities++ profil betöltve."
+  "Utilities++ profile loaded.": "Utilities++ profil betöltve.",
+  "No saved Utilities++ profile found.": "Nem található mentett Utilities++ profil.",
+  "Error saving profile: {0}": "Hiba a profil mentésekor: {0}",
+  "Error loading profile: {0}": "Hiba a profil betöltésekor: {0}"
 }
