@@ -1,3 +1,28 @@
+v1.2.6 | 2026-08-17
+────────────────────────────────────────────────────────────────────────
+* DRAG THE GRIP IN THE OVERLORD WINDOW'S BOTTOM-RIGHT CORNER TO SET ITS SIZE, AND EVERY TAB LAYS ITSELF OUT FOR THE SIZE YOU PICK.
+
+  - Text reflows to the width you give it, so long labels and tooltips stay readable as the window grows.
+
+  - Buttons, sliders and rows stretch and line up with the window, keeping columns even at any size.
+
+  - Double-click the grip to put the window back to its default size.
+
+────────────────────────────────────────────────────────────────────────
+* THE PIN BUTTON IN THE OVERLORD TITLE BAR HOLDS THE WINDOW IN PLACE WHILE YOU WORK, SO ESC AND PICKING A TOOL BOTH LEAVE IT OPEN (THANKS MAG FOR THE REPORT).
+
+  - It starts pinned each time you load a save. Unpin it and it stays unpinned every time you open the window, until you load a save again.
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW NOW HAS A SIZE DROPDOWN, 85% TO 120% IN 5% STEPS, SEPARATE FROM THE GAME'S OWN UI SCALE (THANKS VLADOVLAK FOR THE REPORT).
+
+  - Tooltips inside the window follow this size, while tooltips anywhere else in the game stay at their normal size (thanks Mag for the report).
+
+────────────────────────────────────────────────────────────────────────
+* A ROLL-UP BUTTON IN THE OVERLORD TITLE BAR FOLDS THE WINDOW DOWN TO JUST ITS TITLE BAR, AND CLICKING IT AGAIN OPENS IT BACK UP (THANKS MAG FOR THE ICONS).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.5 | 2026-08-16
 * The Throughput tab now lets you set how fast the small and large ore sorting plants push sorted materials out onto belts. (thanks petter566 for the suggestion)
 
