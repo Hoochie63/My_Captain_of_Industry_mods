@@ -1,3 +1,65 @@
+v1.3.8 | 2026-08-17
+────────────────────────────────────────────────────────────────────────
+* THE VEHICLES TAB CAN NOW SET HOW DEEP THE AMPHIBIOUS EXCAVATOR DIGS UNDER WATER, FROM THE DEFAULT 5 TILES UP TO 20 (THANKS ALEXANDER FOR THE SUGGESTION).
+
+  - The row shows only for the amphibious excavator, and clearing the box puts it back to 5.
+
+  - One value covers every amphibious excavator, including the hydrogen, synthetic diesel and battery versions.
+
+  - The excavator's description updates with it, so it always states the depth you set.
+
+────────────────────────────────────────────────────────────────────────
+* THE SPEED SETTING IS GONE FROM THE VEHICLES TAB — VEHICLES DO NOT HANDLE HIGHER SPEEDS WELL AND IT CAUSED TOO MANY PROBLEMS, SO IT IS REMOVED FOR NOW.
+
+  - Trucks and excavators drive at their normal speed again, and any speed you had set is ignored.
+
+  - Load capacity and bucket size still work the same in the Vehicles tab.
+
+  - The braking near mining areas and storages goes with it, since there is no boosted speed left to slow down from.
+
+────────────────────────────────────────────────────────────────────────
+* DRAG THE GRIP IN THE OVERLORD WINDOW'S BOTTOM-RIGHT CORNER TO SET ITS SIZE, AND EVERY TAB LAYS ITSELF OUT FOR THE SIZE YOU PICK.
+
+  - Text reflows to the width you give it, so long labels and tooltips stay readable as the window grows.
+
+  - Buttons, sliders and rows stretch and line up with the window, keeping columns even at any size.
+
+  - Double-click the grip to put the window back to its default size.
+
+────────────────────────────────────────────────────────────────────────
+* A RESET UNITY BUTTON IN THE UNITY SECTION SETS UNITY BACK TO 0 AND PUTS THE CAP BACK TO ITS DEFAULT.
+
+  - From then on the cap grows with your population again, the way it does without the cheat.
+
+  - It also turns off Keep Unity full, so the reset holds.
+
+────────────────────────────────────────────────────────────────────────
+* THE PIN BUTTON IN THE OVERLORD TITLE BAR HOLDS THE WINDOW IN PLACE WHILE YOU WORK, SO ESC AND PICKING A TOOL BOTH LEAVE IT OPEN (THANKS MAG FOR THE REPORT).
+
+  - It starts pinned each time you load a save. Unpin it and it stays unpinned every time you open the window, until you load a save again.
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW NOW HAS A SIZE DROPDOWN, 85% TO 120% IN 5% STEPS, SEPARATE FROM THE GAME'S OWN UI SCALE (THANKS VLADOVLAK FOR THE REPORT).
+
+  - Tooltips inside the window follow this size, while tooltips anywhere else in the game stay at their normal size (thanks Mag for the report).
+
+────────────────────────────────────────────────────────────────────────
+* THE COPY SETTINGS TOOL NOW CARRIES KEEP FULL AND KEEP EMPTY OVER TO THE STORAGE YOU CLICK, AND CLEARS IT IF THE ONE YOU COPIED FROM HAS NEITHER (THANKS MAG FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+* THE SHIP WINDOW NOW HAS ITS OWN UNLOAD CARGO BUTTON WHILE DOCKED — IT MOVES ALL CARGO TO THE SHIPYARD EVEN WHEN THE SHIPYARD IS FULL (THANKS HOOCHIE FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+* NO MAINTENANCE NOW ALSO REPAIRS ANYTHING ALREADY BROKEN DOWN, SO STOPPED AND SLOWED VEHICLES GET GOING AGAIN AND DROP THEIR BROKEN ICON (THANKS HOOCHIE FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* A ROLL-UP BUTTON IN THE OVERLORD TITLE BAR FOLDS THE WINDOW DOWN TO JUST ITS TITLE BAR, AND CLICKING IT AGAIN OPENS IT BACK UP (THANKS MAG FOR THE ICONS).
+
+────────────────────────────────────────────────────────────────────────
+* THE PIPE CHEAT TOOLBAR BUTTONS (UNDERGROUND, BULLDOZE, DEPTH LABELS, SLOPE) NOW SHOW ICONS INSTEAD OF LETTERS (THANKS MAG FOR THE ICONS).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.7 | 2026-08-15
 * Speed-boosted excavators and trucks assigned to a mining tower now brake down to normal speed when entering the mining area, so they no longer
   get stuck driving in tiny circles on steep slopes. Full boosted speed comes back the moment they leave the area.
