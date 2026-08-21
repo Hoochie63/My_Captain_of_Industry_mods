@@ -1,3 +1,23 @@
+v2.0.4 | 2026-08-20
+────────────────────────────────────────────────────────────────────────
+* CONFLICT MESSAGES NOW HAVE AN ARROW THAT TAKES YOU STRAIGHT TO THE KEYBIND THEY CLASH WITH.
+
+  - The arrow works both ways: it can jump to another mod's keybind here, or to the base game's own keybind in the Controls tab.
+
+  - The keybind it takes you to is outlined in gold so you spot it at once, and the outline clears as soon as you leave that tab.
+
+────────────────────────────────────────────────────────────────────────
+* THE BASE GAME'S CONTROLS TAB NOW HAS A SEARCH BOX AT THE BOTTOM.
+
+  - Search by keybind name, by section name like Camera, or by key combination like ctrl+s.
+
+  - Sections with nothing matching are hidden while you type, and clearing the box brings everything back.
+
+────────────────────────────────────────────────────────────────────────
+* CHECK CONFLICTS NOW ALSO LISTS KEYBINDS WHERE YOUR SECOND KEYBIND TOOK OVER BECAUSE THE FIRST ONE CLASHES.
+
+────────────────────────────────────────────────────────────────────────
+
 v2.0.3 | 2026-08-14
 * Lots of changes made to the translations.
 

@@ -18,12 +18,15 @@
     "None": "無",
     "Reset": "重設",
     "Press a key...": "按下一個按鍵...",
-    "Primary conflicts with: {0}": "主要按鍵與以下衝突：{0}",
-    "Secondary conflicts with: {0}": "次要按鍵與以下衝突：{0}",
+    "Primary conflicts with:": "主要按鍵與以下衝突：",
+    "Secondary conflicts with:": "次要按鍵與以下衝突：",
     "Primary": "主要",
     "Secondary": "次要",
     "General": "一般資訊",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "正在使用次要快速鍵 — 您的主要快速鍵（{0}）與 {1} 衝突。",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "正在使用次要快速鍵 — 您的主要快速鍵（{0}）與以下衝突：",
+    "Go to this keybind": "前往這個按鍵設定",
+    "Search keybinds...": "搜尋按鍵設定...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "以名稱、像是攝影機的區段名稱，或像是 ctrl+s 的按鍵組合來搜尋這些按鍵設定。",
     "Search name or combo...": "搜尋名稱或組合鍵...",
     "No keybinds match your search.": "沒有符合搜尋條件的快速鍵。",
     "Resets only the keybinds currently shown by your search.": "僅重設目前搜尋結果中顯示的快速鍵。",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "點選 X 或按 Esc 即可離開衝突檢查。",
     "Apply all to this tab": "套用全部至此分頁",
     "Vanilla": "原版",
-    "Mod": "模組"
+    "Mod": "模組",
+    "{0} (in the Controls tab)": "{0}（在「控制」分頁中）"
 }

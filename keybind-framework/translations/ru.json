@@ -24,6 +24,9 @@
     "Secondary": "Запасная",
     "General": "Общее",
     "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Используется запасная — основное сочетание ({0}) конфликтует с {1}.",
+    "Go to this keybind": "Перейти к этому сочетанию",
+    "Search keybinds...": "Поиск сочетаний...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Ищите эти сочетания по названию, по названию раздела, например Камера, или по комбинации клавиш, например «Ctrl+S».",
     "Search name or combo...": "Поиск по названию или комбинации...",
     "No keybinds match your search.": "Нет горячих клавиш, соответствующих Вашему поиску.",
     "Resets only the keybinds currently shown by your search.": "Сбрасывает горячие клавиши, показанные только текущим поиском.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Нажмите X или Escape, чтобы выйти из проверки конфликтов.",
     "Apply all to this tab": "Применить всё на этой вкладке",
     "Vanilla": "Игра",
-    "Mod": "Мод"
+    "Mod": "Мод",
+    "{0} (in the Controls tab)": "{0} (на вкладке «Управление»)"
 }

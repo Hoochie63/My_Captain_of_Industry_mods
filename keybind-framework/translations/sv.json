@@ -18,12 +18,15 @@
     "None": "Ingen",
     "Reset": "Återställ",
     "Press a key...": "Tryck på en tangent...",
-    "Primary conflicts with: {0}": "Primär krockar med: {0}",
-    "Secondary conflicts with: {0}": "Sekundär krockar med: {0}",
+    "Primary conflicts with:": "Primär krockar med:",
+    "Secondary conflicts with:": "Sekundär krockar med:",
     "Primary": "Primär",
     "Secondary": "Sekundär",
     "General": "Allmänt",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Sekundär används — din huvudgenväg ({0}) krockar med {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Sekundär används — din huvudgenväg ({0}) krockar med:",
+    "Go to this keybind": "Gå till det här kortkommandot",
+    "Search keybinds...": "Sök kortkommandon...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Sök bland dessa kortkommandon på namn, på sektionsnamn som Kamera, eller på tangentkombination som ctrl+s.",
     "Search name or combo...": "Sök namn eller kombination...",
     "No keybinds match your search.": "Inga tangentbindningar matchar din sökning.",
     "Resets only the keybinds currently shown by your search.": "Återställer endast de tangentbindningar som visas av din sökning.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Klicka på X eller tryck Escape för att avsluta konfliktkontrollen.",
     "Apply all to this tab": "Verkställ allt i den här fliken",
     "Vanilla": "Grundspel",
-    "Mod": "Modd"
+    "Mod": "Modd",
+    "{0} (in the Controls tab)": "{0} (i fliken Kontroller)"
 }

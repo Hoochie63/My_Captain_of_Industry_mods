@@ -18,12 +18,15 @@
     "None": "Yok",
     "Reset": "Sıfırla",
     "Press a key...": "Bir tuşa basın...",
-    "Primary conflicts with: {0}": "Birincil, şununla çakışıyor: {0}",
-    "Secondary conflicts with: {0}": "İkincil, şununla çakışıyor: {0}",
+    "Primary conflicts with:": "Birincil, şununla çakışıyor:",
+    "Secondary conflicts with:": "İkincil, şununla çakışıyor:",
     "Primary": "Birincil",
     "Secondary": "İkincil",
     "General": "Genel",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "İkincil kullanımda — ana kısayolunuz ({0}), {1} ile çakışıyor.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "İkincil kullanımda — ana kısayolunuz ({0}) şununla çakışıyor:",
+    "Go to this keybind": "Bu kısayola git",
+    "Search keybinds...": "Kısayolları ara...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Bu kısayolları ada göre, Kamera gibi bölüm adına göre veya ctrl+s gibi tuş kombinasyonuna göre arayın.",
     "Search name or combo...": "Ada veya tuş kombinasyonuna göre ara...",
     "No keybinds match your search.": "Aramanızla eşleşen kısayol yok.",
     "Resets only the keybinds currently shown by your search.": "Yalnızca aramanızın şu anda gösterdiği kısayolları sıfırlar.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Çakışma kontrolünden çıkmak için X'e tıklayın veya Escape'e basın.",
     "Apply all to this tab": "Bu sekmedeki tümünü uygula",
     "Vanilla": "Orijinal",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (Kontroller sekmesinde)"
 }

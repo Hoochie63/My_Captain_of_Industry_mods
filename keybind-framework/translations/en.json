@@ -18,12 +18,15 @@
     "None": "None",
     "Reset": "Reset",
     "Press a key...": "Press a key...",
-    "Primary conflicts with: {0}": "Primary conflicts with: {0}",
-    "Secondary conflicts with: {0}": "Secondary conflicts with: {0}",
+    "Primary conflicts with:": "Primary conflicts with:",
+    "Secondary conflicts with:": "Secondary conflicts with:",
     "Primary": "Primary",
     "Secondary": "Secondary",
     "General": "General",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Secondary in use — your main shortcut ({0}) clashes with {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Secondary in use — your main shortcut ({0}) clashes with:",
+    "Go to this keybind": "Go to this keybind",
+    "Search keybinds...": "Search keybinds...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.",
     "Search name or combo...": "Search name or combo...",
     "No keybinds match your search.": "No keybinds match your search.",
     "Resets only the keybinds currently shown by your search.": "Resets only the keybinds currently shown by your search.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Click the X or press Escape to exit conflict check.",
     "Apply all to this tab": "Apply all to this tab",
     "Vanilla": "Vanilla",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (in the Controls tab)"
 }

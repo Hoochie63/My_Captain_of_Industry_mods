@@ -18,12 +18,15 @@
     "None": "없음",
     "Reset": "초기화",
     "Press a key...": "키를 누르세요...",
-    "Primary conflicts with: {0}": "기본키가 다음과 충돌: {0}",
-    "Secondary conflicts with: {0}": "보조키가 다음과 충돌: {0}",
+    "Primary conflicts with:": "기본키가 다음과 충돌:",
+    "Secondary conflicts with:": "보조키가 다음과 충돌:",
     "Primary": "기본",
     "Secondary": "보조",
     "General": "일반",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "보조키 사용 중 — 기본 단축키({0})가 {1}와(과) 충돌합니다.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "보조키 사용 중 — 기본 단축키({0})가 다음과 충돌:",
+    "Go to this keybind": "이 키 설정으로 이동",
+    "Search keybinds...": "키 설정 검색...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "이름, 카메라 같은 구역 이름, 또는 ctrl+s 같은 키 조합으로 이 키 설정을 검색합니다.",
     "Search name or combo...": "이름 또는 조합 검색...",
     "No keybinds match your search.": "검색과 일치하는 단축키가 없습니다.",
     "Resets only the keybinds currently shown by your search.": "현재 검색으로 표시된 단축키만 초기화합니다.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "X를 클릭하거나 Escape를 눌러 충돌 확인을 종료하세요.",
     "Apply all to this tab": "이 탭 전체 적용",
     "Vanilla": "바닐라",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (조작 탭에 있음)"
 }

@@ -18,12 +18,15 @@
   "None": "Žádné",
   "Reset": "Obnovit",
   "Press a key...": "Stiskněte klávesu...",
-  "Primary conflicts with: {0}": "Primární je v konfliktu s: {0}",
-  "Secondary conflicts with: {0}": "Sekundární je v konfliktu s: {0}",
+  "Primary conflicts with:": "Primární je v konfliktu s:",
+  "Secondary conflicts with:": "Sekundární je v konfliktu s:",
   "Primary": "Primární",
   "Secondary": "Sekundární",
   "General": "Všeobecné",
-  "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Sekundární se používá — vaše hlavní zkratka ({0}) koliduje s {1}.",
+  "Secondary in use — your main shortcut ({0}) clashes with:": "Sekundární se používá — vaše hlavní zkratka ({0}) koliduje s:",
+  "Go to this keybind": "Přejít na tuto klávesovou zkratku",
+  "Search keybinds...": "Hledat zkratky...",
+  "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Hledejte tyto zkratky podle názvu, podle názvu sekce jako Kamera nebo podle kombinace kláves jako ctrl+s.",
   "Search name or combo...": "Hledat název nebo kombinaci...",
   "No keybinds match your search.": "Vašemu hledání neodpovídají žádné klávesové zkratky.",
   "Resets only the keybinds currently shown by your search.": "Obnoví pouze klávesové zkratky aktuálně zobrazené vaším hledáním.",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Kliknutím na X nebo stisknutím Escape ukončíte kontrolu konfliktů.",
   "Apply all to this tab": "Použít vše na této kartě",
   "Vanilla": "Základní hra",
-  "Mod": "Mod"
+  "Mod": "Mod",
+  "{0} (in the Controls tab)": "{0} (na kartě Ovládání)"
 }

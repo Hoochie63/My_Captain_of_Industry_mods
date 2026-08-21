@@ -18,12 +18,15 @@
     "None": "Puudub",
     "Reset": "Lähtesta",
     "Press a key...": "Vajuta klahvi...",
-    "Primary conflicts with: {0}": "Esmane kiirklahv on vastuolus: {0}",
-    "Secondary conflicts with: {0}": "Teisene kiirklahv on vastuolus: {0}",
+    "Primary conflicts with:": "Esmane kiirklahv on vastuolus:",
+    "Secondary conflicts with:": "Teisene kiirklahv on vastuolus:",
     "Primary": "Esmane",
     "Secondary": "Teisene",
     "General": "Üldteave",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Teisene on kasutusel — sinu peamine otsetee ({0}) on vastuolus otseteega {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Teisene on kasutusel — sinu peamine otsetee ({0}) on vastuolus:",
+    "Go to this keybind": "Mine selle kiirklahvi juurde",
+    "Search keybinds...": "Otsi kiirklahve...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Otsi neid kiirklahve nime järgi, jaotise nime järgi nagu Kaamera või klahvikombinatsiooni järgi nagu ctrl+s.",
     "Search name or combo...": "Otsi nime või kombinatsiooni järgi...",
     "No keybinds match your search.": "Otsingule ei vastanud ükski kiirklahv.",
     "Resets only the keybinds currently shown by your search.": "Lähtestab ainult otsingu tulemusena praegu näidatud kiirklahvid.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Konfliktide kontrollist väljumiseks klõpsa X-il või vajuta Escape.",
     "Apply all to this tab": "Rakenda kõik sellele vahelehele",
     "Vanilla": "Põhimäng",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (vahelehel Juhtimine)"
 }

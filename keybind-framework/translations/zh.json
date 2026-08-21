@@ -18,12 +18,15 @@
     "None": "无",
     "Reset": "重置",
     "Press a key...": "按下一个键…",
-    "Primary conflicts with: {0}": "主键位与以下冲突：{0}",
-    "Secondary conflicts with: {0}": "次键位与以下冲突：{0}",
+    "Primary conflicts with:": "主键位与以下冲突：",
+    "Secondary conflicts with:": "次键位与以下冲突：",
     "Primary": "主键位",
     "Secondary": "次键位",
     "General": "通用",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "正在使用次键位 — 你的主快捷键（{0}）与 {1} 冲突。",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "正在使用次键位 — 你的主快捷键（{0}）与以下冲突：",
+    "Go to this keybind": "前往该键位设置",
+    "Search keybinds...": "搜索键位设置...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "可以按名称、像摄像机这样的分区名称，或者像 ctrl+s 这样的组合键来搜索这些键位。",
     "Search name or combo...": "搜索名称或组合键…",
     "No keybinds match your search.": "没有符合搜索条件的快捷键。",
     "Resets only the keybinds currently shown by your search.": "仅重置当前搜索结果中显示的快捷键。",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "点击 X 或按 Esc 即可退出冲突检查。",
   "Apply all to this tab": "全部应用到此标签页",
   "Vanilla": "原版",
-  "Mod": "模组"
+  "Mod": "模组",
+  "{0} (in the Controls tab)": "{0}（在“控制”标签页中）"
 }

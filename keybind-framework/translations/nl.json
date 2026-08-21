@@ -18,12 +18,15 @@
   "None": "Geen",
   "Reset": "Resetten",
   "Press a key...": "Druk op een toets...",
-  "Primary conflicts with: {0}": "Primaire toets in conflict met: {0}",
-  "Secondary conflicts with: {0}": "Secundaire toets in conflict met: {0}",
+  "Primary conflicts with:": "Primaire toets in conflict met:",
+  "Secondary conflicts with:": "Secundaire toets in conflict met:",
   "Primary": "Primair",
   "Secondary": "Secundair",
   "General": "Algemeen",
-  "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Secundaire toets in gebruik — je hoofdsneltoets ({0}) botst met {1}.",
+  "Secondary in use — your main shortcut ({0}) clashes with:": "Secundaire toets in gebruik — je hoofdsneltoets ({0}) botst met:",
+  "Go to this keybind": "Ga naar deze sneltoets",
+  "Search keybinds...": "Sneltoetsen zoeken...",
+  "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Zoek deze sneltoetsen op naam, op sectienaam zoals Camera, of op toetscombinatie zoals ctrl+s.",
   "Search name or combo...": "Zoek op naam of toetscombinatie...",
   "No keybinds match your search.": "Geen sneltoetsen gevonden voor je zoekopdracht.",
   "Resets only the keybinds currently shown by your search.": "Reset alleen de sneltoetsen die nu door je zoekopdracht worden getoond.",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Klik op de X of druk op Escape om de conflictcontrole te verlaten.",
   "Apply all to this tab": "Alles toepassen op dit tabblad",
   "Vanilla": "Basisspel",
-  "Mod": "Mod"
+  "Mod": "Mod",
+  "{0} (in the Controls tab)": "{0} (op het tabblad Besturing)"
 }

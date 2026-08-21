@@ -18,12 +18,15 @@
     "None": "Keine",
     "Reset": "Zurücksetzen",
     "Press a key...": "Taste drücken...",
-    "Primary conflicts with: {0}": "Primär in Konflikt mit: {0}",
-    "Secondary conflicts with: {0}": "Sekundär in Konflikt mit: {0}",
+    "Primary conflicts with:": "Primär in Konflikt mit:",
+    "Secondary conflicts with:": "Sekundär in Konflikt mit:",
     "Primary": "Primär",
     "Secondary": "Sekundär",
     "General": "Allgemein",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Sekundär aktiv — dein Haupt-Tastenkürzel ({0}) steht in Konflikt mit {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Sekundär aktiv — dein Haupt-Tastenkürzel ({0}) steht in Konflikt mit:",
+    "Go to this keybind": "Zu diesem Tastenkürzel springen",
+    "Search keybinds...": "Tastenkürzel suchen...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Durchsuche diese Tastenkürzel nach Name, nach Abschnittsname wie Kamera oder nach Tastenkombination wie ctrl+s.",
     "Search name or combo...": "Name oder Tastenkombination suchen...",
     "No keybinds match your search.": "Keine Tastenkürzel entsprechen deiner Suche.",
     "Resets only the keybinds currently shown by your search.": "Setzt nur die aktuell durch deine Suche angezeigten Tastenkürzel zurück.",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Klicke auf das X oder drücke Escape, um die Konfliktprüfung zu verlassen.",
   "Apply all to this tab": "Alles auf diesen Tab anwenden",
   "Vanilla": "Vanilla",
-  "Mod": "Mod"
+  "Mod": "Mod",
+  "{0} (in the Controls tab)": "{0} (im Tab „Steuerung“)"
 }

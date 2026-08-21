@@ -18,12 +18,15 @@
     "None": "Ninguno",
     "Reset": "Restablecer",
     "Press a key...": "Pulsa una tecla...",
-    "Primary conflicts with: {0}": "Principal en conflicto con: {0}",
-    "Secondary conflicts with: {0}": "Secundario en conflicto con: {0}",
+    "Primary conflicts with:": "Principal en conflicto con:",
+    "Secondary conflicts with:": "Secundario en conflicto con:",
     "Primary": "Principal",
     "Secondary": "Secundario",
     "General": "General",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Secundario en uso — tu atajo principal ({0}) entra en conflicto con {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Secundario en uso — tu atajo principal ({0}) entra en conflicto con:",
+    "Go to this keybind": "Ir a este atajo",
+    "Search keybinds...": "Buscar atajos...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Busca estos atajos por nombre, por nombre de sección como Cámara, o por combinación de teclas como ctrl+s.",
     "Search name or combo...": "Buscar nombre o combinación...",
     "No keybinds match your search.": "Ningún atajo coincide con tu búsqueda.",
     "Resets only the keybinds currently shown by your search.": "Restablece solo los atajos que aparecen actualmente en tu búsqueda.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Haz clic en la X o pulsa Escape para salir de la comprobación de conflictos.",
     "Apply all to this tab": "Aplicar todo en esta pestaña",
     "Vanilla": "Juego base",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (en la pestaña Controles)"
 }

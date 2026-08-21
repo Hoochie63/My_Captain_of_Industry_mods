@@ -18,12 +18,15 @@
     "None": "Ingen",
     "Reset": "Tilbakestill",
     "Press a key...": "Trykk på en tast...",
-    "Primary conflicts with: {0}": "Primær er i konflikt med: {0}",
-    "Secondary conflicts with: {0}": "Sekundær er i konflikt med: {0}",
+    "Primary conflicts with:": "Primær er i konflikt med:",
+    "Secondary conflicts with:": "Sekundær er i konflikt med:",
     "Primary": "Primær",
     "Secondary": "Sekundær",
     "General": "General",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Sekundær er i bruk — hovedsnarveien din ({0}) er i konflikt med {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Sekundær er i bruk — hovedsnarveien din ({0}) er i konflikt med:",
+    "Go to this keybind": "Gå til denne hurtigtasten",
+    "Search keybinds...": "Søk i hurtigtaster...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Søk i disse hurtigtastene etter navn, etter seksjonsnavn som Kamera, eller etter tastekombinasjon som ctrl+s.",
     "Search name or combo...": "Søk på navn eller kombinasjon...",
     "No keybinds match your search.": "Ingen hurtigtaster samsvarer med søket ditt.",
     "Resets only the keybinds currently shown by your search.": "Tilbakestiller kun hurtigtastene som vises i søket ditt.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Klikk på X eller trykk Escape for å avslutte konfliktsjekken.",
     "Apply all to this tab": "Bruk alt i denne fanen",
     "Vanilla": "Grunnspill",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (i fanen Kontroller)"
 }

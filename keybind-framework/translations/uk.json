@@ -18,12 +18,15 @@
     "None": "Немає",
     "Reset": "Скинути",
     "Press a key...": "Натисніть клавішу...",
-    "Primary conflicts with: {0}": "Основна конфліктує з: {0}",
-    "Secondary conflicts with: {0}": "Додаткова конфліктує з: {0}",
+    "Primary conflicts with:": "Основна конфліктує з:",
+    "Secondary conflicts with:": "Додаткова конфліктує з:",
     "Primary": "Основна",
     "Secondary": "Додаткова",
     "General": "Загальне",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Використовується додаткова — основне поєднання ({0}) конфліктує з {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Використовується додаткова — основне поєднання ({0}) конфліктує з:",
+    "Go to this keybind": "Перейти до цього поєднання",
+    "Search keybinds...": "Пошук поєднань...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Шукайте ці поєднання за назвою, за назвою розділу, наприклад Камера, або за комбінацією клавіш, наприклад ctrl+s.",
     "Search name or combo...": "Пошук за назвою або комбінацією...",
     "No keybinds match your search.": "Немає гарячих клавіш, що відповідають вашому пошуку.",
     "Resets only the keybinds currently shown by your search.": "Скидає лише гарячі клавіші, показані поточним пошуком.",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Натисніть X або Escape, щоб вийти з перевірки конфліктів.",
   "Apply all to this tab": "Застосувати все на цій вкладці",
   "Vanilla": "Гра",
-  "Mod": "Мод"
+  "Mod": "Мод",
+  "{0} (in the Controls tab)": "{0} (на вкладці «Керування»)"
 }

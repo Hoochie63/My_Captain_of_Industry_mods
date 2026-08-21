@@ -18,12 +18,15 @@
     "None": "Cap",
     "Reset": "Restableix",
     "Press a key...": "Premeu una tecla...",
-    "Primary conflicts with: {0}": "El primari entra en conflicte amb: {0}",
-    "Secondary conflicts with: {0}": "El secundari entra en conflicte amb: {0}",
+    "Primary conflicts with:": "El primari entra en conflicte amb:",
+    "Secondary conflicts with:": "El secundari entra en conflicte amb:",
     "Primary": "Primari",
     "Secondary": "Secundari",
     "General": "General",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "El secundari ja s'utilitza — la vostra drecera principal ({0}) entra en conflicte amb {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "El secundari ja s'utilitza — la vostra drecera principal ({0}) entra en conflicte amb:",
+    "Go to this keybind": "Ves a aquesta drecera",
+    "Search keybinds...": "Cerca dreceres...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Cerca aquestes dreceres pel nom, pel nom de la secció com ara Càmera, o per combinació de tecles com ara ctrl+s.",
     "Search name or combo...": "Cerca per nom o combinació...",
     "No keybinds match your search.": "Cap drecera coincideix amb la cerca.",
     "Resets only the keybinds currently shown by your search.": "Només restableix les dreceres que mostra la cerca actual.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Feu clic a la X o premeu Esc per a sortir de la comprovació de conflictes.",
     "Apply all to this tab": "Aplica-ho tot a aquesta pestanya",
     "Vanilla": "Joc base",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (a la pestanya de controls)"
 }

@@ -18,12 +18,15 @@
     "None": "Nessuno",
     "Reset": "Reimposta",
     "Press a key...": "Premi un tasto...",
-    "Primary conflicts with: {0}": "Principale in conflitto con: {0}",
-    "Secondary conflicts with: {0}": "Secondaria in conflitto con: {0}",
+    "Primary conflicts with:": "Principale in conflitto con:",
+    "Secondary conflicts with:": "Secondaria in conflitto con:",
     "Primary": "Principale",
     "Secondary": "Secondaria",
     "General": "Generale",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Secondaria in uso — la tua scorciatoia principale ({0}) è in conflitto con {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Secondaria in uso — la tua scorciatoia principale ({0}) è in conflitto con:",
+    "Go to this keybind": "Vai a questa scorciatoia",
+    "Search keybinds...": "Cerca scorciatoie...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Cerca queste scorciatoie per nome, per nome della sezione come Telecamera, o per combinazione di tasti come ctrl+s.",
     "Search name or combo...": "Cerca nome o combinazione...",
     "No keybinds match your search.": "Nessuna scorciatoia corrisponde alla tua ricerca.",
     "Resets only the keybinds currently shown by your search.": "Reimposta solo le scorciatoie attualmente mostrate dalla tua ricerca.",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Clicca sulla X o premi Esc per uscire dal controllo dei conflitti.",
   "Apply all to this tab": "Applica tutto a questa scheda",
   "Vanilla": "Base",
-  "Mod": "Mod"
+  "Mod": "Mod",
+  "{0} (in the Controls tab)": "{0} (nella scheda Controlli)"
 }

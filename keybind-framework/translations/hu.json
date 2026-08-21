@@ -18,12 +18,15 @@
     "None": "Semmi",
     "Reset": "Alaphelyzet",
     "Press a key...": "Nyomj meg egy billentyűt...",
-    "Primary conflicts with: {0}": "Az elsődleges ütközik ezzel: {0}",
-    "Secondary conflicts with: {0}": "A másodlagos ütközik ezzel: {0}",
+    "Primary conflicts with:": "Az elsődleges ütközik ezzel:",
+    "Secondary conflicts with:": "A másodlagos ütközik ezzel:",
     "Primary": "Elsődleges",
     "Secondary": "Másodlagos",
     "General": "Általános",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "A másodlagos van használatban — a fő gyorsbillentyűd ({0}) ütközik ezzel: {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "A másodlagos van használatban — a fő gyorsbillentyűd ({0}) ütközik ezzel:",
+    "Go to this keybind": "Ugrás erre a gyorsbillentyűre",
+    "Search keybinds...": "Gyorsbillentyűk keresése...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Keresd ezeket a gyorsbillentyűket név szerint, szakasznév szerint (például Kamera), vagy billentyűkombináció szerint (például ctrl+s).",
     "Search name or combo...": "Név vagy kombináció keresése...",
     "No keybinds match your search.": "Nincs a keresésnek megfelelő gyorsbillentyű.",
     "Resets only the keybinds currently shown by your search.": "Csak a keresés által éppen megjelenített gyorsbillentyűket állítja alaphelyzetbe.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Kattints az X-re vagy nyomd meg az Escape gombot az ütközés-ellenőrzésből való kilépéshez.",
     "Apply all to this tab": "Mindent alkalmaz ezen a fülön",
     "Vanilla": "Alapjáték",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (az Irányítás fülön)"
 }

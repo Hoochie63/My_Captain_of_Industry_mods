@@ -18,12 +18,15 @@
   "None": "Brak",
   "Reset": "Resetuj",
   "Press a key...": "Naciśnij klawisz...",
-  "Primary conflicts with: {0}": "Główny koliduje z: {0}",
-  "Secondary conflicts with: {0}": "Zapasowy koliduje z: {0}",
+  "Primary conflicts with:": "Główny koliduje z:",
+  "Secondary conflicts with:": "Zapasowy koliduje z:",
   "Primary": "Główny",
   "Secondary": "Zapasowy",
   "General": "Ogólne",
-  "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Użyto zapasowego — twój główny skrót ({0}) koliduje z: {1}.",
+  "Secondary in use — your main shortcut ({0}) clashes with:": "Użyto zapasowego — twój główny skrót ({0}) koliduje z:",
+  "Go to this keybind": "Przejdź do tego skrótu",
+  "Search keybinds...": "Szukaj skrótów...",
+  "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Szukaj tych skrótów według nazwy, według nazwy sekcji takiej jak Kamera lub według kombinacji klawiszy takiej jak ctrl+s.",
   "Search name or combo...": "Szukaj nazwy lub kombinacji...",
   "No keybinds match your search.": "Żaden skrót nie pasuje do wyszukiwania.",
   "Resets only the keybinds currently shown by your search.": "Resetuje tylko skróty aktualnie pokazane przez wyszukiwanie.",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Kliknij X lub naciśnij Escape, aby zakończyć sprawdzanie konfliktów.",
   "Apply all to this tab": "Zastosuj wszystko w tej zakładce",
   "Vanilla": "Gra podstawowa",
-  "Mod": "Mod"
+  "Mod": "Mod",
+  "{0} (in the Controls tab)": "{0} (w zakładce Sterowanie)"
 }

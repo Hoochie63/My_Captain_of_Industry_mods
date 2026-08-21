@@ -18,12 +18,15 @@
     "None": "Aucun",
     "Reset": "Réinitialiser",
     "Press a key...": "Appuyez sur une touche...",
-    "Primary conflicts with: {0}": "Principal en conflit avec : {0}",
-    "Secondary conflicts with: {0}": "Secondaire en conflit avec : {0}",
+    "Primary conflicts with:": "Principal en conflit avec :",
+    "Secondary conflicts with:": "Secondaire en conflit avec :",
     "Primary": "Principal",
     "Secondary": "Secondaire",
     "General": "Général",
-    "Secondary in use — your main shortcut ({0}) clashes with {1}.": "Secondaire utilisé — votre raccourci principal ({0}) entre en conflit avec {1}.",
+    "Secondary in use — your main shortcut ({0}) clashes with:": "Secondaire utilisé — votre raccourci principal ({0}) entre en conflit avec :",
+    "Go to this keybind": "Aller à ce raccourci",
+    "Search keybinds...": "Rechercher des raccourcis...",
+    "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "Recherchez ces raccourcis par nom, par nom de section comme Caméra, ou par combinaison de touches comme ctrl+s.",
     "Search name or combo...": "Rechercher un nom ou une combinaison...",
     "No keybinds match your search.": "Aucun raccourci ne correspond à votre recherche.",
     "Resets only the keybinds currently shown by your search.": "Réinitialise uniquement les raccourcis actuellement affichés par votre recherche.",
@@ -47,5 +50,6 @@
     "Click the X or press Escape to exit conflict check.": "Cliquez sur le X ou appuyez sur Escape pour quitter la vérification des conflits.",
     "Apply all to this tab": "Tout appliquer à cet onglet",
     "Vanilla": "Jeu de base",
-    "Mod": "Mod"
+    "Mod": "Mod",
+    "{0} (in the Controls tab)": "{0} (dans l'onglet Contrôles)"
 }

@@ -18,12 +18,15 @@
   "None": "無し",
   "Reset": "リセット",
   "Press a key...": "キーを押してください...",
-  "Primary conflicts with: {0}": "プライマリが{0}と競合しています",
-  "Secondary conflicts with: {0}": "セカンダリが{0}と競合しています",
+  "Primary conflicts with:": "プライマリが次と競合しています：",
+  "Secondary conflicts with:": "セカンダリが次と競合しています：",
   "Primary": "プライマリ",
   "Secondary": "セカンダリ",
   "General": "全般",
-  "Secondary in use — your main shortcut ({0}) clashes with {1}.": "セカンダリは使用中です — メインのショートカット（{0}）が{1}と競合しています。",
+  "Secondary in use — your main shortcut ({0}) clashes with:": "セカンダリは使用中です — メインのショートカット（{0}）が次と競合しています：",
+  "Go to this keybind": "このキー割り当てに移動",
+  "Search keybinds...": "キー割り当てを検索...",
+  "Search these keybinds by name, by section name like Camera, or by key combo like ctrl+s.": "名前、カメラのようなセクション名、または ctrl+s のようなキーの組み合わせでこれらのキー割り当てを検索します。",
   "Search name or combo...": "名前またはキーの組み合わせで検索...",
   "No keybinds match your search.": "検索条件に一致するキーバインドがありません。",
   "Resets only the keybinds currently shown by your search.": "現在の検索結果に表示されているキーバインドのみをリセットします。",
@@ -47,5 +50,6 @@
   "Click the X or press Escape to exit conflict check.": "Xをクリックするか、Escapeキーを押すと競合確認を終了します。",
   "Apply all to this tab": "このタブにすべて適用",
   "Vanilla": "バニラ",
-  "Mod": "Mod"
+  "Mod": "Mod",
+  "{0} (in the Controls tab)": "{0}（操作タブ内）"
 }
