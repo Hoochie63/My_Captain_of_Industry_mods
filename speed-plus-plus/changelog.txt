@@ -1,3 +1,19 @@
+v1.1.0 | 2026-08-19
+────────────────────────────────────────────────────────────────────────
+* THE SPEED DISPLAY NOW USES THE GAME'S OWN PAUSE ICON AND FITS THE CALENDAR ROW INSTEAD OF STRETCHING IT (THANKS MAG FOR THE REPORT).
+
+  - The speed display and the game's speed buttons are sized to line up with the other mod buttons sitting in the calendar row.
+
+  - No stray fast-forward button is left behind once you go above 3x.
+
+────────────────────────────────────────────────────────────────────────
+* WORKS ALONGSIDE ADAPTIVE CALENDAR BUTTONS — WHEN THAT MOD IS INSTALLED IT DECIDES WHICH SPEED BUTTONS STAY VISIBLE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.0.9 | 2026-08-14
+* Maintenance release — no gameplay changes.
+
 v1.0.8 | 2026-07-29
 * Now supports game version 0.8.7a.
 
