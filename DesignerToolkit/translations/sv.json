@@ -4,6 +4,14 @@
     "Verktygslåda för ritningsdesigners"
   ],
   [
+    "dtk.legacy_stacker.unsupported",
+    "Stackerns ben har inte tillräckligt stöd av terrängen."
+  ],
+  [
+    "dtk.legacy_stacker.alert_full.tooltip",
+    "Varna när högen är full."
+  ],
+  [
     "dtk.settings.tab.markdown",
     "Inställningar"
   ],
@@ -60,8 +68,8 @@
     "Lokala avgränsare"
   ],
   [
-    "dtk.settings.instant_build.heading",
-    "OMEDELBART BYGGE"
+    "dtk.settings.build_behaviors.heading",
+    "BYGGBETEENDEN"
   ],
   [
     "dtk.settings.instant_build_mode.label",
@@ -84,6 +92,14 @@
     "Aktiverar transportkonstruktion i stil med Uppdatering 1, vilket gör att transporter kan svänga och stiga/sjunka på samma ruta (möjliggör direkt konstruktion av kurviga lutningsband)."
   ],
   [
+    "dtk.settings.pre_color_pipes.label",
+    "Förfärga rör"
+  ],
+  [
+    "dtk.settings.pre_color_pipes.description",
+    "Färgar tomma rör efter deras anslutna källor uppströms. Flera vätskor blandas i lika delar. Det faktiska transportflödet tar över färgen när rören innehåller produkter."
+  ],
+  [
     "dtk.rate_limit.title",
     "Genomströmningsbegränsare"
   ],
@@ -98,10 +114,6 @@
   [
     "dtk.rate_limit.items_per_min",
     "st/min"
-  ],
-  [
-    "dtk.settings.transport_construction.heading",
-    "TRANSPORTKONSTRUKTION"
   ],
   [
     "dtk.height_routing.tooltip",
@@ -122,6 +134,94 @@
   [
     "dtk.settings.global_hotkey.description",
     "Denna nyckelbindning är registrerad med spelets kontrollsystem och kan konfigureras i Vanilla Settings | Kontrollmenyn."
+  ],
+  [
+    "Kb_Bdt_TransportCleanup__label",
+    "Transport cleanup tool"
+  ],
+  [
+    "Kb_Bdt_TransportCleanup__tooltip",
+    "Activates the transport cleanup selection tool"
+  ],
+  [
+    "Kb_Bdt_HeightFilterShowLayer__label",
+    "Height filter show layer"
+  ],
+  [
+    "Kb_Bdt_HeightFilterShowLayer__tooltip",
+    "Increases the maximum visible height filter layer"
+  ],
+  [
+    "Kb_Bdt_HeightFilterHideLayer__label",
+    "Height filter hide layer"
+  ],
+  [
+    "Kb_Bdt_HeightFilterHideLayer__tooltip",
+    "Decreases the maximum visible height filter layer"
+  ],
+  [
+    "Kb_Bdt_ThroughputOverlayToggle__label",
+    "Toggle throughput overlay"
+  ],
+  [
+    "Kb_Bdt_ThroughputOverlayToggle__tooltip",
+    "Toggles the throughput overlay"
+  ],
+  [
+    "Kb_Bdt_ThroughputAoETool__label",
+    "Throughput tool"
+  ],
+  [
+    "Kb_Bdt_ThroughputAoETool__tooltip",
+    "Activates the throughput area selection tool"
+  ],
+  [
+    "Kb_Bdt_TransportProductRemovalAoETool__label",
+    "Remove products in area"
+  ],
+  [
+    "Kb_Bdt_TransportProductRemovalAoETool__tooltip",
+    "Activates the area product-removal tool"
+  ],
+  [
+    "Kb_Bdt_PollutionOverlayToggle__label",
+    "Toggle pollution overlay"
+  ],
+  [
+    "Kb_Bdt_PollutionOverlayToggle__tooltip",
+    "Toggles the pollution overlay"
+  ],
+  [
+    "Kb_Bdt_RadiationOverlayToggle__label",
+    "Toggle radiation overlay"
+  ],
+  [
+    "Kb_Bdt_RadiationOverlayToggle__tooltip",
+    "Toggles the radiation overlay"
+  ],
+  [
+    "Kb_Bdt_LayoutBoxMode__label",
+    "Toggle layout box overlay"
+  ],
+  [
+    "Kb_Bdt_LayoutBoxMode__tooltip",
+    "Toggles layout box overlay"
+  ],
+  [
+    "Kb_Bdt_UndoPlacement__label",
+    "Undo placement"
+  ],
+  [
+    "Kb_Bdt_UndoPlacement__tooltip",
+    "Undoes the last BDT placement action"
+  ],
+  [
+    "Kb_Bdt_TransportLazyHeight__label",
+    "Transport lazy height routing"
+  ],
+  [
+    "Kb_Bdt_TransportLazyHeight__tooltip",
+    "Holds lazy height matching mode while placing transports (Alt)"
   ],
   [
     "dtk.settings.action.restore_defaults",
@@ -582,13 +682,5 @@
   [
     "dtk.settings.hotkey.or",
     "eller"
-  ],
-  [
-    "dtk.legacy_stacker.unsupported",
-    "Stackerns ben har inte tillräckligt stöd av terrängen."
-  ],
-  [
-    "dtk.legacy_stacker.alert_full.tooltip",
-    "Varna när högen är full."
   ]
 ]

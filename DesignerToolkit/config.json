@@ -36,12 +36,16 @@
         "default": true,
         "description": "Исходное состояние для устаревших конфигураций транспортёров (стиль строительства транспортёров из «1-го Обновления», позволяющий поворачивать и поднимать/опускать на одной плитке)."
     },
-    "throughput_overlay_enabled": {
+    "pre_color_pipes": {
         "default": true,
+        "description": "Исходное состояние для окрашивания пустых труб в цвет подключённых источников."
+    },
+    "throughput_overlay_enabled": {
+        "default": false,
         "description": "Исходное состояние видимости наложения пропускной способности для сохранений, без сохранённого состояния настроек «BDT». При включении настроенное наложение пропускной способности будут отображаться в игровом мире."
     },
     "throughput_glow_enabled": {
-        "default": true,
+        "default": false,
         "description": "Исходное состояние видимости свечения пропускной способности для сохранений, без сохранённого состояния настроек «BDT»."
     },
     "throughput_heatmap_mode": {
@@ -80,11 +84,11 @@
         "description": "Исходное состояние видимости свечения загрязнения."
     },
     "pollution_glow_color": {
-        "default": "#FFFFFF",
+        "default": "white",
         "description": "Начальный цвет свечения тепловой карты загрязнения. Используйте white (белый), brown (коричневый), purple (фиолетовый) или формат #RRGGBB."
     },
     "pollution_days_to_average": {
-        "default": 30,
+        "default": 360,
         "is_integer": true,
         "description": "Исходное число дней для усреднения загрязнения. Доступный диапазон: от 0 до 360. 0 отключает сбор данных."
     },
@@ -96,6 +100,10 @@
         "default": true,
         "description": "Исходное состояние отображения загрязнения земли и воды."
     },
+    "pollution_show_solid_waste": {
+        "default": true,
+        "description": "Исходное состояние отображения загрязнения почвы от мусора (свалки)."
+    },
     "pollution_show_vehicle": {
         "default": true,
         "description": "Исходное состояние отображения загрязнения от техники и поездов."
@@ -103,10 +111,6 @@
     "pollution_show_ship": {
         "default": true,
         "description": "Исходное состояние отображения загрязнения от кораблей."
-    },
-    "pollution_show_solid_waste": {
-        "default": true,
-        "description": "Исходное состояние отображения загрязнения от твёрдых отходов."
     },
     "radiation_overlay_enabled": {
         "default": false,
