@@ -15,7 +15,7 @@
     "Enter exact value 1-10000, press Enter to confirm": "Введите точное значение от 1 до 10,000 и нажмите Enter для подтверждения.",
     "Exact Input:": "Точное значение:",
     "Buffer Settings - Overclocking MOD": "Настройки буфера - значение ускорения",
-    "Restore Default": "По умолчанию",
+    "Restore Default": "Сброс",
     "Designed by FGWY": "Разработано FGWY",
     "Input Buffer": "Входной буфер",
     "Overclocking MOD": "MOD ускорения",
@@ -28,6 +28,6 @@
     "Enable power consumption": "Включить энергопотребление",
     "Enable workers requirement": "Включить потребность в рабочих",
     "Enable maintenance requirement": "Включить потребность в запчастях для обслуживания",
-    "Set as Default": "По умолчанию",
+    "Set as Default": "Сброс",
     "Save these settings as default for this building type": "Сохранить эти настройки как стандартные для этого типа строения."
 }

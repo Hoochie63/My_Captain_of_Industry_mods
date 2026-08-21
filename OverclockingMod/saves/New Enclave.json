@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "machines": {
+    "clockRates": {},
+    "powerEnabled": {},
+    "workersEnabled": {},
+    "computingEnabled": {},
+    "maintenanceEnabled": {}
+  },
+  "farms": {
+    "clockRates": {}
+  },
+  "oreSorting": {
+    "clockRates": {},
+    "powerEnabled": {},
+    "workersEnabled": {},
+    "maintenanceEnabled": {}
+  },
+  "rainwaterHarvester": {
+    "clockRates": {}
+  }
+}
