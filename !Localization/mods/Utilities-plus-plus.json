@@ -144,7 +144,7 @@
     "Hotkey: Shift+Alt+D": "Горячая клавиша: «Shift+Alt+D»",
     "Closes this window. Drag a box on the world to cancel the deconstruction of everything inside it, exactly like clicking the cancel button on each one. Nothing is demolished and nothing is refunded — the work order is simply called off. Anything already fully demolished cannot be brought back. Tool stays active across drags — press Esc to exit.": "<align=\"center\">Нажатие закроет этот интерфейс. Выделите область, чтобы отменить демонтаж всех строений внутри выделения — так же, как если бы Вы нажали кнопку отмены у каждого отдельного строения. Ничего не демонтируется и ничего не возвращается — заказ на демонтаж просто отменяется. Уже полностью демонтированное вернуть нельзя. Инструмент остаётся активным между выделением — нажмите клавишу «Escape» для выхода.</align>",
     "Cancel Deconstruction — drag a box to cancel deconstruction inside it. Press Esc to exit.": "<align=\"center\">Отменить демонтаж — выделить область, чтобы отменить демонтаж строений внутри выделения.<br>Нажмите клавишу «Escape» для выхода.</align>",
-    "Cancelled deconstruction of {0}": "Демонтаж отменён у {0}",
+    "Cancelled deconstruction of {0}": "Демонтаж отменён у {0} строений",
     "Start the drag tool that cancels deconstruction on everything inside the box.": "Запускает инструмент выделения области, отменяющий демонтаж всех строений внутри выделения.",
     "Overlord": "Центр управления «Mori++ Suite»",
     "Save": "Сохранить",
