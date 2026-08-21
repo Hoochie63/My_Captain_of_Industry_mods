@@ -1,4 +1,5 @@
 {
+  "Choose which buttons stay visible before you hover. The bottom checkbox changes them all. If you hide them all, the calendar button stays so you can open settings again.": "Vali, millised nupud jäävad nähtavaks enne, kui viid kursori nende kohale. Alumine märkeruut muudab neid kõiki. Kui peidad need kõik, jääb kalendrinupp nähtavale, et saaksid seaded uuesti avada.",
   "Adaptive Calendar Buttons": "Kohanduvad kalendrinupud",
   "Adaptive Calendar Buttons - Settings": "Adaptive Calendar Buttons - Seaded",
   "Revealable Buttons": "Ilmutatavad nupud",

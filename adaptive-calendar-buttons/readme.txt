@@ -1,4 +1,4 @@
-ADAPTIVE CALENDAR BUTTONS v1.0.7
+ADAPTIVE CALENDAR BUTTONS v1.0.8
 
 Adaptive Calendar Buttons keeps Captain of Industry Calendar 1 buttons compact,
 sortable, and under your control while preserving their original actions,
@@ -19,8 +19,12 @@ The mod adds one calendar button instead of separate settings and view controls.
 * The control icon has separate selectable colors for Primary and Secondary.
   Defaults are white and gold respectively.
 * Its translated tooltip always explains the currently available clicks.
-* The Adaptive Calendar Buttons control remains protected from hiding in either
-  mode so settings cannot become inaccessible.
+* On Click always keeps the Adaptive Calendar Buttons control available in both
+  views.
+* On Hover can hide the control from Primary while another enabled Primary
+  button remains available. Secondary always restores the control.
+* Primary can never become empty. Clearing all ordinary Primary or Enabled
+  buttons restores the calendar control so settings remain accessible.
 
 ENABLED AND TWO INDEPENDENT VIEWS
 
@@ -44,7 +48,8 @@ other unpinned window.
 The fixed bottom row contains independent bulk controls for Enabled, both view
 columns, and icon color. Each changes only its own column. After a bulk change,
 Undo last bulk change restores the exact previous mixture for the current
-session.
+session. In On Hover, turning every ordinary Primary or Enabled button off
+keeps the calendar control as the safe remaining button.
 
 ORDER AND EXPANSION DIRECTION
 
@@ -108,9 +113,10 @@ One global configuration is shared by every world and survives complete game
 restarts. It remembers order, Enabled, both view assignments, interaction mode,
 expansion direction, per-button icon colors, and both control-state colors. The
 active On Click view is also remembered, so Primary or Secondary resumes after
-loading. On Hover always begins safely in Primary / At Rest.
+loading. On Hover always begins safely in Primary / At Rest and remembers
+whether its calendar control is included there.
 
-There are no per-save profiles or multiple-profile setup in v1.0.7. New test
+There are no per-save profiles or multiple-profile setup in v1.0.8. New test
 worlds automatically use the same global configuration.
 
 SPEED++ DEFAULTS
@@ -172,6 +178,6 @@ OFFICIAL PACKAGE IDENTITY
 
 * Display name: Adaptive Calendar Buttons
 * Mod ID and installation folder: adaptive-calendar-buttons
-* Public ZIP: Adaptive Calendar Buttons v1.0.7.zip
+* Public ZIP: Adaptive Calendar Buttons v1.0.8.zip
 * ZIP root folder: adaptive-calendar-buttons
 * Runtime DLL: SexyCalendar.dll

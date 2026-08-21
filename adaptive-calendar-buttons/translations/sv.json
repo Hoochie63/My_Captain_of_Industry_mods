@@ -1,4 +1,5 @@
 {
+  "Choose which buttons stay visible before you hover. The bottom checkbox changes them all. If you hide them all, the calendar button stays so you can open settings again.": "Välj vilka knappar som ska vara synliga innan du håller pekaren över dem. Kryssrutan längst ned ändrar dem alla. Om du döljer alla ligger kalenderknappen kvar så att du kan öppna inställningarna igen.",
   "Adaptive Calendar Buttons": "Adaptiva kalenderknappar",
   "Adaptive Calendar Buttons - Settings": "Adaptive Calendar Buttons - Inställningar",
   "Revealable Buttons": "Visningsbara knappar",

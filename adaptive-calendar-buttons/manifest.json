@@ -1,9 +1,9 @@
 {
   "id": "adaptive-calendar-buttons",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "display_name": "Adaptive Calendar Buttons",
-  "description_short": "Customize top right game-speed & mod buttons in the calendar HUD. Per-button Hover visibility & Icon Color Pickers. Compatible .w Tweaks/Speed++",
-  "description_long": "Adaptive Calendar Buttons organizes native and mod-added calendar buttons while preserving their original actions and metadata. Configure two independent button views, switch them on click or hover, recolor individual icons, and retain one global layout across every world and game session.",
+  "description_short": "Keep your UI clean while heavily modded. Hover visibility for game speed & Modded Menu buttons in the calendar HUD.",
+  "description_long": "Keep your UI clean while heavily modded. Hover visibility for game speed & Modded Menu buttons in the calendar HUD.",
   "authors": [
     "xTMagTx"
   ],
