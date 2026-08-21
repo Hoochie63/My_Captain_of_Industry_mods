@@ -1,0 +1,7 @@
+{
+    "SmartMiningDumpMod.SmartMiningDumpMod": {
+        "Prefer Dumping over Storage": "Умный отвал материалов",
+        "When enabled, trucks will try to dump dumpable materials at dumping/leveling designations before delivering to storage.": "<align=\"center\">При включении этой опции, грузовая техника сначала пытается сбросить сыпучие материалы в местах отвала или выравнивания, и только потом везут их в доступное хранилище.</align>",
+        "Smart Dump": "Умный отвал"
+    }
+}
