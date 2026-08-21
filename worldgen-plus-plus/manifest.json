@@ -1,6 +1,6 @@
 {
     "id": "worldgen-plus-plus",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "display_name": "WorldGen++",
     "description": "WorldGen++ adds a dedicated tab to the New Game window. Adjust world size, location count, node density, and set counts for mines, rigs, wrecks, treasure, villages and pirates. Pick a loot multiplier, choose per-location POI types from a wide selection, preview your map before committing, save or load up to three named setting profiles, and preset shipyard cargo capacity for Cheat++ on new saves (same shipyard_cap.txt path), and more.",
     "description_short": "Customize your world map before starting — size, density, resource types, map preview, save/load profiles, and more",

@@ -54,12 +54,6 @@
 
   "Max Pirates": "Maximale Piraten",
 
-  "Few": "Wenige",
-
-  "Normal": "Normal",
-
-  "Many": "Viele",
-
   "Home": "Heimat",
 
   "Village": "Dorf",
@@ -121,9 +115,9 @@
 
   "Sand Quarry": "Sandgrube",
 
-  "Shipyard cargo (Cheat++)": "Werftfracht (Cheat++)",
-  "Requires Cheat++ for this new game. Writes Cheat++ shipyard capacity when you launch (same as Cheat++ Shipyard tab). 0 = vanilla.": "Braucht Cheat++ für dieses Spiel. Schreibt beim Start die Cheat++-Werftkapazität (wie im Cheat++-Tab Werft). 0 = Vanilla.",
-  "Enable Cheat++ in the mod list for this game — this field only applies with Cheat++.": "Cheat++ in der Mod-Liste für dieses Spiel aktivieren — dieses Feld gilt nur mit Cheat++.",
+  "Shipyard cargo (Cheat++ / Storage++)": "Werftfracht (Cheat++ / Storage++)",
+  "Requires Cheat++ or Storage++ for this new game. Writes the shipyard capacity for whichever of them is loaded when you launch (same as their Shipyard tab). Cheat++ is used if you have both. 0 = vanilla.": "Braucht Cheat++ oder Storage++ für dieses Spiel. Schreibt beim Start die Werftkapazität für den von beiden, der geladen ist (wie in dessen Tab Werft). Hast du beide, wird Cheat++ verwendet. 0 = Vanilla.",
+  "Enable Cheat++ or Storage++ in the mod list for this game — this field only applies with one of them.": "Cheat++ oder Storage++ in der Mod-Liste für dieses Spiel aktivieren — dieses Feld gilt nur mit einem von beiden.",
   "0 = vanilla": "0 = Vanilla",
 
   "Two Homes Campaign": "Zwei-Heimaten-Kampagne",
@@ -153,13 +147,19 @@
   "Trucks delivering:": "Lastwagen liefern:",
   "Trade Cargo Loader": "Handels-Frachtlader",
   "--:-- until next ship": "--:-- bis zum nächsten Schiff",
+  "{0:D2}:{1:D2} until next ship": "{0:D2}:{1:D2} bis zum nächsten Schiff",
+  "Ship in transit…": "Schiff unterwegs…",
+  "Firing now…": "Wird jetzt versandt…",
   "Cargo loaded below ships every 2 real-time minutes to the other home.": "Die unten geladene Fracht wird alle 2 Echtzeitminuten zur anderen Heimat verschifft.",
   "Trade Status": "Handelsstatus",
   "Ship Voyage": "Schiffsreise",
   "(none)": "(keine)",
   "Pick a product first": "Wähle zuerst ein Produkt",
   "Enter a positive quantity": "Gib eine positive Menge ein",
+  "No shipyard entity": "Keine Werft vorhanden",
+  "Not a trade shipyard": "Keine Handelswerft",
   "Not in a Two Homes campaign.": "Nicht in einer Zwei-Heimaten-Kampagne.",
+  "ProductsManager not available.": "ProductsManager nicht verfügbar.",
   "Home 2 not registered yet — trade is unavailable until both homes exist.": "Heimat 2 ist noch nicht registriert — Handel ist nicht verfügbar, bis beide Heimaten existieren.",
   "Trade": "Handel",
   "How it works: open your Home Shipyard Trade and use its 'Add cargo' buttons (or route trucks to it) to load products. Every 15 real-time minutes, whatever's loaded ships to the other home and arrives in that home's trade shipyard the next time you switch.": "So funktioniert es: Öffne deine Heimat-Handelswerft und nutze ihre Schaltflächen „Fracht hinzufügen“ (oder leite Lastwagen dorthin), um Produkte zu laden. Alle 15 Echtzeitminuten wird alles Geladene zur anderen Heimat verschifft und trifft beim nächsten Wechsel in deren Handelswerft ein.",
@@ -193,6 +193,8 @@
   "Live: {0}": "Live: {0}",
   "{0} values from last save": "{0} Werte vom letzten Speicherstand",
   "Home 2 not registered yet": "Heimat 2 ist noch nicht registriert",
+  "Other: {0}": "Andere: {0}",
+  "Campaign: {0}  ·  Active: {1}  ·  {2}": "Kampagne: {0}  ·  Aktiv: {1}  ·  {2}",
   "Drag the ≡ handle to reorder. Order is shared across both homes.": "Ziehe den ≡-Griff, um umzusortieren. Die Reihenfolge gilt für beide Heimaten.",
   "Other home: (not registered yet)": "Andere Heimat: (noch nicht registriert)",
   "Other home: {0}": "Andere Heimat: {0}",

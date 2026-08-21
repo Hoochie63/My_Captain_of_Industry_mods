@@ -1,3 +1,11 @@
+v1.1.8 | 2026-08-21
+────────────────────────────────────────────────────────────────────────
+* THE NEW GAME SHIPYARD CARGO FIELD NOW WORKS WITH STORAGE++ AS WELL AS CHEAT++, SO THE AMOUNT YOU SET IS APPLIED BY WHICHEVER OF THEM YOU HAVE LOADED.
+
+  - The field is no longer greyed out when Storage++ is the only one of the two in your mod list.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.1.7 | 2026-08-16
 * Fixed a conflict that broke Airship mod's extra panels in Ground Helipad building window. (thanks warrenc for the report)
 
