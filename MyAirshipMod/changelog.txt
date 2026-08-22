@@ -1,3 +1,27 @@
+v0.8.3 | 2026-08-22
+* 修复0.8.1-0.8.2存在的问题.
+* 修复挖掘飞艇在添加对分拣机识别的功能后出现无法卸载地面停机坪而飞往停靠台之间往复性逻辑漏洞.
+* 修复车辆位置到下一地形节点距离平方必须 < 576 的逻辑问题.
+* 修复广大用户反馈的下降动画过慢的问题,从巡航高度降到停机坪约 4 秒.
+* 把 LandingNotified 真正接进落地判定修复
+* 卸货成功后立即把 HeightMode 重置为 Travel，让渲染线程不再看到 Landing 模式
+* 飞艇离开停机坪区域切回挖矿时，清掉残留的 HasLanded
+* 实测原本0.8.2版本飞艇下降速度数据:37 号从 BaseY=30.2 降到 13.5 用了 18 秒,加速度实际约 1.7 m/s²(设定是 20!慢了   12 倍),实测数据和设定数值产生严重偏离,重新修订下降的参数,各种配套规则等.
+* 关于分拣厂爆满后的寻址和溢出提示的日志被抑制.
+* 修改和增补寻路逻辑以及动画平滑度.
+  感谢社区玩家warrenc反馈的BUG
+* Fixed issues present in versions 0.8.1‑0.8.2.
+* Fixed a recurring logic bug where mining airships would fail to unload at ground hangars and shuttle   back‑and‑forth to docking stations after adding sorter recognition functionality.
+* Fixed the logic issue requiring the squared distance from vehicle position to the next terrain node to be   less than 576.
+* Fixed the overly‑slow descent animation reported by many users; descent from cruise altitude to the hangar   now takes approximately 4 seconds.
+* Properly integrated LandingNotified into landing‑condition evaluation for bug fixes.
+* Immediately reset HeightMode to Travel upon successful unloading, preventing the rendering thread from   observing Landing mode.
+* Clear residual HasLanded status when airships leave the hangar area and switch back to mining operations.
+* Real‑world test data for airship descent speed in original version 0.8.2: Vessel No.37 took 18 seconds to   descend from BaseY=30.2 to 13.5, with actual acceleration of roughly 1.7 m/s² (the configured value was 20!   — 12 times slower). Severe deviation existed between measured and configured values. Descent parameters and   related supporting rules have been revised.
+* Suppressed logs for addressing and overflow alerts triggered when the sorting factory is full.
+* Modified and supplemented path‑finding logic as well as animation smoothness.
+  Thanks to community player warrenc for reporting the bugs.
+
 v0.8.2 | 2026-08-19
 * 修复0.8.1打包时丢失的地面停机坪图标
 Fix the missing ground apron icon during packaging in version 0.8.1

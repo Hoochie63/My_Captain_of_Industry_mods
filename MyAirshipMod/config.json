@@ -1,79 +1,79 @@
 {
-  "airship_t1_capacity": {
-    "default": 300,
-    "min": 50,
-    "max": 1000,
-    "is_integer": true,
-    "name": "Airship T1 Capacity / 飞艇T1载重",
-    "description": "Cargo capacity of the diesel airship / 柴油飞艇的载重容量"
-  },
-  "airship_t1_fuel_tank_capacity": {
-    "default": 120,
-    "min": 30,
-    "max": 500,
-    "is_integer": true,
-    "name": "Airship T1 Fuel Tank / 飞艇T1油箱容量",
-    "description": "Total fuel the tank can hold / 油箱能容纳的总燃料量"
-  },
-  "airship_t1_fuel_consumption_per_minute": {
-    "default": 4,
-    "min": 1,
-    "max": 20,
-    "is_integer": true,
-    "name": "Airship T1 Fuel Consumption / 飞艇T1每分钟油耗",
-    "description": "Fuel consumption per minute (TruckT3=2.25, ExcavatorT3=5) / 每分钟油耗（T3卡车=2.25，超大型挖掘机=5）"
-  },
-  "airship_t1_fuel_reserve_percent": {
-    "default": 20,
-    "min": 5,
-    "max": 50,
-    "is_integer": true,
-    "name": "Airship T1 Reserve Percent / 飞艇T1储备比例",
-    "description": "Percentage of fuel tank that is reserve / 油箱储备比例"
-  },
-  "airship_t1_pollution_percent": {
-    "default": 100,
-    "min": 0,
-    "max": 200,
-    "is_integer": true,
-    "name": "Airship T1 Pollution / 飞艇T1污染",
-    "description": "Pollution percentage (0 = no pollution) / 污染百分比（0=无污染）"
-  },
-  "airship_hff_capacity": {
-    "default": 300,
-    "min": 50,
-    "max": 1000,
-    "is_integer": true,
-    "name": "HFF Capacity / 氢气飞艇载重",
-    "description": "Cargo capacity of the hydrogen airship / 氢气飞艇的载重容量"
-  },
-  "airship_hff_fuel_tank_capacity": {
-    "default": 120,
-    "min": 30,
-    "max": 500,
-    "is_integer": true,
-    "name": "HFF Fuel Tank / 氢气飞艇油箱容量",
-    "description": "Total fuel the tank can hold / 油箱能容纳的总燃料量"
-  },
-  "airship_hff_fuel_consumption_per_minute": {
-    "default": 4,
-    "min": 1,
-    "max": 20,
-    "is_integer": true,
-    "name": "HFF Fuel Consumption / 氢气飞艇每分钟油耗",
-    "description": "Fuel consumption per minute / 每分钟油耗"
-  },
-  "airship_hff_fuel_reserve_percent": {
-    "default": 20,
-    "min": 5,
-    "max": 50,
-    "is_integer": true,
-    "name": "HFF Reserve Percent / 氢气飞艇储备比例",
-    "description": "Percentage of fuel tank that is reserve / 油箱储备比例"
-  },
-  "airship_hff_produces_pollution": {
-    "default": false,
-    "name": "HFF Produces Pollution / 氢气飞艇产生污染",
-    "description": "Whether hydrogen airship produces pollution (should be false) / 氢气飞艇是否产生污染（应为false）"
-  }
+    "airship_t1_capacity": {
+        "default": 300,
+        "min": 50,
+        "max": 1000,
+        "is_integer": true,
+        "name": "Грузоподъёмность дирижабля I уровня",
+        "description": "Грузоподъёмность дирижабля на дизельном топливе"
+    },
+    "airship_t1_fuel_tank_capacity": {
+        "default": 120,
+        "min": 30,
+        "max": 500,
+        "is_integer": true,
+        "name": "Объём топливного бака дирижабля I уровня",
+        "description": "Общий объём топлива, который может вместить бак"
+    },
+    "airship_t1_fuel_consumption_per_minute": {
+        "default": 4,
+        "min": 1,
+        "max": 20,
+        "is_integer": true,
+        "name": "Расход топлива дирижабля I уровня, в минуту",
+        "description": "Расход топлива в минуту (расход для сравнения, грузовик III уровня = 2.25, экскаватор IV уровня = 5)"
+    },
+    "airship_t1_fuel_reserve_percent": {
+        "default": 20,
+        "min": 5,
+        "max": 50,
+        "is_integer": true,
+        "name": "Резервный запас топлива дирижабля I уровня",
+        "description": "Процент топливного бака, отведённый под резерв"
+    },
+    "airship_t1_pollution_percent": {
+        "default": 100,
+        "min": 0,
+        "max": 200,
+        "is_integer": true,
+        "name": "Загрязнение от дирижабля I уровня",
+        "description": "Процент загрязнения (0 = без загрязнения)"
+    },
+    "airship_hff_capacity": {
+        "default": 300,
+        "min": 50,
+        "max": 1000,
+        "is_integer": true,
+        "name": "Грузоподъёмность дирижабля на водороде",
+        "description": "Грузоподъёмность дирижабля на водородном топливе"
+    },
+    "airship_hff_fuel_tank_capacity": {
+        "default": 120,
+        "min": 30,
+        "max": 500,
+        "is_integer": true,
+        "name": "Объём топливного бака дирижабля на водороде",
+        "description": "Общий объём топлива, который может вместить бак"
+    },
+    "airship_hff_fuel_consumption_per_minute": {
+        "default": 4,
+        "min": 1,
+        "max": 20,
+        "is_integer": true,
+        "name": "Расход топлива дирижабля на водороде, в минуту",
+        "description": "Расход водородного топлива в минуту"
+    },
+    "airship_hff_fuel_reserve_percent": {
+        "default": 20,
+        "min": 5,
+        "max": 50,
+        "is_integer": true,
+        "name": "Резервный запас топлива дирижабля на водороде",
+        "description": "Процент топливного бака, отведённый под резерв"
+    },
+    "airship_hff_produces_pollution": {
+        "default": false,
+        "name": "Загрязнение от дирижабля на водороде",
+        "description": "Производит ли дирижабль на водороде загрязнение (должно быть false)"
+    }
 }
