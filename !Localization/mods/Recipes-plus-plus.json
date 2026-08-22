@@ -143,8 +143,8 @@
     "Heavy Tanker B": "Тяжёлый танкер",
     "Battery-electric Heavy Tanker with 650 fluid cargo capacity. 15% faster than The Terex but still slower than standard trucks. Zero pollution.": "Электрический вариант «Тяжёлого танкера» с ёмкостью для жидкостей в 650 единиц. На 15% быстрее «Тэрекса», но всё равно медленнее стандартных грузовиков. Работает на заряженных аккумуляторах 18650 с нулевым загрязнением окружающей среды.",
     "Pimp My Ride": "Прокачай мою тачку, чувак!",
-    "Opens a window where you can pick your own colors for this fuel type's vehicles and preview them on a 3D truck.": "Открывает интерфейс, где можно выбрать свои цвета для техники на этом топливе и посмотреть их в 3D-просмотре.",
-    "Opens the Tweaks++ Vehicles tab for quick access to scrapping, ordering and replacing vehicles.": "Открывает вкладку «Техника» в моде «Tweaks++» для быстрого доступа к утилизации, заказу и переоборудовании техники.",
+    "Opens a window where you can pick your own colors for this fuel type's vehicles and preview them on a 3D truck.": "<align=\"center\">Открыть интерфейс, где можно назначить свои цвета для техники на этом топливе и посмотреть их в 3D-просмотре.</align>",
+    "Opens the Tweaks++ Vehicles tab for quick access to scrapping, ordering and replacing vehicles.": "<align=\"center\">Открывает вкладку «Техника» в моде «Tweaks++» для быстрого доступа к утилизации, заказу и переоборудовании техники.</align>",
     "Fuel type": "Тип топлива",
     "Vehicle model": "Модель техники",
     "Mega Excavator": "Экскаватор, ур. IV",
@@ -165,6 +165,6 @@
     "The default Recipes++ color is used for this fuel type.": "Для этого типа топлива используется стандартный цвет мода «Recipes++.»",
     "This fuel type is back to the default Recipes++ color.": "Для этого типа топлива снова используется стандартный цвет мода «Recipes++».",
     "3D preview is not available right now.": "3D-просмотр сейчас недоступен.",
-    "Saves your colors and starts using them for this fuel type. Load your game again from the main menu to see the new color on the vehicles and their icons.": "<align=\"center\">Сохранить Ваши цвета и начать применять их к этому типу топлива.<br>Требуется загрузить игру заново из главного меню, чтобы новый цвет появился на технике и её значках.</align>",
-    "Puts this fuel type back to the default Recipes++ color and forgets the colors you picked.": "Возвращает этому типу топлива стандартный цвет мода «Recipes++» и забывает выбранные Вами цвета."
+    "Saves your colors and starts using them for this fuel type. Load your game again from the main menu to see the new color on the vehicles and their icons.": "<align=\"center\">Сохранить Ваши цвета и применить их к этому типу топлива.<br>Требуется загрузить игру заново из главного меню, чтобы новый цвет появился на технике и её значках.</align>",
+    "Puts this fuel type back to the default Recipes++ color and forgets the colors you picked.": "<align=\"center\">Возвратить этому типу топлива стандартный цвет мода «Recipes++» и забыть назначенные Вами цвета.</align>"
 }
