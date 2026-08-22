@@ -1,0 +1,18 @@
+{
+  "id": "StorageAutoPause",
+  "version": "1.9.2",
+  "display_name": "Storage Auto Pause",
+  "description_short": "Automatic factory and mine-tower logistics with status semaphore antennas.",
+  "authors": "Sirael",
+  "primary_dlls": [
+    "StorageAutoPause.dll"
+  ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "min_game_version": "0.8.6",
+  "max_verified_game_version": "0.8.6",
+  "primary_mod_class_name": "StorageAutoPause.StorageAutoPauseMod",
+  "description": "Automatic logistics control for factories and mine towers with storage/sorter thresholds, save-integrated rules, and three-light status semaphore antennas.",
+  "description_long": "Automatic factory control based on storage levels plus Mine Tower control of manually selected Ore Sorting Plants. Includes player-owned manual pause cycles, edge-rearmed logistics automation, accurate diagnostics, aligned tower panels, segmented indicators, and spatial breakdown fireworks."
+}
