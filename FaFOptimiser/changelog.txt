@@ -1,7 +1,12 @@
+v0.3.4 | 2026-08-22
+* FIXED: The optimizer no longer includes crop yields from paused, unstaffed, or broken farms in its calculations.
+* IMPROVED: Farms that are currently unable to produce crops are now highlighted in red within the Farm Selection window.
+* Ensured compatibility with game version 0.8.7a.
+
 v0.3.2 | 2026-08-18
-FIXED: The Optimizer solver sometimes failed to find an appropriate farm configuration for large settlements.
-FIXED: The Optimizer struggled to find configurations when a dominant crop's demand was more than twice as high as the next highest crop.
-IMPROVED: General under-the-hood code optimizations for better solver performance.
+* FIXED: The Optimizer solver sometimes failed to find an appropriate farm configuration for large settlements.
+* FIXED: The Optimizer struggled to find configurations when a dominant crop's demand was more than twice as high as the next highest crop.
+* IMPROVED: General under-the-hood code optimizations for better solver performance.
 
 v0.3.1 | 2026-08-15
 * NEW: Added a dedicated Farm Selection window, allowing players to individually select or exclude specific built farms from the optimizer's scope.

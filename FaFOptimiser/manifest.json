@@ -1,13 +1,13 @@
 ﻿{
 	"id": "FaFOptimiser",
-	"version": "0.3.2",
+	"version": "0.3.4",
 	"primary_dlls": [
 		"FaFOptimiser.dll"
 	],
 	"primary_mod_class_name": "FaFOptimiserMod",
 	"non_locking_dll_load": true,
 	"min_game_version": "0.8.6",
-	"max_verified_game_version": "0.8.7",
+	"max_verified_game_version": "0.8.7a",
 	"display_name": "Advanced Farm & Food Optimiser",
 	"description_short": "Optimise crops, farms, and livestock for food and industry. Build smart crop rotations automatically, detect crop shortages, and plan ahead—all without spreadsheets or manual maths",
 	"authors": [ "Iserik" ],

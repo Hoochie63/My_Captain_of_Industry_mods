@@ -1,290 +1,74 @@
 [
-    [
-        "FaFOptimiser__WindowTitle",
-        "高级农场与食物优化器"
-    ],
-    [
-        "FaFOptimiser__FarmsList",
-        "农场占用"
-    ],
-    [
-        "FaFOptimiser__ProducedCrops",
-        "农作物产量"
-    ],
-    [
-        "FaFOptimiser__SaveCalculation",
-        "保存"
-    ],
-    [
-        "FaFOptimiser__LoadCalculations",
-        "加载"
-    ],
-    [
-        "FaFOptimiser__OptimizerSettings",
-        "优化器设置"
-    ],
-    [
-        "FaFOptimiser__MaxAvailableFarms",
-        "最大可用农场数:"
-    ],
-    [
-        "FaFOptimiser__TargetFertility",
-        "目标肥力 (%):"
-    ],
-    [
-        "FaFOptimiser__ManualOverride",
-        "手动覆盖"
-    ],
-    [
-        "FaFOptimiser__ManualOverrideTooltip",
-        "将农作物需求与人口食物需求解绑。"
-    ],
-    [
-        "FaFOptimiser__FoodDemands",
-        "食物需求 (每月):"
-    ],
-    [
-        "FaFOptimiser__AutoFillDemands",
-        "自动填充需求"
-    ],
-    [
-        "FaFOptimiser__CropDemands",
-        "农作物需求 (每月):"
-    ],
-    [
-        "FaFOptimiser__SolveAndOptimize",
-        "计算与优化"
-    ],
-    [
-        "FaFOptimiser__Solving",
-        "计算中..."
-    ],
-    [
-        "FaFOptimiser__ChainScore",
-        "生产链评分: {0}"
-    ],
-    [
-        "FaFOptimiser__TotalAmount",
-        "总计: {0}"
-    ],
-    [
-        "FaFOptimiser__InputsOutputs",
-        "输入/输出"
-    ],
-    [
-        "FaFOptimiser__FarmInputs",
-        "农场输入:"
-    ],
-    [
-        "FaFOptimiser__ChainInputs",
-        "生产链输入:"
-    ],
-    [
-        "FaFOptimiser__Produced",
-        "产出:"
-    ],
-    [
-        "FaFOptimiser__Byproducts",
-        "副产品:"
-    ],
-    [
-        "FaFOptimiser__FarmTooltip",
-        "{0}\n目标肥力:{1}\n需求水量:{2}\n需求肥料:{3}"
-    ],
-    [
-        "FaFOptimiser__Inputs",
-        "输入: "
-    ],
-    [
-        "FaFOptimiser__ByproductsHeader",
-        "副产品: "
-    ],
-    [
-        "FaFOptimiser__ByproductsLineHeader",
-        "副产品:"
-    ],
-    [
-        "FaFOptimiser__SelectProductionChain",
-        "选择生产链: {0}"
-    ],
-    [
-        "FaFOptimiser__CropInScopeTooltip",
-        "{0}\n<color=#00FF00>计入优化计算</color> (左键点击以排除/忽略)"
-    ],
-    [
-        "FaFOptimiser__CropOutOfScopeTooltip",
-        "{0}\n<color=#AAAAAA>已从计算中排除</color> (左键点击以纳入)"
-    ],
-    [
-        "FaFOptimiser__CropOutOfScopeLabel",
-        "总计: {0} --- 不计入计算 ---"
-    ],
-    [
-        "FaFOptimiser__OptimizeFarms",
-        "优化农场"
-    ],
-    [
-        "FaFOptimiser__FarmProductsDemand",
-        "农场产品需求:"
-    ],
-    [
-        "FaFOptimiser__IncreaseFlockTooltip",
-        "增加鸡群数量 (+50只)"
-    ],
-    [
-        "FaFOptimiser__AnimalFeedTotalTooltip",
-        "总计: 鸡群喂养需求 + 直接输入需求"
-    ],
-    [
-        "FaFOptimiser__DecreaseFlockTooltip",
-        "减少鸡群数量 (最小: {0})"
-    ],
-    [
-        "FaFOptimiser__MinFlockLabel",
-        "(最小: {0})"
-    ],
-    [
-        "FaFOptimiser__Settlement",
-        "定居点"
-    ],
-    [
-        "FaFOptimiser__ResetSettlementTooltip",
-        "重置为实际定居点状态"
-    ],
-    [
-        "FaFOptimiser__SettlementPopTooltip",
-        "所有定居点总人口"
-    ],
-    [
-        "FaFOptimiser__SettlementToggleLabel",
-        "供应定居点"
-    ],
-    [
-        "FaFOptimiser__AddSettlementFood",
-        "添加定居点食物"
-    ],
-    [
-        "FaFOptimiser__SelectFood",
-        "选择食物"
-    ],
-    [
-        "FaFOptimiser__SettlementSupply",
-        "供应"
-    ],
-    [
-        "FaFOptimiser__ConsumptionActiveTooltip",
-        "启用消耗: {0}"
-    ],
-    [
-        "FaFOptimiser__ConsumptionDisabledTooltip",
-        "禁用消耗: {0}"
-    ],
-    [
-        "FaFOptimiser__Production",
-        "生产制造"
-    ],
-    [
-        "FaFOptimiser__CropDemand",
-        "作物需求"
-    ],
-    [
-        "FaFOptimiser__AddManufacturedProduct",
-        "添加制成品"
-    ],
-    [
-        "FaFOptimiser__SelectProduct",
-        "选择产品"
-    ],
-    [
-        "FaFOptimiser__AddCrop",
-        "添加作物"
-    ],
-    [
-        "FaFOptimiser__SelectCrop",
-        "选择作物"
-    ],
-    [
-        "FaFOptimiser__ImportHeader",
-        "进口:"
-    ],
-    [
-        "FaFOptimiser__DemandColon",
-        "需求:"
-    ],
-    [
-        "FaFOptimiser__UserExport",
-        "手动出口"
-    ],
-    [
-        "FaFOptimiser__UserImport",
-        "手动进口"
-    ],
-    [
-        "FaFOptimiser__ForProducing",
-        "用于生产"
-    ],
-    [
-        "FaFOptimiser__ForPrefix",
-        "用于 "
-    ],
-    [
-        "FaFOptimiser__AfterProducing",
-        "副产产出"
-    ],
-    [
-        "FaFOptimiser__ForCropFarms",
-        "用于作物农场"
-    ],
-    [
-        "FaFOptimiser__CurrentFarmsConfig",
-        "当前农场配置"
-    ],
-    [
-        "FaFOptimiser__ResetFarmsTooltip",
-        "重置为海岛实际农场配置"
-    ],
-    [
-        "FaFOptimiser__ProducedLabel",
-        "产出:"
-    ],
-    [
-        "FaFOptimiser__ConsumptionLabel",
-        "消耗:"
-    ],
-    [
-        "FaFOptimiser__OptimizerResults",
-        "优化结果"
-    ],
-    [
-        "FaFOptimiser__OptimizerEmptyPrompt",
-        "点击“优化农场”以生成规划方案。"
-    ],
-    [
-        "FaFOptimiser__SelectFarmsTooltip",
-        "选择要纳入或排除在优化之外的农场"
-    ],
-    [
-        "FaFOptimiser__FarmSelectionTitle",
-        "选择参与优化的农场"
-    ],
-    [
-        "FaFOptimiser__NoFarmsBuilt",
-        "岛上尚未建造任何农场。"
-    ],
-    [
-        "FaFOptimiser__NoCropsScheduled",
-        "未安排轮作作物"
-    ],
-    [
-        "FaFOptimiser__RecipeAutomatic",
-        "自动选择（最低成本评分）"
-    ],
-    [
-        "FaFOptimiser__RecipeScore",
-        "(评分: {0})"
-    ],
-    [
-        "FaFOptimiser__FarmProduction",
-        "农牧产出:"
-    ]
+  ["FaFOptimiser__WindowTitle", "高级农场与食物优化器"],
+  ["FaFOptimiser__FarmsList", "农场占用"],
+  ["FaFOptimiser__ProducedCrops", "农作物产量"],
+  ["FaFOptimiser__SaveCalculation", "保存"],
+  ["FaFOptimiser__LoadCalculations", "加载"],
+  ["FaFOptimiser__OptimizerSettings", "优化器设置"],
+  ["FaFOptimiser__MaxAvailableFarms", "最大可用农场数:"],
+  ["FaFOptimiser__TargetFertility", "目标肥力 (%):"],
+  ["FaFOptimiser__ManualOverride", "手动覆盖"],
+  ["FaFOptimiser__ManualOverrideTooltip", "将农作物需求与人口食物需求解绑。"],
+  ["FaFOptimiser__FoodDemands", "食物需求 (每月):"],
+  ["FaFOptimiser__AutoFillDemands", "自动填充需求"],
+  ["FaFOptimiser__CropDemands", "农作物需求 (每月):"],
+  ["FaFOptimiser__SolveAndOptimize", "计算与优化"],
+  ["FaFOptimiser__Solving", "计算中..."],
+  ["FaFOptimiser__ChainScore", "生产链评分: {0}"],
+  ["FaFOptimiser__TotalAmount", "总计: {0}"],
+  ["FaFOptimiser__InputsOutputs", "输入/输出"],
+  ["FaFOptimiser__FarmInputs", "农场输入:"],
+  ["FaFOptimiser__ChainInputs", "生产链输入:"],
+  ["FaFOptimiser__Produced", "产出:"],
+  ["FaFOptimiser__Byproducts", "副产品:"],
+  ["FaFOptimiser__FarmTooltip", "{0}\n目标肥力:{1}\n需求水量:{2}\n需求肥料:{3}"],
+  ["FaFOptimiser__Inputs", "输入: "],
+  ["FaFOptimiser__ByproductsHeader", "副产品: "],
+  ["FaFOptimiser__ByproductsLineHeader", "副产品:"],
+  ["FaFOptimiser__SelectProductionChain", "选择生产链: {0}"],
+  ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>计入优化计算</color> (左键点击以排除/忽略)"],
+  ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>已从计算中排除</color> (左键点击以纳入)"],
+  ["FaFOptimiser__CropOutOfScopeLabel", "总计: {0} --- 不计入计算 ---"],
+  ["FaFOptimiser__OptimizeFarms", "优化农场"],
+  ["FaFOptimiser__FarmProductsDemand", "农场产品需求:"],
+  ["FaFOptimiser__IncreaseFlockTooltip", "增加鸡群数量 (+50只)"],
+  ["FaFOptimiser__AnimalFeedTotalTooltip", "总计: 鸡群喂养需求 + 直接输入需求"],
+  ["FaFOptimiser__DecreaseFlockTooltip", "减少鸡群数量 (最小: {0})"],
+  ["FaFOptimiser__MinFlockLabel", "(最小: {0})"],
+  ["FaFOptimiser__Settlement", "定居点"],
+  ["FaFOptimiser__ResetSettlementTooltip", "重置为实际定居点状态"],
+  ["FaFOptimiser__SettlementPopTooltip", "所有定居点总人口"],
+  ["FaFOptimiser__SettlementToggleLabel", "供应定居点"],
+  ["FaFOptimiser__AddSettlementFood", "添加定居点食物"],
+  ["FaFOptimiser__SelectFood", "选择食物"],
+  ["FaFOptimiser__SettlementSupply", "供应"],
+  ["FaFOptimiser__ConsumptionActiveTooltip", "启用消耗: {0}"],
+  ["FaFOptimiser__ConsumptionDisabledTooltip", "禁用消耗: {0}"],
+  ["FaFOptimiser__Production", "生产制造"],
+  ["FaFOptimiser__CropDemand", "作物需求"],
+  ["FaFOptimiser__AddManufacturedProduct", "添加制成品"],
+  ["FaFOptimiser__SelectProduct", "选择产品"],
+  ["FaFOptimiser__AddCrop", "添加作物"],
+  ["FaFOptimiser__SelectCrop", "选择作物"],
+  ["FaFOptimiser__ImportHeader", "进口:"],
+  ["FaFOptimiser__DemandColon", "需求:"],
+  ["FaFOptimiser__UserExport", "手动出口"],
+  ["FaFOptimiser__UserImport", "手动进口"],
+  ["FaFOptimiser__ForProducing", "用于生产"],
+  ["FaFOptimiser__ForPrefix", "用于 "],
+  ["FaFOptimiser__AfterProducing", "副产产出"],
+  ["FaFOptimiser__ForCropFarms", "用于作物农场"],
+  ["FaFOptimiser__CurrentFarmsConfig", "当前农场配置"],
+  ["FaFOptimiser__ResetFarmsTooltip", "重置为海岛实际农场配置"],
+  ["FaFOptimiser__ProducedLabel", "产出:"],
+  ["FaFOptimiser__ConsumptionLabel", "消耗:"],
+  ["FaFOptimiser__OptimizerResults", "优化结果"],
+  ["FaFOptimiser__OptimizerEmptyPrompt", "点击“优化农场”以生成规划方案。"],
+  ["FaFOptimiser__SelectFarmsTooltip", "选择要纳入或排除在优化之外的农场"],
+  ["FaFOptimiser__FarmSelectionTitle", "选择参与优化的农场"],
+  ["FaFOptimiser__NoFarmsBuilt", "岛上尚未建造任何农场。"],
+  ["FaFOptimiser__NoCropsScheduled", "未安排轮作作物"],
+  ["FaFOptimiser__RecipeAutomatic", "自动选择（最低成本评分）"],
+  ["FaFOptimiser__RecipeScore", "(评分: {0})"],
+  ["FaFOptimiser__FarmProduction", "农牧产出:"]
 ]
