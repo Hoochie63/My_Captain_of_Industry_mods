@@ -1,3 +1,8 @@
+v1.1.9 | 2026-08-22
+────────────────────────────────────────────────────────────────────────
+* THE WORLDGEN TAB NO LONGER GOES MISSING FROM THE NEW GAME WINDOW WHEN YOU GO BACK AND CHANGE YOUR MOD SELECTION BEFORE STARTING (THANKS XXDOLCEXX FOR THE REPORT).
+────────────────────────────────────────────────────────────────────────
+
 v1.1.8 | 2026-08-21
 ────────────────────────────────────────────────────────────────────────
 * THE NEW GAME SHIPYARD CARGO FIELD NOW WORKS WITH STORAGE++ AS WELL AS CHEAT++, SO THE AMOUNT YOU SET IS APPLIED BY WHICHEVER OF THEM YOU HAVE LOADED.
