@@ -1,3 +1,31 @@
+v0.8.5 | 2026-08-23
+* 感谢中国玩家 熊宝儿(1466310578) 提供评测数据和反馈bug信息.
+* 修复用户在已经分配给控制塔且已经挖矿的挖掘飞艇被取消分配时,其内置缓冲区的货物消失的问题.
+* 仅对挖掘飞艇实例生效,可通过 IsMiningAirship 判断排除其他挖掘机
+* 使用 __instance.Cargo 而非全局注册表,避免对象查找开销
+* 采用 natives ClearAndStoreAllProducts 归还路径,与原生/拆解流程一致
+* Thanks to Chinese player Xiong Bao'er(1466310578) for providing test‑evaluation data and bug‑report feedback.
+* Fixed an issue where cargo in the built‑in buffer would disappear when de‑assigning a mining airship that had   already been assigned to a control tower and was performing mining operations.
+* This change only applies to mining airship instances; use IsMiningAirship to exclude other mining machines.
+* Use __instance.Cargo instead of the global registry to avoid the overhead of object lookup.
+* Adopt the natives ClearAndStoreAllProducts return‑goods path, consistent with the native/dismantling   workflow.
+
+v0.8.4 | 2026-08-23
+* 感谢中国玩家 熊宝儿(1466310578) 提供评测数据和反馈bug信息.
+* 解决地面停机坪货满不卸货的问题.
+* 修正停机台内的辅助槽，去掉所选物品后，物品直接消失,现在更换所选,物品会直接转移到码头.
+* 修复停机坪的辅助槽，无法释放与主产品一致的产品的问题,现在主存储区满了将会自动补充到辅助槽.
+* 修复删除停机坪后产品移除的回归逻辑.
+* 修复挖掘飞艇有货物情况下被拆解货物回归的问题.
+* 修复挖掘飞艇因为地面停机坪被突然删除而无法寻址产生的往复逻辑和悬停逻辑.
+* Thanks to Chinese player Xiong Bao'er (1466310578) for providing test‑evaluation data and bug‑report feedback.
+* Fixed the issue where cargo would not be unloaded when the ground tarmac was full.
+* Corrected the auxiliary slot inside the tarmac: previously the selected item would disappear directly after being removed. Now when switching the selected item, the item will be transferred directly to the dock.
+* Fixed the issue that the auxiliary slot of the tarmac could not release products identical to the main product. Now items will be automatically filled into the auxiliary slot once the main storage area is full.
+* Fixed the regression logic for product removal after deleting a tarmac.
+* Fixed the cargo‑return logic when a digging airship carrying cargo gets dismantled.
+* Fixed looping and hovering logic failures of digging airships caused by sudden deletion of the ground tarmac, which made the airships unable to locate their target.
+
 v0.8.3 | 2026-08-22
 * 修复0.8.1-0.8.2存在的问题.
 * 修复挖掘飞艇在添加对分拣机识别的功能后出现无法卸载地面停机坪而飞往停靠台之间往复性逻辑漏洞.
