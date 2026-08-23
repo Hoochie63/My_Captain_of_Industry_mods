@@ -1,0 +1,21 @@
+# language|name|short description
+en|Decorative beacon|An unlimited decorative copy of the beacon model. Requires one worker and 10 kW and has no refugee beacon function.
+cs|Dekorativní maják|Neomezená dekorativní kopie modelu majáku. Vyžaduje jednoho pracovníka a 10 kW a nemá funkci majáku pro uprchlíky.
+de|Dekorativer Leuchtturm|Eine unbegrenzt baubare dekorative Kopie des Leuchtturms. Benötigt einen Arbeiter und 10 kW, ohne Flüchtlingsfunktion.
+fr|Phare décoratif|Une copie décorative illimitée du phare. Nécessite un travailleur et 10 kW, sans fonction pour les réfugiés.
+es|Faro decorativo|Una copia decorativa ilimitada del faro. Requiere un trabajador y 10 kW, sin función para refugiados.
+nl|Decoratieve vuurtoren|Een onbeperkt bouwbare decoratieve kopie. Vereist één arbeider en 10 kW en heeft geen vluchtelingenfunctie.
+sv|Dekorativ fyr|En obegränsad dekorativ kopia av fyren. Kräver en arbetare och 10 kW och saknar flyktingfunktion.
+it|Faro decorativo|Una copia decorativa illimitata del faro. Richiede un lavoratore e 10 kW, senza funzione per i rifugiati.
+ru|Декоративный маяк|Неограниченная декоративная копия маяка. Требует одного рабочего и 10 кВт, без функции привлечения беженцев.
+pl|Latarnia dekoracyjna|Dekoracyjna kopia latarni bez limitu. Wymaga jednego pracownika i 10 kW, bez funkcji dla uchodźców.
+pt-BR|Farol decorativo|Uma cópia decorativa ilimitada do farol. Requer um trabalhador e 10 kW, sem função para refugiados.
+hu|Dekoratív világítótorony|A világítótorony korlátlan dekoratív másolata. Egy dolgozót és 10 kW-ot igényel, menekültfunkció nélkül.
+ca|Far decoratiu|Una còpia decorativa il·limitada del far. Requereix un treballador i 10 kW, sense funció per a refugiats.
+et|Dekoratiivne tuletorn|Piiranguta dekoratiivne tuletorni koopia. Vajab üht töötajat ja 10 kW ning sellel puudub pagulasfunktsioon.
+tr|Dekoratif deniz feneri|Deniz fenerinin sınırsız dekoratif kopyası. Bir işçi ve 10 kW gerektirir; mülteci işlevi yoktur.
+uk|Декоративний маяк|Необмежена декоративна копія маяка. Потребує одного працівника та 10 кВт, без функції залучення біженців.
+zh-Hans|装饰灯塔|可无限建造的灯塔装饰模型。需要一名工人和 10 kW 电力，不具备吸引难民的功能。
+zh-Hant|裝飾燈塔|可無限建造的燈塔裝飾模型。需要一名工人和 10 kW 電力，不具備吸引難民的功能。
+ja|装飾灯台|建設数に制限のない灯台の装飾モデルです。作業員1名と10 kWを必要とし、難民を呼ぶ機能はありません。
+ko|장식 등대|건설 수 제한이 없는 등대 장식 모델입니다. 작업자 1명과 10 kW가 필요하며 난민 유치 기능은 없습니다.
