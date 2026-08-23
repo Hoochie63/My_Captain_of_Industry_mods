@@ -1,0 +1,7 @@
+{
+  "state": {
+    "default": "",
+    "description": "Internal saved voyage state. Do not edit.",
+    "max_length": 200000
+  }
+}

@@ -1,0 +1,21 @@
+# language|title|cart|order|clear|ready|cooldown|voyage|empty|added|ordered|failed
+cs|OBCHODNÍ LOĎ|Košík|Objednat|Vyprázdnit|Loď je připravena|Další loď za|Loď na cestě|Košík je prázdný|Přidáno do košíku|Objednávka potvrzena|Objednávku nelze provést
+en|TRADE SHIP|Cart|Order|Clear|Ship is ready|Next ship in|Ship underway|Cart is empty|Added to cart|Order confirmed|Order cannot be placed
+de|HANDELSSCHIFF|Warenkorb|Bestellen|Leeren|Schiff ist bereit|Nächstes Schiff in|Schiff unterwegs|Warenkorb ist leer|Zum Warenkorb hinzugefügt|Bestellung bestätigt|Bestellung nicht möglich
+fr|NAVIRE MARCHAND|Panier|Commander|Vider|Navire prêt|Prochain navire dans|Navire en route|Le panier est vide|Ajouté au panier|Commande confirmée|Commande impossible
+es|BARCO MERCANTE|Carrito|Pedir|Vaciar|Barco listo|Próximo barco en|Barco en camino|El carrito está vacío|Añadido al carrito|Pedido confirmado|No se puede realizar el pedido
+it|NAVE MERCANTILE|Carrello|Ordina|Svuota|Nave pronta|Prossima nave tra|Nave in viaggio|Il carrello è vuoto|Aggiunto al carrello|Ordine confermato|Ordine non disponibile
+pl|STATEK HANDLOWY|Koszyk|Zamów|Wyczyść|Statek gotowy|Następny statek za|Statek w drodze|Koszyk jest pusty|Dodano do koszyka|Zamówienie potwierdzone|Nie można złożyć zamówienia
+pt-BR|NAVIO MERCANTE|Carrinho|Encomendar|Limpar|Navio pronto|Próximo navio em|Navio a caminho|O carrinho está vazio|Adicionado ao carrinho|Pedido confirmado|Não foi possível fazer o pedido
+ru|ТОРГОВОЕ СУДНО|Корзина|Заказ|Очистить|Судно готово|Следующее судно через|Судно в пути|Корзина пуста|Добавлено в корзину|Заказ подтверждён|Заказ невозможен
+uk|ТОРГОВЕ СУДНО|Кошик|Замовити|Очистити|Судно готове|Наступне судно через|Судно в дорозі|Кошик порожній|Додано до кошика|Замовлення підтверджено|Замовлення неможливе
+nl|HANDELSSCHIP|Winkelwagen|Bestellen|Wissen|Schip is gereed|Volgend schip over|Schip onderweg|Winkelwagen is leeg|Aan winkelwagen toegevoegd|Bestelling bevestigd|Bestelling kan niet worden geplaatst
+sv|HANDELSFARTYG|Kundvagn|Beställ|Töm|Fartyget är klart|Nästa fartyg om|Fartyget är på väg|Kundvagnen är tom|Tillagd i kundvagnen|Beställning bekräftad|Beställningen kan inte göras
+tr|TİCARET GEMİSİ|Sepet|Sipariş ver|Temizle|Gemi hazır|Sonraki gemi|Gemi yolda|Sepet boş|Sepete eklendi|Sipariş onaylandı|Sipariş verilemiyor
+hu|KERESKEDELMI HAJÓ|Kosár|Megrendelés|Törlés|A hajó készen áll|Következő hajó|Hajó úton|A kosár üres|Kosárba helyezve|Megrendelés megerősítve|A rendelés nem adható le
+ca|VAIXELL MERCANT|Cistella|Comanda|Buida|Vaixell preparat|Proper vaixell en|Vaixell en camí|La cistella és buida|Afegit a la cistella|Comanda confirmada|No es pot fer la comanda
+et|KAUBALAEV|Ostukorv|Telli|Tühjenda|Laev on valmis|Järgmine laev|Laev on teel|Ostukorv on tühi|Lisatud ostukorvi|Tellimus kinnitatud|Tellimust ei saa esitada
+ja|貿易船|カート|注文|クリア|船は準備完了|次の船まで|船は航行中|カートは空です|カートに追加|注文確定|注文できません
+ko|무역선|장바구니|주문|비우기|선박 준비 완료|다음 선박까지|선박 이동 중|장바구니가 비었습니다|장바구니에 추가됨|주문 확정|주문할 수 없습니다
+zh-Hans|贸易船|购物车|下单|清空|船已就绪|下一艘船|船正在途中|购物车为空|已加入购物车|订单已确认|无法下单
+zh-Hant|貿易船|購物車|下單|清空|船已就緒|下一艘船|船正在途中|購物車為空|已加入購物車|訂單已確認|無法下單
