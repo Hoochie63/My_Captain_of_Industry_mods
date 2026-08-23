@@ -1,8 +1,9 @@
 ﻿{
 	"id": "PriorityDesignations",
-	"version": "0.1.1",
+	"display_name": "Priority Designations",
+	"version": "0.1.2",
 	"primary_dlls": ["0Harmony.dll", "PriorityDesignations.dll" ],
-	"min_game_version": "0.8.5",
+	"min_game_version": "0.8.7a",
 	"non_locking_dll_load": true,
 	"can_add_to_saved_game": true,
 	"can_remove_from_saved_game": true
