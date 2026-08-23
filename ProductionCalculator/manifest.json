@@ -1,6 +1,6 @@
 {
   "id": "ProductionCalculator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "min_game_version": "0.8.6a",
   "display_name": "Production Calculator",
   "description_short": "Calculate production chains, inputs and outputs for target products.",
