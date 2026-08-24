@@ -8,7 +8,7 @@
     "DeznekCZ"
   ],
   "mod_dependencies": [
-    "CustomAssets>=0.1.9"
+    "CustomAssets>=0.4.2"
   ],
   "optional_mod_dependencies": [
     "AirFiltering"
