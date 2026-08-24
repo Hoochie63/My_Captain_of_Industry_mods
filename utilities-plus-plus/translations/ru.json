@@ -1,8 +1,8 @@
 {
-    "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "<align=\"center\">Подберите свой цвет ползунками красного, зелёного и синего цвета, вместо готовых цветов выше. Он применяется к состоянию, которое вы редактируете.</align>",
-    "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Потяните, чтобы увеличить размер этого интерфейса и вместить более длинный текст. Двойной щелчок возвращает размер по умолчанию.",
-    "Overwrite your saved profile with your current settings?": "Перезаписать сохранённый профиль игрока<br>текущими настройками?",
-    "Load your saved profile? Your current settings will be replaced.": "Загрузить сохранённый профиль игрока?<br>Все текущие настройки будут изменены.",
+    "Mix your own color with the red, green and blue sliders instead of using the preset colors above. It is applied to the state you are editing.": "<align=\"center\">Подберите свой цвет ползунками красного, зелёного и синего цвета, вместо готовых цветов выше.<br>Он применяется к состоянию, которое вы редактируете.</align>",
+    "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "<align=\"center\">Потяните, чтобы увеличить размер этого интерфейса и вместить более длинный текст.<br>Двойной щелчок возвращает размер по умолчанию.</align>",
+    "Overwrite your saved profile with your current settings?": "<align=\"center\">Перезаписать сохранённый профиль игрока<br>текущими настройками?</align>",
+    "Load your saved profile? Your current settings will be replaced.": "<align=\"center\">Загрузить сохранённый профиль игрока?<br>Все текущие настройки будут изменены.</align>",
     "Vehicles": "Техника",
     "Start the drag-select tool to move vehicles in an area.": "Запустить инструмент выделения области для перемещения техники.",
     "Start the drag-select tool to recover vehicles in an area.": "Запустить инструмент выделения области для эвакуации техники.",
