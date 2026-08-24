@@ -1,16 +1,1 @@
-{
-    "message": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Вы не можете хранить здесь больше предметов. Он и так полон пустоты.",,
-        "min": 0,
-        "max": 0
-    },
-    "placebo": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Хранится здесь: 0 эффектов. Вместимость: безлимит. В данный момент полон пустоты.",
-        "min": 0,
-        "max": 0
-    }
-}
+{"message": { "default": 0, "is_integer": true, "description": "You can't store more items in this file. It's full of nothing.", "min": 0, "max": 0 }}

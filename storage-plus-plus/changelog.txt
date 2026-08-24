@@ -1,3 +1,9 @@
+v1.2.7 | 2026-08-22
+────────────────────────────────────────────────────────────────────────
+* THE RAINWATER HARVESTER IS NOW IN THE CAPACITY LIST UNDER FLUID STORAGES, SO YOU CAN SET HOW MUCH WATER IT HOLDS (THANKS LIQUID5150 FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.6 | 2026-08-17
 ────────────────────────────────────────────────────────────────────────
 * DRAG THE GRIP IN THE OVERLORD WINDOW'S BOTTOM-RIGHT CORNER TO SET ITS SIZE, AND EVERY TAB LAYS ITSELF OUT FOR THE SIZE YOU PICK.
