@@ -1,4 +1,61 @@
+1.2.1
+- Die animierten Richtungspfeile eines zusammenhaengenden Rohrabschnitts
+  werden jetzt in einem einzigen dynamischen Mesh zusammengefasst. Beim
+  Verschieben einer kopierten Anlage entfallen dadurch die bisher fuer jeden
+  einzelnen Pfeil neu erzeugten GameObjects, Renderer und Animator-Komponenten.
+  Richtung und Animation der Pfeile bleiben erhalten.
+- Die Roentgenmaterialien der bewegten Rohrvorschau werden ohne vorherige
+  Renderer-Array-Suche aufgeloest. Auch die Hoehen- und Renderreihenfolge des
+  kombinierten Vorschaumodells benoetigt keine Komponenten-Array-Allokation
+  mehr. Das reduziert den verbliebenen FPS-Verlust bei grossen Kopien mit
+  vielen unterirdischen Rohrabschnitten.
+- Der Tiefenfilter des Abrisswerkzeugs arbeitet nun visuell wie der Filter
+  beim Rohrbau: Bei -1 bis -6 bleibt nur die gewaehlte Ebene sichtbar. Alle
+  anderen unterirdischen Rohre, Verbinder und Ausgleicher werden vollstaendig
+  ausgeblendet statt gedimmt dargestellt. Die bisherige zweite
+  Tiefen-Darstellungsroutine wurde entfernt; Auswahl- und Abrissschutz bleiben
+  unveraendert.
+
 1.2.0
+- Beim Auswaehlen eines Fluessigkeitsrohres erscheint jetzt eine eigene
+  Sichttiefenleiste mit "Alle" und -1 bis -6. Wird eine Tiefe ausgewaehlt,
+  bleiben nur bestehende unterirdische Rohre, Verbinder und Ausgleicher dieser
+  Ebene sichtbar; alle anderen Untergrundebenen werden vollstaendig
+  ausgeblendet. Die aktive Bauvorschau und ihre Hoehe bleiben davon
+  unabhaengig.
+- Die Sichttiefenleiste verwendet den nativen Toggle-Stil und die bereits
+  uebersetzten Bezeichnungen der Untergrundansicht. Sie kann fuer die aktuelle
+  Rohr-Bausitzung geschlossen werden und startet beim erneuten Auswaehlen
+  eines Rohres wieder mit "Alle".
+- Die Rohr-Wegsuche ignoriert Gelaendekollisionen nur noch, wenn ihr Start
+  oder Ziel tatsaechlich unter dem jeweiligen lokalen Gelaende liegt. Dadurch
+  bleiben bewusst abgesenkte Rohre und Anschluesse voll funktionsfaehig,
+  waehrend eine normale Oberflaechenstrecke nicht mehr automatisch durch
+  einen Huegel oder eine Bodenwelle abtaucht.
+
+1.1.2
+- Die Untergrundansicht durchsucht nicht mehr alle Transporte der gesamten
+  Karte alle 4 bis 5 Bilder. Vergrabene Rohre werden jetzt zwischengespeichert
+  und der vollstaendige Bestand nur nach Hinzufuegen, Entfernen oder Aendern
+  eines Transportverlaufs sowie in einem langsamen Sicherheitsintervall neu
+  aufgebaut. Dadurch bleibt das Verschieben grosser kopierter Baugruppen auch
+  auf umfangreichen Fabriken fluessig.
+- Fluessigkeitsfarben, Bauzustand und Richtungspfeile der bereits bekannten
+  Untergrundrohre werden weiterhin regelmaessig aktualisiert, jedoch ohne
+  erneute Gelaendepruefung fuer jeden Transport. Mehrere Aenderungen innerhalb
+  kurzer Zeit werden dabei zu einer einzigen Cache-Aktualisierung gebuendelt.
+- Unterirdische Rohrverbinder und Rohr-Ausgleicher verwenden denselben
+  Cache-Mechanismus. Auch die Abbaugebiets- und Minenturmwarnung erzeugt ihre
+  belegten Felder nun aus den bereits bekannten Untergrundobjekten, statt
+  zusaetzlich die komplette Transport- und Verteilerliste zu durchsuchen.
+- Die Renderer eines vergrabenen Verbinder-Bauvorschaumodells werden nur noch
+  einmal pro Vorschauzustand ermittelt. Die bereits vorhandenen schnellen
+  Typpruefungen sorgen weiterhin dafuer, dass normale Gebaeudeblaupausen die
+  speziellen Rohr-Gelaenderegeln sofort ueberspringen.
+- Funktionsumfang, Spielstaende und Darstellung bleiben gegenueber 1.1.1
+  unveraendert; diese Version ist eine reine Leistungsverbesserung.
+
+1.1.1
 - Ein Kompatibilitaetsfehler mit Mods, die Harmony 2.3 oder 2.4 vor diesem
   Mod laden, wurde behoben. Die bisherige private Methodenanbindung konnte
   dann mit "method arguments are incompatible" fehlschlagen und anschliessend

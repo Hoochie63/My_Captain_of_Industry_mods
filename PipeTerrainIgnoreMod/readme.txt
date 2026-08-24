@@ -1,4 +1,4 @@
-Underground Pipes 1.2.0
+Underground Pipes 1.2.1
 =======================
 
 Dieser Mod erlaubt es, Rohre durch das Gelaende zu bauen.
@@ -24,6 +24,17 @@ Rohrverbinder und Rohr-Ausgleicher:
 - Beim Absenken eines Rohres zeigt eine kleine Tafel am Mauszeiger die
   aktuelle relative Tiefe an, zum Beispiel "Tiefe: -4". Auch dieser Text
   folgt der gewaehlten Spielsprache.
+- Beim Auswaehlen eines Fluessigkeitsrohres erscheint zusaetzlich ein
+  Sichttiefenfenster mit "Alle" und -1 bis -6. Eine ausgewaehlte Tiefe zeigt
+  nur bestehende unterirdische Rohre, Verbinder und Ausgleicher dieser Ebene;
+  die anderen Ebenen werden vollstaendig ausgeblendet. Die aktuelle
+  Rohrvorschau und ihre mit Hoch/Runter gewaehlte Bauhoehe bleiben davon
+  unberuehrt. Das Fenster kann fuer die aktuelle Bausitzung geschlossen
+  werden.
+- Die Gelaendekollision wird fuer die Wegsuche nur gelockert, wenn Start oder
+  Ziel des geplanten Rohrabschnitts bewusst unter dem lokalen Gelaende liegt.
+  Ein normal auf der Oberflaeche gebautes Rohr taucht deshalb nicht mehr
+  automatisch durch einen dazwischenliegenden Huegel ab.
 - Auch einzeln platzierte Rohrverbinder und Rohr-Ausgleicher erhalten die
   Hoehensteuerung und duerfen in das Gelaende eingebettet werden.
 - Unterirdische Rohrverbinder duerfen unmittelbar neben einem vorhandenen
@@ -60,6 +71,10 @@ Rohrverbinder und Rohr-Ausgleicher:
   das vorhandene unterirdische Rohrnetz ebenfalls sichtbar eingeblendet.
 - Eigene animierte Richtungspfeile zeigen auf der Roentgenansicht den Verlauf
   auch in Kurven und Gefaellen.
+- Die animierten Pfeile eines zusammenhaengenden Rohrabschnitts werden in
+  einem gemeinsamen dynamischen Mesh dargestellt. Dadurch muss die bewegte
+  Vorschau einer kopierten Anlage nicht mehr fuer jeden Pfeil ein separates
+  Unity-Objekt, einen Renderer und einen Animator erzeugen.
 - Beim Abrisswerkzeug werden vergrabene Rohre als gelb-orange Warnansicht
   durch das Gelaende sichtbar und beim Verlassen wieder ausgeblendet. Auch
   die unterirdischen Verbinder und Ausgleicher werden dabei hervorgehoben.
@@ -68,7 +83,7 @@ Rohrverbinder und Rohr-Ausgleicher:
   Tiefe macht nur Fluessigkeitsrohre, Verbinder und Ausgleicher dieser Ebene
   auswaehlbar. Passende Abschnitte erscheinen hellblau, sodass die rote
   originale Abrisskontur des ausgewaehlten Objekts klar sichtbar bleibt;
-  andere vergrabene Rohre bleiben zur Orientierung gedimmt sichtbar. Der
+  alle anderen Untergrundtiefen werden vollstaendig ausgeblendet. Der
   Filter begrenzt sowohl einzelne Klicks als auch den roten Abrissrahmen auf
   exakte Teilstrecken, ohne automatisch ein ganzes Rohrnetz zu entfernen.
 - Das direkt mit der Maus anvisierte Rohrsegment hebt sich dabei mit einem

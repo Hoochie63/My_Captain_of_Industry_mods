@@ -1,16 +1,16 @@
 {
   "id": "PipeTerrainIgnoreMod",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "display_name": "Underground Pipes",
   "description_short": "Allows pipes and pipe connectors to be built up to six levels below terrain.",
-  "description_long": "Adds fully functional underground liquid pipes to Captain of Industry. Liquid pipes, pipe connectors, and pipe balancers can be lowered up to six levels below the local terrain, while all other transports remain unaffected and continue to follow the game's normal placement and collision rules. A translated depth indicator beside the cursor shows the currently selected level. Buried pipe sections receive an x-ray overlay with direction arrows, while a native button in the left tool panel can display the completed underground pipe network independently of the current construction tool. Completed pipes use the color of their current liquid and retain the last liquid color when empty; never-used pipes remain cyan. Underground pipe connectors can automatically cut and connect to an existing buried pipe, making it possible to branch underground networks without misleading blocked-port previews. The demolition tool includes All and -1 through -6 depth filters. Selecting a depth highlights matching pipe sections in blue and restricts both individual and area demolition to underground pipes, connectors, and balancers at exactly that level. Other depths remain dimmed for orientation, while buildings, trees, and unrelated transports are excluded from the demolition selection. Mixed area selections for demolition and copying pause the simulation and ask whether buried pipes should be included.",
+  "description_long": "Adds fully functional underground liquid pipes to Captain of Industry. Liquid pipes, pipe connectors, and pipe balancers can be lowered up to six levels below the local terrain, while all other transports remain unaffected and continue to follow the game's normal placement and collision rules. A translated depth indicator beside the cursor shows the currently selected level. The pipe build tool includes an All and -1 through -6 visibility filter, allowing crowded underground networks to be viewed one depth at a time. Buried pipe sections receive an x-ray overlay with direction arrows, while a native button in the left tool panel can display the completed underground pipe network independently of the current construction tool. Completed pipes use the color of their current liquid and retain the last liquid color when empty; never-used pipes remain cyan. Underground pipe connectors can automatically cut and connect to an existing buried pipe, making it possible to branch underground networks without misleading blocked-port previews. Terrain collision is relaxed only when the planned pipe starts or ends below local terrain, preventing normal surface routes from automatically diving through hills. The demolition tool includes All and -1 through -6 depth filters. Selecting a depth highlights matching pipe sections in blue, hides every other underground depth, and restricts both individual and area demolition to underground pipes, connectors, and balancers at exactly that level. Buildings, trees, and unrelated transports are excluded from the demolition selection. Mixed area selections for demolition and copying pause the simulation and ask whether buried pipes should be included.",
   "authors": "KleineEule",
   "primary_dlls": [
     "0Harmony.dll",
     "PipeTerrainIgnoreMod.dll"
   ],
   "min_game_version": "0.8.6",
-  "max_verified_game_version": "0.8.7",
+  "max_verified_game_version": "0.8.7a",
   "non_locking_dll_load": true,
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": true
