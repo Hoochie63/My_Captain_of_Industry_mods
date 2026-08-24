@@ -6,7 +6,7 @@
   "description_long": "",
   "authors": [],
   "mod_dependencies": [
-    "CustomAssets>=0.1.9",
+    "CustomAssets>=0.4.2",
     "worldgen-plus-plus",
     "recipes-plus-plus"
   ],
