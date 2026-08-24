@@ -1,3 +1,8 @@
+v0.3.5 | 2026-08-25
+* FIXED: After loading a savegame, the Target Fertility value is now correctly passed to the optimizer instead of defaulting to 140%..
+* IMPROVED: Added Priority Crops to the Optimizer Settings. Select up to 3 crops for the solver to prioritise and produce extra.
+* FIXED: Rebound the main window shortcut to Shift + F11 to prevent conflicts with the game's native Photo Mode.
+
 v0.3.4 | 2026-08-22
 * FIXED: The optimizer no longer includes crop yields from paused, unstaffed, or broken farms in its calculations.
 * IMPROVED: Farms that are currently unable to produce crops are now highlighted in red within the Farm Selection window.

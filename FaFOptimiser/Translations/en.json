@@ -1,286 +1,76 @@
 [
-    [
-        "FaFOptimiser__WindowTitle",
-        "Advanced Farm & Food Optimiser"
-    ],
-    [
-        "FaFOptimiser__FarmsList",
-        "Farms Occupation"
-    ],
-    [
-        "FaFOptimiser__ProducedCrops",
-        "Produced Crops"
-    ],
-    [
-        "FaFOptimiser__SaveCalculation",
-        "Save"
-    ],
-    [
-        "FaFOptimiser__LoadCalculations",
-        "Load"
-    ],
-    [
-        "FaFOptimiser__OptimizerSettings",
-        "Optimiser Settings"
-    ],
-    [
-        "FaFOptimiser__MaxAvailableFarms",
-        "Maximum Available Farms:"
-    ],
-    [
-        "FaFOptimiser__TargetFertility",
-        "Target Fertility (%):"
-    ],
-    [
-        "FaFOptimiser__ManualOverride",
-        "Manual Override"
-    ],
-    [
-        "FaFOptimiser__ManualOverrideTooltip",
-        "Detaches crop demands from population food demands."
-    ],
-    [
-        "FaFOptimiser__FoodDemands",
-        "Food Demands (Monthly):"
-    ],
-    [
-        "FaFOptimiser__AutoFillDemands",
-        "Auto-Fill Demands"
-    ],
-    [
-        "FaFOptimiser__CropDemands",
-        "Crop Demands (Monthly):"
-    ],
-    [
-        "FaFOptimiser__SolveAndOptimize",
-        "SOLVE & OPTIMISE"
-    ],
-    [
-        "FaFOptimiser__Solving",
-        "SOLVING..."
-    ],
-    [
-        "FaFOptimiser__ChainScore",
-        "Chain Score: {0}"
-    ],
-    [
-        "FaFOptimiser__TotalAmount",
-        "Total: {0}"
-    ],
-    [
-        "FaFOptimiser__InputsOutputs",
-        "Inputs/Outputs"
-    ],
-    [
-        "FaFOptimiser__FarmInputs",
-        "Farm Inputs:"
-    ],
-    [
-        "FaFOptimiser__ChainInputs",
-        "Chain Inputs:"
-    ],
-    [
-        "FaFOptimiser__Produced",
-        "Produced:"
-    ],
-    [
-        "FaFOptimiser__Byproducts",
-        "Byproducts:"
-    ],
-    [
-        "FaFOptimiser__FarmTooltip",
-        "{0}\nTarget Fertility:{1}\nWater Needed:{2}\nFertility Needed:{3}"
-    ],
-    [
-        "FaFOptimiser__Inputs",
-        "Inputs: "
-    ],
-    [
-        "FaFOptimiser__ByproductsHeader",
-        "Byproducts: "
-    ],
-    [
-        "FaFOptimiser__SelectProductionChain",
-        "Select Production Chain: {0}"
-    ],
-    [
-        "FaFOptimiser__CropInScopeTooltip",
-        "{0}\n<color=#00FF00>In Solver Scope</color> (Left-click to exclude/ignore)"
-    ],
-    [
-        "FaFOptimiser__CropOutOfScopeTooltip",
-        "{0}\n<color=#AAAAAA>Excluded from Solver</color> (Left-click to include)"
-    ],
-    [
-        "FaFOptimiser__CropOutOfScopeLabel",
-        "Total: {0} --- out of scope ---"
-    ],
-    [
-        "FaFOptimiser__OptimizeFarms",
-        "Optimize Farms"
-    ],
-    [
-        "FaFOptimiser__FarmProductsDemand",
-        "Farm Products Demand:"
-    ],
-    [
-        "FaFOptimiser__IncreaseFlockTooltip",
-        "Increase flock size (+50 birds)"
-    ],
-    [
-        "FaFOptimiser__AnimalFeedTotalTooltip",
-        "Combined Total: Flock Feeding requirement + Direct input demand"
-    ],
-    [
-        "FaFOptimiser__DecreaseFlockTooltip",
-        "Decrease flock size (Min: {0})"
-    ],
-    [
-        "FaFOptimiser__MinFlockLabel",
-        "(Min: {0})"
-    ],
-    [
-        "FaFOptimiser__Settlement",
-        "Settlement"
-    ],
-    [
-        "FaFOptimiser__ResetSettlementTooltip",
-        "Reset to actual settlement state"
-    ],
-    [
-        "FaFOptimiser__SettlementPopTooltip",
-        "All settlements population"
-    ],
-    [
-        "FaFOptimiser__SettlementToggleLabel",
-        "for the settlement"
-    ],
-    [
-        "FaFOptimiser__AddSettlementFood",
-        "Add Settlement Food"
-    ],
-    [
-        "FaFOptimiser__SelectFood",
-        "Select Food"
-    ],
-    [
-        "FaFOptimiser__SettlementSupply",
-        "supply"
-    ],
-    [
-        "FaFOptimiser__ConsumptionActiveTooltip",
-        "Consumption Active: {0}"
-    ],
-    [
-        "FaFOptimiser__ConsumptionDisabledTooltip",
-        "Consumption Disabled: {0}"
-    ],
-    [
-        "FaFOptimiser__Production",
-        "Production"
-    ],
-    [
-        "FaFOptimiser__CropDemand",
-        "Crop Demand"
-    ],
-    [
-        "FaFOptimiser__AddManufacturedProduct",
-        "Add Manufactured Product"
-    ],
-    [
-        "FaFOptimiser__SelectProduct",
-        "Select Product"
-    ],
-    [
-        "FaFOptimiser__AddCrop",
-        "Add Crop"
-    ],
-    [
-        "FaFOptimiser__SelectCrop",
-        "Select Crop"
-    ],
-    [
-        "FaFOptimiser__ImportHeader",
-        "Import:"
-    ],
-    [
-        "FaFOptimiser__DemandColon",
-        "demand:"
-    ],
-    [
-        "FaFOptimiser__UserExport",
-        "user export"
-    ],
-    [
-        "FaFOptimiser__UserImport",
-        "user import"
-    ],
-    [
-        "FaFOptimiser__ForProducing",
-        "for producing"
-    ],
-    [
-        "FaFOptimiser__ForPrefix",
-        "for "
-    ],
-    [
-        "FaFOptimiser__AfterProducing",
-        "after producing"
-    ],
-    [
-        "FaFOptimiser__ForCropFarms",
-        "for Crop Farms"
-    ],
-    [
-        "FaFOptimiser__CurrentFarmsConfig",
-        "Current Farms Configuration"
-    ],
-    [
-        "FaFOptimiser__ResetFarmsTooltip",
-        "Reset farms to actual island configuration"
-    ],
-    [
-        "FaFOptimiser__ProducedLabel",
-        "Produced:"
-    ],
-    [
-        "FaFOptimiser__ConsumptionLabel",
-        "Consumption:"
-    ],
-    [
-        "FaFOptimiser__OptimizerResults",
-        "Optimizer Results"
-    ],
-    [
-        "FaFOptimiser__OptimizerEmptyPrompt",
-        "Click 'Optimize Farms' to generate a blueprint."
-    ],
-    [
-        "FaFOptimiser__SelectFarmsTooltip",
-        "Select which farms to include or exclude from optimization"
-    ],
-    [
-        "FaFOptimiser__FarmSelectionTitle",
-        "Select Farms for Optimization"
-    ],
-    [
-        "FaFOptimiser__NoFarmsBuilt",
-        "No farms built on the island yet."
-    ],
-    [
-        "FaFOptimiser__NoCropsScheduled",
-        "No crops scheduled"
-    ],
-    [
-        "FaFOptimiser__RecipeAutomatic",
-        "Automatic (Lowest Score)"
-    ],
-    [
-        "FaFOptimiser__RecipeScore",
-        "(Score: {0})"
-    ],
-    [
-        "FaFOptimiser__FarmProduction",
-        "Farm Production:"
-    ]
-]
+  ["FaFOptimiser__WindowTitle", "Advanced Farm & Food Optimiser"],
+  ["FaFOptimiser__FarmsList", "Farms Occupation"],
+  ["FaFOptimiser__ProducedCrops", "Produced Crops"],
+  ["FaFOptimiser__SaveCalculation", "Save"],
+  ["FaFOptimiser__LoadCalculations", "Load"],
+  ["FaFOptimiser__OptimizerSettings", "Optimiser Settings"],
+  ["FaFOptimiser__MaxAvailableFarms", "Maximum Available Farms:"],
+  ["FaFOptimiser__TargetFertility", "Target Fertility (%):"],
+  ["FaFOptimiser__ManualOverride", "Manual Override"],
+  ["FaFOptimiser__ManualOverrideTooltip", "Detaches crop demands from population food demands."],
+  ["FaFOptimiser__FoodDemands", "Food Demands (Monthly):"],
+  ["FaFOptimiser__AutoFillDemands", "Auto-Fill Demands"],
+  ["FaFOptimiser__CropDemands", "Crop Demands (Monthly):"],
+  ["FaFOptimiser__SolveAndOptimize", "SOLVE & OPTIMISE"],
+  ["FaFOptimiser__Solving", "SOLVING..."],
+  ["FaFOptimiser__ChainScore", "Chain Score: {0}"],
+  ["FaFOptimiser__TotalAmount", "Total: {0}"],
+  ["FaFOptimiser__InputsOutputs", "Inputs/Outputs"],
+  ["FaFOptimiser__FarmInputs", "Farm Inputs:"],
+  ["FaFOptimiser__ChainInputs", "Chain Inputs:"],
+  ["FaFOptimiser__Produced", "Produced:"],
+  ["FaFOptimiser__Byproducts", "Byproducts:"],
+  ["FaFOptimiser__FarmTooltip", "{0}\nTarget Fertility:{1}\nWater Needed:{2}\nFertility Needed:{3}"],
+  ["FaFOptimiser__Inputs", "Inputs: "],
+  ["FaFOptimiser__ByproductsHeader", "Byproducts: "],
+  ["FaFOptimiser__SelectProductionChain", "Select Production Chain: {0}"],
+  ["FaFOptimiser__CropInScopeTooltip", "{0}\n<color=#00FF00>In Solver Scope</color> (Left-click to exclude/ignore)"],
+  ["FaFOptimiser__CropOutOfScopeTooltip", "{0}\n<color=#AAAAAA>Excluded from Solver</color> (Left-click to include)"],
+  ["FaFOptimiser__CropOutOfScopeLabel", "Total: {0} --- out of scope ---"],
+  ["FaFOptimiser__OptimizeFarms", "Optimize Farms"],
+  ["FaFOptimiser__FarmProductsDemand", "Farm Products Demand:"],
+  ["FaFOptimiser__IncreaseFlockTooltip", "Increase flock size (+50 birds)"],
+  ["FaFOptimiser__AnimalFeedTotalTooltip", "Combined Total: Flock Feeding requirement + Direct input demand"],
+  ["FaFOptimiser__DecreaseFlockTooltip", "Decrease flock size (Min: {0})"],
+  ["FaFOptimiser__MinFlockLabel", "(Min: {0})"],
+    ["FaFOptimiser__Settlement", "Settlement"],
+    ["FaFOptimiser__ResetSettlementTooltip", "Reset to actual settlement state"],
+    ["FaFOptimiser__SettlementPopTooltip", "All settlements population"],
+    ["FaFOptimiser__SettlementToggleLabel", "for the settlement"],
+    ["FaFOptimiser__AddSettlementFood", "Add Settlement Food"],
+    ["FaFOptimiser__SelectFood", "Select Food"],
+    ["FaFOptimiser__SettlementSupply", "supply"],
+    ["FaFOptimiser__ConsumptionActiveTooltip", "Consumption Active: {0}"],
+    ["FaFOptimiser__ConsumptionDisabledTooltip", "Consumption Disabled: {0}"],
+    ["FaFOptimiser__Production", "Production"],
+    ["FaFOptimiser__CropDemand", "Crop Demand"],
+    ["FaFOptimiser__AddManufacturedProduct", "Add Manufactured Product"],
+    ["FaFOptimiser__SelectProduct", "Select Product"],
+    ["FaFOptimiser__AddCrop", "Add Crop"],
+    ["FaFOptimiser__SelectCrop", "Select Crop"],
+    ["FaFOptimiser__ImportHeader", "Import:"],
+    ["FaFOptimiser__DemandColon", "demand:"],
+    ["FaFOptimiser__UserExport", "user export"],
+    ["FaFOptimiser__UserImport", "user import"],
+    ["FaFOptimiser__ForProducing", "for producing"],
+    ["FaFOptimiser__ForPrefix", "for "],
+    ["FaFOptimiser__AfterProducing", "after producing"],
+    ["FaFOptimiser__ForCropFarms", "for Crop Farms"],
+    ["FaFOptimiser__CurrentFarmsConfig", "Current Farms Configuration"],
+    ["FaFOptimiser__ResetFarmsTooltip", "Reset farms to actual island configuration"],
+    ["FaFOptimiser__ProducedLabel", "Produced:"],
+    ["FaFOptimiser__ConsumptionLabel", "Consumption:"],
+    ["FaFOptimiser__OptimizerResults", "Optimizer Results"],
+    ["FaFOptimiser__OptimizerEmptyPrompt", "Click 'Optimize Farms' to generate a blueprint."],
+    ["FaFOptimiser__SelectFarmsTooltip", "Select which farms to include or exclude from optimization"],
+    ["FaFOptimiser__FarmSelectionTitle", "Select Farms for Optimization"],
+    ["FaFOptimiser__NoFarmsBuilt", "No farms built on the island yet."],
+    ["FaFOptimiser__NoCropsScheduled", "No crops scheduled"],
+    ["FaFOptimiser__RecipeAutomatic", "Automatic (Lowest Score)"],
+    ["FaFOptimiser__RecipeScore", "(Score: {0})"],
+    ["FaFOptimiser__FarmProduction", "Farm Production:"],
+	["FaFOptimiser__PriorityCropsLabel", "Priority Crops:"],
+	["FaFOptimiser__PriorityCropTooltip", "Priority: {0}\nClick to remove."],
+	["FaFOptimiser__SelectPriorityCropTitle", "Select Priority Crop"]	
+  ]

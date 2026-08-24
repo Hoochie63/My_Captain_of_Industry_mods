@@ -70,5 +70,8 @@
   ["FaFOptimiser__NoCropsScheduled", "未安排轮作作物"],
   ["FaFOptimiser__RecipeAutomatic", "自动选择（最低成本评分）"],
   ["FaFOptimiser__RecipeScore", "(评分: {0})"],
-  ["FaFOptimiser__FarmProduction", "农牧产出:"]
+  ["FaFOptimiser__FarmProduction", "农牧产出:"],
+  ["FaFOptimiser__PriorityCropsLabel", "优先作物:"],
+  ["FaFOptimiser__PriorityCropTooltip", "优先级: {0}\n点击移除。"],
+  ["FaFOptimiser__SelectPriorityCropTitle", "选择优先作物"] 
 ]

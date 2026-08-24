@@ -286,5 +286,17 @@
     [
         "FaFOptimiser__FarmProduction",
         "Фермерское производство:"
+    ],
+    [
+        "FaFOptimiser__PriorityCropsLabel",
+        "Приоритетные культуры:"
+    ],
+    [
+        "FaFOptimiser__PriorityCropTooltip",
+        "Приоритет: {0}<br>ЛКМ — удалить."
+    ],
+    [
+        "FaFOptimiser__SelectPriorityCropTitle",
+        "Выбрать приоритетную культуру"
     ]
 ]
