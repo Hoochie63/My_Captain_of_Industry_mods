@@ -1,3 +1,6 @@
+0.7.3
+- Update 3D model.
+
 0.7.2
 - Fix leftover blocked tiles at the rear after demolishing a bagger that had advanced while mining.
 

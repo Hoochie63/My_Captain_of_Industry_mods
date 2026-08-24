@@ -1,6 +1,6 @@
 {
 	"id": "Bagger288Mod",
-	"version": "0.7.2",
+	"version": "0.7.3",
 	"min_game_version": "0.8.6c",
 	"display_name": "Bagger 288",
 	"description_short": "Bucket-wheel excavator for continuous strip mining with buffered loose outputs.",
