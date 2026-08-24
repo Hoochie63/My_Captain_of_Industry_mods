@@ -1,3 +1,29 @@
+v1.2.7 | 2026-08-22
+────────────────────────────────────────────────────────────────────────
+* AUTO BOOST ON A SINGLE BUILDING CAN NOW BE GIVEN THE SAME SETTINGS AS A BOOST GROUP, SO A BUILDING ON ITS OWN NO LONGER HAS TO GUESS FROM YOUR GLOBAL STORAGE ALONE.
+
+  - Turn on Auto Boost in the building's window and the extra settings appear under it.
+
+  - Link storage points the building at one storage and it works to keep that one full instead of following its own product.
+
+  - Lowest and Highest set the boost range it may use. Leave a box empty for no limit.
+
+  - A boost group with its own storage link or range takes over for its buildings, and these boxes grey out so the two never fight each other.
+
+────────────────────────────────────────────────────────────────────────
+* THE COPY SETTINGS TOOL NOW COPIES A BUILDING SITTING AT THE NORMAL 100%, AND BELTS AND PIPES CAN BE DONE BY DRAGGING (THANKS DENIS FOR THE REPORT AND THE SUGGESTION).
+
+  - Copying from a building at 100% used to do nothing, so a boosted building could not be put back to normal this way. The same applied to belts and pipes at normal speed.
+
+  - Belts and pipes now show the same pointer and picked-up settings icon as buildings do, and everything you are about to change lights up before you let go.
+
+  - Hold the mouse and drag along belts or pipes to do a whole run in one go, or drag a box over open ground to catch every matching one inside it.
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW NOW SHRINKS TO FIT SMALLER SCREENS, SO THE BUTTONS UNDER THE MASS SELECT LIST ARE NO LONGER CUT OFF ON 1080P AT 100% SIZE (THANKS DENIS FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.6 | 2026-08-16
 ────────────────────────────────────────────────────────────────────────
 * AUTO BOOST ON A SINGLE BUILDING STILL WORKS THE SIMPLE WAY AND ONLY WATCHES YOUR GLOBAL STORAGE OF WHAT IT MAKES. LEAVE A BUILDING OUT OF A GROUP AND NOTHING CHANGES FOR IT.
