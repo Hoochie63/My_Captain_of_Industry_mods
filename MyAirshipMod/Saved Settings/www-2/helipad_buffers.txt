@@ -1,0 +1,2 @@
+5320:0=Product_IronOre,50593,500000
+5320:1=Product_Rock,6470,500000

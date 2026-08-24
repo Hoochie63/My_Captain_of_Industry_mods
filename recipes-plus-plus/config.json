@@ -1,9 +1,1 @@
-{
-    "message": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Секретный ингредиент — это... пустой конфигурационный файл.",
-        "min": 0,
-        "max": 0
-    }
-}
+{"message": {"default": 0, "is_integer": true, "description": "The secret ingredient is... an empty config file.", "min": 0, "max": 0}}

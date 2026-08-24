@@ -1,9 +1,1 @@
-{
-    "message": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Совершенно новый мир «Captain of Industry», ослепительное место, о котором я никогда не знал.",
-        "min": 0,
-        "max": 0
-    }
-}
+{"message": {"default": 0, "is_integer": true, "description": "A whole new Coi world, A dazzling place I never knew", "min": 0, "max": 0}}
