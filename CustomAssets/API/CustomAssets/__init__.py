@@ -8,12 +8,67 @@ from Mafi.Core.Factory.Recipes import RecipeProto
 from Mafi.Core.Factory.Machines import MachineProto
 from Mafi.Core.Research import ResearchCostsTpl, ResearchNodeProto
 from Mafi.Core.Products import LooseProductProto, ProductProto
+from Mafi.Core.Entities import EntityProto
 from Mafi.Core.Entities.Static import StaticEntityProto
 from Mafi.Core.Entities.Dynamic import DynamicEntityProto
 from Mafi.Core.Entities.Static.Layout import LayoutEntityProto, ToolbarCategoryProto
 
 def dependencies(*dependencies: str):
     pass
+
+class _Config:
+    """
+    Values from this pack's `config.json` — one attribute per top-level field.
+
+    `config.json` is a schema: each top-level key is a field, and its object holds
+    the `default` the runtime reads (plus optional `is_integer` / `description`
+    metadata used by the tooling):
+
+        {
+          "enable_hard_mode": { "default": false, "description": "Harder recipes" },
+          "steel_multiplier": { "default": 1.5, "is_integer": false }
+        }
+
+    Reading a field that `config.json` does not define is an error naming both the
+    field and the file. For a field that may be absent (older config.json shipped
+    with the pack), use `get` / `has` instead.
+    """
+
+    def get(self, name: str, fallback = None):
+        """ Value of `name`, or `fallback` when config.json has no such field. """
+        pass
+
+    def has(self, name: str) -> bool:
+        """ True when config.json defines `name`. """
+        pass
+
+    def __getattr__(self, name: str):
+        pass
+
+    def __getitem__(self, name: str):
+        """
+        `config["field"]` — same as `config.field`, including the error when the
+        field is not defined. Handy when the field name is computed:
+
+            config["tier_" + tier + "_enabled"]
+        """
+        pass
+
+config = _Config()
+"""
+This pack's config.json values. Gate definitions on them with a normal `if`:
+
+    from CustomAssets import config, build_recipe
+
+    if config.enable_hard_mode:
+        build_recipe(recipeId = "Steel_Hard", ...)
+    elif config.get("steel_multiplier", 1) > 1:
+        build_recipe(recipeId = "Steel_Boosted", ...)
+    else:
+        build_recipe(recipeId = "Steel_Basic", ...)
+
+A definition inside a branch that does not run is simply never registered.
+"""
 
 class Product:
     def __init__(
@@ -522,7 +577,8 @@ def build_recipe(
         ingredients: list[Product] | None = [],
         products: list[Product] | None = [],
         power: Percent | int | None = None,
-        replaces: list[str] | str | None = None
+        replaces: list[str] | str | None = None,
+        unlock_machine: bool = True
     ) -> RecipeProto:
     """
     Register a RECIPE (inputs → outputs). As of the 0.3.0 game API, a recipe is a
@@ -584,6 +640,10 @@ def build_recipe(
             recipe is bound to the machine the old one was on. When that is not true,
             reach for `migrate_recipe(...)` and point it at whatever recipe the
             player's machines should end up with.
+        unlock_machine: optional, default True. Only used together with `research`.
+            The research node ALSO grants `machine`, not just the recipe. Pass
+            False when the recipe goes onto a machine the player already has —
+            see `add_unlock_recipe` for what leaving it on costs.
     """
     pass
 
@@ -594,7 +654,8 @@ def bind_recipe(
         ports: list[PortMap] | None = [],
         multiplier: int = 1,
         minPartialUtilization: Percent | int | None = None,
-        research: ResearchNodeProto | ResearchNodeProto.ID | str | None = None
+        research: ResearchNodeProto | ResearchNodeProto.ID | str | None = None,
+        unlock_machine: bool = True
     ) -> RecipeProto:
     """
     Bind an existing RECIPE to a MACHINE (0.3.0 game API). This is the "assign a
@@ -632,6 +693,9 @@ def bind_recipe(
         research: optional - when set, also wire a recipe unlock on this research node
             for this (recipe, machine) pair (convenience; same as a following
             add_unlock_recipe call).
+        unlock_machine: optional, default True. Only used together with `research`.
+            The node ALSO grants `machine`, not just the recipe. Pass False when
+            binding to a machine the player already has — see `add_unlock_recipe`.
 
     Example:
         r = build_recipe(
@@ -651,7 +715,8 @@ def edit_recipe(
         products: list[Product] | None = [],
         machine: MachineProto.ID | MachineProto | str = None,
         research: ResearchNodeProto | ResearchNodeProto.ID | str | None = None,
-        power: Percent | int | None = None
+        power: Percent | int | None = None,
+        unlock_machine: bool = True
     ) -> RecipeProto:
     """
     Parameters:
@@ -666,6 +731,9 @@ def edit_recipe(
         ingredients: list - none, empty or at least one Product in case products are empty
         products: list - none, empty or at least one Product in case ingredients are empty
         power: optional - Percent value defining power consumption modification
+        unlock_machine: optional, default True. Only used together with `machine` and
+            `research`. The node ALSO grants the machine, not just the recipe. Pass
+            False to unlock the recipe only. See `add_unlock_recipe`.
 
     Block form (preferred):
         `edit_recipe` is also a context manager, so a patch can be written as
@@ -803,28 +871,81 @@ def build_research(
         description: str,
         costs: ResearchCostsTpl | int = 1,
         position: Vector2i | (int, int) = (0,0), # type: ignore
+        parents: list[ResearchNodeProto | ResearchNodeProto.ID | str] = None,
         icon: str = None
     ) -> ResearchNodeProto:
     """
-    At least one of products, vehicles, buildings, recipes must be defined
+    Register a new research node. At least one of products, vehicles, buildings or
+    recipes should end up attached to it via the add_unlock_* calls.
 
     Parameters:
-        researchId: required - recipe unique identifier
+        researchId: required - unique identifier for the node
         name: required - display name
         description: optional - description
-        difficulty: amount of reaseach required to be done, default 1
-        position: position in research tree
-        parents: list - none, may conatain parent research
+        costs: research months required, default 1. Also accepted under its older
+               name `difficulty` (same value, either spelling works).
+        position: position in the research tree, as (x, y)
+        parents: optional list of prerequisite research nodes. This is what wires the
+                 node into the tech tree - omit it and the node becomes a root.
         icon: optional (path to image)
+
+    Example:
+        build_research(
+            researchId  = "CustomResearch_SuperSteamCoalPyrolisis",
+            name        = "Coal liquification (super steam)",
+            description = "Convert coal to heavy oil while pressure is active",
+            position    = (160, 36),
+            parents     = [ Ids.Research.SuperPressSteam ]
+        )
     """
     pass
 
 def add_unlock_recipe(
         research: ResearchNodeProto | ResearchNodeProto.ID | str,
         machine: MachineProto | MachineProto.ID | str,
-        proto: RecipeProto | RecipeProto.ID | str
+        recipe: RecipeProto | RecipeProto.ID | str,
+        unlock_machine: bool = True
     ):
-    """ Adds recipe to existing research """
+    """
+    Add a RECIPE to an existing research node: researching the node teaches the
+    player this recipe on this machine, and — unless you say otherwise — also
+    hands them the machine.
+
+    Parameters:
+        research: required. The node to add the unlock to.
+        machine:  required. The machine that RUNS the recipe. It tells the research
+            UI which machine to file the recipe under, and by default it is also
+            granted by the node (see unlock_machine).
+        recipe:   required. The recipe to unlock. (Older stubs called this `proto`;
+            the runtime has always bound it as `recipe`, so use `recipe` when
+            passing it by name.)
+        unlock_machine: optional, default True — the node grants the machine as
+            well as the recipe, which is what every pack written before
+            CustomAssets 0.4.2 relied on. Passing it explicitly requires
+            CustomAssets >= 0.4.2.
+
+            Pass False when the recipe goes onto a machine the player already has.
+            Two things follow from leaving it on, and both are usually unwanted in
+            that case:
+
+              • the node hands over the whole machine, so several unlocks on one
+                node hand over several machines;
+              • the machine starts the game LOCKED until that node is researched —
+                the game derives its initial locked set from exactly these unlock
+                entries, so listing a machine here gates it even if it used to be
+                available from the start.
+
+            `add_unlock_machine(research, machine)` is the plainer way to say
+            "this node delivers the machine" when the recipe is incidental.
+
+    Examples:
+        # Teach an existing Flare a new recipe, leaving the Flare itself alone.
+        add_unlock_recipe(research, Ids.Machines.Flare, Ids.Recipes.FlareFuelGas,
+                          unlock_machine = False)
+
+        # A node that introduces the machine AND its first recipe (the default).
+        add_unlock_recipe(research, myMachine, myRecipe)
+    """
     pass
 
 def add_unlock_machine(
@@ -834,11 +955,83 @@ def add_unlock_machine(
     """ Adds machine to existing research """
     pass
 
+def add_unlock_entity(
+        research: ResearchNodeProto | ResearchNodeProto.ID | str,
+        entity: EntityProto | Proto.ID | str
+    ):
+    """
+    Add any non-machine entity to an existing research node, so the node lists and
+    unlocks it.
+
+    Sibling of `add_unlock_machine`, for everything that is not a machine: buildings,
+    trucks, excavators, tree harvesters, locomotives, cargo wagons and ships. Use
+    `add_unlock_machine` for machines and `add_unlock_product` for products — this call
+    exists because the game's unlock unit accepts any prototype that carries an icon,
+    not just machines.
+
+    Parameters:
+        research: required. The node to add to. Accepts a ResearchNodeProto, its id, or
+                  the id as a string.
+        entity:   required. The entity to unlock. Accepts an EntityProto, its typed id
+                  (Ids.Vehicles.ExcavatorAmphibious, ...), or the id as a string.
+
+    Example — put the amphibious excavator and a hydrogen locomotive on your own node:
+        add_unlock_entity(research = "MyResearch", entity = Ids.Vehicles.ExcavatorAmphibious)
+        add_unlock_entity(research = "MyResearch", entity = Ids.Trains.LocomotiveT2Hydrogen)
+    """
+    pass
+
 def add_unlock_product(
         research: ResearchNodeProto | ResearchNodeProto.ID | str,
         product: ProductProto | ProductProto.ID | str
     ):
     """ Adds product to existing research """
+    pass
+
+def remove_unlock(
+        research: ResearchNodeProto | ResearchNodeProto.ID | str,
+        target: Proto | Proto.ID | str,
+        machine: MachineProto | MachineProto.ID | str | None = None
+    ):
+    """
+    Take something back OUT of an existing research node - the counterpart to the
+    whole add_unlock_* family.
+
+    One call covers all four, because removal matches by prototype id: whatever the
+    node unlocks (product, machine, building, vehicle, train car, recipe) is named
+    the same way, so there is no product/machine/entity/recipe split here.
+
+    Parameters:
+        research: required. The node to take the unlock off. Accepts a
+                  ResearchNodeProto, its id, or the id as a string.
+        target:   required. What to stop unlocking. Accepts a proto, its typed id
+                  (Ids.Products.Fertilizer, Ids.Machines.ChemicalPlant, ...), or the
+                  id as a string.
+        machine:  optional, and only meaningful when `target` is a recipe. The same
+                  node routinely unlocks one recipe on several machines; naming the
+                  machine drops just that pair. Omitted, every unlock of `target` on
+                  the node goes.
+
+    Neither `target` nor `machine` is resolved through the prototype database, so
+    removing an unlock for something a game update dropped is safe - it is a no-op
+    with a note in the log, not a load error. The same is true when the node simply
+    never unlocked the target.
+
+    The node's icon for the removed target is cleaned up too, but only once nothing
+    that stayed still needs it - dropping one recipe does not strip the machine icon
+    from the node's other recipes on that same machine.
+
+    Examples:
+        # stop a vanilla node from handing out a product
+        remove_unlock(research = Ids.Research.Chemistry1, target = Ids.Products.Fertilizer)
+
+        # drop one recipe, but only on the chemical plant
+        remove_unlock(
+            research = Ids.Research.Chemistry1,
+            target   = myRecipe,
+            machine  = Ids.Machines.ChemicalPlant
+        )
+    """
     pass
 
 def add_toolbar_category(
@@ -901,6 +1094,87 @@ def edit_machine_ports(
 
     Returns:
         The same LayoutEntityProto (now with the additional ports).
+    """
+    pass
+
+def edit_entity_costs(
+        entity: EntityProto | Proto.ID | str,
+        workers: int = None,
+        maintenance: float = None,
+        maintenanceProduct: ProductProto | ProductProto.ID | str = None,
+        maintenanceBufferMonths: int = None,
+        initialMaintenancePercent: int = None,
+        priority: int = None,
+        products: list[Product] = [],
+        multiplyPercent: int = None
+    ) -> EntityProto:
+    """
+    Change what an already-registered entity costs to build.
+
+    Not machine-specific: `Costs` lives on EntityProto, the shared base of machines,
+    buildings, trucks, excavators, tree harvesters, locomotives, cargo wagons and ships —
+    so one call covers every buildable thing in the game.
+
+    Every argument except `entity` is an independent override. Omitting one leaves that
+    part of the vanilla cost alone, so a rebalance pack can bump only the worker count,
+    or only scale the price, without restating the rest (and without going stale when the
+    game later retunes the parts it didn't touch).
+
+    Parameters:
+        entity:      required. Target entity. Accepts an EntityProto, its typed id
+                     (Ids.Vehicles.TruckT2, Ids.Machines.ChemicalPlant, ...), or the id
+                     as a string.
+        workers:     people the finished entity occupies. Ignored with a warning when the
+                     entity takes no workers.
+        maintenance: units of maintenance consumed per month. Fractional values are fine
+                     (vanilla T2 trucks pay 4.0). Ignored with a warning when the entity
+                     is not maintained by the game.
+        maintenanceProduct:
+                     which maintenance line pays for it — Ids.Products.MaintenanceT1 /
+                     MaintenanceT2 / MaintenanceT3. Required when you set `maintenance`
+                     on an entity that has no maintenance yet; otherwise the entity's
+                     current product is kept.
+        maintenanceBufferMonths:
+                     extra months of upkeep the entity stockpiles.
+        initialMaintenancePercent:
+                     upkeep boost while the entity is new. Vanilla early-game vehicles
+                     use 180 or 260.
+        priority:    default construction priority, 0 (highest) to 9 (lowest).
+        products:    replacement build materials as a list of Product(...). Leave empty
+                     to keep the entity's current materials. The `port` argument of
+                     Product is ignored here — a build price has no I/O ports.
+        multiplyPercent:
+                     scales the build materials AFTER `products` is applied.
+                     100 = unchanged, 150 = 1.5x, 50 = half price. Maintenance is NOT
+                     scaled by this; set it explicitly if you want it changed.
+
+    Constraints:
+        - Must be called during definition loading (before LockAndInitializeProtos). The
+          Python load path always runs at the right time, so this is automatic.
+        - The game only charges workers to entities that are staffed, and maintenance to
+          entities that are maintained. Setting either on an entity that is neither logs
+          a warning and is skipped rather than producing an upkeep nothing collects.
+        - Quantities must not be negative; a negative value raises at registration time.
+
+    Example — make late-game trucks pricier and hungrier for upkeep:
+        edit_entity_costs(
+            entity              = Ids.Vehicles.TruckT3,
+            maintenance         = 6.0,
+            maintenanceProduct  = Ids.Products.MaintenanceT2,
+            products            = [
+                Product(Ids.Products.VehicleParts3, Quantity(120)),
+                Product(Ids.Products.Rubber, Quantity(90))
+            ]
+        )
+
+    Example — a whole-game rebalance that only scales vanilla prices, so it keeps
+    working when the game retunes the underlying recipes:
+        edit_entity_costs(entity = Ids.Vehicles.ExcavatorT3,      multiplyPercent = 150)
+        edit_entity_costs(entity = Ids.Trains.LocomotiveT2Diesel, multiplyPercent = 75)
+        edit_entity_costs(entity = Ids.Machines.ChemicalPlant,    multiplyPercent = 120)
+
+    Returns:
+        The same EntityProto (now re-priced).
     """
     pass
 
@@ -1357,6 +1631,76 @@ def clone_crop(
     the whole spec.
 
     Same field surface as `add_crop`. See its docstring for per-arg semantics.
+    """
+    pass
+
+def edit_crop(
+        crop: str,
+        productProduced: 'Product' = None,
+        multiplyYieldPercent: int = None,
+        growthDurationDays: int = None,
+        consumedWaterPerDay: int = None,
+        consumedFertilityPercentPerDay: int = None,
+        minFertilityToStartGrowthPercent: int = None,
+        surviveWithNoWaterDays: int = None,
+        requiresGreenhouse: bool = None,
+        plantByDefault: bool = None
+    ):
+    """
+    Retune an EXISTING crop's rates in place.
+
+    Where `clone_crop` makes a NEW crop seeded from an old one, this changes the crop the
+    game already has — so every farm already growing it, and every save already using it,
+    picks up the new numbers. Reach for it when balancing vanilla agriculture rather than
+    adding to it.
+
+    Same argument names as `add_crop` / `clone_crop`, so there is only one crop vocabulary
+    to learn. Every argument except `crop` is optional; omitting one leaves that rate
+    exactly as the game has it.
+
+    Parameters:
+        crop:            required. The crop to retune — a vanilla crop id (Corn, Wheat,
+                         Soybean, ...) or one an earlier definition registered.
+        productProduced: replacement harvest as a Product(id, Quantity(n)) wrapper.
+        multiplyYieldPercent:
+                         scales the harvest quantity AFTER productProduced is applied.
+                         100 = unchanged, 150 = 1.5x. Lets you rebalance yields without
+                         restating which product each crop grows.
+        growthDurationDays:
+                         days from planting to harvest. Must be positive.
+        consumedWaterPerDay:
+                         water drawn per day while growing.
+        consumedFertilityPercentPerDay:
+                         soil fertility used per day, as an integer percent. NEGATIVE
+                         values replenish the soil instead — that is how green-manure
+                         crops work — so this one is deliberately not clamped.
+        minFertilityToStartGrowthPercent:
+                         fertility the soil needs before the crop starts growing.
+        surviveWithNoWaterDays:
+                         days the crop survives unwatered before dying. Must be positive.
+        requiresGreenhouse, plantByDefault:
+                         True / False to set, omit to leave unchanged.
+
+    Constraints:
+        - Must be called during definition loading (before LockAndInitializeProtos). The
+          Python load path always runs at the right time, so this is automatic.
+        - Farm-wide multipliers still apply on top: a farm's yield and demands
+          multipliers scale whatever you set here, they do not replace it.
+
+    Example — make corn a slower but far richer crop, and let clover feed the soil:
+        edit_crop(
+            crop               = "Corn",
+            growthDurationDays = 120,
+            productProduced    = Product(Ids.Products.Corn, Quantity(60))
+        )
+        edit_crop(
+            crop                           = "GreenManure",
+            consumedFertilityPercentPerDay = -3
+        )
+
+    Example — a light global nerf that survives game updates:
+        edit_crop(crop = "Wheat",   multiplyYieldPercent = 80)
+        edit_crop(crop = "Soybean", multiplyYieldPercent = 80)
     """
     pass
 
