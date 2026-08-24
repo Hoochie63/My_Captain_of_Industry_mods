@@ -1,3 +1,31 @@
+v1.3.0 | 2026-08-22
+────────────────────────────────────────────────────────────────────────
+* THE CENTRAL HUB LIST NOW SHOWS HOW MUCH OF EACH PRODUCT YOUR MINES BRING IN AND MARKS THE ONES YOU HAVE PAUSED (THANKS SERJEVSKI FOR THE SUGGESTIONS).
+
+  - Each product line adds the total output per 60 seconds from every working mine and oil platform making it, next to the per 20 seconds figure, so you can weigh a whole product at a glance.
+
+  - A pause icon takes the place of the level on anything you have paused, so paused mines and platforms stand out at a glance.
+
+  - The window opens bigger, and dragging the grip in its bottom-right corner makes it larger still, with the three lists widening to use the room. Double-click the grip to put it back.
+
+  - A line at the bottom of the window reminds you that clicking an entry jumps straight to it.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED THE MAIN STATS ENTRY IN THE HUD TAB DOING NOTHING — IT IS NOW CALLED STATUS BAR AND FULLY WORKS.
+
+  - Scale, reset, show/hide, nudge and layering now all address the real status bar element.
+
+  - Every part of the top status bar is now listed in all HUD tab options, not just in Nudge.
+
+────────────────────────────────────────────────────────────────────────
+* NEW HUD LAYERING IN THE HUD TAB TO CONTROL WHICH HUD ELEMENTS DRAW ON TOP.
+
+  - The Drag & Position section has a second column: pick a HUD element, then pick a layer from -5 to +5.
+
+  - Higher layers draw on top of lower ones when moved HUD elements overlap. Layers are saved between sessions.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.9 | 2026-08-16
 ────────────────────────────────────────────────────────────────────────
 * NEW CENTRAL HUB BUTTON ON THE WORLD MAP OPENS ONE LIST OF ALL YOUR MINES AND SETTLEMENTS, SO YOU CAN FIND AND JUMP TO ANY OF THEM FAST (THANKS SERJEVSKI FOR THE SUGGESTION).
