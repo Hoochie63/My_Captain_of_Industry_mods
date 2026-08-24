@@ -46,7 +46,7 @@
     "R": "✏️",
     "Cancel": "Отмена",
     "Save": "Принять",
-    "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "<align=\"center\">Размер только этого интерфейса.<br>Он не меняется, какой бы масштаб интерфейса ни был выбран в настройках игры.</align>",
+    "Size of this window only. It stays the same whatever the game's own UI scale is set to.": "<align=\"center\">Размер только этого интерфейса.<br>Он не меняется, какой бы масштаб интерфейса ни был выставлен в настройках игры.</align>",
     "Roll this window up so only its title bar is left. Click again to open it back up.": "<align=\"center\">Свернуть этот интерфейс так, чтобы осталась только строка заголовка.<br>Нажмите ещё раз, чтобы развернуть его обратно.</align>",
     "Open this window back up to its full size.": "<align=\"center\">Развернуть этот интерфейс обратно во весь размер.</align>",
     "Close": "Закрыть",
