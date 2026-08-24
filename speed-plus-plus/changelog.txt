@@ -1,3 +1,14 @@
+v1.1.1 | 2026-08-22
+────────────────────────────────────────────────────────────────────────
+* FIXED THE PAUSE BUTTON DISAPPEARING WHEN OTHER MODS ADD THEIR OWN BUTTONS NEXT TO THE GAME SPEED CONTROLS.
+
+  - The pause button now always stays visible and sits right before the speed display.
+
+────────────────────────────────────────────────────────────────────────
+* HOVER OVER THE SPEED DISPLAY TO SEE THE SAME SPEED AND ACTUAL INFO POPUP AS THE GAME'S OWN SPEED BUTTONS.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.1.0 | 2026-08-19
 ────────────────────────────────────────────────────────────────────────
 * THE SPEED DISPLAY NOW USES THE GAME'S OWN PAUSE ICON AND FITS THE CALENDAR ROW INSTEAD OF STRETCHING IT (THANKS MAG FOR THE REPORT).
