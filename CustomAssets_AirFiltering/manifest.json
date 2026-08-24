@@ -8,7 +8,7 @@
     "DeznekCZ"
   ],
   "mod_dependencies": [
-    "CustomAssets>=0.2.0"
+    "CustomAssets>=0.4.2"
   ],
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": true,
