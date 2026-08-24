@@ -1,7 +1,7 @@
 {
-    "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "Потяните, чтобы увеличить размер этого интерфейса и вместить более длинный текст. Двойной щелчок возвращает размер по умолчанию.",
-    "Overwrite your saved profile with your current settings?": "Перезаписать сохранённый профиль игрока<br>текущими настройками?",
-    "Load your saved profile? Your current settings will be replaced.": "Загрузить сохранённый профиль игрока?<br>Все текущие настройки будут изменены.",
+    "Drag to make this window bigger so longer text fits. Double-click to reset it to the default size.": "<align=\"center\">Потяните, чтобы увеличить размер этого интерфейса и вместить более длинный текст.<br>Двойной щелчок возвращает размер по умолчанию.</align>",
+    "Overwrite your saved profile with your current settings?": "<align=\"center\">Перезаписать сохранённый профиль игрока<br>текущими настройками?</align>",
+    "Load your saved profile? Your current settings will be replaced.": "<align=\"center\">Загрузить сохранённый профиль игрока?<br>Все текущие настройки будут изменены.</align>",
     "Reveal the entire world map? This cannot be undone.": "Открыть всю «Карту мира»?<br>Это нельзя отменить.",
     "Open or close the fill tool. Pick a product in the menu first.": "Открыть или закрыть инструмент заполнения. Сначала выберите продукт в меню.",
     "Turn building pipes along slopes on or off.": "Включить или отключить строительство наклонных труб, что очень полезно для прокладки труб по склонам.",
