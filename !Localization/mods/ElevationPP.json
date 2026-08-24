@@ -1,4 +1,20 @@
 {
+    "ElevationPP.Connectors.BalancingConnectorData": {
+        "Balancing pipe connector": "Балансировщик жидкостей",
+        "A pipe connector with the full prioritization controls of a pipe balancer: per-port priorities and strictly even input/output ratios, on all six connections including the vertical ones. Can be placed directly onto an existing pipe, cutting itself in.": "Разделитель труб с полным управлением приоритетами, как у балансировщика жидкостей: приоритеты для каждого порта и строго равномерное распределение входа/выхода на всех шести подключениях, включая вертикальные.<br>Можно разместить непосредственно на существующей трубе, врезаясь в неё."
+    },
+
+    "ElevationPP.Platforms.ConcretePlatform": {
+        "Remove the buildings standing on the platform first.": "Сначала удалите строения, стоящие на платформе."
+    },
+
+    "ElevationPP.Platforms.ConcretePlatformData": {
+        "Platforms": "Платформы",
+        "Concrete platforms other buildings can be built on.": "Бетонные платформы, на которых можно строить другие строения.",
+        "Concrete platform {0}x{1}": "Бетонная платформа {0}×{1}",
+        "A reinforced concrete slab on support pillars. Raise it with the placement height keys like an elevated station; ordinary buildings can then be built on its deck (the cursor snaps onto the platform). Trucks serve those buildings from the ground beside or below the platform, so keep the platform high enough for them to drive underneath. A platform cannot be removed while something stands on it.": "Армированная бетонная плита на опорных колоннах.<br>Регулируйте её уровень высоты так же, как надземную станцию (клавишами высоты); на платформе можно строить обычные строения (при этом курсор будет фиксироваться на платформе).<br>Грузовая техника обслуживают эти строения с земли, расположенной рядом с платформой или под ней, поэтому держите платформу достаточно высокой, чтобы она могла проезжать под ней.<br>Платформу нельзя удалить, пока на ней построены строения."
+    },
+
     "ElevationPP.Stations.ElevatedStationData": {
         "Elevated stations": "Надземные станции",
         "Elevated train station modules.": "Модули надземных ж/д станций.",
