@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 3197874478
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 089c36d494d6d83c50a7d9d226977c86
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce523b631a8c9e3708aad88dabc515ed
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cf4d72b71e4e3e56962a218da4e6485b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FusionHorizon/Model/IndustrialIsotopes_Final.prefab
+Dependencies:
+- C:/Users/Uliss/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/model_e7d4

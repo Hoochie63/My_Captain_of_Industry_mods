@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2177598171
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e730d1926438192c1641f33458b3341d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2e46ad186817d3cd0d5d2ecf1542ba4c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FusionHorizon/ProductIcons/HeavyWaterHighSuper.png
+- Assets/FusionHorizon/ProductIcons/DepletedFissionProducts_Icon.png
+- Assets/FusionHorizon/ProductIcons/Helium.png
+- Assets/FusionHorizon/ProductIcons/DUPICRod_Icon.png
+- Assets/FusionHorizon/ProductIcons/HeliumHigh.png
+- Assets/FusionHorizon/ProductIcons/CANDURod_Icon.png
+- Assets/FusionHorizon/ProductIcons/IndustrialIsotopes_Icon.png
+- Assets/FusionHorizon/ProductIcons/Plasma.png
+- Assets/FusionHorizon/ProductIcons/PlasmaDirty.png
+- Assets/FusionHorizon/ProductIcons/HeavyWaterHigh.png
+- Assets/FusionHorizon/ProductIcons/HeavyWaterHighTritium.png
+- Assets/FusionHorizon/ProductIcons/MedicalSupplies4_Icon.png
+- Assets/FusionHorizon/ProductIcons/HeavyWater.png
+- Assets/FusionHorizon/ProductIcons/DTFuel.png
+- Assets/FusionHorizon/ProductIcons/Deuterium.png
+- Assets/FusionHorizon/ProductIcons/PlasmaRefined.png
+- Assets/FusionHorizon/ProductIcons/PlasmaModule_Icon.png
+- Assets/FusionHorizon/ProductIcons/Tritium.png
+- Assets/FusionHorizon/ProductIcons/DupicSpentFuel_Icon.png
+Dependencies: []

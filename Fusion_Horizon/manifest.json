@@ -1,22 +1,20 @@
 {
   "id": "Fusion_Horizon",
   "display_name": "Fusion Horizon",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description_short": "Fusion Horizon is a mod that allows you to unlock nuclear fusion and related future technologies",
   "description_long": "",
-  "authors": [],
+  "authors": "Ulisse Wolf",
   "mod_dependencies": [
-    "CustomAssets>=0.4.2",
     "worldgen-plus-plus",
     "recipes-plus-plus"
   ],
+  "optional_mod_dependencies": [],
+  "incompatible_mods": [],
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": true,
   "non_locking_dll_load": true,
-  "min_game_version": "0.8.5",
-  "primary_dlls": [
-    "CustomAssetPack.dll"
-  ],
-  "primary_mod_class_name": "CustomAssetPack",
-  "optional_mod_dependencies": []
+  "min_game_version": "0.8.6",
+  "primary_dlls": [ "Fusion_Horizon.dll" ],
+  "primary_mod_class_name": "FusionHorizonMod"
 }

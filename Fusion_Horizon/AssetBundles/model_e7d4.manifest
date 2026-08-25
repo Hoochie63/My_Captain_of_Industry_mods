@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 505498377
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2919c143d7037e3a053dab7b8483cb5f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3219c50854ff2a782d7e36576b5dbf5b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4c55f49771cc7e4ac0f65e4c29386cdc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FusionHorizon/Model/CanduRod-1024-albedo.png
+- Assets/FusionHorizon/Model/AsteroidBoosterParts.obj
+- Assets/FusionHorizon/Model/Barrel-LOD0.obj
+- Assets/FusionHorizon/Model/PlasmaModule_mat.mat
+- Assets/FusionHorizon/Model/MedicalSupplies4_mat.mat
+- Assets/FusionHorizon/Model/IndustrialIsotopes_mat.mat
+- Assets/FusionHorizon/Model/DupicSpentFuel_mat.mat
+- Assets/FusionHorizon/Model/Box-LOD0.obj
+- Assets/FusionHorizon/Model/MedicalSupplies4-1024-albedo.png
+- Assets/FusionHorizon/Model/DepletedFissionProducts-1024-albedo.png
+- Assets/FusionHorizon/Model/Puck-LOD0.obj
+- Assets/FusionHorizon/Model/DupicSpentFuel-1024-albedo.png
+- Assets/FusionHorizon/Model/IndustrialIsotopes-1024-albedo.png
+- Assets/FusionHorizon/Model/CanduRod_Mat.mat
+- Assets/FusionHorizon/Model/DupicRod_Mat.mat
+- Assets/FusionHorizon/Model/DupicRod-1024-albedo.png
+- Assets/FusionHorizon/Model/PlasmaModule-1024-albedo.png
+- Assets/FusionHorizon/Model/DepletedFissionProducts_mat.mat
+Dependencies: []

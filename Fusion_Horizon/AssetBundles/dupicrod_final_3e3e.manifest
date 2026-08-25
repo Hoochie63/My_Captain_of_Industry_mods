@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 2068934276
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1242ecdf908c2d5c26f568e341aa99c6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce523b631a8c9e3708aad88dabc515ed
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7580c278368bfa0562c5dc6515f23c81
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FusionHorizon/Model/DupicRod_Final.prefab
+Dependencies:
+- C:/Users/Uliss/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/model_e7d4

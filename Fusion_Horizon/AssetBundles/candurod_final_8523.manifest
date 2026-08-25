@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 135102940
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9343563da854318b4d3465e7fe8c6a7c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce523b631a8c9e3708aad88dabc515ed
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ae76d89c26c7de4fa9b3f07143bc5e18
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FusionHorizon/Model/CanduRod_Final.prefab
+Dependencies:
+- C:/Users/Uliss/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/model_e7d4

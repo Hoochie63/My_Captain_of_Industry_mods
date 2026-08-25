@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.66f1
+CRC: 1493063431
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c0ed5c3214d32d23faf918d4a276a294
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce523b631a8c9e3708aad88dabc515ed
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: eb83aff97d6ead7185c609b523f51100
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FusionHorizon/Model/DupicSpentFuel.prefab
+Dependencies:
+- C:/Users/Uliss/Desktop/Captain-of-industry-modding-main/src/ExampleMod.Unity/AssetBundles/model_e7d4

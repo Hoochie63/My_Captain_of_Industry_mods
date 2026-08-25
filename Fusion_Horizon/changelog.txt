@@ -1,6 +1,0 @@
-v1.2.0 | 2026-04-10
-* Added new feature X
-* Fixed bug Y
-
-v0.1.0 | 2026-06-13
-* Initial improvements
