@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Varastoitu energia"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Tila: Ladataan"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Tila: Puretaan"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Tila: Odottaa"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Verkkoakku I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Varastoi sähköä ja palauttaa sitä sähköverkkoon, kun tuotanto ei riitä. Kapasiteetti: 100,000 kW·s. Latausteho: 250 kW. Purkausteho: 1,000 kW. Lataushyötysuhde: 80%. Huolto I: 0.1–1 kuukaudessa todellisen kuormituksen mukaan."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Verkkoakku II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Varastoi sähköä ja palauttaa sitä sähköverkkoon, kun tuotanto ei riitä. Kapasiteetti: 400,000 kW·s. Latausteho: 1,000 kW. Purkausteho: 4,000 kW. Lataushyötysuhde: 90%. Huolto II: 0.1–2 kuukaudessa todellisen kuormituksen mukaan."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Verkkoakku III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Varastoi sähköä ja palauttaa sitä sähköverkkoon, kun tuotanto ei riitä. Kapasiteetti: 1,600,000 kW·s. Latausteho: 4,000 kW. Purkausteho: 12,000 kW. Lataushyötysuhde: 94%. Huolto II: 0.3–4 kuukaudessa todellisen kuormituksen mukaan."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Verkkoakku I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Avaa ensimmäisen verkkotason sähkövaraston."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Verkkoakku II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Avaa toisen verkkotason sähkövaraston."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Verkkoakku III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Avaa kolmannen verkkotason sähkövaraston."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Akun kapasiteetti"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} verkkoakun kapasiteettiin"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Akun teho"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} verkkoakun lataus- ja purkaustehoon"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Vanilla-prefabia ”{0}” ei voitu ratkaista kohteen ”{1}” kautta."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Tutkimussolmu ”{0}” on jo ruudukon kohdassa {1}."
+  ]
+]

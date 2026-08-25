@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "พลังงานที่กักเก็บ"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "สถานะ: กำลังชาร์จ"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "สถานะ: กำลังจ่ายไฟ"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "สถานะ: รอ"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "แบตเตอรี่โครงข่าย I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "กักเก็บไฟฟ้าและจ่ายกลับเข้าสู่โครงข่ายเมื่อการผลิตไม่เพียงพอ ความจุ: 100,000 kW·s. กำลังชาร์จ: 250 kW. กำลังจ่ายไฟ: 1,000 kW. ประสิทธิภาพการชาร์จ: 80%. การบำรุงรักษา I: 0.1–1 ต่อเดือนตามภาระใช้งานจริง."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "แบตเตอรี่โครงข่าย II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "กักเก็บไฟฟ้าและจ่ายกลับเข้าสู่โครงข่ายเมื่อการผลิตไม่เพียงพอ ความจุ: 400,000 kW·s. กำลังชาร์จ: 1,000 kW. กำลังจ่ายไฟ: 4,000 kW. ประสิทธิภาพการชาร์จ: 90%. การบำรุงรักษา II: 0.1–2 ต่อเดือนตามภาระใช้งานจริง."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "แบตเตอรี่โครงข่าย III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "กักเก็บไฟฟ้าและจ่ายกลับเข้าสู่โครงข่ายเมื่อการผลิตไม่เพียงพอ ความจุ: 1,600,000 kW·s. กำลังชาร์จ: 4,000 kW. กำลังจ่ายไฟ: 12,000 kW. ประสิทธิภาพการชาร์จ: 94%. การบำรุงรักษา II: 0.3–4 ต่อเดือนตามภาระใช้งานจริง."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "แบตเตอรี่โครงข่าย I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "ปลดล็อกการกักเก็บไฟฟ้าระดับโครงข่ายขั้นแรก"
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "แบตเตอรี่โครงข่าย II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "ปลดล็อกการกักเก็บไฟฟ้าระดับโครงข่ายขั้นที่สอง"
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "แบตเตอรี่โครงข่าย III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "ปลดล็อกการกักเก็บไฟฟ้าระดับโครงข่ายขั้นที่สาม"
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "ความจุแบตเตอรี่"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} ให้ความจุแบตเตอรี่โครงข่าย"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "กำลังแบตเตอรี่"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} ให้กำลังชาร์จและจ่ายไฟของแบตเตอรี่โครงข่าย"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "ไม่พบพรีแฟบพื้นฐาน '{0}' ผ่าน '{1}'"
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "โหนดวิจัย '{0}' ใช้ตำแหน่งกริด {1} อยู่แล้ว"
+  ]
+]

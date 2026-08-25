@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Uzkrātā enerģija"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Statuss: Uzlāde"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Statuss: Izlāde"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Statuss: Gaida"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Tīkla akumulators I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Uzkrāj elektroenerģiju un atdod to elektrotīklā, kad ražošana nav pietiekama. Ietilpība: 100,000 kW·s. Uzlādes jauda: 250 kW. Izlādes jauda: 1,000 kW. Uzlādes efektivitāte: 80%. Apkope I: 0.1–1 mēnesī atbilstoši faktiskajai slodzei."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Tīkla akumulators II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Uzkrāj elektroenerģiju un atdod to elektrotīklā, kad ražošana nav pietiekama. Ietilpība: 400,000 kW·s. Uzlādes jauda: 1,000 kW. Izlādes jauda: 4,000 kW. Uzlādes efektivitāte: 90%. Apkope II: 0.1–2 mēnesī atbilstoši faktiskajai slodzei."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Tīkla akumulators III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Uzkrāj elektroenerģiju un atdod to elektrotīklā, kad ražošana nav pietiekama. Ietilpība: 1,600,000 kW·s. Uzlādes jauda: 4,000 kW. Izlādes jauda: 12,000 kW. Uzlādes efektivitāte: 94%. Apkope II: 0.3–4 mēnesī atbilstoši faktiskajai slodzei."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Tīkla akumulators I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Atbloķē pirmo tīkla mēroga elektroenerģijas uzkrāšanas līmeni."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Tīkla akumulators II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Atbloķē otro tīkla mēroga elektroenerģijas uzkrāšanas līmeni."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Tīkla akumulators III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Atbloķē trešo tīkla mēroga elektroenerģijas uzkrāšanas līmeni."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Akumulatora ietilpība"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} tīkla akumulatora ietilpībai"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Akumulatora jauda"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} tīkla akumulatora uzlādes un izlādes jaudai"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Pamata prefab'u “{0}” neizdevās atrast, izmantojot “{1}”."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Izpētes mezgls “{0}” jau aizņem režģa pozīciju {1}."
+  ]
+]

@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "蓄電量"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "状態：充電中"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "状態：放電中"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "状態：待機中"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "系統用蓄電池 I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "電力を蓄え、発電量が不足したときに電力網へ戻します。 容量: 100,000 kW·s. 充電電力: 250 kW. 放電電力: 1,000 kW. 充電効率: 80%. メンテナンス I: 0.1–1 （実際の負荷に応じた月間）."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "系統用蓄電池 II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "電力を蓄え、発電量が不足したときに電力網へ戻します。 容量: 400,000 kW·s. 充電電力: 1,000 kW. 放電電力: 4,000 kW. 充電効率: 90%. メンテナンス II: 0.1–2 （実際の負荷に応じた月間）."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "系統用蓄電池 III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "電力を蓄え、発電量が不足したときに電力網へ戻します。 容量: 1,600,000 kW·s. 充電電力: 4,000 kW. 放電電力: 12,000 kW. 充電効率: 94%. メンテナンス II: 0.3–4 （実際の負荷に応じた月間）."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "系統用蓄電池 I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "系統規模の電力貯蔵の第1段階をアンロックします。"
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "系統用蓄電池 II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "系統規模の電力貯蔵の第2段階をアンロックします。"
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "系統用蓄電池 III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "系統規模の電力貯蔵の第3段階をアンロックします。"
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "蓄電池容量"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "系統用蓄電池の容量 +{0}"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "蓄電池出力"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "系統用蓄電池の充放電電力 +{0}"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "バニラのプレハブ「{0}」を「{1}」経由で解決できませんでした。"
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "研究ノード「{0}」は既にグリッド位置 {1} を占有しています。"
+  ]
+]

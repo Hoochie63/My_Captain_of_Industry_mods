@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Накопичена енергія"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Стан: Заряджання"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Стан: Розряджання"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Стан: Очікування"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Мережева батарея I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Накопичує електроенергію та повертає її в мережу, коли виробництва недостатньо. Ємність: 100,000 kW·s. Потужність заряджання: 250 kW. Потужність розряджання: 1,000 kW. Ефективність заряджання: 80%. Обслуговування I: 0.1–1 на місяць залежно від фактичного навантаження."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Мережева батарея II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Накопичує електроенергію та повертає її в мережу, коли виробництва недостатньо. Ємність: 400,000 kW·s. Потужність заряджання: 1,000 kW. Потужність розряджання: 4,000 kW. Ефективність заряджання: 90%. Обслуговування II: 0.1–2 на місяць залежно від фактичного навантаження."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Мережева батарея III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Накопичує електроенергію та повертає її в мережу, коли виробництва недостатньо. Ємність: 1,600,000 kW·s. Потужність заряджання: 4,000 kW. Потужність розряджання: 12,000 kW. Ефективність заряджання: 94%. Обслуговування II: 0.3–4 на місяць залежно від фактичного навантаження."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Мережева батарея I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Відкриває перший рівень мережевого накопичення електроенергії."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Мережева батарея II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Відкриває другий рівень мережевого накопичення електроенергії."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Мережева батарея III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Відкриває третій рівень мережевого накопичення електроенергії."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Ємність батареї"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} до ємності мережевої батареї"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Потужність батареї"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} до потужності заряджання та розряджання мережевої батареї"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Базовий префаб «{0}» не вдалося знайти через «{1}»."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Вузол дослідження «{0}» уже займає позицію {1} у сітці."
+  ]
+]

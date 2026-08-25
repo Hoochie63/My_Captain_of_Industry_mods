@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "已儲存能量"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "狀態：充電中"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "狀態：放電中"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "狀態：等待中"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "電網電池 I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "儲存電力，並在發電不足時將其送回電網。 容量: 100,000 kW·s. 充電功率: 250 kW. 放電功率: 1,000 kW. 充電效率: 80%. 維護 I: 0.1–1 每月，依實際負載計算."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "電網電池 II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "儲存電力，並在發電不足時將其送回電網。 容量: 400,000 kW·s. 充電功率: 1,000 kW. 放電功率: 4,000 kW. 充電效率: 90%. 維護 II: 0.1–2 每月，依實際負載計算."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "電網電池 III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "儲存電力，並在發電不足時將其送回電網。 容量: 1,600,000 kW·s. 充電功率: 4,000 kW. 放電功率: 12,000 kW. 充電效率: 94%. 維護 II: 0.3–4 每月，依實際負載計算."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "電網電池 I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "解鎖第一級電網規模電力儲存。"
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "電網電池 II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "解鎖第二級電網規模電力儲存。"
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "電網電池 III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "解鎖第三級電網規模電力儲存。"
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "電池容量"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "電網電池容量 +{0}"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "電池功率"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "電網電池充電與放電功率 +{0}"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "無法透過「{1}」解析原版預製件「{0}」。"
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "研究節點「{0}」已占用網格位置 {1}。"
+  ]
+]

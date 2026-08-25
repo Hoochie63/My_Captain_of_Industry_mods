@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Energia armazenada"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Estado: Carregando"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Estado: Descarregando"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Estado: Em espera"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Bateria da rede I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Armazena eletricidade e a devolve à rede elétrica quando a geração é insuficiente. Capacidade: 100,000 kW·s. Potência de carregamento: 250 kW. Potência de descarregamento: 1,000 kW. Eficiência de carregamento: 80%. Manutenção I: 0.1–1 por mês com base na carga real."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Bateria da rede II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Armazena eletricidade e a devolve à rede elétrica quando a geração é insuficiente. Capacidade: 400,000 kW·s. Potência de carregamento: 1,000 kW. Potência de descarregamento: 4,000 kW. Eficiência de carregamento: 90%. Manutenção II: 0.1–2 por mês com base na carga real."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Bateria da rede III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Armazena eletricidade e a devolve à rede elétrica quando a geração é insuficiente. Capacidade: 1,600,000 kW·s. Potência de carregamento: 4,000 kW. Potência de descarregamento: 12,000 kW. Eficiência de carregamento: 94%. Manutenção II: 0.3–4 por mês com base na carga real."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Bateria da rede I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Desbloqueia o primeiro nível de armazenamento elétrico em escala de rede."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Bateria da rede II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Desbloqueia o segundo nível de armazenamento elétrico em escala de rede."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Bateria da rede III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Desbloqueia o terceiro nível de armazenamento elétrico em escala de rede."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Capacidade da bateria"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} à capacidade da bateria da rede"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Potência da bateria"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} à potência de carregamento e descarregamento da bateria da rede"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "O prefab original «{0}» não foi resolvido por meio de «{1}»."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "O nó de pesquisa «{0}» já ocupa a posição {1} da grade."
+  ]
+]

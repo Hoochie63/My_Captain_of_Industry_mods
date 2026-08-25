@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Tárolt energia"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Állapot: Töltés"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Állapot: Kisütés"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Állapot: Várakozás"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Hálózati akkumulátor I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Villamos energiát tárol, és visszatáplálja az elektromos hálózatba, amikor a termelés nem elegendő. Kapacitás: 100,000 kW·s. Töltési teljesítmény: 250 kW. Kisütési teljesítmény: 1,000 kW. Töltési hatásfok: 80%. Karbantartás I: 0.1–1 havonta, a tényleges terhelés alapján."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Hálózati akkumulátor II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Villamos energiát tárol, és visszatáplálja az elektromos hálózatba, amikor a termelés nem elegendő. Kapacitás: 400,000 kW·s. Töltési teljesítmény: 1,000 kW. Kisütési teljesítmény: 4,000 kW. Töltési hatásfok: 90%. Karbantartás II: 0.1–2 havonta, a tényleges terhelés alapján."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Hálózati akkumulátor III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Villamos energiát tárol, és visszatáplálja az elektromos hálózatba, amikor a termelés nem elegendő. Kapacitás: 1,600,000 kW·s. Töltési teljesítmény: 4,000 kW. Kisütési teljesítmény: 12,000 kW. Töltési hatásfok: 94%. Karbantartás II: 0.3–4 havonta, a tényleges terhelés alapján."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Hálózati akkumulátor I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Feloldja a hálózati villamosenergia-tárolás első szintjét."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Hálózati akkumulátor II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Feloldja a hálózati villamosenergia-tárolás második szintjét."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Hálózati akkumulátor III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Feloldja a hálózati villamosenergia-tárolás harmadik szintjét."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Akkumulátorkapacitás"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} a hálózati akkumulátor kapacitásához"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Akkumulátorteljesítmény"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} a hálózati akkumulátor töltési és kisütési teljesítményéhez"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "A(z) „{0}” vanilla prefab nem oldható fel a(z) „{1}” segítségével."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "A(z) „{0}” kutatási csomópont már elfoglalja a rács {1}. pozícióját."
+  ]
+]

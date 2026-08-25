@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Ускладиштена енергија"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Статус: Пуњење"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Статус: Пражњење"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Статус: Чекање"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Мрежна батерија I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Складишти електричну енергију и враћа је у мрежу када производња није довољна. Капацитет: 100,000 kW·s. Снага пуњења: 250 kW. Снага пражњења: 1,000 kW. Ефикасност пуњења: 80%. Одржавање I: 0.1–1 месечно у зависности од стварног оптерећења."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Мрежна батерија II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Складишти електричну енергију и враћа је у мрежу када производња није довољна. Капацитет: 400,000 kW·s. Снага пуњења: 1,000 kW. Снага пражњења: 4,000 kW. Ефикасност пуњења: 90%. Одржавање II: 0.1–2 месечно у зависности од стварног оптерећења."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Мрежна батерија III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Складишти електричну енергију и враћа је у мрежу када производња није довољна. Капацитет: 1,600,000 kW·s. Снага пуњења: 4,000 kW. Снага пражњења: 12,000 kW. Ефикасност пуњења: 94%. Одржавање II: 0.3–4 месечно у зависности од стварног оптерећења."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Мрежна батерија I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Откључава први ниво складиштења електричне енергије на нивоу мреже."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Мрежна батерија II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Откључава други ниво складиштења електричне енергије на нивоу мреже."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Мрежна батерија III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Откључава трећи ниво складиштења електричне енергије на нивоу мреже."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Капацитет батерије"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} капацитету мрежне батерије"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Снага батерије"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} снази пуњења и пражњења мрежне батерије"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Основни префаб „{0}“ није пронађен преко „{1}“."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Истраживачки чвор „{0}“ већ заузима позицију {1} у мрежи."
+  ]
+]

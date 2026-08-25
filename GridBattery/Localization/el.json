@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Αποθηκευμένη ενέργεια"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Κατάσταση: Φόρτιση"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Κατάσταση: Εκφόρτιση"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Κατάσταση: Αναμονή"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Μπαταρία δικτύου I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Αποθηκεύει ηλεκτρική ενέργεια και την επιστρέφει στο δίκτυο όταν η παραγωγή δεν επαρκεί. Χωρητικότητα: 100,000 kW·s. Ισχύς φόρτισης: 250 kW. Ισχύς εκφόρτισης: 1,000 kW. Απόδοση φόρτισης: 80%. Συντήρηση I: 0.1–1 ανά μήνα βάσει του πραγματικού φορτίου."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Μπαταρία δικτύου II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Αποθηκεύει ηλεκτρική ενέργεια και την επιστρέφει στο δίκτυο όταν η παραγωγή δεν επαρκεί. Χωρητικότητα: 400,000 kW·s. Ισχύς φόρτισης: 1,000 kW. Ισχύς εκφόρτισης: 4,000 kW. Απόδοση φόρτισης: 90%. Συντήρηση II: 0.1–2 ανά μήνα βάσει του πραγματικού φορτίου."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Μπαταρία δικτύου III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Αποθηκεύει ηλεκτρική ενέργεια και την επιστρέφει στο δίκτυο όταν η παραγωγή δεν επαρκεί. Χωρητικότητα: 1,600,000 kW·s. Ισχύς φόρτισης: 4,000 kW. Ισχύς εκφόρτισης: 12,000 kW. Απόδοση φόρτισης: 94%. Συντήρηση II: 0.3–4 ανά μήνα βάσει του πραγματικού φορτίου."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Μπαταρία δικτύου I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Ξεκλειδώνει την πρώτη βαθμίδα αποθήκευσης ηλεκτρικής ενέργειας δικτύου."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Μπαταρία δικτύου II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Ξεκλειδώνει τη δεύτερη βαθμίδα αποθήκευσης ηλεκτρικής ενέργειας δικτύου."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Μπαταρία δικτύου III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Ξεκλειδώνει την τρίτη βαθμίδα αποθήκευσης ηλεκτρικής ενέργειας δικτύου."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Χωρητικότητα μπαταρίας"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} στη χωρητικότητα της μπαταρίας δικτύου"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Ισχύς μπαταρίας"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} στην ισχύ φόρτισης και εκφόρτισης της μπαταρίας δικτύου"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Το βασικό prefab «{0}» δεν επιλύθηκε μέσω του «{1}»."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Ο κόμβος έρευνας «{0}» καταλαμβάνει ήδη τη θέση πλέγματος {1}."
+  ]
+]

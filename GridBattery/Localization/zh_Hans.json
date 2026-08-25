@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "已储存能量"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "状态：充电中"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "状态：放电中"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "状态：等待中"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "电网电池 I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "储存电力，并在发电不足时将其送回电网。 容量: 100,000 kW·s. 充电功率: 250 kW. 放电功率: 1,000 kW. 充电效率: 80%. 维护 I: 0.1–1 每月，按实际负载计算."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "电网电池 II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "储存电力，并在发电不足时将其送回电网。 容量: 400,000 kW·s. 充电功率: 1,000 kW. 放电功率: 4,000 kW. 充电效率: 90%. 维护 II: 0.1–2 每月，按实际负载计算."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "电网电池 III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "储存电力，并在发电不足时将其送回电网。 容量: 1,600,000 kW·s. 充电功率: 4,000 kW. 放电功率: 12,000 kW. 充电效率: 94%. 维护 II: 0.3–4 每月，按实际负载计算."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "电网电池 I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "解锁第一级电网规模电力储存。"
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "电网电池 II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "解锁第二级电网规模电力储存。"
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "电网电池 III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "解锁第三级电网规模电力储存。"
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "电池容量"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "电网电池容量 +{0}"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "电池功率"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "电网电池充电与放电功率 +{0}"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "无法通过“{1}”解析原版预制件“{0}”。"
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "研究节点“{0}”已占用网格位置 {1}。"
+  ]
+]

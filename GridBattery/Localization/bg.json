@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Съхранена енергия"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Състояние: Зареждане"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Състояние: Разреждане"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Състояние: Изчакване"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Мрежова батерия I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Съхранява електроенергия и я връща в електрическата мрежа, когато производството е недостатъчно. Капацитет: 100,000 kW·s. Мощност на зареждане: 250 kW. Мощност на разреждане: 1,000 kW. Ефективност на зареждане: 80%. Поддръжка I: 0.1–1 на месец според действителното натоварване."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Мрежова батерия II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Съхранява електроенергия и я връща в електрическата мрежа, когато производството е недостатъчно. Капацитет: 400,000 kW·s. Мощност на зареждане: 1,000 kW. Мощност на разреждане: 4,000 kW. Ефективност на зареждане: 90%. Поддръжка II: 0.1–2 на месец според действителното натоварване."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Мрежова батерия III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Съхранява електроенергия и я връща в електрическата мрежа, когато производството е недостатъчно. Капацитет: 1,600,000 kW·s. Мощност на зареждане: 4,000 kW. Мощност на разреждане: 12,000 kW. Ефективност на зареждане: 94%. Поддръжка II: 0.3–4 на месец според действителното натоварване."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Мрежова батерия I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Отключва първото ниво за мрежово съхранение на електроенергия."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Мрежова батерия II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Отключва второто ниво за мрежово съхранение на електроенергия."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Мрежова батерия III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Отключва третото ниво за мрежово съхранение на електроенергия."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Капацитет на батерията"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} към капацитета на мрежовата батерия"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Мощност на батерията"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} към мощността на зареждане и разреждане на мрежовата батерия"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Стандартният префаб „{0}“ не бе намерен чрез „{1}“."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Изследователският възел „{0}“ вече заема позиция {1} в мрежата."
+  ]
+]

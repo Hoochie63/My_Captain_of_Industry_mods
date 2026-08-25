@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Salvestatud energia"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Olek: Laadimine"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Olek: Tühjendamine"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Olek: Ootel"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Võrguaku I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Salvestab elektrit ja tagastab selle elektrivõrku, kui tootmisest ei piisa. Mahutavus: 100,000 kW·s. Laadimisvõimsus: 250 kW. Tühjendusvõimsus: 1,000 kW. Laadimise kasutegur: 80%. Hooldus I: 0.1–1 kuus vastavalt tegelikule koormusele."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Võrguaku II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Salvestab elektrit ja tagastab selle elektrivõrku, kui tootmisest ei piisa. Mahutavus: 400,000 kW·s. Laadimisvõimsus: 1,000 kW. Tühjendusvõimsus: 4,000 kW. Laadimise kasutegur: 90%. Hooldus II: 0.1–2 kuus vastavalt tegelikule koormusele."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Võrguaku III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Salvestab elektrit ja tagastab selle elektrivõrku, kui tootmisest ei piisa. Mahutavus: 1,600,000 kW·s. Laadimisvõimsus: 4,000 kW. Tühjendusvõimsus: 12,000 kW. Laadimise kasutegur: 94%. Hooldus II: 0.3–4 kuus vastavalt tegelikule koormusele."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Võrguaku I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Avab elektrivõrgu salvestuse esimese taseme."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Võrguaku II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Avab elektrivõrgu salvestuse teise taseme."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Võrguaku III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Avab elektrivõrgu salvestuse kolmanda taseme."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Aku mahutavus"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} võrguaku mahutavusele"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Aku võimsus"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} võrguaku laadimis- ja tühjendusvõimsusele"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Algset prefab'i „{0}“ ei leitud „{1}“ kaudu."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Uurimissõlm „{0}“ juba hõivab ruudustiku asukoha {1}."
+  ]
+]

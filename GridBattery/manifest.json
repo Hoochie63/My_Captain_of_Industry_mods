@@ -1,0 +1,12 @@
+{
+  "id": "GridBattery",
+  "version": "1.0.2",
+  "min_game_version": "0.8.7",
+  "display_name": "Grid Battery",
+  "description_short": "Three upgradeable electrical storage buildings with priorities and surplus controls.",
+  "authors": "LordXaosa",
+  "primary_dlls": ["GridBattery.dll"],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false
+}

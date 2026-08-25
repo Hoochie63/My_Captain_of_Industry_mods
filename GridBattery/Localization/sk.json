@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Uložená energia"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Stav: Nabíjanie"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Stav: Vybíjanie"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Stav: Čakanie"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Sieťová batéria I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Ukladá elektrinu a vracia ju do elektrickej siete, keď výroba nestačí. Kapacita: 100,000 kW·s. Nabíjací výkon: 250 kW. Vybíjací výkon: 1,000 kW. Účinnosť nabíjania: 80%. Údržba I: 0.1–1 za mesiac podľa skutočného zaťaženia."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Sieťová batéria II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Ukladá elektrinu a vracia ju do elektrickej siete, keď výroba nestačí. Kapacita: 400,000 kW·s. Nabíjací výkon: 1,000 kW. Vybíjací výkon: 4,000 kW. Účinnosť nabíjania: 90%. Údržba II: 0.1–2 za mesiac podľa skutočného zaťaženia."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Sieťová batéria III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Ukladá elektrinu a vracia ju do elektrickej siete, keď výroba nestačí. Kapacita: 1,600,000 kW·s. Nabíjací výkon: 4,000 kW. Vybíjací výkon: 12,000 kW. Účinnosť nabíjania: 94%. Údržba II: 0.3–4 za mesiac podľa skutočného zaťaženia."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Sieťová batéria I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Odomkne prvú úroveň veľkokapacitného ukladania elektriny."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Sieťová batéria II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Odomkne druhú úroveň veľkokapacitného ukladania elektriny."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Sieťová batéria III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Odomkne tretiu úroveň veľkokapacitného ukladania elektriny."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Kapacita batérie"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} ku kapacite sieťovej batérie"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Výkon batérie"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} k nabíjaciemu a vybíjaciemu výkonu sieťovej batérie"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Základný prefab „{0}“ sa nepodarilo nájsť prostredníctvom „{1}“."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Výskumný uzol „{0}“ už zaberá pozíciu {1} v mriežke."
+  ]
+]

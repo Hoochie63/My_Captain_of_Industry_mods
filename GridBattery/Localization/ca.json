@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Energia emmagatzemada"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Estat: Carregant"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Estat: Descarregant"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Estat: En espera"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Bateria de xarxa I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Emmagatzema electricitat i la retorna a la xarxa elèctrica quan la generació és insuficient. Capacitat: 100,000 kW·s. Potència de càrrega: 250 kW. Potència de descàrrega: 1,000 kW. Eficiència de càrrega: 80%. Manteniment I: 0.1–1 al mes segons la càrrega real."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Bateria de xarxa II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Emmagatzema electricitat i la retorna a la xarxa elèctrica quan la generació és insuficient. Capacitat: 400,000 kW·s. Potència de càrrega: 1,000 kW. Potència de descàrrega: 4,000 kW. Eficiència de càrrega: 90%. Manteniment II: 0.1–2 al mes segons la càrrega real."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Bateria de xarxa III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Emmagatzema electricitat i la retorna a la xarxa elèctrica quan la generació és insuficient. Capacitat: 1,600,000 kW·s. Potència de càrrega: 4,000 kW. Potència de descàrrega: 12,000 kW. Eficiència de càrrega: 94%. Manteniment II: 0.3–4 al mes segons la càrrega real."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Bateria de xarxa I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Desbloqueja el primer nivell d'emmagatzematge elèctric a escala de xarxa."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Bateria de xarxa II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Desbloqueja el segon nivell d'emmagatzematge elèctric a escala de xarxa."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Bateria de xarxa III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Desbloqueja el tercer nivell d'emmagatzematge elèctric a escala de xarxa."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Capacitat de la bateria"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} a la capacitat de la bateria de xarxa"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Potència de la bateria"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} a la potència de càrrega i descàrrega de la bateria de xarxa"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "El prefab original «{0}» no s'ha pogut resoldre mitjançant «{1}»."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "El node de recerca «{0}» ja ocupa la posició {1} de la graella."
+  ]
+]

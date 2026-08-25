@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Opgeslagen energie"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Status: Opladen"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Status: Ontladen"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Status: Wachten"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Netbatterij I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Slaat elektriciteit op en levert die terug aan het elektriciteitsnet wanneer de productie onvoldoende is. Capaciteit: 100,000 kW·s. Laadvermogen: 250 kW. Ontlaadvermogen: 1,000 kW. Laadefficiëntie: 80%. Onderhoud I: 0.1–1 per maand op basis van de werkelijke belasting."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Netbatterij II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Slaat elektriciteit op en levert die terug aan het elektriciteitsnet wanneer de productie onvoldoende is. Capaciteit: 400,000 kW·s. Laadvermogen: 1,000 kW. Ontlaadvermogen: 4,000 kW. Laadefficiëntie: 90%. Onderhoud II: 0.1–2 per maand op basis van de werkelijke belasting."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Netbatterij III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Slaat elektriciteit op en levert die terug aan het elektriciteitsnet wanneer de productie onvoldoende is. Capaciteit: 1,600,000 kW·s. Laadvermogen: 4,000 kW. Ontlaadvermogen: 12,000 kW. Laadefficiëntie: 94%. Onderhoud II: 0.3–4 per maand op basis van de werkelijke belasting."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Netbatterij I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Ontgrendelt het eerste niveau van elektriciteitsopslag op netwerkschaal."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Netbatterij II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Ontgrendelt het tweede niveau van elektriciteitsopslag op netwerkschaal."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Netbatterij III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Ontgrendelt het derde niveau van elektriciteitsopslag op netwerkschaal."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Batterijcapaciteit"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} aan de capaciteit van de netbatterij"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Batterijvermogen"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} aan het laad- en ontlaadvermogen van de netbatterij"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "De standaardprefab '{0}' kon niet worden gevonden via '{1}'."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Onderzoeksknooppunt '{0}' bezet al rasterpositie {1}."
+  ]
+]

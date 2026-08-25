@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Lagret energi"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Status: Oplader"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Status: Aflader"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Status: Venter"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Netbatteri I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Lagrer elektricitet og sender den tilbage til elnettet, når produktionen er utilstrækkelig. Kapacitet: 100,000 kW·s. Ladeeffekt: 250 kW. Afladningseffekt: 1,000 kW. Ladeeffektivitet: 80%. Vedligeholdelse I: 0.1–1 pr. måned baseret på faktisk belastning."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Netbatteri II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Lagrer elektricitet og sender den tilbage til elnettet, når produktionen er utilstrækkelig. Kapacitet: 400,000 kW·s. Ladeeffekt: 1,000 kW. Afladningseffekt: 4,000 kW. Ladeeffektivitet: 90%. Vedligeholdelse II: 0.1–2 pr. måned baseret på faktisk belastning."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Netbatteri III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Lagrer elektricitet og sender den tilbage til elnettet, når produktionen er utilstrækkelig. Kapacitet: 1,600,000 kW·s. Ladeeffekt: 4,000 kW. Afladningseffekt: 12,000 kW. Ladeeffektivitet: 94%. Vedligeholdelse II: 0.3–4 pr. måned baseret på faktisk belastning."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Netbatteri I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Låser op for det første niveau af elopbevaring i net skala."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Netbatteri II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Låser op for det andet niveau af elopbevaring i net skala."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Netbatteri III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Låser op for det tredje niveau af elopbevaring i net skala."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Batterikapacitet"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} til netbatteriets kapacitet"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Batterieffekt"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} til netbatteriets lade- og afladningseffekt"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Standardprefabbet '{0}' kunne ikke findes via '{1}'."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Forskningsknuden '{0}' optager allerede gitterposition {1}."
+  ]
+]

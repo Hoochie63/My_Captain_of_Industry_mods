@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Gespeicherte Energie"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Status: Wird geladen"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Status: Wird entladen"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Status: Wartet"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Netzbatterie I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Speichert Strom und speist ihn bei unzureichender Erzeugung wieder in das Stromnetz ein. Kapazität: 100,000 kW·s. Ladeleistung: 250 kW. Entladeleistung: 1,000 kW. Ladewirkungsgrad: 80%. Wartung I: 0.1–1 pro Monat entsprechend der tatsächlichen Auslastung."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Netzbatterie II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Speichert Strom und speist ihn bei unzureichender Erzeugung wieder in das Stromnetz ein. Kapazität: 400,000 kW·s. Ladeleistung: 1,000 kW. Entladeleistung: 4,000 kW. Ladewirkungsgrad: 90%. Wartung II: 0.1–2 pro Monat entsprechend der tatsächlichen Auslastung."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Netzbatterie III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Speichert Strom und speist ihn bei unzureichender Erzeugung wieder in das Stromnetz ein. Kapazität: 1,600,000 kW·s. Ladeleistung: 4,000 kW. Entladeleistung: 12,000 kW. Ladewirkungsgrad: 94%. Wartung II: 0.3–4 pro Monat entsprechend der tatsächlichen Auslastung."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Netzbatterie I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Schaltet die erste Stufe der netzweiten Stromspeicherung frei."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Netzbatterie II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Schaltet die zweite Stufe der netzweiten Stromspeicherung frei."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Netzbatterie III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Schaltet die dritte Stufe der netzweiten Stromspeicherung frei."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Batteriekapazität"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} zur Kapazität von Netzbatterien"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Batterieleistung"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} zur Lade- und Entladeleistung von Netzbatterien"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Das Vanilla-Prefab „{0}“ konnte über „{1}“ nicht aufgelöst werden."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Der Forschungsknoten „{0}“ belegt bereits die Rasterposition {1}."
+  ]
+]

@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "저장된 에너지"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "상태: 충전 중"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "상태: 방전 중"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "상태: 대기 중"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "계통 배터리 I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "전기를 저장하고 발전량이 부족할 때 전력망으로 돌려보냅니다. 용량: 100,000 kW·s. 충전 전력: 250 kW. 방전 전력: 1,000 kW. 충전 효율: 80%. 유지보수 I: 0.1–1 실제 부하에 따른 월간."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "계통 배터리 II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "전기를 저장하고 발전량이 부족할 때 전력망으로 돌려보냅니다. 용량: 400,000 kW·s. 충전 전력: 1,000 kW. 방전 전력: 4,000 kW. 충전 효율: 90%. 유지보수 II: 0.1–2 실제 부하에 따른 월간."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "계통 배터리 III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "전기를 저장하고 발전량이 부족할 때 전력망으로 돌려보냅니다. 용량: 1,600,000 kW·s. 충전 전력: 4,000 kW. 방전 전력: 12,000 kW. 충전 효율: 94%. 유지보수 II: 0.3–4 실제 부하에 따른 월간."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "계통 배터리 I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "첫 번째 계통 규모 전력 저장 단계를 잠금 해제합니다."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "계통 배터리 II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "두 번째 계통 규모 전력 저장 단계를 잠금 해제합니다."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "계통 배터리 III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "세 번째 계통 규모 전력 저장 단계를 잠금 해제합니다."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "배터리 용량"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "계통 배터리 용량 +{0}"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "배터리 전력"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "계통 배터리 충전 및 방전 전력 +{0}"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "기본 프리팹 '{0}'을(를) '{1}'을(를) 통해 확인할 수 없습니다."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "연구 노드 '{0}'이(가) 이미 그리드 위치 {1}을(를) 차지하고 있습니다."
+  ]
+]

@@ -1,0 +1,15 @@
+v1.0.2 | 2026-08-25
+* Moved all 33 localization catalogs out of GridBattery.dll into editable external JSON files in the mod's Localization directory.
+* Added English fallback when the active locale JSON file is unavailable.
+* Added dedicated, readable research icons for the repeatable capacity and power upgrades.
+
+v1.0.1 | 2026-08-25
+* Added complete localization for 31 additional languages: Bulgarian, Catalan, Simplified Chinese, Traditional Chinese, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian Bokmål, Polish, Portuguese, Brazilian Portuguese, Romanian, Serbian, Slovak, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese.
+* Embedded all 33 localization catalogs in GridBattery.dll and added runtime selection based on Captain of Industry's active culture.
+* Added English fallback for unsupported cultures and validation for UTF-8, key parity, and format placeholders.
+* Added localized publication descriptions and a comprehensive README.md.
+
+v1.0.0 | 2026-08-25
+* Added three upgradeable grid-battery tiers with dedicated lead-acid, Li-ion, and solid-state models.
+* Added persistent energy storage, independent charging and generation priorities, and surplus-power controls.
+* Added tier research, repeatable capacity and power research, load-dependent maintenance, and localized inspector status.

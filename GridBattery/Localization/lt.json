@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Sukaupta energija"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Būsena: Įkraunama"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Būsena: Iškraunama"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Būsena: Laukiama"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Tinklo baterija I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Kaupia elektros energiją ir grąžina ją į elektros tinklą, kai gamybos nepakanka. Talpa: 100,000 kW·s. Įkrovimo galia: 250 kW. Iškrovimo galia: 1,000 kW. Įkrovimo efektyvumas: 80%. Priežiūra I: 0.1–1 per mėnesį pagal faktinę apkrovą."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Tinklo baterija II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Kaupia elektros energiją ir grąžina ją į elektros tinklą, kai gamybos nepakanka. Talpa: 400,000 kW·s. Įkrovimo galia: 1,000 kW. Iškrovimo galia: 4,000 kW. Įkrovimo efektyvumas: 90%. Priežiūra II: 0.1–2 per mėnesį pagal faktinę apkrovą."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Tinklo baterija III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Kaupia elektros energiją ir grąžina ją į elektros tinklą, kai gamybos nepakanka. Talpa: 1,600,000 kW·s. Įkrovimo galia: 4,000 kW. Iškrovimo galia: 12,000 kW. Įkrovimo efektyvumas: 94%. Priežiūra II: 0.3–4 per mėnesį pagal faktinę apkrovą."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Tinklo baterija I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Atrakina pirmąjį tinklo masto elektros kaupimo lygį."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Tinklo baterija II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Atrakina antrąjį tinklo masto elektros kaupimo lygį."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Tinklo baterija III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Atrakina trečiąjį tinklo masto elektros kaupimo lygį."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Baterijos talpa"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} tinklo baterijos talpai"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Baterijos galia"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} tinklo baterijos įkrovimo ir iškrovimo galiai"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Standartinio prefab'o „{0}“ nepavyko rasti per „{1}“."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Tyrimo mazgas „{0}“ jau užima tinklelio poziciją {1}."
+  ]
+]

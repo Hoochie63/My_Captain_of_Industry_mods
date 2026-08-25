@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Zmagazynowana energia"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Stan: Ładowanie"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Stan: Rozładowywanie"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Stan: Oczekiwanie"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Bateria sieciowa I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Magazynuje energię elektryczną i oddaje ją do sieci, gdy produkcja jest niewystarczająca. Pojemność: 100,000 kW·s. Moc ładowania: 250 kW. Moc rozładowania: 1,000 kW. Sprawność ładowania: 80%. Konserwacja I: 0.1–1 miesięcznie zależnie od rzeczywistego obciążenia."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Bateria sieciowa II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Magazynuje energię elektryczną i oddaje ją do sieci, gdy produkcja jest niewystarczająca. Pojemność: 400,000 kW·s. Moc ładowania: 1,000 kW. Moc rozładowania: 4,000 kW. Sprawność ładowania: 90%. Konserwacja II: 0.1–2 miesięcznie zależnie od rzeczywistego obciążenia."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Bateria sieciowa III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Magazynuje energię elektryczną i oddaje ją do sieci, gdy produkcja jest niewystarczająca. Pojemność: 1,600,000 kW·s. Moc ładowania: 4,000 kW. Moc rozładowania: 12,000 kW. Sprawność ładowania: 94%. Konserwacja II: 0.3–4 miesięcznie zależnie od rzeczywistego obciążenia."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Bateria sieciowa I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Odblokowuje pierwszy poziom magazynowania energii elektrycznej w skali sieci."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Bateria sieciowa II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Odblokowuje drugi poziom magazynowania energii elektrycznej w skali sieci."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Bateria sieciowa III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Odblokowuje trzeci poziom magazynowania energii elektrycznej w skali sieci."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Pojemność baterii"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} do pojemności baterii sieciowej"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Moc baterii"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} do mocy ładowania i rozładowania baterii sieciowej"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Nie udało się rozpoznać standardowego prefabu „{0}” za pomocą „{1}”."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Węzeł badań „{0}” zajmuje już pozycję {1} na siatce."
+  ]
+]

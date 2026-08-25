@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Lagrad energi"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Status: Laddar"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Status: Laddar ur"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Status: Väntar"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Nätbatteri I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Lagrar elektricitet och återför den till elnätet när produktionen är otillräcklig. Kapacitet: 100,000 kW·s. Laddeffekt: 250 kW. Urladdningseffekt: 1,000 kW. Laddningseffektivitet: 80%. Underhåll I: 0.1–1 per månad baserat på faktisk belastning."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Nätbatteri II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Lagrar elektricitet och återför den till elnätet när produktionen är otillräcklig. Kapacitet: 400,000 kW·s. Laddeffekt: 1,000 kW. Urladdningseffekt: 4,000 kW. Laddningseffektivitet: 90%. Underhåll II: 0.1–2 per månad baserat på faktisk belastning."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Nätbatteri III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Lagrar elektricitet och återför den till elnätet när produktionen är otillräcklig. Kapacitet: 1,600,000 kW·s. Laddeffekt: 4,000 kW. Urladdningseffekt: 12,000 kW. Laddningseffektivitet: 94%. Underhåll II: 0.3–4 per månad baserat på faktisk belastning."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Nätbatteri I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Låser upp den första nivån av elenergilagring i nätskala."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Nätbatteri II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Låser upp den andra nivån av elenergilagring i nätskala."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Nätbatteri III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Låser upp den tredje nivån av elenergilagring i nätskala."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Batterikapacitet"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} till nätbatteriets kapacitet"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Batterieffekt"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} till nätbatteriets laddnings- och urladdningseffekt"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Standardprefaben ”{0}” kunde inte hittas via ”{1}”."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Forskningsnoden ”{0}” upptar redan rutnätsposition {1}."
+  ]
+]

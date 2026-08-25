@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Năng lượng đã lưu trữ"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Trạng thái: Đang sạc"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Trạng thái: Đang xả"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Trạng thái: Đang chờ"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Pin lưới điện I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Lưu trữ điện và trả lại lưới điện khi sản lượng phát điện không đủ. Dung lượng: 100,000 kW·s. Công suất sạc: 250 kW. Công suất xả: 1,000 kW. Hiệu suất sạc: 80%. Bảo trì I: 0.1–1 mỗi tháng dựa trên tải thực tế."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Pin lưới điện II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Lưu trữ điện và trả lại lưới điện khi sản lượng phát điện không đủ. Dung lượng: 400,000 kW·s. Công suất sạc: 1,000 kW. Công suất xả: 4,000 kW. Hiệu suất sạc: 90%. Bảo trì II: 0.1–2 mỗi tháng dựa trên tải thực tế."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Pin lưới điện III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Lưu trữ điện và trả lại lưới điện khi sản lượng phát điện không đủ. Dung lượng: 1,600,000 kW·s. Công suất sạc: 4,000 kW. Công suất xả: 12,000 kW. Hiệu suất sạc: 94%. Bảo trì II: 0.3–4 mỗi tháng dựa trên tải thực tế."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Pin lưới điện I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Mở khóa cấp lưu trữ điện quy mô lưới đầu tiên."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Pin lưới điện II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Mở khóa cấp lưu trữ điện quy mô lưới thứ hai."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Pin lưới điện III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Mở khóa cấp lưu trữ điện quy mô lưới thứ ba."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Dung lượng pin"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} dung lượng pin lưới điện"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Công suất pin"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} công suất sạc và xả của pin lưới điện"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Không thể tìm prefab gốc '{0}' thông qua '{1}'."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Nút nghiên cứu '{0}' đã chiếm vị trí lưới {1}."
+  ]
+]

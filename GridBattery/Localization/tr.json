@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Depolanan enerji"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Durum: Şarj oluyor"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Durum: Deşarj oluyor"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Durum: Bekliyor"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Şebeke bataryası I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Elektriği depolar ve üretim yetersiz olduğunda elektrik şebekesine geri verir. Kapasite: 100,000 kW·s. Şarj gücü: 250 kW. Deşarj gücü: 1,000 kW. Şarj verimliliği: 80%. Bakım I: 0.1–1 gerçek yüke göre aylık."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Şebeke bataryası II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Elektriği depolar ve üretim yetersiz olduğunda elektrik şebekesine geri verir. Kapasite: 400,000 kW·s. Şarj gücü: 1,000 kW. Deşarj gücü: 4,000 kW. Şarj verimliliği: 90%. Bakım II: 0.1–2 gerçek yüke göre aylık."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Şebeke bataryası III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Elektriği depolar ve üretim yetersiz olduğunda elektrik şebekesine geri verir. Kapasite: 1,600,000 kW·s. Şarj gücü: 4,000 kW. Deşarj gücü: 12,000 kW. Şarj verimliliği: 94%. Bakım II: 0.3–4 gerçek yüke göre aylık."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Şebeke bataryası I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Şebeke ölçekli elektrik depolamanın ilk kademesini açar."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Şebeke bataryası II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Şebeke ölçekli elektrik depolamanın ikinci kademesini açar."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Şebeke bataryası III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Şebeke ölçekli elektrik depolamanın üçüncü kademesini açar."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Batarya kapasitesi"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "Şebeke bataryası kapasitesine +{0}"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Batarya gücü"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "Şebeke bataryası şarj ve deşarj gücüne +{0}"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Temel '{0}' prefabı '{1}' üzerinden çözümlenemedi."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "'{0}' araştırma düğümü zaten {1} ızgara konumunu işgal ediyor."
+  ]
+]

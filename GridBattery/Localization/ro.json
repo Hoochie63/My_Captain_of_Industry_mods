@@ -1,0 +1,90 @@
+[
+  [
+    "GridBattery.UI.StoredEnergy",
+    "Energie stocată"
+  ],
+  [
+    "GridBattery.UI.Status.Charging",
+    "Stare: Încărcare"
+  ],
+  [
+    "GridBattery.UI.Status.Discharging",
+    "Stare: Descărcare"
+  ],
+  [
+    "GridBattery.UI.Status.Waiting",
+    "Stare: Așteptare"
+  ],
+  [
+    "GridBattery.Buildings.T1.Name",
+    "Baterie de rețea I"
+  ],
+  [
+    "GridBattery.Buildings.T1.Description",
+    "Stochează energie electrică și o returnează în rețea atunci când producția este insuficientă. Capacitate: 100,000 kW·s. Putere de încărcare: 250 kW. Putere de descărcare: 1,000 kW. Eficiența încărcării: 80%. Întreținere I: 0.1–1 pe lună în funcție de sarcina reală."
+  ],
+  [
+    "GridBattery.Buildings.T2.Name",
+    "Baterie de rețea II"
+  ],
+  [
+    "GridBattery.Buildings.T2.Description",
+    "Stochează energie electrică și o returnează în rețea atunci când producția este insuficientă. Capacitate: 400,000 kW·s. Putere de încărcare: 1,000 kW. Putere de descărcare: 4,000 kW. Eficiența încărcării: 90%. Întreținere II: 0.1–2 pe lună în funcție de sarcina reală."
+  ],
+  [
+    "GridBattery.Buildings.T3.Name",
+    "Baterie de rețea III"
+  ],
+  [
+    "GridBattery.Buildings.T3.Description",
+    "Stochează energie electrică și o returnează în rețea atunci când producția este insuficientă. Capacitate: 1,600,000 kW·s. Putere de încărcare: 4,000 kW. Putere de descărcare: 12,000 kW. Eficiența încărcării: 94%. Întreținere II: 0.3–4 pe lună în funcție de sarcina reală."
+  ],
+  [
+    "GridBattery.Research.T1.Name",
+    "Baterie de rețea I"
+  ],
+  [
+    "GridBattery.Research.T1.Description",
+    "Deblochează primul nivel de stocare a energiei electrice la scara rețelei."
+  ],
+  [
+    "GridBattery.Research.T2.Name",
+    "Baterie de rețea II"
+  ],
+  [
+    "GridBattery.Research.T2.Description",
+    "Deblochează al doilea nivel de stocare a energiei electrice la scara rețelei."
+  ],
+  [
+    "GridBattery.Research.T3.Name",
+    "Baterie de rețea III"
+  ],
+  [
+    "GridBattery.Research.T3.Description",
+    "Deblochează al treilea nivel de stocare a energiei electrice la scara rețelei."
+  ],
+  [
+    "GridBattery.Research.Capacity.Name",
+    "Capacitatea bateriei"
+  ],
+  [
+    "GridBattery.Research.Capacity.Description",
+    "+{0} la capacitatea bateriei de rețea"
+  ],
+  [
+    "GridBattery.Research.Power.Name",
+    "Puterea bateriei"
+  ],
+  [
+    "GridBattery.Research.Power.Description",
+    "+{0} la puterea de încărcare și descărcare a bateriei de rețea"
+  ],
+  [
+    "GridBattery.Validation.PrefabMismatch",
+    "Prefab-ul standard „{0}” nu a fost găsit prin „{1}”."
+  ],
+  [
+    "GridBattery.Validation.ResearchPositionConflict",
+    "Nodul de cercetare „{0}” ocupă deja poziția {1} din grilă."
+  ]
+]
