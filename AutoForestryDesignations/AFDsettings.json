@@ -1,5 +1,8 @@
 {
-  "settingsVersion": "0.4.0",
+  "settingsVersion": "0.4.1",
+
+  "_comment_diagnosticLevel": "Controls AFD diagnostic output. Default selects Debug in Debug builds and Info in Release builds. Warning keeps only warnings/errors; Info adds concise operational messages; Debug adds scan summaries and calculations; Trace adds per-vehicle claim and staging details. The afd_diagnostic_level command overrides this for the current session. Allowed: Default, Warning, Info, Debug, Trace.",
+  "diagnosticLevel": "Default",
 
   "_comment": "AutoForestryDesignations settings. These values set the world defaults loaded at game start. Tower-specific settings are saved in the mod cache.",
 
