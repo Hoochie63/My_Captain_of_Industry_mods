@@ -28,10 +28,10 @@
     "The cargo ship departs automatically when there is enough cargo to collect on the world map.": "Грузовое судно автоматически отправляется, когда на «Карте мира» накопилось достаточно груза для перевозки.",
     "Cargo Ship T5": "Грузовое судно, ур. V",
     "Cargo Ship T6": "Грузовое судно, ур. VI",
-    "Concrete surface (Darker)": "Тёмный бетонный фундамент",
+    "Concrete surface (Darker)": "Тёмный бетон",
     "A darker variant of the standard concrete surface. Same durability and cost.": "Более тёмный вариант стандартного бетонного фундамента. Та же прочность и стоимость.",
-    "Reinforced surface (Darker)": "Тёмный армированный фундамент",
-    "A darker variant of the standard reinforced surface. Same durability and cost.": "Более тёмный вариант стандартного армированного фундамента. Та же прочность и стоимость.",
+    "Reinforced surface (Darker)": "Тёмный железобетон",
+    "A darker variant of the standard reinforced surface. Same durability and cost.": "Более тёмный вариант стандартного железобетонного фундамента. Та же прочность и стоимость.",
     "Cargo Ship Drydock research enables construction of dedicated cargo ships, expanding your fleet’s capacity for resource transport to support naval operations. It unlocks specialized drydocks, streamlining shipbuilding for logistical efficiency. This upgrade bolsters your factory’s maritime supply chain.": "Исследование «Сухой док грузовых судов» открывает возможность строительства специализированных грузовых судов, расширяя Ваш флот для поддержки морских грузоперевозок. Разблокирует специализированные сухие доки, ускоряющие судостроение и повышающие логистическую эффективность. Это улучшение позволяет сделать более эффективную морскую цепочку поставок для Вашей фабрики.",
     "Conveyor Belts IV": "Транспортёры IV",
     "Conveyor belts with an increase throughput.": "Конвейерные ленты с повышенной пропускной способностью.",
@@ -42,7 +42,7 @@
     "Darker!": "Темнее!",
     "Unlocks new darker variant of the concrete surfaces.": "Разблокирует новый тёмный вариант бетонного фундамента.",
     "Darker to!": "Нужно больше тёмного!",
-    "Unlocks new darker variant of the reinforced surfaces.": "Разблокирует новый тёмный вариант армированного фундамента.",
+    "Unlocks new darker variant of the reinforced surfaces.": "Разблокирует новый тёмный вариант железобетонного фундамента.",
 
     "Build Cargo Ship": "Построить грузовое судно"
 }
