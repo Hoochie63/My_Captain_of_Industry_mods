@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Podziemne rury w obszarze rozbiórki",
+  "DemolitionPrompt": "Obszar rozbiórki zawiera budynki i <b>podziemne rury cieczy</b>. Czy te rury również mają zostać rozebrane?",
+  "DemolishAll": "Rozbierz wszystko",
+  "IgnorePipes": "Pomiń rury",
+  "SelectionCrossesPipesWarning": "Ostrzeżenie: Czerwony obszar zaznaczenia przecina podziemne rury cieczy!",
+  "BuriedPipeWarning": "Ostrzeżenie: Podziemna rura cieczy!",
+  "MiningAreaCrossesPipesWarning": "Ostrzeżenie: Obszar wydobycia przecina podziemne rury cieczy!",
+  "UndergroundView": "Widok podziemnych rur",
+  "DepthFormat": "Głębokość: {0}",
+  "CopyTitle": "Podziemne rury w obszarze kopiowania",
+  "CopyPrompt": "Obszar kopiowania zawiera budynki i <b>podziemne rury cieczy</b>. Skopiować również te rury?",
+  "Yes": "Tak",
+  "No": "Nie",
+  "DemolitionDepthTitle": "Głębokość rozbiórki",
+  "AllDepths": "Wszystkie"
+}

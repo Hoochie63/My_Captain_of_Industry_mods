@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Maa-alused torud lammutusalal",
+  "DemolitionPrompt": "Lammutusala sisaldab hooneid ja <b>maa-aluseid vedelikutorusid</b>. Kas need torud tuleb samuti lammutada?",
+  "DemolishAll": "Lammuta kõik",
+  "IgnorePipes": "Jäta torud alles",
+  "SelectionCrossesPipesWarning": "Hoiatus: Punane valikuala ristub maa-aluste vedelikutorudega!",
+  "BuriedPipeWarning": "Hoiatus: Maa-alune vedelikutoru!",
+  "MiningAreaCrossesPipesWarning": "Hoiatus: Kaevandusala ristub maa-aluste vedelikutorudega!",
+  "UndergroundView": "Maa-aluste torude vaade",
+  "DepthFormat": "Sügavus: {0}",
+  "CopyTitle": "Maa-alused torud kopeerimisalal",
+  "CopyPrompt": "Kopeerimisala sisaldab hooneid ja <b>maa-aluseid vedelikutorusid</b>. Kas need torud samuti kopeerida?",
+  "Yes": "Jah",
+  "No": "Ei",
+  "DemolitionDepthTitle": "Lammutussügavus",
+  "AllDepths": "Kõik"
+}

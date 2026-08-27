@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Ondergrondse leidingen in het sloopgebied",
+  "DemolitionPrompt": "Het sloopgebied bevat gebouwen en <b>ondergrondse vloeistofleidingen</b>. Moeten deze leidingen ook worden gesloopt?",
+  "DemolishAll": "Alles slopen",
+  "IgnorePipes": "Leidingen negeren",
+  "SelectionCrossesPipesWarning": "Waarschuwing: het rode selectiegebied kruist ondergrondse vloeistofleidingen!",
+  "BuriedPipeWarning": "Waarschuwing: ondergrondse vloeistofleiding!",
+  "MiningAreaCrossesPipesWarning": "Waarschuwing: het mijngebied kruist ondergrondse vloeistofleidingen!",
+  "UndergroundView": "Ondergrondse leidingenweergave",
+  "DepthFormat": "Diepte: {0}",
+  "CopyTitle": "Ondergrondse leidingen in het kopieergebied",
+  "CopyPrompt": "Het kopieergebied bevat gebouwen en <b>ondergrondse vloeistofleidingen</b>. Ook deze leidingen kopiëren?",
+  "Yes": "Ja",
+  "No": "Nee",
+  "DemolitionDepthTitle": "Sloopdiepte",
+  "AllDepths": "Alle"
+}

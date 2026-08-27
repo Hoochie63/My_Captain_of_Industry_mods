@@ -1,3 +1,52 @@
+1.3.1
+- Alle Mod-Uebersetzungen liegen jetzt als einzelne, editierbare UTF-8-JSON-
+  Dateien im externen Ordner "translations". Jede der 21 unterstuetzten
+  Spielsprachen besitzt eine eigene Datei.
+- Uebersetzer koennen Texte ohne Quellcode oder Neukompilierung bearbeiten.
+  Schluessel, Platzhalter und die hervorgehobenen Dialogtexte werden in einer
+  mitgelieferten README erklaert.
+- Fehlende, leere oder ungueltige Texte fallen einzeln auf den eingebauten
+  englischen Standard zurueck. Eine fehlerhafte Sprachdatei verhindert damit
+  weder den Spielstart noch das Laden eines Spielstands.
+- Persoenliche Sprachkorrekturen koennen im ModConfigs-Ordner ausserhalb des
+  eigentlichen Modpakets gespeichert werden. Diese partiellen Overrides werden
+  zuletzt geladen und bleiben bei normalen Mod-Updates erhalten.
+- Die mitgelieferte Harmony-Laufzeit wurde von 2.2.2 auf 2.4.2 aktualisiert.
+  Dadurch koennen Mods wie "Underground Transport" und "Industrial Expansion"
+  unabhaengig von der Ladereihenfolge gemeinsam mit Underground Pipes geladen
+  werden.
+- Ein Absturz mit "Method not found: Harmony.PatchCategory(string)" wurde
+  behoben. Dieser konnte auftreten, wenn Underground Pipes zuerst die aeltere
+  Harmony-Version geladen hatte und danach ein Mod Funktionen aus Harmony 2.4
+  verwenden wollte.
+- Harmony 2.4.2 liegt nun als feste Projektabhaengigkeit im Modprojekt. Der
+  Build greift nicht mehr versehentlich auf die DLL eines anderen installierten
+  Mods zurueck.
+- Der Patch-Satz bleibt mit einer bereits zuerst geladenen Harmony-Version
+  2.2.2 kompatibel, verwendet im eigenen Paket aber immer Version 2.4.2.
+  Eine bereits von einem beliebigen weiteren Mod geladene alte Harmony-DLL
+  kann technisch nicht waehrend derselben Spielsitzung ersetzt werden.
+
+1.3.0
+- Die Leistung beim Verschieben grosser Kopiervorschauen mit unterirdischen
+  Rohren wurde deutlich verbessert.
+- Grosse Blaupausen reduzieren reine Positionsaktualisierungen automatisch;
+  Hoehenaenderungen und das Platzieren werden weiterhin sofort verarbeitet.
+- Rohrmodelle, Anschluesse und Gelaendeergebnisse der Vorschau werden
+  zwischengespeichert und beim Verschieben wiederverwendet.
+- Das bestehende Untergrundnetz bleibt bei gemischten Kopien stabil und wird
+  nicht mehr fortlaufend geloescht und neu aufgebaut.
+- Animierte Richtungspfeile werden gebuendelt und verursachen weniger
+  Mesh-Aktualisierungen, GPU-Uploads und Speicherbereinigungen.
+- Vorschau- und Overlay-Caches werden beim Werkzeugende vollstaendig
+  freigegeben, damit sich keine veralteten Objekte im Speicher ansammeln.
+
+1.2.2
+- Die Tiefenfenster mit "Alle" und -1 bis -6 koennen jetzt wie native
+  Spielfenster an ihrer Titelleiste mit der Maus verschoben werden. Bau- und
+  Abrisswerkzeug verwenden dieselbe Position; das Spiel speichert sie lokal
+  und stellt sie auch nach einem Neustart wieder her.
+
 1.2.1
 - Die animierten Richtungspfeile eines zusammenhaengenden Rohrabschnitts
   werden jetzt in einem einzigen dynamischen Mesh zusammengefasst. Beim

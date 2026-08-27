@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Tuberías subterráneas en el área de demolición",
+  "DemolitionPrompt": "El área de demolición contiene edificios y <b>tuberías de líquidos subterráneas</b>. ¿También se deben demoler estas tuberías?",
+  "DemolishAll": "Demoler todo",
+  "IgnorePipes": "Ignorar tuberías",
+  "SelectionCrossesPipesWarning": "Advertencia: ¡El área de selección roja cruza tuberías de líquidos subterráneas!",
+  "BuriedPipeWarning": "Advertencia: ¡Tubería de líquido subterránea!",
+  "MiningAreaCrossesPipesWarning": "Advertencia: ¡El área de minería cruza tuberías de líquidos subterráneas!",
+  "UndergroundView": "Vista de tuberías subterráneas",
+  "DepthFormat": "Profundidad: {0}",
+  "CopyTitle": "Tuberías subterráneas en el área de copia",
+  "CopyPrompt": "El área de copia contiene edificios y <b>tuberías de líquidos subterráneas</b>. ¿Copiar también estas tuberías?",
+  "Yes": "Sí",
+  "No": "No",
+  "DemolitionDepthTitle": "Profundidad de demolición",
+  "AllDepths": "Todas"
+}

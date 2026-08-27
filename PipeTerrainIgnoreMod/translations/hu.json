@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Föld alatti csövek a bontási területen",
+  "DemolitionPrompt": "A bontási terület épületeket és <b>föld alatti folyadékcsöveket</b> tartalmaz. Ezeket a csöveket is lebontod?",
+  "DemolishAll": "Minden bontása",
+  "IgnorePipes": "Csövek kihagyása",
+  "SelectionCrossesPipesWarning": "Figyelem: A piros kijelölési terület föld alatti folyadékcsöveket keresztez!",
+  "BuriedPipeWarning": "Figyelem: Föld alatti folyadékcső!",
+  "MiningAreaCrossesPipesWarning": "Figyelem: A bányászati terület föld alatti folyadékcsöveket keresztez!",
+  "UndergroundView": "Föld alatti csövek nézete",
+  "DepthFormat": "Mélység: {0}",
+  "CopyTitle": "Föld alatti csövek a másolási területen",
+  "CopyPrompt": "A másolási terület épületeket és <b>föld alatti folyadékcsöveket</b> tartalmaz. Ezeket a csöveket is másolja?",
+  "Yes": "Igen",
+  "No": "Nem",
+  "DemolitionDepthTitle": "Bontási mélység",
+  "AllDepths": "Mind"
+}

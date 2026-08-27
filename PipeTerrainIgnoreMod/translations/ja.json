@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "解体範囲内の地下パイプ",
+  "DemolitionPrompt": "解体範囲には建物と<b>地下の液体パイプ</b>が含まれています。これらのパイプも解体しますか？",
+  "DemolishAll": "すべて解体",
+  "IgnorePipes": "パイプを除外",
+  "SelectionCrossesPipesWarning": "警告：赤い選択範囲が地下の液体パイプと交差しています！",
+  "BuriedPipeWarning": "警告：地下の液体パイプ！",
+  "MiningAreaCrossesPipesWarning": "警告：採掘エリアが地下の液体パイプと交差しています！",
+  "UndergroundView": "地下パイプ表示",
+  "DepthFormat": "深さ: {0}",
+  "CopyTitle": "コピー範囲内の地下パイプ",
+  "CopyPrompt": "コピー範囲には建物と<b>地下の液体パイプ</b>が含まれています。これらのパイプもコピーしますか？",
+  "Yes": "はい",
+  "No": "いいえ",
+  "DemolitionDepthTitle": "解体の深さ",
+  "AllDepths": "すべて"
+}

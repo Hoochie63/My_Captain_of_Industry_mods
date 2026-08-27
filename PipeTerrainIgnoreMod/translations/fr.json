@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Canalisations souterraines dans la zone de démolition",
+  "DemolitionPrompt": "La zone de démolition contient des bâtiments et des <b>canalisations de liquide souterraines</b>. Faut-il également démolir ces canalisations ?",
+  "DemolishAll": "Tout démolir",
+  "IgnorePipes": "Ignorer les canalisations",
+  "SelectionCrossesPipesWarning": "Attention : la zone de sélection rouge traverse des canalisations de liquide souterraines !",
+  "BuriedPipeWarning": "Attention : canalisation de liquide souterraine !",
+  "MiningAreaCrossesPipesWarning": "Attention : la zone minière traverse des canalisations de liquide souterraines !",
+  "UndergroundView": "Vue des canalisations souterraines",
+  "DepthFormat": "Profondeur : {0}",
+  "CopyTitle": "Conduites souterraines dans la zone de copie",
+  "CopyPrompt": "La zone de copie contient des bâtiments et des <b>conduites de liquide souterraines</b>. Copier aussi ces conduites ?",
+  "Yes": "Oui",
+  "No": "Non",
+  "DemolitionDepthTitle": "Profondeur de démolition",
+  "AllDepths": "Toutes"
+}

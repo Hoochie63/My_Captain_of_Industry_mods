@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Tubi sotterranei nell'area di demolizione",
+  "DemolitionPrompt": "L'area di demolizione contiene edifici e <b>tubi per liquidi sotterranei</b>. Demolire anche questi tubi?",
+  "DemolishAll": "Demolisci tutto",
+  "IgnorePipes": "Ignora tubi",
+  "SelectionCrossesPipesWarning": "Attenzione: l'area di selezione rossa attraversa tubi per liquidi sotterranei!",
+  "BuriedPipeWarning": "Attenzione: tubo per liquidi sotterraneo!",
+  "MiningAreaCrossesPipesWarning": "Attenzione: l'area mineraria attraversa tubi per liquidi sotterranei!",
+  "UndergroundView": "Vista tubi sotterranei",
+  "DepthFormat": "Profondità: {0}",
+  "CopyTitle": "Tubi sotterranei nell'area di copia",
+  "CopyPrompt": "L'area di copia contiene edifici e <b>tubi per liquidi sotterranei</b>. Copiare anche questi tubi?",
+  "Yes": "Sì",
+  "No": "No",
+  "DemolitionDepthTitle": "Profondità demolizione",
+  "AllDepths": "Tutte"
+}

@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Podzemní potrubí v oblasti demolice",
+  "DemolitionPrompt": "Oblast demolice obsahuje budovy a <b>podzemní potrubí pro kapaliny</b>. Mají se zbourat i tato potrubí?",
+  "DemolishAll": "Zbourat vše",
+  "IgnorePipes": "Vynechat potrubí",
+  "SelectionCrossesPipesWarning": "Varování: Červená oblast výběru protíná podzemní potrubí pro kapaliny!",
+  "BuriedPipeWarning": "Varování: Podzemní potrubí pro kapaliny!",
+  "MiningAreaCrossesPipesWarning": "Varování: Těžební oblast protíná podzemní potrubí pro kapaliny!",
+  "UndergroundView": "Zobrazení podzemních potrubí",
+  "DepthFormat": "Hloubka: {0}",
+  "CopyTitle": "Podzemní potrubí v oblasti kopírování",
+  "CopyPrompt": "Oblast kopírování obsahuje budovy a <b>podzemní potrubí pro kapaliny</b>. Kopírovat také tato potrubí?",
+  "Yes": "Ano",
+  "No": "Ne",
+  "DemolitionDepthTitle": "Hloubka demolice",
+  "AllDepths": "Všechny"
+}

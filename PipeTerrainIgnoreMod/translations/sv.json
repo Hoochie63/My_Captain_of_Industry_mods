@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Underjordiska rör i rivningsområdet",
+  "DemolitionPrompt": "Rivningsområdet innehåller byggnader och <b>underjordiska vätskerör</b>. Ska även dessa rör rivas?",
+  "DemolishAll": "Riv allt",
+  "IgnorePipes": "Ignorera rör",
+  "SelectionCrossesPipesWarning": "Varning: Det röda markeringsområdet korsar underjordiska vätskerör!",
+  "BuriedPipeWarning": "Varning: Underjordiskt vätskerör!",
+  "MiningAreaCrossesPipesWarning": "Varning: Gruvområdet korsar underjordiska vätskerör!",
+  "UndergroundView": "Visa underjordiska rör",
+  "DepthFormat": "Djup: {0}",
+  "CopyTitle": "Underjordiska rör i kopieringsområdet",
+  "CopyPrompt": "Kopieringsområdet innehåller byggnader och <b>underjordiska vätskerör</b>. Ska även dessa rör kopieras?",
+  "Yes": "Ja",
+  "No": "Nej",
+  "DemolitionDepthTitle": "Rivningsdjup",
+  "AllDepths": "Alla"
+}

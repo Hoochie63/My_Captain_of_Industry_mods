@@ -1,4 +1,4 @@
-Underground Pipes 1.2.1
+Underground Pipes 1.3.1
 =======================
 
 Dieser Mod erlaubt es, Rohre durch das Gelaende zu bauen.
@@ -13,9 +13,22 @@ Rohrverbinder und Rohr-Ausgleicher:
   Versionen 2.2.2 bis 2.4.2 kompatibel. Auch wenn ein anderer Mod Harmony
   zuerst laedt, bleiben Rohrvorschauen, andere Transporte und Anschluesse
   funktionsfaehig.
+- Der Mod liefert Harmony 2.4.2 mit. Damit ist die Ladereihenfolge von
+  Underground Pipes, Underground Transport und Industrial Expansion
+  untereinander unkritisch. Laedt ein anderer, aelterer Mod bereits vorher
+  Harmony 2.2.2, kann das Spiel diese laufende DLL nicht nachtraeglich auf
+  2.4.2 aktualisieren; der Patch-Satz von Underground Pipes funktioniert aber
+  auch in diesem Fall weiterhin.
 - Alle sichtbaren Mod-Texte folgen automatisch der im Spiel gewaehlten
   Sprache. Alle mit Captain of Industry 0.8.7 ausgelieferten Sprachen werden
   unterstuetzt; unbekannte Sprachen verwenden Englisch.
+- Alle 21 Sprachen liegen als editierbare UTF-8-JSON-Dateien im Ordner
+  "translations". Hinweise fuer Uebersetzer stehen in dessen README.txt.
+  Fehlende oder fehlerhafte Eintraege fallen einzeln auf Englisch zurueck.
+- Persoenliche Korrekturen koennen update-sicher unter
+  "%APPDATA%\Captain of Industry\ModConfigs\PipeTerrainIgnoreMod\translations"
+  abgelegt werden. Eine solche Datei darf auch nur die geaenderten
+  Uebersetzungsschluessel enthalten.
 - Die Wegsuche ignoriert Geländekollisionen fuer Rohre.
 - Die endgueltige Baupruefung akzeptiert vergrabene Rohrabschnitte.
 - Unterirdische Abschnitte gelten als vom umgebenden Gelaende getragen.
@@ -30,7 +43,9 @@ Rohrverbinder und Rohr-Ausgleicher:
   die anderen Ebenen werden vollstaendig ausgeblendet. Die aktuelle
   Rohrvorschau und ihre mit Hoch/Runter gewaehlte Bauhoehe bleiben davon
   unberuehrt. Das Fenster kann fuer die aktuelle Bausitzung geschlossen
-  werden.
+  werden. Seine Titelleiste ist mit der Maus verschiebbar; dieselbe gespeicherte
+  Position wird auch vom Tiefenfenster des Abrisswerkzeugs verwendet und nach
+  einem Spielneustart wiederhergestellt.
 - Die Gelaendekollision wird fuer die Wegsuche nur gelockert, wenn Start oder
   Ziel des geplanten Rohrabschnitts bewusst unter dem lokalen Gelaende liegt.
   Ein normal auf der Oberflaeche gebautes Rohr taucht deshalb nicht mehr
@@ -75,6 +90,14 @@ Rohrverbinder und Rohr-Ausgleicher:
   einem gemeinsamen dynamischen Mesh dargestellt. Dadurch muss die bewegte
   Vorschau einer kopierten Anlage nicht mehr fuer jeden Pfeil ein separates
   Unity-Objekt, einen Renderer und einen Animator erzeugen.
+- Beim Verschieben einer kopierten Anlage bleibt das Roentgenmodell des
+  bereits gebauten Untergrundnetzes bestehen. Interne Neuerzeugungen der
+  Transportvorschau loeschen und erstellen deshalb nicht mehr bei jeder
+  Mausbewegung das gesamte vorhandene Rohr-Overlay neu. Auch Foerderbaender,
+  Schuettgutbaender und andere Nicht-Fluessigkeitstransporte innerhalb einer
+  gemischten Kopie lassen den gemeinsamen Rohr-Cache unveraendert. Diese
+  Optimierung gilt mit ein- und ausgeschaltetem Schalter fuer die dauerhafte
+  Untergrundansicht.
 - Beim Abrisswerkzeug werden vergrabene Rohre als gelb-orange Warnansicht
   durch das Gelaende sichtbar und beim Verlassen wieder ausgeblendet. Auch
   die unterirdischen Verbinder und Ausgleicher werden dabei hervorgehoben.

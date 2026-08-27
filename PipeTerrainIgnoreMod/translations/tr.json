@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Yıkım alanındaki yer altı boruları",
+  "DemolitionPrompt": "Yıkım alanında binalar ve <b>yer altı sıvı boruları</b> var. Bu borular da yıkılsın mı?",
+  "DemolishAll": "Tümünü yık",
+  "IgnorePipes": "Boruları yoksay",
+  "SelectionCrossesPipesWarning": "Uyarı: Kırmızı seçim alanı yer altı sıvı borularını kesiyor!",
+  "BuriedPipeWarning": "Uyarı: Yer altı sıvı borusu!",
+  "MiningAreaCrossesPipesWarning": "Uyarı: Maden alanı yer altı sıvı borularını kesiyor!",
+  "UndergroundView": "Yer altı boru görünümü",
+  "DepthFormat": "Derinlik: {0}",
+  "CopyTitle": "Kopyalama alanındaki yer altı boruları",
+  "CopyPrompt": "Kopyalama alanında binalar ve <b>yer altı sıvı boruları</b> var. Bu borular da kopyalansın mı?",
+  "Yes": "Evet",
+  "No": "Hayır",
+  "DemolitionDepthTitle": "Yıkım derinliği",
+  "AllDepths": "Tümü"
+}

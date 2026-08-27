@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Canonades subterrànies a l'àrea de demolició",
+  "DemolitionPrompt": "L'àrea de demolició conté edificis i <b>canonades subterrànies de líquids</b>. També s'han d'enderrocar aquestes canonades?",
+  "DemolishAll": "Enderroca-ho tot",
+  "IgnorePipes": "Ignora les canonades",
+  "SelectionCrossesPipesWarning": "Avís: l'àrea de selecció vermella creua canonades subterrànies de líquids!",
+  "BuriedPipeWarning": "Avís: canonada subterrània de líquids!",
+  "MiningAreaCrossesPipesWarning": "Avís: l'àrea minera creua canonades subterrànies de líquids!",
+  "UndergroundView": "Vista de canonades subterrànies",
+  "DepthFormat": "Profunditat: {0}",
+  "CopyTitle": "Canonades subterrànies a l'àrea de còpia",
+  "CopyPrompt": "L'àrea de còpia conté edificis i <b>canonades subterrànies de líquids</b>. També s'han de copiar aquestes canonades?",
+  "Yes": "Sí",
+  "No": "No",
+  "DemolitionDepthTitle": "Profunditat de demolició",
+  "AllDepths": "Totes"
+}

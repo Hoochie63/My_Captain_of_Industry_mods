@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "철거 구역의 지하 파이프",
+  "DemolitionPrompt": "철거 구역에 건물과 <b>지하 액체 파이프</b>가 포함되어 있습니다. 이 파이프도 철거하시겠습니까?",
+  "DemolishAll": "모두 철거",
+  "IgnorePipes": "파이프 제외",
+  "SelectionCrossesPipesWarning": "경고: 빨간 선택 구역이 지하 액체 파이프와 교차합니다!",
+  "BuriedPipeWarning": "경고: 지하 액체 파이프!",
+  "MiningAreaCrossesPipesWarning": "경고: 채굴 구역이 지하 액체 파이프와 교차합니다!",
+  "UndergroundView": "지하 파이프 보기",
+  "DepthFormat": "깊이: {0}",
+  "CopyTitle": "복사 영역의 지하 파이프",
+  "CopyPrompt": "복사 영역에 건물과 <b>지하 액체 파이프</b>가 포함되어 있습니다. 이 파이프도 복사하시겠습니까?",
+  "Yes": "예",
+  "No": "아니요",
+  "DemolitionDepthTitle": "철거 깊이",
+  "AllDepths": "전체"
+}

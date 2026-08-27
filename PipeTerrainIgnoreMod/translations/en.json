@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Underground pipes in demolition area",
+  "DemolitionPrompt": "The demolition area contains buildings and <b>underground liquid pipes</b>. Should these pipes be demolished as well?",
+  "DemolishAll": "Demolish all",
+  "IgnorePipes": "Ignore pipes",
+  "SelectionCrossesPipesWarning": "Warning: The red selection area crosses underground liquid pipes!",
+  "BuriedPipeWarning": "Warning: Underground liquid pipe!",
+  "MiningAreaCrossesPipesWarning": "Warning: The mining area crosses underground liquid pipes!",
+  "UndergroundView": "Underground pipe view",
+  "DepthFormat": "Depth: {0}",
+  "CopyTitle": "Underground pipes in copy area",
+  "CopyPrompt": "The copy area contains buildings and <b>underground liquid pipes</b>. Copy these pipes as well?",
+  "Yes": "Yes",
+  "No": "No",
+  "DemolitionDepthTitle": "Demolition depth",
+  "AllDepths": "All"
+}

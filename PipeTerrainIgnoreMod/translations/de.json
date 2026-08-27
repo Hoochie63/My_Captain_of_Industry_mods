@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Unterirdische Rohre im Abrissbereich",
+  "DemolitionPrompt": "Der Abrissbereich enthält Gebäude und <b>unterirdische Flüssigkeitsrohre</b>. Sollen diese Rohre mit abgerissen werden?",
+  "DemolishAll": "Alles abreißen",
+  "IgnorePipes": "Rohre ignorieren",
+  "SelectionCrossesPipesWarning": "Achtung: Der rote Auswahlbereich kreuzt unterirdische Flüssigkeitsrohre!",
+  "BuriedPipeWarning": "Achtung: Unterirdisches Flüssigkeitsrohr!",
+  "MiningAreaCrossesPipesWarning": "Achtung: Das Abbaugebiet kreuzt unterirdische Flüssigkeitsrohre!",
+  "UndergroundView": "Unterirdische Rohransicht",
+  "DepthFormat": "Tiefe: {0}",
+  "CopyTitle": "Unterirdische Rohre im Kopierbereich",
+  "CopyPrompt": "Der Kopierbereich enthält Gebäude und <b>unterirdische Flüssigkeitsrohre</b>. Sollen diese Rohre mitkopiert werden?",
+  "Yes": "Ja",
+  "No": "Nein",
+  "DemolitionDepthTitle": "Abriss-Tiefe",
+  "AllDepths": "Alle"
+}

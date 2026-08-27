@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "Underjordiske rør i rivningsområdet",
+  "DemolitionPrompt": "Rivningsområdet inneholder bygninger og <b>underjordiske væskerør</b>. Skal disse rørene også rives?",
+  "DemolishAll": "Riv alt",
+  "IgnorePipes": "Ignorer rør",
+  "SelectionCrossesPipesWarning": "Advarsel: Det røde valgområdet krysser underjordiske væskerør!",
+  "BuriedPipeWarning": "Advarsel: Underjordisk væskerør!",
+  "MiningAreaCrossesPipesWarning": "Advarsel: Gruveområdet krysser underjordiske væskerør!",
+  "UndergroundView": "Vis underjordiske rør",
+  "DepthFormat": "Dybde: {0}",
+  "CopyTitle": "Underjordiske rør i kopieringsområdet",
+  "CopyPrompt": "Kopieringsområdet inneholder bygninger og <b>underjordiske væskerør</b>. Skal disse rørene også kopieres?",
+  "Yes": "Ja",
+  "No": "Nei",
+  "DemolitionDepthTitle": "Rivningsdybde",
+  "AllDepths": "Alle"
+}

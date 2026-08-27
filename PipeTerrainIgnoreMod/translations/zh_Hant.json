@@ -1,0 +1,17 @@
+{
+  "DemolitionTitle": "拆除區域內的地下管線",
+  "DemolitionPrompt": "拆除區域包含建築物和<b>地下液體管線</b>。是否也拆除這些管線？",
+  "DemolishAll": "全部拆除",
+  "IgnorePipes": "忽略管線",
+  "SelectionCrossesPipesWarning": "警告：紅色選取區域與地下液體管線交叉！",
+  "BuriedPipeWarning": "警告：地下液體管線！",
+  "MiningAreaCrossesPipesWarning": "警告：採礦區域與地下液體管線交叉！",
+  "UndergroundView": "地下管線檢視",
+  "DepthFormat": "深度：{0}",
+  "CopyTitle": "複製區域內的地下管線",
+  "CopyPrompt": "複製區域包含建築物和<b>地下液體管線</b>。是否也複製這些管線？",
+  "Yes": "是",
+  "No": "否",
+  "DemolitionDepthTitle": "拆除深度",
+  "AllDepths": "全部"
+}
