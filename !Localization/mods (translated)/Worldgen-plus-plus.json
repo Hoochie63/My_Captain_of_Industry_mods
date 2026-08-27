@@ -1,6 +1,6 @@
 {
     "WorldGen": "Генерация мира",
-    "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "Скрывает транзитные линии, пересекающие другие линии, и запрещает кораблям их использовать. Линии, необходимые для доступа к локации, всегда сохраняются.",
+    "Hides transit lines that cross other lines, and stops ships from using them. Lines needed to reach a location are always kept.": "<align=\"center\">Скрывает транзитные линии, пересекающие другие линии, и запрещает кораблям их использовать.<br>Линии, необходимые для доступа к локации, всегда сохраняются.</align>",
     "Enable Custom WorldGen": "Включить пользовательскую генерацию мира",
     "World Shape": "Форма мира",
     "Entities": "Объекты",
