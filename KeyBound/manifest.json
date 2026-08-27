@@ -1,0 +1,22 @@
+{
+  "id": "KeyBound",
+  "version": "1.0.0",
+  "display_name": "KeyBound",
+  "description_short": "Click ANY Button to give it a keybind quickly. Save/Load Profiles for Controls/Framework. Adds binds for ALL Toolbar Menus/Items/Buildings/UI Panels/Tool Shortcuts/Calendar Buttons",
+  "description_long": "",
+  "authors": [
+    "Underlörd"
+  ],
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.7b",
+  "primary_dlls": [
+    "KeyBound.dll"
+  ],
+  "mod_dependencies": [
+    "keybind-framework >= 2.0.2"
+  ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "NotEnoughKeybindsMod"
+}

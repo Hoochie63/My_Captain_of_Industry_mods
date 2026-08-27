@@ -1,0 +1,6 @@
+{
+  "Enable Bind Manager": {
+    "default": true,
+    "description": "Enable the optional KeyBound Controller, Keybind Manager, Bind Profiles, and related UI. Disable this to use only the Keybind Framework controls."
+  }
+}

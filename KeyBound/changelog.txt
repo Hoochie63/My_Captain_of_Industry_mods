@@ -1,0 +1,51 @@
+v1.0.0 | 2026-08-23
+
+Ω—KEYBOUND—Ω Successor to Not Enough Keybinds.
+
+Features:
+===========
+LIVE REBIND
+===========
+- Click Toolbar or Calendar Buttons to quickly Rebind them without needing to access escape menu or browse long keybind lists.
+- This works even for mod buttons that didn't have a bind option.
+- Shows available NEK & Controls binds and related conflicts so everything can be fixed without needing to go into escape menu.
+- Open Live Rebind from the Bind Manager's Green Shortcut in the Titlebar, Shift-click or Ctrl-click the floating NEK button UI, or with a keybind. Rebind Mode under KeyBound -> Misc. Binds -> KeyBound Binds.
+- To select a button: right-click it or Shift or Ctrl modified-Left or Right clicks.
+ 
+==============================
+FRAMEWORK INTEGRATION & KEYBINDS
+==============================
+- Automatically discovers supported vanilla and mod-added menus, submenus, tools, items, buildings, UI panels, and Calendar Buttons.
+- Organizes them under the KeyBound Framework tab with Bind 1, Bind 2, and left- or right-side modifier support.
+- Active shortcuts appear on toolbar Menu's hover Keybind-labels.
+
+==================================
+BIND PROFILES & KEYBIND MANAGER
+==================================
+- Save & Load all existing keybinds both in Controls, and the Framework Tab Controls for KeyBound
+- Create profiles from your current controls and KeyBound-framework binds.
+- First-time setup creates a protected Backup of you controls to prevent losing your keybinds before experimenting with KeyBound or Built-In Profiles.
+- Controls, NEK & BindProfiles file path: C:\Users\[User]\AppData\Roaming\Captain of Industry\ModConfigs\not-enough-keybinds\Profiles
+
+
+================================
+CONTROLLER & BUILT-IN PROFILES
+================================
+- Left-click the K Calendar Button or floating NEK button for the compact Controller; right-click opens the full Keybind Manager.
+- Apply saved profiles or use ready-made choices including Toolbar Mode, focused item layouts, and Mag's All-In-One.
+- Title-bar shortcuts connect the Controller, Manager, Live Rebind, settings, and soft-pin controls for quick access.
+
+========================================
+LANGUAGES, EXTRAS & COMPATIBILITY
+========================================
+- Includes English and some translations for all 20 additional supported game languages, plus an English UI option in the Manager's Tooltip settings.
+- Supports Captain of Industry 0.8.5 through 0.8.7b, Keybind Framework 2.0.2 or newer, and existing saves.
+
+========================================
+PLANNED
+========================================
+- Planned: Intercept every mod-added keybind to that doesn't offer rebinding & give it an option to clear and use a framework bind instead.
+- Planned: See what else can be live bindable, like submenus, items or non button UI-clicks.
+- Planned: Mute all normal clicks while live rebind is active and create binds for buttons that have multiple actions. Currently only a button's left click is targetable.
+- Planned: .Controls to include all mod-added controls, and .framework that will instead save ALL framework tabs instead of just KeyBound binds & update bind profiles to include everything.
+...and more
