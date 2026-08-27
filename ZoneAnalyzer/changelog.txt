@@ -1,18 +1,67 @@
-1.3.0
+1.4.2
 
-Whole island: a balance of everything, no selection needed. This update
-started as a suggestion by PForsberg on this very page.
+A conveyor or pipe is no longer called a bottleneck when the supply
+reaching it stays below its capacity. In that case the segment limits
+nothing: the real problem is missing production, and the negative balance
+of the line already shows it. Found on a sulfur line where four tier I
+conveyors were blamed for carrying 60 while only 36 arrived. One
+exception stays: when the supply comes through a truck-fed storage, whose
+rate the game does not record, the warning is kept rather than promising
+that all is well.
 
-- A new "ALL" button in the panel's header switches to an island-wide
-  balance: every product produced or used anywhere on the island last
-  month, Makes / Needs / Net, shortages listed first. Click it again to
-  jump straight back to whatever area or line you had open.
-- These figures are read straight from totals the game already keeps for
-  the whole island, the same ones behind its own Statistics panel, so
-  there is no "full speed" column at this scale: only what was actually
-  measured.
-- A search box filters the list by product name, and a "Shortages first /
-  A to Z" switch controls the sort order.
+1.4.1
+
+Nuclear reactors, asked for by Marcp2006 on Reddit.
+
+Reactors now count in every balance: water, steam, fuel rods and spent
+fuel, read from the reactor's own recipe at the power level you set. The
+expanded row shows that level ("power 2/3"), because the numbers follow
+the slider. A reactor set to zero power counts for nothing, and a note
+says so. The breeder's second flow, blanket fuel turned into fresh rods,
+is counted too. Emergency cooling water is left out on purpose: a healthy
+reactor never uses any.
+
+Reactors are also named on a product's screen, in "Made by" and "Needed
+by", where their share used to hide inside "Other".
+
+One more fix: products nobody consumes, like spent fuel, could not be
+clicked in the ALL list. They can now.
+
+1.4.0
+
+Trains, a screen for each product, and paused buildings that stop lying
+about what they make. The train view was asked for by Axios2015 and
+S1lkwrm on this very page.
+
+Trains. Click a rail, or drag a box over anything with track in it, and
+the same panel reads your railway. Three tabs: Line, Network and Resource.
+Line lists every stop, what it loads and unloads, and the trains that serve
+it. Network shows the fleet, the products it carries, and what is waiting
+for a train. "Needs attention" names the reason a delivery is not moving:
+no train assigned, every compatible train already busy, the wrong wagon
+type, a station that reached its train limit, or simply not enough
+production. That last one matters, because adding trains would not help,
+and the panel says so instead of leaving you to guess. Resource takes one
+product and follows it end to end, from what feeds it upstream to every
+destination.
+
+A product's own screen. Click any product in the "ALL" list for its history
+as a curve, plus who makes it and who needs it, one line per machine type
+and recipe. Fuel is broken down by what burns it: vehicles, trains, ships
+and power generators, which is the only place the game exposes vehicle fuel
+use. A period selector sets whether you are looking at one year or the whole
+save, and every figure on the screen follows it.
+
+Paused buildings. One you paused is now named on the row it belongs to, and
+what it would have made no longer counts. A row of three pumps with two of
+them paused used to promise the output of all three, both at full speed and
+as measured.
+
+Also in this release: flares and dumping moved out of the consumer lists,
+where the game never counted them as consumption; named lines for fuel,
+construction, mining, import and the rest, instead of everything falling
+into "Other"; a HUD skin for the island list and product screens; and
+shorter, plainer wording across the whole mod.
 
 1.2.1
 

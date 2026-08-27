@@ -1,394 +1,195 @@
 [
-    [
-        "ZoneAnalyzer_ToolName",
-        "Анализатор производства"
-    ],
-    [
-        "ZoneAnalyzer_WindowTitle",
-        "Анализатор производства"
-    ],
-    [
-        "ZoneAnalyzer_Hint",
-        "<i>Выделите рамкой часть завода, чтобы её проанализировать.</i>"
-    ],
-    [
-        "ZoneAnalyzer_Empty",
-        "В этом выделении нет производственных строений."
-    ],
-    [
-        "ZoneAnalyzer_SummaryBuildings",
-        "строений: {0}"
-    ],
-    [
-        "ZoneAnalyzer_SummaryWorkers",
-        "{0} / {1} рабочих"
-    ],
-    [
-        "ZoneAnalyzer_PowerUsed",
-        "{0} потребляется"
-    ],
-    [
-        "ZoneAnalyzer_PowerMade",
-        "{0} вырабатывается"
-    ],
-    [
-        "ZoneAnalyzer_ResearchMade",
-        "{0} исследований"
-    ],
-    [
-        "ZoneAnalyzer_KeybindOpenTool",
-        "Открыть инструмент «Анализатор производства»"
-    ],
-    [
-        "ZoneAnalyzer_KeybindOpenToolTooltip",
-        "Активирует инструмент выделения области, и открывает панель. Нажмите снова, чтобы закрыть."
-    ],
-    [
-        "ZoneAnalyzer_SectionNotes",
-        "Как читать эти цифры ({0})"
-    ],
-    [
-        "ZoneAnalyzer_SectionShortage",
-        "Нехватка ({0})"
-    ],
-    [
-        "ZoneAnalyzer_SectionOk",
-        "Баланс и избыток ({0})"
-    ],
-    [
-        "ZoneAnalyzer_SectionBuildings",
-        "Строения ({0} типов, учтено {1})"
-    ],
-    [
-        "ZoneAnalyzer_SelectAll",
-        "Все"
-    ],
-    [
-        "ZoneAnalyzer_SelectNone",
-        "Никакие"
-    ],
-    [
-        "ZoneAnalyzer_SelectAllTooltip",
-        "Учитывать все типы строений"
-    ],
-    [
-        "ZoneAnalyzer_SelectNoneTooltip",
-        "Исключить все типы строений, а затем выбрать нужные"
-    ],
-    [
-        "ZoneAnalyzer_BuildingCount",
-        "×{0}"
-    ],
-    [
-        "ZoneAnalyzer_LabelFullSpeed",
-        "на полной мощности:"
-    ],
-    [
-        "ZoneAnalyzer_LabelRightNow",
-        "сейчас:"
-    ],
-    [
-        "ZoneAnalyzer_ColMakes",
-        "Выпуск"
-    ],
-    [
-        "ZoneAnalyzer_ColNeeds",
-        "Нужно"
-    ],
-    [
-        "ZoneAnalyzer_ColNet",
-        "Сальдо"
-    ],
-    [
-        "ZoneAnalyzer_FragMakes",
-        "производит {0}"
-    ],
-    [
-        "ZoneAnalyzer_FragNeeds",
-        "нужно {0}"
-    ],
-    [
-        "ZoneAnalyzer_FragUses",
-        "потребляет {0}"
-    ],
-    [
-        "ZoneAnalyzer_FragAlsoTakes",
-        "может также принять {0}"
-    ],
-    [
-        "ZoneAnalyzer_FragDispose",
-        "может утилизировать {0}"
-    ],
-    [
-        "ZoneAnalyzer_Starved",
-        "строений простаивает из-за нехватки: {0}, до {1} % времени."
-    ],
-    [
-        "ZoneAnalyzer_BackedUp",
-        "строений простаивает, некуда девать: {0}, до {1} % времени."
-    ],
-    [
-        "ZoneAnalyzer_ImportNeeded",
-        "{0}/мин должно поступать извне"
-    ],
-    [
-        "ZoneAnalyzer_WarnGhosts",
-        "Строений ещё не построено: {0}. Они учитываются в мощности, но никогда в измеренных значениях."
-    ],
-    [
-        "ZoneAnalyzer_WarnMultiRecipe",
-        "Строений с несколькими назначенными рецептами: {0}. Для них учитывается только текущий рецепт."
-    ],
-    [
-        "ZoneAnalyzer_WarnNoRecipe",
-        "Строений без назначенного рецепта: {0}. Они не учитываются вовсе."
-    ],
-    [
-        "ZoneAnalyzer_WarnNoHistory",
-        "Строений, показывающих только мощность: {0}, потому что игра не ведёт для них счётчиков времени: {1}."
-    ],
-    [
-        "ZoneAnalyzer_WarnMaintenance",
-        "Запчасти для обслуживания идут в общий фонд всей базы, поэтому внутри области они не могут сойтись в балансе. Строка показывает только то, что производит эта область; разверните её, чтобы увидеть потребность базы."
-    ],
-    [
-        "ZoneAnalyzer_MaintenanceWholeBase",
-        "вся база: нужно {0} · {1} если бы ничто не простаивало."
-    ],
-    [
-        "ZoneAnalyzer_WarnSettlement",
-        "Модулей обслуживания поселения: {0}. Их потребление зависит от населения, а не от рецепта: цифры — это то, что они действительно приняли и отдали за прошлый месяц. Больницы, жильё и модули питания исключены намеренно: их потребности относятся ко всему поселению."
-    ],
-    [
-        "ZoneAnalyzer_WarnOreSorting",
-        "Сортировщиков руды: {0}. Они учитываются только как производители: они ничего не берут с транспортёров или из трубопровода, только доставку смешанной руды техникой. Их выработка берётся из того, что они действительно отсортировали за прошлый месяц, а не рассчитывается по рецепту."
-    ],
-    [
-        "ZoneAnalyzer_WarnWasteSorting",
-        "Центров сортировки отходов: {0}. Что из них выходит, зависит от содержимого отходов: их выработка берётся из того, что они действительно переработали за прошлый месяц, а не рассчитывается по рецепту. Зато их потребление точное."
-    ],
-    [
-        "ZoneAnalyzer_WarnRainHarvester",
-        "Сборщиков дождевой воды: {0}. Они показывают то же среднее, которое игра сама оценивает по погоде, а не измеренное значение: засуха или ливень дадут меньше или больше."
-    ],
-    [
-        "ZoneAnalyzer_WarnSkipped",
-        "Строений, не учтённых в балансе: {0}, поскольку они не работают с продуктом, который мод умеет измерять: {1}."
-    ],
-    [
-        "ZoneAnalyzer_HelpTooltip",
-        "Как рассчитываются эти цифры"
-    ],
-    [
-        "ZoneAnalyzer_HelpTitle",
-        "Как рассчитываются эти цифры"
-    ],
-    [
-        "ZoneAnalyzer_HelpFullSpeed",
-        "«На полной мощности» — это то, что строения выдали бы, если бы никогда не останавливались. Берётся прямо из их рецепта."
-    ],
-    [
-        "ZoneAnalyzer_HelpRightNow",
-        "«Сейчас» берётся из расчётов самой игры: она записывает, сколько времени каждая фабрика работает, и эта доля применяется к её рецепту. Среднее за последние 12 месяцев."
-    ],
-    [
-        "ZoneAnalyzer_HelpRain",
-        "У сборщиков дождевой воды такого расчёта нет. Они считаются по формуле самой игры: эффективные дождливые дни в году, умноженные на дневной сбор и делённые на 12 месяцев. В обычном режиме это примерно 42 дождливых дня в год. Так как это годовое среднее значение, засуха или ливень дадут другое значение."
-    ],
-    [
-        "ZoneAnalyzer_HelpNoCounters",
-        "У ферм и генераторов, сжигающих продукт, например у дизельного генератора, расчётов тоже нет. Показана только их мощность, а предупреждения выше называют те, что попали в ваше выделение."
-    ],
-    [
-        "ZoneAnalyzer_HelpPower",
-        "Электричество сравнивает две мощности: сколько строения потребляют на полном ходу против того, сколько могли бы выдать генераторы в этой области. Солнечные панели учитываются по максимуму, который достигается только при ярком солнце."
-    ],
-    [
-        "ZoneAnalyzer_SelectArea",
-        "Выбрать область"
-    ],
-    [
-        "ZoneAnalyzer_SelectAreaTooltip",
-        "Затем выделите рамкой часть своего завода. Правая кнопка отменяет."
-    ],
-    [
-        "ZoneAnalyzer_RowTooltip",
-        "«На полной мощности» — предел возможностей строений. «Сейчас» измерено игрой за последние 12 месяцев, это не оценка."
-    ],
-    [
-        "ZoneAnalyzer_CollapseTooltip",
-        "Нажмите, чтобы свернуть или развернуть этот раздел"
-    ],
-    [
-        "ZoneAnalyzer_CloseTooltip",
-        "Закрыть"
-    ],
-    [
-        "ZoneAnalyzer_PinTooltip",
-        "Закрепить этот интерфейс"
-    ],
-    [
-        "ZoneAnalyzer_ResizeTooltip",
-        "Потяните, чтобы изменить ширину"
-    ],
-    [
-        "ZoneAnalyzer_ResizeHeightTooltip",
-        "Потяните, чтобы изменить высоту"
-    ],
-    [
-        "ZoneAnalyzer_PollutionLabel",
-        "Загрязнение"
-    ],
-    [
-        "ZoneAnalyzer_PollutionTooltip",
-        "Учитывать загрязнение в балансе. По умолчанию выключено: это ни потребность, ни полезный избыток."
-    ],
-    [
-        "ZoneAnalyzer_FollowLine",
-        "Следовать по линии"
-    ],
-    [
-        "ZoneAnalyzer_FollowLineTooltip",
-        "Затем щёлкните по транспортёру или трубопроводу. Правая кнопка отменяет."
-    ],
-    [
-        "ZoneAnalyzer_LineHint",
-        "<i>Щёлкните по транспортёру или трубопроводу, чтобы проанализировать всё, что к ней подключено.</i>"
-    ],
-    [
-        "ZoneAnalyzer_LineEmpty",
-        "К этой линии не подключено ничего, что этот мод умеет измерять."
-    ],
-    [
-        "ZoneAnalyzer_LineBanner",
-        "Отслеживаемая линия:"
-    ],
-    [
-        "ZoneAnalyzer_LineCountTransports",
-        "{0} транспортёров"
-    ],
-    [
-        "ZoneAnalyzer_LineCountStorages",
-        "{0} склад(ов)"
-    ],
-    [
-        "ZoneAnalyzer_LineCountBalancers",
-        "{0} распределитель(ей)"
-    ],
-    [
-        "ZoneAnalyzer_LineCountLifts",
-        "{0} подъёмник(ов)"
-    ],
-    [
-        "ZoneAnalyzer_LineCountSorters",
-        "{0} сортировщик(ов)"
-    ],
-    [
-        "ZoneAnalyzer_SectionFeed",
-        "Питают эту линию ({0})"
-    ],
-    [
-        "ZoneAnalyzer_SectionBuffers",
-        "Буферы на линии ({0})"
-    ],
-    [
-        "ZoneAnalyzer_SectionDraw",
-        "Забирают с этой линии ({0})"
-    ],
-    [
-        "ZoneAnalyzer_SectionBottlenecks",
-        "Узкие места ({0})"
-    ],
-    [
-        "ZoneAnalyzer_BottleneckLine",
-        "<b>{0}</b> провозится · <b>{1}</b> требуется /мин."
-    ],
-    [
-        "ZoneAnalyzer_BottleneckLineGrouped",
-        "<b>{0}</b> провозится · до <b>{1}</b> требуется /мин."
-    ],
-    [
-        "ZoneAnalyzer_BottleneckPlace",
-        "{0}, {1} участка(-ов)"
-    ],
-    [
-        "ZoneAnalyzer_BottleneckPlaces",
-        "{0}, {1} мест"
-    ],
-    [
-        "ZoneAnalyzer_BottleneckTooltip",
-        "Единственный путь к {0} строению(-ям). Пропускная способность сравнивается с тем, что этим строениям нужно на полной мощности."
-    ],
-    [
-        "ZoneAnalyzer_ShowMe",
-        "Показать"
-    ],
-    [
-        "ZoneAnalyzer_ShowMeTooltip",
-        "Переносит камеру туда. Щёлкните ещё раз, чтобы перейти к следующему."
-    ],
-    [
-        "ZoneAnalyzer_MoreBottlenecks",
-        "ещё {0} узких мест"
-    ],
-    [
-        "ZoneAnalyzer_StorageStock",
-        "{0} / {1} запасено"
-    ],
-    [
-        "ZoneAnalyzer_RowGotoTooltip",
-        "Переносит камеру к этому строению. Щёлкните ещё раз, чтобы перейти к следующему."
-    ],
-    [
-        "ZoneAnalyzer_WarnLineTruckStorage",
-        "{0} склад(ов) питают эту линию, хотя ни один транспортёр и ни один трубопровод их здесь не наполняет: их можно снабжать только грузовой техникой. Игра не ведёт учёт темпа поставок техникой, поэтому их вклад не входит в итоги; вместо него показан запас, и тающий запас означает, что поставки не поспевают."
-    ],
-    [
-        "ZoneAnalyzer_WarnLineNoProduct",
-        "Ничто на этой линии не выдаёт, что она перевозит: она пуста, ни одному складу или сортировщику не назначен продукт, и не подключено ни одного производителя. Потребности подключённых строений не учитываются: {0}."
-    ],
-    [
-        "ZoneAnalyzer_HelpLine",
-        "Баланс линии охватывает всё, что подключено к выбранному транспортёру: что её питает и что с неё забирает. Узкие места сравнивают пропускную способность каждого участка, данную игры, с тем, что требуется на полной мощности строениям за ним. Параллельные ветви не оцениваются, а склад, снабжаемый техникой, не имеет измеримого темпа."
-    ],
-    [
-        "ZoneAnalyzer_IslandLabel",
-        "ВСЕ"
-    ],
-    [
-        "ZoneAnalyzer_IslandTooltip",
-        "Весь остров: производство и потребление по всей Вашей базе, а не только текущий выбор в этом интерфейсе."
-    ],
-    [
-        "ZoneAnalyzer_IslandBanner",
-        "Весь остров"
-    ],
-    [
-        "ZoneAnalyzer_IslandSubtitle",
-        "Измерено за последний месяц · {0} продукт(ов) с активностью."
-    ],
-    [
-        "ZoneAnalyzer_IslandEmpty",
-        "На этом острове ещё ничего не произведено и не потреблено."
-    ],
-    [
-        "ZoneAnalyzer_IslandNote",
-        "Эти цифры берутся напрямую из общих островных итогов, которые игра уже ведёт сама, тех же чисел, что и в её панели «Статистики». Здесь ничего не пересчитывается по рецептам, поэтому в этом масштабе нет значения «на полной скорости»."
-    ],
-    [
-        "ZoneAnalyzer_IslandSearchTooltip",
-        "Введите текст, чтобы отфильтровать список по названию продукта"
-    ],
-    [
-        "ZoneAnalyzer_IslandSearchPlaceholder",
-        "Поиск продукта…"
-    ],
-    [
-        "ZoneAnalyzer_IslandSortShortages",
-        "Сначала нехватки"
-    ],
-    [
-        "ZoneAnalyzer_IslandSortAZ",
-        "А → Я"
-    ]
+	["ZoneAnalyzer_ToolName", "Zone Analyzer"],
+	["ZoneAnalyzer_WindowTitle", "Zone Analyzer"],
+	["ZoneAnalyzer_Hint", "<i>Выделите рамкой часть завода, чтобы её проанализировать.</i>"],
+	["ZoneAnalyzer_Empty", "В этом выделении нет производственных зданий."],
+	["ZoneAnalyzer_SummaryBuildings", "зданий: {0}"],
+	["ZoneAnalyzer_SummaryWorkers", "{0} / {1} рабочих"],
+	["ZoneAnalyzer_PowerUsed", "{0} потребляется"],
+	["ZoneAnalyzer_PowerMade", "{0} вырабатывается"],
+	["ZoneAnalyzer_ResearchMade", "{0} исследований"],
+	["ZoneAnalyzer_KeybindOpenTool", "Открыть инструмент Zone Analyzer"],
+	["ZoneAnalyzer_KeybindOpenToolTooltip", "Берёт инструмент зоны и открывает панель. Повторное нажатие закрывает её."],
+	["ZoneAnalyzer_SectionNotes", "Как читать эти цифры ({0})"],
+	["ZoneAnalyzer_SectionShortage", "Нехватка ({0})"],
+	["ZoneAnalyzer_SectionOk", "Баланс и избыток ({0})"],
+	["ZoneAnalyzer_SectionBuildings", "Здания ({0} типов, учтено {1})"],
+	["ZoneAnalyzer_SelectAll", "Все"],
+	["ZoneAnalyzer_SelectNone", "Никакие"],
+	["ZoneAnalyzer_SelectAllTooltip", "Учитывать все типы зданий"],
+	["ZoneAnalyzer_SelectNoneTooltip", "Очистить список, затем выбрать нужные типы."],
+	["ZoneAnalyzer_BuildingCount", "×{0}"],
+	["ZoneAnalyzer_PausedCount", "{0} на паузе"],
+	["ZoneAnalyzer_PausedTooltip", "{0} из этих {1} на паузе. Их выработка в эту строку не входит."],
+	["ZoneAnalyzer_PowerLevel", "мощность {0}/{1}"],
+	["ZoneAnalyzer_PowerLevelRange", "мощность {0}-{1}/{2}"],
+	["ZoneAnalyzer_PowerLevelTooltip", "Ядерные реакторы работают на заданном вами уровне мощности. Эти цифры следуют за настройкой и меняются при перемещении ползунка."],
+	["ZoneAnalyzer_LabelFullSpeed", "на полной мощности:"],
+	["ZoneAnalyzer_LabelRightNow", "сейчас:"],
+	["ZoneAnalyzer_LabelProducedBy", "Производят:"],
+	["ZoneAnalyzer_LabelNeededBy", "Требуют:"],
+	["ZoneAnalyzer_LabelFuelUse", "Израсходовано как топливо:"],
+	["ZoneAnalyzer_FuelVehicles", "Машины"],
+	["ZoneAnalyzer_FuelTrains", "Поезда"],
+	["ZoneAnalyzer_FuelShips", "Корабли"],
+	["ZoneAnalyzer_FuelPowerGenerators", "Генераторы"],
+	["ZoneAnalyzer_CatFuel", "Топливо"],
+	["ZoneAnalyzer_CatExport", "Экспорт"],
+	["ZoneAnalyzer_CatConstruction", "Строительство"],
+	["ZoneAnalyzer_CatSettlement", "Поселение"],
+	["ZoneAnalyzer_CatResearch", "Исследования"],
+	["ZoneAnalyzer_CatFarming", "Сельское хозяйство"],
+	["ZoneAnalyzer_CatMining", "Добыча"],
+	["ZoneAnalyzer_CatImport", "Импорт"],
+	["ZoneAnalyzer_CatRecycling", "Переработка"],
+	["ZoneAnalyzer_CatDeconstruction", "Снос"],
+	["ZoneAnalyzer_CatOther", "Прочее"],
+	["ZoneAnalyzer_LabelDumped", "Сброшено / уничтожено"],
+	["ZoneAnalyzer_LabelDumpedNote", "Игра считает сжигание отходами, а не потреблением, поэтому оно остаётся вне «Нужно»."],
+	["ZoneAnalyzer_LabelViewHistory", "Показать всю историю"],
+	["ZoneAnalyzer_LabelHistoryNow", "сейчас"],
+	["ZoneAnalyzer_LabelBackToIsland", "Вся продукция"],
+	["ZoneAnalyzer_LabelMadeBy", "Производят"],
+	["ZoneAnalyzer_LabelNeededBy2", "Требуют"],
+	["ZoneAnalyzer_HistorySearchPlaceholder", "Перейти к другому продукту…"],
+	["ZoneAnalyzer_IslandSearchClearTooltip", "Очистить поиск"],
+	["ZoneAnalyzer_LabelHistoryNote", "Средние за минуту на выбранном выше промежутке, по всему острову. По строке на тип машины и рецепт, плюс одна для того, что идёт без рецепта. Сжигание и сброс показаны отдельно, игра считает их отходами, а не потреблением."],
+	["ZoneAnalyzer_ColMakes", "Выпуск"],
+	["ZoneAnalyzer_ColNeeds", "Нужно"],
+	["ZoneAnalyzer_ColNet", "Сальдо"],
+	["ZoneAnalyzer_FragMakes", "производит {0}"],
+	["ZoneAnalyzer_FragNeeds", "нужно {0}"],
+	["ZoneAnalyzer_FragUses", "потребляет {0}"],
+	["ZoneAnalyzer_FragAlsoTakes", "может также принять {0}"],
+	["ZoneAnalyzer_FragDispose", "может утилизировать {0}"],
+	["ZoneAnalyzer_Starved", "зданий простаивает из-за нехватки: {0}, до {1} % времени"],
+	["ZoneAnalyzer_BackedUp", "зданий простаивает, некуда девать: {0}, до {1} % времени"],
+	["ZoneAnalyzer_ImportNeeded", "{0}/мин должно поступать извне"],
+	["ZoneAnalyzer_WarnGhosts", "{0} зданий ещё не построены. Они считаются только в мощности."],
+	["ZoneAnalyzer_WarnPaused", "{0} зданий на паузе. Их выработка не входит ни в одно число здесь."],
+	["ZoneAnalyzer_WarnMultiRecipe", "Зданий с несколькими назначенными рецептами: {0}. Для них учитывается только текущий рецепт."],
+	["ZoneAnalyzer_WarnNoRecipe", "Зданий без назначенного рецепта: {0}. Они не учитываются вовсе."],
+	["ZoneAnalyzer_WarnReactorOff", "{0} ядерн. реактор(ов) выключены (нулевая мощность). Их вода, топливо и пар не входят ни в один показатель."],
+	["ZoneAnalyzer_WarnNoHistory", "Зданий, показывающих только мощность: {0}, потому что игра не ведёт для них счётчиков времени: {1}."],
+	["ZoneAnalyzer_WarnMaintenance", "Детали для обслуживания идут в общий фонд всей базы, поэтому внутри зоны они не могут сойтись в балансе. Строка показывает только то, что производит эта зона; разверните её, чтобы увидеть потребность базы."],
+	["ZoneAnalyzer_MaintenanceWholeBase", "вся база:   нужно {0}  ·  {1} если бы ничто не простаивало"],
+	["ZoneAnalyzer_WarnSettlement", "{0} сервисных модулей поселения. Их расход следует за населением, так что цифры — это то, что они действительно взяли и отдали в прошлом месяце. Больницы, жильё и продовольственные модули остаются за бортом, их нужды принадлежат всему поселению."],
+	["ZoneAnalyzer_WarnOreSorting", "{0} сортировочных фабрик. Они считаются только производителями, ведь смешанная руда приходит к ним грузовиками. Их выработка — это то, что они отсортировали в прошлом месяце."],
+	["ZoneAnalyzer_WarnWasteSorting", "{0} сортировочных станций отходов. Что из них выйдет, зависит от содержания отходов, так что их выработка — это то, что они переработали в прошлом месяце. То, что они принимают, точно."],
+	["ZoneAnalyzer_WarnRainHarvester", "{0} сборщиков дождевой воды. Они показывают среднее, которое игра оценивает по погоде, так что засуха или шторм соберут другое."],
+	["ZoneAnalyzer_WarnSkipped", "{0} зданий остаются вне этого баланса, они не работают ни с одним продуктом, который мод умеет измерять: {1}."],
+	["ZoneAnalyzer_HelpTooltip", "Как рассчитываются эти цифры"],
+	["ZoneAnalyzer_HelpTitle", "Как рассчитываются эти цифры"],
+	["ZoneAnalyzer_HelpFullSpeed", "«На полной мощности» — это то, что здания выдали бы, если бы никогда не останавливались. Берётся прямо из их рецепта."],
+	["ZoneAnalyzer_HelpRightNow", "«Сейчас» берётся из счётчиков игры. Она замеряет, сколько работает каждая машина, применяет эту долю к её рецепту и усредняет за двенадцать месяцев."],
+	["ZoneAnalyzer_HelpRain", "У сборщиков дождевой воды счётчика тоже нет. Их число — это формула игры, около 42 дождливых дней в году на обычной карте, распределённых на двенадцать месяцев. Засуха или шторм дадут другое."],
+	["ZoneAnalyzer_HelpNoCounters", "У ферм и генераторов, сжигающих продукт, счётчиков тоже нет. Показана только их мощность, а предупреждения выше называют те, что есть в выделении."],
+	["ZoneAnalyzer_HelpPower", "Электричество взвешивает то, что здания берут на полной скорости, против того, что могли бы дать генераторы участка. Солнечные панели считаются по пику, который достигается только на полном солнце."],
+	["ZoneAnalyzer_SelectArea", "Выбрать область"],
+	["ZoneAnalyzer_SelectAreaTooltip", "Затем выделите рамкой часть завода. Правая кнопка отменяет."],
+	["ZoneAnalyzer_RowTooltip", "«Полная скорость» берётся из рецептов. «Сейчас» — это то, что игра измерила за двенадцать месяцев."],
+	["ZoneAnalyzer_CollapseTooltip", "Свернуть или развернуть раздел"],
+	["ZoneAnalyzer_CloseTooltip", "Закрыть"],
+	["ZoneAnalyzer_PinTooltip", "Оставить окно открытым"],
+	["ZoneAnalyzer_ResizeTooltip", "Потяните, чтобы изменить ширину"],
+	["ZoneAnalyzer_ResizeHeightTooltip", "Потяните, чтобы изменить высоту"],
+	["ZoneAnalyzer_PollutionLabel", "Загрязнение"],
+	["ZoneAnalyzer_PollutionTooltip", "Учитывать загрязнение в балансе. По умолчанию выключено."],
+	["ZoneAnalyzer_FollowLine", "Следовать по линии"],
+	["ZoneAnalyzer_FollowLineTooltip", "Затем щёлкните по конвейеру или трубе. Правая кнопка отменяет."],
+	["ZoneAnalyzer_LineHint", "<i>Щёлкните по конвейеру или трубе, чтобы проанализировать всё, что к ней подключено.</i>"],
+	["ZoneAnalyzer_LineEmpty", "К этой линии не подключено ничего, что этот мод умеет измерять."],
+	["ZoneAnalyzer_LineBanner", "Отслеживаемая линия:"],
+	["ZoneAnalyzer_LineCountTransports", "{0} транспортов"],
+	["ZoneAnalyzer_LineCountStorages", "{0} склад(ов)"],
+	["ZoneAnalyzer_LineCountBalancers", "{0} распределитель(ей)"],
+	["ZoneAnalyzer_LineCountLifts", "{0} элеватор(ов)"],
+	["ZoneAnalyzer_LineCountSorters", "{0} сортировщик(ов)"],
+	["ZoneAnalyzer_SectionFeed", "Питают эту линию ({0})"],
+	["ZoneAnalyzer_SectionBuffers", "Буферы на линии ({0})"],
+	["ZoneAnalyzer_SectionDraw", "Забирают с этой линии ({0})"],
+	["ZoneAnalyzer_SectionBottlenecks", "Узкие места ({0})"],
+	["ZoneAnalyzer_BottleneckLine", "<b>{0}</b> провозится  ·  <b>{1}</b> требуется /min"],
+	["ZoneAnalyzer_BottleneckLineGrouped", "<b>{0}</b> провозится  ·  до <b>{1}</b> требуется /min"],
+	["ZoneAnalyzer_BottleneckPlace", "{0}, {1} участка(-ов)"],
+	["ZoneAnalyzer_BottleneckPlaces", "{0}, {1} мест"],
+	["ZoneAnalyzer_BottleneckTooltip", "Единственный путь к {0} зданиям, сравнённый с тем, что им нужно на полной скорости."],
+	["ZoneAnalyzer_ShowMe", "Показать"],
+	["ZoneAnalyzer_ShowMeTooltip", "Переносит камеру туда. Щёлкните ещё раз, чтобы перейти к следующему."],
+	["ZoneAnalyzer_MoreBottlenecks", "ещё {0} узких мест"],
+	["ZoneAnalyzer_StorageStock", "{0} / {1} запасено"],
+	["ZoneAnalyzer_RowGotoTooltip", "Переносит камеру к этому зданию. Щёлкните ещё раз, чтобы перейти к следующему."],
+	["ZoneAnalyzer_WarnLineTruckStorage", "{0} складов здесь снабжаются только грузовиками. Игра не ведёт для этого никакой скорости, поэтому вместо неё стоит их запас. Падающий запас значит, что доставки не успевают."],
+	["ZoneAnalyzer_WarnLineNoProduct", "Ничто на этой линии не выдаёт, что она везёт. Она пуста, ни склад, ни сортировщик не назначены, и ни один производитель не подключён. Потребности подключённых зданий остаются за бортом: {0}."],
+	["ZoneAnalyzer_HelpLine", "Баланс линии следует за всем, что подключено к выбранному транспорту, и взвешивает то, что его питает, против того, что из него берёт. Узкие места сравнивают пропускную способность участка с тем, что требуют здания за ним на полной скорости, включая параллельные ветки."],
+	["ZoneAnalyzer_IslandLabel", "ВСЕ"],
+	["ZoneAnalyzer_IslandTooltip", "Вся база, что бы ни показывало это окно."],
+	["ZoneAnalyzer_IslandBanner", "Весь остров"],
+	["ZoneAnalyzer_IslandSubtitle", "Среднее за {1} · {0} продукт(ов) с активностью"],
+	["ZoneAnalyzer_IslandEmpty", "На этом острове ещё ничего не произведено и не потреблено."],
+	["ZoneAnalyzer_IslandNote", "Общие итоги по острову, которые ведёт сама игра, те же, что за её панелью Статистики. Ничего не пересчитывается из рецептов, поэтому на этом уровне нет «полной скорости»."],
+	["ZoneAnalyzer_IslandSearchTooltip", "Фильтр по названию продукта"],
+	["ZoneAnalyzer_IslandSearchPlaceholder", "Поиск продукта…"],
+	["ZoneAnalyzer_IslandSortShortages", "Сначала нехватки"],
+	["ZoneAnalyzer_IslandSortAZ", "A → Z"],
+	["ZoneAnalyzer_AttentionCannotFindPath", "{0} поезд(ов) не могут найти путь к следующей остановке."],
+	["ZoneAnalyzer_AttentionFleetBusy", "{0}: нужно {1}/мин, и все подходящие поезда этой сети уже заняты."],
+	["ZoneAnalyzer_AttentionLowFuel", "{0} поезд(ов) на исходе топлива, пригодной заправки сейчас нет."],
+	["ZoneAnalyzer_AttentionNoCompatibleProduct", "{0}: нужно {1}/мин, и ни один поезд отсюда не может это везти (не тот тип вагона или нет электрификации)."],
+	["ZoneAnalyzer_AttentionNoPower", "{0} поезд(ов) остались без энергии."],
+	["ZoneAnalyzer_AttentionNoSupply", "{0}: ничего это не поставляет, нужно {1}/мин."],
+	["ZoneAnalyzer_AttentionNoTrains", "Поезда не назначены. Постройте поезд в депо и назначьте его этой сети."],
+	["ZoneAnalyzer_AttentionNoWaitingBay", "Нет свободного пути отстоя. Простаивающим поездам негде встать."],
+	["ZoneAnalyzer_AttentionSelfIntersect", "{0} поезд(ов) имеют самопересекающийся маршрут."],
+	["ZoneAnalyzer_AttentionStuck", "{0} поезд(ов) ждут, чтобы добраться до {1}."],
+	["ZoneAnalyzer_AttentionStuckWithLimit", "{0} поезд(ов) ждут, чтобы добраться до {1}: достигнут предел поездов {2}/{3}."],
+	["ZoneAnalyzer_AttentionSupplyTooLow", "{0}: производство ниже спроса (нужно {1}/мин). Поезда уже везут всё, что есть, значит нехватка выше по цепочке."],
+	["ZoneAnalyzer_SectionAttention", "Требуют внимания ({0})"],
+	["ZoneAnalyzer_SectionTrainsFleet", "Парк ({0} поездов)"],
+	["ZoneAnalyzer_SectionTrainsProducts", "Продукция ({0})"],
+	["ZoneAnalyzer_SkinToggleLabel", "HUD"],
+	["ZoneAnalyzer_SkinToggleTooltip", "Переключить список острова и экраны продуктов на вид HUD."],
+	["ZoneAnalyzer_TrainsBanner", "Поезда"],
+	["ZoneAnalyzer_TrainsBridge", "Через эту область проходят поезда."],
+	["ZoneAnalyzer_TrainsBridgeTooltip", "Перейти к виду поездов для этого выделения."],
+	["ZoneAnalyzer_TrainsCountLines", "{0} маршрут(ов)"],
+	["ZoneAnalyzer_TrainsCountNetworks", "{0} сеть/сетей"],
+	["ZoneAnalyzer_TrainsEmpty", "Ни один железнодорожный маршрут или сеть не доходит до этого выделения."],
+	["ZoneAnalyzer_TrainsFleetCapacity", "Вместимость {0}"],
+	["ZoneAnalyzer_TrainsFleetElectric", "электрический"],
+	["ZoneAnalyzer_TrainsIsolateNoBuffer", "Промежуточных хранилищ по пути не найдено."],
+	["ZoneAnalyzer_TrainsIsolateNoDestination", "Сейчас в этой сети нет известного назначения для этого ресурса."],
+	["ZoneAnalyzer_TrainsIsolateNoFeed", "Прослеживаемого производства выше по потоку не найдено (хранилище снабжается грузовиками либо нет подключённой ленты)."],
+	["ZoneAnalyzer_TrainsLineCounts", "{0} остановок  ·  {1} поезд(ов)"],
+	["ZoneAnalyzer_TrainsLowFuel", "{0} поезд(ов) на исходе топлива, пригодной заправки сейчас нет."],
+	["ZoneAnalyzer_TrainsNetworkCounts", "{0} поезд(ов)  ·  {1} станций"],
+	["ZoneAnalyzer_TrainsNoWaitingBay", "В этой сети нет свободного пути отстоя. Простаивающим поездам негде встать."],
+	["ZoneAnalyzer_TrainsNote", "Состояния поездов, запасы станций и предложение с спросом диспетчера, взятые прямо из игры. Ожидающие доставки считаются так же, как диспетчер распределяет задания."],
+	["ZoneAnalyzer_TrainsOnAJob", "В рейсе"],
+	["ZoneAnalyzer_TrainsProductsNone", "Для этой сети пока нечего показать."],
+	["ZoneAnalyzer_TrainsReasonAllBusy", "Все подходящие поезда этой сети уже заняты."],
+	["ZoneAnalyzer_TrainsReasonNoCompatible", "Ни один поезд отсюда не может это везти. Не тот тип вагона или нет электрификации."],
+	["ZoneAnalyzer_TrainsReasonNoSupply", "В сети это ничем не поставляется."],
+	["ZoneAnalyzer_TrainsReasonNoTrains", "Этой сети ещё не назначено ни одного поезда."],
+	["ZoneAnalyzer_TrainsReasonSupplyTooLow", "Сеть производит меньше, чем потребляет. Поезда уже везут всё, что есть, значит нехватка выше по цепочке."],
+	["ZoneAnalyzer_TrainsReasonTrainLimit", "{0} достиг(ла) предела числа поездов. Это не нехватка поездов."],
+	["ZoneAnalyzer_TrainsRefuelBelow", "Остановка на заправку, только ниже {0} % топлива"],
+	["ZoneAnalyzer_TrainsResourcePrompt", "Выберите ресурс выше, чтобы увидеть его остановки, баланс, снабжение и назначения."],
+	["ZoneAnalyzer_TrainsRoomAvailable", "{0} / {1} свободного места"],
+	["ZoneAnalyzer_TrainsSectionDestinations", "Назначения ({0})"],
+	["ZoneAnalyzer_TrainsSelectResource", "Выбрать:"],
+	["ZoneAnalyzer_TrainsStopBoth", "грузит и разгружает"],
+	["ZoneAnalyzer_TrainsStopLoads", "грузит"],
+	["ZoneAnalyzer_TrainsStopNoProduct", "Здесь не назначен продукт"],
+	["ZoneAnalyzer_TrainsStopUnloads", "разгружает"],
+	["ZoneAnalyzer_TrainsTabLine", "Маршрут ({0})"],
+	["ZoneAnalyzer_TrainsTabLineEmpty", "Ни один железнодорожный маршрут не касается этого выделения."],
+	["ZoneAnalyzer_TrainsTabNetwork", "Сеть ({0})"],
+	["ZoneAnalyzer_TrainsTabNetworkEmpty", "Ни одна железнодорожная сеть не касается этого выделения."],
+	["ZoneAnalyzer_TrainsTabResource", "Ресурс"],
+	["ZoneAnalyzer_WarnUnassignedTrains", "{0} поезд(ов) в других местах не принадлежат ни маршруту, ни сети. Игра не сообщает, где они стоят."],
+	["ZoneAnalyzer_StorageStockShort", "{0} / {1}"],
+	["ZoneAnalyzer_ColToLoad", "К погрузке"],
+	["ZoneAnalyzer_ColRoom", "Место"],
+	["ZoneAnalyzer_ColStockTooltip", "То, что ждёт погрузки, и место под разгрузку."]
 ]
