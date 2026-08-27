@@ -1,0 +1,21 @@
+{
+  "id": "Beacon-and-Government-DLC",
+  "version": "1.0.0",
+  "display_name": "Beacon & Government DLC",
+  "description_short": "Expands Government and Beacon rewards with Relay support, Captain's Currency, and research-gated quick trades.",
+  "description_long": "Expands the Government and Beacon reward system with placeable Relay Beacons, Captain's Exchanges, and Government Offices using vanilla models. Armed support buildings consume Unity only while the primary Beacon runs. Each completed Beacon cycle preserves the vanilla refugee arrival while adding research-gated randomized supplies scaled from the saved full-cycle Unity average and a chance to earn Captain's Currency. Three rotating quick trades refresh yearly at every Captain's Exchange. Buildings appear in the Beacon & Government toolbar menu.",
+  "authors": [
+    "Underlörd"
+  ],
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.7b",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "BeaconAndGovernment.dll"
+  ],
+  "mod_dependencies": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+  "primary_mod_class_name": "BeaconMod"
+}

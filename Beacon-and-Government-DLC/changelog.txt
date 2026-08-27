@@ -1,0 +1,44 @@
+v1.0.0 | 2026-07-27 - 2026-08-26
+
+====================================================================
+BEACON & GOVERNMENT DLC - USE MORE UNITY TO GUIDE SHIPS BACK HOME
+====================================================================
+
+* Designed to keep the Beacon useful and engaging into the mid-to-late game without becoming overpowered or cheaty.
+* This is an early but working release, with more updates planned for the immediate future.
+
+============================
+REWARDS, CURRENCY & TRADING
+============================
+
+* Overhauls the Beacon's fixed reward of 18 refugees and 20 Copper into a weighted, randomized supply drop after every completed Beacon cycle.
+* Rewards draw from a large research-gated pool of ores, metals, fuels, foods, construction supplies, electronics, medical goods, Solar Cells, Vehicle Parts, Lab Equipment, and other useful products.
+* Reward quantities vary and scale from the Beacon network's saved full-cycle average Unity drain, preventing last-second toggle cheating.
+* A rare multi-reward roll can add one to four extra product stacks, becoming slightly more likely at each whole 1.00 Unity/month average threshold up to the cap.
+* Beacon rewards are designed as a minor supplement so village trading and contracts remain the better sources for focused supplies.
+
+==================
+CAPTAIN'S CURRENCY
+==================
+
+* Captain's Currency is earned only through completed Beacon cycles, with the amount based on the network's saved full-cycle average Unity drain.
+* Each Beacon cycle awards roughly one Coin for every 1.00 Unity/month of full-cycle average, with randomized variance.
+* Build a Captain's Exchange to access three yearly rotating offers that cost Captain's Currency. Purchased products are delivered to the Shipyard.
+
+==========================
+BEACON NETWORK & BUILDINGS
+==========================
+
+* Adds Relay Beacons, Captain's Exchanges, and Government Offices I and II using the Beacon, Trading Dock, and Captain's Office models.
+* These support buildings can be armed to increase how much Unity the primary Beacon drains each month.
+* Armed support buildings strengthen Beacon rewards only while the primary Beacon operates. Their Unity drain stops while it is paused or unconstructed.
+* Relay Beacons cost 0.25 Unity/month, Office I costs 1.00, and Office II costs 1.50. They can also be left disarmed and used decoratively without participating in the Unity-drain mechanic.
+* Added global Arm/Disarm controls and camera shortcuts for jumping to the primary Beacon or cycling through Beacon network buildings.
+* All custom buildings are available from the dedicated Beacon & Government logistics toolbar menu.
+* Armed support buildings show a small contextual indicator while their inspector is open.
+
+==============================================
+COMPATIBILITY WITH COASTAL IMMIGRATION BEACON
+==============================================
+
+* Fixed Coastal Immigration Beacon v0.2.10's oversized 60+ tile placement restriction conflict, restoring the normal 5x5 Beacon placement rules so Beacon-derived content no longer inherits it's bug.
