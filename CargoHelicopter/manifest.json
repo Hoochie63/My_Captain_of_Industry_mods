@@ -1,6 +1,6 @@
 {
   "id": "CargoHelicopter",
-  "version": "0.19.9",
+  "version": "0.19.10",
   "display_name": "Cargo Helicopter",
   "description_short": "Three tiers of flying cargo helicopter that haul goods like trucks but fly over mountains, cliffs, water and buildings. Cargo rides in a slung container lowered by winch.",
   "authors": "pique",
@@ -10,7 +10,11 @@
   ],
   "primary_mod_class_name": "CargoHelicopterMod",
   "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.6",
+  "max_verified_game_version": "0.8.7",
+  "links": [
+    "https://github.com/Pique1804/Cargo-Helicopter",
+    "https://coigame.com/Mod/1102/Cargo-Helicopter"
+  ],
   "optional_mod_dependencies": [
     "cheat-plus-plus"
   ],

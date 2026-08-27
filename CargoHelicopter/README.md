@@ -1,8 +1,12 @@
-# Cargo Helicopter 0.19.9
+# Cargo Helicopter 0.19.10
 
-Cargo Helicopter adds three tiers of flying cargo vehicles to **Captain of Industry 0.8.5-0.8.6
+Cargo Helicopter adds three tiers of flying cargo vehicles to **Captain of Industry 0.8.5-0.8.7
 (Update 4.2)**.
 They use the normal truck logistics system, but can cross cliffs, mountains, buildings and water.
+
+[Download on CoI Hub](https://coigame.com/Mod/1102/Cargo-Helicopter) ·
+[Source code](https://github.com/Pique1804/Cargo-Helicopter) ·
+[Changelog](CHANGELOG.md)
 
 ## Features
 
@@ -35,8 +39,9 @@ They use the normal truck logistics system, but can cross cliffs, mountains, bui
 ## Installation
 
 1. Close the game.
-2. Extract the `CargoHelicopter` folder into `%APPDATA%\Captain of Industry\Mods`.
-3. Start the game and enable **Cargo Helicopter** for the save.
+2. Download the current release from [CoI Hub](https://coigame.com/Mod/1102/Cargo-Helicopter).
+3. Extract the `CargoHelicopter` folder into `%APPDATA%\Captain of Industry\Mods`.
+4. Start the game and enable **Cargo Helicopter** for the save.
 
 The final layout must contain `manifest.json`, both DLL files, the three `heli_icon*.png`
 files and the complete `AssetBundles` directory in the same `CargoHelicopter` folder.
@@ -48,8 +53,8 @@ vanilla Vehicle Depot / Auto Vehicle Factory. They use the normal pickup, delive
 
 ## Compatibility
 
-- Supported game versions: **0.8.5-0.8.6c**; built and locally API-verified against the latest public
-  **0.8.6c / Update 4.2** files. The direct-flight API is also present in the 0.8.6a/b hotfixes.
+- Supported game versions: **0.8.5-0.8.7**; built and locally API-verified against public Steam build
+  **24719404 / v0.8.7a**. CoI Hub compatibility uses `0.8.7`, which covers lettered 0.8.7 hotfixes.
 - Cheat++ is optional. When both mods are enabled, Cargo Helicopter declares the correct load order,
   ships the same Harmony 2.4.2 runtime and retries Cheat++'s C/Overlord toolbar insertion if the
   Update 4.2 HUD was not ready for its first attempt.
@@ -61,14 +66,79 @@ vanilla Vehicle Depot / Auto Vehicle Factory. They use the normal pickup, delive
 
 ## Development
 
-Set the `COI_ROOT` environment variable to the Captain of Industry installation directory, then run:
+Requirements:
+
+- Windows with .NET SDK 8 and the .NET Framework 4.8 targeting pack.
+- A legal Captain of Industry installation.
+- `COI_ROOT` set to the game's installation directory.
+- Unity `6000.0.66f1` only when rebuilding the AssetBundles in `HeliportUnity/`.
+
+Build the C# project from the repository root:
 
 ```powershell
-..\dotnet\dotnet.exe build .\CargoHelicopter.csproj -c Release
+dotnet build .\CargoHelicopter.csproj -c Release
 .\build-release.ps1
 ```
 
-The build deploys a complete mod folder, including AssetBundles and all tier icons. The release
-script creates a validated versioned ZIP without overwriting older releases.
+If `dotnet` on PATH has no SDK, set `DOTNET_EXE` to a .NET SDK executable. The release script also
+recognizes a private SDK at `.dotnet\dotnet.exe` or `..\dotnet\dotnet.exe`; those SDK directories are
+local development tools and must not be committed.
+
+The regular build deploys a complete mod folder to `%APPDATA%\Captain of Industry\Mods` unless
+`-p:DeployMod=false` is passed. The release script validates the DLL version, Harmony version,
+AssetBundle Unity headers and ZIP contents, then writes `dist\CargoHelicopter_<version>.zip` without
+overwriting an existing release.
+
+### Maintainer automation
+
+The `CoI Hub forum sync` GitHub Action checks the public Cargo Helicopter board every three hours.
+New, unquoted posts after CoI Hub post `4516` become GitHub issues; quoted replies become comments
+when their referenced post has already been imported. Imported content is labelled
+`source:coi-hub` and `needs-triage`. Hidden topic/post markers prevent duplicates. The importer uses
+public `/Forum/Mods/CargoHelicopter` and `/Topic/*` pages only; it has no CoI Hub credentials. Each run
+imports at most 25 oldest pending posts, so a backlog drains safely over successive runs.
+
+Run its parser tests locally without network access:
+
+```powershell
+python -m unittest discover -s tests -p "test_coi_hub_sync.py" -v
+```
+
+For a release, merge to a clean `main` branch, update `manifest.json` and the three version fields in
+`CargoHelicopter.csproj`, authenticate GitHub CLI, then run on the trusted Windows development PC:
+
+```powershell
+.\tools\new-draft-release.ps1
+```
+
+The helper verifies the branch, worktree, version/tag and repository, calls `build-release.ps1`,
+writes a SHA-256 checksum and creates a **draft** GitHub Release. It never publishes the release.
+CoI Hub upload and publication remain manual because the Hub does not provide a supported upload API.
+
+Repository layout:
+
+- Root: C# source, manifest, configuration, release script and runtime AssetBundles.
+- `HeliportUnity/`: Unity source assets, package manifest and project settings.
+- `build/`: Blender helper scripts used to inspect and prepare the helicopter model.
+- `licenses/`: licenses for redistributed third-party runtime dependencies.
+
+## Security and transparency
+
+Cargo Helicopter uses Harmony patches and reflection because the current modding API does not expose
+all vehicle-flight, dispatch and heliport hooks required by the mod. It reads its bundled icon files
+from the mod directory. The mod does not make external network connections.
+
+No Captain of Industry DLLs or original unmodified game assets are included in this repository. Build
+references are resolved from the user's own installation through `COI_ROOT`.
+
+## License and legal notice
+
+The original Cargo Helicopter code and assets are published under the
+[Captain of Industry Open License (COI-Open)](LICENSE). Third-party components retain their own
+licenses and attributions; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+This Mod includes short excerpts or references to Captain of Industry Game Code. Any such Game Code
+is © MaFi Games and is used only under the
+[Captain of Industry Modding Policy](https://coigame.com/Legal/Modding-Policy).
 
 See [CHANGELOG.md](CHANGELOG.md) for release notes.

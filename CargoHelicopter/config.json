@@ -1,33 +1,33 @@
 {
     "fuelConsumptionMultiplier": {
         "default": 1.0,
-        "description": "Множитель расхода топлива вертолётов. 1.0 = стандартное значение (примерно в 2 раза больше, чем у грузовика с аналогичным грузом). Увеличьте для более жёсткого, реалистичного расхода дизеля; уменьшите — чтобы полёты были дешевле. Вступает в силу после перезагрузки сохранения.",
+        "description": "Helicopter fuel burn multiplier. 1.0 = default (about 2x a truck of similar cargo). Raise for a harsher, more realistic diesel cost; lower to make flying cheaper. Takes effect after reloading the save.",
         "min": 0.1,
         "max": 10.0
     },
     "cargoCapacityMultiplier": {
         "default": 1.0,
-        "description": "Множитель грузоподъёмности вертолётов. 1.0 = стандартное значение (40 / 90 / 180 за уровень). Вступает в силу после перезагрузки сохранения.",
+        "description": "Helicopter cargo capacity multiplier. 1.0 = default (40 / 90 / 180 per tier). Takes effect after reloading the save.",
         "min": 0.25,
         "max": 4.0
     },
     "buildTimeMultiplier": {
         "default": 1.0,
-        "description": "Множитель времени сборки вертолётов. 1.0 = стандартное значение (40 / 55 / 75 секунд за уровень). Выше значение = дольше сборка. Вступает в силу после перезагрузки сохранения.",
+        "description": "Helicopter assembly time multiplier. 1.0 = default (40 / 55 / 75 s per tier). Higher = slower to build. Takes effect after reloading the save.",
         "min": 0.25,
         "max": 4.0
     },
     "heliportT1PowerKw": {
         "default": 100,
         "isInteger": true,
-        "description": "Потребление энергии «Вертолётной площадкой, ур. I», в кВт. Вступает в силу после перезагрузки сохранения.",
+        "description": "Power draw of the Open Heliport T1, in kW. Takes effect after reloading the save.",
         "min": 0,
         "max": 100000
     },
     "heliportT2PowerKw": {
         "default": 500,
         "isInteger": true,
-        "description": "Потребление энергии «Вертолётной площадкой, ур. II», в кВт. Вступает в силу после перезагрузки сохранения.",
+        "description": "Power draw of the Open Heliport T2, in kW. Takes effect after reloading the save.",
         "min": 0,
         "max": 100000
     }

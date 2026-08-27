@@ -1,5 +1,29 @@
 # Cargo Helicopter changelog
 
+## 0.19.10 (GAME-0.8.7-COMPATIBILITY)
+
+- Added verified support for Captain of Industry **0.8.7** and raised the CoI Hub compatibility ceiling to `0.8.7`.
+  The release compiles with zero warnings against public Steam build **24719404 / v0.8.7a**.
+- Audited every active Harmony target and reflected private member used by flight, pathfinding, cargo transfer,
+  heliport production, landing and scrapping. All active targets are still present in the 0.8.7 game assemblies.
+- Removed an unused experimental real-product re-render path that referenced
+  `FlatBedAttachmentMb.m_productsToRenderDynamic`, a private field removed by the new product renderer. The shipped
+  cosmetic sling/container path remains unchanged.
+- Replaced frame-count and process-uptime watchdogs with one monotonic active-play clock. Production, refuelling,
+  scrapping, winch and C-yard recovery timers now stop while the game is paused, unfocused or the computer is asleep,
+  preventing false timeouts immediately after resume and making their limits independent of render frame rate.
+- Serialized heliport and helicopter destruction cleanup through the game's synchronized update, with bounded retries
+  and duplicate suppression. Demolishing a producing or final heliport can no longer race the dispatcher, strand an
+  emerge animation, retain a stale yard lease or leave recycled vehicle IDs in refuel/scrap/API state.
+- Added a scheduled GitHub Action that mirrors new public CoI Hub forum reports into deduplicated GitHub issues and
+  comments. The importer uses no CoI Hub credentials, sanitizes untrusted forum content and limits each run to a
+  bounded batch for safe recovery after outages.
+- Added a maintainer helper that verifies a clean, version-matched `main`, builds the release archive and checksum,
+  and creates a draft GitHub Release. It never publishes the release or uploads to CoI Hub automatically.
+- Kept the existing Unity 6000.0.66f1 AssetBundles: Captain of Industry 0.8.7a still uses Unity 6000.3.19f1 and loads
+  those bundles. The release builder now rejects any unexpected change to the T2 `open_heliport` bundle hash. No
+  models, balancing, prototype IDs or save data changed.
+
 ## 0.19.9 (TERRAIN-ANCHORED-HELIPORTS)
 
 - Fixed the actual Open Heliport placement defect shown in the tester screenshot. Previously only the building origin
