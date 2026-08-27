@@ -1,3 +1,9 @@
+v1.2.5 | 2026-08-25
+────────────────────────────────────────────────────────────────────────
+* PESTICIDE CAN NOW ALSO BE MADE FROM ETHANOL — A CLEANER BIO PROCESSOR RECIPE WITH NO TOXIC SLURRY, SLOWER THAN THE CRUDE OIL ONE (THANKS DENIS FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.4 | 2026-08-18
 ────────────────────────────────────────────────────────────────────────
 * NEW "PIMP MY RIDE" PAINT SHOP — MIX YOUR OWN COLORS FOR EACH FUEL TYPE'S VEHICLES INSTEAD OF THE ONES THE MOD PICKS.
