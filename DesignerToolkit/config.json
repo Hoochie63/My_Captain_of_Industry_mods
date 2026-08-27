@@ -1,152 +1,152 @@
 {
-    "startNewGamePaused": {
-        "default": true,
-        "description": "При запуске новой игры автоматически ставить симуляцию на паузу, на 0 тике."
-    },
-    "saveGameOnFirstDayAs": {
-        "default": "Initial",
-        "description": "При запуске новой игры создать начальное автосохранение с этим именем при первом снятии игры с паузы (пустое значение отключает)."
-    },
-    "blueprint_spacing": {
-        "default": 6,
-        "is_integer": true,
-        "description": "Исходный параметр расстояния между чертежами для массовой вставки. Доступный диапазон: от 0 до 12.",
-        "min": 0,
-        "max": 12
-    },
-    "markdown_table_language": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Исходный язык таблиц Markdown для сохранений, у которых нет сохранённого состояния настроек «Designer Toolkit» (0=Английский, 1=Русский, 2=Оба, 3=Гибридный).",
-        "min": 0,
-        "max": 3
-    },
-    "markdown_number_format": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Исходный формат чисел в Markdown для сохранений, у которых нет сохранённого состояния настроек «Designer Toolkit» (0=Авто, 1=Английский/разделители en-US, 2=Русский/разделители текущего языка).",
-        "min": 0,
-        "max": 2
-    },
-    "instant_build_mode": {
-        "default": false,
-        "description": "Исходный режим мгновенного строительства для сохранений, без сохранённого состояния настроек «BDT». При включении «BDT» автоматически завершает строительство и демонтаж."
-    },
-    "legacy_belt_configurations": {
-        "default": true,
-        "description": "Исходное состояние для устаревших конфигураций транспортёров (стиль строительства транспортёров из «1-го Обновления», позволяющий поворачивать и поднимать/опускать на одной плитке)."
-    },
-    "pre_color_pipes": {
-        "default": true,
-        "description": "Исходное состояние для окрашивания пустых труб в цвет подключённых источников."
-    },
-    "throughput_overlay_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости наложения пропускной способности для сохранений, без сохранённого состояния настроек «BDT». При включении настроенное наложение пропускной способности будут отображаться в игровом мире."
-    },
-    "throughput_glow_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости свечения пропускной способности для сохранений, без сохранённого состояния настроек «BDT»."
-    },
-    "throughput_heatmap_mode": {
-        "default": 2,
-        "is_integer": true,
-        "description": "Исходный режим тепловой карты пропускной способности для сохранений, без сохранённого состояния настроек «BDT» (0 = Нет, 1 = Относительная, 2 = По вместимости).",
-        "min": 0,
-        "max": 2
-    },
-    "throughput_colorblind_mode": {
-        "default": false,
-        "description": "Исходный режим цветов пропускной способности, дружественных к дальтоникам, для сохранений, без сохранённого состояния настроек «BDT»."
-    },
-    "throughput_show_as_percent": {
-        "default": false,
-        "description": "Исходный режим отображения пропускной способности в процентах для сохранений, без сохранённого состояния настроек «BDT»."
-    },
-    "layout_box_mode_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости режима габаритных рамок для сохранений, без сохранённого состояния настроек «BDT». При включении хитбоксы занимаемой строениями площади, будут отображаться в 3D."
-    },
-    "use_recycle_bin": {
-        "default": true,
-        "description": "Исходное состояние использования корзины для чертежей. При включении удалённые или обновлённые чертежи копируются в папку корзины."
-    },
-    "recycle_bin_folder_name": {
-        "default": "Recycle Bin",
-        "description": "Исходное имя папки корзины для чертежей."
-    },
-    "pollution_overlay_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости наложения загрязнения. При включении настроенные наложения загрязнения будут отображаться в игровом мире."
-    },
-    "pollution_glow_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости свечения загрязнения."
-    },
-    "pollution_glow_color": {
-        "default": "white",
-        "description": "Начальный цвет свечения тепловой карты загрязнения. Используйте white (белый), brown (коричневый), purple (фиолетовый) или формат #RRGGBB."
-    },
-    "pollution_days_to_average": {
-        "default": 360,
-        "is_integer": true,
-        "description": "Исходное число дней для усреднения загрязнения. Доступный диапазон: от 0 до 360. 0 отключает сбор данных."
-    },
-    "pollution_show_air": {
-        "default": true,
-        "description": "Исходное состояние отображения загрязнения воздуха."
-    },
-    "pollution_show_ground": {
-        "default": true,
-        "description": "Исходное состояние отображения загрязнения земли и воды."
-    },
-    "pollution_show_solid_waste": {
-        "default": true,
-        "description": "Исходное состояние отображения загрязнения почвы от мусора (свалки)."
-    },
-    "pollution_show_vehicle": {
-        "default": true,
-        "description": "Исходное состояние отображения загрязнения от техники и поездов."
-    },
-    "pollution_show_ship": {
-        "default": true,
-        "description": "Исходное состояние отображения загрязнения от кораблей."
-    },
-    "radiation_overlay_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости наложения радиации. При включении отобранные опасные радиоактивные материалы будут отображаться в мире."
-    },
-    "radiation_glow_enabled": {
-        "default": false,
-        "description": "Исходное состояние видимости свечения радиации."
-    },
-    "radiation_days_to_average": {
-        "default": 30,
-        "is_integer": true,
-        "description": "Исходное количество дней для усреднения радиации. Доступный диапазон: от 0 до 360. 0 отключает сбор данных."
-    },
-    "dtkSettingsStateJson": {
-        "default": "{\"schemaVersion\":1}",
-        "description": "Внутреннее состояние настроек «Designer Toolkit» для конкретного сохранения. Редактирование может сбросить сохранённые настройки «BDT»."
-    },
-    "bdtRateLimitsStateJson": {
-        "default": "{\"schemaVersion\":1}",
-        "description": "Внутреннее состояние лимитов скорости «Designer Toolkit» для конкретного сохранения. Редактирование может сбросить сохранённые лимиты скорости «BDT»."
-    },
-    "bdtThroughputConfigStateJson": {
-        "default": "{\"schemaVersion\":1}",
-        "description": "Внутреннее состояние конфигураций пропускной способности «Designer Toolkit» для конкретного сохранения. Редактирование может сбросить сохранённые конфигурации пропускной способности «BDT»."
-    },
-    "bdtTransportRemovalOrdersStateJson": {
-        "default": "{\"schemaVersion\":1,\"orders\":[]}",
-        "description": "Внутреннее состояние заказов на удаление продуктов с транспортёров для «Designer Toolkit» в сохранении. Редактирование может сбросить активные заказы на удаление."
-    },
-    "bdtLegacyStackerFullAlertStateJson": {
-        "default": "{\"schemaVersion\":1,\"disabledEntityIds\":[]}",
-        "description": "Внутреннее состояние уведомлений о заполнении отвалообразователей (устаревшее) для «Designer Toolkit» в сохранении. Редактирование может сбросить настройки уведомлений для отвалообразователей."
-    },
-    "last_blueprint_folder": {
-        "default": "",
-        "description": "Не удалять — хранит последнюю открытую папку книги чертежей, чтобы мод мог восстановить её при загрузке."
-    }
+  "startNewGamePaused": {
+    "default": true,
+    "description": "When starting a new game, automatically pause simulation at tick 0."
+  },
+  "saveGameOnFirstDayAs": {
+    "default": "Initial",
+    "description": "When starting a new game, create an initial autosave under this name when first unpaused (blank disables)."
+  },
+  "blueprint_spacing": {
+    "default": 6,
+    "is_integer": true,
+    "description": "Initial blueprint spacing parameter [0-12] for batch pasting.",
+    "min": 0,
+    "max": 12
+  },
+  "markdown_table_language": {
+    "default": 0,
+    "is_integer": true,
+    "description": "Initial Markdown table language for saves without Designer Toolkit settings state (0=English, 1=Local, 2=Both, 3=Hybrid).",
+    "min": 0,
+    "max": 3
+  },
+  "markdown_number_format": {
+    "default": 0,
+    "is_integer": true,
+    "description": "Initial Markdown number format for saves without Designer Toolkit settings state (0=Auto, 1=English/en-US separators, 2=Local/current-language separators).",
+    "min": 0,
+    "max": 2
+  },
+  "instant_build_mode": {
+    "default": false,
+    "description": "Initial instant build mode for saves without BDT settings state. When enabled, BDT completes construction and deconstruction automatically."
+  },
+  "legacy_belt_configurations": {
+    "default": true,
+    "description": "Initial state for legacy belt configurations (Update 1 style transport construction that allows turning and inclining/declining on the same tile)."
+  },
+  "pre_color_pipes": {
+    "default": true,
+    "description": "Initial state for coloring empty pipes from their connected upstream sources."
+  },
+  "throughput_overlay_enabled": {
+    "default": false,
+    "description": "Initial throughput overlay visibility state for saves without BDT settings state. When enabled, configured throughput overlays will render in-world."
+  },
+  "throughput_glow_enabled": {
+    "default": false,
+    "description": "Initial throughput glow visibility state for saves without BDT settings state."
+  },
+  "throughput_heatmap_mode": {
+    "default": 2,
+    "is_integer": true,
+    "description": "Initial throughput heatmap mode for saves without BDT settings state (0=None, 1=Relative, 2=Capacity).",
+    "min": 0,
+    "max": 2
+  },
+  "throughput_colorblind_mode": {
+    "default": false,
+    "description": "Initial throughput colorblind-friendly colors mode for saves without BDT settings state."
+  },
+  "throughput_show_as_percent": {
+    "default": false,
+    "description": "Initial throughput show as percent mode for saves without BDT settings state."
+  },
+  "layout_box_mode_enabled": {
+    "default": false,
+    "description": "Initial layout box mode visibility state for saves without BDT settings state. When enabled, building occupancy hitboxes will render in 3D."
+  },
+  "use_recycle_bin": {
+    "default": true,
+    "description": "Initial state for using the blueprint recycle bin. When enabled, deleted or updated blueprints are copied to the recycle bin folder."
+  },
+  "recycle_bin_folder_name": {
+    "default": "Recycle Bin",
+    "description": "Initial folder name for the blueprint recycle bin."
+  },
+  "pollution_overlay_enabled": {
+    "default": false,
+    "description": "Initial pollution overlay visibility state. When enabled, configured pollution overlays will render in-world."
+  },
+  "pollution_glow_enabled": {
+    "default": false,
+    "description": "Initial pollution glow visibility state."
+  },
+  "pollution_glow_color": {
+    "default": "white",
+    "description": "Initial pollution heatmap glow color. Use white, brown, purple, or #RRGGBB."
+  },
+  "pollution_days_to_average": {
+    "default": 360,
+    "is_integer": true,
+    "description": "Initial pollution days to average (0-360, 0 disables data collection)."
+  },
+  "pollution_show_air": {
+    "default": true,
+    "description": "Initial state for showing air pollution."
+  },
+  "pollution_show_ground": {
+    "default": true,
+    "description": "Initial state for showing ground and water pollution."
+  },
+  "pollution_show_solid_waste": {
+    "default": true,
+    "description": "Initial state for showing ground pollution from landfill."
+  },
+  "pollution_show_vehicle": {
+    "default": true,
+    "description": "Initial state for showing vehicle and train pollution."
+  },
+  "pollution_show_ship": {
+    "default": true,
+    "description": "Initial state for showing ship pollution."
+  },
+  "radiation_overlay_enabled": {
+    "default": false,
+    "description": "Initial radiation overlay visibility state. When enabled, sampled unsafe radioactive inventory will render in-world."
+  },
+  "radiation_glow_enabled": {
+    "default": false,
+    "description": "Initial radiation glow visibility state."
+  },
+  "radiation_days_to_average": {
+    "default": 30,
+    "is_integer": true,
+    "description": "Initial radiation days to average (0-360, 0 disables data collection)."
+  },
+  "dtkSettingsStateJson": {
+    "default": "{\"schemaVersion\":1}",
+    "description": "Internal per-save Designer Toolkit settings state. Editing may reset saved BDT settings."
+  },
+  "bdtRateLimitsStateJson": {
+    "default": "{\"schemaVersion\":1}",
+    "description": "Internal per-save Designer Toolkit rate limits state. Editing may reset saved BDT rate limits."
+  },
+  "bdtThroughputConfigStateJson": {
+    "default": "{\"schemaVersion\":1}",
+    "description": "Internal per-save Designer Toolkit throughput configurations state. Editing may reset saved BDT throughput configs."
+  },
+  "bdtTransportRemovalOrdersStateJson": {
+    "default": "{\"schemaVersion\":1,\"orders\":[]}",
+    "description": "Internal per-save Designer Toolkit transport product-removal order state. Editing may reset active removal orders."
+  },
+  "bdtLegacyStackerFullAlertStateJson": {
+    "default": "{\"schemaVersion\":1,\"disabledEntityIds\":[]}",
+    "description": "Internal per-save Designer Toolkit legacy stacker full-alert state. Editing may reset per-stacker alert preferences."
+  },
+  "last_blueprint_folder": {
+    "default": "",
+    "description": "Do not delete — stores the last-open blueprint book folder so the mod can restore it on load."
+  }
 }
