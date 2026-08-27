@@ -1,0 +1,16 @@
+{
+  "id": "MultiPriorityBalancers",
+  "version": "0.2.1",
+  "authors": ["Alan2623"],
+  "display_name": "Multi-Priority Balancers",
+  "description_short": "Adds P1, P2 and P3 input/output priorities to new balancers for all product transports.",
+  "description_long": "Adds a dedicated P1/P2/P3 balancer category with small, medium, large and long variants for flat conveyors, U-shape conveyors, pipes and molten channels. Uses an independent asset bundle and can run alone or alongside Industrial Expansion.",
+  "min_game_version": "0.8.7",
+  "max_verified_game_version": "0.8.7a",
+  "primary_dlls": ["0Harmony.dll", "MultiPriorityBalancers.dll"],
+  "links": ["https://coigame.com/Mod/1097/Industrial-Expansion"],
+  "incompatible_mods": [],
+  "non_locking_dll_load": false,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false
+}

@@ -1,0 +1,16 @@
+THIRD-PARTY VISUAL ASSETS
+
+File: AssetBundles/mpb_balancers
+Source: Industrial Expansion 1.0.5
+Author: Luminiel
+Original page: https://coigame.com/Mod/1097/Industrial-Expansion
+License: Captain of Industry Open License (CoI-Open), version 1.0
+License text: LICENSE-CoI-Open.txt
+License URL: https://coigame.com/Legal/CoI-Open
+
+The bundle supplies the additional balancer models and icons used by this
+mod. It was repackaged with a unique bundle name, a unique Unity CAB identifier,
+and unique internal asset paths for compatibility. It is redistributed and used
+in a derivative work under CoI-Open with credit to Luminiel.
+
+No Industrial Expansion code, prototype data, or unrelated asset is included.

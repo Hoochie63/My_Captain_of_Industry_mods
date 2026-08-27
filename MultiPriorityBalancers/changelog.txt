@@ -1,0 +1,26 @@
+v0.2.1 | 2026-08-26
+* Fixed missing icons and black materials when Industrial Expansion is enabled.
+* Assigned a unique internal Unity CAB identifier to the MPB asset bundle.
+* Repointed all 29 streamed mesh and texture references to the unique MPB resource file.
+* Included the main image as thumbnail.png for the in-game mod information page.
+
+v0.2.0 | 2026-08-26
+* Added a dedicated P1/P2/P3 Balancers toolbar category.
+* Renamed every building to clearly distinguish it from standard balancers.
+* Moved all custom assets to unique MultiPriorityBalancers paths.
+* Replaced the shared balancers bundle with the independent mpb_balancers bundle.
+* Removed the Industrial Expansion incompatibility; both mods can now be loaded together.
+* Added an explicit fallback icon for the large U-shape balancer because the source asset set has no dedicated large icon.
+* Kept all MPB prototype IDs unchanged for save compatibility.
+
+v0.1.1 | 2026-08-25
+* Changed priorities to strict saturation: P1 is exhausted before P2, then P3, then normal ports.
+* Added save persistence for all per-port priority levels.
+* Added visible NORMAL, P1, P2 and P3 labels in the balancer inspector.
+* Added publication metadata, licenses, compatibility notes and attribution.
+
+v0.1.0 | 2026-08-25
+* Initial release.
+* Added small, medium, large and long balancers.
+* Added variants for flat conveyors, U-shape conveyors, pipes and molten channels.
+* Added a research node after Transport Balancing.
