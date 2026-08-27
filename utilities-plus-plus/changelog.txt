@@ -1,3 +1,9 @@
+v1.2.4 | 2026-08-25
+────────────────────────────────────────────────────────────────────────
+* EFFICIENCY LABELS NOW SHOW ABOVE THE ELECTROLYZER AND ELECTROLYZER II, WHICH WERE THE ONLY BUILDINGS THAT NEVER GOT ONE (THANKS WOLF FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.3 | 2026-08-17
 ────────────────────────────────────────────────────────────────────────
 * DRAG THE GRIP IN THE OVERLORD WINDOW'S BOTTOM-RIGHT CORNER TO SET ITS SIZE, AND EVERY TAB LAYS ITSELF OUT FOR THE SIZE YOU PICK.
