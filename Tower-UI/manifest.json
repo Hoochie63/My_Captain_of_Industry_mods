@@ -1,0 +1,21 @@
+{
+  "id": "Tower-UI",
+  "version": "1.0.0",
+  "display_name": "Tower UI",
+  "description_short": "Customize the Mining Tower UI so it never grows too large while heavily modded.",
+  "description_long": "**TOWER UI**\n\nStops oversized Mining Tower sections from clipping content.\n\n**ROWS AND SCROLLING**\n- Choose one to eight visible rows.\n- Covers excavators, trucks, materials, and routes.\n- Scrollbars appear only when needed.\n- Split sections scroll independently.\n- Row limits persist across every tower.\n\n**VEHICLE FILTERS**\n- Excavators and trucks use separate settings pages.\n- [Auto-hide unowned]: Show only built variants.\n- Manual filters: Fuel type or individual vehicle.\n- [Show all]: Restore every available variant.\n\n**COLLAPSE CONTROLS**\n- Collapse every tower section instantly.\n- Expand only the four standard sections.\n- Each tower remembers its collapsed sections.\n- Collapse-all saves Auto Terrain Designations states when installed.\n\n**NEW TOWER DEFAULTS**\n- Choose which sections start open on newly placed Mining Towers.\n- Existing towers retain their individual collapsed-section states.\n- Uses live localized section names.\n\n**SETTINGS WINDOW**\n- Resize horizontally from the native width up to 130%.\n\n**COMPATIBILITY**\n- Verified for Captain of Industry 0.8.7b.\n- Supports compatible vanilla and modded vehicles.\n- Works with Gameplay++ and Auto Terrain Designations.\n- Keeps native localized names unchanged.\n- Includes all 21 languages available in the game.\n- Safe to add or remove mid-save.",
+  "authors": [
+    "Underlörd"
+  ],
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.7b",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "TowerUI.dll"
+  ],
+  "mod_dependencies": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "TowerUIMod"
+}

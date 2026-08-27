@@ -1,0 +1,33 @@
+v1.0.0 | 2026-08-23
+
+===================
+TOWER UI SETTINGS
+===================
+* Keep heavily modded Mining Tower inspectors compact, readable, and selectable.
+* Control Excavators, Trucks, Materials/Disposal, and Import/Export without letting long lists push content off-screen.
+
+==================
+ROWS AND SCROLLING
+==================
+* Choose one to eight visible rows for each controlled section.
+* Scrollbars appear only when content exceeds the limit, and both halves of split sections scroll independently.
+
+==================
+VEHICLE VISIBILITY
+==================
+* Filter excavators and trucks automatically by current ownership, by fuel type, or by individual vehicle.
+* Preserve the game's research and availability rules while updating every open Mining Tower immediately.
+
+===========================
+COLLAPSE AND DEFAULT STATES
+===========================
+* Collapse every section at once or reopen only the four standard sections.
+* Each Mining Tower remembers its collapsed sections.
+* Choose which standard and Auto Terrain Designations sections start open on newly placed Mining Towers.
+
+==============================
+COMPATIBILITY AND LOCALIZATION
+==============================
+* Works with Gameplay++ and Auto Terrain Designations without duplicating their collapse controls.
+* Uses live localized game and mod names and includes all 21 game languages.
+* Verified for Captain of Industry 0.8.7b and safe to add to or remove from existing saves.

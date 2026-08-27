@@ -1,0 +1,74 @@
+{
+  "excavator_visible_rows": {
+    "default": 4,
+    "is_integer": true,
+    "description": "Visible rows in Mining Tower excavator sections.",
+    "min": 1,
+    "max": 8
+  },
+  "vehicle_visible_rows": {
+    "default": 4,
+    "is_integer": true,
+    "description": "Visible rows in Mining Tower truck and vehicle sections.",
+    "min": 1,
+    "max": 8
+  },
+  "dump_material_visible_rows": {
+    "default": 2,
+    "is_integer": true,
+    "description": "Visible rows in Mining Tower dump-material sections.",
+    "min": 1,
+    "max": 8
+  },
+  "route_visible_rows": {
+    "default": 2,
+    "is_integer": true,
+    "description": "Visible rows in Mining Tower import and export route sections.",
+    "min": 1,
+    "max": 8
+  },
+  "default_atd_mining_section_open": {
+    "default": false,
+    "description": "Whether the ATD mining-designations section starts open on newly placed Mining Towers."
+  },
+  "default_atd_ore_section_open": {
+    "default": false,
+    "description": "Whether the ATD ore-composition section starts open on newly placed Mining Towers."
+  },
+  "default_atd_farming_section_open": {
+    "default": false,
+    "description": "Whether the ATD farmland-preparation section starts open on newly placed Mining Towers."
+  },
+  "default_excavator_section_open": {
+    "default": true,
+    "description": "Whether the excavator section starts open on newly placed Mining Towers."
+  },
+  "default_vehicle_section_open": {
+    "default": true,
+    "description": "Whether the truck section starts open on newly placed Mining Towers."
+  },
+  "default_material_section_open": {
+    "default": false,
+    "description": "Whether the material/disposal section starts open on newly placed Mining Towers."
+  },
+  "default_route_section_open": {
+    "default": false,
+    "description": "Whether the import/export section starts open on newly placed Mining Towers."
+  },
+  "auto_hide_unowned_excavators": {
+    "default": false,
+    "description": "Automatically hide excavator variants that are not currently owned in the world."
+  },
+  "auto_hide_unowned_trucks": {
+    "default": false,
+    "description": "Automatically hide truck and compatible vehicle variants that are not currently owned in the world."
+  },
+  "hidden_vehicle_proto_ids_json": {
+    "default": "{\"schemaVersion\":1,\"hiddenProtoIds\":[]}",
+    "description": "Internal persisted manual fuel-type and individual-vehicle filter selections."
+  },
+  "tower_panel_state_json": {
+    "default": "{\"schemaVersion\":1,\"towers\":[]}",
+    "description": "Internal per-tower collapsed-state data for the four Tower UI sections."
+  }
+}
