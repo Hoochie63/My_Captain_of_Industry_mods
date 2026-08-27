@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Maks. spowolnień na aktualizację",
   "Slowed-down Energy Saving %": "Oszczędność energii przy spowolnieniu %",
   "Slowed-down Worker Saving %": "Oszczędność pracowników przy spowolnieniu %",
+  "Slowed-down Maintenance Saving %": "Oszczędność konserwacji przy spowolnieniu %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Auto-przyspieszenie - budynek sam ustawia swoje przyspieszenie na podstawie zapełnienia globalnego magazynu produktu, który wytwarza. Dostępne tylko dla maszyn.",
   "Statistics": "Statystyka",

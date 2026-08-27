@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Max. verlagingsstappen per update",
   "Slowed-down Energy Saving %": "Energiebesparing bij verlaging %",
   "Slowed-down Worker Saving %": "Arbeidersbesparing bij verlaging %",
+  "Slowed-down Maintenance Saving %": "Onderhoudsbesparing bij verlaging %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Auto-boost - het gebouw stelt zijn eigen boost in aan de hand van hoe vol de totale voorraad is van het product dat het maakt. Alleen beschikbaar voor machines.",
   "Statistics": "Statistieken",

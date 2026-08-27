@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Max. lassítási lépés frissítésenként",
   "Slowed-down Energy Saving %": "Lassítási energiamegtakarítás %",
   "Slowed-down Worker Saving %": "Lassítási munkásmegtakarítás %",
+  "Slowed-down Maintenance Saving %": "Lassítási karbantartás-megtakarítás %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Auto rásegítés - az épület magától állítja be a rásegítését aszerint, mennyire tele van az általa gyártott termék globális raktárkészlete. Csak gépeknél érhető el.",
   "Statistics": "Statisztika",

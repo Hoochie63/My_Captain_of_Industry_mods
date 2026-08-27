@@ -1,3 +1,32 @@
+v1.2.8 | 2026-08-24
+────────────────────────────────────────────────────────────────────────
+* BOOSTED MACHINES NO LONGER PLAY THEIR ANIMATIONS COMICALLY FAST, AND THE GAME LOG NO LONGER FILLS UP WITH WARNINGS WHILE THEY RUN.
+
+  - Machines boosted past the point where their animation could keep up (most visible on assemblers) now play at most twice the normal speed.
+
+  - The log-file flooding this caused is also gone — furnaces, casters, evaporation ponds and others wrote a warning every work cycle, growing the log to huge sizes.
+
+  - Changing a machine's boost in the middle of its work no longer makes its animation sprint until the current cycle ends.
+
+────────────────────────────────────────────────────────────────────────
+* SLOWING A BUILDING BELOW 100% NOW ALSO LOWERS ITS MAINTENANCE COST, MATCHING THE ELECTRICITY AND WORKER SAVINGS (THANKS PLKK FOR THE REPORT).
+
+  - Works for manual boosts and Auto Boost alike, and the building's window shows the lowered cost right away.
+
+  - The new "Slowed-down Maintenance Saving %" setting controls how much is saved — 100 is fully proportional, 0 turns the saving off.
+
+────────────────────────────────────────────────────────────────────────
+* THE COPY SETTINGS TOOL NOW CARRIES AUTO BOOST OVER TO THE BUILDINGS YOU COPY TO, INSTEAD OF SKIPPING THEM.
+
+  - Whether Auto Boost is on or off, its linked storage and its Lowest and Highest range all come along.
+
+  - Copying from a building that is not on Auto Boost switches it off on the target and sets the boost percentage, which did nothing before.
+
+────────────────────────────────────────────────────────────────────────
+* LINKING A STORAGE TO A SINGLE BUILDING'S AUTO BOOST NOW REOPENS THE BUILDING'S WINDOW ONCE YOU CLICK THE STORAGE — NO NEED TO PRESS ESC AND SELECT THE BUILDING AGAIN.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.7 | 2026-08-22
 ────────────────────────────────────────────────────────────────────────
 * AUTO BOOST ON A SINGLE BUILDING CAN NOW BE GIVEN THE SAME SETTINGS AS A BOOST GROUP, SO A BUILDING ON ITS OWN NO LONGER HAS TO GUESS FROM YOUR GLOBAL STORAGE ALONE.

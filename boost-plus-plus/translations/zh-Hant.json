@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "每次更新最大減速級數",
   "Slowed-down Energy Saving %": "減速耗電節省 %",
   "Slowed-down Worker Saving %": "減速工人節省 %",
+  "Slowed-down Maintenance Saving %": "減速維護節省 %",
   "Auto": "自動",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "自動加速 - 建築物會依據其所生產產品的全域庫存充盈程度，自行設定加速百分比。僅適用於機器。",
   "Statistics": "統計",

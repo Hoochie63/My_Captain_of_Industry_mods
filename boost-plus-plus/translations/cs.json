@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Max. kroků zpomalení na aktualizaci",
   "Slowed-down Energy Saving %": "Úspora energie při zpomalení %",
   "Slowed-down Worker Saving %": "Úspora pracovníků při zpomalení %",
+  "Slowed-down Maintenance Saving %": "Úspora údržby při zpomalení %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Auto zvýšení - budova si sama nastaví zvýšení výkonu podle toho, jak plný je globální sklad produktu, který vyrábí. Dostupné pouze pro stroje.",
   "Statistics": "Statistiky",

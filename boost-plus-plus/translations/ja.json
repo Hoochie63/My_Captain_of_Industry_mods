@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "1回の更新の最大減速段数",
   "Slowed-down Energy Saving %": "減速時のエネルギー節約 %",
   "Slowed-down Worker Saving %": "減速時の労働者節約 %",
+  "Slowed-down Maintenance Saving %": "減速時の保守点検節約 %",
   "Auto": "自動",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "オートブースト - この建物が生産する製品の全体在庫の満杯度に応じて、建物が自らブースト率を設定します。機械のみで利用できます。",
   "Statistics": "統計",

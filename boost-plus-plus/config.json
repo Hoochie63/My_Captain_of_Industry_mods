@@ -188,6 +188,13 @@
         "min": 0,
         "max": 100
     },
+    "underboostMaintenanceScaling": {
+        "default": 100,
+        "is_integer": true,
+        "description": "Maintenance saved when a building is slowed below 100% (100 = fully proportional, a building at 10% speed needs 10% maintenance. 0 = no saving, it costs the same as 100%)",
+        "min": 0,
+        "max": 100
+    },
     "autoBoostLowFillPercent": {
         "default": 10,
         "is_integer": true,

@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Màx. passos de reducció per actualització",
   "Slowed-down Energy Saving %": "Estalvi d'energia en reducció %",
   "Slowed-down Worker Saving %": "Estalvi de treballadors en reducció %",
+  "Slowed-down Maintenance Saving %": "Estalvi de manteniment en reducció %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Impuls automàtic - l'edifici estableix el seu propi impuls segons com de ple està el magatzem global del producte que fabrica. Només disponible per a màquines.",
   "Statistics": "Estadístiques",

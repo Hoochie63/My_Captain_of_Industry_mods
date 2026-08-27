@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Maks. yavaşlatma adımı/güncelleme",
   "Slowed-down Energy Saving %": "Yavaşlatmada Enerji Tasarrufu %",
   "Slowed-down Worker Saving %": "Yavaşlatmada İşçi Tasarrufu %",
+  "Slowed-down Maintenance Saving %": "Yavaşlatmada Bakım Tasarrufu %",
   "Auto": "Oto",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Otomatik hızlandırma - bina, ürettiği ürünün genel depo doluluğuna göre kendi hızlandırmasını kendisi ayarlar. Yalnızca makinelerde kullanılabilir.",
   "Statistics": "İstatistikler",

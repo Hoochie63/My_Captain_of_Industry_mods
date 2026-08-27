@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "갱신당 최대 감속 단계",
   "Slowed-down Energy Saving %": "감속 시 전력 절감 %",
   "Slowed-down Worker Saving %": "감속 시 노동자 절감 %",
+  "Slowed-down Maintenance Saving %": "감속 시 유지 보수 절감 %",
   "Auto": "자동",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "자동 가속 - 이 건물이 생산하는 제품의 전체 재고량에 따라 건물이 스스로 가속 비율을 설정합니다. 기계에서만 사용할 수 있습니다.",
   "Statistics": "통계",

@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Max. Drosselschritte pro Update",
   "Slowed-down Energy Saving %": "Drossel-Energieeinsparung %",
   "Slowed-down Worker Saving %": "Drossel-Arbeitereinsparung %",
+  "Slowed-down Maintenance Saving %": "Drossel-Wartungseinsparung %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Auto-Boost - das Gebäude setzt seinen Boost selbst anhand des Füllstands des globalen Lagers für das erzeugte Produkt. Nur für Maschinen verfügbar.",
   "Statistics": "Statistiken",

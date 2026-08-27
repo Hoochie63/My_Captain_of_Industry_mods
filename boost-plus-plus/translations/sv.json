@@ -204,6 +204,7 @@
   "Max slow-down steps per update": "Max sänkningssteg per uppdatering",
   "Slowed-down Energy Saving %": "Elbesparing vid sänkning %",
   "Slowed-down Worker Saving %": "Arbetarbesparing vid sänkning %",
+  "Slowed-down Maintenance Saving %": "Underhållsbesparing vid sänkning %",
   "Auto": "Autom.",
   "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "Autoboost - byggnaden ställer in sin egen boost utifrån hur fullt det globala lagret av produkten den tillverkar är. Endast tillgängligt för maskiner.",
   "Statistics": "Statistik",
