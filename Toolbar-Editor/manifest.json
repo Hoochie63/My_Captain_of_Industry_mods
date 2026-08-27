@@ -1,0 +1,24 @@
+{
+  "id": "Toolbar-Editor",
+  "version": "2.0.0",
+  "display_name": "Toolbar Editor",
+  "description_short": "Toolbar Customization!—Move, color, scale, layer & create sections • drag & drop buttons • Save/Load your Loadouts",
+  "description_long": "Toolbar Editor provides a complete visual editor for the Captain of Industry toolbar. Its six middle default sections are fixed Toolbar Editor-owned mirrors that can be renamed or switched between horizontal rows and vertical rails while preserving the original live buttons, actions, unlocks, and gameplay behavior.",
+  "authors": [
+    "Underlörd"
+  ],
+  "min_game_version": "0.8.6",
+  "max_verified_game_version": "0.8.7",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "ToolbarEditor.dll"
+  ],
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [
+    "keybind-framework"
+  ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "ToolbarEditorMod"
+}

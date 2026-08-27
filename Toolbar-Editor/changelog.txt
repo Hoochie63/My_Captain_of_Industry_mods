@@ -1,0 +1,131 @@
+v2.0.0 | 2026-08-24
+
+Ω—Toolbar Editor—Ω
+
+===============
+GETTING STARTED
+===============
+- Turn the complete Captain of Industry toolbar into a live visual editor without replacing the menus, buttons, text, actions, unlocks, or behavior already provided by the game and other mods.
+- Work through five focused tabs—Layout, Sections, Buttons, Profiles, and Settings—with persistent footer controls and the Fine Tune tray available throughout the editor.
+- Left-click the Toolbar Editor shortcut or optional calendar T to open Editor & Settings; right-click either shortcut to toggle Edit Mode immediately.
+- Use Ctrl + [ to open or close Editor & Settings and Ctrl + ] to toggle Edit Mode even if an on-screen shortcut has been moved out of reach.
+- Toolbar Editor uses a fresh Toolbar-Editor identity and profile folder; legacy folders are not imported automatically, but selected .toolbar files can be copied into the new Profiles folder.
+
+==========
+AUTO-SHIFT
+==========
+- Leave Auto-Shift ON for a familiar default-style single-row toolbar while using Ctrl + Shift + Left-drag to reorder buttons or move them between sections.
+- Turn Auto-Shift OFF before Ctrl + Left-dragging any section into a custom position, switching sections to vertical rails, or building multiple rows; it does not disable itself when a section is moved.
+- With Auto-Shift on, surrounding sections repack after button and section changes; with it off, established positions stay fixed and genuinely new sections appear near the lower center for placement. The chosen mode is saved with the layout.
+
+=================
+PER-SAVE LOADOUTS
+=================
+- Give every Captain of Industry save its own authoritative toolbar loadout, completely independent from the world played before it.
+- Capture the active toolbar through normal Save, Save As, autosave, and the game serializer; abandoning a game without saving discards only the edits made since its last save.
+- Store component positions, supported sizes, layers, borders, section names and orientations, button assignments, order, visibility and colors, all toolbar scales, custom-section count, Auto-Shift, and background-movement behavior.
+- Keep clean new, legacy, and reset-to-default saves on the native toolbar until that world is deliberately edited or receives a named loadout.
+- Reconstruct saved horizontal, vertical, mixed, and late-registered mod layouts at their saved positions after the HUD and toolbar buttons finish loading.
+
+=================
+OPTIONAL LOADOUTS
+=================
+- Use named .toolbar loadouts as optional global templates; they are not required for automatic per-save restoration.
+- Keep named loadouts outside the installed mod folder so they remain available for other worlds, reinstalls, sharing, and manual backup.
+- Load a named template into the current world immediately, then save that game when the applied toolbar should become its persistent per-save loadout.
+- Treat named files as snapshots rather than live links: later toolbar edits mark the active template as modified until Save Profile or Overwrite Profile is deliberately used.
+
+===============
+EDIT LAYOUT TAB
+===============
+- Enter or finish Toolbar Edit Mode, show or hide highlighted component bounds, and expand a collapsible Controls card that displays the resolved shortcuts and modifier gestures.
+- Ctrl + Left-drag any registered toolbar component within the protected screen boundaries.
+- Shift + Left-drag resizes the width of Search, the toolbar background, or the Submenu and item panel; Alt + Left-drag resizes the height of Search or the toolbar background.
+- Ctrl + Shift + Left-drag a live button to reorder it inside its section or move it into another active section with orientation-aware insertion and automatic content sizing.
+- Ctrl + Shift + Alt + Left-click brings a toolbar section or Search forward, while the same modifiers with Right-click send it backward.
+- Choose whether sections move together with the toolbar background or remain fixed while the background moves and resizes independently.
+- Scale the complete toolbar and Search from 50% to 200%, scale the Submenu and item panel from 76% to 200%, and reset each scale independently.
+- Reset Search, the Submenu and item panel, the toolbar background, standard sections, or the full toolbar through compact confirmations. If a loaded layout leaves section transforms after the full reset, use Reset all sections afterward.
+
+==============
+FINE TUNE TRAY
+==============
+- Open the shared Fine Tune Toolbar Components tray from the gold footer arrow on any tab; its open state is remembered globally.
+- Enable Selection Mode during Edit Mode, then plain left-click the deepest editable toolbar component without activating its normal action; modifier-based editing remains available.
+- Select active default, custom, or green sections plus the toolbar background, Search, Submenu and item panel, and the overlays host when it is available.
+- Identify the selected component directly on the live toolbar and view its component name and type in the tray.
+- Nudge in four directions by 1 pixel with Left-click or 10 pixels with Right-click, or enter exact integer X and Y screen coordinates and apply them.
+- Independently scale Search, the Submenu and item panel, and both native green tool-shortcut hosts where supported, with a dedicated per-target Reset.
+- Move supported targets backward or forward by one layer, cycle eligible bottom borders, switch eligible sections between horizontal and vertical, and reset the selected component's position, supported scale, layer, and border.
+
+============
+SECTIONS TAB
+============
+- Manage up to twenty active section slots: twelve custom sections, six Toolbar Editor default families, and two native green tool-shortcut hosts.
+- Keep the game's six original middle toolbar families alive through Toolbar Editor mirror sections while preserving their registered Buildings, Logistics, Trains, Beautification, Trade/Blueprints/Message Center, and World Map/Space content.
+- Keep third-party top-level menus associated with the same native default family chosen by their original mod instead of collecting them into a synthetic catch-all section.
+- Add a new empty section, remove the latest empty section, identify every active section, and see the live active-section count; occupied sections remain protected and suppressed sections can return when content needs them.
+- Select any active default, custom, or green section from the compact dropdown, identify it on the live toolbar, and rename supported default or custom sections with names saved per world and named loadout.
+- Switch the six default mirrors and custom sections between a natural horizontal row and a true one-column vertical rail while surrounding custom positions remain stable.
+- Cycle each eligible section's bottom border through Off, Concave, and Convex, or choose one style and apply it across all standard sections.
+- Inspect section type, exact X/Y position, effective scale, orientation, layer order, button count, and assigned button names—including hidden assignments—from Section Stats.
+- Reset a standard section's position, supported scale, layer, and border while preserving its custom name, orientation, and assigned buttons; newly researched or late-registered visible content can automatically restore its suppressed toolbar home.
+- Keep the primary green tool-shortcut host fixed-horizontal and the second green host as a true one-column vertical rail, with independent movement, scale, layer, identification, and live shortcut behavior.
+
+===========
+BUTTONS TAB
+===========
+- Browse a scrollable, collapsible group for every tracked section, including empty groups, with section Rename and Identify controls directly above its buttons.
+- See every tracked button under its current section with a friendly name and the best available live, primary, or fallback icon preview; hidden buttons remain listed and manageable.
+- Show or hide each eligible toolbar button while safeguarding Toolbar Editor access through the dedicated Settings choices and bracket shortcuts.
+- Use Ctrl + Shift + Left-drag in Edit Mode for section assignment and ordering, then manage visibility, section names, identification, and colors from the Buttons tab.
+- Choose an original or custom icon tint per button, recolor every button in one section including hidden assignments, or apply one tint across the complete tracked toolbar.
+- Use the draggable color picker with live preview, eighteen preset colors, exact six-digit hexadecimal input, independent RGB sliders, Original, Apply, Cancel, and invalid-value protection.
+
+============
+PROFILES TAB
+============
+- Save the current toolbar under a new profile name or deliberately overwrite an existing .toolbar file through inline confirmation.
+- Select a profile without loading it and distinguish Selected, Active, and Active + Selected states; later toolbar edits are reported as unsaved changes to the active named template.
+- Load a selected profile with confirmation, rename it, or permanently delete its global template without silently reverting the current world's already-applied toolbar.
+- Use green and red status text to see successful profile operations and rejected or invalid files.
+- Copy the Profiles folder path for Explorer or sharing, and use Refresh to rescan .toolbar files added, removed, or renamed outside the game.
+- Review and save a modified named profile before leaving Edit Mode, or exit without updating that template while the current world's normal per-save recovery remains active.
+
+========
+SETTINGS
+========
+- Choose the globally saved Toolbar Editor shortcut artwork from eight options: Compact Block Hammer, Original Detailed Hammer, Soft Mallet, Outline Mallet, Inferno T, Inferno Double Hammer T, Burning T, and Industrial Toolbox.
+- Recolor the live Toolbar Editor shortcut with the full icon-color picker without replacing the button or losing its section, order, or position.
+- Choose one safeguarded access mode: Both toolbar icon and calendar T, Calendar only, or Toolbar only; there is deliberately no option that hides every on-screen recovery route.
+- Disable editor tooltips while keeping the calendar recovery tooltip available, or disable the named-profile unsaved-change warning without disabling per-save toolbar recovery.
+- Enable the saved bottom-edge vertical resize strip for the editor window while keeping its width fixed.
+- Automatically name a generically named custom section after the first button dropped into it, or leave this behavior disabled for manual naming.
+- Keep exhaustive developer tracing permanently inaccessible in the public build: there is no Settings toggle, persisted diagnostic preference, or console command capable of enabling it.
+
+======================
+EDITOR WINDOW & FOOTER
+======================
+- Move the editor anywhere on screen, remember its position, and pin it when it should remain open during normal play.
+- Scale only Toolbar Editor, its prompts, and its dropdowns from 65% to 120% in 5% steps without changing the global game-tooltip scale.
+- Use dedicated minimum, normal, and maximum height controls or the optional resize strip to save an exact editor height from 480 to 1000 pixels.
+- Open the Fine Tune tray without overwriting the preferred closed-tray height, and keep tab scroll positions and compact controls usable in dense layouts.
+- Use the persistent footer on every tab to finish editing, move the background independently, toggle Auto-Shift and highlighted bounds, add or remove sections, see the section count, and identify all sections.
+
+========================
+SHORTCUTS & INTEGRATIONS
+========================
+- Use the toolbar shortcut and calendar recovery button with the same Left-click Settings and Right-click Edit Mode actions.
+- Keep the Ctrl-bracket defaults with no required framework, or install Keybind Framework to receive a dedicated Toolbar Editor category with both actions fully rebindable.
+- When Tweaks++ is detected, open its HUD settings directly from the Toolbar Editor footer and lock or unlock Tweaks++ HUD positions without leaving the editor.
+- Run every optional integration through soft detection so missing Keybind Framework or Tweaks++ installations never block Toolbar Editor.
+
+======================
+COMPATIBILITY & SAFETY
+======================
+- Reuse the original live toolbar buttons and controllers so IDs, actions, icons, tooltips, selected states, research unlocks, visibility rules, translations, and mod ownership remain authoritative.
+- Leave an original button or panel untouched when a third-party control cannot be safely classified or captured.
+- Add Toolbar Editor to an existing save or remove it later without world entities or prototypes; its per-save layout is stored as removal-safe mod configuration.
+- Support Captain of Industry 0.8.6 and remain verified through 0.8.7 with Keybind Framework as the only declared optional mod dependency.
+- Present the Toolbar Editor interface in English while preserving the game and third-party toolbar content's own localization.
+- Keep normal concise initialization, warning, recovery, and error messages while excluding the exhaustive developer trace stream from the public release.
