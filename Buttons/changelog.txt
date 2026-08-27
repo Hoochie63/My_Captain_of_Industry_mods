@@ -1,0 +1,60 @@
+v1.0.0 | 2026-08-23
+
+=================
+BUTTON MANAGEMENT
+=================
+- Buttons discovers native and mod-added controls in the calendar HUD and collects them in one configurable list.
+- Enable, hide, reorder, and recolor each button while preserving its original action, icon, tooltip, label, and live state.
+- Expand the calendar HUD to the left or right while keeping button order intuitive in either direction.
+
+===========================
+PRIMARY AND SECONDARY VIEWS
+===========================
+- Build two independent button layouts: a compact Primary view and an expanded Secondary view.
+- Choose exactly which enabled buttons appear in either view and switch between them with On Click or On Hover mode.
+- The active layout and all visibility choices remain global across worlds and complete game restarts.
+
+=============
+ON CLICK MODE
+=============
+- Left-click the Buttons calendar icon control to switch between Primary and Secondary; right-click it to open settings.
+- The last active view is remembered between game sessions.
+
+=============
+ON HOVER MODE
+=============
+- Keep Primary visible at rest and reveal Secondary by hovering over the calendar HUD.
+- Adjust the hover delay so the expanded controls remain available long enough to move between buttons comfortably.
+- Hide the Buttons control from Primary when another Primary button remains visible, while Secondary always preserves settings access.
+
+================
+SPEED / MOD MODE
+================
+- Use a persistent preset that keeps pause and game-speed controls together while separating mod-menu buttons into the alternate view.
+- The preset adapts to On Click, On Hover, and left or right expansion while preserving sensible speed-control ordering.
+- Any manual visibility or ordering change returns the layout to full user control.
+
+===================
+COLORS AND ORDERING
+===================
+- Reorder buttons individually or apply visibility and color changes to the complete list at once.
+- Choose colors from a preset palette, enter a hexadecimal value, or fine-tune RGB sliders with live preview.
+- Undo the most recent bulk change without disturbing unrelated settings.
+
+===============
+GLOBAL PROFILES
+===============
+- Save named snapshots of the complete Buttons configuration and load them to recall all settings and options configured inside buttons setting menu.
+- Profiles are stored globally outside the installed mod folder, so they remain available across worlds and reinstalls.
+
+====================
+TWEAKS++ INTEGRATION
+====================
+- When Tweaks++ is available, profiles can also restore the saved calendar HUD position using the optional Include position control.
+- Conditional title-bar shortcuts open the Tweaks++ HUD page and lock or unlock Tweaks++ HUD positions directly from Buttons menu.
+
+========================
+SETTINGS TRAY AND WINDOW
+========================
+- Open the collapsible Settings Tray using the gold arrow for profiles, defaults, tooltip control, and the English UI override.
+- Pin the settings window, resize it vertically, and optionally enable horizontal resizing for longer button names and translations.

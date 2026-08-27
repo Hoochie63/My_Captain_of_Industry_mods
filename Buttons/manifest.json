@@ -1,0 +1,21 @@
+{
+  "id": "Buttons",
+  "version": "1.0.0",
+  "display_name": "Buttons",
+  "description_short": "Color Picker & visibility options for gamespeed & mod buttons to keep your Calendar UI clean while heavily modded.",
+  "description_long": "Buttons organizes native and mod-added calendar controls while preserving their original actions and metadata. Configure two independent views, switch them on click or hover, recolor individual icons, save named profiles, and retain one global layout across every world and game session.",
+  "authors": [
+    "Underlörd"
+  ],
+  "min_game_version": "0.8.6c",
+  "max_verified_game_version": "0.8.7b",
+  "primary_dlls": [
+    "SexyCalendar.dll"
+  ],
+  "mod_dependencies": [],
+  "optional_mod_dependencies": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "SexyCalendarMod"
+}
