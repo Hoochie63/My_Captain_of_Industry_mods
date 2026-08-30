@@ -1,3 +1,31 @@
+v1.0.7 | 2026-08-26
+* Fixed batteries switching to discharge when surplus power is available and lower-priority generators exist.
+* Batteries now charge from surplus first; lower-priority generation is displaced only without surplus.
+
+v1.0.6 | 2026-08-26
+* Reworked charging to use Captain of Industry's vanilla priority queues for every consumer.
+* Fixed partial charging: multiple batteries now use every remaining kilowatt in the same tick.
+* Fixed later batteries remaining at an old partial charge limit after the network gains more generation.
+* Batteries now remain electrically inactive until construction completes.
+* Optimized priority generation checks for large battery fleets.
+* Preserved surplus-only charging for solar panels and other surplus generators.
+
+v1.0.5 | 2026-08-26
+* Fixed charging from ordinary generator remainder when higher- or equal-priority consumers are active.
+* Fixed idle buffered consumers such as Vehicle Depot reserving power they are not currently using.
+* Preserved surplus-only charging for solar panels and other surplus generators.
+
+v1.0.4 | 2026-08-26
+* Fixed waiting-charging oscillation when a high-priority battery deliberately leaves lower-priority consumers without power.
+* Fixed residual charging after lowering a battery's consumption priority: supplied pumps no longer masquerade as unmet load.
+* Fixed the default priority display: new batteries now show priority 12 for both consumption and production.
+
+v1.0.3 | 2026-08-25
+* Fixed charging allocation so battery consumption priority is compared with external consumers such as pumps.
+* Fixed production dispatch so stored energy displaces only lower-priority external generators.
+* Fixed full-charge oscillation when battery generation has equal or lower priority.
+* New batteries now default to consumption and production priority 12; existing saved priorities are preserved.
+
 v1.0.2 | 2026-08-25
 * Moved all 33 localization catalogs out of GridBattery.dll into editable external JSON files in the mod's Localization directory.
 * Added English fallback when the active locale JSON file is unavailable.

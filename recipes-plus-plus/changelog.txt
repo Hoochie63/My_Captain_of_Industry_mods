@@ -1,3 +1,27 @@
+v1.2.7 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE HEAVY HAULER AND HEAVY TANKER NOW GO BACK TO THEIR OWN COLOR WHEN COLORED VEHICLES IS TURNED OFF FOR THEIR FUEL TYPE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.6 | 2026-08-25
+────────────────────────────────────────────────────────────────────────
+* FIXED HEAVY LAG WHEN STORING LARGE AMOUNTS OF MAPLE SYRUP OR BATTERY CELLS ON GAME VERSION 0.8.7 (THANKS WOLF FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* MAPLE SYRUP AND BATTERY CELLS HAVE NEW, CLEANER LOOKING MODELS — MAPLE SYRUP NOW COMES IN A LABELLED JAR.
+
+────────────────────────────────────────────────────────────────────────
+* THE SAVE COLOR MESSAGE IN PIMP MY RIDE NOW EXPLAINS WHEN A RELOAD FROM THE MAIN MENU IS NEEDED.
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+* MULTIPLE PERFORMANCE IMPROVEMENTS.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.5 | 2026-08-25
 ────────────────────────────────────────────────────────────────────────
 * PESTICIDE CAN NOW ALSO BE MADE FROM ETHANOL — A CLEANER BIO PROCESSOR RECIPE WITH NO TOXIC SLURRY, SLOWER THAN THE CRUDE OIL ONE (THANKS DENIS FOR THE SUGGESTION).

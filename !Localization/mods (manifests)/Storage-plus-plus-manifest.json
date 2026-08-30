@@ -1,0 +1,5 @@
+{
+    "display_name": "Storage++",
+    "description": "Storage++ adds a HUD button to manage the capacity of every storage building on your island. Change all buildings at once or override individual ones, filtered by type: Fluid, Loose, Nuclear or Unit. Search and filter the list, then apply or reset your changes at any time.",
+    "description_short": "A HUD manager to adjust storage capacity across all buildings at once or individually, filtered by type, with search and apply controls, and more"
+}

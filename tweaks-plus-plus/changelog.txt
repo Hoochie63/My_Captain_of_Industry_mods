@@ -1,3 +1,41 @@
+v1.3.2 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.3.1 | 2026-08-24
+────────────────────────────────────────────────────────────────────────
+* NEW AUTO EXPLORE TOGGLE ON THE SHIPYARD WINDOW SENDS YOUR SHIP OUT TO EXPLORE THE WORLD MAP ON ITS OWN.
+
+  - Pirates with a higher battle score than your ship are skipped, so it never picks a fight it would lose.
+
+  - Works hand in hand with Auto Ship Delivery: cargo deliveries go first, exploring happens while the ship is free.
+
+  - Turns itself off with a notification when there is nothing left to explore, and remembers the toggle per save.
+
+────────────────────────────────────────────────────────────────────────
+* DATA CENTERS AND MAINFRAME COMPUTERS CAN NOW RUN ON DEMAND SO THEY ONLY WORK WHEN YOUR FACTORY ACTUALLY NEEDS THE COMPUTING (THANKS VONBOY FOR THE SUGGESTION).
+
+  - A new box at the bottom of both windows switches it on per building, and the copy settings tool carries the setting over to the rest of them.
+
+  - A building on standby uses no power and no coolant, and it starts working again the moment demand rises.
+
+────────────────────────────────────────────────────────────────────────
+* MECHANICAL SHAFTS CAN NOW CARRY MORE THAN THE BASE GAME'S 72 MW SO A LONG SHAFT RUN KEEPS GAINING POWER AS YOU ADD TURBINES AND GENERATORS.
+
+  - Turn it on in the Gameplay tab of the Tweaks++ window and pick the ceiling up to 200 MW, then go to the main menu and load your save again for it to take effect.
+
+────────────────────────────────────────────────────────────────────────
+* SARAH93 UNDERGROUND PIPES MOD'S UNDERGROUND PIPE VIEW WINDOW CAN NOW BE MOVED AND SCALED LIKE THE REST OF THE HUD.
+
+  - It shows up while HUD positions are unlocked, so you can place it without starting to build a pipe first.
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.0 | 2026-08-22
 ────────────────────────────────────────────────────────────────────────
 * THE CENTRAL HUB LIST NOW SHOWS HOW MUCH OF EACH PRODUCT YOUR MINES BRING IN AND MARKS THE ONES YOU HAVE PAUSED (THANKS SERJEVSKI FOR THE SUGGESTIONS).

@@ -1,6 +1,6 @@
 {
   "id": "StorageAutoPause",
-  "version": "1.9.2",
+  "version": "1.10.1",
   "display_name": "Storage Auto Pause",
   "description_short": "Automatic factory and mine-tower logistics with status semaphore antennas.",
   "authors": "Sirael",
@@ -14,5 +14,5 @@
   "max_verified_game_version": "0.8.6",
   "primary_mod_class_name": "StorageAutoPause.StorageAutoPauseMod",
   "description": "Automatic logistics control for factories and mine towers with storage/sorter thresholds, save-integrated rules, and three-light status semaphore antennas.",
-  "description_long": "Automatic factory control based on storage levels plus Mine Tower control of manually selected Ore Sorting Plants. Includes player-owned manual pause cycles, edge-rearmed logistics automation, accurate diagnostics, aligned tower panels, segmented indicators, and spatial breakdown fireworks."
+  "description_long": "Automatic factory control based on storage levels plus Mine Tower control of manually selected Ore Sorting Plants. Includes player-owned pause cycles, segmented indicators, spatial breakdown fireworks, and automatic UI localization for all 20 Captain of Industry languages."
 }

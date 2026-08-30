@@ -161,7 +161,7 @@
   "Drag with the left mouse button to turn the vehicle. Scroll to zoom in and out.": "按住滑鼠左鍵拖曳可以旋轉車輛。滾動滾輪可以放大和縮小。",
   "Save color": "儲存顏色",
   "Reset to default color": "還原預設顏色",
-  "Colors saved for this game.": "顏色已儲存到此存檔。",
+  "Colors saved. Vehicles change right away. Icons only update after reloading the save from the main menu, and if a vehicle keeps its old color, reload from there too.": "顏色已儲存。載具會立即變色。圖示只有從主選單重新載入存檔後才會更新；若某個載具仍是舊顏色，也請從主選單重新載入。",
   "Your colors are used for this fuel type.": "該燃料類型正在使用你的顏色。",
   "The default Recipes++ color is used for this fuel type.": "該燃料類型正在使用 Recipes++ 的預設顏色。",
   "This fuel type is back to the default Recipes++ color.": "該燃料類型已還原為 Recipes++ 的預設顏色。",

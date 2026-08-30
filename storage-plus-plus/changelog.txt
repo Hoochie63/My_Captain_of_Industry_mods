@@ -1,3 +1,31 @@
+v1.3.0 | 2026-08-30
+────────────────────────────────────────────────────────────────────────
+* RESET ALL NOW CLEARS THE TAB YOU ARE ACTUALLY LOOKING AT.
+
+  - On the Throughput and Machine Storage tabs it used to reset a different tab's settings instead of the one on screen.
+
+────────────────────────────────────────────────────────────────────────
+* CARGO DEPOT MODULE THROUGHPUT RATES NOW STAY AS YOU SET THEM AFTER RELOADING A SAVE, INSTEAD OF SNAPPING BACK TO DEFAULT (THANKS SLYPULSAR FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.9 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.8 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE THROUGHPUT TAB NOW LETS YOU SET HOW FAST CARGO DEPOT MODULES LOAD AND UNLOAD A SHIP.
+
+  - Every unit, loose and fluid module size has its own row, and a new rate applies right away to the modules you have already built.
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.7 | 2026-08-22
 ────────────────────────────────────────────────────────────────────────
 * THE RAINWATER HARVESTER IS NOW IN THE CAPACITY LIST UNDER FLUID STORAGES, SO YOU CAN SET HOW MUCH WATER IT HOLDS (THANKS LIQUID5150 FOR THE SUGGESTION).

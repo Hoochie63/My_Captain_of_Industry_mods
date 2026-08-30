@@ -166,7 +166,7 @@
   "Drag with the left mouse button to turn the vehicle. Scroll to zoom in and out.": "Táhni levým tlačítkem myši a otoč vozidlo. Kolečkem myši přibližuj a oddaluj.",
   "Save color": "Uložit barvu",
   "Reset to default color": "Obnovit výchozí barvu",
-  "Colors saved for this game.": "Barvy uloženy pro tuto hru.",
+  "Colors saved. Vehicles change right away. Icons only update after reloading the save from the main menu, and if a vehicle keeps its old color, reload from there too.": "Barvy uloženy. Vozidla se změní ihned. Ikony se aktualizují až po opětovném načtení hry z hlavní nabídky; pokud si vozidlo ponechá starou barvu, načti hru znovu odtud.",
   "Your colors are used for this fuel type.": "Pro tento typ paliva se používají tvoje barvy.",
   "The default Recipes++ color is used for this fuel type.": "Pro tento typ paliva se používá výchozí barva Recipes++.",
   "This fuel type is back to the default Recipes++ color.": "Tento typ paliva se vrátil k výchozí barvě Recipes++.",

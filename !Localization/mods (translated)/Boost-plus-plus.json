@@ -23,6 +23,9 @@
     "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "<align=\"center\">Привязать автоматическое ускорение этого строения к одному хранилищу.<br>Нажатие этой кнопки закроет этот интерфейс, и позволит кликнуть по хранилищу — после этого строение будет работать так, чтобы заполнять его, вместо того, чтобы следить за своим продуктом.</align>",
     "Stops using the linked storage. This building goes back to following its own product.": "<align=\"center\">Отключить привязку к хранилищу.<br>Это строение снова начинает следить за своим продуктом.</align>",
     "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "<align=\"center\">Наименьшее и наибольшее ускорение, которое автоускорение может применять к этому строению.<br>Оно никогда не опустится ниже минимума и не поднимется выше максимума, независимо от заполненности хранилища.<br>Оставьте поле пустым, чтобы снять ограничение.</align>",
+    "Aggression: {0}%": "Агрессивность: {0} %",
+    "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "<align=\"center\">Заставляет автоматическое ускорение воспринимать хранилище на указанный процент более пустым, чем оно есть на самом деле, поэтому строение продолжает работать с более высоким ускорением, даже когда хранилище заполняется.<br>При 0% оно точно следует за заполнением; при 50% хранилище, заполненное на 70%, воспринимается как заполненное на 20%.</align>",
+    "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "<align=\"center\">Заставляет автоматическое ускорение воспринимать хранилище на указанный процент более пустым, чем оно есть на самом деле, поэтому строения в этой группе продолжают работать с более высоким ускорением, даже когда хранилище заполняется. При 0% оно точно следует за заполнением; при 50% хранилище, заполненное на 70%, воспринимается как заполненное на 20%.</align>",
     "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "<align=\"center\">Этим строением управляет группа ускорения <color=#FFCE56>«{0}»</color>, поэтому используются её привязанное хранилище и границы ускорения (мин./макс.).</align>",
     "No storage linked — this building follows its own product.": "<align=\"center\">Хранилище не привязано — это строение следит за своим продуктом.</align>",
     "Linked {0} storage to this building": "Хранилище <color=#FFCE56>«{0}»</color> привязано к этому строению.",
@@ -204,6 +207,7 @@
     "Max slow-down steps per update": "Макс. шагов замедления за обновление (ед.)",
     "Slowed-down Energy Saving %": "Экономия энергии при замедлении (%)",
     "Slowed-down Worker Saving %": "Экономия рабочих при замедлении (%)",
+    "Slowed-down Maintenance Saving %": "Экономия запчастей при замедлении(%)",
     "Auto": "Авто",
     "Auto Boost - the building sets its own boost from how full the global storage of the product it makes is. Only available for machines.": "<align=\"center\">Автоускорение — строение само задаёт своё ускорение в зависимости от заполненности общего хранилища продукта, который оно производит. Доступно только для фабрик.</align>",
     "Statistics": "Статистика",
@@ -224,5 +228,7 @@
     "Yes": "Да",
     "No": "Нет",
     "Saturation — drag left to fade the color toward gray.": "<align=\"center\">Насыщенность — потяните влево, чтобы цвет выцветал к серому.</align>",
-    "Transparency — drag left to make the highlight more see-through.": "<align=\"center\">Прозрачность — потяните влево, чтобы подсветка стала более прозрачной.</align>"
+    "Transparency — drag left to make the highlight more see-through.": "<align=\"center\">Прозрачность — потяните влево, чтобы подсветка стала более прозрачной.</align>",
+    "Scan all": "Сканировать всё",
+    "List every boostable building, belt and pipe. On a big factory this takes a moment.": "<align=\"center\">Показывать все строения, транспортёры и трубопроводы, которые можно ускорить.<br>На большой заводе это займёт некоторое время.</align>"
 }

@@ -1,6 +1,6 @@
 {
   "id": "GridBattery",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "min_game_version": "0.8.7",
   "display_name": "Grid Battery",
   "description_short": "Three upgradeable electrical storage buildings with priorities and surplus controls.",

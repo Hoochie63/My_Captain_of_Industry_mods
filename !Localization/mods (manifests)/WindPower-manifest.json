@@ -1,0 +1,5 @@
+{
+    "display_name": "Wind turbines",
+    "description_short": "Adds wind turbines to game",
+    "description_long": "Adds wind turbines to game, tiers:<br>  T1 - 100 kW - 24 metres tall with 6 metres radius<br>  T2 - 1.8 MW - 70 metres tall with 70 metres radius"
+}

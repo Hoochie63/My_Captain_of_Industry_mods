@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.",
   "Stops using the linked storage. This building goes back to following its own product.": "Stops using the linked storage. This building goes back to following its own product.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.",
+  "Aggression: {0}%": "Aggression: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.",
   "No storage linked — this building follows its own product.": "No storage linked — this building follows its own product.",
   "Linked {0} storage to this building": "Linked {0} storage to this building",
@@ -225,5 +228,7 @@
   "Yes": "Yes",
   "No": "No",
   "Saturation — drag left to fade the color toward gray.": "Saturation — drag left to fade the color toward gray.",
-  "Transparency — drag left to make the highlight more see-through.": "Transparency — drag left to make the highlight more see-through."
+  "Transparency — drag left to make the highlight more see-through.": "Transparency — drag left to make the highlight more see-through.",
+  "Scan all": "Scan all",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "List every boostable building, belt and pipe. On a big factory this takes a moment."
 }

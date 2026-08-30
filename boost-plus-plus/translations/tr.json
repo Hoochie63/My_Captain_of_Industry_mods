@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Bu binanın Otomatik Hızlandırmasını tek bir depoya bağlar. Bu pencereyi kapatıp bir depoya tıklayın; ardından bina kendi ürününü takip etmek yerine o depoyu dolu tutmak için çalışır.",
   "Stops using the linked storage. This building goes back to following its own product.": "Bağlı depoyu kullanmayı bırakır. Bu bina yeniden kendi ürününü takip eder.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Otomatik Hızlandırmanın bu binada kullanabileceği en düşük ve en yüksek hızlandırma. Depo ne kadar dolu ya da boş olursa olsun asla en düşüğün altına inmez veya en yükseğin üstüne çıkmaz. Sınır istemiyorsanız kutuyu boş bırakın.",
+  "Aggression: {0}%": "Agresiflik: %{0}",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Otomatik Hızlandırma'nın depoyu gerçekte olduğundan bu kadar daha boş saymasını sağlar; böylece depo dolarken bile bina daha yüksek bir hızlandırmayı sürdürür. %0'da doluluğu tam olarak izler; %50'de %70 dolu bir depo %20 dolu sayılır.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Otomatik Hızlandırma'nın depoyu gerçekte olduğundan bu kadar daha boş saymasını sağlar; böylece depo dolarken bile bu gruptaki binalar daha yüksek bir hızlandırmayı sürdürür. %0'da doluluğu tam olarak izler; %50'de %70 dolu bir depo %20 dolu sayılır.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "'{0}' hızlandırma grubu bu binayı yönetiyor, bu yüzden grubun depo bağlantısı ve min/maks değerleri kullanılır.",
   "No storage linked — this building follows its own product.": "Bağlı depo yok — bu bina kendi ürününü takip eder.",
   "Linked {0} storage to this building": "{0} deposu bu binaya bağlandı",
@@ -225,5 +228,7 @@
   "Yes": "Evet",
   "No": "Hayır",
   "Saturation — drag left to fade the color toward gray.": "Doygunluk — rengi griye doğru soldurmak için sola sürükleyin.",
-  "Transparency — drag left to make the highlight more see-through.": "Şeffaflık — vurguyu daha saydam yapmak için sola sürükleyin."
+  "Transparency — drag left to make the highlight more see-through.": "Şeffaflık — vurguyu daha saydam yapmak için sola sürükleyin.",
+  "Scan all": "Tümünü tara",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Hızlandırılabilen tüm binaları, bantları ve boruları listeler. Büyük bir fabrikada bu biraz sürer."
 }

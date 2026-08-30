@@ -1,3 +1,31 @@
+v1.0.2 | 2026-08-30
+
+================================
+FULL INTERFACE LOCALIZATION
+================================
+- Added translations for the remaining Controller, Keybind Manager, Settings, welcome screen, Live Rebind, calendar button, floating button, notifications, and Built-In Profile text across all 21 supported languages.
+- Added translated Bind Manager editor and selection headings, optional tooltip placeholders, and Apply Selected buttons across Bind Profiles, Controls, and NEK.
+- Localized KeyBound's Framework page names, groups, shortcut labels, layout headings, and tooltips without changing shortcut IDs or how bindings activate.
+- Uses already-translated names from Captain of Industry and other mods when available, while leaving untranslated mod-authored proper names intact.
+- Keeps the current English control sizes as the minimum layout; longer translations may wrap until later dynamic-width polish.
+
+v1.0.1 | 2026-08-28
+
+============================
+TOOL & ITEM SHORTCUT FIXES
+============================
+- Fixed a bug where switching between trees or other placeable items could leave frozen placement previews on the map.
+- Removed the extra NEK/KeyBound shortcuts for vanilla Tool Shortcuts, UI Panels, and Calendar Buttons.
+- Live Rebind now uses only their normal Controls shortcuts instead.
+- Mod-added toolbar tools, UI panels, and Calendar Buttons still receive KeyBound shortcuts automatically.
+
+============================
+KEYBOUND SHORTCUTS
+============================
+- Moved KeyBound's own menu, Live Rebind, and profile cycling shortcuts to the first Framework page so they are easier to find.
+- Organized them into KeyBound Menus, Live Rebind, and Profile Cycling sections.
+- Added compatibility with Captain of Industry 0.8.7b.
+
 v1.0.0 | 2026-08-23
 
 Ω—KEYBOUND—Ω Successor to Not Enough Keybinds.

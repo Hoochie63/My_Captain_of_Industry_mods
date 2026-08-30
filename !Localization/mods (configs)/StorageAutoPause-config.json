@@ -1,0 +1,19 @@
+{
+  "automation_state": {
+    "default": "",
+    "max_length": 2000000,
+    "description": "Internal per-save Storage Auto Pause automation state. Do not edit manually."
+  },
+  "diagnostic_semaphore_enabled": {
+    "default": true,
+    "description": "Enable the two lower status lights (electricity and workers). Logistics light remains active regardless."
+  },
+  "breakdown_fireworks_enabled": {
+    "default": true,
+    "description": "Launch a warning flare when a maintained building transitions into the broken state."
+  },
+  "breakdown_fireworks_sound_enabled": {
+    "default": true,
+    "description": "Enable spatial launch/explosion audio for breakdown fireworks."
+  }
+}

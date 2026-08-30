@@ -744,6 +744,10 @@
     "[ATD] {entity} no pudo encontrar una ruta hasta la rampa"
   ],
   [
+    "notification.ramp_access_snapshot_too_large",
+    "[ATD] El área de acceso de {entity} es demasiado grande para buscar rampas de giro"
+  ],
+  [
     "notification.farming_complete",
     "[ATD] {entity} completó la preparación y el rellenado de tierra de cultivo"
   ],
@@ -782,5 +786,9 @@
   [
     "vehicle_order.shortcut.tooltip",
     "Mayús + Alt + clic para solicitar un nuevo {0} para {2} en {1}"
+  ],
+  [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "Solo los camiones asignados (y los camiones asignados a torres mineras participantes) podrán recoger o entregar carga aquí."
   ]
 ]

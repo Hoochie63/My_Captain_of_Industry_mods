@@ -1,7 +1,7 @@
-# Cargo Helicopter 0.19.10
+# Cargo Helicopter 0.20.0
 
-Cargo Helicopter adds three tiers of flying cargo vehicles to **Captain of Industry 0.8.5-0.8.7
-(Update 4.2)**.
+Cargo Helicopter adds five diesel and hydrogen flying cargo variants across three capacity tiers to
+**Captain of Industry 0.8.7 (Update 4.2)**.
 They use the normal truck logistics system, but can cross cliffs, mountains, buildings and water.
 
 [Download on CoI Hub](https://coigame.com/Mod/1102/Cargo-Helicopter) ·
@@ -10,7 +10,9 @@ They use the normal truck logistics system, but can cross cliffs, mountains, bui
 
 ## Features
 
-- Three tiers with capacities of 40, 90 and 180 units.
+- Three capacity tiers (40, 90 and 180 units) with diesel I/II/III and hydrogen II H/III H variants.
+- Hydrogen helicopters use the game's hydrogen fuel stations and research, consume 125% hydrogen-equivalent tank
+  capacity and produce no Polluted Air exhaust.
 - Direct point-to-point air routes: the game still chooses the logistics destination, but both newly calculated
   and already-active/saved ground or road waypoints are discarded. Terrain and roofs affect altitude only, never
   the horizontal course.
@@ -20,6 +22,11 @@ They use the normal truck logistics system, but can cross cliffs, mountains, bui
 - Multiple helicopters can load, unload and refuel at the same building simultaneously.
 - Open Heliport T1 with two production lanes, twenty visible parking stands and five four-layer equipment columns.
 - Open Heliport T2 with four production lanes, forty visible parking stands and ten concurrent equipment columns.
+- The heliport inspector shows permanent home-fleet occupancy (`19/20`) and an exact localized reason when production
+  is waiting for stand markers, world/local fleet capacity or an assembly lane.
+- An amber inward arrow marks only a parking stand already reserved by an incoming helicopter; empty and parked
+  stands remain visually self-explanatory without redundant colour plates or an AssetBundle rebuild.
+- Built-in English and Russian localization for vehicles, heliports and the new capacity/status UI.
 - Open Heliports use a full model-sized, terrain-anchored footprint: the complete foundation must share one ground
   plane before placement is accepted, so the platform cannot hang over a valley or cut through a hillside. They also
   cannot be quick-built through the Unity shortcut; Vehicle Parts/Rubber inputs, construction time and scrap-material
@@ -43,17 +50,21 @@ They use the normal truck logistics system, but can cross cliffs, mountains, bui
 3. Extract the `CargoHelicopter` folder into `%APPDATA%\Captain of Industry\Mods`.
 4. Start the game and enable **Cargo Helicopter** for the save.
 
-The final layout must contain `manifest.json`, both DLL files, the three `heli_icon*.png`
-files and the complete `AssetBundles` directory in the same `CargoHelicopter` folder.
+The final layout must contain `manifest.json`, both DLL files, the three `heli_icon*.png` files, the complete
+`AssetBundles` directory and `translations/en.json` plus `translations/ru.json` in the same `CargoHelicopter` folder.
 
 ## Usage
 
 Build either Open Heliport tier and queue helicopters in its production interface. Helicopters are not available in the
 vanilla Vehicle Depot / Auto Vehicle Factory. They use the normal pickup, delivery, fuel and truck-group rules.
 
+Detailed per-aircraft flight and cargo-yard logs are disabled by default. When diagnosing an animation or dispatch
+problem, enable `verboseFlightLogs` in the mod settings, reload the save, reproduce the issue once and attach the game
+log. Disable it again for normal play; warnings and periodic heliport heartbeats are always retained.
+
 ## Compatibility
 
-- Supported game versions: **0.8.5-0.8.7**; built and locally API-verified against public Steam build
+- Supported game version: **0.8.7**; built and locally API-verified against public Steam build
   **24719404 / v0.8.7a**. CoI Hub compatibility uses `0.8.7`, which covers lettered 0.8.7 hotfixes.
 - Cheat++ is optional. When both mods are enabled, Cargo Helicopter declares the correct load order,
   ships the same Harmony 2.4.2 runtime and retries Cheat++'s C/Overlord toolbar insertion if the
@@ -61,7 +72,7 @@ vanilla Vehicle Depot / Auto Vehicle Factory. They use the normal pickup, delive
 - Can be added to an existing save.
 - Do not remove it from a save that already contains its prototypes or vehicles.
 - The normal truck scheduler and driving integrator are retained for logistics/save compatibility, but the active
-  helicopter target is forced to the final logistics goal and any live road-driving state is cleared. Flight
+  helicopter route is kept straight through bounded collinear SIM legs and any live road-driving state is cleared. Flight
   altitude and visuals are supplied by the mod and clear the terrain independently.
 
 ## Development

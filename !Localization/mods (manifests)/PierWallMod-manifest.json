@@ -1,0 +1,5 @@
+{
+    "display_name": "Pier Wall Mod",
+    "description_short": "Adds pier walls that can be placed on land and in the ocean.",
+    "description_long": "Adds a new retaining-wall style called Pier Wall. It reuses vanilla retaining-wall visuals, keeps similar costs, and can be placed on land and in the ocean for cleaner island edges."
+}

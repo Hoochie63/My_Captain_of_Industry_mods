@@ -1,0 +1,5 @@
+{
+    "display_name": "MultiLangLib",
+    "description_short": "Shared translation library for Captain of Industry mods.",
+    "description_long": "Resolves namespaced translation keys from a mod's lang directory or MultiLangLib's central fallback directory."
+}

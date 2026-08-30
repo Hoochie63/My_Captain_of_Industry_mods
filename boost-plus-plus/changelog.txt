@@ -1,3 +1,42 @@
+v1.3.0 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.9 | 2026-08-26
+────────────────────────────────────────────────────────────────────────
+* AUTO BOOST HAS AN AGGRESSION SETTING THAT KEEPS BUILDINGS PUSHING HARDER WHILE THE STORAGE THEY FOLLOW FILLS UP.
+
+  - Pick it from the dropdown next to Lowest and Highest in the building's window, from 0% up to 50%.
+
+  - The higher the value, the emptier Auto Boost pretends the storage is, so the same fill level asks for a bigger boost.
+
+  - At 50% a storage sitting at 70% full is treated as 20% full; at 0% Auto Boost follows the fill exactly, as before.
+
+  - Boost groups have the same dropdown in the Boost Manager, and it then applies to every building in the group.
+
+  - The Copy Settings tool carries the value over along with the storage link and the Lowest and Highest range.
+
+────────────────────────────────────────────────────────────────────────
+* MASS SELECT NO LONGER BUILDS ITS LIST EVERY TIME YOU OPEN THE TAB — PRESS THE NEW "SCAN ALL" BUTTON WHEN YOU WANT IT.
+
+  - Changing the sort or resizing the window no longer rebuilds the list either, so you decide when the scan runs.
+
+────────────────────────────────────────────────────────────────────────
+* THE GROUPS TAB NO LONGER REBUILDS ITSELF EVERY FEW SECONDS — DROPDOWNS AND BOXES STAY OPEN WHILE YOU USE THEM, AND THE BRIEF STUTTER IT CAUSED IS GONE.
+
+────────────────────────────────────────────────────────────────────────
+* TICKING AUTO BOOST ON A MEMBER IN THE GROUPS TAB NO LONGER FREEZES THE GAME FOR A MOMENT.
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+* MULTIPLE PERFORMANCE IMPROVEMENTS.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.8 | 2026-08-24
 ────────────────────────────────────────────────────────────────────────
 * BOOSTED MACHINES NO LONGER PLAY THEIR ANIMATIONS COMICALLY FAST, AND THE GAME LOG NO LONGER FILLS UP WITH WARNINGS WHILE THEY RUN.

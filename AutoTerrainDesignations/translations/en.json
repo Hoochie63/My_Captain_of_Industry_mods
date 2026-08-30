@@ -744,6 +744,10 @@
     "[ATD] {entity} could not path to the ramp"
   ],
   [
+    "notification.ramp_access_snapshot_too_large",
+    "[ATD] {entity} access area is too large for the turning-ramp search"
+  ],
+  [
     "notification.farming_complete",
     "[ATD] {entity} farming preparation and filling complete"
   ],
@@ -782,5 +786,9 @@
   [
     "vehicle_order.shortcut.tooltip",
     "Shift-Alt-click to order a new {0} for {2} at {1}"
+  ],
+  [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "Only the assigned trucks (and trucks assigned to participating mine towers) will be allowed to collect or deliver cargo here."
   ]
 ]

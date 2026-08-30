@@ -1,131 +1,119 @@
-v2.0.0 | 2026-08-24
+v2.1.1 | 2026-08-29
+* Verified for Captain of Industry v0.8.7b.
+* Repairs editing for the game’s dynamically appearing tool filters, area controls, and auxiliary controls that were incorrectly described as working in v2.1.0.
+* Adds a separate Toolbox shortcuts target for full transport-build shortcut bars and compact one-button variants, with dropdown and Selection Mode targeting, movement, snapping, scaling, reset, Identify, and profile recall.
+* Adds movement, scaling, reset, Identify, and profile recall for the Belts & pipes snapping indicator.
+* Makes the Toolbar Edit Mode and Toolbar Selection Mode banners directly selectable and draggable while preserving their close buttons and normal behavior outside Edit Mode.
+* Expands the footer magnifying glass from identifying sections only to identifying every active editable section, panel, indicator, filter control, and Toolbox shortcut at once.
+* Restores the title-bar minimize button’s useful 480-pixel selection-list height while allowing optional manual resizing down to an ultra-compact 100-pixel base height. Restore remains 740 pixels.
+* Tags newly saved and overwritten profiles with the game UI scale used to create them so scale mismatches are visible before loading.
+* Keeps standalone profile format 14. Existing v2.1.0 profiles remain loadable; only a saved transform for v2.1.0’s former broken native-filter target may reset because that target was replaced.
 
+v2.1.0 | 2026-08-27
+* Performance Optimizations while editing & for Editor menu.
+* Stops routine editor updates from repeatedly scanning the profiles folder. Use the Profiles tab’s Refresh button after adding, removing, or renaming profile files outside the game.
+* Replaces Fine Tune’s selected-component text field with a dropdown, making every registered component selectable even when it is off-screen or difficult to click.
+* Adds movement, scaling, reset, and Identify support for the Planning Mode indicator, Edit Mode banner, Selection Mode banner, and Overlays panel.
+* Fixes Reset All Toolbar Layout so it also restores the six yellow toolbar sections.
+* Reduces the editor’s minimized height to 250 pixels for working with only the fine-tune controller.
+* Adds an optional Calendar Buttons shortcut after the existing Tweaks++ open and lock controls.
+
+v2.0.0 | 2026-08-24
 Ω—Toolbar Editor—Ω
 
 ===============
 GETTING STARTED
 ===============
-- Turn the complete Captain of Industry toolbar into a live visual editor without replacing the menus, buttons, text, actions, unlocks, or behavior already provided by the game and other mods.
-- Work through five focused tabs—Layout, Sections, Buttons, Profiles, and Settings—with persistent footer controls and the Fine Tune tray available throughout the editor.
-- Left-click the Toolbar Editor shortcut or optional calendar T to open Editor & Settings; right-click either shortcut to toggle Edit Mode immediately.
-- Use Ctrl + [ to open or close Editor & Settings and Ctrl + ] to toggle Edit Mode even if an on-screen shortcut has been moved out of reach.
-- Toolbar Editor uses a fresh Toolbar-Editor identity and profile folder; legacy folders are not imported automatically, but selected .toolbar files can be copied into the new Profiles folder.
+- Live visual edit mode.
+- Work with five focused tabs—Layout, Sections, Buttons, Profiles, and Settings—with footer controls and the Fine Tune tray available throughout the editor.
+- Left-click the Toolbar Editor tool shortcut or optional calendar T to open Editor & Settings; right-click either shortcut to toggle Edit Mode immediately.
+- Use Ctrl + [ to open or close Editor & Settings and Ctrl + ] toggle edit mode.
 
 ==========
 AUTO-SHIFT
 ==========
 - Leave Auto-Shift ON for a familiar default-style single-row toolbar while using Ctrl + Shift + Left-drag to reorder buttons or move them between sections.
-- Turn Auto-Shift OFF before Ctrl + Left-dragging any section into a custom position, switching sections to vertical rails, or building multiple rows; it does not disable itself when a section is moved.
-- With Auto-Shift on, surrounding sections repack after button and section changes; with it off, established positions stay fixed and genuinely new sections appear near the lower center for placement. The chosen mode is saved with the layout.
+- Turn Auto-Shift OFF and resize the background at least once before dragging any section into a custom position, switching sections to vertical rails, or building multiple button rows or columns.
+- With Auto-Shift on, surrounding sections resize and repositions after button drag & dropping or adding/removing custom sections; with it off, established positions stay fixed and new sections appear near the lower center. The chosen mode is saved with the layout.
 
 =================
 PER-SAVE LOADOUTS
 =================
-- Give every Captain of Industry save its own authoritative toolbar loadout, completely independent from the world played before it.
-- Capture the active toolbar through normal Save, Save As, autosave, and the game serializer; abandoning a game without saving discards only the edits made since its last save.
-- Store component positions, supported sizes, layers, borders, section names and orientations, button assignments, order, visibility and colors, all toolbar scales, custom-section count, Auto-Shift, and background-movement behavior.
-- Keep clean new, legacy, and reset-to-default saves on the native toolbar until that world is deliberately edited or receives a named loadout.
-- Reconstruct saved horizontal, vertical, mixed, and late-registered mod layouts at their saved positions after the HUD and toolbar buttons finish loading.
+- Every save gets its own toolbar loadout, completely independent from the world played before it.
+- Capture the active toolbar through Save, Save As, or autosave.
+- Layout tab has reset-to-defaults to revert all changes made and start fresh.
 
 =================
-OPTIONAL LOADOUTS
+OPTIONAL PROFILES
 =================
-- Use named .toolbar loadouts as optional global templates; they are not required for automatic per-save restoration.
-- Keep named loadouts outside the installed mod folder so they remain available for other worlds, reinstalls, sharing, and manual backup.
-- Load a named template into the current world immediately, then save that game when the applied toolbar should become its persistent per-save loadout.
-- Treat named files as snapshots rather than live links: later toolbar edits mark the active template as modified until Save Profile or Overwrite Profile is deliberately used.
+- .toolbar loadouts profiles are optional; they can be used to backup your creations and port them into other saves.
+- Toolbar Profiles Store component positions, layers, borders, section names and orientations, button assignments, order, visibility and colors, all scales, custom-section count, Auto-Shift, and independent background-movement settings.
+- To use a saved profile in another save, Load a saved profile into the current world, then save the game.
 
 ===============
 EDIT LAYOUT TAB
 ===============
-- Enter or finish Toolbar Edit Mode, show or hide highlighted component bounds, and expand a collapsible Controls card that displays the resolved shortcuts and modifier gestures.
-- Ctrl + Left-drag any registered toolbar component within the protected screen boundaries.
-- Shift + Left-drag resizes the width of Search, the toolbar background, or the Submenu and item panel; Alt + Left-drag resizes the height of Search or the toolbar background.
-- Ctrl + Shift + Left-drag a live button to reorder it inside its section or move it into another active section with orientation-aware insertion and automatic content sizing.
+- Toggle Toolbar Edit Mode, show or hide highlighted component drag handles, and a collapsible Controls card that displays the shortcuts for live editting controls.
+- Ctrl + Left-drag any toolbar component.
+- Shift + Left-drag resizes the width of Search, the toolbar background, or the Submenu and item panel.
+- Alt + Left-drag resizes the height of Search or the toolbar background.
+- Ctrl + Shift + Left-drag a button to reorder it inside its section or move it into another section with orientation-aware insertion and automatic section resizing.
 - Ctrl + Shift + Alt + Left-click brings a toolbar section or Search forward, while the same modifiers with Right-click send it backward.
-- Choose whether sections move together with the toolbar background or remain fixed while the background moves and resizes independently.
-- Scale the complete toolbar and Search from 50% to 200%, scale the Submenu and item panel from 76% to 200%, and reset each scale independently.
-- Reset Search, the Submenu and item panel, the toolbar background, standard sections, or the full toolbar through compact confirmations. If a loaded layout leaves section transforms after the full reset, use Reset all sections afterward.
+- Move Back Indepdantly affects whether sections move together with the toolbar background or remain in their fixed positions.
+- Scale options for the toolbar background & sections,  the Search bar,Submenu and item panel, and resets.
+- Reset Search, the Submenu and item panel, the toolbar background and all standard sections, or use reset toolbar + all sections to start over fresh.
 
 ==============
 FINE TUNE TRAY
 ==============
-- Open the shared Fine Tune Toolbar Components tray from the gold footer arrow on any tab; its open state is remembered globally.
-- Enable Selection Mode during Edit Mode, then plain left-click the deepest editable toolbar component without activating its normal action; modifier-based editing remains available.
-- Select active default, custom, or green sections plus the toolbar background, Search, Submenu and item panel, and the overlays host when it is available.
+- The fine Tune tray gives access to frequently used actions found in in the Editor's tabs.
+- Open the Fine Tune tray by clicking the gold footer arrow; its open state is remembered globally.
+- Enable Selection Mode during editing, then left-click editable components to make changes to the component selected.
 - Identify the selected component directly on the live toolbar and view its component name and type in the tray.
-- Nudge in four directions by 1 pixel with Left-click or 10 pixels with Right-click, or enter exact integer X and Y screen coordinates and apply them.
-- Independently scale Search, the Submenu and item panel, and both native green tool-shortcut hosts where supported, with a dedicated per-target Reset.
-- Move supported targets backward or forward by one layer, cycle eligible bottom borders, switch eligible sections between horizontal and vertical, and reset the selected component's position, supported scale, layer, and border.
+- Nudge in four directions by 1 pixel with Left-click or 10 pixels with Right-click, or enter exact X and Y screen coordinates and apply them.
+- Independently scale Search, the Submenu and item panel, and both native green tool-shortcut button containers, with a dedicated per- component Reset.
+- Move supported targets backward or forward by one layer, cycle bottom borders, switch yellow sections between horizontal and vertical, and reset the selected component's position, supported scale, layer, and border.
 
 ============
 SECTIONS TAB
 ============
-- Manage up to twenty active section slots: twelve custom sections, six Toolbar Editor default families, and two native green tool-shortcut hosts.
-- Keep the game's six original middle toolbar families alive through Toolbar Editor mirror sections while preserving their registered Buildings, Logistics, Trains, Beautification, Trade/Blueprints/Message Center, and World Map/Space content.
-- Keep third-party top-level menus associated with the same native default family chosen by their original mod instead of collecting them into a synthetic catch-all section.
-- Add a new empty section, remove the latest empty section, identify every active section, and see the live active-section count; occupied sections remain protected and suppressed sections can return when content needs them.
-- Select any active default, custom, or green section from the compact dropdown, identify it on the live toolbar, and rename supported default or custom sections with names saved per world and named loadout.
-- Switch the six default mirrors and custom sections between a natural horizontal row and a true one-column vertical rail while surrounding custom positions remain stable.
-- Cycle each eligible section's bottom border through Off, Concave, and Convex, or choose one style and apply it across all standard sections.
+- Manage up to twenty active section slots: twelve custom sections, six Toolbar Editor default containers, and two native green tool-shortcut hosts containers.
+- Add a new empty section, remove empty sections, identify every active section, and see the live active-section count.
+- Select any active section from the dropdown, identify it by name, and rename it.
+- Switch the six default and custom sections between a natural horizontal row and a one-column vertical section.
+- Cycle bottom border through Off, Concave, and Convex, or choose one style and apply it across all standard sections.
 - Inspect section type, exact X/Y position, effective scale, orientation, layer order, button count, and assigned button names—including hidden assignments—from Section Stats.
-- Reset a standard section's position, supported scale, layer, and border while preserving its custom name, orientation, and assigned buttons; newly researched or late-registered visible content can automatically restore its suppressed toolbar home.
-- Keep the primary green tool-shortcut host fixed-horizontal and the second green host as a true one-column vertical rail, with independent movement, scale, layer, identification, and live shortcut behavior.
+- Reset a standard section's position, supported scale, layer, and border while preserving its custom name, orientation, and assigned buttons; newly researched menus or newly added mods can automatically restore a removed section if that was it's default home.
 
 ===========
 BUTTONS TAB
 ===========
-- Browse a scrollable, collapsible group for every tracked section, including empty groups, with section Rename and Identify controls directly above its buttons.
-- See every tracked button under its current section with a friendly name and the best available live, primary, or fallback icon preview; hidden buttons remain listed and manageable.
-- Show or hide each eligible toolbar button while safeguarding Toolbar Editor access through the dedicated Settings choices and bracket shortcuts.
-- Use Ctrl + Shift + Left-drag in Edit Mode for section assignment and ordering, then manage visibility, section names, identification, and colors from the Buttons tab.
-- Choose an original or custom icon tint per button, recolor every button in one section including hidden assignments, or apply one tint across the complete tracked toolbar.
-- Use the draggable color picker with live preview, eighteen preset colors, exact six-digit hexadecimal input, independent RGB sliders, Original, Apply, Cancel, and invalid-value protection.
-
+- Browse collapsible groups for every tracked section based on your current layout including empty groups, with section Rename and Identify controls directly above its buttons.
+- See every tracked button under its current named section with a name; hidden buttons remain listed and manageable.
+- Show or hide tools or menu buttons.
+- Use the color picker with 18 preset colors, hexadecimal input, independent RGB sliders, or reset to the original color.
+- bulk recolor all buttons in a section, or across all buttons at once.
 ============
 PROFILES TAB
 ============
-- Save the current toolbar under a new profile name or deliberately overwrite an existing .toolbar file through inline confirmation.
-- Select a profile without loading it and distinguish Selected, Active, and Active + Selected states; later toolbar edits are reported as unsaved changes to the active named template.
-- Load a selected profile with confirmation, rename it, or permanently delete its global template without silently reverting the current world's already-applied toolbar.
-- Use green and red status text to see successful profile operations and rejected or invalid files.
-- Copy the Profiles folder path for Explorer or sharing, and use Refresh to rescan .toolbar files added, removed, or renamed outside the game.
-- Review and save a modified named profile before leaving Edit Mode, or exit without updating that template while the current world's normal per-save recovery remains active.
+- Save the current toolbar under a new profile name or deliberately overwrite an existing .toolbar.
+- Load a selected profile with confirmation, rename it, or permanently delete it.
+Green and red status text to see successful profile operations and rejected or invalid files.
+- Copy the Profiles folder path and past into Explorer or sharing or backup, and use Refresh to rescan .toolbar files added, removed, or renamed outside the game.
+- Before leaving Edit Mode, you will be reminded to eve any unsaved changed to the profile. This can be disabled in settings
 
 ========
 SETTINGS
 ========
-- Choose the globally saved Toolbar Editor shortcut artwork from eight options: Compact Block Hammer, Original Detailed Hammer, Soft Mallet, Outline Mallet, Inferno T, Inferno Double Hammer T, Burning T, and Industrial Toolbox.
-- Recolor the live Toolbar Editor shortcut with the full icon-color picker without replacing the button or losing its section, order, or position.
-- Choose one safeguarded access mode: Both toolbar icon and calendar T, Calendar only, or Toolbar only; there is deliberately no option that hides every on-screen recovery route.
-- Disable editor tooltips while keeping the calendar recovery tooltip available, or disable the named-profile unsaved-change warning without disabling per-save toolbar recovery.
-- Enable the saved bottom-edge vertical resize strip for the editor window while keeping its width fixed.
-- Automatically name a generically named custom section after the first button dropped into it, or leave this behavior disabled for manual naming.
-- Keep exhaustive developer tracing permanently inaccessible in the public build: there is no Settings toggle, persisted diagnostic preference, or console command capable of enabling it.
+- Choose the Toolbar Editor button icon from eight options: Compact Block Hammer, Original Detailed Hammer, Soft Mallet, Outline Mallet, Inferno T, Inferno Double Hammer T, Burning T, and Industrial Toolbox.
+- Disable editor tooltips, or disable the named-profile unsaved-change warning.
+- Enable a bottom-edge vertical resize strip to resize thr editor's menu height.
+- option to automatically name a section after the first button dropped into it.
 
 ======================
-EDITOR WINDOW & FOOTER
+EDITOR TITLE & FOOTER BUTTONS
 ======================
-- Move the editor anywhere on screen, remember its position, and pin it when it should remain open during normal play.
-- Scale only Toolbar Editor, its prompts, and its dropdowns from 65% to 120% in 5% steps without changing the global game-tooltip scale.
-- Use dedicated minimum, normal, and maximum height controls or the optional resize strip to save an exact editor height from 480 to 1000 pixels.
-- Open the Fine Tune tray without overwriting the preferred closed-tray height, and keep tab scroll positions and compact controls usable in dense layouts.
-- Use the persistent footer on every tab to finish editing, move the background independently, toggle Auto-Shift and highlighted bounds, add or remove sections, see the section count, and identify all sections.
-
-========================
-SHORTCUTS & INTEGRATIONS
-========================
-- Use the toolbar shortcut and calendar recovery button with the same Left-click Settings and Right-click Edit Mode actions.
-- Keep the Ctrl-bracket defaults with no required framework, or install Keybind Framework to receive a dedicated Toolbar Editor category with both actions fully rebindable.
+- Pin button.
+- Editor menu scale size
+- Use the persistent footer on every tab to finish editing, move the background independently, toggle Auto-Shift and highlighted bounds, add or remove sections, and identify all sections.
 - When Tweaks++ is detected, open its HUD settings directly from the Toolbar Editor footer and lock or unlock Tweaks++ HUD positions without leaving the editor.
-- Run every optional integration through soft detection so missing Keybind Framework or Tweaks++ installations never block Toolbar Editor.
-
-======================
-COMPATIBILITY & SAFETY
-======================
-- Reuse the original live toolbar buttons and controllers so IDs, actions, icons, tooltips, selected states, research unlocks, visibility rules, translations, and mod ownership remain authoritative.
-- Leave an original button or panel untouched when a third-party control cannot be safely classified or captured.
-- Add Toolbar Editor to an existing save or remove it later without world entities or prototypes; its per-save layout is stored as removal-safe mod configuration.
-- Support Captain of Industry 0.8.6 and remain verified through 0.8.7 with Keybind Framework as the only declared optional mod dependency.
-- Present the Toolbar Editor interface in English while preserving the game and third-party toolbar content's own localization.
-- Keep normal concise initialization, warning, recovery, and error messages while excluding the exhaustive developer trace stream from the public release.

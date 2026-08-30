@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Seob selle hoone automaatse kiirenduse ühe laoga. Sulge see aken ja klõpsa laol — seejärel töötab hoone selle nimel, et see ladu püsiks täis, selle asemel et jälgida oma toodet.",
   "Stops using the linked storage. This building goes back to following its own product.": "Lõpetab seotud lao kasutamise. See hoone jälgib taas oma toodet.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Madalaim ja kõrgeim kiirendus, mida automaatne kiirendus võib sellel hoonel kasutada. See ei lange kunagi alla madalaima ega tõuse üle kõrgeima, ükskõik kui täis või tühi ladu on. Jäta lahter tühjaks, kui piirangut pole vaja.",
+  "Aggression: {0}%": "Agressiivsus: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Paneb automaatse kiirenduse käsitlema ladu nii palju tühjemana, kui see tegelikult on, nii et hoone hoiab kõrgemat kiirendust ka siis, kui ladu täitub. 0% juures järgib täituvust täpselt; 50% juures loetakse 70% täis ladu 20% täis laoks.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Paneb automaatse kiirenduse käsitlema ladu nii palju tühjemana, kui see tegelikult on, nii et selle grupi hooned hoiavad kõrgemat kiirendust ka siis, kui ladu täitub. 0% juures järgib täituvust täpselt; 50% juures loetakse 70% täis ladu 20% täis laoks.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "Kiirendusgrupp „{0}” haldab seda hoonet, seega kasutatakse selle grupi laoseost ja min/maks väärtusi.",
   "No storage linked — this building follows its own product.": "Ühtegi ladu pole seotud — see hoone jälgib oma toodet.",
   "Linked {0} storage to this building": "{0} ladu seoti selle hoonega",
@@ -225,5 +228,7 @@
   "Yes": "Jah",
   "No": "Ei",
   "Saturation — drag left to fade the color toward gray.": "Küllastus — lohista vasakule, et värv tuhmuks halliks.",
-  "Transparency — drag left to make the highlight more see-through.": "Läbipaistvus — lohista vasakule, et esiletõst oleks läbipaistvam."
+  "Transparency — drag left to make the highlight more see-through.": "Läbipaistvus — lohista vasakule, et esiletõst oleks läbipaistvam.",
+  "Scan all": "Skanni kõik",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Loetleb kõik kiirendatavad hooned, lindid ja torud. Suures tehases võtab see hetke aega."
 }

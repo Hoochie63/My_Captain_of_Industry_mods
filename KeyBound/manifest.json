@@ -1,6 +1,6 @@
 {
   "id": "KeyBound",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "display_name": "KeyBound",
   "description_short": "Click ANY Button to give it a keybind quickly. Save/Load Profiles for Controls/Framework. Adds binds for ALL Toolbar Menus/Items/Buildings/UI Panels/Tool Shortcuts/Calendar Buttons",
   "description_long": "",

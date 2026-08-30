@@ -1,0 +1,5 @@
+{
+    "display_name": "Utilities++",
+    "description": "Utilities++ keeps your view clean with a per-level height filter for belts and pipes, covering levels 0-9 including pillars. Use Show All/Hide All or cycle layers instantly with PgUp/PgDn without opening the window. The Vehicle Mover tool lets you drag-select vehicles on the map and send them to a new destination in seconds, and more.",
+    "description_short": "A height filter for belts and pipes by layer with PgUp/PgDn keybinds, plus a Vehicle Mover drag-select tool for relocating vehicles on the map, and more"
+}

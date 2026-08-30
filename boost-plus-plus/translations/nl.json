@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Koppelt de Auto Boost van dit gebouw aan één opslag. Sluit dit venster en klik op een opslag: daarna werkt het gebouw eraan om die opslag vol te houden in plaats van zijn eigen product te volgen.",
   "Stops using the linked storage. This building goes back to following its own product.": "Stopt met het gebruik van de gekoppelde opslag. Dit gebouw volgt weer zijn eigen product.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "De laagste en hoogste boost die Auto Boost bij dit gebouw mag gebruiken. Hij gaat nooit onder de laagste of boven de hoogste waarde, hoe vol of leeg de opslag ook wordt. Laat een vak leeg voor geen limiet.",
+  "Aggression: {0}%": "Agressiviteit: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Laat Auto Boost de opslag zoveel leger behandelen dan hij werkelijk is, zodat het gebouw een hogere boost aanhoudt terwijl de opslag volloopt. Bij 0% volgt hij de vulling precies; bij 50% wordt een opslag die voor 70% vol zit als 20% vol behandeld.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Laat Auto Boost de opslag zoveel leger behandelen dan hij werkelijk is, zodat de gebouwen in deze groep een hogere boost aanhouden terwijl de opslag volloopt. Bij 0% volgt hij de vulling precies; bij 50% wordt een opslag die voor 70% vol zit als 20% vol behandeld.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "De boostgroep '{0}' beheert dit gebouw, dus worden de gekoppelde opslag en min/max van die groep gebruikt.",
   "No storage linked — this building follows its own product.": "Geen opslag gekoppeld — dit gebouw volgt zijn eigen product.",
   "Linked {0} storage to this building": "{0}-opslag gekoppeld aan dit gebouw",
@@ -225,5 +228,7 @@
   "Yes": "Ja",
   "No": "Nee",
   "Saturation — drag left to fade the color toward gray.": "Verzadiging — sleep naar links om de kleur naar grijs te laten vervagen.",
-  "Transparency — drag left to make the highlight more see-through.": "Transparantie — sleep naar links om de markering doorzichtiger te maken."
+  "Transparency — drag left to make the highlight more see-through.": "Transparantie — sleep naar links om de markering doorzichtiger te maken.",
+  "Scan all": "Alles scannen",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Toont alle gebouwen, banden en leidingen die geboost kunnen worden. In een grote fabriek duurt dit even."
 }

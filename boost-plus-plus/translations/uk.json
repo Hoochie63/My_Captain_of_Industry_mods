@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Прив'язує автопришвидшення цієї будівлі до одного складу. Закрийте це вікно та клацніть склад — після цього будівля працюватиме, щоб тримати той склад повним, замість того щоб стежити за своїм продуктом.",
   "Stops using the linked storage. This building goes back to following its own product.": "Припиняє використання прив'язаного складу. Ця будівля знову стежить за своїм продуктом.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Найменше й найбільше пришвидшення, яке автопришвидшення може застосувати до цієї будівлі. Воно ніколи не опуститься нижче мінімуму та не підніметься вище максимуму, хоч би яким повним чи порожнім був склад. Залиште поле порожнім, щоб не було обмеження.",
+  "Aggression: {0}%": "Агресивність: {0} %",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Авто-пришвидшення вважає склад настільки порожнішим, ніж він є насправді, тож будівля утримує вище пришвидшення навіть тоді, коли склад заповнюється. При 0 % воно точно стежить за заповненням; при 50 % склад, заповнений на 70 %, вважається заповненим на 20 %.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Авто-пришвидшення вважає склад настільки порожнішим, ніж він є насправді, тож будівлі цієї групи утримують вище пришвидшення навіть тоді, коли склад заповнюється. При 0 % воно точно стежить за заповненням; при 50 % склад, заповнений на 70 %, вважається заповненим на 20 %.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "Цією будівлею керує група пришвидшення «{0}», тому використовуються її прив'язаний склад і мін./макс.",
   "No storage linked — this building follows its own product.": "Склад не прив'язано — ця будівля стежить за своїм продуктом.",
   "Linked {0} storage to this building": "Склад «{0}» прив'язано до цієї будівлі",
@@ -225,5 +228,7 @@
   "Yes": "Так",
   "No": "Ні",
   "Saturation — drag left to fade the color toward gray.": "Насиченість — потягніть уліво, щоб колір вицвітав до сірого.",
-  "Transparency — drag left to make the highlight more see-through.": "Прозорість — потягніть уліво, щоб підсвічування стало прозорішим."
+  "Transparency — drag left to make the highlight more see-through.": "Прозорість — потягніть уліво, щоб підсвічування стало прозорішим.",
+  "Scan all": "Сканувати все",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Показує всі будівлі, конвеєри та труби, які можна прискорити. На великій фабриці це займе трохи часу."
 }

@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Kopplar den här byggnadens Auto Boost till ett lager. Stäng det här fönstret och klicka på ett lager, så arbetar byggnaden för att hålla det lagret fullt i stället för att följa sin egen produkt.",
   "Stops using the linked storage. This building goes back to following its own product.": "Slutar använda det länkade lagret. Den här byggnaden följer åter sin egen produkt.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Den lägsta och högsta boost som Auto Boost får använda på den här byggnaden. Den går aldrig under det lägsta eller över det högsta värdet, hur fullt eller tomt lagret än blir. Lämna en ruta tom för ingen gräns.",
+  "Aggression: {0}%": "Aggressivitet: {0} %",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Får Auto Boost att behandla lagret som så här mycket tommare än det egentligen är, så att byggnaden håller en högre boost även medan lagret fylls på. Vid 0 % följer den fyllnaden exakt; vid 50 % behandlas ett lager som är 70 % fullt som 20 % fullt.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Får Auto Boost att behandla lagret som så här mycket tommare än det egentligen är, så att byggnaderna i den här gruppen håller en högre boost även medan lagret fylls på. Vid 0 % följer den fyllnaden exakt; vid 50 % behandlas ett lager som är 70 % fullt som 20 % fullt.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "Boostgruppen ”{0}” sköter den här byggnaden, så gruppens lagerlänk och min/max används i stället.",
   "No storage linked — this building follows its own product.": "Inget lager länkat — den här byggnaden följer sin egen produkt.",
   "Linked {0} storage to this building": "Länkade {0}-lager till den här byggnaden",
@@ -225,5 +228,7 @@
   "Yes": "Ja",
   "No": "Nej",
   "Saturation — drag left to fade the color toward gray.": "Mättnad — dra åt vänster för att tona färgen mot grått.",
-  "Transparency — drag left to make the highlight more see-through.": "Genomskinlighet — dra åt vänster för att göra markeringen mer genomskinlig."
+  "Transparency — drag left to make the highlight more see-through.": "Genomskinlighet — dra åt vänster för att göra markeringen mer genomskinlig.",
+  "Scan all": "Skanna alla",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Listar alla byggnader, band och rör som kan boostas. I en stor fabrik tar det en stund."
 }

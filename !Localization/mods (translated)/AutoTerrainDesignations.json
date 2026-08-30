@@ -744,6 +744,10 @@
         "[ATD] <color=#FFCE56>«{entity}»</color> не удалось проложить путь к подъездным путям."
     ],
     [
+        "notification.ramp_access_snapshot_too_large",
+        "[ATD] Область доступа <color=#FFCE56>«{entity}»</color> слишком велика для поиска поворотных подъездных путей."
+    ],
+    [
         "notification.farming_complete",
         "[ATD] <color=#FFCE56>«{entity}»</color> завершил подготовку и засыпку полей для посевов."
     ],
@@ -782,5 +786,9 @@
     [
         "vehicle_order.shortcut.tooltip",
         "Щёлкните, удерживая клавиши «Shift+Alt», чтобы отправить заказ на новый <color=#FFCE56>«{0}»</color> в <color=#FFCE56>«{1}»</color>. Получатель — <color=#FFCE56>«{2}»</color>"
+    ],
+    [
+        "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+        "Только назначенная грузовая техника (и грузовая техника, назначенная на участвующие диспетчерские вышки) смогут забирать или доставлять груз сюда."
     ]
 ]

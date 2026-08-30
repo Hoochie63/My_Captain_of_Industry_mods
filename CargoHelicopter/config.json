@@ -1,19 +1,19 @@
 {
     "fuelConsumptionMultiplier": {
         "default": 1.0,
-        "description": "Helicopter fuel burn multiplier. 1.0 = default (about 2x a truck of similar cargo). Raise for a harsher, more realistic diesel cost; lower to make flying cheaper. Takes effect after reloading the save.",
+        "description": "Diesel and hydrogen helicopter fuel-burn multiplier. 1.0 = default (about 2x a truck of similar cargo). Higher values consume fuel faster; lower values make flying cheaper. Reload the save after changing it. Existing helicopters keep the fuel time already in their tanks; the new setting fully applies after they refuel.",
         "min": 0.1,
         "max": 10.0
     },
     "cargoCapacityMultiplier": {
         "default": 1.0,
-        "description": "Helicopter cargo capacity multiplier. 1.0 = default (40 / 90 / 180 per tier). Takes effect after reloading the save.",
+        "description": "Diesel and hydrogen helicopter cargo capacity multiplier. 1.0 = default (40 / 90 / 180 per tier). Reload the save after changing it. This applies to helicopters built afterward; existing helicopters keep their saved capacity.",
         "min": 0.25,
         "max": 4.0
     },
     "buildTimeMultiplier": {
         "default": 1.0,
-        "description": "Helicopter assembly time multiplier. 1.0 = default (40 / 55 / 75 s per tier). Higher = slower to build. Takes effect after reloading the save.",
+        "description": "Diesel and hydrogen helicopter assembly time multiplier. 1.0 = default (40 / 55 / 75 s per tier). Higher = slower to build. Reload the save after changing it; assembly already in progress keeps its current timer.",
         "min": 0.25,
         "max": 4.0
     },
@@ -30,5 +30,9 @@
         "description": "Power draw of the Open Heliport T2, in kW. Takes effect after reloading the save.",
         "min": 0,
         "max": 100000
+    },
+    "verboseFlightLogs": {
+        "default": false,
+        "description": "Write detailed per-helicopter flight, yard and cargo handoff diagnostics to the game log. Leave disabled for normal play; enable temporarily when reporting a flight or animation problem. Reload the save after changing it."
     }
 }

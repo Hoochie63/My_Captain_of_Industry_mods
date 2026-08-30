@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Wiąże automatyczne przyspieszenie tego budynku z jednym magazynem. Zamknij to okno i kliknij magazyn — od tej chwili budynek pracuje nad utrzymaniem tego magazynu pełnym, zamiast śledzić własny produkt.",
   "Stops using the linked storage. This building goes back to following its own product.": "Przestaje używać powiązanego magazynu. Ten budynek wraca do śledzenia własnego produktu.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Najniższe i najwyższe przyspieszenie, jakiego automatyczne przyspieszenie może użyć w tym budynku. Nigdy nie zejdzie poniżej minimum ani nie przekroczy maksimum, niezależnie od tego, jak pełny lub pusty jest magazyn. Zostaw pole puste, aby nie było limitu.",
+  "Aggression: {0}%": "Agresywność: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Sprawia, że Auto Boost traktuje magazyn jako o tyle bardziej pusty, niż jest w rzeczywistości, więc budynek utrzymuje wyższe przyspieszenie nawet wtedy, gdy magazyn się zapełnia. Przy 0% podąża dokładnie za zapełnieniem; przy 50% magazyn zapełniony w 70% jest traktowany jak zapełniony w 20%.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Sprawia, że Auto Boost traktuje magazyn jako o tyle bardziej pusty, niż jest w rzeczywistości, więc budynki w tej grupie utrzymują wyższe przyspieszenie nawet wtedy, gdy magazyn się zapełnia. Przy 0% podąża dokładnie za zapełnieniem; przy 50% magazyn zapełniony w 70% jest traktowany jak zapełniony w 20%.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "Grupa przyspieszenia „{0}” zarządza tym budynkiem, więc używane są jej powiązany magazyn oraz min./maks.",
   "No storage linked — this building follows its own product.": "Brak powiązanego magazynu — ten budynek śledzi własny produkt.",
   "Linked {0} storage to this building": "Powiązano magazyn {0} z tym budynkiem",
@@ -225,5 +228,7 @@
   "Yes": "Tak",
   "No": "Nie",
   "Saturation — drag left to fade the color toward gray.": "Nasycenie — przeciągnij w lewo, aby kolor wyblakł w stronę szarości.",
-  "Transparency — drag left to make the highlight more see-through.": "Przezroczystość — przeciągnij w lewo, aby podświetlenie było bardziej przezroczyste."
+  "Transparency — drag left to make the highlight more see-through.": "Przezroczystość — przeciągnij w lewo, aby podświetlenie było bardziej przezroczyste.",
+  "Scan all": "Skanuj wszystko",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Wypisuje wszystkie budynki, taśmy i rury, które można przyspieszyć. W dużej fabryce chwilę to trwa."
 }

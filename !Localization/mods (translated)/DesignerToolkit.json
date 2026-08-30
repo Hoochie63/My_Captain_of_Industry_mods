@@ -132,6 +132,82 @@
         "<align=\"center\">Ограничивает уровень высоты транспортёров, строений и опор, отображаемых в мире.</align>"
     ],
     [
+        "dtk.settings.height_filter_transport_visibility.label",
+        "Видимость транспортёров"
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.description",
+        "Определяет, как видимость транспортёров зависит от фильтрации слоёв по высоте."
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.tooltip",
+        "Определяет порог отображения точек изгиба транспортёров относительно видимого слоя."
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.low",
+        "Низкая"
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.low.tooltip",
+        "Все точки изгиба транспортёра должны находиться на уровне порогового слоя или ниже него."
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.medium",
+        "Средняя"
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.medium.tooltip",
+        "Большинство точек изгиба транспортёра должны находиться на уровне порогового слоя или ниже него."
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.high",
+        "Высокая"
+    ],
+    [
+        "dtk.settings.height_filter_transport_visibility.high.tooltip",
+        "Как минимум одна точка изгиба транспортёра должна находиться на уровне порогового слоя или ниже него."
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.label",
+        "Видимость опор"
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.description",
+        "Определяет, как видимость опор зависит от фильтрации слоёв по высоте."
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.detached",
+        "Отдельностоящие"
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.detached.tooltip",
+        "Определяет высоту каждой опоры независимо от активного слоя."
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.attached",
+        "Присоединённые"
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.attached.tooltip",
+        "Показывает опоры, если к ним присоединён хотя бы один видимый транспортёр или надземная конструкция."
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.top",
+        "Верхний слой"
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.top.tooltip",
+        "Определяет видимость опор в зависимости от того, находится ли её верхний слой на уровне видимого предела высоты или ниже него."
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.off",
+        "Отключенные"
+    ],
+    [
+        "dtk.settings.height_filter_pillar_visibility.off.tooltip",
+        "Скрывает все опоры, когда отфильтрован хотя бы один слой высоты."
+    ],
+    [
         "dtk.settings.global_hotkey.description",
         "<align=\"center\">Это сочетание клавиш зарегистрировано в системе управления игрой и может быть настроена в стандартных настройках игры, в разделе «Управление».</align>"
     ],
@@ -158,6 +234,22 @@
     [
         "Kb_Bdt_HeightFilterHideLayer__tooltip",
         "<align=\"center\">Уменьшить максимальный видимый слой фильтра высоты.</align>"
+    ],
+    [
+        "Kb_Bdt_HeightFilterTransportVisibilityHigh__label",
+        "Видимость транспортёров по высоте (высокая)"
+    ],
+    [
+        "Kb_Bdt_HeightFilterTransportVisibilityHigh__tooltip",
+        "Переключает видимость транспортёров в сторону «Высокая»"
+    ],
+    [
+        "Kb_Bdt_HeightFilterTransportVisibilityLow__label",
+        "Видимость транспортёров по высоте (низкая)"
+    ],
+    [
+        "Kb_Bdt_HeightFilterTransportVisibilityLow__tooltip",
+        "Переключает видимость транспортёров в сторону «Низкая»"
     ],
     [
         "Kb_Bdt_ThroughputOverlayToggle__label",
@@ -682,5 +774,69 @@
     [
         "dtk.settings.hotkey.or",
         "или"
+    ],
+    [
+        "dtk.groundwater.insights_title",
+        "Сведения о месторождении: {0}"
+    ],
+    [
+        "dtk.groundwater.last_year_avg_draw",
+        "Среднемесячный расход за последний год"
+    ],
+    [
+        "dtk.groundwater.sustainable_draw",
+        "Максимальный устойчивый расход"
+    ],
+    [
+        "dtk.groundwater.sustainable_tooltip",
+        "Рассчитанная ежемесячная скорость восполнения в установившемся режиме после 10-го года с учётом сложности погоды (настройка сбора дождевой воды влияет только на сборщики дождевой воды, но не на подземные воды)."
+    ],
+    [
+        "dtk.groundwater.expected_yearly_change",
+        "Ожидаемое годовое изменение"
+    ],
+    [
+        "dtk.groundwater.expected_years_remaining",
+        "Ожидаемый срок до истощения"
+    ],
+    [
+        "dtk.groundwater.years_remaining_stable",
+        "Стабильно"
+    ],
+    [
+        "dtk.groundwater.years_remaining_over1000",
+        ">1000 лет"
+    ],
+    [
+        "dtk.groundwater.monthly_chart_title",
+        "Ежемесячный уровень запасов (1-е число месяца)"
+    ],
+    [
+        "dtk.groundwater.yearly_chart_title",
+        "10-летний уровень запасов (1 января)"
+    ],
+    [
+        "dtk.groundwater.safe_level",
+        "Безопасный уровень"
+    ],
+    [
+        "dtk.groundwater.low_level",
+        "Низкий уровень"
+    ],
+    [
+        "dtk.groundwater.trend_filling",
+        "Восполняется"
+    ],
+    [
+        "dtk.groundwater.trend_emptying",
+        "Истощается"
+    ],
+    [
+        "dtk.groundwater.trend_balanced",
+        "Сбалансировано"
+    ],
+    [
+        "dtk.groundwater.trend_idle",
+        "Бездействие / Расход не зафиксирован"
     ]
 ]

@@ -21,6 +21,9 @@ GETTING STARTED
 - Ctrl + ] toggles Edit Mode, matching the icon's right-click.
 - Keybind Framework adds a dedicated Toolbar Editor tab for rebinding both
   shortcuts. Without it, the Ctrl-bracket defaults remain fully operational.
+- When Buttons is installed, a separate calendar shortcut appears after the
+  existing Tweaks++ open and HUD-lock controls. It opens Buttons without
+  changing either Tweaks++ action.
 
 LAYOUT EDITOR
 -------------
@@ -72,10 +75,12 @@ Additional Layout Editor features:
   needs its original toolbar home.
 - Show or hide individual toolbar buttons from a collapsible list.
 - Reset individual components or the standard toolbar sections with the
-  available reset controls. If the full-toolbar reset leaves section transforms
-  behind after a loaded profile, use Reset all sections afterward.
+  available reset controls. Reset All restores every component, including all
+  six yellow sections, without requiring a second section reset.
 - Open the Fine Tune Toolbar Components tray from the gold arrow above the
   footer. Its open state is remembered globally between games.
+- Select any registered component from the Fine Tune component dropdown,
+  including one that is currently off-screen or difficult to click directly.
 - Enable Selection Mode in that tray, then plain left-click a live toolbar
   component to select it without activating its normal action. Existing
   Ctrl/Shift/Alt editing controls remain available while Selection Mode is on.
@@ -84,11 +89,23 @@ Additional Layout Editor features:
 - Fine-tune the selected component with reset, identify, one-pixel nudging,
   supported layer controls, exact X/Y screen-position input, and a one-click
   Horizontal/Vertical switch for Toolbar Editor custom sections.
+- Move and scale the native tool filters and auxiliary controls independently.
+- Select the separate Toolbox shortcuts target to move and scale active-tool
+  shortcut bars, including full transport controls and compact one-button
+  variants.
+- Move and scale the Belts & pipes snapping indicator, Planning Mode indicator,
+  Toolbar Edit Mode banner, Toolbar Selection Mode banner, and Overlays panel.
+  Their scale is included in saved profiles.
+- Component dragging is substantially smoother; Fine Tune position fields and
+  profile state refresh after the drag is released.
 - Reset Component uses the game's compact inline confirmation prompt beside the
   invoking control instead of opening a separate movable window.
 - Resize the editor vertically from the full-width bottom resize strip. The
   saved height is the closed-tray size, so opening the tray does not overwrite
   the user's preferred editor height.
+- Use the title-bar minimize button for the useful 480-pixel selection-list
+  height, or manually resize as low as a 100-pixel base height when only the
+  title, footer, and Fine Tune controls are needed. Restore returns to 740.
 - Screen-edge limits and cancelled invalid drops keep components and buttons
   recoverable.
 
@@ -138,6 +155,8 @@ SETTINGS AND TOOLBAR PROFILES
   the current save's active layout, and the game must then be saved to keep it.
 - Select, load, overwrite, rename, or permanently delete saved profiles.
 - Profile rows separately mark Selected, Active, or Active + Selected state.
+- New and overwritten profiles show the game UI scale used when they were
+  saved. Legacy profiles remain loadable with an unknown scale tag.
 - The Status panel reports successful actions and errors.
 - Copy the profiles folder path for File Explorer or profile sharing.
 - Use Refresh after adding, removing, or renaming .toolbar files outside the

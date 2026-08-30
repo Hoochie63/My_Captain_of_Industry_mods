@@ -1,6 +1,8 @@
 # Grid Battery
 
-Grid Battery 1.0.2 adds three upgradeable industrial electricity-storage buildings to Captain of Industry. Each tier has independent charging and generation priorities, surplus-power controls, persistent stored energy, load-dependent maintenance, and a dedicated optimized model.
+Grid Battery 1.0.7 adds three upgradeable industrial electricity-storage buildings to Captain of Industry. Each tier has independent charging and generation priorities, surplus-power controls, persistent stored energy, load-dependent maintenance, and a dedicated optimized model.
+
+Version 1.0.7 lets Captain of Industry's vanilla queues allocate battery charging alongside every other consumer. Partial allocations are stored immediately, so multiple batteries use all remaining power. Surplus-only charging remains limited to surplus generators. New batteries display consumption and production priority 12; existing saved priorities are preserved.
 
 ## Features
 
@@ -28,11 +30,11 @@ Extract the archive so the resulting directory is `%APPDATA%\Captain of Industry
 
 ## Localization
 
-Version 1.0.2 includes English, Russian, and 31 additional localizations. Translation catalogs are read from editable JSON files in the mod's `Localization` directory and selected from the active Captain of Industry culture when prototypes are registered. Unknown or unavailable cultures fall back to the external English catalog; restart or reload the game after changing its language.
+Version 1.0.7 includes English, Russian, and 31 additional localizations. Translation catalogs are read from editable JSON files in the mod's `Localization` directory and selected from the active Captain of Industry culture when prototypes are registered. Unknown or unavailable cultures fall back to the external English catalog; restart or reload the game after changing its language.
 
 ## Compatibility
 
-Grid Battery 1.0.2 targets Captain of Industry 0.8.7 and game API assemblies 0.8.7.0. Compatibility with later game updates is not guaranteed.
+Grid Battery 1.0.7 targets Captain of Industry 0.8.7 and game API assemblies 0.8.7.0. Compatibility with later game updates is not guaranteed.
 
 ## License
 

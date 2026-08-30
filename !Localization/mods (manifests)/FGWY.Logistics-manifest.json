@@ -1,18 +1,4 @@
 {
-    "id": "FGWY.Logistics",
-    "version": "1.0.2",
-    "authors": [
-        "峰功伟业"
-    ],
     "display_name": "Продвинутые балансировщики и сортировщики",
-    "description_short": "Добавляет продвинутые балансировщики с 4 и 12 портами для штучных изделий, сыпучих материалов, жидкостей и расплавов, и несколько сортировщиков.",
-    "min_game_version": "0.8.6",
-    "max_verified_game_version": "0.8.6",
-    "primary_dlls": [
-        "0Harmony.dll",
-        "FGWY.Logistics.dll"
-    ],
-    "optional_mod_dependencies": [],
-    "non_locking_dll_load": false,
-    "can_add_to_saved_game": true
+    "description_short": "Добавляет продвинутые балансировщики с 4 и 12 портами для штучных изделий, сыпучих материалов, жидкостей и расплавов, и несколько сортировщиков."
 }

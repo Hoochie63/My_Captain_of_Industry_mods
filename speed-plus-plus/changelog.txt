@@ -1,3 +1,22 @@
+v1.1.3 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE MOD NO LONGER FORCES THE GAME'S "ADAPTIVE SIMULATION SPEED MODE" TO UNCAPPED AND NOW FOLLOWS WHATEVER YOU HAVE PICKED IN THE GAME SETTINGS.
+
+  - This fixes heavy stuttering at high speeds on big bases with a lot of vehicles working.
+
+  - You can still choose Uncapped yourself under Settings, Miscellaneous, if you want the game to always run at the target speed.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.1.2 | 2026-08-25
+────────────────────────────────────────────────────────────────────────
+* THE SPEED INFO POPUP NO LONGER TWITCHES WHILE HOVERING — THE ACTUAL VALUE NOW SHOWS THE REAL ACHIEVED SIM SPEED INSTEAD OF FLICKERING EVERY FRAME (THANKS HOOCHIE FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.1.1 | 2026-08-22
 ────────────────────────────────────────────────────────────────────────
 * FIXED THE PAUSE BUTTON DISAPPEARING WHEN OTHER MODS ADD THEIR OWN BUTTONS NEXT TO THE GAME SPEED CONTROLS.

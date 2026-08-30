@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "この建物の自動ブーストを 1 つの倉庫に結び付けます。このウィンドウを閉じて倉庫をクリックすると、建物は自分の製品を見るのではなく、その倉庫を満たすように動きます。",
   "Stops using the linked storage. This building goes back to following its own product.": "リンクした倉庫の使用をやめます。この建物は自分の製品を見る動作に戻ります。",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "自動ブーストがこの建物に使用できるブーストの下限と上限です。倉庫がどれだけ満杯でも空でも、下限を下回ったり上限を超えたりすることはありません。空欄にすると制限なしになります。",
+  "Aggression: {0}%": "積極性: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "オートブーストが倉庫を実際よりこの割合だけ空とみなすため、倉庫が埋まってきても建物は高いブーストを維持します。0%では在庫量どおりに従い、50%では70%まで埋まった倉庫を20%として扱います。",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "オートブーストが倉庫を実際よりこの割合だけ空とみなすため、倉庫が埋まってきてもこのグループの建物は高いブーストを維持します。0%では在庫量どおりに従い、50%では70%まで埋まった倉庫を20%として扱います。",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "ブーストグループ「{0}」がこの建物を管理しているため、そのグループの倉庫リンクと下限/上限が使われます。",
   "No storage linked — this building follows its own product.": "倉庫はリンクされていません — この建物は自分の製品を見ます。",
   "Linked {0} storage to this building": "{0} の倉庫をこの建物にリンクしました",
@@ -225,5 +228,7 @@
   "Yes": "はい",
   "No": "いいえ",
   "Saturation — drag left to fade the color toward gray.": "彩度 — 左にドラッグすると色が灰色に近づきます。",
-  "Transparency — drag left to make the highlight more see-through.": "透明度 — 左にドラッグするとハイライトがより透けて見えます。"
+  "Transparency — drag left to make the highlight more see-through.": "透明度 — 左にドラッグするとハイライトがより透けて見えます。",
+  "Scan all": "すべてスキャン",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "ブーストできる建物、ベルト、パイプをすべて一覧表示します。大規模な工場では少し時間がかかります。"
 }

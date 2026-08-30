@@ -166,7 +166,7 @@
   "Drag with the left mouse button to turn the vehicle. Scroll to zoom in and out.": "マウス左ボタンでドラッグすると車両を回転できます。ホイールで拡大・縮小できます。",
   "Save color": "色を保存",
   "Reset to default color": "既定の色に戻す",
-  "Colors saved for this game.": "このセーブデータに色を保存しました。",
+  "Colors saved. Vehicles change right away. Icons only update after reloading the save from the main menu, and if a vehicle keeps its old color, reload from there too.": "色を保存しました。車両はすぐに変わります。アイコンはメインメニューからセーブデータを読み込み直した後にのみ更新されます。車両の色が古いままの場合も、そこから読み込み直してください。",
   "Your colors are used for this fuel type.": "この燃料タイプには自分の色が使われています。",
   "The default Recipes++ color is used for this fuel type.": "この燃料タイプには Recipes++ の既定色が使われています。",
   "This fuel type is back to the default Recipes++ color.": "この燃料タイプを Recipes++ の既定色に戻しました。",

@@ -6,7 +6,7 @@ fr|QUAI D’IMMIGRATION|Le poste d’amarrage côtier est prêt.|Immigration arr
 it|MOLO IMMIGRAZIONE|L’ormeggio costiero è pronto.|Immigrazione sospesa: ricostruisci il faro sulla costa con l’area di attracco nell’oceano.
 pl|PRZYSTAŃ IMIGRACYJNA|Nabrzeże przybrzeżne jest gotowe.|Imigracja zatrzymana: przebuduj latarnię na wybrzeżu z obszarem dokowania w oceanie.
 pt|CAIS DE IMIGRAÇÃO|O cais costeiro está pronto.|Imigração parada: reconstrua o farol na costa com a área de atracação no oceano.
-ru|ИММИГРАЦИОННЫЙ ПРИЧАЛ|Береговой причал готов.|Иммиграция остановлена: постройте «Маяк» на побережье заново, чтобы его зона стыковки находилась в океане.
+ru|ИММИГРАЦИОННЫЙ ПРИЧАЛ|Береговой причал готов.|Иммиграция остановлена: перестройте маяк на берегу, разместив зону стыковки в океане.
 uk|ІММІГРАЦІЙНИЙ ПРИЧАЛ|Береговий причал готовий.|Імміграцію зупинено: перебудуйте маяк на узбережжі із зоною стикування в океані.
 nl|IMMIGRATIEKADE|De kustligplaats is gereed.|Immigratie gestopt: herbouw de vuurtoren aan de kust met het aanleggebied in de oceaan.
 sv|INVANDRINGSBRYGGA|Kustkajen är redo.|Invandringen har stoppats: bygg om fyren vid kusten med dockningsområdet i havet.

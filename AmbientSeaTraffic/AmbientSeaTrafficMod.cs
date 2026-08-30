@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using Mafi;
 using Mafi.Base;
 using Mafi.Collections;
@@ -26,11 +28,11 @@ namespace AmbientSeaTraffic {
 public sealed class AmbientSeaTrafficMod : IMod,IDisposable {
  public ModManifest Manifest{get;private set;} public bool IsUiOnly=>false;
  [Obsolete] public Option<IConfig> ModConfig{get;set;} public ModJsonConfig JsonConfig{get;private set;}
- static AmbientSeaTrafficMod instance; DependencyResolver resolver; ISimLoopEvents sim; IGameLoopEvents loop; EntitiesManager entities; CoreEntityId.Factory ids; ProtosDb protos; TerrainManager terrain;
+ static AmbientSeaTrafficMod instance; DependencyResolver resolver; ISimLoopEvents sim; IGameLoopEvents loop; EntitiesManager entities; CoreEntityId.Factory ids; ProtosDb protos; TerrainManager terrain; ShipsPathFindingManager shipPaths;
  readonly List<Traffic> traffic=new List<Traffic>();readonly List<PendingShip> pending=new List<PendingShip>();readonly System.Random random=new System.Random();int nextAutoDay;bool enabled; ICalendar calendar;
  public AmbientSeaTrafficMod(ModManifest manifest){Manifest=manifest;JsonConfig=new ModJsonConfig(this);}
  public void RegisterPrototypes(ProtoRegistrator r){} public void RegisterDependencies(DependencyResolverBuilder b,ProtosDb p,bool loaded){b.RegisterDependency<AmbientShipMbFactory>().AsAllInterfaces(false);} public void MigrateJsonConfig(VersionSlim v,Dict<string,object> c){} public void EarlyInit(DependencyResolver r){}
- public void Initialize(DependencyResolver r,bool loaded){instance=this;resolver=r;sim=r.Resolve<ISimLoopEvents>();loop=r.Resolve<IGameLoopEvents>();entities=r.Resolve<EntitiesManager>();ids=r.Resolve<CoreEntityId.Factory>();protos=r.Resolve<ProtosDb>();terrain=r.Resolve<TerrainManager>();calendar=r.Resolve<ICalendar>();loop.RegisterInitState(this,OnInit);}
+ public void Initialize(DependencyResolver r,bool loaded){instance=this;resolver=r;sim=r.Resolve<ISimLoopEvents>();loop=r.Resolve<IGameLoopEvents>();entities=r.Resolve<EntitiesManager>();ids=r.Resolve<CoreEntityId.Factory>();protos=r.Resolve<ProtosDb>();terrain=r.Resolve<TerrainManager>();shipPaths=r.Resolve<ShipsPathFindingManager>();calendar=r.Resolve<ICalendar>();loop.RegisterInitState(this,OnInit);}
  void OnInit(){enabled=JsonConfig.GetBool("enabled",true);ScheduleNextAutomatic();sim.Update.AddNonSaveable<AmbientSeaTrafficMod>(this,OnSim);sim.BeforeSave.AddNonSaveable<AmbientSeaTrafficMod>(this,OnBeforeSave);Log.Info("AmbientSeaTraffic initialized.");}
  void OnSim(){if(enabled&&calendar.CurrentDate.Value>=nextAutoDay&&traffic.Count+pending.Count<6){int count=Math.Min(random.Next(1,4),6-traffic.Count-pending.Count);var kinds=new int[count];for(int i=0;i<count;i++)kinds[i]=RandomKind();QueueGroup(kinds);ScheduleNextAutomatic();}for(int i=pending.Count-1;i>=0;i--){var p=pending[i];if(--p.Delay<=0){Spawn(p.Kind,p.Start,p.Target);pending.RemoveAt(i);}}for(int i=traffic.Count-1;i>=0;i--){var x=traffic[i];x.Ticks++;if(x.Ship==null){traffic.RemoveAt(i);continue;}if(x.Phase==0&&x.Ticks>30&&!x.Ship.HasTrueJob){if(x.Ship.NavigatedSuccessfully){x.Ship.LeaveToWorld();x.Phase=1;x.Ticks=0;}else{Remove(x);traffic.RemoveAt(i);}}else if(x.Phase==1&&x.Ship.IsAtWorld){Remove(x);traffic.RemoveAt(i);}}}
  void ScheduleNextAutomatic(){nextAutoDay=calendar.CurrentDate.Value+random.Next(60,91);}int RandomKind(){int r=random.Next(100);if(r<35)return random.Next(1,4);return new[]{0,4,5,6,7,8,9}[random.Next(7)];}
@@ -39,8 +41,28 @@ public sealed class AmbientSeaTrafficMod : IMod,IDisposable {
  bool IsSafeOcean(Tile2i p){for(int x=-8;x<=8;x+=4)for(int y=-8;y<=8;y+=4){var q=p+new RelTile2i(x,y);if(q.X<0||q.Y<0||q.X>=terrain.TerrainWidth||q.Y>=terrain.TerrainHeight||!terrain.IsOcean(q))return false;}return true;}
  void Spawn(int kind,Tile2i start,Tile2i target){try{var proto=protos.GetOrThrow<CargoShipProto>(Ids.Ships.CargoShipT1);var ship=new AmbientShip(ids.GetNextId(),proto,kind,Resolve<EntityContext>(),terrain,Resolve<ShipsPathFindingManager>(),Resolve<VehiclesManager>(),Resolve<ShipSurfaceProvider>(),Resolve<ShipJobsContext>(),Resolve<IEntityMaintenanceProvidersFactory>(),Resolve<ShipsClearancePathabilityProvider>());entities.AddEntityNoChecks(ship,EntityAddReason.New);AngleDegrees1f direction=new RelTile2f(target.X-start.X,target.Y-start.Y).Angle;ship.Spawn(start.CenterTile2f,direction);ship.GoTo(target);traffic.Add(new Traffic(ship,kind));Log.Info("AmbientSeaTraffic spawned kind="+kind+" from="+start+" target="+target);}catch(Exception ex){Log.Error("AmbientSeaTraffic spawn failed: "+ex);}}
  T Resolve<T>() where T:class{return resolver.Resolve<T>();}
- void Remove(Traffic x){if(x.Ship!=null)try{entities.TryRemoveAndDestroyEntityNoChecks(x.Ship,EntityRemoveReason.Remove);}catch{}x.Ship=null;x.DestroyVisual=true;}
- void OnBeforeSave(){pending.Clear();for(int i=traffic.Count-1;i>=0;i--)Remove(traffic[i]);traffic.Clear();}
+ void RemoveShip(AmbientShip ship){
+  if(ship==null)return;
+  try{ship.StopNavigating(false);}catch(Exception ex){Log.Error("AmbientSeaTraffic failed to stop ship navigation before removal: "+ex);}
+  try{entities.TryRemoveAndDestroyEntityNoChecks(ship,EntityRemoveReason.Remove);}catch(Exception ex){Log.Error("AmbientSeaTraffic failed to remove ship entity: "+ex);}
+ }
+ void Remove(Traffic x){if(x.Ship!=null)RemoveShip(x.Ship);x.Ship=null;x.DestroyVisual=true;}
+ void OnBeforeSave(){
+  pending.Clear();
+  var allAmbientShips=entities.GetAllEntitiesOfType<AmbientShip>().ToArray();
+  for(int i=0;i<allAmbientShips.Length;i++)RemoveShip(allAmbientShips[i]);
+  FlushDeferredPathFindingChanges();
+  for(int i=0;i<traffic.Count;i++){traffic[i].Ship=null;traffic[i].DestroyVisual=true;}
+  traffic.Clear();
+  Log.Info("AmbientSeaTraffic removed "+allAmbientShips.Length+" non-saveable ships before save.");
+ }
+ void FlushDeferredPathFindingChanges(){
+  try{
+   var updateEnd=typeof(ShipsPathFindingManager).GetMethod("updateEnd",BindingFlags.Instance|BindingFlags.NonPublic);
+   if(updateEnd==null)throw new MissingMethodException(typeof(ShipsPathFindingManager).FullName,"updateEnd");
+   updateEnd.Invoke(shipPaths,null);
+  }catch(TargetInvocationException ex){throw new InvalidOperationException("AmbientSeaTraffic failed to flush deferred ship path-finding changes before save.",ex.InnerException??ex);}
+ }
  public void Dispose(){OnBeforeSave();if(instance==this)instance=null;}
  sealed class Traffic{public AmbientShip Ship;public int Kind,Phase,Ticks;public bool DestroyVisual;public Traffic(AmbientShip s,int k){Ship=s;Kind=k;}public void UpdateVisualRequest(){if(DestroyVisual)DestroyVisual=false;}}
  sealed class PendingShip{public int Kind,Delay;public Tile2i Start,Target;public PendingShip(int k,Tile2i s,Tile2i t,int d){Kind=k;Start=s;Target=t;Delay=d;}}

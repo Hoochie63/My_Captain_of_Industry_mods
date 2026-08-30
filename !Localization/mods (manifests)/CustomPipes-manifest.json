@@ -1,17 +1,4 @@
 {
-    "id": "CustomPipes",
-    "version": "2.1.0",
-    "authors": [
-        "蜂功伟业"
-    ],
     "display_name": "Продвинутые транспортёры",
-    "description_short": "Этот мод полностью переосмысляет транспортировку ресурсов в Captain of Industry, добавляя мощную линейку труб и конвейеров. Разработан для тех, кто строит по-настоящему крупные заводы.",
-    "min_game_version": "0.8.6",
-    "primary_dlls": [
-        "0Harmony.dll",
-        "CustomPipes.dll"
-    ],
-    "optional_mod_dependencies": [],
-    "non_locking_dll_load": false,
-    "can_add_to_saved_game": true
+    "description_short": "Этот мод полностью переосмысляет транспортировку ресурсов в Captain of Industry, добавляя мощную линейку труб и конвейеров. Разработан для тех, кто строит по-настоящему крупные заводы."
 }

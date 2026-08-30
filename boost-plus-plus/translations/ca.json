@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Vincula l'Impuls automàtic d'aquest edifici a un magatzem. Tanca aquesta finestra i fes clic en un magatzem: a partir d'aleshores, l'edifici treballa per mantenir aquell magatzem ple en lloc de seguir el seu propi producte.",
   "Stops using the linked storage. This building goes back to following its own product.": "Deixa d'utilitzar el magatzem vinculat. Aquest edifici torna a seguir el seu propi producte.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "L'impuls més baix i més alt que l'Impuls automàtic pot fer servir en aquest edifici. Mai no baixa del mínim ni puja del màxim, per molt ple o buit que estigui el magatzem. Deixa una casella buida perquè no hi hagi límit.",
+  "Aggression: {0}%": "Agressivitat: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Fa que l'Auto Boost tracti el magatzem com si estigués aquest percentatge més buit del que realment està, de manera que l'edifici manté un impuls més alt encara que el magatzem s'ompli. Amb 0% segueix l'ompliment exactament; amb 50% un magatzem al 70% es tracta com si estigués al 20%.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Fa que l'Auto Boost tracti el magatzem com si estigués aquest percentatge més buit del que realment està, de manera que els edificis d'aquest grup mantenen un impuls més alt encara que el magatzem s'ompli. Amb 0% segueix l'ompliment exactament; amb 50% un magatzem al 70% es tracta com si estigués al 20%.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "El grup d'impuls «{0}» gestiona aquest edifici, així que s'utilitzen el seu magatzem vinculat i el seu mín./màx.",
   "No storage linked — this building follows its own product.": "Cap magatzem vinculat — aquest edifici segueix el seu propi producte.",
   "Linked {0} storage to this building": "Magatzem de {0} vinculat a aquest edifici",
@@ -225,5 +228,7 @@
   "Yes": "Sí",
   "No": "No",
   "Saturation — drag left to fade the color toward gray.": "Saturació — arrossega a l'esquerra per esvair el color cap al gris.",
-  "Transparency — drag left to make the highlight more see-through.": "Transparència — arrossega a l'esquerra per fer el ressaltat més transparent."
+  "Transparency — drag left to make the highlight more see-through.": "Transparència — arrossega a l'esquerra per fer el ressaltat més transparent.",
+  "Scan all": "Escaneja-ho tot",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Llista tots els edificis, cintes i canonades que es poden accelerar. En una fàbrica gran triga una estona."
 }

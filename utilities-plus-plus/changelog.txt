@@ -1,3 +1,9 @@
+v1.2.5 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.4 | 2026-08-25
 ────────────────────────────────────────────────────────────────────────
 * EFFICIENCY LABELS NOW SHOW ABOVE THE ELECTROLYZER AND ELECTROLYZER II, WHICH WERE THE ONLY BUILDINGS THAT NEVER GOT ONE (THANKS WOLF FOR THE REPORT).

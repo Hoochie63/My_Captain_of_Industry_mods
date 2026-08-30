@@ -166,7 +166,7 @@
   "Drag with the left mouse button to turn the vehicle. Scroll to zoom in and out.": "Dra med venstre museknapp for å snu kjøretøyet. Rull for å zoome inn og ut.",
   "Save color": "Lagre farge",
   "Reset to default color": "Tilbakestill til standardfarge",
-  "Colors saved for this game.": "Farger lagret for dette spillet.",
+  "Colors saved. Vehicles change right away. Icons only update after reloading the save from the main menu, and if a vehicle keeps its old color, reload from there too.": "Farger lagret. Kjøretøy endres med en gang. Ikoner oppdateres først etter at du laster spillet på nytt fra hovedmenyen, og hvis et kjøretøy beholder den gamle fargen, last inn på nytt derfra også.",
   "Your colors are used for this fuel type.": "Fargene dine brukes for denne drivstofftypen.",
   "The default Recipes++ color is used for this fuel type.": "Standardfargen til Recipes++ brukes for denne drivstofftypen.",
   "This fuel type is back to the default Recipes++ color.": "Denne drivstofftypen bruker igjen standardfargen til Recipes++.",

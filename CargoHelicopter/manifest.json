@@ -1,15 +1,15 @@
 {
   "id": "CargoHelicopter",
-  "version": "0.19.10",
+  "version": "0.20.0",
   "display_name": "Cargo Helicopter",
-  "description_short": "Three tiers of flying cargo helicopter that haul goods like trucks but fly over mountains, cliffs, water and buildings. Cargo rides in a slung container lowered by winch.",
+  "description_short": "Five diesel and hydrogen cargo-helicopter variants across three capacity tiers. They fly over terrain and buildings and lower cargo by winch.",
   "authors": "pique",
   "primary_dlls": [
     "0Harmony.dll",
     "CargoHelicopter.dll"
   ],
   "primary_mod_class_name": "CargoHelicopterMod",
-  "min_game_version": "0.8.5",
+  "min_game_version": "0.8.7",
   "max_verified_game_version": "0.8.7",
   "links": [
     "https://github.com/Pique1804/Cargo-Helicopter",

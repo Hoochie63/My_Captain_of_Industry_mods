@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Text;
+using System.Text.RegularExpressions;
 using Mafi;
 using Mafi.Collections;
 using Mafi.Collections.ImmutableCollections;
@@ -108,6 +110,7 @@ namespace StorageAutoPause
 		{
 			try
 			{
+				this.RefreshLocalizationIfNeeded();
 				this.InitPersistence();
 				this._diagnosticSemaphoreEnabled = this.JsonConfig.GetBool("diagnostic_semaphore_enabled", true);
 				this._breakdownFireworksEnabled = this.JsonConfig.GetBool("breakdown_fireworks_enabled", true);
@@ -448,7 +451,7 @@ namespace StorageAutoPause
 			bool editing = configured && this._editMachineId == machine.Id.Value;
 			string text = (configured ? "<color=#46C96F>●</color>" : "<color=#D94B4B>●</color>");
 			object obj = this.NewRow(8f);
-			this.AddLabelTo(obj, "AUTOMATICKÉ ŘÍZENÍ   " + text, 1f);
+			this.AddLabelTo(obj, this.T("automatic_control", "AUTOMATIC CONTROL") + "   " + text, 1f);
 			this.AddButtonTo(obj, flag ? "▲" : "▼", delegate
 			{
 				this.ToggleAutomationPanel(machine);
@@ -473,11 +476,11 @@ namespace StorageAutoPause
 				}
 			}
 			int num = (configured ? machineRule.Conditions.Count : 0);
-			string text2 = ((!configured) ? "NENASTAVENO" : (machine.IsPaused ? (machineRule.PausedByMod ? "<color=#E65B4A>PAUZA AUTOMATIKOU</color>" : "<color=#4E9BE8>PAUZA HRÁČEM</color>") : "<color=#46C96F>BĚŽÍ</color>"));
+			string text2 = ((!configured) ? this.T("not_configured", "NOT CONFIGURED") : (machine.IsPaused ? (machineRule.PausedByMod ? "<color=#E65B4A>" + this.T("paused_by_automation", "PAUSED BY AUTOMATION") + "</color>" : "<color=#4E9BE8>" + this.T("paused_by_player", "PAUSED BY PLAYER") + "</color>") : "<color=#46C96F>" + this.T("running", "RUNNING") + "</color>"));
 			object obj2 = this.NewRow(10f);
-			StorageAutoPauseMod.ApplyWidth(this.AddLabelTo(obj2, "Sklady   " + num.ToString() + "   ☷", 0f), 140f);
-			StorageAutoPauseMod.ApplyMinWidth(this.AddLabelTo(obj2, "Stav   " + text2, 1f), 220f);
-			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj2, "✎  " + (editing ? "Hotovo" : "Upravit"), delegate
+			StorageAutoPauseMod.ApplyWidth(this.AddLabelTo(obj2, this.T("storages", "Storages") + "   " + num.ToString() + "   ☷", 0f), 140f);
+			StorageAutoPauseMod.ApplyMinWidth(this.AddLabelTo(obj2, this.T("status", "Status") + "   " + text2, 1f), 220f);
+			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj2, "✎  " + (editing ? this.T("done", "Done") : this.T("edit", "Edit")), delegate
 			{
 				if (!configured)
 				{
@@ -491,14 +494,14 @@ namespace StorageAutoPause
 			if (this._diagnosticSemaphoreEnabled)
 			{
 				object obj3 = this.NewRow(8f);
-				this.AddLabelTo(obj3, "Semafor", 1f);
+				this.AddLabelTo(obj3, this.T("semaphore", "Semaphore"), 1f);
 				if (configured)
 				{
-					this.AddLabelTo(obj3, "<color=#46C96F>Aktivní s logistikou</color>", 0f);
+					this.AddLabelTo(obj3, "<color=#46C96F>" + this.T("active_with_logistics", "Active with logistics") + "</color>", 0f);
 				}
 				else
 				{
-					this.AddButtonTo(obj3, this.IsManualSemaphoreEnabled(machine.Id.Value) ? "Vypnout" : "Zapnout", delegate
+					this.AddButtonTo(obj3, this.IsManualSemaphoreEnabled(machine.Id.Value) ? this.T("turn_off", "Turn off") : this.T("turn_on", "Turn on"), delegate
 					{
 						this.ToggleManualSemaphore(machine);
 					}, 0f, false);
@@ -515,7 +518,7 @@ namespace StorageAutoPause
 			StorageAutoPauseMod.SetPanelLike(obj5);
 			if (!configured)
 			{
-				this.AddLabelTo(obj5, "Přidejte první sklad pro nastavení automatického řízení.", 1f);
+				this.AddLabelTo(obj5, this.T("add_first_storage", "Add the first storage to configure automatic control."), 1f);
 			}
 			else if (!editing)
 			{
@@ -555,7 +558,7 @@ namespace StorageAutoPause
 						if (conditionIndex > 0)
 						{
 							object obj7 = this.NewRow(8f);
-							this.AddLabelTo(obj7, "Podmínka mezi sklady", 1f);
+							this.AddLabelTo(obj7, this.T("condition_between_storages", "Condition between storages"), 1f);
 							StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj7, storageCondition2.Join.ToString() + "  ▼", delegate
 							{
 								this.CycleJoin(machine, conditionIndex);
@@ -578,7 +581,7 @@ namespace StorageAutoPause
 						}, 0f, true), 44f);
 						this.AddToContainer(obj8, obj9);
 						object obj10 = this.NewRow(8f);
-						this.AddLabelTo(obj10, "PAUSE při naplnění", 1f);
+						this.AddLabelTo(obj10, this.T("pause_when_full", "PAUSE when filled"), 1f);
 						object pauseValue = this.AddLabelTo(obj10, storageCondition2.PauseAtPercent.ToString() + "%", 0f);
 						StorageAutoPauseMod.ApplyWidth(pauseValue, 56f);
 						this.AddToContainer(obj8, obj10);
@@ -590,7 +593,7 @@ namespace StorageAutoPause
 							this.RequestUiRefresh();
 						});
 						object obj11 = this.NewRow(8f);
-						this.AddLabelTo(obj11, "RESUME při poklesu", 1f);
+						this.AddLabelTo(obj11, this.T("resume_when_below", "RESUME when below"), 1f);
 						object resumeValue = this.AddLabelTo(obj11, storageCondition2.ResumeAtPercent.ToString() + "%", 0f);
 						StorageAutoPauseMod.ApplyWidth(resumeValue, 56f);
 						this.AddToContainer(obj8, obj11);
@@ -601,7 +604,7 @@ namespace StorageAutoPause
 							this.ApplyRuleNow(machine, "změna RESUME");
 							this.RequestUiRefresh();
 						});
-						this.AddLabelTo(obj8, "ⓘ  Továrna se pozastaví při dosažení PAUSE a automatika ji znovu uvolní po poklesu na RESUME. Ruční pauzu hráče mod neruší.", 1f);
+						this.AddLabelTo(obj8, "ⓘ  " + this.T("automation_help", "The factory pauses at PAUSE and resumes after falling to RESUME. The mod does not cancel a player's manual pause."), 1f);
 						this.AddToContainer(obj5, obj8);
 					}
 				}
@@ -612,12 +615,12 @@ namespace StorageAutoPause
 			this.AddToContainer(scrollColumn, obj5);
 			this.AddToPanel(scrollColumn);
 			object obj12 = this.NewRow(10f);
-			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj12, "+  Přidat sklad", delegate
+			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj12, "+  " + this.T("add_storage", "Add storage"), delegate
 			{
 				this.StartSelectingStorage(machine);
 			}, 0f, false), 150f);
 			this.AddLabelTo(obj12, "", 1f);
-			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj12, "▣  Odstranit automatiku", delegate
+			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj12, "▣  " + this.T("remove_automation", "Remove automation"), delegate
 			{
 				if (configured)
 				{
@@ -639,14 +642,14 @@ namespace StorageAutoPause
 			if (this._diagnosticSemaphoreEnabled && this.IsSemaphoreCapable(entity))
 			{
 				object obj = this.NewRow(8f);
-				this.AddLabelTo(obj, "STAVOVÝ SEMAFOR", 1f);
+				this.AddLabelTo(obj, this.T("status_semaphore", "STATUS SEMAPHORE"), 1f);
 				if (this.HasAutomaticLogisticsMarker(entity.Id.Value))
 				{
-					this.AddLabelTo(obj, "<color=#46C96F>Aktivní s logistikou</color>", 0f);
+					this.AddLabelTo(obj, "<color=#46C96F>" + this.T("active_with_logistics", "Active with logistics") + "</color>", 0f);
 				}
 				else
 				{
-					this.AddButtonTo(obj, this.IsManualSemaphoreEnabled(entity.Id.Value) ? "Vypnout" : "Zapnout", delegate
+					this.AddButtonTo(obj, this.IsManualSemaphoreEnabled(entity.Id.Value) ? this.T("turn_off", "Turn off") : this.T("turn_on", "Turn on"), delegate
 					{
 						this.ToggleManualSemaphore(entity);
 					}, 0f, false);
@@ -661,11 +664,11 @@ namespace StorageAutoPause
 			StorageAutoPauseMod.MineTowerRule mineTowerRule;
 			bool flag = this._towerRules.TryGetValue(tower.Id.Value, out mineTowerRule) && mineTowerRule.Sorters.Count > 0;
 			object obj2 = this.NewRow(8f);
-			this.AddLabelTo(obj2, "LOGISTIKA TĚŽEBNÍ VĚŽE   " + (flag ? "<color=#46C96F>●</color>" : "<color=#D94B4B>●</color>"), 1f);
+			this.AddLabelTo(obj2, this.T("mine_tower_logistics", "MINE TOWER LOGISTICS") + "   " + (flag ? "<color=#46C96F>●</color>" : "<color=#D94B4B>●</color>"), 1f);
 			this.AddToOtherPanel(obj2);
 			object obj3 = this.NewRow(8f);
-			this.AddLabelTo(obj3, "Třídírny   " + (flag ? mineTowerRule.Sorters.Count : 0).ToString(), 1f);
-			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj3, "+  Přidat třídírnu", delegate
+			this.AddLabelTo(obj3, this.T("sorters", "Sorters") + "   " + (flag ? mineTowerRule.Sorters.Count : 0).ToString(), 1f);
+			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj3, "+  " + this.T("add_sorter", "Add sorter"), delegate
 			{
 				this.StartSelectingSorter(tower);
 			}, 0f, false), 160f);
@@ -703,7 +706,7 @@ namespace StorageAutoPause
 					}, 0f, true), 44f);
 					this.AddToContainer(obj6, obj7);
 					object obj8 = this.NewRow(8f);
-					this.AddLabelTo(obj8, "PAUSE při naplnění třídírny", 1f);
+					this.AddLabelTo(obj8, this.T("pause_when_sorter_full", "PAUSE when sorter is filled"), 1f);
 					object pauseValue = this.AddLabelTo(obj8, sorterCondition.PauseAtPercent.ToString() + "%", 0f);
 					StorageAutoPauseMod.ApplyWidth(pauseValue, 56f);
 					this.AddToContainer(obj6, obj8);
@@ -714,7 +717,7 @@ namespace StorageAutoPause
 						this.RequestUiRefresh();
 					});
 					object obj9 = this.NewRow(8f);
-					this.AddLabelTo(obj9, "RESUME při poklesu", 1f);
+					this.AddLabelTo(obj9, this.T("resume_when_below", "RESUME when below"), 1f);
 					object resumeValue = this.AddLabelTo(obj9, sorterCondition.ResumeAtPercent.ToString() + "%", 0f);
 					StorageAutoPauseMod.ApplyWidth(resumeValue, 56f);
 					this.AddToContainer(obj6, obj9);
@@ -733,7 +736,7 @@ namespace StorageAutoPause
 			this.AddToContainer(scrollColumn, obj5);
 			this.AddToOtherPanel(scrollColumn);
 			object obj10 = this.NewRow(8f);
-			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj10, "▣  Odstranit logistiku věže", delegate
+			StorageAutoPauseMod.ApplyWidth(this.AddButtonTo(obj10, "▣  " + this.T("remove_tower_logistics", "Remove tower logistics"), delegate
 			{
 				this.ClearTowerRule(tower);
 			}, 0f, true), 220f);
@@ -757,6 +760,67 @@ namespace StorageAutoPause
 			this._waitingMineTowerId = tower.Id.Value;
 			this._lastActiveEntityId = tower.Id.Value;
 			Log.Info("StorageAutoPause: waiting for Ore Sorting Plant selection for Mine Tower " + tower.Id.Value.ToString());
+		}
+
+		private string T(string key, string englishFallback)
+		{
+			string value;
+			return this._localizedTexts.TryGetValue(key, out value) ? value : englishFallback;
+		}
+
+		private void RefreshLocalizationIfNeeded()
+		{
+			string culture = "en";
+			try
+			{
+				culture = LocalizationManager.CurrentLangInfo.CultureInfoId ?? "en";
+			}
+			catch { }
+			if (string.Equals(culture, this._loadedLocalizationCulture, StringComparison.OrdinalIgnoreCase)) return;
+			this._loadedLocalizationCulture = culture;
+			this._localizedTexts.Clear();
+			this.LoadLocalizationFile("en");
+			string code = StorageAutoPauseMod.MapCultureToLocalizationCode(culture);
+			if (!string.Equals(code, "en", StringComparison.OrdinalIgnoreCase)) this.LoadLocalizationFile(code);
+			this.RequestUiRefresh();
+			Log.Info("StorageAutoPause: localization selected '" + code + "' for game culture '" + culture + "'.");
+		}
+
+		private void LoadLocalizationFile(string code)
+		{
+			try
+			{
+				string path = Path.Combine(this.Manifest.RootDirectoryPath, "Localization", code + ".json");
+				if (!File.Exists(path)) return;
+				string json = File.ReadAllText(path, Encoding.UTF8);
+				foreach (Match match in Regex.Matches(json, "\\\"(?<k>(?:\\\\.|[^\\\"\\\\])*)\\\"\\s*:\\s*\\\"(?<v>(?:\\\\.|[^\\\"\\\\])*)\\\""))
+				{
+					this._localizedTexts[StorageAutoPauseMod.UnescapeJson(match.Groups["k"].Value)] = StorageAutoPauseMod.UnescapeJson(match.Groups["v"].Value);
+				}
+			}
+			catch (Exception ex)
+			{
+				Log.Warning("StorageAutoPause: failed to load localization '" + code + "': " + ex.Message);
+			}
+		}
+
+		private static string UnescapeJson(string value)
+		{
+			return Regex.Unescape(value.Replace("\\/", "/"));
+		}
+
+		private static string MapCultureToLocalizationCode(string culture)
+		{
+			string c = (culture ?? "en").Replace('_', '-').ToLowerInvariant();
+			if (c.StartsWith("zh-hant") || c == "zh-tw" || c == "zh-hk") return "zh-Hant";
+			if (c.StartsWith("zh")) return "zh-Hans";
+			if (c.StartsWith("pt")) return "pt-BR";
+			string two = c.Split('-')[0];
+			switch (two)
+			{
+			case "cs": case "fr": case "de": case "es": case "nl": case "sv": case "it": case "ru": case "ja": case "ko": case "pl": case "hu": case "ca": case "et": case "tr": case "uk": case "nb": case "no": return two == "no" ? "nb" : two;
+			default: return "en";
+			}
 		}
 
 		private bool TryGetTowerOwningSorter(int sorterId, out int towerId)
@@ -1295,6 +1359,7 @@ namespace StorageAutoPause
 		{
 			try
 			{
+				this.RefreshLocalizationIfNeeded();
 				this.ProcessPendingFireworks();
 				bool flag = this._uiRefreshDelayInputFrames <= 0;
 				if (this._uiRefreshDelayInputFrames > 0)
@@ -1322,7 +1387,7 @@ namespace StorageAutoPause
 						int owningTowerId;
 						if (this.TryGetTowerOwningSorter(sorter.Id.Value, out owningTowerId) && owningTowerId != mineTower.Id.Value)
 						{
-							this._otherSelectionNotice = "<color=#E79B36>Třídírna je již přiřazena jiné řídicí věži.</color>";
+							this._otherSelectionNotice = "<color=#E79B36>" + this.T("sorter_already_assigned", "This sorter is already assigned to another control tower.") + "</color>";
 						}
 						else if (!mineTowerRule.Sorters.Any<StorageAutoPauseMod.SorterCondition>((StorageAutoPauseMod.SorterCondition x) => x.SorterId == sorter.Id.Value))
 						{
@@ -1391,7 +1456,7 @@ namespace StorageAutoPause
 							{
 								this._rules.Remove(machine.Id.Value);
 							}
-							this._selectionNotice = "<color=#E79B36>Nelze přidat sklad:</color> " + text;
+							this._selectionNotice = "<color=#E79B36>" + this.T("cannot_add_storage", "Cannot add storage:") + "</color> " + text;
 							string[] array = new string[6];
 							array[0] = "StorageAutoPause: rejected storage ";
 							int num2 = 1;
@@ -2279,7 +2344,7 @@ namespace StorageAutoPause
 			{
 				if (!string.IsNullOrWhiteSpace(text) && !text.StartsWith("#"))
 				{
-					string[] array = text.Split(new char[] { '|' }, StringSplitOptions.None);
+					string[] array = text.Split('|', StringSplitOptions.None);
 					int num10;
 					if (array.Length >= 5 && array[0] == "M")
 					{
@@ -2298,7 +2363,7 @@ namespace StorageAutoPause
 							string[] array2 = array[4].Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 							for (int i = 0; i < array2.Length; i++)
 							{
-									string[] array3 = array2[i].Split(new char[] { ':' }, StringSplitOptions.None);
+								string[] array3 = array2[i].Split(':', StringSplitOptions.None);
 								int num2;
 								StorageAutoPauseMod.LogicJoin logicJoin;
 								int num3;
@@ -2335,7 +2400,7 @@ namespace StorageAutoPause
 							string[] array2 = array[2].Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 							for (int i = 0; i < array2.Length; i++)
 							{
-									string[] array4 = array2[i].Split(new char[] { ':' }, StringSplitOptions.None);
+								string[] array4 = array2[i].Split(':', StringSplitOptions.None);
 								int num6;
 								int num7;
 								int num8;
@@ -2401,7 +2466,7 @@ namespace StorageAutoPause
 							string[] array2 = array[1].Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 							for (int i = 0; i < array2.Length; i++)
 							{
-									string[] array5 = array2[i].Split(new char[] { ':' }, StringSplitOptions.None);
+								string[] array5 = array2[i].Split(':', StringSplitOptions.None);
 								bool flag7 = false;
 								int num16;
 								if (array5.Length >= 1 && int.TryParse(array5[0], out num16))
@@ -2969,12 +3034,8 @@ namespace StorageAutoPause
 			for (int i = 0; i < 3; i++)
 			{
 				float num3 = 0.0174532924f * (90f + (float)i * 120f);
-				// Extend the mast 200% farther downward.  On very tall prefabs the
-				// canonical marker is placed at the roof/light level; the original
-				// 16 m tail therefore ended visibly in mid-air.  The extra part is
-				// harmlessly hidden below terrain on ordinary buildings.
-				Vector3 vector = new Vector3(Mathf.Cos(num3) * 0.046188f, -48f, Mathf.Sin(num3) * 0.046188f);
-				action(vector, vector + Vector3.up * (48f + mastTop), 0.018f);
+				Vector3 vector = new Vector3(Mathf.Cos(num3) * 0.046188f, -16f, Mathf.Sin(num3) * 0.046188f);
+				action(vector, vector + Vector3.up * (16f + mastTop), 0.018f);
 			}
 			for (int segment = 0; segment < 8; segment++)
 			{
@@ -3836,6 +3897,10 @@ namespace StorageAutoPause
 		// Token: 0x04000039 RID: 57
 		private volatile bool _uiRefreshRequested;
 
+		private readonly Dictionary<string, string> _localizedTexts = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+
+		private string _loadedLocalizationCulture;
+
 		// Token: 0x0400003A RID: 58
 		private int _uiRefreshDelayInputFrames;
 
@@ -4075,8 +4140,7 @@ namespace StorageAutoPause
 				ParticleSystem.ColorOverLifetimeModule colorLife = burst.colorOverLifetime;
 				colorLife.enabled = true;
 				Gradient gradient = new Gradient();
-					gradient.colorKeys = new GradientColorKey[] { new GradientColorKey(new Color(1f, 0.95f, 0.35f), 0f), new GradientColorKey(new Color(1f, 0.08f, 0.01f), 0.45f), new GradientColorKey(new Color(0.22f, 0.02f, 0.01f), 1f) };
-					gradient.alphaKeys = new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(0.8f, 0.65f), new GradientAlphaKey(0f, 1f) };
+				gradient.SetKeys(new GradientColorKey[] { new GradientColorKey(new Color(1f, 0.95f, 0.35f), 0f), new GradientColorKey(new Color(1f, 0.08f, 0.01f), 0.45f), new GradientColorKey(new Color(0.22f, 0.02f, 0.01f), 1f) }, new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(0.8f, 0.65f), new GradientAlphaKey(0f, 1f) });
 				colorLife.color = gradient;
 				ParticleSystemRenderer renderer = burst.GetComponent<ParticleSystemRenderer>();
 				renderer.renderMode = ParticleSystemRenderMode.Billboard;

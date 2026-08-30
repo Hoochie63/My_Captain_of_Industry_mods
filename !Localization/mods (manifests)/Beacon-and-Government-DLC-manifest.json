@@ -1,0 +1,5 @@
+{
+    "display_name": "Beacon & Government+",
+    "description_short": "Overhauls Beacon's reward mechanics to extend its usefulness into the mid-to-late game. Research-based product rewards & Captain's Currency 🪙 used for new bartering systems.",
+    "description_long": "Expands the Government and Beacon reward system with placeable Relay Beacons, Captain's Exchanges, and Government Offices using vanilla models. Each completed Beacon cycle adds research-gated randomized supplies and Captain's Currency scaled from the saved full-cycle Unity average. Government Offices add mutually coherent reward policies and regional power/computing subsidies. Exchange purchases prepare for three months before an optional vanilla-style cargo ship arrives and safely transfers the saved order to the Shipyard; its simplified visual route can be disabled without changing delivery timing."
+}

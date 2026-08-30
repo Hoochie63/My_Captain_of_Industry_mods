@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "이 건물의 자동 부스트를 창고 하나에 연결합니다. 이 창을 닫고 창고를 클릭하면, 건물은 자기 생산물을 따르는 대신 그 창고를 채우도록 동작합니다.",
   "Stops using the linked storage. This building goes back to following its own product.": "연결된 창고 사용을 중단합니다. 이 건물은 다시 자기 생산물을 따릅니다.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "자동 부스트가 이 건물에 사용할 수 있는 최저 및 최고 부스트입니다. 창고가 아무리 차거나 비어도 최저값 아래나 최고값 위로는 가지 않습니다. 칸을 비워 두면 제한이 없습니다.",
+  "Aggression: {0}%": "적극성: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "자동 부스트가 창고를 실제보다 이만큼 더 비어 있는 것으로 취급하여, 창고가 차오르는 동안에도 건물이 더 높은 부스트를 유지합니다. 0%에서는 적재량을 그대로 따르고, 50%에서는 70% 찬 창고를 20% 찬 것으로 취급합니다.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "자동 부스트가 창고를 실제보다 이만큼 더 비어 있는 것으로 취급하여, 창고가 차오르는 동안에도 이 그룹의 건물들이 더 높은 부스트를 유지합니다. 0%에서는 적재량을 그대로 따르고, 50%에서는 70% 찬 창고를 20% 찬 것으로 취급합니다.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "부스트 그룹 '{0}'이(가) 이 건물을 관리하고 있어 해당 그룹의 창고 연결과 최저/최고값이 사용됩니다.",
   "No storage linked — this building follows its own product.": "연결된 창고 없음 — 이 건물은 자기 생산물을 따릅니다.",
   "Linked {0} storage to this building": "{0} 창고를 이 건물에 연결했습니다",
@@ -225,5 +228,7 @@
   "Yes": "예",
   "No": "아니요",
   "Saturation — drag left to fade the color toward gray.": "채도 — 왼쪽으로 드래그하면 색이 회색으로 바랩니다.",
-  "Transparency — drag left to make the highlight more see-through.": "투명도 — 왼쪽으로 드래그하면 강조 표시가 더 투명해집니다."
+  "Transparency — drag left to make the highlight more see-through.": "투명도 — 왼쪽으로 드래그하면 강조 표시가 더 투명해집니다.",
+  "Scan all": "전체 검색",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "부스트할 수 있는 모든 건물, 벨트, 파이프를 나열합니다. 큰 공장에서는 시간이 조금 걸립니다."
 }

@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Lie le Boost auto de ce bâtiment à un stockage. Ferme cette fenêtre et clique sur un stockage : ensuite, le bâtiment travaille à garder ce stockage plein au lieu de suivre son propre produit.",
   "Stops using the linked storage. This building goes back to following its own product.": "Arrête d'utiliser le stockage lié. Ce bâtiment suit de nouveau son propre produit.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Le boost le plus bas et le plus haut que le Boost auto peut utiliser sur ce bâtiment. Il ne descend jamais sous le minimum ni ne dépasse le maximum, quel que soit le remplissage du stockage. Laisse une case vide pour aucune limite.",
+  "Aggression: {0}%": "Agressivité : {0} %",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Fait comme si le stockage était d'autant plus vide qu'il ne l'est réellement, pour que le bâtiment garde un boost plus élevé même pendant que le stockage se remplit. À 0 %, le boost suit exactement le remplissage ; à 50 %, un stockage rempli à 70 % est traité comme rempli à 20 %.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Fait comme si le stockage était d'autant plus vide qu'il ne l'est réellement, pour que les bâtiments de ce groupe gardent un boost plus élevé même pendant que le stockage se remplit. À 0 %, le boost suit exactement le remplissage ; à 50 %, un stockage rempli à 70 % est traité comme rempli à 20 %.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "Le groupe de boost « {0} » gère ce bâtiment : son stockage lié et son min/max sont utilisés à la place.",
   "No storage linked — this building follows its own product.": "Aucun stockage lié — ce bâtiment suit son propre produit.",
   "Linked {0} storage to this building": "Stockage de {0} lié à ce bâtiment",
@@ -225,5 +228,7 @@
   "Yes": "Oui",
   "No": "Non",
   "Saturation — drag left to fade the color toward gray.": "Saturation — glissez vers la gauche pour estomper la couleur vers le gris.",
-  "Transparency — drag left to make the highlight more see-through.": "Transparence — glissez vers la gauche pour rendre le surlignage plus transparent."
+  "Transparency — drag left to make the highlight more see-through.": "Transparence — glissez vers la gauche pour rendre le surlignage plus transparent.",
+  "Scan all": "Tout scanner",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Liste tous les bâtiments, convoyeurs et tuyaux pouvant être accélérés. Dans une grande usine, cela prend un moment."
 }

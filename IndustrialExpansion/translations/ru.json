@@ -5,7 +5,7 @@
     "Cargo Ship Drydock": "Сухой док для грузовых судов",
     "Constructs a dedicated Cargo Ship Drydock, enabling the assembly and deployment of cargo ships to efficiently transport large volumes of resources across the seas.": "Позволяет построить специализированный сухой док для грузовых судов, обеспечивающий производство и отправку кораблей для эффективной транспортировки больших объёмов ресурсов по морю.",
     "Cargo Ship": "Грузовое судно",
-    "The amount of cargo ships that have been built but not deployed." : "Количество построенных, но ещё нераспределённых грузовых судов.",
+    "The amount of cargo ships that have been built but not deployed.": "Количество построенных, но ещё нераспределённых грузовых судов.",
     "Small Flat Balancer": "Балансировщик изделий 1×1",
     "Medium Flat Balancer": "Балансировщик изделий 3×2",
     "Large Flat Balancer": "Балансировщик изделий 3×3",
@@ -43,6 +43,5 @@
     "Unlocks new darker variant of the concrete surfaces.": "Разблокирует новый тёмный вариант бетонного фундамента.",
     "Darker to!": "Нужно больше тёмного!",
     "Unlocks new darker variant of the reinforced surfaces.": "Разблокирует новый тёмный вариант железобетонного фундамента.",
-
     "Build Cargo Ship": "Построить грузовое судно"
 }

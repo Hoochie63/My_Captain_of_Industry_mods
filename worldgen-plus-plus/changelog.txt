@@ -1,3 +1,17 @@
+v1.2.1 | 2026-08-29
+────────────────────────────────────────────────────────────────────────
+* SAVES THAT HAVE LITHIUM MINES ON THE WORLD MAP LOAD AGAIN INSTEAD OF SAYING THE CONTENT IS MISSING (THANKS PETTER566 FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.0 | 2026-08-29
+────────────────────────────────────────────────────────────────────────
+* WORKS WITH GEOLOGY & RESERVOIR ENGINEERING BY ULISSE WOLF.
+
+  - With that mod installed, Natural gas rig joins the location types you can choose in the Mines & Rigs list, so your world map can be generated with gas rigs on it.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.1.9 | 2026-08-22
 ────────────────────────────────────────────────────────────────────────
 * THE WORLDGEN TAB NO LONGER GOES MISSING FROM THE NEW GAME WINDOW WHEN YOU GO BACK AND CHANGE YOUR MOD SELECTION BEFORE STARTING (THANKS XXDOLCEXX FOR THE REPORT).

@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Vincula el Impulso automático de este edificio a un almacén. Cierra esta ventana y haz clic en un almacén: a partir de ahí, el edificio trabaja para mantener ese almacén lleno en vez de seguir su propio producto.",
   "Stops using the linked storage. This building goes back to following its own product.": "Deja de usar el almacén vinculado. Este edificio vuelve a seguir su propio producto.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "El impulso más bajo y más alto que el Impulso automático puede usar en este edificio. Nunca baja del mínimo ni sube del máximo, por muy lleno o vacío que esté el almacén. Deja una casilla vacía para no poner límite.",
+  "Aggression: {0}%": "Agresividad: {0} %",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Hace que el Auto Boost trate el almacén como si estuviera este porcentaje más vacío de lo que realmente está, así el edificio mantiene un impulso más alto aunque el almacén se llene. Con 0 % sigue el llenado exactamente; con 50 % un almacén al 70 % se trata como si estuviera al 20 %.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Hace que el Auto Boost trate el almacén como si estuviera este porcentaje más vacío de lo que realmente está, así los edificios de este grupo mantienen un impulso más alto aunque el almacén se llene. Con 0 % sigue el llenado exactamente; con 50 % un almacén al 70 % se trata como si estuviera al 20 %.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "El grupo de impulso «{0}» está gestionando este edificio, así que se usan su almacén vinculado y su mín./máx.",
   "No storage linked — this building follows its own product.": "Ningún almacén vinculado — este edificio sigue su propio producto.",
   "Linked {0} storage to this building": "Almacén de {0} vinculado a este edificio",
@@ -225,5 +228,7 @@
   "Yes": "Sí",
   "No": "No",
   "Saturation — drag left to fade the color toward gray.": "Saturación — arrastra a la izquierda para desvanecer el color hacia el gris.",
-  "Transparency — drag left to make the highlight more see-through.": "Transparencia — arrastra a la izquierda para hacer el resaltado más transparente."
+  "Transparency — drag left to make the highlight more see-through.": "Transparencia — arrastra a la izquierda para hacer el resaltado más transparente.",
+  "Scan all": "Escanear todo",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Lista todos los edificios, cintas y tuberías que se pueden acelerar. En una fábrica grande tarda un momento."
 }

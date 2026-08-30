@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "將這座建築的自動增速連結到一個倉儲。關閉本視窗並點擊一個倉儲後，該建築會努力讓那個倉儲保持裝滿，而不再只看自己的產物。",
   "Stops using the linked storage. This building goes back to following its own product.": "停止使用已連結的倉儲。這座建築將恢復為只看自己的產物。",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "自動增速在這座建築上可使用的最低與最高增速。無論倉儲裝得多滿或多空，都不會低於最低值或高於最高值。留空表示不限制。",
+  "Aggression: {0}%": "積極程度：{0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "讓自動增速把倉儲視為比實際更空這麼多，因此即使倉儲逐漸變滿，建築也會繼續維持更高的增速。為 0% 時完全依實際存量；為 50% 時裝到 70% 的倉儲會被當作只裝了 20%。",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "讓自動增速把倉儲視為比實際更空這麼多，因此即使倉儲逐漸變滿，該群組內的建築也會繼續維持更高的增速。為 0% 時完全依實際存量；為 50% 時裝到 70% 的倉儲會被當作只裝了 20%。",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "增速群組「{0}」正在管理這座建築，因此改用該群組的連結倉儲與最低/最高值。",
   "No storage linked — this building follows its own product.": "未連結倉儲 — 這座建築只看自己的產物。",
   "Linked {0} storage to this building": "已將 {0} 倉儲連結到這座建築",
@@ -225,5 +228,7 @@
   "Yes": "是",
   "No": "否",
   "Saturation — drag left to fade the color toward gray.": "飽和度 — 向左拖曳可讓顏色逐漸變灰。",
-  "Transparency — drag left to make the highlight more see-through.": "透明度 — 向左拖曳可讓標示更加透明。"
+  "Transparency — drag left to make the highlight more see-through.": "透明度 — 向左拖曳可讓標示更加透明。",
+  "Scan all": "掃描全部",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "列出所有可加速的建築、輸送帶和管道。在大型工廠中需要一點時間。"
 }

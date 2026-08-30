@@ -744,6 +744,10 @@
     "[ATD] {entity} não pôde traçar caminho até a rampa"
   ],
   [
+    "notification.ramp_access_snapshot_too_large",
+    "[ATD] A área de acesso de {entity} é grande demais para buscar rampas de conversão"
+  ],
+  [
     "notification.farming_complete",
     "[ATD] {entity} preparação agrícola e preenchimento concluídos"
   ],
@@ -782,5 +786,9 @@
   [
     "vehicle_order.shortcut.tooltip",
     "Shift-Alt-clique para solicitar um novo {0} para {2} em {1}"
+  ],
+  [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "Apenas os caminhões atribuídos (e os caminhões atribuídos às torres de mineração participantes) poderão coletar ou entregar carga aqui."
   ]
 ]

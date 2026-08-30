@@ -4,6 +4,8 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text;
+using System.Text.RegularExpressions;
 using HarmonyLib;
 using Mafi;
 using Mafi.Base;
@@ -41,25 +43,33 @@ public sealed class CoastalImmigrationBeaconMod : IMod, IDisposable {
  volatile bool boatExists,createBoatRequested,destroyBoatRequested,desiredBoatFrozen,departBoatRequested;
  volatile bool journeyCommitted;
  Beacon requestedBoatBeacon; RelTile2i requestedBoatDirection;
- string title="IMMIGRATION DOCK", valid="Coastal berth ready", invalid="Immigration stopped: rebuild the Beacon on the coast with its docking area in the ocean.";
+ readonly Dictionary<string,string> localization=new Dictionary<string,string>();
+ string title="IMMIGRATION DOCK", valid="Coastal berth ready.", invalid="Immigration stopped: rebuild the Beacon on the coast with its docking area in the ocean.";
  public CoastalImmigrationBeaconMod(ModManifest manifest){Manifest=manifest;JsonConfig=new ModJsonConfig(this);}
  public void RegisterDependencies(DependencyResolverBuilder b,ProtosDb p,bool loaded){}
  public void RegisterPrototypes(ProtoRegistrator r){
-  // Extend the vanilla 5x5 footprint with a short central pier and an 8x9 ocean berth.
+  // Keep the vanilla 5x5 beacon footprint and add only the remote ocean berth.
+  // The pier itself remains completely outside the placement layout.
   // Keeping the same prototype ID makes old saves load normally; inland legacy beacons
   // remain present but fail the coastal validation below.
   try{
    var proto=r.PrototypesDb.GetOrThrow<BeaconProto>(Ids.Buildings.Beacon);
    var parser=new EntityLayoutParser(r.PrototypesDb);
-   Predicate<LayoutTile> filter=x=>x.Constraint==LayoutTileConstraint.None||x.Constraint.HasAnyConstraints(LayoutTileConstraint.Ocean);
+   Predicate<LayoutTile> filter=x=>x.Constraint.HasAnyConstraints(LayoutTileConstraint.Ocean);
    var tokens=new[]{
     new CustomLayoutToken("[0!",(p,h)=>new LayoutTokenSpec(0,3*h,LayoutTileConstraint.None,0,null,null,null,null,p.HardenedFloorSurfaceId,false,false,0)),
     new CustomLayoutToken("~0!",(p,h)=>new LayoutTokenSpec(-10,h,LayoutTileConstraint.Ocean,null,null,null,null,null,null,false,false,0))};
    var rows=new List<string>();
-   for(int i=0;i<5;i++)rows.Add("[7![7![7![7![7!");
-   // Two narrow rows form the short pier; all remaining cells reserve navigable sea.
-   rows.Add("~0!~0!~0!~0!~0!"); rows.Add("~0!~0!~0!~0!~0!");
-   for(int i=0;i<56;i++)rows.Add("~0!~0!~0!~0!~0!");
+   // One layout tile equals two Unity metres. The green docking rectangle is
+   // therefore represented by a separate 5x12 ocean-only area. It is shifted
+   // one tile towards the pier axis. Every tile between it and the beacon is empty.
+   // Layout Y is inverted by the vanilla parser, so the berth comes first.
+   string berthRow="   ~0!~0!~0!~0!~0!";
+   string emptyRow="                  ";
+   string beaconRow="[7![7![7![7![7!   ";
+   for(int i=0;i<12;i++)rows.Add(berthRow);
+   for(int i=0;i<15;i++)rows.Add(emptyRow);
+   for(int i=0;i<5;i++)rows.Add(beaconRow);
    var layout=parser.ParseLayoutOrThrow(new EntityLayoutParams(filter,tokens,false,null,null,null,null,null,null,default(Option<IEnumerable<KeyValuePair<char,int>>>),false,null,null),rows.ToArray());
    AccessTools.Field(typeof(LayoutEntityProto),"<Layout>k__BackingField").SetValue(proto,layout);
   }catch(Exception ex){Log.Error("CoastalImmigrationBeacon layout creation failed: "+ex);}
@@ -107,7 +117,36 @@ public sealed class CoastalImmigrationBeaconMod : IMod, IDisposable {
  void UpdatePanel(){if(panelBody==null||boundInspector!=inspectors.GetFirstActiveInspectorOrNull())return;int h=(coastal?1:0)+(boatExists?2:0)+(beacon!=null&&beacon.IsPaused?4:0);if(h==uiHash)return;uiHash=h;Invoke(panelBody,"Clear",new object[0]);panelBody.Add(new Label(new LocStrFormatted(coastal?valid:invalid)));}
  void RequestBoatDestroy(){destroyBoatRequested=true;desiredBoatFrozen=true;journeyCommitted=false;}
  void OnBeforeSave(){RequestBoatDestroy();}
- void LoadLocalization(){try{string lang=CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;foreach(string raw in File.ReadAllLines(Path.Combine(Manifest.RootDirectoryPath,"Localization","index.txt"))){var p=raw.Split('|');if(p.Length>=4&&p[0].Equals(lang,StringComparison.OrdinalIgnoreCase)){title=p[1];valid=p[2];invalid=p[3];break;}}}catch{}}
+ void LoadLocalization(){
+  localization.Clear();
+  LoadLocalizationFile("en");
+  string culture="en-US";
+  try{culture=LocalizationManager.CurrentLangInfo.CultureInfoId??"en-US";}catch(Exception ex){Log.Warning("CoastalImmigrationBeacon: could not read game language: "+ex.Message);}
+  string code=MapCulture(culture);
+  if(!string.Equals(code,"en",StringComparison.OrdinalIgnoreCase))LoadLocalizationFile(code);
+  string value;
+  if(localization.TryGetValue("panel_title",out value))title=value;
+  if(localization.TryGetValue("coastal_valid",out value))valid=value;
+  if(localization.TryGetValue("coastal_invalid",out value))invalid=value;
+  Log.Info("CoastalImmigrationBeacon: localization selected '"+code+"' for game culture '"+culture+"'.");
+ }
+ void LoadLocalizationFile(string code){
+  try{
+   string path=Path.Combine(Manifest.RootDirectoryPath,"Localization",code+".json");
+   if(!File.Exists(path)){Log.Warning("CoastalImmigrationBeacon: localization file not found: "+path);return;}
+   string json=File.ReadAllText(path,Encoding.UTF8);
+   foreach(Match match in Regex.Matches(json,"\\\"(?<k>(?:\\\\.|[^\\\"\\\\])*)\\\"\\s*:\\s*\\\"(?<v>(?:\\\\.|[^\\\"\\\\])*)\\\""))
+    localization[Regex.Unescape(match.Groups["k"].Value)]=Regex.Unescape(match.Groups["v"].Value.Replace("\\/","/"));
+  }catch(Exception ex){Log.Warning("CoastalImmigrationBeacon: failed to load localization '"+code+"': "+ex.Message);}
+ }
+ static string MapCulture(string culture){
+  string c=(culture??"en-US").Replace('_','-').ToLowerInvariant();
+  if(c.StartsWith("zh-hant")||c=="zh-tw"||c=="zh-hk")return "zh-Hant";
+  if(c.StartsWith("zh"))return "zh-Hans";
+  if(c.StartsWith("pt"))return "pt-BR";
+  string two=c.Split('-')[0];
+  switch(two){case "ca":case "cs":case "de":case "es":case "et":case "fr":case "hu":case "it":case "ja":case "ko":case "nb":case "nl":case "pl":case "ru":case "sv":case "tr":case "uk":return two;case "no":return "nb";default:return "en";}
+ }
  static object Invoke(object o,string n,object[] a){if(o==null)return null;var m=o.GetType().GetMethods(BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic).FirstOrDefault(x=>x.Name==n&&x.GetParameters().Length==a.Length);return m==null?null:m.Invoke(o,a);}
  public void Dispose(){if(boat!=null){boat.Dispose();boat=null;}boatExists=false;if(harmony!=null)harmony.UnpatchAll("sirael.coastalimmigrationbeacon");if(instance==this)instance=null;}
 }

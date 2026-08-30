@@ -1,6 +1,6 @@
 {
   "id":"CoastalImmigrationBeacon",
-  "version":"0.2.10",
+  "version":"0.2.15",
   "display_name":"Coastal Immigration Beacon",
   "description_short":"Requires the Beacon to stand on the coast and brings immigrants by a small boat.",
   "authors":"Sirael",

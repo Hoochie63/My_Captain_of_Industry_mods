@@ -1,10 +1,10 @@
 {
-    "atdTowerSettingsStateJson": {
-        "default": "Keep me! I am required to persist the mod tower settings within the vanilla save file.",
-        "description": "Не удаляйте — требуется для регистрации параметра «atdTowerSettingsStateJson» игрой, используется для сохранения настроек вышек мода в стандартном файле сохранения. Не редактируйте вручную."
-    },
-    "atdPendingVehicleAllocations": {
-        "default": "{\"schemaVersion\":1,\"queues\":[],\"tickets\":[]}",
-        "description": "Внутреннее сохранённое состояние очередей предварительного назначения техники для «ATD». Не редактируйте вручную."
-    }
+  "atdTowerSettingsStateJson": {
+    "default": "Keep me! I am required to persist the mod tower settings within the vanilla save file.",
+    "description": "Do not delete — required so the game registers the 'atdTowerSettingsStateJson' parameter, used to persist the mod tower settings within the vanilla save file."
+  },
+  "atdPendingVehicleAllocations": {
+    "default": "{\"schemaVersion\":1,\"queues\":[],\"tickets\":[]}",
+    "description": "Internal saved state for pending ATD vehicle pre-allocation queues."
+  }
 }

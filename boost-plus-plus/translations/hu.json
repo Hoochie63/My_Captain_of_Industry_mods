@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Ennek az épületnek az automatikus gyorsítását egyetlen raktárhoz köti. Zárd be ezt az ablakot és kattints egy raktárra — ezután az épület azon dolgozik, hogy az a raktár tele legyen, ahelyett hogy a saját termékét figyelné.",
   "Stops using the linked storage. This building goes back to following its own product.": "Megszünteti az összekapcsolt raktár használatát. Ez az épület újra a saját termékét figyeli.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "A legalacsonyabb és legmagasabb gyorsítás, amelyet az automatikus gyorsítás ennél az épületnél használhat. Soha nem megy a legalacsonyabb alá vagy a legmagasabb fölé, bármennyire tele vagy üres is a raktár. Hagyd üresen a mezőt, ha nem akarsz korlátot.",
+  "Aggression: {0}%": "Agresszivitás: {0}%",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Az automatikus gyorsítás ennyivel üresebbnek tekinti a raktárt, mint amilyen valójában, így az épület magasabb gyorsítást tart akkor is, amikor a raktár telik. 0%-nál pontosan a töltöttséget követi; 50%-nál a 70%-ig tele raktárt 20%-osnak tekinti.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Az automatikus gyorsítás ennyivel üresebbnek tekinti a raktárt, mint amilyen valójában, így a csoport épületei magasabb gyorsítást tartanak akkor is, amikor a raktár telik. 0%-nál pontosan a töltöttséget követi; 50%-nál a 70%-ig tele raktárt 20%-osnak tekinti.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "A(z) „{0}” gyorsítási csoport kezeli ezt az épületet, ezért a csoport raktárkapcsolata és min./max. értéke érvényes.",
   "No storage linked — this building follows its own product.": "Nincs összekapcsolt raktár — ez az épület a saját termékét figyeli.",
   "Linked {0} storage to this building": "A(z) {0} raktár összekapcsolva ezzel az épülettel",
@@ -225,5 +228,7 @@
   "Yes": "Igen",
   "No": "Nem",
   "Saturation — drag left to fade the color toward gray.": "Telítettség — húzd balra, hogy a szín szürkébe halványodjon.",
-  "Transparency — drag left to make the highlight more see-through.": "Átlátszóság — húzd balra, hogy a kiemelés átlátszóbb legyen."
+  "Transparency — drag left to make the highlight more see-through.": "Átlátszóság — húzd balra, hogy a kiemelés átlátszóbb legyen.",
+  "Scan all": "Összes vizsgálata",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Kilistázza az összes gyorsítható épületet, szalagot és csövet. Nagy gyárban ez eltart egy pillanatig."
 }

@@ -37,7 +37,7 @@ Activate Live Rebind from any of these places:
 - The green Live Rebind shortcut in the Keybind Manager title bar.
 - Shift-click or Ctrl-click the floating NEK button.
 - Assign Toggle Live Rebind Mode under:
-  KeyBound -> Misc. Binds -> KeyBound Binds.
+  Settings -> Mod keybinds -> KeyBound -> Live Rebind.
 
 While the mode is active, right-click or Shift/Ctrl-click a supported toolbar
 or calendar button to select it. Choose Bind 1 or Bind 2, press the shortcut,
@@ -52,6 +52,7 @@ KEYBIND DISCOVERY
 
 Generated bindings are organized in Framework under:
 
+- KeyBound
 - Vanilla: Menus & Tools
 - Vanilla: Submenus
 - Mod: Menus & Submenus

@@ -1,3 +1,27 @@
+v1.3.7 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE HEAVY HAULER AND HEAVY TANKER NOW USE THE VANILLA TRUCK MODELS INSTEAD OF THEIR OWN CUSTOM ONES, WHICH RUNS A LOT BETTER ON BIG BASES WITH MANY VEHICLES.
+
+  - The old custom models were far too detailed for the game and cost frame rate every time one of these trucks was on screen.
+
+  - Both trucks keep their larger size and now have a bronze paint job so they still stand out from the normal trucks.
+
+  - Their icons are drawn from the vanilla truck icons in the same bronze color.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.3.6 | 2026-08-25
+────────────────────────────────────────────────────────────────────────
+* THE TEREX AND HUGE EXCAVATOR NOW GO BACK TO THEIR OWN COLORS WHEN COLORED VEHICLES IS TURNED OFF FOR THEIR FUEL TYPE.
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+* MULTIPLE PERFORMANCE IMPROVEMENTS.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.5 | 2026-08-22
 ────────────────────────────────────────────────────────────────────────
 * THE ADAPTIVE MINING TOWER UI MOD IS NO LONGER LISTED AS AN OPTIONAL MOD, AS IT HAS BEEN REMOVED FROM THE HUB.

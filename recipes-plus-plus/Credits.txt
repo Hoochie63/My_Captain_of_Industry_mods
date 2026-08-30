@@ -70,9 +70,15 @@ No changes made.
 
 -------
 
-"18650 Battery" - Rechargeable Li-Ion Cells" (https://skfb.ly/ooSoW) by YouniqueĪdeaStudio 
+"Lithium ion 18650 battery" (https://sketchfab.com/3d-models/lithium-ion-18650-battery-12b3756475d748eaa6f4e472eeff1e39) by Denis Electro
 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-Removed the plate for connecting battries in parallel/series, removed the second battrie laying down 
-and change color from blue to yellow. No other changes were made.
+Joined the separate parts into a single mesh, applied object transforms and recalculated normals,
+replaced the body's image texture with a flat colour and changed the colour to yellow. No other changes were made.
+
+
+-------
+
+"Flying Mouse Farms Maple Syrup" (https://skfb.ly/6UDtF) by MysteriousMose 
+is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 -------

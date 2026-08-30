@@ -4,74 +4,6 @@
     "Blueprint Designer's Toolkit"
   ],
   [
-    "dtk.groundwater.insights_title",
-    "Groundwater Reservoir Insights"
-  ],
-  [
-    "dtk.groundwater.last_year_avg_draw",
-    "Last year's avg monthly draw"
-  ],
-  [
-    "dtk.groundwater.sustainable_draw",
-    "Max sustainable draw"
-  ],
-  [
-    "dtk.groundwater.sustainable_tooltip",
-    "Calculated steady-state monthly replenishment rate post year 10 based on the Weather difficulty setting (Rainwater yield setting affects only Rainwater Harvesters, not groundwater)."
-  ],
-  [
-    "dtk.groundwater.expected_yearly_change",
-    "Expected yearly change"
-  ],
-  [
-    "dtk.groundwater.expected_years_remaining",
-    "Expected years remaining"
-  ],
-  [
-    "dtk.groundwater.years_remaining_stable",
-    "Stable"
-  ],
-  [
-    "dtk.groundwater.years_remaining_over1000",
-    ">1000 years"
-  ],
-  [
-    "dtk.groundwater.monthly_chart_title",
-    "Monthly Reserve Level (1st of Month)"
-  ],
-  [
-    "dtk.groundwater.yearly_chart_title",
-    "10-Year Reserve Level (1st of Jan)"
-  ],
-  [
-    "dtk.groundwater.safe_level",
-    "Safe reserve"
-  ],
-  [
-    "dtk.groundwater.low_level",
-    "Low reserve"
-  ],
-  [
-    "dtk.groundwater.trend_filling",
-    "Filling"
-  ],
-  [
-    "dtk.groundwater.trend_emptying",
-    "Depleting"
-  ],
-  [
-    "dtk.groundwater.trend_balanced",
-    "Balanced"
-  ],
-  [
-    "dtk.groundwater.trend_idle",
-    "Idle / No draw recorded"
-  ],
-  [
-    "dtk.groundwater.tracking_notice",
-    "Tracking in progress ({0}/{1} months recorded)"
-  ],
-  [
     "dtk.legacy_stacker.unsupported",
     "The stacker's legs are not sufficiently supported by terrain."
   ],
@@ -200,6 +132,82 @@
     "Limits the height level of transports, structures, and pillars rendered in the world."
   ],
   [
+    "dtk.settings.height_filter_transport_visibility.label",
+    "Transport visibility"
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.description",
+    "Controls how transport visibility is evaluated when filtering height layers."
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.tooltip",
+    "Controls the threshold requirement for transport inflection points against the visible layer."
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.low",
+    "Low"
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.low.tooltip",
+    "All inflection points of the transport must be at or below the threshold layer."
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.medium",
+    "Medium"
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.medium.tooltip",
+    "A majority of the inflection points of the transport must be at or below the threshold layer."
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.high",
+    "High"
+  ],
+  [
+    "dtk.settings.height_filter_transport_visibility.high.tooltip",
+    "At least one inflection point of the transport must be at or below the threshold layer."
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.label",
+    "Pillar visibility"
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.description",
+    "Controls how pillar visibility is evaluated when filtering height layers."
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.detached",
+    "Detached"
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.detached.tooltip",
+    "Evaluates each pillar's height independently against the active layer."
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.attached",
+    "Attached"
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.attached.tooltip",
+    "Shows pillars whenever at least one visible transport or elevated structure is attached."
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.top",
+    "Top"
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.top.tooltip",
+    "Controls pillar visibility based on whether its top layer is at or below the visible height limit."
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.off",
+    "Off"
+  ],
+  [
+    "dtk.settings.height_filter_pillar_visibility.off.tooltip",
+    "Hides all pillars whenever any height layer is filtered out."
+  ],
+  [
     "dtk.settings.global_hotkey.description",
     "This keybind is registered with the game's controls system and can be configured in the vanilla Settings | Controls menu."
   ],
@@ -226,6 +234,22 @@
   [
     "Kb_Bdt_HeightFilterHideLayer__tooltip",
     "Decreases the maximum visible height filter layer"
+  ],
+  [
+    "Kb_Bdt_HeightFilterTransportVisibilityHigh__label",
+    "Height filter transport visibility (high)"
+  ],
+  [
+    "Kb_Bdt_HeightFilterTransportVisibilityHigh__tooltip",
+    "Steps transport visibility towards High"
+  ],
+  [
+    "Kb_Bdt_HeightFilterTransportVisibilityLow__label",
+    "Height filter transport visibility (low)"
+  ],
+  [
+    "Kb_Bdt_HeightFilterTransportVisibilityLow__tooltip",
+    "Steps transport visibility towards Low"
   ],
   [
     "Kb_Bdt_ThroughputOverlayToggle__label",
@@ -750,5 +774,69 @@
   [
     "dtk.settings.hotkey.or",
     "or"
+  ],
+  [
+    "dtk.groundwater.insights_title",
+    "Reservoir insights: {0}"
+  ],
+  [
+    "dtk.groundwater.last_year_avg_draw",
+    "Last year's avg monthly draw"
+  ],
+  [
+    "dtk.groundwater.sustainable_draw",
+    "Max sustainable draw"
+  ],
+  [
+    "dtk.groundwater.sustainable_tooltip",
+    "Calculated steady-state monthly replenishment rate post year 10 based on the Weather difficulty setting (Rainwater yield setting affects only Rainwater Harvesters, not groundwater)."
+  ],
+  [
+    "dtk.groundwater.expected_yearly_change",
+    "Expected yearly change"
+  ],
+  [
+    "dtk.groundwater.expected_years_remaining",
+    "Expected years remaining"
+  ],
+  [
+    "dtk.groundwater.years_remaining_stable",
+    "Stable"
+  ],
+  [
+    "dtk.groundwater.years_remaining_over1000",
+    ">1000 years"
+  ],
+  [
+    "dtk.groundwater.monthly_chart_title",
+    "Monthly Reserve Level (1st of Month)"
+  ],
+  [
+    "dtk.groundwater.yearly_chart_title",
+    "10-Year Reserve Level (1st of Jan)"
+  ],
+  [
+    "dtk.groundwater.safe_level",
+    "Safe reserve"
+  ],
+  [
+    "dtk.groundwater.low_level",
+    "Low reserve"
+  ],
+  [
+    "dtk.groundwater.trend_filling",
+    "Filling"
+  ],
+  [
+    "dtk.groundwater.trend_emptying",
+    "Depleting"
+  ],
+  [
+    "dtk.groundwater.trend_balanced",
+    "Balanced"
+  ],
+  [
+    "dtk.groundwater.trend_idle",
+    "Idle / No draw recorded"
   ]
 ]

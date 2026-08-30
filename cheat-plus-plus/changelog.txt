@@ -1,3 +1,82 @@
+v1.4.1 | 2026-08-28
+────────────────────────────────────────────────────────────────────────
+* THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.4.0 | 2026-08-26
+────────────────────────────────────────────────────────────────────────
+* THE DEPTH LABELS ARE NOW A FULL UNDERGROUND NETWORK VIEW — BURIED PIPES ARE DRAWN THROUGH THE GROUND IN THE COLOUR OF THE FLUID OR GAS THEY CARRY, WITH ARROWS SHOWING WHICH WAY IT FLOWS.
+
+  - Pipe connectors are drawn too, in a darker shade of the same colour, so junctions are easy to pick out.
+
+  - A movable window lets you show one depth at a time, or search by fluid name to light up only those pipes.
+
+  - The toolbar button and its shortcut open and close the window, and Esc or the X closes it.
+
+  - While a depth or search filter is active you cannot connect a new pipe to a hidden one, so you never join the wrong line by mistake.
+
+  - If you have Tweaks++ installed it handles the window, so its position and scale are remembered between sessions.
+
+  - Buttons for sloped pipes and underground bulldozing sit next to the depth box, so you can switch them without opening the pipe building menu.
+
+  - While a depth or search filter is active the deconstruct tool skips the pipes the filter is hiding, so a drag over a busy area only takes out the line you are looking at.
+
+────────────────────────────────────────────────────────────────────────
+* THE PALETTE BUTTON IN THE UNDERGROUND NETWORK WINDOW LETS YOU SET YOUR OWN COLOUR FOR EVERY FLUID AND GAS.
+
+  - Pick the product the same way you do on a fluid storage, then set red, green, blue and saturation and watch a 3D pipe preview update as you drag.
+
+  - Drag the preview to turn it and scroll to zoom, so you can check the colour from any angle before you commit.
+
+  - Reset to default puts a single product back without touching the rest.
+
+  - Your colours are saved per save game and the buried pipes recolour straight away.
+
+────────────────────────────────────────────────────────────────────────
+* A BUTTON NEXT TO THE SEARCH BOX MAKES THE DECONSTRUCT TOOL WORK ON UNDERGROUND PIPES ONLY.
+
+  - With it on, a deconstruct drag removes just the pipes shown in the network view and leaves buildings, belts, surface pipes and so on untouched.
+
+  - A pipe that runs partly above ground only loses its buried stretch.
+
+  - Combine it with the search box to clear out every pipe carrying one fluid or gas and nothing else.
+
+────────────────────────────────────────────────────────────────────────
+* A FAKE FOCUS POINTS FIELD IN THE CHEATS TAB TOPS UP THE OFFICE POOL EVERY TICK, SO YOU CAN RAISE FOCUSES PAST WHAT YOUR OFFICES PRODUCE (THANKS MCDANE FOR THE SUGGESTION).
+
+  - Set it to 0 to turn it off, and the value is remembered between sessions.
+
+────────────────────────────────────────────────────────────────────────
+* BURIED PIPE CONNECTORS CAN NOW BE CLICKED AND SELECTED THROUGH THE GROUND, LIKE BURIED PIPES ALREADY COULD.
+
+  - Bulldozing over them leaves them alone unless "Bulldoze includes underground pipes" is on, so they no longer get caught in a demolition drag.
+
+────────────────────────────────────────────────────────────────────────
+* A PIPE BUTTON IN THE TOOL ICONS AT THE BOTTOM LEFT OPENS AND CLOSES THE UNDERGROUND NETWORK VIEW.
+
+  - It shows up while Allow pipes underground is on, and lights up while the network view is open.
+
+────────────────────────────────────────────────────────────────────────
+* THE GREEN PLACEMENT PREVIEW FOR BURIED PIPES NOW USES THE REAL PIPE SHAPE AND REACHES ALL THE WAY TO WHAT IT CONNECTS TO.
+
+────────────────────────────────────────────────────────────────────────
+* THE DEPTH READOUT NOW STAYS ON SCREEN WHILE BUILDING DOWNWARDS, SO YOU CAN SEE WHETHER YOU ARE AT -1, -2 AND SO ON.
+
+────────────────────────────────────────────────────────────────────────
+* VERIFIED TO WORK ON THE LATEST EXPERIMENTAL GAME VERSION 0.8.7B.
+
+────────────────────────────────────────────────────────────────────────
+* THE PIPE TOOLBAR ICONS ARE SLIGHTLY SMALLER AND BETTER CENTRED.
+
+────────────────────────────────────────────────────────────────────────
+* PIPES NOW GO DOWN TO 8 TILES BELOW THE SURFACE INSTEAD OF 32.
+
+────────────────────────────────────────────────────────────────────────
+* A PIPE CAN NOW LOOP BACK AND JOIN THE PIPE IT STARTED FROM.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.9 | 2026-08-25
 ────────────────────────────────────────────────────────────────────────
 * REFUEL SHIP BUTTON ON THE WORLD MAP — INSTANTLY REFILLS THE SHIP'S FUEL TANK FOR FREE, WORKS DOCKED OR OUT AT SEA (THANKS STAYDAD77 FOR THE SUGGESTION).

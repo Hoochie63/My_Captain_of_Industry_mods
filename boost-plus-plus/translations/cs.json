@@ -23,6 +23,9 @@
   "Ties this building's Auto Boost to one storage. Close this window, click a storage, and the building then works to keep that storage full instead of following its own product.": "Naváže automatické zrychlení této budovy na jeden sklad. Zavři toto okno a klikni na sklad — od té chvíle budova pracuje na tom, aby ten sklad zůstal plný, místo aby sledovala vlastní produkt.",
   "Stops using the linked storage. This building goes back to following its own product.": "Přestane používat propojený sklad. Tato budova se vrátí ke sledování vlastního produktu.",
   "The lowest and highest boost Auto Boost may use on this building. It never goes below the lowest or above the highest, no matter how full or empty the storage gets. Leave a box empty for no limit.": "Nejnižší a nejvyšší zrychlení, které může automatické zrychlení u této budovy použít. Nikdy neklesne pod minimum ani nepřekročí maximum, ať je sklad jakkoli plný nebo prázdný. Ponech pole prázdné, pokud nechceš žádný limit.",
+  "Aggression: {0}%": "Agresivita: {0} %",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the building keeps pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Auto Boost bude se skladem počítat, jako by byl o tolik prázdnější, než ve skutečnosti je, takže budova drží vyšší zrychlení, i když se sklad plní. Při 0 % se řídí naplněním přesně; při 50 % se sklad naplněný na 70 % považuje za naplněný na 20 %.",
+  "Makes Auto Boost treat the storage as this much emptier than it really is, so the buildings in this group keep pushing a higher boost even while the storage fills up. At 0% it follows the fill exactly; at 50% a storage sitting at 70% full is treated as 20% full.": "Auto Boost bude se skladem počítat, jako by byl o tolik prázdnější, než ve skutečnosti je, takže budovy v této skupině drží vyšší zrychlení, i když se sklad plní. Při 0 % se řídí naplněním přesně; při 50 % se sklad naplněný na 70 % považuje za naplněný na 20 %.",
   "The boost group '{0}' is handling this building, so its storage link and min/max are used instead.": "Tuto budovu řídí skupina zrychlení „{0}“, proto se používá její propojený sklad a min./max.",
   "No storage linked — this building follows its own product.": "Žádný sklad není propojen — tato budova sleduje vlastní produkt.",
   "Linked {0} storage to this building": "Sklad {0} propojen s touto budovou",
@@ -225,5 +228,7 @@
   "Yes": "Ano",
   "No": "Ne",
   "Saturation — drag left to fade the color toward gray.": "Sytost — tažením doleva barva vybledne do šeda.",
-  "Transparency — drag left to make the highlight more see-through.": "Průhlednost — tažením doleva bude zvýraznění průhlednější."
+  "Transparency — drag left to make the highlight more see-through.": "Průhlednost — tažením doleva bude zvýraznění průhlednější.",
+  "Scan all": "Prohledat vše",
+  "List every boostable building, belt and pipe. On a big factory this takes a moment.": "Vypíše všechny budovy, pásy a potrubí, které lze zrychlit. Ve velké továrně to chvíli trvá."
 }

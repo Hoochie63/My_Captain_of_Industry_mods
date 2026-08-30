@@ -1,5 +1,53 @@
-v1.0.0 | 2026-07-27 - 2026-08-26
+v1.0.3 | 2026-08-30
+===========================================
+REAL CARGO SHIPS & GOVERNMENT PANEL POLISH
+===========================================
+* Replaced the temporary straight-line Exchange courier with a real vanilla cargo ship that follows water routes, steers around terrain, respects pause and game speed, uses the Captain's Exchange's rotated ocean berth, and returns through open water.
+* Delivery ships are now a permanent part of Quick Trades, so the temporary Show delivery ships checkbox has been retired.
+* Saving during a delivery safely despawns any incoming delivery ships. If a ship is interrupted this way, the order tries again.
+* If a Captain's Exchange is deconstructed, its orders move to another one. If no safe delivery is possible yet, the orders simply wait.
+* Rebuilt the Government Office inspector and Ctrl+F5 window around one synchronized native-style Regional Policies panel, with 0/I policy controls and I-V selectors for one-to-five subsidy terms.
+* Gave Relay Beacons, Captain's Exchanges, and both Government Offices new custom colors to tell them apart from the originals. You can recolor them further with the recolor mod.
+* Reduced Construction Parts I-IV Quick Trade quantities by another 15% and raised their prices so Exchange offers no longer bypass the intended early progression bottleneck.
+=============
+COMPATIBILITY
+=============
+* Restored Coastal Immigration Beacon's authority over the main Beacon while keeping Relay Beacons on an independent unrestricted 5x5 layout in either mod load order.
+* Now all intended features and placement restrictions work when Coastal Immigration Beacon Mod is installed with Beacon & Government+.
 
+v1.0.2 | 2026-08-28
+==========================
+BALANCE & CONTRACT FIXES
+==========================
+* Added dedicated per-product Quick Trade quantity ranges so Exchange balance is now independent from Beacon-cycle supply-drop quantities.
+* Reduced the product quantities of newly generated Captain's Exchange offers by roughly 20% while keeping their existing Captain's Currency prices.
+* Existing pending deliveries are unaffected by this nerf.
+* Purchased Power and Computing Subsidies now begin at the next calendar month instead of at the beginning of beacon cycles, in case the beacon were to be paused before subsidy kicked in.
+
+v1.0.1 | 2026-08-26 - 2026-08-28
+==========================================
+GOVERNMENT POLICIES & REGIONAL SUBSIDIES
+==========================================
+* Government Offices now offer three Beacon reward policies: Outbound Resettlement, Immigration Incentives, and Humanitarian Priority.
+* Outbound Resettlement trades refugee arrivals for a chance at an additional Captain's Currency.
+* Immigration Incentives exchanges the cycle's Currency reward for additional refugees, while Humanitarian Priority redirects supply drops into refugee support.
+* Spend Captain's Currency on regional Power Generation and Computing Capacity Subsidies lasting one to five fixed 24-month terms.
+* Purchased subsidies begin at the start of the next beacon cycle
+* Regional subsidies prices and available capacity change after each Beacon cycle.
+* Inspect any Government Office to view Beacon & Government Policies
+* Added a Global Policies panel, opened with Ctrl+F5 by default, or rebind it under Beacon & Government in the native Controls menu.
+
+============================
+CAPTAIN'S EXCHANGE DELIVERIES
+============================
+* Quick trades now have a delayed delivery order instead of instantly teleporting products to the Shipyard.
+* Currency is charged immediately; after roughly three months, a vanilla-style cargo ship sails to the selected Captain's Exchange, berths, delivers the order to the Shipyard, turns around, and leaves the map.
+* Visible deliveries fall back to another Exchange when their target is missing, and a missing Shipyard holds the order until delivery becomes possible.
+* Added option to toggle off the ship animation — It's not yet using real sea path-finding. This will come in future updates.
+* I'm not responsible if a ship "drives" down your streets ^_^
+* Policy and subsidy controls remain unavailable until Government Office I or II is constructed.
+
+v1.0.0 | 2026-07-27 - 2026-08-26
 ====================================================================
 BEACON & GOVERNMENT DLC - USE MORE UNITY TO GUIDE SHIPS BACK HOME
 ====================================================================
@@ -41,4 +89,4 @@ BEACON NETWORK & BUILDINGS
 COMPATIBILITY WITH COASTAL IMMIGRATION BEACON
 ==============================================
 
-* Fixed Coastal Immigration Beacon v0.2.10's oversized 60+ tile placement restriction conflict, restoring the normal 5x5 Beacon placement rules so Beacon-derived content no longer inherits it's bug.
+* Fixed Coastal Immigration Beacon v0.2.10's oversized 60+ tile placement restriction conflict, restoring the normal 5x5 Beacon placement rules so Beacon-derived content no longer inherits its bug.

@@ -162,7 +162,7 @@
   "Drag with the left mouse button to turn the vehicle. Scroll to zoom in and out.": "Trascina con il tasto sinistro del mouse per girare il veicolo. Usa la rotellina per ingrandire e rimpicciolire.",
   "Save color": "Salva colore",
   "Reset to default color": "Ripristina il colore predefinito",
-  "Colors saved for this game.": "Colori salvati per questa partita.",
+  "Colors saved. Vehicles change right away. Icons only update after reloading the save from the main menu, and if a vehicle keeps its old color, reload from there too.": "Colori salvati. I veicoli cambiano subito. Le icone si aggiornano solo dopo aver ricaricato la partita dal menu principale; se un veicolo mantiene il colore vecchio, ricaricala anche da lì.",
   "Your colors are used for this fuel type.": "Per questo tipo di carburante vengono usati i tuoi colori.",
   "The default Recipes++ color is used for this fuel type.": "Per questo tipo di carburante viene usato il colore predefinito di Recipes++.",
   "This fuel type is back to the default Recipes++ color.": "Questo tipo di carburante torna al colore predefinito di Recipes++.",

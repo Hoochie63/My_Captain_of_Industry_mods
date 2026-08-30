@@ -1,0 +1,5 @@
+{
+    "display_name": "Truck Parking",
+    "description_short": "Parking for idle vehicles, with building links, two-way alignment, safe filters, custom icons, and maintenance bonuses.",
+    "description_long": "Adds a dedicated Parking toolbar next to Vehicles with 48 transparent and paved parking areas: 1, 2, 3, 4, 6, or 12 slots in Small, Medium, Large, and Super sizes. Each area offers separate arrow-direction and 180-degree reverse alignment controls, while leaving both off keeps direction unrestricted. A parking area can optionally be linked to a truck-owning building so its idle assigned vehicles use matching slots while real work always has priority; multiple areas may serve the same building. Unlinked areas retain general idle-vehicle and fuel-station support. Empty filters allow ground vehicles and exclude detected aircraft by default; explicit filters can opt them in. MultiLangLib supplies all supported game languages. Custom toolbar icons, marker-free planning selection, maintenance bonuses, and discounted paved variants are included."
+}

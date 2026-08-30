@@ -1,3 +1,9 @@
+v1.0.2 | 2026-08-29
+* Restored the complete 21-language translation files accidentally removed from Buttons v1.0.1's directory during release prep.
+
+v1.0.1 | 2026-08-27
+- Restored discovery and control of Speed++ 1.1.1's current-speed display.
+
 v1.0.0 | 2026-08-23
 
 =================

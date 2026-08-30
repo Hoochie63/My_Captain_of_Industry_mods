@@ -1,5 +1,108 @@
 # Cargo Helicopter changelog
 
+## 0.20.0 (HYDROGEN / LOCALIZATION / STABILITY)
+
+- Returning attachments now preserve their current cable payout through the T2 holding and final-approach legs.
+  The generic idle winch can no longer pull a container fully into the helicopter and immediately lower it again
+  when the 14 m cargo corridor arms.
+- T2 cargo placement no longer advances attachment yaw by several degrees in a single rendered frame at high game
+  speed. Cargo heading now uses a capped wall-frame step, and inactive yard visuals are pre-staged and built one per
+  frame so a ten-column return wave cannot cause a main-thread hitch immediately before placement.
+- Cargo attachments now preserve their visible flight heading and turn smoothly toward the authored C-column
+  orientation at a bounded rate. Final lowering and the static-yard handoff wait for exact heading alignment, removing
+  the one-frame 90/180-degree container snap before placement.
+- Normal shutdown detection now also binds Captain of Industry's `Main.ProgramTerminationRequested`, which fires
+  before its custom scene teardown and prevents every active yard move being falsely reported as a destroyed view.
+- Normal application shutdown is latched before Unity destroys vehicle views, so exiting the game no longer marks
+  healthy yard moves as failed or emits a warning for every aircraft still moving.
+- Cargo pickup and delivery gates now fail closed if their runtime safety check throws: the material step remains
+  frozen and one actionable warning is emitted instead of allowing an airborne transfer.
+- Per-aircraft flight, production and cargo-yard phase logs are opt-in through `verboseFlightLogs` (off by default).
+  Heartbeats, lifecycle summaries, recoveries and warnings remain visible during normal play.
+- Added save-safe `Cargo Helicopter II H` and `Cargo Helicopter III H` prototypes. They use Captain of Industry's
+  native Hydrogen product, fuel stations, hydrogen vehicle costs and research unlocks, with 63/125-unit tanks and no
+  Polluted Air exhaust. Existing diesel prototype IDs and saved vehicles are unchanged.
+- Added built-in English and Russian translations for all helicopter and heliport names/descriptions plus fleet
+  capacity and production-hold messages. Translation JSON is packaged and installed with the mod and falls back to
+  English without replacing the game's global localization table.
+- Added a full-height `Helicopters: 19/20 • Incoming: 3` cell to the Open Heliport inspector and exact hold reasons
+  for unresolved markers, global or local capacity and occupied assembly pads.
+- Added one unambiguous parking indicator: an amber inward arrow appears only on a stand already reserved by an
+  incoming helicopter. Empty and parked stands need no redundant colour. The arrows are lightweight runtime meshes
+  and do not require a new Unity AssetBundle.
+- Returning fleets now reserve logical upper cargo layers in advance and immediately fly to separated holding points
+  near their home heliport. Physical C-column admission still waits for the lower attachment to become stable, so a
+  20-aircraft T1 wave no longer hovers over its last customer and cargo can never be stacked in mid-air. Temporary
+  cargo-yard pressure also no longer migrates aircraft into another heliport and triggers replacement production.
+- Post-load parking adoption now waits for saved-home reconciliation and the helicopter's exact live flight identity.
+  A stand and `Descending` state are committed only after that identity atomically accepts its landing clearance;
+  an early rejected command keeps the stand free and retries on the next synchronized update instead of hanging until
+  the 1200-tick timeout. Heartbeats report binding/identity readiness and pending/active/failed yard drivers.
+- Long heliport return legs now use bounded acceleration, constant cruise and braking phases. The zero-endpoint
+  quintic remains limited to short authored pad manoeuvres, eliminating the near-stationary start and late speed
+  surge on cross-map returns. Phase, speed, distance and endpoints are recorded in the runtime log for diagnosis.
+- Post-load stand recovery now prefers a closer assembly-lane marker over an adjacent parking marker, preventing a
+  newly produced aircraft from being adopted into an unrelated `Descending` state until its timeout expires.
+- Split map-wide direct routes into collinear 16-tile SIM legs. The visible route remains straight, while the stock
+  steering solver no longer receives precision-breaking map-scale targets. Each next leg is now supplied at the
+  stock braking-distance look-ahead, preventing periodic stop/go flight at leg boundaries.
+- Guarded the heliport inspector patch against Mono generic code sharing so it cannot run against truck or storage
+  inspectors and flood the game log with invalid reflected-field exceptions.
+- Captured newly assigned parked-helicopter jobs before their first `ChainedNavigationJob` step so the storage
+  choreography owns the aircraft before its real route begins.
+- Smoothed the complete visual yaw handoff from cargo-column pickup into the delivery route. Both the fuselage and
+  sling now retain their previous world heading and turn at a bounded rate instead of inheriting a one-frame Truck
+  root or authored-to-free attachment rotation change.
+- Replaced the cargo-column departure's proportional route chase with a braking-aware moving-target interceptor.
+  It predicts between synchronized route samples, matches route velocity before handoff and clamps any target
+  crossing, preventing the visible overshoot, reverse turn and second corrective turn after collecting a container.
+  Merge acquisition, progress and final position/velocity error are now recorded in the runtime log.
+- Cargo-column approaches now brake more decisively and pre-deploy the winch inside a short final corridor. The
+  hook or attachment remains safely above the deck until the aircraft is centred, and the actual handoff is still
+  blocked until the helicopter has stopped exactly over the slot. Corridor acquisition, exact settle and grounded
+  handoff timings are logged separately, removing the visible stop-and-wait before the cable starts moving.
+- Cargo and fuel can no longer transfer while airborne when a landing watchdog expires. Cargo first requests a safe
+  descent into winch range; persistent failures cancel only the exact stalled job in a synchronized update so it can
+  be reassigned without changing product quantities.
+- Cargo is now gated before the first pickup/delivery material tick, and pathfinding is frozen together with a held
+  job. This removes the one-tick airborne transfer and the `ChainedNavigationJob` state corruption that produced
+  `We should not arrive there!` after a cargo-column departure.
+- Refuelling landing commands now have atomic, token-owned acquisition and removal. A completed, cancelled or stale
+  refuel job cannot leave a permanent landing command or erase a newer heliport/third-party command.
+- Helicopter-to-home-heliport bindings are stored inside each game save. Runtime and serialization share one atomic
+  map, stale bindings are reconciled against the fully loaded vehicle roster, and an in-flight aircraft returns to
+  the same home after saving and loading without ghost entries consuming fleet capacity.
+- Destruction and liveness cleanup now uses synchronized, revalidated candidates and active-play time that freezes
+  during pause, focus loss and computer sleep. A render stall or repeated depot callback cannot release a healthy
+  aircraft or heliport in the same synchronization cycle.
+- Added fail-closed capability checks for the complete flight, dispatch, production, cargo and refuelling patch
+  contract. Partial Harmony removal disables custom control safely and retries with bounded backoff instead of
+  leaving a half-active dispatcher or requiring a restart.
+- Runtime patch repair now releases held jobs, landing commands, parking/yard leases, refuelling grants and
+  production tickets inside one synchronized tick before any Harmony method is removed. A separate vehicle-sync
+  fallback completes recovery even if the dispatcher callback itself was stripped, while Unity views and hidden
+  sling/payload meshes are restored only on the main thread. Heliport finalization and new direct spawns remain
+  closed during that window, so an aircraft cannot escape as a stock ground vehicle.
+- Production tickets are bound to the exact vehicle object and helicopter prototype, not only a recyclable entity
+  id. An exact one-call spawn admission closes the readiness race between the depot and nested vehicle spawn hooks.
+  Deferred destruction notices also retain that object identity, so an old queued teardown cannot erase a new
+  aircraft after the game recycles its numeric id. The public landing API tracks exact live identity, rejects
+  recycled/unknown ids and all non-finite explicit pad coordinates; its all-NaN sentinel is available only through
+  `RequestLandingHere`.
+- The global fleet epoch is strictly monotonic across stale pause callbacks, reads the authoritative pause state and
+  performs orphan adoption at most once per epoch with reusable scratch storage.
+- Reduced large-fleet overhead with spatial traffic buckets, cached payload render data, bounded startup discovery,
+  reusable heliport-yard buffers and cached route preparation/terrain look-ahead.
+- Disabled the stock vehicle-light emission lookup only for helicopter prefabs, eliminating the misleading
+  `No mesh renderers found on game object 'heli(Clone)'` error without rebuilding the model.
+- Unified production capacity and assembly-lane gating so the UI and the build decision publish one deterministic
+  reason. Transfer and stale-save watchdogs now use independent, non-conflicting timeouts.
+- Runtime logs now include the build channel and deterministic assembly MVID, uniquely identifying the loaded DLL.
+  Release archives are explicitly compiled with `channel=release`; ordinary local builds use `channel=dev`.
+- Configuration parsing now rejects non-finite values, preserves exact minute-based fuel durations and applies one
+  consistent capacity/consumption policy to diesel and hydrogen variants. Release automation verifies pinned bundle
+  hashes, generated archive contents and repository safety guards in CI.
+
 ## 0.19.10 (GAME-0.8.7-COMPATIBILITY)
 
 - Added verified support for Captain of Industry **0.8.7** and raised the CoI Hub compatibility ceiling to `0.8.7`.

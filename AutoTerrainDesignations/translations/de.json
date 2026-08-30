@@ -744,6 +744,10 @@
     "[ATD] {entity} konnte keinen Weg zur Rampe finden"
   ],
   [
+    "notification.ramp_access_snapshot_too_large",
+    "[ATD] Der Zugangsbereich von {entity} ist für die Suche nach Wenderampen zu groß"
+  ],
+  [
     "notification.farming_complete",
     "[ATD] {entity} hat Feldvorbereitung und Auffüllung abgeschlossen"
   ],
@@ -782,5 +786,9 @@
   [
     "vehicle_order.shortcut.tooltip",
     "Umschalt-Alt-Klick, um ein neues {0} für {2} bei {1} zu bestellen"
+  ],
+  [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "Nur die zugewiesenen Lkw (und Lkw, die teilnehmenden Minentürmen zugewiesen sind) dürfen hier Fracht aufnehmen oder abliefern."
   ]
 ]
