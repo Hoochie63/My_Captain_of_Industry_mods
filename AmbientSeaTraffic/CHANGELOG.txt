@@ -1,0 +1,23 @@
+Ambient Sea Traffic - Changelog
+
+Version 1.0.6
+
+Saving a game while an ambient ship was travelling could fail with the message
+"Failed to create generic serializer for 'AmbientShip'."
+
+The ships themselves were meant to be temporary and were already removed before
+saving, but Captain of Industry keeps ship path-finding requests in a separate
+deferred queue. That queue could still contain a reference to an AmbientShip when
+the save was serialized.
+
+The mod now finishes the pending vanilla ship path-finding cleanup before the save
+is written. This removes the remaining references without making ambient traffic
+part of the save game.
+
+Version 1.0.5
+
+Added the first pre-save cleanup for ambient ships and also removed any orphaned
+AmbientShip entities that were no longer present in the mod's own traffic list.
+This fixed the entity cleanup itself, but did not yet clear Captain of Industry's
+deferred ship path-finding queue. Version 1.0.6 completes that fix.
+

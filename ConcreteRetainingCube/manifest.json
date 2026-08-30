@@ -1,0 +1,7 @@
+{
+  "id":"ConcreteRetainingCube","version":"0.4.17","display_name":"Concrete Retaining Cube",
+  "description_short":"Stackable one-tile concrete blocks with retaining-wall terrain physics.",
+  "authors":"Sirael","primary_dlls":["ConcreteRetainingCube.dll"],"non_locking_dll_load":true,
+  "can_add_to_saved_game":true,"can_remove_from_saved_game":false,"min_game_version":"0.8.6","max_verified_game_version":"0.8.6",
+  "primary_mod_class_name":"ConcreteRetainingCube.ConcreteRetainingCubeMod"
+}

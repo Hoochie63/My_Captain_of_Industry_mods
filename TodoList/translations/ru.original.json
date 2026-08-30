@@ -1,0 +1,82 @@
+[
+    [
+        "TodoList_WindowTitle",
+        "Список задач"
+    ],
+    [
+        "TodoList_SectionTodo",
+        "Запланировано ({0})"
+    ],
+    [
+        "TodoList_SectionDone",
+        "Выполнено ({0})"
+    ],
+    [
+        "TodoList_EmptyList",
+        "Ничего не запланировано."
+    ],
+    [
+        "TodoList_InputPlaceholder",
+        "<i>Напишите здесь, чтобы добавить задачу или напоминание</i>"
+    ],
+    [
+        "TodoList_AddTooltip",
+        "Добавить эту задачу в список"
+    ],
+    [
+        "TodoList_DeleteTooltip",
+        "Удалить эту задачу"
+    ],
+    [
+        "TodoList_PinTooltip",
+        "Закрепить окно"
+    ],
+    [
+        "TodoList_CloseTooltip",
+        "Закрыть"
+    ],
+    [
+        "TodoList_ResizeTooltip",
+        "Потяните, чтобы изменить ширину"
+    ],
+    [
+        "TodoList_CollapseTooltip",
+        "Нажмите, чтобы свернуть или развернуть раздел"
+    ],
+    [
+        "TodoList_MoveUpTooltip",
+        "Переместить вверх («ПКМ»: в самый верх)"
+    ],
+    [
+        "TodoList_MoveDownTooltip",
+        "Переместить вниз («ПКМ»: в самый низ)"
+    ],
+    [
+        "TodoList_ClearDoneTooltip",
+        "Удалить все выполненные задачи"
+    ],
+    [
+        "TodoList_EditTooltip",
+        "Изменить эту задачу"
+    ],
+    [
+        "TodoList_EditSaveTooltip",
+        "Сохранить новый текст (Enter)"
+    ],
+    [
+        "TodoList_EditCancelTooltip",
+        "Отмена, оставить старый текст (Esc)"
+    ],
+    [
+        "TodoList_LinkTooltip",
+        "Выберите строение, затем нажмите здесь, чтобы связать его с этой задачей."
+    ],
+    [
+        "TodoList_UnlinkTooltip",
+        "Убрать связь с этим строением"
+    ],
+    [
+        "TodoList_GoToTooltip",
+        "Перейти к связанному строению"
+    ]
+]

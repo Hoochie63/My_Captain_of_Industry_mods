@@ -1,0 +1,138 @@
+[
+    [
+        "ProductionCalculator__WindowTitle",
+        "Калькулятор производства"
+    ],
+    [
+        "ProductionCalculator__TargetsTitle",
+        "Продукты"
+    ],
+    [
+        "ProductionCalculator__BuildingsTitle",
+        "Требуемые строения"
+    ],
+    [
+        "ProductionCalculator__InputsTitle",
+        "Потребление / мин."
+    ],
+    [
+        "ProductionCalculator__OutputsTitle",
+        "Произведено / мин."
+    ],
+    [
+        "ProductionCalculator__AddTarget",
+        "Добавить продукт"
+    ],
+    [
+        "ProductionCalculator__SyncChainRates",
+        "Выровнять производительность цепочки"
+    ],
+    [
+        "ProductionCalculator__SaveCalculation",
+        "Сохранить"
+    ],
+    [
+        "ProductionCalculator__LoadCalculations",
+        "Загрузить"
+    ],
+    [
+        "ProductionCalculator__SaveCalculationTitle",
+        "Сохранить расчёт"
+    ],
+    [
+        "ProductionCalculator__LoadCalculationsTitle",
+        "Сохранённые расчёты"
+    ],
+    [
+        "ProductionCalculator__SaveCalculationName",
+        "Название"
+    ],
+    [
+        "ProductionCalculator__SaveCalculationIcon",
+        "Иконка"
+    ],
+    [
+        "ProductionCalculator__SaveCalculationConfirm",
+        "Сохранить"
+    ],
+    [
+        "ProductionCalculator__Cancel",
+        "Отмена"
+    ],
+    [
+        "ProductionCalculator__Close",
+        "Закрыть"
+    ],
+    [
+        "ProductionCalculator__LoadCalculation",
+        "Загрузить"
+    ],
+    [
+        "ProductionCalculator__DeleteCalculation",
+        "Удалить"
+    ],
+    [
+        "ProductionCalculator__DefaultCalculationName",
+        "Новый расчёт"
+    ],
+    [
+        "ProductionCalculator__SaveCalculationNameRequired",
+        "Введите название для этого расчёта."
+    ],
+    [
+        "ProductionCalculator__SaveCalculationIconRequired",
+        "Выберите иконку для расчёта."
+    ],
+    [
+        "ProductionCalculator__SaveCalculationEmptyChain",
+        "Добавьте хотя бы один продукт перед сохранением."
+    ],
+    [
+        "ProductionCalculator__SaveCalculationFailed",
+        "Не удалось сохранить расчёт."
+    ],
+    [
+        "ProductionCalculator__LoadCalculationsEmpty",
+        "Нет сохранённых расчётов."
+    ],
+    [
+        "ProductionCalculator__ProductRowsCount",
+        "продуктов"
+    ],
+    [
+        "ProductionCalculator__FixRate",
+        "Зафиксировать"
+    ],
+    [
+        "ProductionCalculator__FixRateTooltip",
+        "Сохранять производительность и кол-во фабрик при выравнивании"
+    ],
+    [
+        "ProductionCalculator__FlowOutput",
+        "Выход"
+    ],
+    [
+        "ProductionCalculator__FlowInput",
+        "Вход"
+    ],
+    [
+        "ProductionCalculator__RatePerMinute",
+        "/мин."
+    ],
+    [
+        "ProductionCalculator__NoTargets",
+        "Добавьте хотя бы один продукт с указанной производительностью."
+    ],
+    [
+        "ProductionCalculator__NoResults",
+        "Не удалось рассчитать цепочку для выбранных продуктов."
+    ],
+    [
+        "ProductionCalculator__SelectRecipe",
+        "Выбрать рецепт"
+    ],
+    [
+        "ProductionCalculator__MachineCount",
+        "фабрик(и)"
+    ]
+]

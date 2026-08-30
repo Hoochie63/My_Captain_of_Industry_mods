@@ -1,0 +1,16 @@
+Coastal Immigration Beacon
+
+Changelog v0.2.15
+- The vanilla Immigration Beacon now requires a valid coastal ocean berth.
+
+Changelog v0.2.14
+- Added a visible pier and docking-area placement preview.
+- Added an animated immigrant boat with arrival, docking, and departure sequences.
+- Added ship engine sounds, horns, smoke, and water effects.
+- Added a status panel showing whether the coastal berth is valid.
+- Added localization for 21 languages.
+- Existing inland Beacons remain in saved games, but immigration pauses until they are rebuilt on the coast.
+- The boat is purely visual and does not affect fleet limits, immigration rewards, or save files.
+- Compatible with existing saved games.
+- Requires Captain of Industry v0.8.6.
+

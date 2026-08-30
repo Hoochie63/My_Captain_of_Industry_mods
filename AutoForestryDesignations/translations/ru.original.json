@@ -1,0 +1,366 @@
+[
+    [
+        "AFD_ForestryDesignationsTitle",
+        "Разметка лесопосадок"
+    ],
+    [
+        "AFD_ForestryInformationTitle",
+        "Информация о лесном хозяйстве"
+    ],
+    [
+        "AFD_ForestryDesignationsTitleTipFmt",
+        "<align=\"center\">Создание автоматической разметки лесопосадок.<br>[Kayser's Automatic Forestry Designations v{0}]</align>"
+    ],
+    [
+        "AFD_ForestryInformationTitleTipFmt",
+        "<align=\"center\">Текущие деревья и прогнозируемое производство древесины в управляющей области этой вышки.<br>[Kayser's Automatic Forestry Designations v{0}]</align>"
+    ],
+    [
+        "AFD_CreateDesignationsBtn",
+        "Создать разметку"
+    ],
+    [
+        "AFD_CreateDesignationsBtnTip",
+        "<align=\"center\">Сканирует область вышки, и размечает область лесопосадок.</align>"
+    ],
+    [
+        "AFD_ClearDesignationsBtnTip",
+        "<align=\"center\">Очистить всю разметку лесопосадок в области этой вышки.</align>"
+    ],
+    [
+        "AFD_RefreshCompositionTip",
+        "Обновить состав леса"
+    ],
+    [
+        "AFD_BoolYes",
+        "Да"
+    ],
+    [
+        "AFD_BoolNo",
+        "Нет"
+    ],
+    [
+        "AFD_OnlyFertileTilesLabel",
+        "Только плодородные плитки"
+    ],
+    [
+        "AFD_OnlyFertileTilesTip",
+        "<align=\"center\">Размещать разметку только там, где земля подходит для посадки деревьев: плодородный рельеф (отсутствуют скалы, песок или океан) и не занято строением или другим объектом.</align>"
+    ],
+    [
+        "AFD_OnlyReachableTilesLabel",
+        "Только достижимые плитки"
+    ],
+    [
+        "AFD_OnlyReachableTilesTip",
+        "<align=\"center\">При включении этой функции, пропускать плитки разметки, которые недостижимы для техники в области вышки.</align>"
+    ],
+    [
+        "AFD_OverrideTerrainDesignationsLabel",
+        "Переопределять разметку рельефа"
+    ],
+    [
+        "AFD_OverrideTerrainDesignationsTip",
+        "<align=\"center\">Разрешить лесной разметке заменять существующую разметку рельефа местности, включая карьерные работы, отвалы и выравнивание.<br>По умолчанию выключено.</align>"
+    ],
+    [
+        "AFD_AvoidFlatTilesLabel",
+        "Избегать ровных клеток"
+    ],
+    [
+        "AFD_AvoidFlatTilesTip",
+        "<align=\"center\">Использовать для лесного хозяйства только неровные, пересечённые плитки.<br>(Ровные плитки сохраняются для строений.)</align>"
+    ],
+    [
+        "AFD_TargetYieldLabel",
+        "Целевая выработка"
+    ],
+    [
+        "AFD_TargetYieldTip",
+        "<align=\"center\">Целевая устойчивая добыча древесины за игровой месяц.<br>0 = без цели (∞).</align>"
+    ],
+    [
+        "AFD_TargetYieldLegacyTipFmt",
+        "Сохранённое устаревшее максимальное число назначений: {0}."
+    ],
+    [
+        "AFD_MaxTilesLabel",
+        "Максимальное число разметок"
+    ],
+    [
+        "AFD_MaxTilesTip",
+        "<align=\"center\">Максимальное число плиток разметки за один запуск.<br>0 = без ограничения (∞).</align>"
+    ],
+    [
+        "AFD_TruckPoolingLabel",
+        "Объединение грузовой техники"
+    ],
+    [
+        "AFD_TruckPoolingTip",
+        "<align=\"center\">Автоматически объединять и балансировать назначенную грузовую технику для всех активных харвестеров (лесозаготовительных машин) этой вышки.</align>"
+    ],
+    [
+        "AFD_ForestryVehicleOptimizationsLabel",
+        "Оптимизация техники"
+    ],
+    [
+        "AFD_ForestryVehicleOptimizationsTip",
+        "<align=\"center\">Отключить обязательные перерывы, навязанные профсоюзом лесных рабочих. Бездействующие «Лесопосадчики» и «Харвестеры» принудительно остаются на участке и заранее перемещаются туда, где ожидается появление работы.</align>"
+    ],
+    [
+        "AFD_TruckPoolTitle",
+        "Парк грузовой техники"
+    ],
+    [
+        "AFD_TruckPoolingHarvesterButtonsDisabledTip",
+        "Объединение грузовой техники включено. Управляйте заданиями через {0}."
+    ],
+    [
+        "AFD_TruckPoolingHarvesterNote",
+        "Примечание. Объединение грузовой техники в группу включено в {0}. Назначенная техника может быть перераспределена."
+    ],
+    [
+        "AFD_NoForestryTowerSelected",
+        "Лесохозяйственная вышка не выбрана."
+    ],
+    [
+        "AFD_NoForestryDesignations",
+        "<color=#959596><i>Разметка лесопосадок отсутствует.</i></color>"
+    ],
+    [
+        "AFD_PressToScanComposition",
+        "Нажмите ↺, чтобы просканировать состав леса."
+    ],
+    [
+        "AFD_AssignedTrucksForestryTowerTooltip",
+        "<align=\"center\">Назначенная грузовая техника будет автоматически обслуживать все харвестеры (лесозаготовительные машины), закрепленные за этой вышкой.</align>"
+    ],
+    [
+        "AFD_KpiTreesLabel",
+        "Деревья"
+    ],
+    [
+        "AFD_KpiMaturityLabel",
+        "Зрелость"
+    ],
+    [
+        "AFD_KpiSustainableYieldLabel",
+        "Устойчивый цикл роста"
+    ],
+    [
+        "AFD_KpiTreesTip",
+        "<align=\"center\">Текущее количество деревьев в управляемой области лесопосадки этой вышки.<br>Первое число — деревья сейчас.<br>Второе число — оценочный максимум деревьев на основе текущих подходящих мест для посадки.</align>"
+    ],
+    [
+        "AFD_KpiMaturityTipFmt",
+        "<align=\"center\">Средняя зрелость и текущий возраст деревьев в области управления. Полная зрелость сейчас составляет <b>{0}</b>, включая настройки сложности.</align>"
+    ],
+    [
+        "AFD_KpiSustainableYieldTipFmt",
+        "<align=\"center\">Максимальное долгосрочное производство древесины, которое можно поддерживать для этой вышки за игровой месяц, с учётом размеченной области, лимита вырубки и скорости роста деревьев по настройкам сложности.<br>Текущая средняя полная зрелость: <b>{0}</b>.</align>"
+    ],
+    [
+        "AFD_GrowthBreakdownHeader",
+        "Разбивка по стадиям роста"
+    ],
+    [
+        "AFD_GrowthBreakdownTipFmt",
+        "<align=\"center\">Разбивка зрелости деревьев в управляемой области. Возраст полной зрелости зависит от типа дерева и сложности.<br>Текущая средняя полная зрелость — <b>{0}</b>.<br><br>Стандартная кривая лесного урожая: 40% возраста = 30% урожая, 60% = 60%, 80% = 88%, 100% = полный.</align>"
+    ],
+    [
+        "AFD_GrowthHeaderTipNoCutFmt",
+        "<align=\"center\">Распределение по степени зрелости относительно текущего возраста полного роста каждого дерева.<br>Вариант вырубки: не срубать.<br>Средняя полная зрелость: {0}.</align>"
+    ],
+    [
+        "AFD_GrowthHeaderTipWithCutFmt",
+        "<align=\"center\">Распределение по степени зрелости относительно текущего возраста полного роста каждого дерева.<br>Вариант вырубки: {0}<br>({1}% от {2} полностью выросшего дерева).</align>"
+    ],
+    [
+        "AFD_HarvestThresholdTip",
+        "Лимит вырубки"
+    ],
+    [
+        "AFD_SegmentTipFmt",
+        "<align=\"center\"><b>{0}:</b><br>{1} деревьев<br>({2:P0} от посаженых, {3:P0} от вместимости) {4}.</align>"
+    ],
+    [
+        "AFD_SegmentAboveHarvest",
+        "выше лимита вырубки"
+    ],
+    [
+        "AFD_SegmentBelowHarvest",
+        "ниже лимита вырубки"
+    ],
+    [
+        "AFD_UnusedCapacityTipFmt",
+        "<align=\"center\">Неиспользованная вместимость:<br>{0} плиток ({1:P0} от вместимости)</align>"
+    ],
+    [
+        "AFD_SegmentInteractionHint",
+        "<align=\"center\">При наведении мышки, деревья на этой стадии зрелости подсвечиваются.<br><br>Нажмите левой кнопкой мышки, чтобы отметить или снять пометку для вырубки.</align>"
+    ],
+    [
+        "AFD_SettingsModName",
+        "<align=\"center\">Автоматическая разметка лесопосадок</align>"
+    ],
+    [
+        "AFD_SettingsTabDefaults",
+        "По умолчанию"
+    ],
+    [
+        "AFD_SettingsTabGameSettings",
+        "Игровые настройки"
+    ],
+    [
+        "AFD_SettingsHeadingForestryTowerDefaults",
+        "Настройки лесохозяйственной вышки по умолчанию"
+    ],
+    [
+        "AFD_SettingsHeadingDesignationDefaults",
+        "Настройки разметки по умолчанию"
+    ],
+    [
+        "AFD_SettingsHeadingScanPerformance",
+        "Производительность сканирования"
+    ],
+    [
+        "AFD_SettingsHeadingPanelDefaults",
+        "Настройки панелей по умолчанию"
+    ],
+    [
+        "AFD_SettingsHeadingOptimizations",
+        "Оптимизации"
+    ],
+    [
+        "AFD_SettingsAvoidTilesWithTreesLabel",
+        "Избегать плитки с деревьями"
+    ],
+    [
+        "AFD_SettingsAvoidTilesWithTreesTip",
+        "<align=\"center\">При создании разметки по умолчанию пропускать плитки, где уже есть дерево.</align>"
+    ],
+    [
+        "AFD_SettingsMarkHarvestReadyLabel",
+        "Помечать деревья для вырубки"
+    ],
+    [
+        "AFD_SettingsMarkHarvestReadyTip",
+        "<align=\"center\">После создания разметки по умолчанию автоматически помечать для вырубки деревья, достигшие установленного возраста в настройках вышки.</align>"
+    ],
+    [
+        "AFD_SettingsBatchSizeLabel",
+        "Размер пакета"
+    ],
+    [
+        "AFD_SettingsBatchSizeTip",
+        "Количество разметок, размещаемых за кадр. Меньше = отзывчивее; больше = быстрее сканирование. Ограничено 1-200."
+    ],
+    [
+        "AFD_SettingsForestryPanelCollapsedLabel",
+        "Панель лесопосадок свёрнута"
+    ],
+    [
+        "AFD_SettingsForestryPanelCollapsedTip",
+        "<align=\"center\">Состояние сворачивания панели разметки лесопосадок по умолчанию, при открытии интерфейса вышки.</align>"
+    ],
+    [
+        "AFD_SettingsInfoPanelCollapsedLabel",
+        "Информационная панель свёрнута"
+    ],
+    [
+        "AFD_SettingsInfoPanelCollapsedTip",
+        "<align=\"center\">Состояние сворачивания информационной панели лесного хозяйства по умолчанию, при открытии интерфейса вышки.</align>"
+    ],
+    [
+        "AFD_SettingsSaveAsGlobal",
+        "Сохранить как конфиг"
+    ],
+    [
+        "AFD_SettingsSaveAsGlobalTooltip",
+        "<align=\"center\">Сохраняет эти настройки в «AFDsettings.json». Они будут использоваться как значения по умолчанию для всех новых игр.</align>"
+    ],
+    [
+        "AFD_SettingsSavedToFile",
+        "Сохранено в «AFDsettings.json»."
+    ],
+    [
+        "AFD_SettingsSaveFailed",
+        "Не удалось сохранить — проверьте журнал"
+    ],
+    [
+        "AFD_SettingsRestoreDefaults",
+        "Сбросить по умолчанию"
+    ],
+    [
+        "AFD_SettingsRestoreDefaultsTooltip",
+        "<align=\"center\">Сбрасывает все значения разметки и панелей к встроенным значениям.<br>(Не сохраняет их автоматически как конфиг).</align>"
+    ],
+    [
+        "AFD_SettingsRestoredDefaults",
+        "Значения по умолчанию восстановлены"
+    ],
+    [
+        "AFD_NewlyPlantedTip",
+        "Недавно посаженные / самая низкая зрелость"
+    ],
+    [
+        "AFD_FullyGrownTipFmt",
+        "Полностью выросшие / наивысшая зрелость ({0} средняя полная зрелость в этой вышке)."
+    ],
+    [
+        "AFD_BucketFullyMatureFmt",
+        "Полностью зрелые ({0}, 100%)"
+    ],
+    [
+        "AFD_BucketNewlyPlantedName",
+        "Недавно посаженные"
+    ],
+    [
+        "AFD_BucketYoungName",
+        "Молодые"
+    ],
+    [
+        "AFD_BucketGrowingName",
+        "Растущие"
+    ],
+    [
+        "AFD_BucketMaturingName",
+        "Созревающие"
+    ],
+    [
+        "AFD_BucketNearlyMatureName",
+        "Почти зрелые"
+    ],
+    [
+        "AFD_BucketRangeFmt",
+        "{0} ({1}–{2}; {3:P0}–{4:P0})"
+    ],
+    [
+        "AFD_OrderConstructionTooltip",
+        "Поставить <color=#FFCE56>«{0}»</color> в очередь на <color=#FFCE56>«{1}»</color>. Получатель — <color=#FFCE56>«{2}»</color>"
+    ],
+    [
+        "AFD_OrderConstructionShortcutHint",
+        "Щёлкните, удерживая клавиши «Shift+Alt», чтобы отправить заказ на новый <color=#FFCE56>«{0}»</color> в <color=#FFCE56>«{1}»</color>. Получатель — <color=#FFCE56>«{2}»</color>"
+    ],
+    [
+        "AFD_PreAssignedTooltipFmt",
+        "<align=\"center\">Предварительно назначено для:<br><color=#FFCE56>«{0}»</color></align>"
+    ],
+    [
+        "AFD_EnqueueConfirmPromptSingular",
+        "Поставить <color=#FFCE56>«{0}»</color> в очередь на <color=#FFCE56>«{1}»</color>? Получатель — <color=#FFCE56>«{2}»</color>"
+    ],
+    [
+        "AFD_EnqueueConfirmPromptPlural",
+        "Поставить в очередь {0} единиц техники типа <color=#FFCE56>«{1}»</color> в <color=#FFCE56>«{2}»</color>? Получатель — <color=#FFCE56>«{3}»</color>"
+    ],
+    [
+        "AFD_EnqueueConfirmBtnText",
+        "Заказать"
+    ],
+    [
+        "AFD_ZoomToDepotTooltip",
+        "Переместить камеру на <color=#FFCE56>«{0}»</color>"
+    ]
+]

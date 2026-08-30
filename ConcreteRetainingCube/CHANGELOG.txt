@@ -1,0 +1,15 @@
+Concrete Retaining Cube - Changelog
+
+Version 0.4.17
+
+Added localization for every language currently available in Captain of Industry.
+Names and descriptions of the standard cube, railing variants, and all three ramp
+segments now follow the language selected in the game settings.
+
+Translations are stored as separate JSON files in the Localization folder. They
+can be reviewed or corrected without rebuilding the mod. English remains the
+fallback if a translation file or an individual entry is missing.
+
+No construction costs, vehicle surfaces, terrain behaviour, models, textures, or
+save-game data were changed in this update.
+

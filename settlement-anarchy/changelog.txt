@@ -1,0 +1,30 @@
+v1.0.1 | 2026-08-23
+
+- Added a Population Overview shortcut to the Housing inspector UI.
+- Verified compatibility with Captain of Industry 0.8.7b.
+
+v1.0.0 | 2026-08-22
+
+=========================
+GLOBAL SETTLEMENT ECONOMY
+=========================
+- All player Housing shares one global Settlement economy, allowing separate towns to function together anywhere on the island.
+- Population stats show the shared totals for population, housing capacity, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity.
+
+====================
+TOWN SERVICE ANARCHY
+====================
+- Town Services can be placed anywhere without connecting them directly to Housing, while still serving the global Settlement economy.
+- Town Services retain their normal inputs, outputs, storage, needs, workers, power, maintenance, and logistics requirements.
+
+==================
+DECORATION ANARCHY
+==================
+- Settlement Decorations no longer need to be snapped to Housing to provide their Unity bonus.
+- Nearby Housing receives the bonus when it is within the Decoration Radius, including freely offset layouts and small gaps.
+
+====================
+SNAPPING GRID TOGGLE
+====================
+- While placing Housing, Town Services, or Settlement Decorations, click the placement-toolbar toggle or press G to enable or disable snapping.
+- The keybind can be changed under Escape Menu → Controls.

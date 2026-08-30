@@ -1,0 +1,7 @@
+{
+    "ColibriIndustries.WasteRecycler.Name": "Переработчик отходов",
+    "ColibriIndustries.WasteRecycler.Description": "Превращает отходы во вторсырьё, биомассу и осадок.",
+    "ColibriIndustries.Research.Recycling.Name": "Переработка отходов",
+    "ColibriIndustries.Research.Recycling.Description": "Разблокирует базовые технологии переработки отходов.",
+    "A late-game industrial recycler that turns raw settlement waste into useful materials. Takes 1500 Waste per 120-second cycle and outputs 500 Recyclables, 60 Biomass, and 40 Sludge. Visually 30% larger than the vanilla Waste Sorting Plant and tinted darker so they're easy to tell apart.": "Промышленный переработчик для поздней стадии игры, превращающий сырые бытовые отходы в полезные материалы. За 60-секундный цикл перерабатывает 750 единиц мусора, выдавая 250 единиц вторсырья, 30 биомассы и 20 осадка. Визуально на 30% крупнее стандартного завода переработки вторсырья, и выполнен в более тёмных тонах, чтобы их легко было отличить."
+}
