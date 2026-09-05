@@ -1,4 +1,4 @@
-DECORATIVE LIGHTHOUSE 1.0.3
+DECORATIVE LIGHTHOUSE 1.0.4
 
 - Adds an unlimited Decorative beacon to Decorations > Landmarks.
 - The decorative copy uses the original Beacon construction cost.

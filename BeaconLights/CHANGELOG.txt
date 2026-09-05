@@ -1,0 +1,17 @@
+Decorative Lighthouse — Changelog
+
+Version 1.0.5
+===
+
+Just 0.8.7a validations.
+
+===
+
+## 1.0.4
+
+* Current installed release for Captain of Industry 0.8.6.
+* Provides an unlimited decorative copy of the vanilla Beacon model.
+* Keeps the original unique Beacon unchanged.
+* Uses the vanilla Beacon construction cost, one worker, and 10 kW while operating.
+* Contains no refugee, Unity, or unique-building behavior.
+
