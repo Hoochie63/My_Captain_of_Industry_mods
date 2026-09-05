@@ -1,4 +1,4 @@
-Ambient Sea Traffic v1.0.1
+Ambient Sea Traffic v1.0.6
 
 Adds neutral cargo and military ships that cross the ocean around the island.
 Ships enter at a random ocean edge and leave through the opposite edge.

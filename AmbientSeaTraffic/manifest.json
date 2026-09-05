@@ -1,6 +1,6 @@
 {
   "id":"AmbientSeaTraffic",
-  "version":"1.0.6",
+  "version":"1.0.7",
   "display_name":"Ambient Sea Traffic",
   "description_short":"Adds neutral civilian and military ship traffic around the island.",
   "authors":"Sirael",
@@ -9,6 +9,6 @@
   "can_add_to_saved_game":true,
   "can_remove_from_saved_game":true,
   "min_game_version":"0.8.6",
-  "max_verified_game_version":"0.8.6",
+  "max_verified_game_version":"0.8.7a",
   "primary_mod_class_name":"AmbientSeaTraffic.AmbientSeaTrafficMod"
 }

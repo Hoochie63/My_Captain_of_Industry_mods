@@ -1,5 +1,8 @@
 Ambient Sea Traffic - Changelog
 
+Version 1.0.7
+Just 0.8.7a validations.
+
 Version 1.0.6
 
 Saving a game while an ambient ship was travelling could fail with the message
