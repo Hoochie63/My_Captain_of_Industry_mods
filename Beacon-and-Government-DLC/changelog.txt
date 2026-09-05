@@ -1,3 +1,18 @@
+v1.0.4 | 2026-08-31
+==========================================
+DEDICATED RESEARCH PROGRESSION & BALANCE
+==========================================
+* Added a dedicated six-node Beacon & Government research branch tied into Construction II, Captain's Offices I-II, Edicts I-II, and Basic computing at the intended stages of vanilla progression.
+* Beacon Logistics unlocks the Relay Beacon and Captain's Exchange. Regional and Central Administration unlock Government Offices I-II, while the remaining research separately introduces Immigration Incentives, Humanitarian Priority, Outbound Resettlement, and both Regional Island Subsidies.
+* All multi-parent research requires every displayed prerequisite. The full branch runs horizontally beneath the vanilla tree with clear forward connections from each required vanilla node.
+* Every policy and subsidy now appears as a named, searchable item under its research node's UNLOCKS details without adding duplicate edicts to the vanilla Captain's Office.
+* Reward-policy cards now appear in progression order as Immigration Incentives, Humanitarian Priority, and Outbound Resettlement. Both the Office inspector and global Government window reveal the same policies and subsidies as they are researched.
+* Rebalanced construction to 75 Construction Parts II / 75 Mechanical Parts / 75 Electronics for Relay Beacons; 75 Construction Parts II / 250 Wood for Exchanges; 175 Construction Parts II / 275 Wood / 100 Iron / 100 Copper for Office I; and 200 Construction Parts III / 175 Wood / 125 Steel / 100 Electronics for Office II.
+* Removed Paper from both Government Office recipes and changed Office I/II Beacon-network support from 1.00/1.50 to 0.25/1.25 Unity per month. The native primary Beacon and Relay's 0.25 rate remain unchanged.
+* Existing placed custom buildings remain functional after updating. New placement is relocked only until the applicable custom research is completed.
+* Saved active policies remain active and can always be disabled. Paid queued or active subsidy terms continue through their saved calendar duration even when their new research has not yet been completed.
+* Preserved in-progress Beacon-cycle samples during migration, so the first completed cycle after updating may blend old and new Office contribution rates; following cycles use only the new values.
+
 v1.0.3 | 2026-08-30
 ===========================================
 REAL CARGO SHIPS & GOVERNMENT PANEL POLISH

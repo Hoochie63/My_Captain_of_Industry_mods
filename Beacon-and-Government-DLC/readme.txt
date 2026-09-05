@@ -1,5 +1,5 @@
 BEACON & GOVERNMENT DLC
-Version 1.0.3
+Version 1.0.4
 
 Expands Captain of Industry's Beacon into a placeable support network with
 research-gated randomized supplies, Captain's Currency, rotating quick trades,
@@ -11,7 +11,7 @@ BEACON NETWORK
 - Adds unlimited Relay Beacons using the vanilla Beacon model and icon.
 - Relay Beacons are decorative while disarmed. Each armed Relay contributes
   0.25 Unity per month while the primary Beacon is operational.
-- Government Office I and II can contribute 1.00 and 1.50 Unity per month.
+- Government Office I and II can contribute 0.25 and 1.25 Unity per month.
 - Unity is charged through the primary Beacon's native monthly consumer and
   is prorated when support changes during a Beacon cycle.
 - The saved full-cycle average prevents last-second toggles from granting a
@@ -24,6 +24,25 @@ BEACON NETWORK
 - Network-wide controls can arm or disarm every supported building.
 - Relay, Exchange, and Government inspectors use compact network shortcuts and
   an always-visible Currency, Beacon Network, and Cycle Reward summary.
+
+DEDICATED RESEARCH PROGRESSION
+
+- Beacon & Government follows one six-node branch. Every multi-parent node
+  requires all listed prerequisites.
+- Beacon Logistics follows Captain's Office I and Construction II, unlocking
+  the Relay Beacon and Captain's Exchange. The native primary Beacon remains
+  on its unchanged vanilla research.
+- Regional Administration unlocks Government Office I and Immigration
+  Incentives. Humanitarian Coordination then requires Edicts I and unlocks
+  Humanitarian Priority.
+- Central Administration requires Captain's Office II and unlocks Government
+  Office II plus Outbound Resettlement.
+- Regional Power Agreements requires Edicts II and unlocks Power Generation
+  Subsidies. Computing Capacity Agreements later requires Basic computing and
+  unlocks Computing Capacity Subsidies.
+- Every building, policy, and subsidy is a visible, named research unlock.
+  Policy and subsidy cards appear in both Government panels as their research
+  is completed.
 
 RANDOMIZED BEACON REWARDS
 
@@ -79,14 +98,14 @@ CAPTAIN'S CURRENCY AND QUICK TRADES
 
 GOVERNMENT REWARD POLICIES
 
-- Government Office I and II provide three policies that redirect the next
-  completed Beacon-cycle reward.
-- Outbound Resettlement removes refugee arrivals while preserving product
-  rewards and adds an independent 80% chance for one additional Coin.
+- Government Office I and II provide three separately researched policies that
+  redirect the next completed Beacon-cycle reward.
 - Immigration Incentives converts the cycle's rolled Currency into two
   refugees per Coin while preserving product rewards.
 - Humanitarian Priority redirects the product shipment into additional
   refugees while preserving Captain's Currency.
+- Outbound Resettlement removes refugee arrivals while preserving product
+  rewards and adds an independent 80% chance for one additional Coin.
 - Outbound Resettlement is exclusive with both inward policies. Immigration
   Incentives and Humanitarian Priority may operate together.
 - The Government Office inspector and Ctrl+F5 global window use the same
@@ -113,14 +132,20 @@ GLOBAL GOVERNMENT CONTROLS
 - The global window and building inspector share one renderer, so policy state,
   contract choices, and UI updates remain synchronized. Two-column subsidy
   cards flex for longer future translations.
-- Policy and subsidy controls remain unavailable until Government Office I or
-  Government Office II has been constructed.
+- Each policy and subsidy appears after its dedicated research and requires a
+  constructed Government Office I or II before a new activation or purchase.
 
 ADDITIONAL BUILDINGS AND TOOLBAR
 
-- Captain's Exchange reuses the vanilla Trading Dock model and research.
-- Government Office I and II reuse the matching Captain's Office models and
-  research unlocks.
+- Captain's Exchange reuses the vanilla Trading Dock model and unlocks through
+  Beacon Logistics on B&G's dedicated branch.
+- Government Office I and II reuse the matching Captain's Office models while
+  unlocking through Regional Administration and Central Administration.
+- Construction recipes are 75 Construction Parts II / 75 Mechanical Parts /
+  75 Electronics for the Relay; 75 Construction Parts II / 250 Wood for the
+  Exchange; 175 Construction Parts II / 275 Wood / 100 Iron / 100 Copper for
+  Office I; and 200 Construction Parts III / 175 Wood / 125 Steel /
+  100 Electronics for Office II. Neither Office requires Paper.
 - Relay Beacon, Captain's Exchange, Government Office I, and Government Office
   II use authored default appearances without requiring Recolor or changing
   any prototype or save identity.
@@ -146,5 +171,13 @@ IMPORTANT
 This mod can be added to an existing save. Do not remove it from a save after
 placing its buildings. Updating must preserve all existing prototype IDs and
 the per-save Captain's Currency/network data format.
+
+On the first load after updating, custom buildings whose new branch node has
+not been completed are relocked for future placement only. Already placed
+buildings remain functional. Saved active policies can remain active and can
+always be disabled, while paid queued or active subsidy contracts continue on
+their original calendar terms. An in-progress Beacon cycle preserves its
+already accrued samples and may blend old and new Office contribution rates
+until that one cycle completes.
 
 Author: Underlörd
