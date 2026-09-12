@@ -1,6 +1,6 @@
 {
   "id": "PierWallMod",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "display_name": "Pier Wall Mod",
   "description_short": "Adds pier walls that can be placed on land and in the ocean.",
   "description_long": "Adds a new retaining-wall style called Pier Wall. It reuses vanilla retaining-wall visuals, keeps similar costs, and can be placed on land and in the ocean for cleaner island edges.",
@@ -11,6 +11,6 @@
   "non_locking_dll_load": true,
   "can_add_to_saved_game": true,
   "can_remove_from_saved_game": false,
-  "min_game_version": "0.8.3",
-  "max_verified_game_version": "0.8.6a"
+  "min_game_version": "0.8.7a",
+  "max_verified_game_version": "0.8.7a"
 }

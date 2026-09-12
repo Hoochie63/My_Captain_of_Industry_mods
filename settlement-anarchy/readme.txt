@@ -1,4 +1,4 @@
-SETTLEMENT ANARCHY 1.0.1
+SETTLEMENT ANARCHY 1.0.3
 
 Settlement Anarchy removes the rigid physical attachment rules from Housing,
 Town Services, and Settlement Decorations while preserving their normal
@@ -66,6 +66,9 @@ Decoration Radius is recalculated after relevant placement, deconstruction,
 movement, rebuild, and load events. No continuous proximity scan runs during
 normal gameplay.
 
+Open any Settlement Decoration and use the Decoration Radius button in its
+title bar to show or hide the full radius around every Decoration.
+
 ====================
 SNAPPING GRID TOGGLE
 ====================
@@ -79,4 +82,4 @@ Settlement Anarchy (Mod) section.
 
 SUPPORTED GAME VERSION
 
-Captain of Industry 0.8.6 through 0.8.7b.
+Captain of Industry 0.8.6 through 0.8.7c.

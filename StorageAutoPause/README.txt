@@ -1,4 +1,4 @@
-Storage Auto Pause v1.9.1
+Storage Auto Pause v1.10.1
 
 FINAL EFFECT AND LOGIC PASS IN 1.9.1
 - Logistics trend memory independently shows filling green upward and draining cyan downward; an active rule is stable red.

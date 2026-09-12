@@ -1,4 +1,4 @@
-PHYSICAL TRADE SHIP 0.2.11 (Captain of Industry 0.8.6c)
+PHYSICAL TRADE SHIP 0.2.20 (Captain of Industry 0.8.6c)
 
 1. In the normal world-map trade UI, click offers to add them to the cart.
 2. Open the Trading Dock inspector.

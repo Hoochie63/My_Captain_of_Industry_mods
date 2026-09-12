@@ -1,79 +1,105 @@
+v1.0.6 | 2026-09-10
+
+- Changed the manifest display name from KeyBound to Not Enough Keybinds.
+- Rebuilt against the Captain of Industry 0.8.7c assemblies and verified for 0.8.7c.
+- Fixed a bug where other mods using PP or ++ in their name could trip discovery and cause NEK to assign their menu bind as Mori++ Menu.
+- Mori++ menus is now identified by its exact toolbar category ID, and Elevation++'s Platforms menu and submenu remain in their own discovered group.
+
+[EXPERIMENTAL INPUT COMPATIBILITY OPTION FOR ALT-GRAVE BUG]
+- Added an off-by-default Ignore Right Alt / AltGr option as a workaround for systems where a phantom Right Alt state prevents shortcuts from firing.
+- Genuine Right Alt and AltGr shortcuts are unavailable while the option is enabled; disabling it restores normal Right Alt behavior immediately.
+- Updated KeyBound's internal AltGr fallback.
+
+=====================================
+
+v1.0.5 | 2026-09-03
+
+- Translated every Framework page, group, binding name, and tooltip across all 21 supported languages.
+- Translated curated mod-menu terminology, Mor Decor foliage items, item-bind labels, and remaining toolbar category names while preserving mod and brand names.
+- This should not affect any keybinds, please report if any issues are found with translations or bind profiles.
+
+- Changed the K calendar-button & floating NEK button defaults to left-click Bind Manager and right-click Live Rebind, with options to change this in manager's settings.
+- Adjustments to live rebind conflict cards text.
+
+=====================================
+
+v1.0.4 | 2026-09-02
+
+[NEW BINDS — QUICK ACTIONS & OVERLAYS]
+
+- Added Inspector Panel Quick Actions for the entity currently open in the Inspector:
+  - Quick Repair
+  - Unity Recovery
+  - Unity Cargo Unload
+  - Move Vehicle
+  - Scrap Vehicle
+- Added Edit Tower Areas and Edit Forestry Designations shortcuts that open their native editing modes without requiring an Inspector.
+
+[FRAMEWORK ORGANIZATION]
+
+- Added a dedicated Quick Actions page.
+- Kept Toolbar UI Panels, Tool Shortcuts, and Calendar Buttons together as nested groups under Misc.
+- Renamed the remaining toolbar pages to Toolbar: Menus & Tools, Toolbar: Submenus, Toolbar: Mod Menus, and Toolbar: Items.
+- Moved Mor Decor's Debris Tools shortcuts into Toolbar: Menus & Tools, since they are tools.
+
+=====================================
+
+v1.0.3 | 2026-08-31
+
+- Added automatic KeyBound registration and Live Rebind support for mod-added buttons placed directly into the toolbar tool grid, including Cheat++'s underground-network pipe button.
+
 v1.0.2 | 2026-08-30
 
-================================
-FULL INTERFACE LOCALIZATION
-================================
+[FULL INTERFACE LOCALIZATION]
+
 - Added translations for the remaining Controller, Keybind Manager, Settings, welcome screen, Live Rebind, calendar button, floating button, notifications, and Built-In Profile text across all 21 supported languages.
 - Added translated Bind Manager editor and selection headings, optional tooltip placeholders, and Apply Selected buttons across Bind Profiles, Controls, and NEK.
 - Localized KeyBound's Framework page names, groups, shortcut labels, layout headings, and tooltips without changing shortcut IDs or how bindings activate.
 - Uses already-translated names from Captain of Industry and other mods when available, while leaving untranslated mod-authored proper names intact.
 - Keeps the current English control sizes as the minimum layout; longer translations may wrap until later dynamic-width polish.
 
+=====================================
+
 v1.0.1 | 2026-08-28
 
-============================
-TOOL & ITEM SHORTCUT FIXES
-============================
+[TOOL & ITEM SHORTCUT FIXES]
+
 - Fixed a bug where switching between trees or other placeable items could leave frozen placement previews on the map.
 - Removed the extra NEK/KeyBound shortcuts for vanilla Tool Shortcuts, UI Panels, and Calendar Buttons.
 - Live Rebind now uses only their normal Controls shortcuts instead.
 - Mod-added toolbar tools, UI panels, and Calendar Buttons still receive KeyBound shortcuts automatically.
 
-============================
-KEYBOUND SHORTCUTS
-============================
+[KEYBOUND SHORTCUTS]
+
 - Moved KeyBound's own menu, Live Rebind, and profile cycling shortcuts to the first Framework page so they are easier to find.
 - Organized them into KeyBound Menus, Live Rebind, and Profile Cycling sections.
 - Added compatibility with Captain of Industry 0.8.7b.
+
+=====================================
 
 v1.0.0 | 2026-08-23
 
 Ω—KEYBOUND—Ω Successor to Not Enough Keybinds.
 
-Features:
-===========
-LIVE REBIND
-===========
+[LIVE REBIND]
+
 - Click Toolbar or Calendar Buttons to quickly Rebind them without needing to access escape menu or browse long keybind lists.
 - This works even for mod buttons that didn't have a bind option.
 - Shows available NEK & Controls binds and related conflicts so everything can be fixed without needing to go into escape menu.
 - Open Live Rebind from the Bind Manager's Green Shortcut in the Titlebar, Shift-click or Ctrl-click the floating NEK button UI, or with a keybind. Rebind Mode under KeyBound -> Misc. Binds -> KeyBound Binds.
 - To select a button: right-click it or Shift or Ctrl modified-Left or Right clicks.
  
-==============================
-FRAMEWORK INTEGRATION & KEYBINDS
-==============================
+[FRAMEWORK INTEGRATION & KEYBINDS]
+
 - Automatically discovers supported vanilla and mod-added menus, submenus, tools, items, buildings, UI panels, and Calendar Buttons.
 - Organizes them under the KeyBound Framework tab with Bind 1, Bind 2, and left- or right-side modifier support.
 - Active shortcuts appear on toolbar Menu's hover Keybind-labels.
-
-==================================
-BIND PROFILES & KEYBIND MANAGER
-==================================
 - Save & Load all existing keybinds both in Controls, and the Framework Tab Controls for KeyBound
 - Create profiles from your current controls and KeyBound-framework binds.
 - First-time setup creates a protected Backup of you controls to prevent losing your keybinds before experimenting with KeyBound or Built-In Profiles.
 - Controls, NEK & BindProfiles file path: C:\Users\[User]\AppData\Roaming\Captain of Industry\ModConfigs\not-enough-keybinds\Profiles
-
-
-================================
-CONTROLLER & BUILT-IN PROFILES
-================================
 - Left-click the K Calendar Button or floating NEK button for the compact Controller; right-click opens the full Keybind Manager.
 - Apply saved profiles or use ready-made choices including Toolbar Mode, focused item layouts, and Mag's All-In-One.
-- Title-bar shortcuts connect the Controller, Manager, Live Rebind, settings, and soft-pin controls for quick access.
 
-========================================
-LANGUAGES, EXTRAS & COMPATIBILITY
-========================================
 - Includes English and some translations for all 20 additional supported game languages, plus an English UI option in the Manager's Tooltip settings.
 - Supports Captain of Industry 0.8.5 through 0.8.7b, Keybind Framework 2.0.2 or newer, and existing saves.
-
-========================================
-PLANNED
-========================================
-- Planned: Intercept every mod-added keybind to that doesn't offer rebinding & give it an option to clear and use a framework bind instead.
-- Planned: See what else can be live bindable, like submenus, items or non button UI-clicks.
-- Planned: Mute all normal clicks while live rebind is active and create binds for buttons that have multiple actions. Currently only a button's left click is targetable.
-- Planned: .Controls to include all mod-added controls, and .framework that will instead save ALL framework tabs instead of just KeyBound binds & update bind profiles to include everything.
-...and more

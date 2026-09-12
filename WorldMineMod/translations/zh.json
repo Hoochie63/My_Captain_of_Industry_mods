@@ -2,5 +2,7 @@
   "IronMine__name": "铁矿",
   "IronMine__desc": "一座世界地图矿山，分配工人后可持续开采铁矿。",
   "CopperMine__name": "铜矿",
-  "CopperMine__desc": "一座世界地图矿山，分配工人后可持续开采铜矿。"
+  "CopperMine__desc": "一座世界地图矿山，分配工人后可持续开采铜矿。",
+  "GoldMine__name": "金矿",
+  "GoldMine__desc": "一座世界地图矿山，分配工人后可持续开采金矿。"
 }

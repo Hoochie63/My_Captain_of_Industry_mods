@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Interfície adaptativa de torres",
+  "Vehicle Filters": "Filtres de vehicles",
   "Settings": "Configuració",
   "Collapse all tower sections.": "Replega totes les seccions de la torre.",
   "Expand standard tower sections.": "Desplega les seccions estàndard de la torre.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Mostra el màxim de vuit files visibles.",
   "Default": "Per defecte",
   "Sections opened by default": "Seccions obertes per defecte",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Les seccions marcades s'obren en col·locar una torre minera nova. Les torres existents no canvien."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Les seccions marcades s'obren en col·locar una torre minera nova. Les torres existents no canvien.",
+  "Expand selected tower sections.": "Amplia les seccions seleccionades de la torre.",
+  "Tree planters": "Plantadora",
+  "Tree harvesters": "Taladora",
+  "Tree planter rows": "Files de plantadores d'arbres",
+  "Tree harvester rows": "Files de taladores d'arbres",
+  "Mining Tower": "Torre minera",
+  "Forestry Tower": "Torre forestal",
+  "Section": "Secció",
+  "Expand": "Amplia",
+  "Max rows": "Files màx.",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Les seccions marcades s'obren a les torres acabades de col·locar. Les torres existents no canvien.",
+  "Checked sections open when the title-bar + button is used.": "Les seccions marcades s'obren quan s'utilitza el botó + de la barra de títol.",
+  "Maximum visible rows before a scrollbar appears.": "Nombre màxim de files visibles abans que aparegui una barra de desplaçament."
 }

@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-UnityVersion: 6000.0.66f1
-CRC: 2134580479
+UnityVersion: 6000.0.82f1
+CRC: 621124150
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7f71f4845705c904702fb989490637ef
+    Hash: d0d42f546182ca62cfa6302ab30ec144
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9f349c36d7a6532f767333f9299b3e74
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6c02f84b7b9fd8e898a1432215d031e2
+    Hash: b1228c538f521e9a6eba15da9141c1bf
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -21,7 +21,12 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/PierWallMod/Icons/PierWallCross.png
 - Assets/PierWallMod/Icons/PierWallStraight4.png
+- Assets/PierWallMod/Icons/PierWallCategoryWhite.png
+- Assets/PierWallMod/Icons/PierWallCategoryWhiteLarge.png
 - Assets/PierWallMod/Icons/PierWallStraight1.png
+- Assets/PierWallMod/Icons/PierWallCategoryBlack.png
 - Assets/PierWallMod/Icons/PierWallTee.png
+- Assets/PierWallMod/Icons/PierWallCategoryBlackLarge.png
 - Assets/PierWallMod/Icons/PierWallCorner.png
+- Assets/PierWallMod/Icons/PierWallCategoryWhite32.png
 Dependencies: []

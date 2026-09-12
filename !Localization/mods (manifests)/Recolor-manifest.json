@@ -1,0 +1,21 @@
+{
+  "id": "Recolor",
+  "version": "1.0.3",
+  "display_name": "Recolor",
+  "description_short": "Recolor buildings with persistent global colors and per-mesh overrides, a draft preview, and custom paint tools.",
+  "description_long": "Adds Recolor's complete building color palette plus an optional More workspace with dedicated Edit Mesh, Mesh Templates, and Settings tabs. Global Colors and per-building Mesh Overrides are saved with the world. Global Paint applies the active palette color with left-click and picks a building's Global Color with right-click. The two-stage Mesh Eyedropper picks a source with left-click, then transfers both its Global Color and complete Mesh Overrides to exact prototype-and-schema matches; right-click steps back or exits. Select Without Inspector defaults on, is remembered, and works only while Recolor is open. Edit Mesh retains its isolated draft preview, linked-LOD logical groups, one-step Undo, remap-aware input legends, and native confirmation prompts for destructive whole-building actions.",
+  "authors": [
+    "Underlörd"
+  ],
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.7b",
+  "primary_dlls": [
+    "0Harmony.dll",
+    "Recolor.dll"
+  ],
+  "mod_dependencies": [],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true,
+  "primary_mod_class_name": "RecolorMod"
+}

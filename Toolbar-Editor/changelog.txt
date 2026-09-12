@@ -1,15 +1,83 @@
+v2.1.6 | 2026-09-07
+
+[PROFILE AND LAYOUT STABILITY]
+* Makes saved toolbar layouts settle more reliably at non-100% UI scales and restores fast profile switching without the temporary loading lockout.
+* Keeps the submenu in its saved vertical position when its content or scrollbar changes, preserves centered automatic width, and remembers exact manual resizing.
+* Makes Reset all sections safely override unfinished profile restoration and restores clean section positions with Auto-Shift either on or off.
+* Moves the Toolbar Editor shortcut into its own normal toolbar section, keeps Burning T and Industrial Toolbox as its two icon choices, and turns Selection Mode off when the editor closes.
+
+v2.1.5 | 2026-09-02
+
+* Adds full editing, button-management, and profile support for the To-do list and other toolbar buttons added to negative sections of the toolbar.
+* Removing sections with Hidden buttons in it should no longer cause shifting when toggling edit mode.
+* All Empty sections now properly collapse when leaving edit-mode. This collapse considers your auto-shift settings.
+* Lets you restore toolbar sections you previously removed, including the green Tool shortcuts sections; use Restore section in the section tab.
+* optional Review & save reminder will now expand editor just enough to reveal the save profile button, if applicable.
+
+Many changes were done for layout reconstruction and profile loading this update. PLEASE REPORT if your toolbar does not restore perfectly or behave as expected.
+Note: switching game scales or resolution does require a new profile.
+
+v2.1.4 | 2026-09-01
+
+[OVERLAY & PROFILE RESTORING BUG-FIX]
+* Fixes complex section Overlay orders not consistently restoring after loading a profile or game.
+* Saves each customized section's exact position in the native toolbar hierarchy, allowing sections intentionally placed behind the toolbar background to restore correctly.
+* Restores Overlay order for both green Tool shortcuts sections as well as standard and custom sections.
+* Prevents newly registered mod toolbar controls from interrupting an unfinished saved-layout restoration.
+
+v2.1.3 | 2026-08-31
+
+[CUSTOM TOOL BUTTONS]
+* Finds mod-added buttons placed directly in the green Tool shortcuts grid, including Cheat++'s underground-network button.
+* Adds these buttons to drag-and-drop editing, the Buttons tab, coloring, visibility, and profile save/load while keeping their original click action and tooltip.
+
+v2.1.2 | 2026-08-31
+
+[EDITOR WINDOW HEIGHT]
+* The three window-size buttons have been reworked.
+* The middle button restores your manually resized window height; you can manually resize the window from 100–1000 pixels.
+* Manually resize it to only 100 pixels to show only the controller and title bar.
+* The minimize preset provides a comfortable size for editing and saving profiles.
+* The maximize preset makes the window large enough to work comfortably in any of the five tabs.
+
+[EDITING]
+* Dragging and dropping buttons into the vertical green Tool shortcuts section now shows the correct drop-position indicator.
+* Shows the selected component's current overlay layer number.
+* Adds separate Reset Submenu panel parent and Reset Submenu panel children actions to the Layout tab.
+
+[MENU CHANGES]
+* The Fine-Tune Controller now has persistent top and bottom lips; either lip can open or close the expandable controller section.
+* Adds a gold plus/minus control to the Buttons tab for opening or closing all button sections at once.
+* Recolors the controller frame and footer.
+
+v2.1.1b | 2026-08-30
+
+[CRITICAL DROPDOWN HOTFIX]
+* Fixes Toolbar Editor preventing unrelated game and mod dropdowns from opening, including the train Network selector.
+* Removes Toolbar Editor's generic game-wide dropdown interception entirely and attaches popup scaling only to the four dropdowns owned by the editor.
+
 v2.1.1 | 2026-08-29
+
 * Verified for Captain of Industry v0.8.7b.
-* Repairs editing for the game’s dynamically appearing tool filters, area controls, and auxiliary controls that were incorrectly described as working in v2.1.0.
-* Adds a separate Toolbox shortcuts target for full transport-build shortcut bars and compact one-button variants, with dropdown and Selection Mode targeting, movement, snapping, scaling, reset, Identify, and profile recall.
-* Adds movement, scaling, reset, Identify, and profile recall for the Belts & pipes snapping indicator.
-* Makes the Toolbar Edit Mode and Toolbar Selection Mode banners directly selectable and draggable while preserving their close buttons and normal behavior outside Edit Mode.
-* Expands the footer magnifying glass from identifying sections only to identifying every active editable section, panel, indicator, filter control, and Toolbox shortcut at once.
-* Restores the title-bar minimize button’s useful 480-pixel selection-list height while allowing optional manual resizing down to an ultra-compact 100-pixel base height. Restore remains 740 pixels.
-* Tags newly saved and overwritten profiles with the game UI scale used to create them so scale mismatches are visible before loading.
-* Keeps standalone profile format 14. Existing v2.1.0 profiles remain loadable; only a saved transform for v2.1.0’s former broken native-filter target may reset because that target was replaced.
+
+[NEW COMPONENT CONTROLS]
+* Adds movement, scaling, reset, Identify, and profile recall for the following:
+  * Tool filters and controls, shown when placing buildings or using copy and unity tools.
+  * Temporary Toolbox shortcut controls, shown while using transport, Blueprint, and other tools.
+  * Belts & pipes snapping indicator.
+  * Planning Mode indicator.
+  * Toolbar Edit Mode and Toolbar Selection Mode banners.
+  * Overlays (Layers) panel.
+* Expands the footer's Identify-All to now identify all visible toolbar components, not only sections.
+
+[EDITOR CHANGES]
+* The Editor's now allows manual vertical resizing down to an ultra-compact 100-pixel when resizing using the bottom drag handle.
+* The Editor's titlebar minimize button brings it to conservative 480-pixel height, to still show profile save/load buttons.
+* Saving a profile now also shows the game scale % that was used when the profile was saved, as a reminder.
+* Profiles technically load as intended when switching to different game scales, but complex toolbar layouts could still result in gaps due to a smaller button container size— So if you switch game scales, you will probably need to adjust or create a new profile for that scale.
 
 v2.1.0 | 2026-08-27
+
 * Performance Optimizations while editing & for Editor menu.
 * Stops routine editor updates from repeatedly scanning the profiles folder. Use the Profiles tab’s Refresh button after adding, removing, or renaming profile files outside the game.
 * Replaces Fine Tune’s selected-component text field with a dropdown, making every registered component selectable even when it is off-screen or difficult to click.
@@ -19,40 +87,31 @@ v2.1.0 | 2026-08-27
 * Adds an optional Calendar Buttons shortcut after the existing Tweaks++ open and lock controls.
 
 v2.0.0 | 2026-08-24
-Ω—Toolbar Editor—Ω
 
-===============
-GETTING STARTED
-===============
+Toolbar-Editor Public Release
+
+[GETTING STARTED]
 - Live visual edit mode.
 - Work with five focused tabs—Layout, Sections, Buttons, Profiles, and Settings—with footer controls and the Fine Tune tray available throughout the editor.
 - Left-click the Toolbar Editor tool shortcut or optional calendar T to open Editor & Settings; right-click either shortcut to toggle Edit Mode immediately.
 - Use Ctrl + [ to open or close Editor & Settings and Ctrl + ] toggle edit mode.
 
-==========
-AUTO-SHIFT
-==========
+[AUTO-SHIFT]
 - Leave Auto-Shift ON for a familiar default-style single-row toolbar while using Ctrl + Shift + Left-drag to reorder buttons or move them between sections.
 - Turn Auto-Shift OFF and resize the background at least once before dragging any section into a custom position, switching sections to vertical rails, or building multiple button rows or columns.
 - With Auto-Shift on, surrounding sections resize and repositions after button drag & dropping or adding/removing custom sections; with it off, established positions stay fixed and new sections appear near the lower center. The chosen mode is saved with the layout.
 
-=================
-PER-SAVE LOADOUTS
-=================
+[PER-SAVE LOADOUTS]
 - Every save gets its own toolbar loadout, completely independent from the world played before it.
 - Capture the active toolbar through Save, Save As, or autosave.
 - Layout tab has reset-to-defaults to revert all changes made and start fresh.
 
-=================
-OPTIONAL PROFILES
-=================
+[OPTIONAL PROFILES]
 - .toolbar loadouts profiles are optional; they can be used to backup your creations and port them into other saves.
 - Toolbar Profiles Store component positions, layers, borders, section names and orientations, button assignments, order, visibility and colors, all scales, custom-section count, Auto-Shift, and independent background-movement settings.
 - To use a saved profile in another save, Load a saved profile into the current world, then save the game.
 
-===============
-EDIT LAYOUT TAB
-===============
+[EDIT LAYOUT TAB]
 - Toggle Toolbar Edit Mode, show or hide highlighted component drag handles, and a collapsible Controls card that displays the shortcuts for live editting controls.
 - Ctrl + Left-drag any toolbar component.
 - Shift + Left-drag resizes the width of Search, the toolbar background, or the Submenu and item panel.
@@ -63,9 +122,7 @@ EDIT LAYOUT TAB
 - Scale options for the toolbar background & sections,  the Search bar,Submenu and item panel, and resets.
 - Reset Search, the Submenu and item panel, the toolbar background and all standard sections, or use reset toolbar + all sections to start over fresh.
 
-==============
-FINE TUNE TRAY
-==============
+[FINE TUNE TRAY]
 - The fine Tune tray gives access to frequently used actions found in in the Editor's tabs.
 - Open the Fine Tune tray by clicking the gold footer arrow; its open state is remembered globally.
 - Enable Selection Mode during editing, then left-click editable components to make changes to the component selected.
@@ -74,9 +131,7 @@ FINE TUNE TRAY
 - Independently scale Search, the Submenu and item panel, and both native green tool-shortcut button containers, with a dedicated per- component Reset.
 - Move supported targets backward or forward by one layer, cycle bottom borders, switch yellow sections between horizontal and vertical, and reset the selected component's position, supported scale, layer, and border.
 
-============
-SECTIONS TAB
-============
+[SECTIONS TAB]
 - Manage up to twenty active section slots: twelve custom sections, six Toolbar Editor default containers, and two native green tool-shortcut hosts containers.
 - Add a new empty section, remove empty sections, identify every active section, and see the live active-section count.
 - Select any active section from the dropdown, identify it by name, and rename it.
@@ -85,34 +140,27 @@ SECTIONS TAB
 - Inspect section type, exact X/Y position, effective scale, orientation, layer order, button count, and assigned button names—including hidden assignments—from Section Stats.
 - Reset a standard section's position, supported scale, layer, and border while preserving its custom name, orientation, and assigned buttons; newly researched menus or newly added mods can automatically restore a removed section if that was it's default home.
 
-===========
-BUTTONS TAB
-===========
+[BUTTONS TAB]
 - Browse collapsible groups for every tracked section based on your current layout including empty groups, with section Rename and Identify controls directly above its buttons.
 - See every tracked button under its current named section with a name; hidden buttons remain listed and manageable.
 - Show or hide tools or menu buttons.
 - Use the color picker with 18 preset colors, hexadecimal input, independent RGB sliders, or reset to the original color.
 - bulk recolor all buttons in a section, or across all buttons at once.
-============
-PROFILES TAB
-============
+
+[PROFILES TAB]
 - Save the current toolbar under a new profile name or deliberately overwrite an existing .toolbar.
 - Load a selected profile with confirmation, rename it, or permanently delete it.
 Green and red status text to see successful profile operations and rejected or invalid files.
 - Copy the Profiles folder path and past into Explorer or sharing or backup, and use Refresh to rescan .toolbar files added, removed, or renamed outside the game.
 - Before leaving Edit Mode, you will be reminded to eve any unsaved changed to the profile. This can be disabled in settings
 
-========
-SETTINGS
-========
+[SETTINGS]
 - Choose the Toolbar Editor button icon from eight options: Compact Block Hammer, Original Detailed Hammer, Soft Mallet, Outline Mallet, Inferno T, Inferno Double Hammer T, Burning T, and Industrial Toolbox.
 - Disable editor tooltips, or disable the named-profile unsaved-change warning.
 - Enable a bottom-edge vertical resize strip to resize thr editor's menu height.
 - option to automatically name a section after the first button dropped into it.
 
-======================
-EDITOR TITLE & FOOTER BUTTONS
-======================
+[EDITOR TITLE & FOOTER BUTTONS]
 - Pin button.
 - Editor menu scale size
 - Use the persistent footer on every tab to finish editing, move the background independently, toggle Auto-Shift and highlighted bounds, add or remove sections, and identify all sections.

@@ -16,10 +16,6 @@
         "<align=\"center\">Статус: Ожидание</align>"
     ],
     [
-        "GridBattery.Units.MegawattSecond",
-        "МВт·с"
-    ],
-    [
         "GridBattery.Buildings.T1.Name",
         "Аккумулятор, ур. I"
     ],

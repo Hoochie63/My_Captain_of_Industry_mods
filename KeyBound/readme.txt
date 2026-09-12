@@ -29,15 +29,15 @@ LIVE REBIND
 
 Live Rebind lets you select a supported toolbar or calendar button and edit its
 shortcuts without browsing the full Controls or Framework lists. It displays
-the selected KeyBound bind, matching vanilla Controls bind when available, and
-only the conflicts related to those shortcuts.
+the selected KeyBound bind when one exists, the matching Controls bind when
+available, and only the conflicts related to those shortcuts.
 
 Activate Live Rebind from any of these places:
 
 - The green Live Rebind shortcut in the Keybind Manager title bar.
 - Shift-click or Ctrl-click the floating NEK button.
 - Assign Toggle Live Rebind Mode under:
-  Settings -> Mod keybinds -> KeyBound -> Live Rebind.
+  KeyBound -> KeyBound, in the Live Rebind group.
 
 While the mode is active, right-click or Shift/Ctrl-click a supported toolbar
 or calendar button to select it. Choose Bind 1 or Bind 2, press the shortcut,
@@ -53,16 +53,17 @@ KEYBIND DISCOVERY
 Generated bindings are organized in Framework under:
 
 - KeyBound
-- Vanilla: Menus & Tools
-- Vanilla: Submenus
-- Mod: Menus & Submenus
-- Misc. Binds
-- Vanilla: Items
+- Quick Actions
+- Misc.
+- Toolbar: Menus & Tools
+- Toolbar: Submenus
+- Toolbar: Mod Menus
+- Toolbar: Items
 
 KeyBound supports Bind 1, Bind 2, and left- or right-side modifiers. Assigned
 shortcuts also appear in keybind labels when hovering supported toolbar menus.
 
-The Vanilla: Items tab includes supported Storage, Transport, Vehicle,
+The Toolbar: Items tab includes supported Storage, Transport, Vehicle,
 Terraforming, Forestry, Surface, and Train items. Only researched content is
 activated; the game's intentionally never-researchable dry trees remain usable.
 
@@ -94,8 +95,10 @@ components and backups remain available after the KeyBound rebrand.
 CONTROLLER AND BUILT-IN PROFILES
 --------------------------------
 
-Left-click the K calendar button or floating NEK button to open the compact
-Controller. Right-click either button to open the full Keybind Manager.
+By default, left-click the K calendar button or floating NEK button to open the
+full Keybind Manager. Right-click either button to open Live Rebind. The
+Settings > Calendar Button row can independently assign either mouse button to
+the Bind Manager, Controller, or Live Rebind.
 
 The Controller provides saved custom profiles and ready-made layouts including
 Toolbar Mode, focused item profiles, Restore Controls, and Mag's All-In-One.

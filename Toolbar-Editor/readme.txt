@@ -12,7 +12,7 @@ GETTING STARTED
   mods registered, now displayed through Toolbar Editor's six fixed mirror hosts.
 - Named profiles are stored independently in Toolbar Editor's own profile folder;
   legacy profile folders are not imported automatically.
-- Left-click the Toolbar Editor icon in the primary tool-shortcut section to
+- Left-click the Toolbar Editor icon in its own normal toolbar section to
   open or close Toolbar Editor.
 - Right-click the Toolbar Editor icon to toggle Edit Mode immediately.
 - The optional T button beside the calendar provides the same access if the
@@ -38,8 +38,10 @@ Select [Edit layout] to highlight editable toolbar components, then use:
   resizing only.
 - Ctrl + Shift + Left-drag: Drag and drop buttons to reorder them or move them
   between sections.
-- Ctrl + Shift + Alt + Left/Right-click: Bring a section or the search panel
-  forward, or send it backward.
+- Ctrl + Shift + Alt + Left/Right-click: Bring a section forward, or send it
+  backward. Search supports the same manual layer control when Auto-Shift is
+  off; while Auto-Shift is on, its trailing-edge position and layer order are
+  managed with the toolbar background.
 
 Additional Layout Editor features:
 
@@ -52,9 +54,11 @@ Additional Layout Editor features:
 - Scale the complete toolbar from 50% to 200%.
 - Scale the Ctrl+F search control independently from 50% to 200%.
 - Scale the submenu and item panel independently from 76% to 200%.
-- Add up to twelve user-custom sections. Together with the six fixed middle
-  defaults and two native green tool-shortcut hosts, Toolbar Editor supports
-  up to twenty active section slots.
+- Add up to twelve user-custom sections. The normal editor budget also includes
+  the six fixed middle defaults, two native green tool-shortcut hosts, and any
+  additional native or modded sections the game registers. Those unavoidable
+  native sections remain supported even if they push the live count above the
+  nominal twenty-section editor budget; the custom-section limit remains twelve.
 - Rename or switch any of the six fixed Toolbar Editor default sections and any
   user-custom section between a horizontal row and a natural one-column
   vertical rail from the Sections tab.
@@ -63,7 +67,8 @@ Additional Layout Editor features:
 - Keep both green native tool-shortcut hosts live while allowing them to be
   moved, layered, identified, and scaled independently through Fine Tune.
 - Remove the last empty section without deleting occupied sections.
-- Keep empty custom sections visible until you explicitly remove them.
+- Keep empty sections available in the editor and recovery inventory while
+  collapsing their unused space on the live HUD outside Edit Mode.
 - Let native, custom, and toolbar-shortcut sections grow or shrink naturally
   with their button contents.
 - Present the native green tool-shortcut section as a true one-column rail. Its
@@ -79,8 +84,9 @@ Additional Layout Editor features:
   six yellow sections, without requiring a second section reset.
 - Open the Fine Tune Toolbar Components tray from the gold arrow above the
   footer. Its open state is remembered globally between games.
-- Select any registered component from the Fine Tune component dropdown,
-  including one that is currently off-screen or difficult to click directly.
+- Select any active, usable registered component from the Fine Tune component
+  dropdown, including one that is currently off-screen or difficult to click
+  directly. Suppressed recovery-only sections remain available in Sections.
 - Enable Selection Mode in that tray, then plain left-click a live toolbar
   component to select it without activating its normal action. Existing
   Ctrl/Shift/Alt editing controls remain available while Selection Mode is on.
@@ -106,6 +112,9 @@ Additional Layout Editor features:
 - Use the title-bar minimize button for the useful 480-pixel selection-list
   height, or manually resize as low as a 100-pixel base height when only the
   title, footer, and Fine Tune controls are needed. Restore returns to 740.
+- Choosing Review & save from the unsaved-change prompt opens Profiles at its
+  save row and temporarily fits a too-short editor without replacing the
+  recalled custom height.
 - Screen-edge limits and cancelled invalid drops keep components and buttons
   recoverable.
 
@@ -137,11 +146,9 @@ SETTINGS AND TOOLBAR PROFILES
   changes immediately without losing its current section, order, or position.
 - Custom artwork is framed to its visible alpha bounds and rendered at the
   game's native medium icon size inside a fixed normal toolbar-button footprint.
-- The Settings icon selector includes a dedicated shortcut color picker. White
-  icons recolor directly, while colored artwork blends with the selected tint.
-- The included choices are Compact Block Hammer, Original Detailed Hammer,
-  Soft Mallet, Outline Mallet, Inferno T, Inferno Double Hammer T, Burning T,
-  and Industrial Toolbox.
+- The Settings icon selector includes a dedicated shortcut color picker. The
+  artwork blends with the selected tint.
+- The included choices are Burning T and Industrial Toolbox.
 - The active toolbar is stored in the current Captain of Industry save.
   Different saves can keep completely different layouts without inheriting
   the last world that was played.

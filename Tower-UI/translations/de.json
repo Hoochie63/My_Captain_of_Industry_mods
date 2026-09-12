@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptive Turm-UI",
+  "Vehicle Filters": "Fahrzeugfilter",
   "Settings": "Einstellungen",
   "Collapse all tower sections.": "Alle Turmbereiche einklappen.",
   "Expand standard tower sections.": "Standardbereiche des Turms ausklappen.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Höchstens acht sichtbare Reihen anzeigen.",
   "Default": "Standard",
   "Sections opened by default": "Standardmäßig geöffnete Bereiche",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Markierte Bereiche werden beim Platzieren eines neuen Minenturms geöffnet. Bestehende Türme bleiben unverändert."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Markierte Bereiche werden beim Platzieren eines neuen Minenturms geöffnet. Bestehende Türme bleiben unverändert.",
+  "Expand selected tower sections.": "Ausgewählte Turmbereiche ausklappen.",
+  "Tree planters": "Pflanzer",
+  "Tree harvesters": "Ernter",
+  "Tree planter rows": "Baumpflanzerreihen",
+  "Tree harvester rows": "Baumernterreihen",
+  "Mining Tower": "Minenturm",
+  "Forestry Tower": "Forstturm",
+  "Section": "Bereich",
+  "Expand": "Ausklappen",
+  "Max rows": "Max. Reihen",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Markierte Bereiche werden bei neu platzierten Türmen geöffnet. Bestehende Türme bleiben unverändert.",
+  "Checked sections open when the title-bar + button is used.": "Markierte Bereiche werden geöffnet, wenn die Schaltfläche + in der Titelleiste verwendet wird.",
+  "Maximum visible rows before a scrollbar appears.": "Maximale Anzahl sichtbarer Reihen, bevor eine Bildlaufleiste erscheint."
 }

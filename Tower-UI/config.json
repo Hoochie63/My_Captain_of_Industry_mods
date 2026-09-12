@@ -13,6 +13,20 @@
     "min": 1,
     "max": 8
   },
+  "tree_planter_visible_rows": {
+    "default": 4,
+    "is_integer": true,
+    "description": "Visible rows in Forestry Tower tree-planter sections.",
+    "min": 1,
+    "max": 8
+  },
+  "tree_harvester_visible_rows": {
+    "default": 4,
+    "is_integer": true,
+    "description": "Visible rows in Forestry Tower tree-harvester sections.",
+    "min": 1,
+    "max": 8
+  },
   "dump_material_visible_rows": {
     "default": 2,
     "is_integer": true,
@@ -55,6 +69,82 @@
     "default": false,
     "description": "Whether the import/export section starts open on newly placed Mining Towers."
   },
+  "default_tree_planter_section_open": {
+    "default": true,
+    "description": "Whether the tree-planter section starts open on newly placed Forestry Towers."
+  },
+  "default_tree_harvester_section_open": {
+    "default": true,
+    "description": "Whether the tree-harvester section starts open on newly placed Forestry Towers."
+  },
+  "default_forestry_route_section_open": {
+    "default": false,
+    "description": "Whether the import/export section starts open on newly placed Forestry Towers."
+  },
+  "default_afd_truck_pool_section_open": {
+    "default": false,
+    "description": "Whether the AFD truck-pool section starts open on newly placed Forestry Towers."
+  },
+  "default_afd_designations_section_open": {
+    "default": false,
+    "description": "Whether the AFD forestry-designations section starts open on newly placed Forestry Towers."
+  },
+  "default_afd_information_section_open": {
+    "default": false,
+    "description": "Whether the AFD forestry-information section starts open on newly placed Forestry Towers."
+  },
+  "expand_excavator_section": {
+    "default": true,
+    "description": "Whether the title-bar expand button opens Mining Tower excavators."
+  },
+  "expand_vehicle_section": {
+    "default": true,
+    "description": "Whether the title-bar expand button opens Mining Tower trucks."
+  },
+  "expand_material_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens Mining Tower materials/disposal."
+  },
+  "expand_route_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens Mining Tower routes."
+  },
+  "expand_tree_planter_section": {
+    "default": true,
+    "description": "Whether the title-bar expand button opens Forestry Tower tree planters."
+  },
+  "expand_tree_harvester_section": {
+    "default": true,
+    "description": "Whether the title-bar expand button opens Forestry Tower tree harvesters."
+  },
+  "expand_forestry_route_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens Forestry Tower routes."
+  },
+  "expand_afd_truck_pool_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens the AFD truck pool."
+  },
+  "expand_atd_mining_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens ATD mining designations."
+  },
+  "expand_atd_ore_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens ATD ore composition."
+  },
+  "expand_atd_farming_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens ATD farmland preparation."
+  },
+  "expand_afd_designations_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens AFD forestry designations."
+  },
+  "expand_afd_information_section": {
+    "default": false,
+    "description": "Whether the title-bar expand button opens AFD forestry information."
+  },
   "auto_hide_unowned_excavators": {
     "default": false,
     "description": "Automatically hide excavator variants that are not currently owned in the world."
@@ -63,12 +153,20 @@
     "default": false,
     "description": "Automatically hide truck and compatible vehicle variants that are not currently owned in the world."
   },
+  "auto_hide_unowned_tree_planters": {
+    "default": false,
+    "description": "Automatically hide tree-planter variants that are not currently owned in the world."
+  },
+  "auto_hide_unowned_tree_harvesters": {
+    "default": false,
+    "description": "Automatically hide tree-harvester variants that are not currently owned in the world."
+  },
   "hidden_vehicle_proto_ids_json": {
     "default": "{\"schemaVersion\":1,\"hiddenProtoIds\":[]}",
     "description": "Internal persisted manual fuel-type and individual-vehicle filter selections."
   },
   "tower_panel_state_json": {
-    "default": "{\"schemaVersion\":1,\"towers\":[]}",
-    "description": "Internal per-tower collapsed-state data for the four Tower UI sections."
+    "default": "{\"schemaVersion\":2,\"towers\":[]}",
+    "description": "Internal per-tower collapsed-state data for Mining and Forestry Tower sections."
   }
 }

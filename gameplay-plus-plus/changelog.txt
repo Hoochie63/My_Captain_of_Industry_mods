@@ -1,3 +1,69 @@
+v1.3.9 | 2026-09-04
+────────────────────────────────────────────────────────────────────────
+* THE HELICOPTER HQ NOW STORES HYDROGEN NEXT TO DIESEL AND REFUELS EACH HELICOPTER FROM THE FUEL IT ACTUALLY RUNS ON.
+
+  - Hydrogen gets its own tank of the same size, filled through the second pipe port or delivered by truck.
+
+  - The building window shows a separate level bar for each of the two fuels.
+
+  - Cargo Helicopter II H and III H are recognised by the HQ and get their own parking limit and priority, just like the diesel ones.
+
+────────────────────────────────────────────────────────────────────────
+* HELICOPTERS PARK AT THE HELICOPTER HQ AGAIN AFTER THE LATEST CARGO HELICOPTER UPDATE — THEY WERE FLYING TO AN OPEN HELIPORT INSTEAD (THANKS WOLF FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.3.8 | 2026-08-31
+────────────────────────────────────────────────────────────────────────
+* NEW GRAND MARKET — A LARGE SETTLEMENT MARKET THAT TAKES UP A FULL SIDE OF A HOUSING BLOCK AND STORES FOUR DIFFERENT FOODS AT ONCE.
+
+  - It takes the space of four normal settlement buildings and holds 1,500 of each of its four foods.
+
+  - It is not an upgrade of the Food market II — it is built separately and has its own research after Greenhouse II and Basic computing.
+
+  - It runs on 850 kW of electricity, 6 TF of computing, and tier 2 maintenance.
+
+  - It has no belt or pipe ports, so trucks deliver to it. You can assign your own trucks and tick "Accept assigned only" so it does not pull from your whole fleet.
+
+  - Why no ports you may ask? This was because of balance reasons, to not make it too good because it holds 1,500 instead of 400 per slot and also 4 food slots
+    instead of 2 slots from the Food market II.
+
+────────────────────────────────────────────────────────────────────────
+* THREE NEW SMALL WAREHOUSES — HALF-SIZE VERSIONS OF THE LARGE WAREHOUSES FOR UNITS, FLUIDS AND LOOSE MATERIALS (THANKS BELARIEAN OF CANADA FOR THE SUGGESTION).
+
+  - Each one is 5x5 instead of 10x10, holds two products instead of four, and has two inputs and two outputs.
+
+  - They hold 1,600 per slot, or 3,200 for fluids and gases, cost less to build and draw 150 kW instead of 360 kW.
+
+  - They unlock with the same Warehouse research and use the same colors as the large ones.
+
+────────────────────────────────────────────────────────────────────────
+* SEVERAL BUILDINGS NOW UNLOCK FROM DIFFERENT RESEARCH, SOME EARLIER AND SOME LATER IN THE TREE, FOR BETTER BALANCE ON PROGRESS.
+
+  - Molten Storage and the warehouses now come from Construction IV.
+
+  - The Huge Excavator, The Terex and the Heavy Tanker now come from Basic computing and Mega vehicles, and no longer wait behind each other.
+
+  - The Pipe Sorter now follows the Mixed Fluid Pipe, which is the machine it is meant to be paired with.
+
+────────────────────────────────────────────────────────────────────────
+* THE PIPE BALANCERS AND THE GAS/LIQUID SORTER NOW HAVE TO BE RESEARCHED — THEY WERE AVAILABLE FROM THE VERY START BY MISTAKE.
+
+  - The small pipe balancer comes first and costs the same as the vanilla belt balancer, then the gas/liquid sorter, then the large pipe balancer.
+
+  - Each one costs more than the last, so they arrive gradually instead of all being free on day one.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED A CRASH ON GAME START WITH MANY MODS INSTALLED — THE ERROR BLAMED CHEAT++ OR ANOTHER MOD, BUT THE CAUSE WAS HERE (THANKS WARRENC FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* THE WAREHOUSES ARE NOW NAMED LARGE WAREHOUSE FLAT, FLUID AND LOOSE, SO THEY SIT NEXT TO THE NEW SMALL ONES IN THE BUILD MENU.
+
+────────────────────────────────────────────────────────────────────────
+* THE MOD'S RESEARCH IS LAID OUT MORE CLEARLY AND NO LONGER SITS ON TOP OF VANILLA OR OTHER MODS' RESEARCH IN THE TREE.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.7 | 2026-08-28
 ────────────────────────────────────────────────────────────────────────
 * THE HEAVY HAULER AND HEAVY TANKER NOW USE THE VANILLA TRUCK MODELS INSTEAD OF THEIR OWN CUSTOM ONES, WHICH RUNS A LOT BETTER ON BIG BASES WITH MANY VEHICLES.

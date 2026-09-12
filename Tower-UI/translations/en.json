@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptive Tower UI",
+  "Vehicle Filters": "Vehicle Filters",
   "Settings": "Settings",
   "Collapse all tower sections.": "Collapse all tower sections.",
   "Expand standard tower sections.": "Expand standard tower sections.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Show the maximum of eight visible rows.",
   "Default": "Default",
   "Sections opened by default": "Sections opened by default",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Checked sections open when placing a new Mining Tower. Existing towers are unchanged."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.",
+  "Expand selected tower sections.": "Expand selected tower sections.",
+  "Tree planters": "Planter",
+  "Tree harvesters": "Harvester",
+  "Tree planter rows": "Tree planter rows",
+  "Tree harvester rows": "Tree harvester rows",
+  "Mining Tower": "Mining Tower",
+  "Forestry Tower": "Forestry Tower",
+  "Section": "Section",
+  "Expand": "Expand",
+  "Max rows": "Max rows",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Checked sections open on newly placed towers. Existing towers are unchanged.",
+  "Checked sections open when the title-bar + button is used.": "Checked sections open when the title-bar + button is used.",
+  "Maximum visible rows before a scrollbar appears.": "Maximum visible rows before a scrollbar appears."
 }

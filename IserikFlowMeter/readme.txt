@@ -1,5 +1,5 @@
-FlowMeter mod for Captain of Industry
-Measure exact ot your belt and pipes throughput
+Advanced Flow Control & Monitor mod for Captain of Industry
+Take control of your logistics with precise flow monitoring, historical data, alarms, and active throughput control.
 
 How to install this mod
 =======================

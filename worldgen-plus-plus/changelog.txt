@@ -1,3 +1,17 @@
+v1.2.2 | 2026-09-04
+────────────────────────────────────────────────────────────────────────
+* EVERY NEW GAME GETS A DIFFERENT WORLD MAP AGAIN (THANKS WARRENC FOR THE REPORT).
+
+  - The game seed changes the map layout, connections, pirate and mine locations. The same seed always gives the same map.
+
+  - Each seed picks its own rotation, mirroring, stretch and node spread, so maps look clearly different from each other instead of the same shape with a wobble.
+
+  - World size and node count change the layout shape too, so a 2000 km map and a 6000 km map are different worlds even with the same seed.
+
+  - The WorldGen tab preview uses the seed from the Customization tab and updates as you type, showing the layout and connections the real map will have. Bigger maps draw bigger in the preview.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.1 | 2026-08-29
 ────────────────────────────────────────────────────────────────────────
 * SAVES THAT HAVE LITHIUM MINES ON THE WORLD MAP LOAD AGAIN INSTEAD OF SAYING THE CONTENT IS MISSING (THANKS PETTER566 FOR THE REPORT).

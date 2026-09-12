@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Адаптивний інтерфейс веж",
+  "Vehicle Filters": "Фільтри машин",
   "Settings": "Налаштування",
   "Collapse all tower sections.": "Згорнути всі розділи вежі.",
   "Expand standard tower sections.": "Розгорнути стандартні розділи вежі.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Показати щонайбільше вісім видимих рядів.",
   "Default": "За замовчуванням",
   "Sections opened by default": "Розділи, відкриті за замовчуванням",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Позначені розділи відкриваються під час розміщення нової диспетчерської вежі. Існуючі вежі не змінюються."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Позначені розділи відкриваються під час розміщення нової диспетчерської вежі. Існуючі вежі не змінюються.",
+  "Expand selected tower sections.": "Розгорнути вибрані розділи вежі.",
+  "Tree planters": "Садильник",
+  "Tree harvesters": "Харвестер",
+  "Tree planter rows": "Ряди лісосадильних машин",
+  "Tree harvester rows": "Ряди лісозаготівельних машин",
+  "Mining Tower": "Диспетчерська вежа",
+  "Forestry Tower": "Лісова вежа",
+  "Section": "Розділ",
+  "Expand": "Розгорнути",
+  "Max rows": "Макс. рядів",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Позначені розділи відкриваються в щойно розміщених вежах. Існуючі вежі не змінюються.",
+  "Checked sections open when the title-bar + button is used.": "Позначені розділи відкриваються після використання кнопки + у заголовку.",
+  "Maximum visible rows before a scrollbar appears.": "Максимальна кількість видимих рядів до появи смуги прокручування."
 }

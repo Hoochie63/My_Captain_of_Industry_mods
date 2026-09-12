@@ -1,4 +1,29 @@
-Version 1.0.3 | 16.08.2026
-* Hovering a storage in the selection list now highlights that tank in the world with a pulsing outline.
-* The hover highlight is green for a shared pipe network and red when no shared pipe network exists.
-* Selecting a storage now gives a short green confirmation highlight.
+Smart Flare Mod – Changelog
+
+Version 1.0.4 | 2026-09-04
+- Translations now live in the translations folder and can be edited without rebuilding the mod.
+- The familiar flare controls are now available for small and large smokestacks and both incinerators.
+- Choose a suitable storage and set the fill levels at which the building should start or pause.
+- New gas and steam buffer with room for 200 units. It stores exhaust, oxygen, nitrogen, carbon dioxide or one of the four steam grades.
+- The new buffer has its own build-menu icon with steam and exhaust symbols.
+- Both incinerators support suitable loose and unit storages, including meat trimmings and chicken carcasses.
+- With a storage selected, only its product is burned. If it is unavailable, the building waits. Required water and fuel gases remain allowed. A batch already in progress may finish.
+- Other suitable storages remain visible in the list and can still be selected. A matching recipe must be assigned before burning.
+- Without a storage selected, all assigned recipes remain allowed.
+- Improved pipe and conveyor connection detection, including routes through balancers.
+- Improved storage, connection and recipe information.
+
+Important: Saves containing the new gas and steam buffer still require this mod.
+
+Version 1.0.3 | 2026-08-16
+- Hover over a storage in the list to highlight it in the world with a pulsing outline.
+- Green means a suitable pipe connection; red means no connection.
+- Selecting a storage briefly highlights it in green.
+
+Version 1.0.2 | 2026-08-05
+- Clearer controls for storage selection, connection status and fill levels.
+- Easier-to-read product, distance and storage-size information.
+- Nearby storages appear first in the list.
+- Improved sliders, labels and help text.
+- Flare controls follow the language selected in the game.
+- Storage selection and fill-level settings can be copied using the game's normal copy tools and blueprints.

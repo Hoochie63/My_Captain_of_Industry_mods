@@ -1,0 +1,21 @@
+V1.0.2
+------
+- Added Config
+  - Collision_Height_Offset:    Specifies the height offset for the pier walls. Default is 0.
+  - Sort_In_Category:           Specifies whether the buildings should be assigned to a mod-specific category. Default is true.
+	
+- Added Console Commands
+  - SetHeightOffset(int value): Sets the height offset for the pier walls. Example: SetHeightOffset -20
+  - GetHeightOffset:            Gets the current height offset for the pier walls.
+  - SetCategory(bool value):    Specifies whether the buildings should be assigned to a mod-specific category. Example: SetCategory true
+  - GetCategory:                Gets the value of the mod-specific category setting.
+	
+- Added Changelog
+
+V1.0.1
+------
+- Added thumbnail for the Mod in the Mod Manager.
+
+V1.0.0
+------
+- Initial release of the project with basic features and functionalities.

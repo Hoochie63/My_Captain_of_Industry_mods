@@ -1,0 +1,8 @@
+{
+  "show_overlay": { "default": true, "description": "Show parking cones and exit arrow." },
+  "scan_interval_seconds": { "default": 1.0, "description": "Seconds between parking scans.", "min": 0.25, "max": 10.0 },
+  "idle_grace_seconds": { "default": 10.0, "description": "How long a vehicle must remain idle before parking.", "min": 1.0, "max": 120.0 },
+  "allow_smaller_vehicles": { "default": true, "description": "Allow smaller compatible vehicles to use a larger public parking spot." },
+  "require_idle_vehicle": { "default": true, "description": "Only route vehicles that have no current job." },
+  "auto_assign_public_spots": { "default": true, "description": "Allow automatic use of public and category parking spots." }
+}

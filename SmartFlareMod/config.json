@@ -1,7 +1,11 @@
 {
-    "smart_flare_state": {
-        "default": "",
-        "max_length": 50000,
-        "description": "Внутренние данные сохранения мода «Smart Flare». Не изменяйте вручную."
-    }
+  "building_diagnostics": {
+    "default": false,
+    "description": "Schreibt beim Anklicken eines Gebäudes einen ausführlichen SmartFlare-Diagnoseblock ins Info-Log."
+  },
+  "smart_flare_state": {
+    "default": "",
+    "max_length": 50000,
+    "description": "Interne Spielstanddaten von Smart Flare Mod. Nicht manuell ändern."
+  }
 }

@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptacyjny interfejs wież",
+  "Vehicle Filters": "Filtry pojazdów",
   "Settings": "Ustawienia",
   "Collapse all tower sections.": "Zwiń wszystkie sekcje wieży.",
   "Expand standard tower sections.": "Rozwiń standardowe sekcje wieży.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Pokaż maksymalnie osiem widocznych rzędów.",
   "Default": "Domyślne",
   "Sections opened by default": "Sekcje otwarte domyślnie",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Zaznaczone sekcje otwierają się po postawieniu nowej wieży górniczej. Istniejące wieże pozostają bez zmian."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Zaznaczone sekcje otwierają się po postawieniu nowej wieży górniczej. Istniejące wieże pozostają bez zmian.",
+  "Expand selected tower sections.": "Rozwiń wybrane sekcje wieży.",
+  "Tree planters": "Sadzarka",
+  "Tree harvesters": "Harwester",
+  "Tree planter rows": "Rzędy sadzarek drzew",
+  "Tree harvester rows": "Rzędy maszyn leśnych",
+  "Mining Tower": "Wieża górnicza",
+  "Forestry Tower": "Wieża leśna",
+  "Section": "Sekcja",
+  "Expand": "Rozwiń",
+  "Max rows": "Maks. rzędów",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Zaznaczone sekcje otwierają się w nowo postawionych wieżach. Istniejące wieże pozostają bez zmian.",
+  "Checked sections open when the title-bar + button is used.": "Zaznaczone sekcje otwierają się po użyciu przycisku + na pasku tytułu.",
+  "Maximum visible rows before a scrollbar appears.": "Maksymalna liczba widocznych rzędów przed pojawieniem się paska przewijania."
 }

@@ -1,7 +1,7 @@
 TOWER UI
 ========
 
-Stops oversized Mining Tower sections from clipping content.
+Stops oversized Mining and Forestry Tower sections from clipping content.
 
 ROWS AND SCROLLING
 ------------------
@@ -10,6 +10,8 @@ Choose one to eight visible rows for:
 
 - Excavators
 - Trucks
+- Tree planters
+- Tree harvesters
 - Materials and disposal notifications
 - Import and export routes
 
@@ -20,7 +22,7 @@ Choose one to eight visible rows for:
 VEHICLE FILTERS
 ---------------
 
-- Excavators and trucks use separate settings pages.
+- Excavators, trucks, tree planters, and tree harvesters use separate settings pages.
 - [Auto-hide unowned]: Show only built variants.
 - Manual filters: Fuel type or individual vehicle.
 - [Show all]: Restore every available variant.
@@ -28,30 +30,32 @@ VEHICLE FILTERS
 COLLAPSE CONTROLS
 -----------------
 
-- Collapse every tower section instantly.
-- Expand only the four standard sections.
-- Each tower remembers its collapsed sections.
+- Collapse every section in the current tower instantly.
+- Choose which sections the title-bar expand button opens.
+- Each Mining and Forestry Tower remembers its own collapsed sections.
 - Collapse-all also saves Auto Terrain Designations section states when installed.
+- Auto Forestry Designations sections and truck pools are supported when installed.
 
 NEW TOWER DEFAULTS
 ------------------
 
-- Choose which sections start open on newly placed Mining Towers.
+- Choose which sections start open on newly placed Mining and Forestry Towers.
 - Existing towers retain their individual collapsed-section states.
-- Auto Terrain Designations sections appear when that mod is installed.
+- Auto Terrain Designations and Auto Forestry Designations sections appear when installed.
 - Section names use their live localized text.
 
 SETTINGS WINDOW
 ---------------
 
+- One shared Settings window serves every supported tower and never opens duplicate copies.
 - Resize the settings window horizontally from its native width up to 130%.
 
 COMPATIBILITY
 -------------
 
-- Verified for Captain of Industry 0.8.7b.
+- Verified for Captain of Industry 0.8.7c.
 - Supports compatible vanilla and modded vehicles.
-- Works with Gameplay++ and Auto Terrain Designations.
+- Works with Gameplay++, Auto Terrain Designations, and Auto Forestry Designations.
 - Keeps native localized names unchanged.
 - Safe to add or remove mid-save.
 
@@ -71,4 +75,4 @@ PACKAGE IDENTITY
 - Runtime DLL: TowerUI.dll
 
 Disable or remove Adaptive Mining Tower UI before enabling Tower UI. Both mods
-manage the same Mining Tower panels and should not be loaded together.
+manage the same tower panels and should not be loaded together.

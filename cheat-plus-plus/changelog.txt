@@ -1,3 +1,53 @@
+v1.4.5 | 2026-09-05
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW OPENS SMALLER ON 1080P SCREENS SO IT NO LONGER FILLS THE WHOLE SCREEN (THANKS MAG FOR MENTIONING IT).
+
+  - The first launch after this update on a 1080p screen resets the window to the new size and sets the scale to 95%, then your own resizing and scale choice are kept as before.
+
+  - Double-click the resize grip in the bottom-right corner to get back to the default size at any time.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.4.4 | 2026-09-04
+────────────────────────────────────────────────────────────────────────
+* THE UNDERGROUND NETWORK WINDOW CAN BE MOVED WHEN TWEAKS++ IS NOT INSTALLED — HOLD CTRL AND DRAG WITH THE LEFT MOUSE BUTTON, AND IT REMEMBERS WHERE YOU PUT IT.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.4.3 | 2026-08-30
+────────────────────────────────────────────────────────────────────────
+* FIXED THE GAME CRASHING FOR LINUX PLAYERS WHEN LOADING A SAVE — IT NOW LOADS ALL THE WAY THROUGH (THANKS LINKAL AND ATLANTA FOR THE REPORTS AND TESTING).
+
+────────────────────────────────────────────────────────────────────────
+* THE VEHICLES/TRAINS TAB IS REBUILT — PICK A VEHICLE OR WAGON FROM A ROW OF LARGE ICONS INSTEAD OF THE OLD POP-UP LIST.
+
+  - The one you pick gets a gold outline and its stats appear just above it, ready to type into.
+
+  - Small fuel badges under each vehicle show which fuel types you can currently build it with.
+
+  - A star marks every vehicle you have already given new values, so your changes are easy to find again.
+
+  - Tick "What is owned" to hide everything you do not own yet.
+
+  - Wagons are sorted by name, so each type sits next to its other tier.
+
+  - Vehicles are ordered by what they are and how much they carry, so your trucks sit together and your excavators sit together, smallest first.
+
+  - Drag the Overlord window wider and the vehicle and wagon rows spread out to use the space instead of stopping at a set number per row.
+
+  (THANKS VLADOVLAK FOR THE SUGGESTION OF IMPROVING THE UI THAT LED TO THIS TOTAL REMAKE OF THE UI)
+
+────────────────────────────────────────────────────────────────────────
+* THE FAKE POWER, COMPUTING AND FOCUS POINT CHEATS NOW GO UP TO 35000 INSTEAD OF 10000, SO THEY CAN CARRY A BIGGER FACTORY (THANKS MCDANE FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.4.2 | 2026-08-29
+────────────────────────────────────────────────────────────────────────
+* THE RAINWATER HARVESTER WINDOW HAS FILL AND EMPTY BUTTONS AT THE BOTTOM, SO YOU CAN TOP UP OR DRAIN ITS WATER IN ONE CLICK (THANKS LIQUID5150 FOR THE SUGGESTION).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.1 | 2026-08-28
 ────────────────────────────────────────────────────────────────────────
 * THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.

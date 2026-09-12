@@ -1,40 +1,52 @@
 {
     "colorByProduct": {
         "default": false,
-        "description": "Окрашивать подземное рентгеновское наложение по жидкости, текущей по трубе, а не по глубине залегания. Так можно сразу понять, что именно транспортирует каждая подземная труба."
+        "description": "Legacy 0.9 setting. On the first 1.0 load, true selects the Product network view; use networkView afterwards."
+    },
+    "layerView": {
+        "default": "all",
+        "description": "Visible and selectable underground layer: all, 1, 2, 3, or exact layer 4. Legacy value 4+ is still accepted as layer 4."
+    },
+    "networkView": {
+        "default": "legacy",
+        "description": "X-ray colouring mode: legacy (migrate colorByProduct), depth, product, or diagnostics."
     },
     "showReadout": {
         "default": true,
-        "description": "Показать всплывающую панель с данными у курсора при наведении на трубу (жидкость, количество, индикатор заполнения, поток течёт/остановлен, а также значки строения-источника и строения-получателя). Отключите, чтобы убрать эту функцию целиком."
+        "description": "Show the hover read-out panel at the cursor when you point at a pipe (product, amount or percentage, and source/destination building icons). Turn off to disable the whole feature."
     },
     "showBuildingIcons": {
         "default": true,
-        "description": "Показать во всплывающей подсказке значок строения, которое подаёт жидкость в трубу (значок слева), и строение его принимающее (значок справа). Отключите, чтобы показывать только жидкость."
+        "description": "In the hover read-out, show the icon of the building that feeds the pipe (left) and the building it feeds (right). Turn off to show only the product."
     },
     "iconSize": {
         "default": 40,
         "is_integer": true,
-        "description": "Размер значков строений и жидкостей во всплывающей подсказке и интерфейсе (в пикселях). Вступает в силу после перезагрузки игры.",
+        "description": "Size (in pixels) of the building/product icons in the read-out and inspector. Takes effect on the next game session.",
         "min": 16,
         "max": 96
     },
     "colorShallow": {
         "default": "00d2ff",
-        "description": "Цвет рентгеновского наложения для самого неглубокого подземного уровня трубы (в формате HEX RRGGBB). По умолчанию — голубой."
+        "description": "X-ray overlay colour for the shallowest buried level (hex RRGGBB). Default cyan."
     },
     "colorDeep": {
         "default": "ff7700",
-        "description": "Цвет рентгеновского наложения для самого глубокого подземного уровня трубы (в формате HEX RRGGBB). Промежуточные уровни смешиваются между этими цветами. По умолчанию — оранжевый."
+        "description": "X-ray overlay colour for the deepest buried level (hex RRGGBB). Levels in between are blended. Default orange."
     },
     "overlayBrightness": {
         "default": 40,
         "is_integer": true,
-        "description": "Общая яркость/прозрачность всего рентгеновского наложения подземных труб, в процентах (0 = невидимо). Уменьшите, если трубы выглядят слишком яркими. Применяется ко всем подземным трубам сразу.",
+        "description": "Overall brightness/opacity of the whole underground x-ray overlay, in percent (0 = invisible). Lower it if the pipes look too bright. Applies to all buried pipes at once.",
         "min": 0,
         "max": 100
     },
     "showInspector": {
         "default": true,
-        "description": "Добавить секцию «Источник → Приёмник» в стандартный интерфейс трубы (открывается кликом по трубе). Показывает реальное строение, подающее жидкость в трубу, и строение, которое её принимает (с учётом соединителей и балансировщиков), уровень заполнения их резервуаров; а по значкам можно кликнуть, чтобы камера переместилась к этому строению."
+        "description": "Add a 'source -> destination' section to the game's own pipe panel (open it by clicking a pipe): it shows the real building that feeds the pipe and the one it feeds (walking through connectors/balancers), how full those tanks are, and the icons are clickable to fly the camera there."
+    },
+    "showFlowArrows": {
+        "default": true,
+        "description": "Show batched animated direction arrows on buried x-ray pipes. Animation speed follows actual moved product steps; stopped networks use diagnostic colours."
     }
 }

@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptivt torngränssnitt",
+  "Vehicle Filters": "Fordonsfilter",
   "Settings": "Inställningar",
   "Collapse all tower sections.": "Fäll ihop alla tornsektioner.",
   "Expand standard tower sections.": "Fäll ut tornets standardsektioner.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Visa högst åtta synliga rader.",
   "Default": "Standard",
   "Sections opened by default": "Sektioner öppna som standard",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Markerade sektioner öppnas när ett nytt gruvtorn placeras. Befintliga torn förblir oförändrade."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Markerade sektioner öppnas när ett nytt gruvtorn placeras. Befintliga torn förblir oförändrade.",
+  "Expand selected tower sections.": "Expandera valda tornsektioner.",
+  "Tree planters": "Planterare",
+  "Tree harvesters": "Skördare",
+  "Tree planter rows": "Rader med trädplanterare",
+  "Tree harvester rows": "Rader med skogsmaskiner",
+  "Mining Tower": "Gruvtorn",
+  "Forestry Tower": "Skogstorn",
+  "Section": "Sektion",
+  "Expand": "Expandera",
+  "Max rows": "Max rader",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Markerade sektioner öppnas på nyligen placerade torn. Befintliga torn förblir oförändrade.",
+  "Checked sections open when the title-bar + button is used.": "Markerade sektioner öppnas när knappen + i namnlisten används.",
+  "Maximum visible rows before a scrollbar appears.": "Maximalt antal synliga rader innan en rullningslist visas."
 }

@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "適応型タワーUI",
+  "Vehicle Filters": "車両フィルター",
   "Settings": "設定",
   "Collapse all tower sections.": "タワーの全セクションを折りたたみます。",
   "Expand standard tower sections.": "タワーの標準セクションを展開します。",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "表示行数を最大の8行にします。",
   "Default": "既定",
   "Sections opened by default": "デフォルトで開くセクション",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "チェックしたセクションは、新しい採掘タワーを設置したときに開きます。既存のタワーは変更されません。"
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "チェックしたセクションは、新しい採掘タワーを設置したときに開きます。既存のタワーは変更されません。",
+  "Expand selected tower sections.": "選択したタワーのセクションを展開します。",
+  "Tree planters": "植林機",
+  "Tree harvesters": "伐採機",
+  "Tree planter rows": "植林機の行数",
+  "Tree harvester rows": "伐採機の行数",
+  "Mining Tower": "採掘タワー",
+  "Forestry Tower": "林業タワー",
+  "Section": "セクション",
+  "Expand": "展開",
+  "Max rows": "最大行数",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "チェックしたセクションは、新しく設置したタワーで開きます。既存のタワーは変更されません。",
+  "Checked sections open when the title-bar + button is used.": "タイトルバーの + ボタンを使用すると、チェックしたセクションが開きます。",
+  "Maximum visible rows before a scrollbar appears.": "スクロールバーが表示されるまでの最大表示行数です。"
 }

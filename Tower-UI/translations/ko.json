@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "적응형 타워 UI",
+  "Vehicle Filters": "차량 필터",
   "Settings": "설정",
   "Collapse all tower sections.": "타워의 모든 구역을 접습니다.",
   "Expand standard tower sections.": "타워의 기본 구역을 펼칩니다.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "최대 여덟 행을 표시합니다.",
   "Default": "기본값",
   "Sections opened by default": "기본으로 열리는 섹션",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "체크한 섹션은 새 채굴 타워를 배치할 때 열립니다. 기존 타워는 변경되지 않습니다."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "체크한 섹션은 새 채굴 타워를 배치할 때 열립니다. 기존 타워는 변경되지 않습니다.",
+  "Expand selected tower sections.": "선택한 타워 섹션을 펼칩니다.",
+  "Tree planters": "식재기",
+  "Tree harvesters": "수확기",
+  "Tree planter rows": "나무 식재 차량 행",
+  "Tree harvester rows": "나무 수확 차량 행",
+  "Mining Tower": "채굴 타워",
+  "Forestry Tower": "임업 타워",
+  "Section": "섹션",
+  "Expand": "펼치기",
+  "Max rows": "최대 행",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "체크한 섹션은 새로 배치한 타워에서 열립니다. 기존 타워는 변경되지 않습니다.",
+  "Checked sections open when the title-bar + button is used.": "제목 표시줄의 + 버튼을 사용하면 체크한 섹션이 열립니다.",
+  "Maximum visible rows before a scrollbar appears.": "스크롤바가 나타나기 전까지 표시할 최대 행 수입니다."
 }

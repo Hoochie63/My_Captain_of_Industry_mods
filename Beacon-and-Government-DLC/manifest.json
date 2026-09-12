@@ -1,6 +1,6 @@
 {
   "id": "Beacon-and-Government-DLC",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "display_name": "Beacon & Government+",
   "description_short": "Overhauls Beacon's reward mechanics to extend its usefulness into the mid-to-late game. Research-based product rewards & Captain's Currency 🪙 used for new bartering systems.",
   "description_long": "Expands the Government and Beacon reward system through a dedicated six-node research branch with placeable Relay Beacons, Captain's Exchanges, Government Offices, reward policies, and regional subsidies. Each completed Beacon cycle adds research-gated randomized supplies and Captain's Currency scaled from the saved full-cycle Unity average. Exchange purchases prepare for three months before a transient vanilla cargo ship follows real water routes to the Exchange and safely transfers the saved order to the Shipyard.",

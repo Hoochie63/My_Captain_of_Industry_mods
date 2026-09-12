@@ -1,0 +1,100 @@
+[
+  ["ColibriIndustries_ToolbarCategory_Root__name", "Colibri Industries"],
+  ["ColibriIndustries_GeneratorLarge__name", "Colibri 发电机"],
+  ["ColibriIndustries_GeneratorLarge__desc", "使用热解气发电的 Colibri Industries 发电机。"],
+  ["ColibriIndustries_Research_PyrolysisPower__name", "热解发电"],
+  ["ColibriIndustries_Research_PyrolysisPower__desc", "扩展 Colibri Industries 对热解产物的利用。Colibri 发电机燃烧热解气发电，将塑料废物处理的副产物转化为有用的能源。"],
+  ["ColibriIndustries_PyrolysisOil__name", "热解油"],
+  ["ColibriIndustries_PyrolysisGas__name", "热解气"],
+  ["ColibriIndustries_CarbonResidue__name", "碳残渣"],
+  ["ColibriIndustries_Recipe_BasicDistillerPyrolysis__name", "塑料热解"],
+  ["ColibriIndustries_Recipe_BasicDistillerPyrolysis__desc", "将塑料和煤加工为热解油、热解气、碳残渣和二氧化碳。"],
+  ["ColibriIndustries_BasicDistiller__name", "Colibri 热解处理器"],
+  ["ColibriIndustries_BasicDistiller__desc", "将塑料废物热解为热解油、热解气和碳残渣，供后续工业生产使用。"],
+  ["ColibriIndustries_CrusherLarge__name", "Colibri 筛分机"],
+  ["ColibriIndustries_CrusherLarge__desc", "用于破碎和机械筛分 GSG 的工业设备，分离砾石并制备玻璃原料。"],
+  ["ColibriIndustries_RotaryKiln__name", "Colibri 热处理器"],
+  ["ColibriIndustries_RotaryKiln__desc", "对玻璃原料和再生塑料进行高温处理，制成供后续生产使用的熔融材料。"],
+  ["ColibriIndustries_Research_BasicDistiller__name", "热解技术"],
+  ["ColibriIndustries_Research_BasicDistiller__desc", "解锁 Colibri Industries 的热解处理技术以及热解产品的后续利用。"],
+  ["ColibriIndustries_Research_CrusherLarge__name", "原料热处理"],
+  ["ColibriIndustries_Research_CrusherLarge__desc", "解锁 Colibri Industries 的原料热处理技术，使制备好的玻璃原料和再生塑料能够熔化并用于后续生产。"],
+  ["ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__name", "GSG 分离"],
+  ["ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__desc", "破碎并筛分 GSG，将碎石与砂玻璃组分分离，生产玻璃原料，同时会损失少量细料。"],
+  ["ColibriIndustries_WasteRecycler__name", "Colibri 水力分离器"],
+  ["ColibriIndustries_Kiln__name", "Colibri 窑炉"],
+  ["ColibriIndustries_Research_Kiln__name", "Colibri Industries 基础"],
+  ["ColibriIndustries_Research_Kiln__desc", "Colibri Industries 发展的第一步。窑炉用泥土和煤烧制坚固砖块，为后续设施和技术提供基础建材。"],
+  ["ColibriIndustries_Kiln__desc", "使用煤将泥土烧制成砖的紧凑型工业窑炉，为 Colibri Industries 的后续发展提供基础建材。"],
+  ["ColibriIndustries_Recipe_KilnBrickProduction__name", "砖块生产"],
+  ["ColibriIndustries_Recipe_KilnBrickProduction__desc", "用煤炭烧制泥土以生产砖块。"],
+  ["ColibriIndustries_PlasticWasteUnit__name", "塑料废料"],
+  ["ColibriIndustries_RecycledPlastic__name", "再生塑料"],
+  ["ColibriIndustries_RecycledPlastic__desc", "由塑料废料粉碎制成、用于后续加工的散装再生塑料。"],
+  ["ColibriIndustries_MoltenPlastic__name", "熔融塑料"],
+  ["ColibriIndustries_MoltenPlastic__desc", "可通过熔融物料通道输送并用于后续工业加工的熔融塑料。"],
+  ["ColibriIndustries_Shredder__name", "Colibri 粉碎机"],
+  ["ColibriIndustries_Shredder__desc", "Colibri Industries 粉碎机，可将塑料废料加工成散装再生塑料。"],
+  ["ColibriIndustries_Recipe_Shredder_RecycledPlastic__name", "塑料回收"],
+  ["ColibriIndustries_Recipe_Shredder_RecycledPlastic__desc", "将塑料废料粉碎成散装再生塑料，以便进一步加工。"],
+  ["ColibriIndustries_PolymerPlant__name", "Colibri 聚合物工厂"],
+  ["ColibriIndustries_PolymerPlant__desc", "将熔融材料加工成工业产品的 Colibri Industries 设施。"],
+  ["ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__name", "熔融塑料聚合"],
+  ["ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__desc", "使用水将熔融塑料加工成塑料，同时产生乏汽。"],
+  ["ColibriIndustries_Research_PolymerProduction__name", "聚合物生产"],
+  ["ColibriIndustries_Research_PolymerProduction__desc", "解锁 Colibri 聚合物工厂，用于高级聚合物加工。"],
+  ["ColibriIndustries_WasteRecycler__desc", "对废物浆料进行深度分离，提取有用组分并为后续加工准备回收材料。"],
+  ["ColibriIndustries_SlurryPlantT1__name", "Colibri 水处理器"],
+  ["ColibriIndustries_SlurryPlantT1__desc", "初级废物水处理设备，将废物与水混合制成废物浆料，供后续分离和净化。"],
+  ["ColibriIndustries_SlurryPlantT2__name", "Colibri 水处理器 II"],
+  ["ColibriIndustries_SlurryPlantT2__desc", "面向更大废物处理量的高级水处理器，可更高效地为后续工序供应废物浆料。"],
+  ["ColibriIndustries_WasteSlurry__name", "废物浆料"],
+  ["ColibriIndustries_WasteSlurry__desc", "废物浆料是将固体废物与水混合形成的悬浮液。它是一种通过管道运输，并在回收处理链中进一步加工的中间产品。"],
+  ["ColibriIndustries_MineralMix__name", "GSG"],
+  ["ColibriIndustries_MineralMix__desc", "GSG（Gravel–Sand–Glass）是一种由碎石、砂和碎玻璃组成的回收非均质混合物，需要进一步处理和分离。"],
+  ["ColibriIndustries_GlassFeedstock__name", "玻璃原料"],
+  ["ColibriIndustries_GlassFeedstock__desc", "从 GSG 中分离碎石后得到的砂与碎玻璃预处理组分，用于玻璃生产中的后续热加工。"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromWaste__name", "废物浆料"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromWaste__desc", "将废物与水混合以生产废物浆料。"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__name", "压缩废物浆料"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__desc", "将压缩废物与水混合以生产废物浆料。"],
+  ["ColibriIndustries_Recipe_WasteSlurry_Separation__name", "废物浆料分离"],
+  ["ColibriIndustries_Recipe_WasteSlurry_Separation__desc", "使用碎石和沙子将废物浆料分离为废水、沉淀物、生物质和 GSG。"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__name", "预分拣废物浆料"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__desc", "预先分拣废物以回收可回收物，然后将剩余废物与水混合制成废物浆料。"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__name", "压缩废物浆料 II"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__desc", "用水处理压缩废物，同时回收可回收材料。"],
+  ["ColibriIndustries_Research_WasteRecycler__name", "废物水处理"],
+  ["ColibriIndustries_Research_WasteRecycler__desc", "Colibri Industries 的下一阶段。水处理器将废物与水混合成浆料，以便进一步分离、净化和回收材料。"],
+  ["ColibriIndustries_Research_PressedWasteSlurry__name", "高级水处理"],
+  ["ColibriIndustries_Research_PressedWasteSlurry__desc", "扩展 Colibri Industries 的水处理能力，解锁更多废物处理方式，并改进废物浆料生产以支持后续处理阶段。"],
+  ["ColibriIndustries_Research_WasteSlurrySeparation__name", "废物水力分离"],
+  ["ColibriIndustries_Research_WasteSlurrySeparation__desc", "深化 Colibri Industries 废物处理，将浆料分成有用组分，并把回收材料送回生产循环。"],
+  ["ColibriIndustries_Research_SlurryPlantT2__name", "工业水处理"],
+  ["ColibriIndustries_Research_SlurryPlantT2__desc", "将 Colibri Industries 水处理提升到工业规模。解锁 Colibri 水处理器 II，这是一座可更大规模、更高效地处理废物并制备废物浆料的先进设施。"],
+  ["ColibriIndustries_EnvironmentalScore_Title","环境评分"], ["ColibriIndustries_EnvironmentalScore_Impact","环境影响"], ["ColibriIndustries_EnvironmentalScore_Trees","树木"], ["ColibriIndustries_EnvironmentalScore_TreesCut","砍伐树木"], ["ColibriIndustries_EnvironmentalScore_TreesPlanted","种植树木"], ["ColibriIndustries_EnvironmentalScore_WasteDumped","倾倒废物"], ["ColibriIndustries_EnvironmentalScore_Industrial","工业污染"], ["ColibriIndustries_EnvironmentalScore_Vehicles","车辆污染"], ["ColibriIndustries_EnvironmentalScore_Trains","火车污染"], ["ColibriIndustries_EnvironmentalScore_Ships","船舶污染"], ["ColibriIndustries_EnvironmentalScore_Water","水污染"], ["ColibriIndustries_EnvironmentalScore_Radiation","辐射"], ["ColibriIndustries_EnvironmentalScore_Health","人口健康"], ["ColibriIndustries_EnvironmentalScore_Food","粮食安全"], ["ColibriIndustries_EnvironmentalScore_Healthy","健康"], ["ColibriIndustries_EnvironmentalScore_Stable","稳定"], ["ColibriIndustries_EnvironmentalScore_Declining","下降"], ["ColibriIndustries_EnvironmentalScore_Unhealthy","不健康"], ["ColibriIndustries_EnvironmentalScore_FoodStable","食物供应稳定"], ["ColibriIndustries_EnvironmentalScore_FoodShortage","食物短缺"], ["ColibriIndustries_EnvironmentalScore_FoodSevere","严重食物短缺"], ["ColibriIndustries_EnvironmentalScore_FoodCritical","严重食物短缺／饥饿"], ["ColibriIndustries_EnvironmentalScore_Contribution","贡献"], ["ColibriIndustries_EnvironmentalScore_Lifetime","累计"], ["ColibriIndustries_EnvironmentalScore_Move","按住 Ctrl 拖动以移动"]
+, ["ColibriIndustries_ToolbarCategory_Production__name", "生产"]
+, ["ColibriIndustries_ToolbarCategory_ElectricityGeneration__name", "电力生产"]
+, ["ColibriIndustries_ToolbarCategory_FuelRecycling__name", "燃料回收"]
+, ["ColibriIndustries_ToolbarCategory_WasteRecycling__name", "废物回收"]
+, ["ColibriIndustries_EnvironmentalScore_Points", "分"]
+, ["ColibriIndustries_EnvironmentalScore_LockPosition", "锁定位置"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__name", "燃煤玻璃熔炼"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__desc", "使用煤炭熔化玻璃原料，生产熔融玻璃，但会产生较多废气。"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__name", "高效玻璃熔炼"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__desc", "使用碳残渣熔化玻璃原料，生产更快、更高效，并减少废气排放。"]
+, ["ColibriIndustries_Research_EfficientGlassMelting__name", "高级热处理"]
+, ["ColibriIndustries_Research_EfficientGlassMelting__desc", "改进 Colibri Industries 的热处理技术，解锁使用碳残渣更高效地熔化玻璃和再生塑料的方法。"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__name", "燃煤塑料熔炼"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__desc", "使用煤熔化再生塑料，产生较多废气和空气污染。"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__name", "高效塑料熔炼"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__desc", "使用碳残渣熔化再生塑料，废气和空气污染均比燃煤工艺减少一半。"]
+, ["ColibriIndustries_Recipe_Generator_PyrolysisGas__name", "热解气发电"]
+, ["ColibriIndustries_Recipe_Generator_PyrolysisGas__desc", "燃烧热解气发电，同时产生废气。"]
+, ["ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__name", "玻璃加工"]
+, ["ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__desc", "将熔融玻璃加工成玻璃和碎玻璃，并保留预期的材料损耗。"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__name", "热解油蒸汽生产"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__desc", "在燃气锅炉中燃烧热解油，生产高压蒸汽并排放废气。"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__name", "热解气蒸汽生产"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__desc", "在燃气锅炉中燃烧热解气，生产高压蒸汽和乏汽。"]
+]

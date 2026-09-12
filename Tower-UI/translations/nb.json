@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptivt tårngrensesnitt",
+  "Vehicle Filters": "Kjøretøyfiltre",
   "Settings": "Innstillinger",
   "Collapse all tower sections.": "Slå sammen alle tårnseksjoner.",
   "Expand standard tower sections.": "Utvid standardseksjonene i tårnet.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Vis maksimalt åtte synlige rader.",
   "Default": "Standard",
   "Sections opened by default": "Seksjoner åpnet som standard",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Avkryssede seksjoner åpnes når et nytt gruvetårn plasseres. Eksisterende tårn forblir uendret."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Avkryssede seksjoner åpnes når et nytt gruvetårn plasseres. Eksisterende tårn forblir uendret.",
+  "Expand selected tower sections.": "Utvid valgte tårnseksjoner.",
+  "Tree planters": "Planter",
+  "Tree harvesters": "Hogstmaskin",
+  "Tree planter rows": "Rader med treplantemaskiner",
+  "Tree harvester rows": "Rader med skogsmaskiner",
+  "Mining Tower": "Gruvetårn",
+  "Forestry Tower": "Skogstårn",
+  "Section": "Seksjon",
+  "Expand": "Utvid",
+  "Max rows": "Maks rader",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Avkryssede seksjoner åpnes på nylig plasserte tårn. Eksisterende tårn forblir uendret.",
+  "Checked sections open when the title-bar + button is used.": "Avkryssede seksjoner åpnes når + knappen i tittellinjen brukes.",
+  "Maximum visible rows before a scrollbar appears.": "Maksimalt antall synlige rader før et rullefelt vises."
 }

@@ -1,3 +1,9 @@
+v1.0.8 | 2026-09-08
+* Fixed steam warm-up: battery dispatch uses actual generated or buffered energy instead of potential capacity.
+* Fixed generation priorities: lower-priority generators cannot fund higher-priority battery charging.
+* Batteries cover the actual higher-priority generation shortfall before lower-priority backup generators.
+* Shared charge planning preserves source priorities and does not allocate surplus energy twice.
+
 v1.0.7 | 2026-08-26
 * Fixed batteries switching to discharge when surplus power is available and lower-priority generators exist.
 * Batteries now charge from surplus first; lower-priority generation is displaced only without surplus.

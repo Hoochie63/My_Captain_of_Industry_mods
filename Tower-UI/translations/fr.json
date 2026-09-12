@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "IU adaptative des tours",
+  "Vehicle Filters": "Filtres de véhicules",
   "Settings": "Paramètres",
   "Collapse all tower sections.": "Réduire toutes les sections de la tour.",
   "Expand standard tower sections.": "Développer les sections standard de la tour.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Afficher au maximum huit lignes visibles.",
   "Default": "Par défaut",
   "Sections opened by default": "Sections ouvertes par défaut",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Les sections cochées s'ouvrent lors du placement d'une nouvelle tour minière. Les tours existantes restent inchangées."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Les sections cochées s'ouvrent lors du placement d'une nouvelle tour minière. Les tours existantes restent inchangées.",
+  "Expand selected tower sections.": "Développer les sections sélectionnées de la tour.",
+  "Tree planters": "Planteuse",
+  "Tree harvesters": "Abatteuse",
+  "Tree planter rows": "Lignes de planteuses d'arbres",
+  "Tree harvester rows": "Lignes d'abatteuses forestières",
+  "Mining Tower": "Tour minière",
+  "Forestry Tower": "Tour forestière",
+  "Section": "Section",
+  "Expand": "Développer",
+  "Max rows": "Lignes max.",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Les sections cochées s'ouvrent sur les tours nouvellement placées. Les tours existantes restent inchangées.",
+  "Checked sections open when the title-bar + button is used.": "Les sections cochées s'ouvrent lorsque le bouton + de la barre de titre est utilisé.",
+  "Maximum visible rows before a scrollbar appears.": "Nombre maximal de lignes visibles avant l'apparition d'une barre de défilement."
 }

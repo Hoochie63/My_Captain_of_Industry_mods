@@ -1,10 +1,26 @@
 BEACON & GOVERNMENT DLC
-Version 1.0.4
+Version 1.0.5
 
 Expands Captain of Industry's Beacon into a placeable support network with
 research-gated randomized supplies, Captain's Currency, rotating quick trades,
 Government reward policies, regional infrastructure subsidies, real water-routed
 cargo deliveries, and reusable government landmarks.
+
+LOCALIZATION
+
+- All custom player-facing text is translated for the game's 21 supported
+  languages.
+- Every locale uses the English source phrase as its JSON key, followed by the
+  translated value so community translators can understand and edit it.
+- Longer translations use a two-column policy layout, full-width subsidy cards,
+  and a scrollable Government panel to reduce clipping and text collisions.
+
+SHARED COI SKYLINES TOOLBAR
+
+- COI Skylines is the common project menu in the main building section.
+- Beacon & Government keeps its buildings together in a dedicated submenu.
+- Compatible mods can reuse the same root and add their own sibling submenus.
+- The shared root does not add an aggregate All submenu.
 
 BEACON NETWORK
 
@@ -55,6 +71,9 @@ RANDOMIZED BEACON REWARDS
   household and medical supplies, Construction Parts I-IV, Electronics I-IV,
   Mechanical Parts, Vehicle Parts, Lab Equipment, Solar Cells, and other
   useful products.
+- Crude Oil rewards are deliberately smaller to protect normal oil progression.
+  Fuel Gas and Hydrogen become eligible after their respective research and
+  arrive at quantities 20% below the former Crude Oil range.
 - Lab Equipment and Vehicle Parts use only the highest currently unlocked
   tier. Other still-useful lower-tier products can remain eligible.
 - Product quantities scale from the Beacon network's saved full-cycle average
@@ -130,8 +149,8 @@ GLOBAL GOVERNMENT CONTROLS
   policies, subsidies, and the live Beacon Network summary.
 - The shortcut can be rebound under Beacon & Government in native Controls.
 - The global window and building inspector share one renderer, so policy state,
-  contract choices, and UI updates remain synchronized. Two-column subsidy
-  cards flex for longer future translations.
+  contract choices, and UI updates remain synchronized. Policy cards use two
+  columns while subsidy cards use the full width for longer translations.
 - Each policy and subsidy appears after its dedicated research and requires a
   constructed Government Office I or II before a new activation or purchase.
 
@@ -151,8 +170,12 @@ ADDITIONAL BUILDINGS AND TOOLBAR
   any prototype or save identity.
 - Office I and II share an independent toolbar-only tier group and do not alter
   the vanilla Captain's Office upgrade chain.
-- All custom buildings appear in the dedicated Beacon & Government toolbar menu in
-  the standard logistics section.
+- Relay Beacons and both Government Offices support native Shift-move placement,
+  restricted to another placement of the exact same building. Captain's
+  Exchanges remain excluded until their ocean berth and delivery state can be
+  moved safely.
+- All custom buildings appear in the dedicated Beacon & Government submenu
+  beneath COI Skylines in the main building section.
 - The current four building prototype IDs remain stable for save compatibility.
 
 OPTIONAL MOD COMPATIBILITY

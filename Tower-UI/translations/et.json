@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Kohanduv torniliides",
+  "Vehicle Filters": "Sõidukifiltrid",
   "Settings": "Sätted",
   "Collapse all tower sections.": "Ahenda kõik torni jaotised.",
   "Expand standard tower sections.": "Laienda torni standardjaotised.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Kuva kuni kaheksa nähtavat rida.",
   "Default": "Vaikimisi",
   "Sections opened by default": "Vaikimisi avatud jaotised",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Märgitud jaotised avanevad uue kaevandustorni paigaldamisel. Olemasolevad tornid ei muutu."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Märgitud jaotised avanevad uue kaevandustorni paigaldamisel. Olemasolevad tornid ei muutu.",
+  "Expand selected tower sections.": "Ava valitud torni jaotised.",
+  "Tree planters": "Istutaja",
+  "Tree harvesters": "Langetaja",
+  "Tree planter rows": "Puude istutusmasinate read",
+  "Tree harvester rows": "Metsalangetusmasinate read",
+  "Mining Tower": "Kaevandustorn",
+  "Forestry Tower": "Metsandustorn",
+  "Section": "Jaotis",
+  "Expand": "Ava",
+  "Max rows": "Max read",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Märgitud jaotised avanevad äsja paigaldatud tornides. Olemasolevad tornid ei muutu.",
+  "Checked sections open when the title-bar + button is used.": "Märgitud jaotised avanevad tiitliriba + nupu kasutamisel.",
+  "Maximum visible rows before a scrollbar appears.": "Maksimaalne nähtavate ridade arv enne kerimisriba ilmumist."
 }

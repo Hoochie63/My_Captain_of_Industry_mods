@@ -40,6 +40,10 @@
 		"Reverse when travel distance is reached"
 	],
 	[
+		"Bagger288Mod__ReturnToStart",
+		"Return to start"
+	],
+	[
 		"Bagger288Mod__YawLimitLeft",
 		"Max yaw left"
 	],
@@ -58,6 +62,54 @@
 	[
 		"Bagger288Mod__AssignProductToOutputPort",
 		"Assign this product to an output port."
+	],
+	[
+		"Bagger288Mod__StatusPaused",
+		"Paused"
+	],
+	[
+		"Bagger288Mod__StatusNoWorkers",
+		"Missing workers"
+	],
+	[
+		"Bagger288Mod__StatusNoMaintenance",
+		"Missing maintenance"
+	],
+	[
+		"Bagger288Mod__StatusNoPower",
+		"Not enough electricity"
+	],
+	[
+		"Bagger288Mod__StatusWaitingBuffers",
+		"Buffers full"
+	],
+	[
+		"Bagger288Mod__StatusTravelFinished",
+		"Assigned travel distance exhausted"
+	],
+	[
+		"Bagger288Mod__StatusMoving",
+		"Traveling"
+	],
+	[
+		"Bagger288Mod__StatusDigging",
+		"Mining"
+	],
+	[
+		"Bagger288Mod__StatusReady",
+		"Ready"
+	],
+	[
+		"Bagger288Mod__NotifyTravelDistanceExhausted",
+		"{entity}: The assigned travel distance has been exhausted"
+	],
+	[
+		"Bagger288Mod__NotifyOutputPortUnassigned",
+		"{entity}: Assign this product to an output port."
+	],
+	[
+		"Bagger288Mod__SessionMined",
+		"This session:"
 	],
 	[
 		"Bagger288Mod__TileUnit0",

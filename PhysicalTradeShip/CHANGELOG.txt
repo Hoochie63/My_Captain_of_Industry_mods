@@ -1,0 +1,18 @@
+# Physical Trade Ship — Changelog
+
+
+
+Version 0.2.22
+
+Just 0.8.7a validations.
+
+
+
+## 0.2.20
+
+* Current installed release for Captain of Industry 0.8.6.
+* Quick-trade orders are delivered to the Trading Dock by a visible merchant ship.
+* Orders are validated and paid atomically, and products arrive during unloading.
+* The ship uses vanilla pathfinding, steering, docking, and undocking jobs.
+* Voyage state, paid manifest, delivery guard, cooldown, and cart persist in saves.
+

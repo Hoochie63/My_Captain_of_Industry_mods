@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptivní UI věží",
+  "Vehicle Filters": "Filtry vozidel",
   "Settings": "Nastavení",
   "Collapse all tower sections.": "Sbalit všechny sekce věže.",
   "Expand standard tower sections.": "Rozbalit standardní sekce věže.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Zobrazit maximálně osm řádků.",
   "Default": "Výchozí",
   "Sections opened by default": "Výchozí otevřené sekce",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Zaškrtnuté sekce se otevřou při umístění nové těžební věže. Stávající věže se nezmění."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Zaškrtnuté sekce se otevřou při umístění nové těžební věže. Stávající věže se nezmění.",
+  "Expand selected tower sections.": "Rozbalit vybrané sekce věže.",
+  "Tree planters": "Sazeč",
+  "Tree harvesters": "Harvestor",
+  "Tree planter rows": "Řádky sazečů stromů",
+  "Tree harvester rows": "Řádky kácecích strojů",
+  "Mining Tower": "Těžební věž",
+  "Forestry Tower": "Lesnická věž",
+  "Section": "Sekce",
+  "Expand": "Rozbalit",
+  "Max rows": "Max. řádků",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Zaškrtnuté sekce se otevřou na nově umístěných věžích. Stávající věže se nezmění.",
+  "Checked sections open when the title-bar + button is used.": "Zaškrtnuté sekce se otevřou po použití tlačítka + v záhlaví.",
+  "Maximum visible rows before a scrollbar appears.": "Maximální počet viditelných řádků před zobrazením posuvníku."
 }

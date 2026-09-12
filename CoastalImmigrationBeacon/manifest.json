@@ -1,6 +1,6 @@
 {
   "id":"CoastalImmigrationBeacon",
-  "version":"0.2.15",
+  "version":"0.2.16",
   "display_name":"Coastal Immigration Beacon",
   "description_short":"Requires the Beacon to stand on the coast and brings immigrants by a small boat.",
   "authors":"Sirael",
@@ -9,6 +9,6 @@
   "can_add_to_saved_game":true,
   "can_remove_from_saved_game":false,
   "min_game_version":"0.8.6",
-  "max_verified_game_version":"0.8.6",
+  "max_verified_game_version":"0.8.7a",
   "primary_mod_class_name":"CoastalImmigrationBeacon.CoastalImmigrationBeaconMod"
 }

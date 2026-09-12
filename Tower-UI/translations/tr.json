@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Uyarlanabilir Kule Arayüzü",
+  "Vehicle Filters": "Araç Filtreleri",
   "Settings": "Ayarlar",
   "Collapse all tower sections.": "Tüm kule bölümlerini daralt.",
   "Expand standard tower sections.": "Standart kule bölümlerini genişlet.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "En fazla sekiz görünür satır göster.",
   "Default": "Varsayılan",
   "Sections opened by default": "Varsayılan olarak açık bölümler",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "İşaretli bölümler yeni bir maden kulesi yerleştirildiğinde açılır. Mevcut kuleler değişmez."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "İşaretli bölümler yeni bir maden kulesi yerleştirildiğinde açılır. Mevcut kuleler değişmez.",
+  "Expand selected tower sections.": "Seçilen kule bölümlerini genişlet.",
+  "Tree planters": "Dikici",
+  "Tree harvesters": "Hasatçı",
+  "Tree planter rows": "Ağaç dikici satırları",
+  "Tree harvester rows": "Ağaç hasat makinesi satırları",
+  "Mining Tower": "Maden kulesi",
+  "Forestry Tower": "Ormancılık kulesi",
+  "Section": "Bölüm",
+  "Expand": "Genişlet",
+  "Max rows": "Azami satır",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "İşaretli bölümler yeni yerleştirilen kulelerde açılır. Mevcut kuleler değişmez.",
+  "Checked sections open when the title-bar + button is used.": "İşaretli bölümler başlık çubuğundaki + düğmesi kullanıldığında açılır.",
+  "Maximum visible rows before a scrollbar appears.": "Kaydırma çubuğu görünmeden önceki azami görünür satır sayısı."
 }

@@ -1,14 +1,14 @@
 {
   "id": "Tower-UI",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "display_name": "Tower UI",
-  "description_short": "Customize the Mining Tower UI so it never grows too large while heavily modded.",
-  "description_long": "**TOWER UI**\n\nStops oversized Mining Tower sections from clipping content.\n\n**ROWS AND SCROLLING**\n- Choose one to eight visible rows.\n- Covers excavators, trucks, materials, and routes.\n- Scrollbars appear only when needed.\n- Split sections scroll independently.\n- Row limits persist across every tower.\n\n**VEHICLE FILTERS**\n- Excavators and trucks use separate settings pages.\n- [Auto-hide unowned]: Show only built variants.\n- Manual filters: Fuel type or individual vehicle.\n- [Show all]: Restore every available variant.\n\n**COLLAPSE CONTROLS**\n- Collapse every tower section instantly.\n- Expand only the four standard sections.\n- Each tower remembers its collapsed sections.\n- Collapse-all saves Auto Terrain Designations states when installed.\n\n**NEW TOWER DEFAULTS**\n- Choose which sections start open on newly placed Mining Towers.\n- Existing towers retain their individual collapsed-section states.\n- Uses live localized section names.\n\n**SETTINGS WINDOW**\n- Resize horizontally from the native width up to 130%.\n\n**COMPATIBILITY**\n- Verified for Captain of Industry 0.8.7b.\n- Supports compatible vanilla and modded vehicles.\n- Works with Gameplay++ and Auto Terrain Designations.\n- Keeps native localized names unchanged.\n- Includes all 21 languages available in the game.\n- Safe to add or remove mid-save.",
+  "description_short": "Customize Mining and Forestry Tower interfaces so they stay manageable while heavily modded.",
+  "description_long": "**TOWER UI**\n\nStops oversized Mining and Forestry Tower sections from clipping content.\n\n**ROWS AND SCROLLING**\n- Choose one to eight visible rows.\n- Covers excavators, trucks, tree planters, tree harvesters, materials, and routes.\n- Scrollbars appear only when needed.\n- Split sections scroll independently.\n- Row limits persist across every tower.\n\n**VEHICLE FILTERS**\n- Excavators, trucks, tree planters, and tree harvesters use separate settings pages.\n- [Auto-hide unowned]: Show only built variants.\n- Manual filters: Fuel type or individual vehicle.\n- [Show all]: Restore every available variant.\n\n**COLLAPSE CONTROLS**\n- Collapse every section in the current tower.\n- Choose which sections the title-bar expand button opens.\n- Each Mining and Forestry Tower remembers its own collapsed sections.\n- Supports Auto Terrain Designations and Auto Forestry Designations when installed.\n\n**NEW TOWER DEFAULTS**\n- Choose which sections start open on newly placed Mining and Forestry Towers.\n- Existing towers retain their individual collapsed-section states.\n- Uses live localized section names.\n\n**SETTINGS WINDOW**\n- One shared Settings window serves every supported tower.\n- Resize horizontally from the native width up to 130%.\n\n**COMPATIBILITY**\n- Verified for Captain of Industry 0.8.7c.\n- Supports compatible vanilla and modded vehicles.\n- Works with Gameplay++, Auto Terrain Designations, and Auto Forestry Designations.\n- Keeps native localized names unchanged.\n- Includes all 21 languages available in the game.\n- Safe to add or remove mid-save.",
   "authors": [
     "Underlörd"
   ],
   "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.7b",
+  "max_verified_game_version": "0.8.7c",
   "primary_dlls": [
     "0Harmony.dll",
     "TowerUI.dll"

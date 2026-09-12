@@ -1,4 +1,4 @@
-Coastal Immigration Beacon v0.2.7
+Coastal Immigration Beacon v0.2.15
 
 The vanilla Beacon now requires a valid coastal ocean berth. Its original
 workers, power, Unity, progress, rewards, and population logic remain vanilla.

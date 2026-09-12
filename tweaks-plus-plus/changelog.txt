@@ -1,3 +1,39 @@
+v1.3.4 | 2026-08-31
+────────────────────────────────────────────────────────────────────────
+* THE VEHICLES TAB NOW PICKS VEHICLES FROM A ROW OF LARGE ICONS INSTEAD OF A DROP-DOWN, WITH EACH VEHICLE SHOWN ONCE AND ITS FUEL TYPES AS SMALL BADGES UNDERNEATH.
+
+  - Click a fuel badge to pick that exact fuel version, so diesel and hydrogen no longer take up a separate slot each in the list.
+
+  - For Replace, left click the vehicle you want replaced and right click the one it turns into, marked in gold and blue.
+
+  - Vehicles are ordered by what they are and how much they carry, so your trucks sit together and your excavators sit together, smallest first.
+
+  - Drag the Overlord window wider and the rows spread out to use the space instead of stopping at a set number per row.
+
+  - Order New comes first and the tab opens on it, then Replace, with Scrap moved last.
+
+────────────────────────────────────────────────────────────────────────
+* THE LIMIT BOX FOR SCRAP AND REPLACE NO LONGER TAKES A HIGHER NUMBER THAN YOU OWN, SO A JOB CAN NO LONGER SIT UNFINISHED WAITING FOR VEHICLES THAT ARE NOT THERE.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.3.3 | 2026-08-29
+────────────────────────────────────────────────────────────────────────
+* AUTO EXPLORE NOW GOES BACK FOR PIRATES IT ONCE HAD TO WALK AWAY FROM, INSTEAD OF LEAVING THEM SITTING ON THE MAP FOREVER.
+
+  - Spots you have already explored that still have pirates on them count as targets again, so a stronger ship sails out and clears them.
+
+  - It no longer reports that there is nothing left to do while there are still fights out on the map.
+
+  - If it did switch itself off, it turns back on by itself once your ship's battle score goes up, so an upgraded ship gets back to work on its own.
+
+  - If it had already switched itself off before this update, turn it on once from the shipyard window and it carries on from there.
+
+────────────────────────────────────────────────────────────────────────
+* THE MECHANICAL SHAFT POWER LIMIT SLIDER NOW GOES UP TO 300 MW INSTEAD OF 200 MW, SO A LONG SHAFT RUN CAN CARRY MORE POWER.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.2 | 2026-08-28
 ────────────────────────────────────────────────────────────────────────
 * THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.

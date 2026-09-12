@@ -1,0 +1,110 @@
+{
+  "refreshIntervalSeconds": {
+    "default": 0.5,
+    "description": "How often Factory Lens refreshes machine diagnostics. Lower values react faster but use more CPU.",
+    "min": 0.2,
+    "max": 5.0
+  },
+  "toggleKey": {
+    "default": "LeftAlt",
+    "description": "Unity KeyCode used to toggle the map overlay. Examples: LeftAlt, F7, BackQuote."
+  },
+  "panelKey": {
+    "default": "F8",
+    "description": "Unity KeyCode used to open or close the Factory Lens diagnostics window."
+  },
+  "inputStarvationPercent": {
+    "default": 20,
+    "isInteger": true,
+    "description": "An input buffer at or below this percentage is considered at risk for truck logistics.",
+    "min": 0,
+    "max": 100
+  },
+  "outputBlockedPercent": {
+    "default": 90,
+    "isInteger": true,
+    "description": "An output buffer at or above this percentage is considered blocked for truck logistics.",
+    "min": 0,
+    "max": 100
+  },
+  "maxMapIcons": {
+    "default": 500,
+    "isInteger": true,
+    "description": "Maximum Factory Lens icons visible at once. Limits overhead on very large islands.",
+    "min": 50,
+    "max": 3000
+  },
+  "showPausedMachines": {
+    "default": true,
+    "description": "Show deliberately paused machines in Problems mode."
+  },
+  "showMapIcons": {
+    "default": true,
+    "description": "Initial Alt overlay setting for native product or building icons. Can also be changed in the window."
+  },
+  "showMapLabels": {
+    "default": true,
+    "description": "Initial Alt overlay setting for plain-language status labels. Can also be changed in the window."
+  },
+  "windowOpacityPercent": {
+    "default": 94,
+    "isInteger": true,
+    "description": "Initial diagnostics-window opacity. The in-game slider saves later changes locally.",
+    "min": 55,
+    "max": 100
+  },
+  "windowWidth": {
+    "default": 440,
+    "isInteger": true,
+    "description": "Initial diagnostics-window width. The in-game slider saves later changes locally.",
+    "min": 440,
+    "max": 1000
+  },
+  "historySampleSeconds": {
+    "default": 2.0,
+    "description": "Seconds between samples in the dashboard history graph.",
+    "min": 1.0,
+    "max": 30.0
+  },
+  "historySamples": {
+    "default": 40,
+    "isInteger": true,
+    "description": "Number of samples retained by the dashboard history graph.",
+    "min": 12,
+    "max": 120
+  },
+  "stateGraceSeconds": {
+    "default": 5.0,
+    "description": "How long a soft input-wait or full-output state must persist before it can become actionable.",
+    "min": 0.0,
+    "max": 30.0
+  },
+  "predictionHorizonSeconds": {
+    "default": 180.0,
+    "description": "How far ahead Factory Lens may warn about an input running out or an output filling up.",
+    "min": 30.0,
+    "max": 600.0
+  },
+  "predictionObservationSeconds": {
+    "default": 4.0,
+    "description": "Minimum continuous buffer trend observation before a forecast is shown.",
+    "min": 2.0,
+    "max": 30.0
+  },
+  "inputCyclesWarning": {
+    "default": 2.0,
+    "description": "Warn when a decreasing input buffer has at most this many recipe cycles left and no delivery is scheduled.",
+    "min": 1.0,
+    "max": 10.0
+  },
+  "repeatWindowMinutes": {
+    "default": 10.0,
+    "description": "Rolling window used to count repeated occurrences of the same problem.",
+    "min": 1.0,
+    "max": 60.0
+  },
+  "language": {
+    "default": "auto",
+    "description": "Interface language catalog: auto, en, ru, or another catalog code added under Localization."
+  }
+}

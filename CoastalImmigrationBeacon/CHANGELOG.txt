@@ -1,5 +1,8 @@
 Coastal Immigration Beacon
 
+Version v0.2.16
+Just 0.8.7a validations.
+
 Changelog v0.2.15
 - The vanilla Immigration Beacon now requires a valid coastal ocean berth.
 

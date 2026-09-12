@@ -1,8 +1,8 @@
-Grid Battery 1.0.7
+Grid Battery 1.0.8
 
 Three upgradeable electrical storage buildings with separate charging and discharging priorities plus vanilla surplus, pause, copy-settings, upgrade, deconstruction, and load-dependent maintenance behavior.
 
-Version 1.0.7 uses Captain of Industry's vanilla priority queues for charging and consumes partial allocations immediately, keeps surplus-only charging exclusive to surplus generators, shows priority 12 on both controls for new batteries, and prevents full-charge oscillation at equal or lower generation priority.
+Version 1.0.8 uses Captain of Industry's vanilla priority queues for charging and consumes partial allocations immediately, keeps surplus-only charging exclusive to surplus generators, shows priority 12 on both controls for new batteries, and prevents full-charge oscillation at equal or lower generation priority.
 
 Installation
 1. Close Captain of Industry.
@@ -24,3 +24,5 @@ Read the newest log in `%APPDATA%\Captain of Industry\Logs`. Report the first Gr
 
 License
 Source code is licensed under the MIT License. Original Grid Battery models, textures, icons, previews, and other visual assets are licensed under CC BY 4.0. Copyright and attribution: LordXaosa. See LICENSE and LICENSE-ASSETS included with the mod.
+
+Version 1.0.8 fixes steam warm-up discharge using actual output and buffered energy. Sources below a battery's generation priority cannot charge it; batteries cover the higher-priority generation shortfall before backup generators.

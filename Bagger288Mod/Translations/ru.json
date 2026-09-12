@@ -40,6 +40,10 @@
         "Начать движение задним ходом после достижения заданного расстояния"
     ],
     [
+        "Bagger288Mod__ReturnToStart",
+        "Вернуться в начало"
+    ],
+    [
         "Bagger288Mod__YawLimitLeft",
         "Макс. угол влево"
     ],
@@ -57,7 +61,55 @@
     ],
     [
         "Bagger288Mod__AssignProductToOutputPort",
-        "Назначьте этот продукт на выходной порт."
+        "Назначить этот продукт на выходной порт."
+    ],
+    [
+        "Bagger288Mod__StatusPaused",
+        "Приостановлено"
+    ],
+    [
+        "Bagger288Mod__StatusNoWorkers",
+        "Нет рабочих"
+    ],
+    [
+        "Bagger288Mod__StatusNoMaintenance",
+        "Нет обслуживания"
+    ],
+    [
+        "Bagger288Mod__StatusNoPower",
+        "Недостаточно электричества"
+    ],
+    [
+        "Bagger288Mod__StatusWaitingBuffers",
+        "Буферы полны"
+    ],
+    [
+        "Bagger288Mod__StatusTravelFinished",
+        "Заданная дистанция хода исчерпана"
+    ],
+    [
+        "Bagger288Mod__StatusMoving",
+        "В пути"
+    ],
+    [
+        "Bagger288Mod__StatusDigging",
+        "Копает"
+    ],
+    [
+        "Bagger288Mod__StatusReady",
+        "Готов"
+    ],
+    [
+        "Bagger288Mod__NotifyTravelDistanceExhausted",
+        "<color=#FFCE56>«{entity}»</color>: Заданная дистанция хода исчерпана."
+    ],
+    [
+        "Bagger288Mod__NotifyOutputPortUnassigned",
+        "<color=#FFCE56>«{entity}»</color>: Назначьте этот продукт на выходной порт."
+    ],
+    [
+        "Bagger288Mod__SessionMined",
+        "За сессию:"
     ],
     [
         "Bagger288Mod__TileUnit0",

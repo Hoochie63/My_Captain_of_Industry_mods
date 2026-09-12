@@ -1,0 +1,100 @@
+[
+  ["ColibriIndustries_ToolbarCategory_Root__name", "Colibri Industries"],
+  ["ColibriIndustries_GeneratorLarge__name", "Colibri-Generator"],
+  ["ColibriIndustries_GeneratorLarge__desc", "Ein Generator von Colibri Industries, der Pyrolysegas zur Stromerzeugung verbrennt."],
+  ["ColibriIndustries_Research_PyrolysisPower__name", "Pyrolyseenergie"],
+  ["ColibriIndustries_Research_PyrolysisPower__desc", "Erweitert die Nutzung von Pyrolyseprodukten bei Colibri Industries. Der Colibri-Generator verbrennt Pyrolysegas zur Stromerzeugung und macht so ein Nebenprodukt der Kunststoffabfallverarbeitung zu einer nützlichen Energiequelle."],
+  ["ColibriIndustries_PyrolysisOil__name", "Pyrolyseöl"],
+  ["ColibriIndustries_PyrolysisGas__name", "Pyrolysegas"],
+  ["ColibriIndustries_CarbonResidue__name", "Kohlenstoffrückstand"],
+  ["ColibriIndustries_Recipe_BasicDistillerPyrolysis__name", "Kunststoffpyrolyse"],
+  ["ColibriIndustries_Recipe_BasicDistillerPyrolysis__desc", "Verarbeitet Kunststoff und Kohle zu Pyrolyseöl, Pyrolysegas, Kohlenstoffrückstand und Kohlendioxid."],
+  ["ColibriIndustries_BasicDistiller__name", "Colibri-Pyroprozessor"],
+  ["ColibriIndustries_BasicDistiller__desc", "Eine Anlage zur thermischen Verarbeitung von Kunststoffabfällen zu Pyrolyseöl, Pyrolysegas und Kohlenstoffrückstand für die weitere industrielle Nutzung."],
+  ["ColibriIndustries_CrusherLarge__name", "Colibri-Siebanlage"],
+  ["ColibriIndustries_CrusherLarge__desc", "Eine industrielle Brech- und Siebanlage, die Kies aus GSG abtrennt und Glasrohstoff für die Glasproduktion aufbereitet."],
+  ["ColibriIndustries_RotaryKiln__name", "Colibri-Thermoprozessor"],
+  ["ColibriIndustries_RotaryKiln__desc", "Eine Hochtemperaturanlage, die Glasrohstoff und Recyclingkunststoff zu Schmelzmaterialien für die weitere Produktion verarbeitet."],
+  ["ColibriIndustries_Research_BasicDistiller__name", "Pyrolysetechnologien"],
+  ["ColibriIndustries_Research_BasicDistiller__desc", "Erschließt Technologien von Colibri Industries für die Pyrolyseverarbeitung und die weitere Nutzung von Pyrolyseprodukten."],
+  ["ColibriIndustries_Research_CrusherLarge__name", "Thermische Materialverarbeitung"],
+  ["ColibriIndustries_Research_CrusherLarge__desc", "Erschließt Technologien von Colibri Industries zur thermischen Verarbeitung von Rohstoffen. Ermöglicht das Schmelzen von vorbereitetem Glasrohstoff und Recyclingkunststoff für die weitere Produktion."],
+  ["ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__name", "GSG-Trennung"],
+  ["ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__desc", "Zerkleinert und siebt GSG, um den Kies von der Sand-Glas-Fraktion zu trennen. Dabei entsteht Glasrohstoff, wobei eine kleine Menge Feinmaterial verloren geht."],
+  ["ColibriIndustries_WasteRecycler__name", "Colibri-Hydroseparator"],
+  ["ColibriIndustries_Kiln__name", "Colibri-Brennofen"],
+  ["ColibriIndustries_Research_Kiln__name", "Grundlagen von Colibri Industries"],
+  ["ColibriIndustries_Research_Kiln__desc", "Der erste Schritt in der Entwicklung von Colibri Industries. Der Brennofen stellt aus Erde und Kohle beständige Ziegel her, die für weitere Anlagen und Technologien benötigt werden."],
+  ["ColibriIndustries_Kiln__desc", "Ein kompakter Industrieofen, der mit Kohle Ziegel aus Erde brennt und damit das grundlegende Baumaterial für die weitere Entwicklung von Colibri Industries liefert."],
+  ["ColibriIndustries_Recipe_KilnBrickProduction__name", "Ziegelherstellung"],
+  ["ColibriIndustries_Recipe_KilnBrickProduction__desc", "Brennt Erde mit Kohle zu Ziegeln."],
+  ["ColibriIndustries_PlasticWasteUnit__name", "Kunststoffabfall"],
+  ["ColibriIndustries_RecycledPlastic__name", "Recycelter Kunststoff"],
+  ["ColibriIndustries_RecycledPlastic__desc", "Loses Recyclingmaterial aus zerkleinerten Kunststoffabfällen zur weiteren Verarbeitung."],
+  ["ColibriIndustries_MoltenPlastic__name", "Geschmolzener Kunststoff"],
+  ["ColibriIndustries_MoltenPlastic__desc", "Geschmolzener Kunststoff für den Transport durch Schmelzkanäle und die weitere industrielle Verarbeitung."],
+  ["ColibriIndustries_Shredder__name", "Colibri-Zerkleinerer"],
+  ["ColibriIndustries_Shredder__desc", "Ein Zerkleinerer von Colibri Industries, der Kunststoffabfälle zu losem Recyclingkunststoff verarbeitet."],
+  ["ColibriIndustries_Recipe_Shredder_RecycledPlastic__name", "Kunststoffrecycling"],
+  ["ColibriIndustries_Recipe_Shredder_RecycledPlastic__desc", "Zerkleinert Kunststoffabfälle zu losem Recyclingkunststoff für die weitere Verarbeitung."],
+  ["ColibriIndustries_PolymerPlant__name", "Colibri-Polymeranlage"],
+  ["ColibriIndustries_PolymerPlant__desc", "Eine Anlage von Colibri Industries, die Schmelzmaterialien zu Industrieprodukten verarbeitet."],
+  ["ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__name", "Polymerisation von Kunststoffschmelze"],
+  ["ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__desc", "Verarbeitet Kunststoffschmelze mit Wasser zu Kunststoff und erzeugt dabei verbrauchten Dampf."],
+  ["ColibriIndustries_Research_PolymerProduction__name", "Polymerproduktion"],
+  ["ColibriIndustries_Research_PolymerProduction__desc", "Schaltet die Colibri-Polymeranlage für die fortgeschrittene Polymerverarbeitung frei."],
+  ["ColibriIndustries_WasteRecycler__desc", "Ein Komplex zur tiefen Trennung von Abfallschlämme, der nutzbare Fraktionen gewinnt und die erhaltenen Materialien für die weitere Verarbeitung vorbereitet."],
+  ["ColibriIndustries_SlurryPlantT1__name", "Colibri-Hydroprozessor"],
+  ["ColibriIndustries_SlurryPlantT1__desc", "Eine Anlage zur primären Hydroverarbeitung von Abfällen, die Abfall mit Wasser mischt und für die weitere Trennung und Reinigung in Abfallschlämme umwandelt."],
+  ["ColibriIndustries_SlurryPlantT2__name", "Colibri-Hydroprozessor II"],
+  ["ColibriIndustries_SlurryPlantT2__desc", "Eine weiterentwickelte Version des Hydroprozessors für größere Abfallmengen, die nachgelagerte Verarbeitungsstufen effizienter mit Abfallschlämme versorgt."],
+  ["ColibriIndustries_WasteSlurry__name", "Abfallschlämme"],
+  ["ColibriIndustries_WasteSlurry__desc", "Abfallschlämme ist eine Suspension, die durch das Mischen von festem Abfall mit Wasser entsteht. Sie ist ein Zwischenprodukt, das durch Rohre transportiert und in der Recyclingkette weiterverarbeitet wird."],
+  ["ColibriIndustries_MineralMix__name", "GSG"],
+  ["ColibriIndustries_MineralMix__desc", "GSG — Gravel–Sand–Glass ist ein zurückgewonnenes heterogenes Gemisch aus Kies, Sand und Glasscherben, das weiter aufbereitet und getrennt werden muss."],
+  ["ColibriIndustries_GlassFeedstock__name", "Glasrohstoff"],
+  ["ColibriIndustries_GlassFeedstock__desc", "Eine aufbereitete Sand-Glas-Fraktion, die durch Abtrennung des Kieses aus GSG gewonnen wird. Sie ist für die weitere thermische Verarbeitung in der Glasproduktion bestimmt."],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromWaste__name", "Abfallschlämme"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromWaste__desc", "Mischt Abfall mit Wasser, um Abfallschlämme herzustellen."],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__name", "Abfallschlämme aus gepresstem Abfall"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__desc", "Mischt gepressten Abfall mit Wasser, um Abfallschlämme herzustellen."],
+  ["ColibriIndustries_Recipe_WasteSlurry_Separation__name", "Trennung von Abfallschlämme"],
+  ["ColibriIndustries_Recipe_WasteSlurry_Separation__desc", "Trennt Abfallschlämme mithilfe von Kies und Sand in Abwasser, Sediment, Biomasse und GSG."],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__name", "Vorsortierte Abfallschlämme"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__desc", "Sortiert Abfälle vor, um Wertstoffe zurückzugewinnen, und mischt anschließend die verbleibenden Abfälle mit Wasser zu Abfallschlämme."],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__name", "Abfallschlämme II aus gepresstem Abfall"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__desc", "Verarbeitet gepressten Abfall mit Wasser und gewinnt dabei Wertstoffe zurück."],
+  ["ColibriIndustries_Research_WasteRecycler__name", "Hydroverarbeitung von Abfällen"],
+  ["ColibriIndustries_Research_WasteRecycler__desc", "Der nächste Entwicklungsschritt von Colibri Industries. Der Hydroprozessor mischt Abfälle mit Wasser zu Abfallschlämme für Trennung, Reinigung und Materialrückgewinnung."],
+  ["ColibriIndustries_Research_PressedWasteSlurry__name", "Erweiterte Hydroverarbeitung"],
+  ["ColibriIndustries_Research_PressedWasteSlurry__desc", "Erweitert die Hydroverarbeitungskapazitäten von Colibri Industries. Schaltet zusätzliche Verfahren zur Abfallverarbeitung frei und verbessert die Herstellung von Abfallschlämme für nachfolgende Verarbeitungsstufen."],
+  ["ColibriIndustries_Research_WasteSlurrySeparation__name", "Hydroseparation von Abfällen"],
+  ["ColibriIndustries_Research_WasteSlurrySeparation__desc", "Vertieft die Abfallverarbeitung von Colibri Industries, indem Abfallschlämme in nutzbare Fraktionen getrennt und gewonnene Materialien in den Produktionskreislauf zurückgeführt werden."],
+  ["ColibriIndustries_Research_SlurryPlantT2__name", "Industrielle Hydroverarbeitung"],
+  ["ColibriIndustries_Research_SlurryPlantT2__desc", "Hebt die Hydroverarbeitung von Colibri Industries auf industriellen Maßstab. Schaltet den Colibri-Hydroprozessor II frei, eine fortschrittliche Anlage zur umfangreicheren und effizienteren Abfallverarbeitung und Aufbereitung von Abfallschlämme."],
+  ["ColibriIndustries_EnvironmentalScore_Title","Umweltbilanz"], ["ColibriIndustries_EnvironmentalScore_Impact","Umweltauswirkungen"], ["ColibriIndustries_EnvironmentalScore_Trees","Bäume"], ["ColibriIndustries_EnvironmentalScore_TreesCut","Gefällte Bäume"], ["ColibriIndustries_EnvironmentalScore_TreesPlanted","Gepflanzte Bäume"], ["ColibriIndustries_EnvironmentalScore_WasteDumped","Abgelagerter Abfall"], ["ColibriIndustries_EnvironmentalScore_Industrial","Industrieverschmutzung"], ["ColibriIndustries_EnvironmentalScore_Vehicles","Fahrzeugverschmutzung"], ["ColibriIndustries_EnvironmentalScore_Trains","Zugverschmutzung"], ["ColibriIndustries_EnvironmentalScore_Ships","Schiffsverschmutzung"], ["ColibriIndustries_EnvironmentalScore_Water","Wasserverschmutzung"], ["ColibriIndustries_EnvironmentalScore_Radiation","Strahlung"], ["ColibriIndustries_EnvironmentalScore_Health","Bevölkerungsgesundheit"], ["ColibriIndustries_EnvironmentalScore_Food","Ernährungssicherheit"], ["ColibriIndustries_EnvironmentalScore_Healthy","Gesund"], ["ColibriIndustries_EnvironmentalScore_Stable","Stabil"], ["ColibriIndustries_EnvironmentalScore_Declining","Abnehmend"], ["ColibriIndustries_EnvironmentalScore_Unhealthy","Ungesund"], ["ColibriIndustries_EnvironmentalScore_FoodStable","Lebensmittelversorgung stabil"], ["ColibriIndustries_EnvironmentalScore_FoodShortage","Lebensmittelknappheit"], ["ColibriIndustries_EnvironmentalScore_FoodSevere","Schwere Lebensmittelknappheit"], ["ColibriIndustries_EnvironmentalScore_FoodCritical","Kritische Lebensmittelknappheit / Hunger"], ["ColibriIndustries_EnvironmentalScore_Contribution","Beitrag"], ["ColibriIndustries_EnvironmentalScore_Lifetime","Gesamt"], ["ColibriIndustries_EnvironmentalScore_Move","Strg + Ziehen zum Verschieben"]
+, ["ColibriIndustries_ToolbarCategory_Production__name", "Produktion"]
+, ["ColibriIndustries_ToolbarCategory_ElectricityGeneration__name", "Stromerzeugung"]
+, ["ColibriIndustries_ToolbarCategory_FuelRecycling__name", "Brennstoffrecycling"]
+, ["ColibriIndustries_ToolbarCategory_WasteRecycling__name", "Abfallrecycling"]
+, ["ColibriIndustries_EnvironmentalScore_Points", "Punkte"]
+, ["ColibriIndustries_EnvironmentalScore_LockPosition", "Position sperren"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__name", "Kohlebefeuerte Glasschmelze"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__desc", "Schmilzt Glasrohstoff mit Kohle und erzeugt dabei geschmolzenes Glas mit hohen Abgasemissionen."]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__name", "Effiziente Glasschmelze"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__desc", "Schmilzt Glasrohstoff mit Kohlenstoffrückstand für eine schnellere und effizientere Produktion mit weniger Abgasen."]
+, ["ColibriIndustries_Research_EfficientGlassMelting__name", "Fortgeschrittene thermische Verarbeitung"]
+, ["ColibriIndustries_Research_EfficientGlassMelting__desc", "Verbessert die thermischen Verarbeitungstechnologien von Colibri Industries und erschließt effizientere Verfahren zum Schmelzen von Glas und Recyclingkunststoff mit Kohlenstoffrückstand."]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__name", "Kohlebefeuerte Kunststoffschmelze"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__desc", "Schmilzt Recyclingkunststoff mit Kohle und verursacht dabei höhere Abgas- und Luftverschmutzungsemissionen."]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__name", "Effiziente Kunststoffschmelze"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__desc", "Schmilzt Recyclingkunststoff mit Kohlenstoffrückstand und halbiert Abgase sowie Luftverschmutzung gegenüber Kohle."]
+, ["ColibriIndustries_Recipe_Generator_PyrolysisGas__name", "Stromerzeugung aus Pyrolysegas"]
+, ["ColibriIndustries_Recipe_Generator_PyrolysisGas__desc", "Verbrennt Pyrolysegas zur Stromerzeugung und erzeugt dabei Abgase."]
+, ["ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__name", "Glasverarbeitung"]
+, ["ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__desc", "Verarbeitet geschmolzenes Glas mit beabsichtigtem Materialverlust zu Glas und Glasscherben."]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__name", "Dampferzeugung aus Pyrolyseöl"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__desc", "Verbrennt Pyrolyseöl im Gaskessel zur Erzeugung von Hochdruckdampf und Abgas."]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__name", "Dampferzeugung aus Pyrolysegas"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__desc", "Verbrennt Pyrolysegas im Gaskessel zur Erzeugung von Hochdruckdampf und Abdampf."]
+]

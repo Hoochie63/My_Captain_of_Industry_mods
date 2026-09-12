@@ -1,4 +1,0 @@
-5320:A=Product_Dirt
-5320:B=Product_IronOre
-5320:C=Product_Rock
-5320:D=Product_IronOre

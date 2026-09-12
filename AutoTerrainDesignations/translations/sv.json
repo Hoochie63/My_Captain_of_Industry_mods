@@ -212,6 +212,10 @@
     "Skanningsprestanda"
   ],
   [
+    "settings.world.performance",
+    "PRESTANDA"
+  ],
+  [
     "settings.heading.keyboard_shortcuts",
     "Kortkommandon"
   ],
@@ -228,6 +232,18 @@
     "Terrängsäkerhet"
   ],
   [
+    "settings.world.vanilla_issue_correction",
+    "Vanillakorrigeringar"
+  ],
+  [
+    "settings.world.filter_ore_spikes.label",
+    "Filtrera malmspikar"
+  ],
+  [
+    "settings.world.filter_ore_spikes.tooltip",
+    "Ignorera isolerade, ultratunna malmspikar som sträcker sig långt under den omgivande fyndigheten när gruvbeteckningar skapas. Korrigeringen körs före Malmkvalitet och bottenutjämning. Ursprungliga terrängdata och befintliga beteckningar ändras inte."
+  ],
+  [
     "settings.world.avoid_ocean.label",
     "Undvik havet"
   ],
@@ -242,6 +258,22 @@
   [
     "settings.world.avoid_buildings.tooltip",
     "Undvik byggnader i genererade tillfarter och gruvplaner i den här världen. Gruvceller som överlappar en byggnad eller dess säkerhetsmarginal utesluts. Även beräknad terrängstörning nära byggnader undviks."
+  ],
+  [
+    "settings.world.use_worker_thread.label",
+    "Använd arbetstråd"
+  ],
+  [
+    "settings.world.use_worker_thread.tooltip",
+    "Använd en bakgrundstråd för planering av tillfarter och gruvdrift. Aktiverad som standard. Stäng av för felsökning av kompatibilitet; planeringen körs då i speltråden och kan orsaka pauser, särskilt i stora gruvor. Gäller nya planeringsförfrågningar."
+  ],
+  [
+    "settings.world.reduce_oversized_areas.label",
+    "Minska överdimensionerade områden"
+  ],
+  [
+    "settings.world.reduce_oversized_areas.tooltip",
+    "När den fullständiga åtkomstögonblicksbilden är för stor för minnesgränsen, försök med en mindre korridor baserad enbart på geometri runt de aktuella starterna och målen. Målet är att hitta någon väg; den kan skilja sig från en väg över hela området, och ett misslyckande bevisar inte att ingen väg finns."
   ],
   [
     "settings.world.harvest_disrupted_trees.label",
@@ -416,28 +448,12 @@
     "Straff när en stråle inte möter terräng inom sitt spårområde."
   ],
   [
-    "settings.experimental_access.turning_ramps.label",
-    "Svängramper"
-  ],
-  [
-    "settings.experimental_access.turning_ramps.tooltip",
-    "När det är aktiverat kan ATD välja och placera V1-svängnings- eller återkopplingsvägar med vaniljplatt- och sluttningsbeteckningar. Kräver att tornets rampbredd ställs in på 1. Korridorfrigången är oberoende. Bredare ramper och hörn- eller sadelbeteckningar ingår inte."
-  ],
-  [
     "settings.experimental_access.suppress_legacy_ramps.label",
     "Dämpa äldre ramper"
   ],
   [
     "settings.experimental_access.suppress_legacy_ramps.tooltip",
     "Inaktivera den äldre generatorn för raka ramper så att resultat och fel för tillfarter kan testas direkt. Lämna avstängt för normalt reservbeteende."
-  ],
-  [
-    "settings.experimental_access.astar.label",
-    "Använd A*-sökning"
-  ],
-  [
-    "settings.experimental_access.astar.tooltip",
-    "Använd A* i stället för referens-Dijkstra för torrkörningar av tillfarter. Dijkstra är den säkrare valideringsbasen. A* är snabbare."
   ],
   [
     "settings.experimental_access.landscaping_cost_scale.label",
@@ -640,6 +656,10 @@
     "Sätt tornets gruvprioritet till {0}."
   ],
   [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "Endast tilldelade lastbilar (och lastbilar tilldelade till deltagande gruvtorn) får hämta eller leverera last här."
+  ],
+  [
     "panel.farming.title",
     "Förberedelse av odlingsmark"
   ],
@@ -780,15 +800,15 @@
     "Zooma till {0}"
   ],
   [
+    "access_search.zoom.tooltip",
+    "Zooma till åtkomståtgärden"
+  ],
+  [
     "vehicle_order.preassigned.tooltip",
     "Förtilldelad till {0}"
   ],
   [
     "vehicle_order.shortcut.tooltip",
     "Skift-Alt-klicka för att beställa en ny {0} för {2} på {1}"
-  ],
-  [
-    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
-    "Endast tilldelade lastbilar (och lastbilar tilldelade till deltagande gruvtorn) får hämta eller leverera last här."
   ]
 ]

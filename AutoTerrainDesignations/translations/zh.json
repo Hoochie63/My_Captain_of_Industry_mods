@@ -212,6 +212,10 @@
     "扫描性能"
   ],
   [
+    "settings.world.performance",
+    "性能"
+  ],
+  [
     "settings.heading.keyboard_shortcuts",
     "键盘快捷键"
   ],
@@ -228,6 +232,18 @@
     "地形安全"
   ],
   [
+    "settings.world.vanilla_issue_correction",
+    "原版问题修复"
+  ],
+  [
+    "settings.world.filter_ore_spikes.label",
+    "过滤矿脉尖刺"
+  ],
+  [
+    "settings.world.filter_ore_spikes.tooltip",
+    "创建采矿规划时忽略远低于周围矿床的孤立超细矿脉尖刺。此修复会在矿石质量和底部平整处理之前运行。原始地形和现有规划不会被更改。"
+  ],
+  [
     "settings.world.avoid_ocean.label",
     "避开海洋"
   ],
@@ -242,6 +258,22 @@
   [
     "settings.world.avoid_buildings.tooltip",
     "避免在这个世界中生成的通道和采矿计划中出现建筑物。与建筑物或其安全边界重叠的采矿单元被排除在外。还避免了建筑物附近的预计地形干扰。"
+  ],
+  [
+    "settings.world.use_worker_thread.label",
+    "使用工作线程"
+  ],
+  [
+    "settings.world.use_worker_thread.tooltip",
+    "使用后台线程进行通道和采矿规划。默认启用。关闭此选项可排查兼容性问题；规划随后会在游戏线程中运行，并可能导致暂停，尤其是在大型矿区中。仅适用于新的规划请求。"
+  ],
+  [
+    "settings.world.reduce_oversized_areas.label",
+    "缩小过大的区域"
+  ],
+  [
+    "settings.world.reduce_oversized_areas.tooltip",
+    "当完整访问快照超过内存上限时，尝试在当前起点和目标周围使用一个更小的纯几何走廊。此功能旨在找到一条可行路线；它可能不同于完整区域的路线，失败也不能证明不存在路线。"
   ],
   [
     "settings.world.harvest_disrupted_trees.label",
@@ -416,28 +448,12 @@
     "当光线未在其轨迹范围内遇到地形时受到惩罚。"
   ],
   [
-    "settings.experimental_access.turning_ramps.label",
-    "转弯坡道"
-  ],
-  [
-    "settings.experimental_access.turning_ramps.tooltip",
-    "启用后，ATD 可以使用原版平地和坡度指定，选择并放置 V1 转弯或折返通道。要求该塔的坡道宽度设置为 1。通道净宽设置互不影响。不包括更宽的坡道、转角或鞍形指定。"
-  ],
-  [
     "settings.experimental_access.suppress_legacy_ramps.label",
     "抑制遗留斜坡"
   ],
   [
     "settings.experimental_access.suppress_legacy_ramps.tooltip",
     "禁用旧版直坡道生成器，以便直接测试通道的结果和失败情况。保持关闭则使用正常的回退行为。"
-  ],
-  [
-    "settings.experimental_access.astar.label",
-    "使用 A* 搜索"
-  ],
-  [
-    "settings.experimental_access.astar.tooltip",
-    "在通道试运行中使用 A*，而不是参考用的 Dijkstra。Dijkstra 是更安全的验证基准。A* 更快。"
   ],
   [
     "settings.experimental_access.landscaping_cost_scale.label",
@@ -640,6 +656,10 @@
     "命令优先挖掘{0}。"
   ],
   [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "只有已分配的卡车（以及分配给参与采矿塔的卡车）才能在此处装载或交付货物。"
+  ],
+  [
     "panel.farming.title",
     "农地处理"
   ],
@@ -780,15 +800,15 @@
     "缩放至 {0}"
   ],
   [
+    "access_search.zoom.tooltip",
+    "缩放至通行操作"
+  ],
+  [
     "vehicle_order.preassigned.tooltip",
     "预先分配给{0}"
   ],
   [
     "vehicle_order.shortcut.tooltip",
     "按住 Shift-Alt 键并单击即可在 {1} 为 {2} 订购新的 {0}"
-  ],
-  [
-    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
-    "只有已分配的卡车（以及分配给参与采矿塔的卡车）才能在此处装载或交付货物。"
   ]
 ]

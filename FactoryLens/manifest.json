@@ -1,0 +1,20 @@
+{
+  "id": "FactoryLens",
+  "version": "1.0.0",
+  "display_name": "Factory Lens",
+  "description_short": "Trace a stopped production chain to its first cause, diagnose exact logistics failures, and see buffer shortages before they stop the factory.",
+  "description_long": "Factory Lens adds a compact diagnostics HUD and map overlay with Cause Trace, exact truck and transport diagnoses, and predictive buffer warnings. Select a problem to isolate the affected building, the first cause, and the product path between them. Distinguishes disabled import/export, unreachable routes, reserved deliveries, full destinations, missing jobs, no free trucks, and stalled or disconnected belts and pipes. Includes English and Russian localization. UI-only: it does not change simulation data or the save format.",
+  "authors": "pique",
+  "primary_dlls": [
+    "FactoryLens.dll"
+  ],
+  "primary_mod_class_name": "FactoryLens.FactoryLensMod",
+  "min_game_version": "0.8.5",
+  "max_verified_game_version": "0.8.7a",
+  "links": [
+    "https://github.com/Pique1804/Cargo-Helicopter/tree/main/FactoryLens"
+  ],
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": true
+}

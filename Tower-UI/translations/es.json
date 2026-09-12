@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "IU adaptativa de torres",
+  "Vehicle Filters": "Filtros de vehículos",
   "Settings": "Configuración",
   "Collapse all tower sections.": "Contraer todas las secciones de la torre.",
   "Expand standard tower sections.": "Expandir las secciones estándar de la torre.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Mostrar un máximo de ocho filas visibles.",
   "Default": "Predeterminado",
   "Sections opened by default": "Secciones abiertas por defecto",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Las secciones marcadas se abren al colocar una nueva torre minera. Las torres existentes no cambian."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Las secciones marcadas se abren al colocar una nueva torre minera. Las torres existentes no cambian.",
+  "Expand selected tower sections.": "Expandir las secciones seleccionadas de la torre.",
+  "Tree planters": "Plantadora",
+  "Tree harvesters": "Cosechadora",
+  "Tree planter rows": "Filas de plantadoras de árboles",
+  "Tree harvester rows": "Filas de cosechadoras forestales",
+  "Mining Tower": "Torre minera",
+  "Forestry Tower": "Torre forestal",
+  "Section": "Sección",
+  "Expand": "Expandir",
+  "Max rows": "Filas máx.",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Las secciones marcadas se abren en las torres recién colocadas. Las torres existentes no cambian.",
+  "Checked sections open when the title-bar + button is used.": "Las secciones marcadas se abren al usar el botón + de la barra de título.",
+  "Maximum visible rows before a scrollbar appears.": "Número máximo de filas visibles antes de que aparezca una barra de desplazamiento."
 }

@@ -2491,7 +2491,7 @@
     ],
     [
         "CropStats__MoreDueToFertility",
-        "На {0} больше урожая благодаря плодородию"
+        "На {0} больше урожая за счёт плодородия"
     ],
     [
         "CropWaiting__Fertility",
@@ -5559,7 +5559,7 @@
     ],
     [
         "HubAction__ViewOnHub",
-        "В браузере"
+        "Открыть в браузере"
     ],
     [
         "HubFilter_BaseGameOnly",

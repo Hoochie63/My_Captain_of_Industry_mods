@@ -1,0 +1,6 @@
+{
+  "Sandbox cheat tools": {
+    "default": false,
+    "description": "Makes Omni-Tool's independently implemented sandbox tools available without Cheat++. The separate Enable Sandbox Tools switch remains off by default in Omni-Tool Settings. Reload the game after changing this option."
+  }
+}

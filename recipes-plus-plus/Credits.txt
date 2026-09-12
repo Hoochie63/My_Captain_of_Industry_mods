@@ -75,10 +75,30 @@ is licensed under Creative Commons Attribution (http://creativecommons.org/licen
 Joined the separate parts into a single mesh, applied object transforms and recalculated normals,
 replaced the body's image texture with a flat colour and changed the colour to yellow. No other changes were made.
 
-
 -------
 
 "Flying Mouse Farms Maple Syrup" (https://skfb.ly/6UDtF) by MysteriousMose 
 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+-------
+
+"Fried-chicken_12499266" icon by [Vino] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/fried-chicken_12499266]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"Hamburger_3075977" icon by [Magnific] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/hamburger_3075977]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
+
+-------
+
+"Beer_931949" icon by [Magnific] from Flaticon.com
+Source: [https://www.flaticon.com/free-icon/beer_931949?related_id=988934&origin=search]
+License: Flaticon license (with attribution) - https://www.flaticon.com/legal
+No changes made.
 
 -------

@@ -4,8 +4,30 @@ CAP Pier Wall
 A mod for "Captain of Industry" that adds retaining walls that can be placed
 in the ocean.
 
-Tested up to: 0.8.6a
+Tested up to: 0.8.7a
 
+New V1.0.2
+----------
+
+- Console Command
+	- SetHeightOffset(int value): Sets the height offset for the pier walls.
+	- GetHeightOffset:            Gets the current height offset for the pier walls.
+	- SetCategory(bool value):    Specifies whether the buildings should be assigned to a mod-specific category.
+	- GetCategory:                Gets the value of the mod-specific category setting.
+- Add Config
+    - CollisionHeightOffset:      Specifies the height offset for the pier walls. Default is 0.
+    - SortInCategory:             Specifies whether the buildings should be assigned to a mod-specific category. Default is true.
+
+How to Build over PierWalls
+---------------------------
+
+If you want to build over the Pier Walls, you can use the SetHeightOffset console command to adjust the height of the collision box. For 
+example, if you want to build a trading dock over the Pier Walls, you Set the height offset to -20 and save and reload the savegame. Than 
+you can build the trading dock over the Pier Walls. After that you can reset the height offset to 0 and save and reload the savegame again. 
+
+It's not Required for the Pier Walls to work that the Height is set to 0.
+
+**Attention:** When two Buildings are placed in the same place it is possible that you can not reach one of the buildings anymore.
 
 Features
 --------
@@ -37,6 +59,7 @@ The mod folder should contain:
 - PierWallMod.dll
 - AssetBundles/
 - README.txt
+- thumbnail.png
 
 
 Compatibility with Save Games

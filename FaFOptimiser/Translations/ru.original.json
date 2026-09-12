@@ -9,7 +9,7 @@
     ],
     [
         "FaFOptimiser__ProducedCrops",
-        "Производимые культуры"
+        "Произведенный урожай"
     ],
     [
         "FaFOptimiser__SaveCalculation",
@@ -29,7 +29,7 @@
     ],
     [
         "FaFOptimiser__TargetFertility",
-        "<align=\"center\">Целевое плодородие (%):</align>"
+        "Целевое плодородие (%):"
     ],
     [
         "FaFOptimiser__ManualOverride",
@@ -37,11 +37,11 @@
     ],
     [
         "FaFOptimiser__ManualOverrideTooltip",
-        "<align=\"center\">Свободно изменять запрос на оптимизацию без привязки к потребности населения в продовольствии.</align>"
+        "Свободно изменять запрос на оптимизацию без привязки к потребности населения в еде."
     ],
     [
         "FaFOptimiser__FoodDemands",
-        "Потребность в продовольствии (мес.):"
+        "Потребности в еде (мес.):"
     ],
     [
         "FaFOptimiser__AutoFillDemands",
@@ -49,15 +49,15 @@
     ],
     [
         "FaFOptimiser__CropDemands",
-        "Потребность в культурах (мес.):"
+        "Потребности в урожае (мес.):"
     ],
     [
         "FaFOptimiser__SolveAndOptimize",
-        "РАССЧИТАТЬ И ОПТИМИЗИРОВАТЬ"
+        "РЕШИТЬ И ОПТИМИЗИРОВАТЬ"
     ],
     [
         "FaFOptimiser__Solving",
-        "РАСЧЁТ..."
+        "РЕШЕНИЕ..."
     ],
     [
         "FaFOptimiser__ChainScore",
@@ -77,7 +77,7 @@
     ],
     [
         "FaFOptimiser__ChainInputs",
-        "Входы производственной цепочки:"
+        "Входы производственных цепей:"
     ],
     [
         "FaFOptimiser__Produced",
@@ -89,7 +89,7 @@
     ],
     [
         "FaFOptimiser__FarmTooltip",
-        "<align=\"center\">«{0}»<br>Целевое плодородие: {1}<br>Нужно воды: {2}<br>Нужно плодородия: {3}.</align>"
+        "{0}\nЦелевое плодородие:{1}\nТребуется воды:{2}\nТребуется удобрений:{3}"
     ],
     [
         "FaFOptimiser__Inputs",
@@ -105,19 +105,19 @@
     ],
     [
         "FaFOptimiser__SelectProductionChain",
-        "Выбор производственной цепочки: {0}"
+        "Выберите производственную цепочку: {0}"
     ],
     [
         "FaFOptimiser__CropInScopeTooltip",
-        "<align=\"center\">{0}<br><color=#56AA5A>Учитывается в расчётах</color><br>(ЛКМ — исключить/игнорировать)</align>"
+        "{0}\n<color=#00FF00>Учитывается в расчетах</color> (ЛКМ — исключить/игнорировать)"
     ],
     [
         "FaFOptimiser__CropOutOfScopeTooltip",
-        "<align=\"center\">{0}<br><color=#FF3838>Исключено из расчётов</color><br>(ЛКМ — включить)</align>"
+        "{0}\n<color=#AAAAAA>Исключено из расчетов</color> (ЛКМ — включить)"
     ],
     [
         "FaFOptimiser__CropOutOfScopeLabel",
-        "Всего: {0} --- вне расчёта ---"
+        "Всего: {0} --- вне расчета ---"
     ],
     [
         "FaFOptimiser__OptimizeFarms",
@@ -149,11 +149,11 @@
     ],
     [
         "FaFOptimiser__ResetSettlementTooltip",
-        "Сбросить значения к реальному состоянию"
+        "Сбросить к реальному состоянию поселения"
     ],
     [
         "FaFOptimiser__SettlementPopTooltip",
-        "Общее кол-во жителей всех поселений"
+        "Население всех поселений"
     ],
     [
         "FaFOptimiser__SettlementToggleLabel",
@@ -161,11 +161,11 @@
     ],
     [
         "FaFOptimiser__AddSettlementFood",
-        "Добавить продовольствие для поселения"
+        "Добавить еду поселения"
     ],
     [
         "FaFOptimiser__SelectFood",
-        "Выбрать продовольствие"
+        "Выберите еду"
     ],
     [
         "FaFOptimiser__SettlementSupply",
@@ -173,11 +173,11 @@
     ],
     [
         "FaFOptimiser__ConsumptionActiveTooltip",
-        "Потребление активно: «{0}»"
+        "Потребление активно: {0}"
     ],
     [
         "FaFOptimiser__ConsumptionDisabledTooltip",
-        "Потребление отключено: «{0}»"
+        "Потребление отключено: {0}"
     ],
     [
         "FaFOptimiser__Production",
@@ -193,7 +193,7 @@
     ],
     [
         "FaFOptimiser__SelectProduct",
-        "Выбрать продукт"
+        "Выберите продукт"
     ],
     [
         "FaFOptimiser__AddCrop",
@@ -201,23 +201,23 @@
     ],
     [
         "FaFOptimiser__SelectCrop",
-        "Выбрать культуру"
+        "Выберите культуру"
     ],
     [
         "FaFOptimiser__ImportHeader",
-        "Доставка:"
+        "Импорт:"
     ],
     [
         "FaFOptimiser__DemandColon",
-        "потребление:"
+        "спрос:"
     ],
     [
         "FaFOptimiser__UserExport",
-        "ручная отгрузка"
+        "ручной экспорт"
     ],
     [
         "FaFOptimiser__UserImport",
-        "ручная доставка"
+        "ручной импорт"
     ],
     [
         "FaFOptimiser__ForProducing",
@@ -241,7 +241,7 @@
     ],
     [
         "FaFOptimiser__ResetFarmsTooltip",
-        "<align=\"center\">Сбросить настройки ферм под текущую конфигурацию острова</align>"
+        "Сбросить фермы к реа конфигурации острова"
     ],
     [
         "FaFOptimiser__ProducedLabel",
@@ -257,11 +257,11 @@
     ],
     [
         "FaFOptimiser__OptimizerEmptyPrompt",
-        "<i>Нажмите «Оптимизировать фермы», чтобы создать план.</i>"
+        "Нажмите «Оптимизировать фермы», чтобы создать план."
     ],
     [
         "FaFOptimiser__SelectFarmsTooltip",
-        "<align=\"center\">Выбрать фермы для включения или исключения из оптимизации</align>"
+        "Выбрать фермы для включения или исключения из оптимизации"
     ],
     [
         "FaFOptimiser__FarmSelectionTitle",
@@ -269,11 +269,11 @@
     ],
     [
         "FaFOptimiser__NoFarmsBuilt",
-        "<i>На острове пока не построено ни одной плантации/фермы.</i>"
+        "На острове пока не построено ни одной фермы."
     ],
     [
         "FaFOptimiser__NoCropsScheduled",
-        "График посевов не задан"
+        "Севооборот не задан"
     ],
     [
         "FaFOptimiser__RecipeAutomatic",
@@ -293,10 +293,10 @@
     ],
     [
         "FaFOptimiser__PriorityCropTooltip",
-        "Приоритет: {0}<br>ЛКМ — удалить."
+        "Приоритет: {0}\nЛКМ — удалить."
     ],
     [
         "FaFOptimiser__SelectPriorityCropTitle",
-        "Выбрать приоритетную культуру"
+        "Выберите приоритетную культуру"
     ]
 ]

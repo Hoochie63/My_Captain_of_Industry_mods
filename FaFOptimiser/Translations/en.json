@@ -33,7 +33,7 @@
   ["FaFOptimiser__IncreaseFlockTooltip", "Increase flock size (+50 birds)"],
   ["FaFOptimiser__AnimalFeedTotalTooltip", "Combined Total: Flock Feeding requirement + Direct input demand"],
   ["FaFOptimiser__DecreaseFlockTooltip", "Decrease flock size (Min: {0})"],
-  ["FaFOptimiser__MinFlockLabel", "(Min: {0})"],
+  ["FaFOptimiser__MinFlockLabel", "(Min: {0})"]
     ["FaFOptimiser__Settlement", "Settlement"],
     ["FaFOptimiser__ResetSettlementTooltip", "Reset to actual settlement state"],
     ["FaFOptimiser__SettlementPopTooltip", "All settlements population"],

@@ -33,3 +33,9 @@ License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
 Modified in Blender: Some parts removed, some added and some edited.
 
 -------
+
+Super Store with pizza hut & Bakery by [Umar]
+Source: (https://skfb.ly/p9HZK)
+License: Creative Commons Attribution - (http://creativecommons.org/licenses/by/4.0/).
+Modified in Blender: Some parts removed, some added and some edited.
+-------

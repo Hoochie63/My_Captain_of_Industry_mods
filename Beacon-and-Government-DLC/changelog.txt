@@ -1,22 +1,48 @@
-v1.0.4 | 2026-08-31
-==========================================
-DEDICATED RESEARCH PROGRESSION & BALANCE
-==========================================
-* Added a dedicated six-node Beacon & Government research branch tied into Construction II, Captain's Offices I-II, Edicts I-II, and Basic computing at the intended stages of vanilla progression.
-* Beacon Logistics unlocks the Relay Beacon and Captain's Exchange. Regional and Central Administration unlock Government Offices I-II, while the remaining research separately introduces Immigration Incentives, Humanitarian Priority, Outbound Resettlement, and both Regional Island Subsidies.
-* All multi-parent research requires every displayed prerequisite. The full branch runs horizontally beneath the vanilla tree with clear forward connections from each required vanilla node.
-* Every policy and subsidy now appears as a named, searchable item under its research node's UNLOCKS details without adding duplicate edicts to the vanilla Captain's Office.
-* Reward-policy cards now appear in progression order as Immigration Incentives, Humanitarian Priority, and Outbound Resettlement. Both the Office inspector and global Government window reveal the same policies and subsidies as they are researched.
-* Rebalanced construction to 75 Construction Parts II / 75 Mechanical Parts / 75 Electronics for Relay Beacons; 75 Construction Parts II / 250 Wood for Exchanges; 175 Construction Parts II / 275 Wood / 100 Iron / 100 Copper for Office I; and 200 Construction Parts III / 175 Wood / 125 Steel / 100 Electronics for Office II.
-* Removed Paper from both Government Office recipes and changed Office I/II Beacon-network support from 1.00/1.50 to 0.25/1.25 Unity per month. The native primary Beacon and Relay's 0.25 rate remain unchanged.
-* Existing placed custom buildings remain functional after updating. New placement is relocked only until the applicable custom research is completed.
-* Saved active policies remain active and can always be disabled. Paid queued or active subsidy terms continue through their saved calendar duration even when their new research has not yet been completed.
-* Preserved in-progress Beacon-cycle samples during migration, so the first completed cycle after updating may blend old and new Office contribution rates; following cycles use only the new values.
+v1.0.5 | 2026-09-06
 
+* Added complete editable localization for all custom player-facing text across all 21 game languages, with English source phrases kept as readable translation keys.
+* Reworked the Government panel for longer translations with two policy cards per row, full-width subsidy cards, and scrolling.
+* Moved all Beacon & Government buildings into their own submenu beneath the shared COI Skylines category in the main building section.
+* Added native Shift-move support to Relay Beacons and Government Offices I-II, restricted to another placement of the exact same building.
+
+[REWARDS & ADJUSTMENTS]
+
+* Added research-gated Fuel Gas and Hydrogen to Beacon rewards and yearly Quick Trades at quantities 20% below the Crude Oil range.
+* Halved Crude Oil from Beacon rewards so it remains an emergency supply without bypassing normal oil progression. Quick Trade quantities are unchanged.
+
+v1.0.4 | 2026-08-31
+
+[DEDICATED RESEARCH PROGRESSION & BALANCE]
+
+* Added dedicated Beacon & Government research progression nodes; The full branch runs horizontally beneath the vanilla tree and has linear forward progression also tied to existing stages of the vanilla progression-tree.
+* Beacon Reward overhaul only requires unlocking the normal beacon, while the Beacon/Government+ Nodes expand the system.
+* Rebalanced construction costs of all B&G Buildings to match what's available at that tier of progression.
+* Both the Office inspector and global Government window reveal policies and subsidies as they are researched.
+
+[RESEARCH NODES]
+
+* Beacon Logistics unlocks the Relay Beacon and Captain's Exchange.
+* Regional Administration unlocks Government Office I and Immigration Incentives Edict.
+* Humanitarian Coordination unlocks Humanitarian Priority Edict.
+* Central Administration unlocks Government Office II and Outbound Resettlement Edict.
+* Regional Power Agreements unlocks the Power Generation Subsidy.
+* Computing Capacity Agreements unlocks the Computing Capacity Subsidy.
+
+[CONSTRUCTION COST & UNITY-DRAIN REBALANCE]
+
+* Government Office I & II construction no longer costs paper, so they are immediately buildable after researching them, yet still expensive.
+* Adjusted Government Office I optional unity drain from 1.00 → 0.25, to reflect it's now cheaper construction costs.
+* Adjusted Government Office II optional unity drain from 1.50 to 1.25.
+
+* NOTE: Beacon Rewards scale based on your average unity drain over a 2-year cycle and these buildings only drain unity if the main beacon is active.
+
+[UPDATING FROM PREVIOUS VERSION]
+
+* Existing placed custom buildings remain functional after updating but will need to be unlocked through research to be place again.
+* Saved active policies remain active and can always be disabled. Paid queued or active subsidy terms continue through their saved calendar duration even when their new research has not yet been completed.
 v1.0.3 | 2026-08-30
-===========================================
-REAL CARGO SHIPS & GOVERNMENT PANEL POLISH
-===========================================
+[REAL CARGO SHIPS & GOVERNMENT PANEL POLISH]
+
 * Replaced the temporary straight-line Exchange courier with a real vanilla cargo ship that follows water routes, steers around terrain, respects pause and game speed, uses the Captain's Exchange's rotated ocean berth, and returns through open water.
 * Delivery ships are now a permanent part of Quick Trades, so the temporary Show delivery ships checkbox has been retired.
 * Saving during a delivery safely despawns any incoming delivery ships. If a ship is interrupted this way, the order tries again.
@@ -24,25 +50,42 @@ REAL CARGO SHIPS & GOVERNMENT PANEL POLISH
 * Rebuilt the Government Office inspector and Ctrl+F5 window around one synchronized native-style Regional Policies panel, with 0/I policy controls and I-V selectors for one-to-five subsidy terms.
 * Gave Relay Beacons, Captain's Exchanges, and both Government Offices new custom colors to tell them apart from the originals. You can recolor them further with the recolor mod.
 * Reduced Construction Parts I-IV Quick Trade quantities by another 15% and raised their prices so Exchange offers no longer bypass the intended early progression bottleneck.
-=============
-COMPATIBILITY
-=============
+
+[COMPATIBILITY]
+
+* Restored Coastal Immigration Beacon's authority over the main Beacon while keeping Relay Beacons on an independent unrestricted 5x5 layout in either mod load order.
+* Now all intended features and placement restrictions work when Coastal Immigration Beacon Mod is installed with Beacon & Government+.
+
+v1.0.3 | 2026-08-30
+
+[REAL CARGO SHIPS & GOVERNMENT PANEL POLISH]
+
+* Replaced the temporary straight-line Exchange courier with a real vanilla cargo ship that follows water routes, steers around terrain, respects pause and game speed, uses the Captain's Exchange's rotated ocean berth, and returns through open water.
+* Delivery ships are now a permanent part of Quick Trades, so the temporary Show delivery ships checkbox has been retired.
+* Saving during a delivery safely despawns any incoming delivery ships. If a ship is interrupted this way, the order tries again.
+* If a Captain's Exchange is deconstructed, its orders move to another one. If no safe delivery is possible yet, the orders simply wait.
+* Rebuilt the Government Office inspector and Ctrl+F5 window around one synchronized native-style Regional Policies panel, with 0/I policy controls and I-V selectors for one-to-five subsidy terms.
+* Gave Relay Beacons, Captain's Exchanges, and both Government Offices new custom colors to tell them apart from the originals. You can recolor them further with the recolor mod.
+* Reduced Construction Parts I-IV Quick Trade quantities by another 15% and raised their prices so Exchange offers no longer bypass the intended early progression bottleneck.
+
+[COMPATIBILITY]
+
 * Restored Coastal Immigration Beacon's authority over the main Beacon while keeping Relay Beacons on an independent unrestricted 5x5 layout in either mod load order.
 * Now all intended features and placement restrictions work when Coastal Immigration Beacon Mod is installed with Beacon & Government+.
 
 v1.0.2 | 2026-08-28
-==========================
-BALANCE & CONTRACT FIXES
-==========================
+
+[BALANCE & CONTRACT FIXES]
+
 * Added dedicated per-product Quick Trade quantity ranges so Exchange balance is now independent from Beacon-cycle supply-drop quantities.
 * Reduced the product quantities of newly generated Captain's Exchange offers by roughly 20% while keeping their existing Captain's Currency prices.
 * Existing pending deliveries are unaffected by this nerf.
 * Purchased Power and Computing Subsidies now begin at the next calendar month instead of at the beginning of beacon cycles, in case the beacon were to be paused before subsidy kicked in.
 
 v1.0.1 | 2026-08-26 - 2026-08-28
-==========================================
-GOVERNMENT POLICIES & REGIONAL SUBSIDIES
-==========================================
+
+[GOVERNMENT POLICIES & REGIONAL SUBSIDIES]
+
 * Government Offices now offer three Beacon reward policies: Outbound Resettlement, Immigration Incentives, and Humanitarian Priority.
 * Outbound Resettlement trades refugee arrivals for a chance at an additional Captain's Currency.
 * Immigration Incentives exchanges the cycle's Currency reward for additional refugees, while Humanitarian Priority redirects supply drops into refugee support.
@@ -52,9 +95,8 @@ GOVERNMENT POLICIES & REGIONAL SUBSIDIES
 * Inspect any Government Office to view Beacon & Government Policies
 * Added a Global Policies panel, opened with Ctrl+F5 by default, or rebind it under Beacon & Government in the native Controls menu.
 
-============================
-CAPTAIN'S EXCHANGE DELIVERIES
-============================
+[CAPTAIN'S EXCHANGE DELIVERIES]
+
 * Quick trades now have a delayed delivery order instead of instantly teleporting products to the Shipyard.
 * Currency is charged immediately; after roughly three months, a vanilla-style cargo ship sails to the selected Captain's Exchange, berths, delivers the order to the Shipyard, turns around, and leaves the map.
 * Visible deliveries fall back to another Exchange when their target is missing, and a missing Shipyard holds the order until delivery becomes possible.
@@ -63,16 +105,13 @@ CAPTAIN'S EXCHANGE DELIVERIES
 * Policy and subsidy controls remain unavailable until Government Office I or II is constructed.
 
 v1.0.0 | 2026-07-27 - 2026-08-26
-====================================================================
-BEACON & GOVERNMENT DLC - USE MORE UNITY TO GUIDE SHIPS BACK HOME
-====================================================================
+
+[BEACON & GOVERNMENT DLC - USE MORE UNITY TO GUIDE SHIPS BACK HOME]
 
 * Designed to keep the Beacon useful and engaging into the mid-to-late game without becoming overpowered or cheaty.
 * This is an early but working release, with more updates planned for the immediate future.
 
-============================
-REWARDS, CURRENCY & TRADING
-============================
+[REWARDS, CURRENCY & TRADING]
 
 * Overhauls the Beacon's fixed reward of 18 refugees and 20 Copper into a weighted, randomized supply drop after every completed Beacon cycle.
 * Rewards draw from a large research-gated pool of ores, metals, fuels, foods, construction supplies, electronics, medical goods, Solar Cells, Vehicle Parts, Lab Equipment, and other useful products.
@@ -80,17 +119,13 @@ REWARDS, CURRENCY & TRADING
 * A rare multi-reward roll can add one to four extra product stacks, becoming slightly more likely at each whole 1.00 Unity/month average threshold up to the cap.
 * Beacon rewards are designed as a minor supplement so village trading and contracts remain the better sources for focused supplies.
 
-==================
-CAPTAIN'S CURRENCY
-==================
+[CAPTAIN'S CURRENCY]
 
 * Captain's Currency is earned only through completed Beacon cycles, with the amount based on the network's saved full-cycle average Unity drain.
 * Each Beacon cycle awards roughly one Coin for every 1.00 Unity/month of full-cycle average, with randomized variance.
 * Build a Captain's Exchange to access three yearly rotating offers that cost Captain's Currency. Purchased products are delivered to the Shipyard.
 
-==========================
-BEACON NETWORK & BUILDINGS
-==========================
+[BEACON NETWORK & BUILDINGS]
 
 * Adds Relay Beacons, Captain's Exchanges, and Government Offices I and II using the Beacon, Trading Dock, and Captain's Office models.
 * These support buildings can be armed to increase how much Unity the primary Beacon drains each month.
@@ -100,8 +135,6 @@ BEACON NETWORK & BUILDINGS
 * All custom buildings are available from the dedicated Beacon & Government logistics toolbar menu.
 * Armed support buildings show a small contextual indicator while their inspector is open.
 
-==============================================
-COMPATIBILITY WITH COASTAL IMMIGRATION BEACON
-==============================================
+[COMPATIBILITY WITH COASTAL IMMIGRATION BEACON]
 
 * Fixed Coastal Immigration Beacon v0.2.10's oversized 60+ tile placement restriction conflict, restoring the normal 5x5 Beacon placement rules so Beacon-derived content no longer inherits its bug.

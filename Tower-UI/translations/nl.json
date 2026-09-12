@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptieve toreninterface",
+  "Vehicle Filters": "Voertuigfilters",
   "Settings": "Instellingen",
   "Collapse all tower sections.": "Alle torensecties inklappen.",
   "Expand standard tower sections.": "Standaardtorensecties uitklappen.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Maximaal acht zichtbare rijen tonen.",
   "Default": "Standaard",
   "Sections opened by default": "Standaard geopende secties",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Aangevinkte secties worden geopend wanneer een nieuwe mijntoren wordt geplaatst. Bestaande torens blijven ongewijzigd."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "Aangevinkte secties worden geopend wanneer een nieuwe mijntoren wordt geplaatst. Bestaande torens blijven ongewijzigd.",
+  "Expand selected tower sections.": "Geselecteerde torensecties uitklappen.",
+  "Tree planters": "Planter",
+  "Tree harvesters": "Oogstmachine",
+  "Tree planter rows": "Rijen boomplanters",
+  "Tree harvester rows": "Rijen bosbouwmachines",
+  "Mining Tower": "Mijntoren",
+  "Forestry Tower": "Bosbouwtoren",
+  "Section": "Sectie",
+  "Expand": "Uitklappen",
+  "Max rows": "Max. rijen",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "Aangevinkte secties worden geopend op nieuw geplaatste torens. Bestaande torens blijven ongewijzigd.",
+  "Checked sections open when the title-bar + button is used.": "Aangevinkte secties worden geopend wanneer de knop + in de titelbalk wordt gebruikt.",
+  "Maximum visible rows before a scrollbar appears.": "Maximaal aantal zichtbare rijen voordat een schuifbalk verschijnt."
 }

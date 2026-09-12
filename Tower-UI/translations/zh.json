@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "自适应塔楼界面",
+  "Vehicle Filters": "车辆筛选",
   "Settings": "设置",
   "Collapse all tower sections.": "折叠采矿塔的所有区域。",
   "Expand standard tower sections.": "展开采矿塔的标准区域。",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "显示最多八行。",
   "Default": "默认",
   "Sections opened by default": "默认打开的分区",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "放置新的采矿塔时，已勾选的分区将会打开。现有采矿塔不会改变。"
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "放置新的采矿塔时，已勾选的分区将会打开。现有采矿塔不会改变。",
+  "Expand selected tower sections.": "展开所选控制塔分区。",
+  "Tree planters": "植树机",
+  "Tree harvesters": "伐木机",
+  "Tree planter rows": "植树机行数",
+  "Tree harvester rows": "伐木机行数",
+  "Mining Tower": "采矿塔",
+  "Forestry Tower": "林业塔",
+  "Section": "分区",
+  "Expand": "展开",
+  "Max rows": "最大行数",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "已勾选的分区会在新放置的控制塔中打开。现有控制塔不会改变。",
+  "Checked sections open when the title-bar + button is used.": "使用标题栏的 + 按钮时，已勾选的分区会打开。",
+  "Maximum visible rows before a scrollbar appears.": "滚动条出现前可显示的最大行数。"
 }

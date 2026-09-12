@@ -1,1 +1,15 @@
-{}
+{
+  "title": "CAP.PierWallMod",
+
+  "collision_height_offset": {
+    "is_integer": true,
+    "default": 0,
+    "description": "Offset for the collision height of the PierWalls. Defaults to 0 to use the collision height of standard retaining walls."
+  },
+  "sort_in_Category": {
+    "is_boolean": true,
+    "default": false,
+    "description": "Specifies whether PierWall should be placed in its own category."
+  }
+
+}

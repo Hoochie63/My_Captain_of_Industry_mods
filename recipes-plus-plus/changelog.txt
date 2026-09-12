@@ -1,3 +1,70 @@
+v1.2.9 | 2026-09-04
+────────────────────────────────────────────────────────────────────────
+* YOU CAN NOW CHOOSE WHERE EACH ADDED DEPOSIT AND THE LITHIUM MOUND GOES, OR JUST PRESS CONTINUE AND HAVE THE SPOT PICKED FOR YOU AS BEFORE. (thanks Admiral Fox for testing)
+
+  - Press Place on any row and the window closes so you can click the spot you want on the map. Leave it alone and it is placed for you.
+
+  - A circle follows your mouse showing the exact size, green where it fits and red where it does not.
+
+  - The ground resources overlay switches on by itself while you place, so you can see what is already on the map, then switches back off.
+
+  - A message tells you why a spot will not work, such as too close to the map edge or overlapping another deposit. Trees are fine, they get buried.
+
+────────────────────────────────────────────────────────────────────────
+* EACH DEPOSIT AND THE LITHIUM MOUND NOW HAS A TICK BOX, SO YOU CAN LEAVE OUT ANY YOU DO NOT WANT.
+
+  - Untick a row before pressing Continue and nothing is added for it, and it is not offered again on that save.
+
+  - Everything starts ticked, so pressing Continue without changing anything works exactly as before.
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.8 | 2026-08-31
+────────────────────────────────────────────────────────────────────────
+* GEOLOGY & RESERVOIR ENGINEERING SUPPORT — MISSING UNDERGROUND DEPOSIT TYPES FROM THAT MOD ARE ADDED TO A SAVE YOU ALREADY STARTED.
+
+  - When you load a save with that mod installed, any of its deposit types not on the map yet get one deposit each, on free land around your base and away from other deposits.
+
+  - A window lists what was added, with the deposit icons and how much each one holds, plus the types that were already on the map.
+
+  - Each deposit there gets a color dropdown for the ground resources overlay. It starts on that mod's own color; your pick repaints map and legend at once and is kept per save.
+
+────────────────────────────────────────────────────────────────────────
+* THREE NEW FOODS — BEER, BURGERS AND FRIED CHICKEN — IN TWO NEW FOOD COLUMNS.
+
+  - Beer is brewed from wheat and water in the Fermentation tank and fills a new Drinks column.
+
+  - Burgers are baked from bread, meat, vegetables and salt, and fried chicken needs chicken carcass, cooking oil and salt. Both sit in a new Junk Food column.
+
+  - Each one gives a small unity bonus rather than a big one, so the chains are worth building without making unity easy to come by.
+
+────────────────────────────────────────────────────────────────────────
+* THE FOOD IN SETTLEMENT LIST NOW MAKES ROOM WHEN OTHER MODS ADD EXTRA FOODS OR FOOD CATEGORIES.
+
+  - Extra categories keep their full width and the list scrolls sideways, instead of the columns being squeezed until nothing fits.
+
+  - The list grows downwards as more foods are added and only starts scrolling once it would run off the screen. The table view behaves the same.
+
+  - Foods and columns from other mods also show up when you add that mod to a save you already started, not only on a brand new game.
+
+────────────────────────────────────────────────────────────────────────
+* MAPLE SYRUP NOW GIVES 0.20 UNITY INSTEAD OF 0.55.
+
+  - It was tied with cake for the most unity of any food in the game while being far cheaper to make, so a single food type was carrying too much of your unity on its own.
+
+  - More foods are on the way, and each one should be a small bonus that rewards building the chain, rather than one treat being worth so much that the rest stop mattering.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED THE FUEL-TYPE VEHICLE PAINT ALSO COLORING THE CARGO. TANKS AND PILES SHOW THE CARGO'S OWN COLOR AGAIN. (thanks Admiral Fox for the report)
+
+────────────────────────────────────────────────────────────────────────
+* SAVES WITH NO LITHIUM ORE GET A SMALL LITHIUM ORE MOUND RAISED ON FREE LAND NEAR YOUR BASE, SO BATTERIES NO LONGER NEED A NEW MAP.
+
+────────────────────────────────────────────────────────────────────────
+* THE MOD'S RESEARCH IS LAID OUT MORE CLEARLY AND NO LONGER SITS ON TOP OF VANILLA OR OTHER MODS' RESEARCH IN THE TREE.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.7 | 2026-08-28
 ────────────────────────────────────────────────────────────────────────
 * THE HEAVY HAULER AND HEAVY TANKER NOW GO BACK TO THEIR OWN COLOR WHEN COLORED VEHICLES IS TURNED OFF FOR THEIR FUEL TYPE.

@@ -1,0 +1,100 @@
+[
+  ["ColibriIndustries_ToolbarCategory_Root__name", "Colibri Industries"],
+  ["ColibriIndustries_GeneratorLarge__name", "Gerador Colibri"],
+  ["ColibriIndustries_GeneratorLarge__desc", "Um gerador da Colibri Industries que queima gás de pirólise para produzir eletricidade."],
+  ["ColibriIndustries_Research_PyrolysisPower__name", "Energia de pirólise"],
+  ["ColibriIndustries_Research_PyrolysisPower__desc", "Expande o uso dos produtos da pirólise na Colibri Industries. O Gerador Colibri queima gás de pirólise para gerar eletricidade, transformando um subproduto do processamento de resíduos plásticos em uma fonte útil de energia."],
+  ["ColibriIndustries_PyrolysisOil__name", "Óleo de pirólise"],
+  ["ColibriIndustries_PyrolysisGas__name", "Gás de pirólise"],
+  ["ColibriIndustries_CarbonResidue__name", "Resíduo de carbono"],
+  ["ColibriIndustries_Recipe_BasicDistillerPyrolysis__name", "Pirólise de plástico"],
+  ["ColibriIndustries_Recipe_BasicDistillerPyrolysis__desc", "Processa plástico e carvão em óleo de pirólise, gás de pirólise, resíduo de carbono e dióxido de carbono."],
+  ["ColibriIndustries_BasicDistiller__name", "Piroprocessador Colibri"],
+  ["ColibriIndustries_BasicDistiller__desc", "Uma unidade de processamento térmico que converte resíduos plásticos em óleo de pirólise, gás de pirólise e resíduo de carbono para uso industrial posterior."],
+  ["ColibriIndustries_CrusherLarge__name", "Peneira Colibri"],
+  ["ColibriIndustries_CrusherLarge__desc", "Uma unidade industrial de britagem e peneiramento que separa o cascalho do GSG e prepara matéria-prima de vidro."],
+  ["ColibriIndustries_RotaryKiln__name", "Termoprocessador Colibri"],
+  ["ColibriIndustries_RotaryKiln__desc", "Uma unidade de alta temperatura que processa termicamente matéria-prima de vidro e plástico reciclado em materiais fundidos para a produção posterior."],
+  ["ColibriIndustries_Research_BasicDistiller__name", "Tecnologias de pirólise"],
+  ["ColibriIndustries_Research_BasicDistiller__desc", "Desbloqueia tecnologias da Colibri Industries para processamento por pirólise e o uso posterior dos produtos de pirólise."],
+  ["ColibriIndustries_Research_CrusherLarge__name", "Processamento térmico de materiais"],
+  ["ColibriIndustries_Research_CrusherLarge__desc", "Desbloqueia tecnologias da Colibri Industries para o processamento térmico de matérias-primas. Permite fundir matéria-prima de vidro preparada e plástico reciclado para a produção posterior."],
+  ["ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__name", "Separação de GSG"],
+  ["ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__desc", "Brita e peneira o GSG para separar o cascalho da fração de areia e vidro, produzindo matéria-prima para vidro com uma pequena perda de material fino."],
+  ["ColibriIndustries_WasteRecycler__name", "Hidrosseparador Colibri"],
+  ["ColibriIndustries_Kiln__name", "Forno Colibri"],
+  ["ColibriIndustries_Research_Kiln__name", "Fundamentos da Colibri Industries"],
+  ["ColibriIndustries_Research_Kiln__desc", "O primeiro passo da Colibri Industries. O forno produz tijolos resistentes com terra e carvão, fornecendo o material básico para instalações e tecnologias posteriores."],
+  ["ColibriIndustries_Kiln__desc", "Um forno industrial compacto que produz tijolos de terra usando carvão e fornece o material de construção básico para o desenvolvimento da Colibri Industries."],
+  ["ColibriIndustries_Recipe_KilnBrickProduction__name", "Produção de tijolos"],
+  ["ColibriIndustries_Recipe_KilnBrickProduction__desc", "Queima terra com carvão para produzir tijolos."],
+  ["ColibriIndustries_PlasticWasteUnit__name", "Resíduos plásticos"],
+  ["ColibriIndustries_RecycledPlastic__name", "Plástico reciclado"],
+  ["ColibriIndustries_RecycledPlastic__desc", "Plástico reciclado a granel obtido pela trituração de resíduos plásticos e destinado a processamento posterior."],
+  ["ColibriIndustries_MoltenPlastic__name", "Plástico fundido"],
+  ["ColibriIndustries_MoltenPlastic__desc", "Plástico fundido preparado para transporte por canais de material fundido e processamento industrial posterior."],
+  ["ColibriIndustries_Shredder__name", "Triturador Colibri"],
+  ["ColibriIndustries_Shredder__desc", "Um triturador da Colibri Industries que transforma resíduos plásticos em plástico reciclado a granel."],
+  ["ColibriIndustries_Recipe_Shredder_RecycledPlastic__name", "Reciclagem de plástico"],
+  ["ColibriIndustries_Recipe_Shredder_RecycledPlastic__desc", "Tritura resíduos plásticos para produzir plástico reciclado a granel destinado a processamento posterior."],
+  ["ColibriIndustries_PolymerPlant__name", "Usina de polímeros Colibri"],
+  ["ColibriIndustries_PolymerPlant__desc", "Uma instalação da Colibri Industries que transforma materiais fundidos em produtos industriais."],
+  ["ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__name", "Polimerização de plástico fundido"],
+  ["ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__desc", "Processa plástico fundido com água para produzir plástico e vapor esgotado."],
+  ["ColibriIndustries_Research_PolymerProduction__name", "Produção de polímeros"],
+  ["ColibriIndustries_Research_PolymerProduction__desc", "Desbloqueia a usina de polímeros Colibri para o processamento avançado de polímeros."],
+  ["ColibriIndustries_WasteRecycler__desc", "Um complexo de separação profunda da polpa de resíduos que recupera frações úteis e prepara os materiais obtidos para processamento posterior."],
+  ["ColibriIndustries_SlurryPlantT1__name", "Hidroprocessador Colibri"],
+  ["ColibriIndustries_SlurryPlantT1__desc", "Uma unidade de hidroprocessamento primário que mistura resíduos com água e os transforma em polpa para separação e tratamento posteriores."],
+  ["ColibriIndustries_SlurryPlantT2__name", "Hidroprocessador Colibri II"],
+  ["ColibriIndustries_SlurryPlantT2__desc", "Uma versão avançada do hidroprocessador para volumes maiores, abastecendo com mais eficiência as etapas posteriores com polpa de resíduos."],
+  ["ColibriIndustries_WasteSlurry__name", "Polpa de resíduos"],
+  ["ColibriIndustries_WasteSlurry__desc", "A polpa de resíduos é uma suspensão criada pela mistura de resíduos sólidos com água. É um produto intermediário transportado por tubulações e processado posteriormente na cadeia de reciclagem."],
+  ["ColibriIndustries_MineralMix__name", "GSG"],
+  ["ColibriIndustries_MineralMix__desc", "GSG — Gravel–Sand–Glass é uma mistura heterogênea recuperada de cascalho, areia e fragmentos de vidro triturado que requer processamento e separação adicionais."],
+  ["ColibriIndustries_GlassFeedstock__name", "Matéria-prima para vidro"],
+  ["ColibriIndustries_GlassFeedstock__desc", "Uma fração preparada de areia e vidro triturado obtida pela separação do cascalho do GSG. Destina-se a processamento térmico posterior na produção de vidro."],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromWaste__name", "Polpa de resíduos"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromWaste__desc", "Mistura resíduos com água para produzir polpa de resíduos."],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__name", "Polpa de resíduos prensados"],
+  ["ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__desc", "Mistura resíduos prensados com água para produzir polpa de resíduos."],
+  ["ColibriIndustries_Recipe_WasteSlurry_Separation__name", "Separação de polpa de resíduos"],
+  ["ColibriIndustries_Recipe_WasteSlurry_Separation__desc", "Separa a polpa de resíduos com cascalho e areia em águas residuais, sedimentos, biomassa e GSG."],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__name", "Polpa de resíduos pré-selecionados"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__desc", "Faz a triagem preliminar dos resíduos para recuperar recicláveis e depois mistura os resíduos restantes com água para produzir polpa de resíduos."],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__name", "Polpa II de resíduos compactados"],
+  ["ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__desc", "Processa resíduos compactados com água enquanto recupera materiais recicláveis."],
+  ["ColibriIndustries_Research_WasteRecycler__name", "Hidroprocessamento de resíduos"],
+  ["ColibriIndustries_Research_WasteRecycler__desc", "A etapa seguinte da Colibri Industries. O hidroprocessador mistura resíduos com água para criar polpa destinada à separação, tratamento e recuperação de materiais."],
+  ["ColibriIndustries_Research_PressedWasteSlurry__name", "Hidroprocessamento avançado"],
+  ["ColibriIndustries_Research_PressedWasteSlurry__desc", "Expande as capacidades de hidroprocessamento da Colibri Industries. Desbloqueia métodos adicionais de processamento de resíduos e aprimora a produção de polpa para as etapas seguintes."],
+  ["ColibriIndustries_Research_WasteSlurrySeparation__name", "Hidrosseparação de resíduos"],
+  ["ColibriIndustries_Research_WasteSlurrySeparation__desc", "Aprofunda o processamento da Colibri Industries ao separar a polpa em frações úteis e devolver os materiais recuperados ao ciclo produtivo."],
+  ["ColibriIndustries_Research_SlurryPlantT2__name", "Hidroprocessamento industrial"],
+  ["ColibriIndustries_Research_SlurryPlantT2__desc", "Leva o hidroprocessamento da Colibri Industries à escala industrial. Desbloqueia o Hidroprocessador Colibri II, uma instalação avançada para processar resíduos e preparar polpa em maior escala e com mais eficiência."],
+  ["ColibriIndustries_EnvironmentalScore_Title","Pontuação ambiental"], ["ColibriIndustries_EnvironmentalScore_Impact","Impacto ambiental"], ["ColibriIndustries_EnvironmentalScore_Trees","Árvores"], ["ColibriIndustries_EnvironmentalScore_TreesCut","Árvores cortadas"], ["ColibriIndustries_EnvironmentalScore_TreesPlanted","Árvores plantadas"], ["ColibriIndustries_EnvironmentalScore_WasteDumped","Resíduos despejados"], ["ColibriIndustries_EnvironmentalScore_Industrial","Poluição industrial"], ["ColibriIndustries_EnvironmentalScore_Vehicles","Poluição de veículos"], ["ColibriIndustries_EnvironmentalScore_Trains","Poluição de trens"], ["ColibriIndustries_EnvironmentalScore_Ships","Poluição de navios"], ["ColibriIndustries_EnvironmentalScore_Water","Poluição da água"], ["ColibriIndustries_EnvironmentalScore_Radiation","Radiação"], ["ColibriIndustries_EnvironmentalScore_Health","Saúde da população"], ["ColibriIndustries_EnvironmentalScore_Food","Segurança alimentar"], ["ColibriIndustries_EnvironmentalScore_Healthy","Saudável"], ["ColibriIndustries_EnvironmentalScore_Stable","Estável"], ["ColibriIndustries_EnvironmentalScore_Declining","Em declínio"], ["ColibriIndustries_EnvironmentalScore_Unhealthy","Não saudável"], ["ColibriIndustries_EnvironmentalScore_FoodStable","Abastecimento de alimentos estável"], ["ColibriIndustries_EnvironmentalScore_FoodShortage","Escassez de alimentos"], ["ColibriIndustries_EnvironmentalScore_FoodSevere","Escassez grave de alimentos"], ["ColibriIndustries_EnvironmentalScore_FoodCritical","Escassez crítica de alimentos / fome"], ["ColibriIndustries_EnvironmentalScore_Contribution","Contribuição"], ["ColibriIndustries_EnvironmentalScore_Lifetime","Vitalício"], ["ColibriIndustries_EnvironmentalScore_Move","Ctrl + arrastar para mover"]
+, ["ColibriIndustries_ToolbarCategory_Production__name", "Produção"]
+, ["ColibriIndustries_ToolbarCategory_ElectricityGeneration__name", "Geração de eletricidade"]
+, ["ColibriIndustries_ToolbarCategory_FuelRecycling__name", "Reciclagem de combustíveis"]
+, ["ColibriIndustries_ToolbarCategory_WasteRecycling__name", "Reciclagem de resíduos"]
+, ["ColibriIndustries_EnvironmentalScore_Points", "pontos"]
+, ["ColibriIndustries_EnvironmentalScore_LockPosition", "Bloquear posição"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__name", "Fusão de vidro a carvão"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__desc", "Funde matéria-prima de vidro usando carvão, produzindo vidro fundido com altas emissões de gases de exaustão."]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__name", "Fusão eficiente de vidro"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__desc", "Funde matéria-prima de vidro usando resíduo de carbono para uma produção mais rápida e eficiente com menos gases de exaustão."]
+, ["ColibriIndustries_Research_EfficientGlassMelting__name", "Processamento térmico avançado"]
+, ["ColibriIndustries_Research_EfficientGlassMelting__desc", "Aprimora as tecnologias de processamento térmico da Colibri Industries, desbloqueando métodos mais eficientes para fundir vidro e plástico reciclado com resíduo de carbono."]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__name", "Fusão de plástico a carvão"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__desc", "Funde plástico reciclado usando carvão, produzindo mais gases de exaustão e poluição do ar."]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__name", "Fusão eficiente de plástico"]
+, ["ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__desc", "Funde plástico reciclado usando resíduo de carbono e reduz pela metade os gases de exaustão e a poluição do ar em relação ao carvão."]
+, ["ColibriIndustries_Recipe_Generator_PyrolysisGas__name", "Geração de energia com gás de pirólise"]
+, ["ColibriIndustries_Recipe_Generator_PyrolysisGas__desc", "Queima gás de pirólise para gerar eletricidade, produzindo gases de exaustão."]
+, ["ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__name", "Processamento de vidro"]
+, ["ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__desc", "Processa vidro fundido em vidro e vidro quebrado com perda intencional de material."]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__name", "Geração de vapor com óleo de pirólise"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__desc", "Queima óleo de pirólise na caldeira a gás para produzir vapor de alta pressão e gases de exaustão."]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__name", "Geração de vapor com gás de pirólise"]
+, ["ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__desc", "Queima gás de pirólise na caldeira a gás para produzir vapor de alta pressão e vapor esgotado."]
+]

@@ -1,5 +1,8 @@
 Concrete Retaining Cube - Changelog
 
+Version 0.4.18
+Just 0.8.7a validations.
+
 Version 0.4.17
 
 Added localization for every language currently available in Captain of Industry.

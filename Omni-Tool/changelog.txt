@@ -1,0 +1,112 @@
+v0.7.1 | 2026-09-09
+
+[PROFILE PERSISTENCE HOTFIX]
+
+- Fixed Omni-Belt profiles, profile names, cycle participation, active-profile customization, and Mine / Dump favorites reverting to factory defaults after fully restarting the game.
+- Moved the complete profile catalog to durable global storage so profile changes persist without requiring the current world to be saved.
+- Added atomic profile writes, a rolling backup recovery copy, and immediate saving when Mine / Dump favorites are added or removed.
+
+=========================
+
+v0.7.0 | 2026-09-07
+
+[NEW TOOLS & ADDITIONS]
+
+- Added Downgrade Buildings and Cancel Deconstruction swipe tools.
+- Added Building Settings Brush for selectively mass-applying building priority, truck import/export policies, and empty/full storage alerts. Every section is independently opt-in, and unsupported properties are skipped safely.
+- Added Terrain Eraser for cutting precise ravines and canals down to an absolute target height. Its normal -10 to 0 range favors detailed work, with an opt-in -50 to +50 range for extreme edits. Expanded range always starts off when a new profile is cloned.
+- Added Box Selection, Round Brush & undo function for Tree Painter, Terrain Sculpting, and Terrain Eraser. Undo can remember 1-10 action history. Terrain settling and buildings already destroyed by collapse remain permanent, so terraform while paused for the safest undo results.
+- Expanded Scrap Vehicles to include Replace vehicle actions; Compatibility and depot failures remain handled by the native command.
+- Renamed Fill Terrain to Mine / Dump Designations. Added up to five remembered product favorites to its Micro HUD; left-click selects one and right-click removes it.
+- Added a Cheat++-conditional Keep Full / Empty tool for mass-applying Keep Full, Keep Empty, or Normal storage states.
+
+[OMNI-BELT PROFILES]
+
+- Rebuilt Omni-Belt profiles as a named, reorderable, auto-saving system. Rename profiles directly in the tray, choose which participate in shortcut cycling, and reorder the tray to control that cycle order.
+- Added default Vehicle Tools and Building Tools profiles for new installations. Sandbox-eligible installations also receive a prepared Terraforming profile that remains outside profile cycling and dormant until sandbox tools are enabled in settings.
+- Added per-profile Vehicle, Logistics, Buildings, and Sandbox visibility controls, plus Hide Unequipped for the editor. Hidden categories and tools retain their saved colors, settings, states, and relative order.
+- Added dual-category tags for shared tools: Unity Quick Repair belongs to Vehicles and Buildings, while Storage Magic Wand and Cheat++ Keep Full / Empty belong to Sandbox and Buildings. Either visible category keeps a shared card available.
+- Made the Profile Switcher and Settings Shortcut full Omni-Belt cards. Both can be enabled, disabled, recolored, and reordered alongside ordinary tools.
+- Added active-profile Reset Tool Order, Reset Colors, and Enable All Available Tools actions. Color reset returns ordinary tools to white and both Omni-Belt utility cards to yellow. A separate factory restore rebuilds the installed profile set behind two confirmations.
+
+[SETTINGS, SAFETY & UI POLISH]
+
+- Opening Settings cancels every active Omni-Tool action and drag while leaving the Omni-Belt visible as a dimmed, non-activating preview to prevent accidental tool use while configuring.
+- Split the editor into Tools, Per-Profile Omni-Belt Settings, and global Settings tabs.
+- Made Enable Sandbox Tools a conditional global master switch. It and Creative Undo appear only when Cheat++ or the disabled-by-default Mod Config option grants sandbox eligibility.
+- Made the settings window fully resizable on both axes, constrained it to a practical 500-1000 px width, and kept reorder controls outside the scrolling card list. Building Settings logistics policies use compact single-line controls so Import and Export remain stable across translations.
+- Restricted tool-card and profile reordering to visible drag handles, which update immediately with Reorder mode. 
+- Converted all 21 language catalogs to explicit English-key-to-translated-value entries and added the complete 0.7 interface vocabulary.
+
+=========================
+
+v0.6.1 | 2026-09-04
+
+[SAFER UI INPUT + OPTIONAL BELT BUTTONS]
+
+- Clicking or left-click dragging inside of Omni-Tool settings can no longer start a tool's drag-box behind it.
+- Adjusted click-through guard so an intentional box-selection no longer gets canceled when moving past or over the selector HUD.
+- Added Settings toggles for the profile switcher and settings cog buttons on the omni-belt.
+- Added a tooltip to the Omni-Tool Tools Shortcut button that shows keybind label icons for left click / right click / and cycle-tool keybind when set.
+- Updated all 21 language catalogs and release documentation for the new options and tooltip guidance.
+
+=========================
+
+v0.6.0 | 2026-09-03
+
+[TRUE OMNI-BELT AND PROFILES]
+
+- Added an independent, draggable Omni-Belt that remembers its position, stays separate from placement shortcuts, and includes its own settings cog.
+- Added two complete Toolbelt profiles for saving tool order, enabled modes, settings, and palette choices. Sandbox-only profiles are valid; disabling sandbox safely falls back without changing saved profiles.
+- Added an on-belt profile switcher that appears only after Toolbelt 2 is saved, plus an optional profile-cycle shortcut.
+- Added color-coded Vehicle, Logistics, and Sandbox cards so reordered tools remain easy to identify.
+- Expanded Tree Painter spacing to 1–30 tiles and made Micro HUD panels, dropdowns, and scrollbars block accidental world drags.
+- Made Keybind Framework optional and reliably detected: shortcuts appear only there when loaded, or only in native Controls when it is absent.
+- Updated all 21 language catalogs for the new belt, profiles, controls, and safety options.
+
+=========================
+
+v0.5.1 | 2026-09-03
+
+[NEW TOOLS, CUSTOMIZATION, AND FULL LOCALIZATION]
+
+- Added Assign Logistics Zone for single or box-selected vehicles, with a compact dropdown for Default and custom zones.
+- Added Nature Sweeper, Storage Magic Wand, Tree Painter, and Terrain Sculpting; Fill Terrain and Remove Marked Trees remain available from v0.3.
+- Added safe sandbox opt-in: Cheat++ detection or the disabled-by-default Mod Config reveals a separate master switch. Fill Terrain and Remove Marked Trees start enabled; stronger sandbox tools start disabled in the settings.
+- You can now ctrl + left drag to move the micro settings HUD when the selected tool uses it.
+- Reworked Scrap Vehicle to have separate Mark for scrap and Cancel actions so it's easier to use. This tool is still toggled off by default.
+- Improved Multi-selection details for vehicle quick-actions with option to disable them in the settings.
+- Added complete interface localization for all 21 game languages.
+
+=========================
+
+v0.3.0 | 2026-09-03
+
+[SANDBOX TOOLS]
+
+- Added Fill Terrain and Remove Marked Trees to the Omni-Tool cycle when Cheat++ is present.
+- Cheat++ is an opt-in/availability signal only; both tools are implemented independently and never open Overlord.
+- Added a tiny Fill Terrain panel with every loose product that can exist on terrain, native product icons, and a remembered selection.
+- Fill Terrain uses the game's designation fulfillment command, allowing repeated fill or mining-removal drags until Escape or right-click.
+- Added a tiny Remove Marked Trees panel with the live marked-tree count.
+
+=========================
+
+v0.2.0 | 2026-09-02
+
+[OMNI-TOOL]
+
+- Added one native toolbar tool with five remembered modes: Unity Quick Repair, Move Vehicle, Scrap Vehicle, Unity Recovery, and Unity Cargo Unload.
+- Added highlighted single-target selection and native box multi-selection without opening inspectors.
+- Added formation-preserving multi-vehicle movement after selecting one or many vehicles.
+- Added combined Unity-cost feedback for compatible highlighted targets.
+- Added a dynamic toolbar icon that follows the selected mode.
+- Added a mode-matching mouse indicator while the tool is active and no compatible target is highlighted.
+- Added right-click access to Omni-Tool's own settings window.
+- Added per-mode enable/disable controls; disabled modes are removed from the toolbox and cycle order.
+- Disabled Scrap Vehicle by default to reduce accidental mass scrapping.
+- Added an unassigned "Activate / Cycle Omni-Tool" binding under Mod keybinds -> Omni-Tool.
+- Repeated cycle-key presses keep Omni-Tool active and advance through enabled modes; Escape still exits.
+- Required at least one mode to remain enabled so the tool always has a safe recovery state.
+
+=========================

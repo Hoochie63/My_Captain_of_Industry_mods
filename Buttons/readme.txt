@@ -58,7 +58,7 @@ before loading Buttons.
 
 COMPATIBILITY
 
-* Captain of Industry 0.8.6c through verified 0.8.7b.
+* Captain of Industry 0.8.6c through verified 0.8.7c.
 * Safe to add to or remove from an existing save.
 * No required mod dependencies.
 * Speed++ and Tweaks++ integrations are optional.

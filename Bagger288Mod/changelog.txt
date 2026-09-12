@@ -1,3 +1,18 @@
+0.7.6
+- Move the Bagger 288 research node.
+
+0.7.5
+- Travel distance can be set below already traveled; the chassis backs up to the new limit (still mines along the way). Reverse-after-max does not then pull the machine to 0.
+- Planner button returns the chassis to the build pose and sets travel distance to 0.
+- Fix HUD travel-exhausted notification stacking after save/load.
+
+0.7.4
+- Inspector status line (paused, workers, maintenance, power, full buffers, travel exhausted, moving, mining).
+- No 10 MW draw while Finished or Waiting; belts can still drain buffers.
+- HUD notifications when travel distance is exhausted and when a buffered product has no output port.
+- Auto-assign a new mined product to the first free port A–D (or the least-used port). Clearing all ports stays cleared.
+- Session mined total in the inspector (resets on load).
+
 0.7.3
 - Update 3D model.
 

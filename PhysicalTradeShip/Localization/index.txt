@@ -7,7 +7,7 @@ es|BARCO MERCANTE|Carrito|Pedir|Vaciar|Barco listo|Próximo barco en|Barco en ca
 it|NAVE MERCANTILE|Carrello|Ordina|Svuota|Nave pronta|Prossima nave tra|Nave in viaggio|Il carrello è vuoto|Aggiunto al carrello|Ordine confermato|Ordine non disponibile
 pl|STATEK HANDLOWY|Koszyk|Zamów|Wyczyść|Statek gotowy|Następny statek za|Statek w drodze|Koszyk jest pusty|Dodano do koszyka|Zamówienie potwierdzone|Nie można złożyć zamówienia
 pt-BR|NAVIO MERCANTE|Carrinho|Encomendar|Limpar|Navio pronto|Próximo navio em|Navio a caminho|O carrinho está vazio|Adicionado ao carrinho|Pedido confirmado|Não foi possível fazer o pedido
-ru|ТОРГОВОЕ СУДНО|Корзина|Заказ|Очистить|Судно готово|Следующее судно через|Судно в пути|Корзина пуста|Добавлено в корзину|Заказ подтверждён|Заказ невозможен
+ru|ТОРГОВОЕ СУДНО|Корзина|Заказать|Очистить|Судно готово|Следующее судно через|Судно в пути|Корзина пуста|Добавлено в корзину|Заказ подтверждён|Заказ невозможен
 uk|ТОРГОВЕ СУДНО|Кошик|Замовити|Очистити|Судно готове|Наступне судно через|Судно в дорозі|Кошик порожній|Додано до кошика|Замовлення підтверджено|Замовлення неможливе
 nl|HANDELSSCHIP|Winkelwagen|Bestellen|Wissen|Schip is gereed|Volgend schip over|Schip onderweg|Winkelwagen is leeg|Aan winkelwagen toegevoegd|Bestelling bevestigd|Bestelling kan niet worden geplaatst
 sv|HANDELSFARTYG|Kundvagn|Beställ|Töm|Fartyget är klart|Nästa fartyg om|Fartyget är på väg|Kundvagnen är tom|Tillagd i kundvagnen|Beställning bekräftad|Beställningen kan inte göras

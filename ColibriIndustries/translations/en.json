@@ -1,6 +1,490 @@
-{
-  "ColibriIndustries.WasteRecycler.Name": "Waste Recycler",
-  "ColibriIndustries.WasteRecycler.Description": "Processes waste into recyclable materials, biomass, and sludge.",
-  "ColibriIndustries.Research.Recycling.Name": "Waste Recycling",
-  "ColibriIndustries.Research.Recycling.Description": "Unlocks basic waste recycling technologies."
-}
+[
+    [
+        "ColibriIndustries_ToolbarCategory_Root__name",
+        "Colibri Industries"
+    ],
+    [
+        "ColibriIndustries_GeneratorLarge__name",
+        "Colibri Generator"
+    ],
+    [
+        "ColibriIndustries_GeneratorLarge__desc",
+        "A Colibri Industries generator that burns Pyrolysis Gas to produce electricity."
+    ],
+    [
+        "ColibriIndustries_Research_PyrolysisPower__name",
+        "Pyrolysis Power"
+    ],
+    [
+        "ColibriIndustries_Research_PyrolysisPower__desc",
+        "Expands the use of pyrolysis products in Colibri Industries. The Colibri Generator burns pyrolysis gas to generate electricity, turning a byproduct of plastic-waste processing into a useful source of energy."
+    ],
+    [
+        "ColibriIndustries_PyrolysisOil__name",
+        "Pyrolysis Oil"
+    ],
+    [
+        "ColibriIndustries_PyrolysisGas__name",
+        "Pyrolysis Gas"
+    ],
+    [
+        "ColibriIndustries_CarbonResidue__name",
+        "Carbon Residue"
+    ],
+    [
+        "ColibriIndustries_Recipe_BasicDistillerPyrolysis__name",
+        "Plastic Pyrolysis"
+    ],
+    [
+        "ColibriIndustries_Recipe_BasicDistillerPyrolysis__desc",
+        "Processes plastic and coal into pyrolysis oil, pyrolysis gas, carbon residue, and carbon dioxide."
+    ],
+    [
+        "ColibriIndustries_BasicDistiller__name",
+        "Colibri Pyroprocessor"
+    ],
+    [
+        "ColibriIndustries_BasicDistiller__desc",
+        "A thermal processing unit that converts Plastic Waste into pyrolysis oil, pyrolysis gas, and Carbon Residue for further industrial use."
+    ],
+    [
+        "ColibriIndustries_CrusherLarge__name",
+        "Colibri Screener"
+    ],
+    [
+        "ColibriIndustries_CrusherLarge__desc",
+        "An industrial crushing and screening unit that separates gravel from GSG and prepares Glass Feedstock for glass production."
+    ],
+    [
+        "ColibriIndustries_RotaryKiln__name",
+        "Colibri Thermoprocessor"
+    ],
+    [
+        "ColibriIndustries_RotaryKiln__desc",
+        "A high-temperature unit that thermally processes Glass Feedstock and Recycled Plastic into molten materials for further production."
+    ],
+    [
+        "ColibriIndustries_Research_BasicDistiller__name",
+        "Pyrolysis Technologies"
+    ],
+    [
+        "ColibriIndustries_Research_BasicDistiller__desc",
+        "Unlocks Colibri Industries technologies for pyrolysis processing and the further use of pyrolysis products."
+    ],
+    [
+        "ColibriIndustries_Research_CrusherLarge__name",
+        "Thermal Material Processing"
+    ],
+    [
+        "ColibriIndustries_Research_CrusherLarge__desc",
+        "Unlocks Colibri Industries technologies for thermal processing of raw materials. Enables prepared glass feedstock and recycled plastic to be melted for further production."
+    ],
+    [
+        "ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__name",
+        "GSG Separation"
+    ],
+    [
+        "ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__desc",
+        "Crushes and screens GSG to separate gravel from the sand-and-glass fraction, producing Glass Feedstock with a small loss of fine material."
+    ],
+    [
+        "ColibriIndustries_WasteRecycler__name",
+        "Colibri Hydroseparator"
+    ],
+    [
+        "ColibriIndustries_Kiln__name",
+        "Colibri Kiln"
+    ],
+    [
+        "ColibriIndustries_Research_Kiln__name",
+        "Colibri Industries Basics"
+    ],
+    [
+        "ColibriIndustries_Research_Kiln__desc",
+        "The first step in Colibri Industries development. The kiln fires durable bricks from dirt and coal, providing the basic construction material required for subsequent facilities and technologies."
+    ],
+    [
+        "ColibriIndustries_Kiln__desc",
+        "A compact industrial kiln that fires bricks from dirt using coal, supplying the basic construction material for further Colibri Industries development."
+    ],
+    [
+        "ColibriIndustries_Recipe_KilnBrickProduction__name",
+        "Brick Production"
+    ],
+    [
+        "ColibriIndustries_Recipe_KilnBrickProduction__desc",
+        "Fires dirt with coal to produce bricks."
+    ],
+    [
+        "ColibriIndustries_PlasticWasteUnit__name",
+        "Plastic Waste"
+    ],
+    [
+        "ColibriIndustries_RecycledPlastic__name",
+        "Recycled Plastic"
+    ],
+    [
+        "ColibriIndustries_RecycledPlastic__desc",
+        "Loose recycled plastic produced from shredded Plastic Waste and intended for further processing."
+    ],
+    [
+        "ColibriIndustries_MoltenPlastic__name",
+        "Molten Plastic"
+    ],
+    [
+        "ColibriIndustries_MoltenPlastic__desc",
+        "Molten plastic prepared for transport through molten channels and further industrial processing."
+    ],
+    [
+        "ColibriIndustries_Shredder__name",
+        "Colibri Shredder"
+    ],
+    [
+        "ColibriIndustries_Shredder__desc",
+        "A Colibri Industries shredder that processes Plastic Waste into loose Recycled Plastic."
+    ],
+    [
+        "ColibriIndustries_Recipe_Shredder_RecycledPlastic__name",
+        "Plastic Recycling"
+    ],
+    [
+        "ColibriIndustries_Recipe_Shredder_RecycledPlastic__desc",
+        "Shreds Plastic Waste into loose Recycled Plastic for further processing."
+    ],
+    [
+        "ColibriIndustries_PolymerPlant__name",
+        "Colibri Polymer Plant"
+    ],
+    [
+        "ColibriIndustries_PolymerPlant__desc",
+        "A Colibri Industries facility that processes molten materials into industrial products."
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__name",
+        "Molten Plastic Polymerization"
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__desc",
+        "Processes Molten Plastic with water into Plastic while releasing depleted Waste Steam."
+    ],
+    [
+        "ColibriIndustries_Research_PolymerProduction__name",
+        "Polymer Production"
+    ],
+    [
+        "ColibriIndustries_Research_PolymerProduction__desc",
+        "Unlocks the Colibri Polymer Plant for advanced polymer processing."
+    ],
+    [
+        "ColibriIndustries_WasteRecycler__desc",
+        "A deep-separation complex for Waste Slurry that recovers useful fractions and prepares the resulting materials for further processing."
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT1__name",
+        "Colibri Hydroprocessor"
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT1__desc",
+        "A primary waste hydroprocessing unit that mixes waste with water and converts it into Waste Slurry for further separation and treatment."
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT2__name",
+        "Colibri Hydroprocessor II"
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT2__desc",
+        "An advanced hydroprocessor for larger waste volumes, providing Waste Slurry more efficiently to downstream recycling stages."
+    ],
+    [
+        "ColibriIndustries_WasteSlurry__name",
+        "Waste Slurry"
+    ],
+    [
+        "ColibriIndustries_WasteSlurry__desc",
+        "Waste Slurry is a suspension created by mixing solid waste with water. It is an intermediate product transported through pipes and processed further inside the recycling chain."
+    ],
+    [
+        "ColibriIndustries_MineralMix__name",
+        "GSG"
+    ],
+    [
+        "ColibriIndustries_MineralMix__desc",
+        "GSG — Gravel–Sand–Glass is a recovered heterogeneous mixture of gravel, sand, and crushed glass fragments that requires further processing and separation."
+    ],
+    [
+        "ColibriIndustries_GlassFeedstock__name",
+        "Glass Feedstock"
+    ],
+    [
+        "ColibriIndustries_GlassFeedstock__desc",
+        "A prepared sand-and-glass fraction obtained by separating gravel from GSG. It is intended for further thermal processing in glass production."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromWaste__name",
+        "Waste Slurry"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromWaste__desc",
+        "Mixes waste with water to produce Waste Slurry."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__name",
+        "Waste Slurry from Pressed Waste"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__desc",
+        "Mixes pressed waste with water to produce Waste Slurry."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_Separation__name",
+        "Waste Slurry Separation"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_Separation__desc",
+        "Separates Waste Slurry with gravel and sand into wastewater, sediment, biomass, Plastic Waste, and GSG."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__name",
+        "Pre-Sorted Waste Slurry"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__desc",
+        "Pre-sorts waste to recover recyclables, then mixes the remaining waste with water to produce Waste Slurry."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__name",
+        "Tier II Waste Slurry from Pressed Waste"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__desc",
+        "Processes pressed waste with water while recovering recyclables."
+    ],
+    [
+        "ColibriIndustries_Research_WasteRecycler__name",
+        "Waste Hydroprocessing"
+    ],
+    [
+        "ColibriIndustries_Research_WasteRecycler__desc",
+        "Advances Colibri Industries with a hydroprocessor that mixes waste with water to create Waste Slurry for further separation, treatment, and material recovery."
+    ],
+    [
+        "ColibriIndustries_Research_PressedWasteSlurry__name",
+        "Advanced Hydroprocessing"
+    ],
+    [
+        "ColibriIndustries_Research_PressedWasteSlurry__desc",
+        "Expands the hydroprocessing capabilities of Colibri Industries. Unlocks additional methods of waste processing and improves waste-slurry production for subsequent processing stages."
+    ],
+    [
+        "ColibriIndustries_Research_WasteSlurrySeparation__name",
+        "Waste Hydroseparation"
+    ],
+    [
+        "ColibriIndustries_Research_WasteSlurrySeparation__desc",
+        "Deepens Colibri Industries waste processing by separating Waste Slurry into useful fractions and returning recovered materials to the production cycle."
+    ],
+    [
+        "ColibriIndustries_Research_SlurryPlantT2__name",
+        "Industrial Hydroprocessing"
+    ],
+    [
+        "ColibriIndustries_Research_SlurryPlantT2__desc",
+        "Brings Colibri Industries hydroprocessing to an industrial scale. Unlocks the Colibri Hydroprocessor II, an advanced facility for larger-scale and more efficient waste processing and waste-slurry preparation."
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Title",
+        "Environmental Score"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Impact",
+        "Environmental impact"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Trees",
+        "Trees"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_TreesCut",
+        "Trees cut"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_TreesPlanted",
+        "Trees planted"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_WasteDumped",
+        "Waste dumped"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Industrial",
+        "Industrial pollution"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Vehicles",
+        "Vehicle pollution"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Trains",
+        "Train pollution"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Ships",
+        "Ship pollution"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Water",
+        "Water pollution"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Radiation",
+        "Radiation"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Health",
+        "Population health"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Food",
+        "Food security"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Healthy",
+        "Healthy"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Stable",
+        "Stable"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Declining",
+        "Declining"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Unhealthy",
+        "Unhealthy"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodStable",
+        "Food supply stable"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodShortage",
+        "Food shortage"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodSevere",
+        "Severe food shortage"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodCritical",
+        "Critical food shortage / starvation"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Contribution",
+        "Contribution"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Lifetime",
+        "Lifetime"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Move",
+        "Ctrl + drag to move"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_Production__name",
+        "Production"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_ElectricityGeneration__name",
+        "Electricity Generation"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_FuelRecycling__name",
+        "Fuel Recycling"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_WasteRecycling__name",
+        "Waste Recycling"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Points",
+        "points"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_LockPosition",
+        "Lock position"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__name",
+        "Coal-Fired Glass Melting"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__desc",
+        "Melts Glass Feedstock using coal, producing molten glass with high exhaust emissions."
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__name",
+        "Efficient Glass Melting"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__desc",
+        "Melts Glass Feedstock using Carbon Residue for faster, more efficient production with lower exhaust emissions."
+    ],
+    [
+        "ColibriIndustries_Research_EfficientGlassMelting__name",
+        "Advanced Thermal Processing"
+    ],
+    [
+        "ColibriIndustries_Research_EfficientGlassMelting__desc",
+        "Improves Colibri Industries thermal-processing technologies, unlocking more efficient methods for melting glass and recycled plastic using carbon residue."
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__name",
+        "Coal-Fired Plastic Melting"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__desc",
+        "Melts Recycled Plastic using coal, producing Molten Plastic with higher exhaust and air-pollution emissions."
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__name",
+        "Efficient Plastic Melting"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__desc",
+        "Melts Recycled Plastic using Carbon Residue, halving exhaust and air-pollution emissions compared with coal."
+    ],
+    [
+        "ColibriIndustries_Recipe_Generator_PyrolysisGas__name",
+        "Pyrolysis Gas Power Generation"
+    ],
+    [
+        "ColibriIndustries_Recipe_Generator_PyrolysisGas__desc",
+        "Burns pyrolysis gas to generate electricity while producing exhaust gases."
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__name",
+        "Glass Processing"
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__desc",
+        "Processes molten glass into Glass and Broken Glass with intentional material loss."
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__name",
+        "Pyrolysis Oil Steam Generation"
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__desc",
+        "Burns Pyrolysis Oil in the gas boiler to produce high-pressure steam and exhaust."
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__name",
+        "Pyrolysis Gas Steam Generation"
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__desc",
+        "Burns Pyrolysis Gas in the gas boiler to produce high-pressure and depleted steam."
+    ]
+]

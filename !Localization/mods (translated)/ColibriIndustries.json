@@ -1,7 +1,490 @@
-{
-    "ColibriIndustries.WasteRecycler.Name": "Переработчик отходов",
-    "ColibriIndustries.WasteRecycler.Description": "Превращает отходы во вторсырьё, биомассу и осадок.",
-    "ColibriIndustries.Research.Recycling.Name": "Переработка отходов",
-    "ColibriIndustries.Research.Recycling.Description": "Разблокирует базовые технологии переработки отходов.",
-    "A late-game industrial recycler that turns raw settlement waste into useful materials. Takes 1500 Waste per 120-second cycle and outputs 500 Recyclables, 60 Biomass, and 40 Sludge. Visually 30% larger than the vanilla Waste Sorting Plant and tinted darker so they're easy to tell apart.": "Промышленный переработчик для поздней стадии игры, превращающий сырые бытовые отходы в полезные материалы. За 60-секундный цикл перерабатывает 750 единиц мусора, выдавая 250 единиц вторсырья, 30 биомассы и 20 осадка. Визуально на 30% крупнее стандартного завода переработки вторсырья, и выполнен в более тёмных тонах, чтобы их легко было отличить."
-}
+[
+    [
+        "ColibriIndustries_ToolbarCategory_Root__name",
+        "Colibri Industries"
+    ],
+    [
+        "ColibriIndustries_GeneratorLarge__name",
+        "Генератор «Colibri»"
+    ],
+    [
+        "ColibriIndustries_GeneratorLarge__desc",
+        "Генератор «Colibri Industries», сжигающий пиролизный газ для производства электроэнергии."
+    ],
+    [
+        "ColibriIndustries_Research_PyrolysisPower__name",
+        "Пиролизная энергетика"
+    ],
+    [
+        "ColibriIndustries_Research_PyrolysisPower__desc",
+        "Расширяет применение продуктов пиролиза в «Colibri Industries». Генератор «Colibri» сжигает пиролизный газ для производства электроэнергии, превращая побочный продукт переработки пластиковых отходов в полезный источник энергии."
+    ],
+    [
+        "ColibriIndustries_PyrolysisOil__name",
+        "Пиролизное масло"
+    ],
+    [
+        "ColibriIndustries_PyrolysisGas__name",
+        "Пиролизный газ"
+    ],
+    [
+        "ColibriIndustries_CarbonResidue__name",
+        "Углеродный остаток"
+    ],
+    [
+        "ColibriIndustries_Recipe_BasicDistillerPyrolysis__name",
+        "Пиролиз пластика"
+    ],
+    [
+        "ColibriIndustries_Recipe_BasicDistillerPyrolysis__desc",
+        "Перерабатывает пластик и уголь в пиролизное масло, пиролизный газ, углеродный остаток и углекислый газ."
+    ],
+    [
+        "ColibriIndustries_BasicDistiller__name",
+        "Пиролизёр «Colibri»"
+    ],
+    [
+        "ColibriIndustries_BasicDistiller__desc",
+        "Установка термической обработки, преобразующая пластиковые отходы в пиролизное масло, пиролизный газ и углеродный остаток для дальнейшего промышленного использования."
+    ],
+    [
+        "ColibriIndustries_CrusherLarge__name",
+        "Дробилка «Colibri»"
+    ],
+    [
+        "ColibriIndustries_CrusherLarge__desc",
+        "Промышленная дробильно-сортировочная установка, отделяющая гравий из смеси ГПС и подготавливающая стекольное сырьё для производства стекла."
+    ],
+    [
+        "ColibriIndustries_RotaryKiln__name",
+        "Термо-установка «Colibri»"
+    ],
+    [
+        "ColibriIndustries_RotaryKiln__desc",
+        "Высокотемпературная установка, термически перерабатывающая стекольное сырьё и переработанный пластик в расплавленные материалы для дальнейшего производства."
+    ],
+    [
+        "ColibriIndustries_Research_BasicDistiller__name",
+        "Пиролизные технологии"
+    ],
+    [
+        "ColibriIndustries_Research_BasicDistiller__desc",
+        "Открывает технологии «Colibri Industries» для пиролизной переработки и дальнейшего использования продуктов пиролиза."
+    ],
+    [
+        "ColibriIndustries_Research_CrusherLarge__name",
+        "Термическая переработка материалов"
+    ],
+    [
+        "ColibriIndustries_Research_CrusherLarge__desc",
+        "Открывает технологии «Colibri Industries» для термической переработки сырья. Позволяет плавить подготовленное стекольное сырьё и переработанный пластик для дальнейшего производства."
+    ],
+    [
+        "ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__name",
+        "Разделение ГПС-смеси"
+    ],
+    [
+        "ColibriIndustries_Recipe_CrusherLarge_GsgSeparation__desc",
+        "Дробит и просеивает ГПС-смесь, отделяя гравий от песчано-стекольной фракции с получением стекольного сырья и небольшими потерями мелкого материала."
+    ],
+    [
+        "ColibriIndustries_WasteRecycler__name",
+        "Гидросепаратор «Colibri»"
+    ],
+    [
+        "ColibriIndustries_Kiln__name",
+        "Печь «Colibri»"
+    ],
+    [
+        "ColibriIndustries_Research_Kiln__name",
+        "Основы «Colibri Industries»"
+    ],
+    [
+        "ColibriIndustries_Research_Kiln__desc",
+        "Первый шаг в развитии «Colibri Industries». Печь обжигает прочные кирпичи из дёрна и угля, обеспечивая базовый строительный материал, необходимый для последующих фабрик и технологий."
+    ],
+    [
+        "ColibriIndustries_Kiln__desc",
+        "Компактная промышленная печь, обжигающая кирпичи из дёрна с использованием угля, обеспечивая базовый строительный материал для дальнейшего развития «Colibri Industries»."
+    ],
+    [
+        "ColibriIndustries_Recipe_KilnBrickProduction__name",
+        "Производство кирпича"
+    ],
+    [
+        "ColibriIndustries_Recipe_KilnBrickProduction__desc",
+        "Обжигает дёрн с углём для производства кирпичей."
+    ],
+    [
+        "ColibriIndustries_PlasticWasteUnit__name",
+        "Пластиковые отходы"
+    ],
+    [
+        "ColibriIndustries_RecycledPlastic__name",
+        "Переработанный пластик"
+    ],
+    [
+        "ColibriIndustries_RecycledPlastic__desc",
+        "Сыпучий переработанный пластик, получаемый из измельчённых пластиковых отходов и предназначенный для дальнейшей переработки."
+    ],
+    [
+        "ColibriIndustries_MoltenPlastic__name",
+        "Расплавленный пластик"
+    ],
+    [
+        "ColibriIndustries_MoltenPlastic__desc",
+        "Расплавленный пластик, подготовленный для транспортировки по каналам для расплавленного материала и дальнейшей промышленной переработки."
+    ],
+    [
+        "ColibriIndustries_Shredder__name",
+        "Измельчитель «Colibri»"
+    ],
+    [
+        "ColibriIndustries_Shredder__desc",
+        "Измельчитель «Colibri Industries», перерабатывающий пластиковые отходы в сыпучий переработанный пластик."
+    ],
+    [
+        "ColibriIndustries_Recipe_Shredder_RecycledPlastic__name",
+        "Переработка пластика"
+    ],
+    [
+        "ColibriIndustries_Recipe_Shredder_RecycledPlastic__desc",
+        "Измельчает пластиковые отходы в сыпучий переработанный пластик для дальнейшей переработки."
+    ],
+    [
+        "ColibriIndustries_PolymerPlant__name",
+        "Полимерный завод «Colibri»"
+    ],
+    [
+        "ColibriIndustries_PolymerPlant__desc",
+        "Завод «Colibri Industries», перерабатывающий расплавленные материалы в промышленную продукцию."
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__name",
+        "Полимеризация расплавленного пластика"
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_MoltenPlastic__desc",
+        "Перерабатывает расплавленный пластик с водой в пластик, выделяя отработанный пар."
+    ],
+    [
+        "ColibriIndustries_Research_PolymerProduction__name",
+        "Производство полимеров"
+    ],
+    [
+        "ColibriIndustries_Research_PolymerProduction__desc",
+        "Открывает полимерный завод «Colibri Industries» для продвинутой переработки полимеров."
+    ],
+    [
+        "ColibriIndustries_WasteRecycler__desc",
+        "Комплекс глубокого разделения шламовых отходов, извлекающий полезные фракции и подготавливающий полученные материалы для дальнейшей переработки."
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT1__name",
+        "Гидроустановка «Colibri»"
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT1__desc",
+        "Установка первичной гидрообработки отходов, смешивающая отходы с водой и преобразующая их в шламовые отходы для дальнейшего разделения и обработки."
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT2__name",
+        "Гидроустановка «Colibri», ур. II"
+    ],
+    [
+        "ColibriIndustries_SlurryPlantT2__desc",
+        "Усовершенствованная гидроустановка для больших объёмов отходов, более эффективно поставляющая шламовые отходы на последующие этапы переработки."
+    ],
+    [
+        "ColibriIndustries_WasteSlurry__name",
+        "Шламовые отходы"
+    ],
+    [
+        "ColibriIndustries_WasteSlurry__desc",
+        "Шламовые отходы — суспензия, получаемая смешиванием твёрдых отходов с водой. Это промежуточный продукт, транспортируемый по трубопроводу и подвергающийся дальнейшей переработке в цепочке утилизации."
+    ],
+    [
+        "ColibriIndustries_MineralMix__name",
+        "ГПС-смесь"
+    ],
+    [
+        "ColibriIndustries_MineralMix__desc",
+        "ГПС-смесь — гравийно-песчано-стекольная смесь, представляющая собой извлечённую неоднородную смесь гравия, песка и измельчённых стеклянных осколков, требующая дальнейшей переработки и разделения."
+    ],
+    [
+        "ColibriIndustries_GlassFeedstock__name",
+        "Стекольное сырьё"
+    ],
+    [
+        "ColibriIndustries_GlassFeedstock__desc",
+        "Подготовленная песчано-стекольная фракция, полученная отделением гравия из смеси ГПС. Предназначена для дальнейшей термической переработки в производстве стекла."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromWaste__name",
+        "Шламовые отходы"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromWaste__desc",
+        "Смешивает отходы с водой для получения шламовых отходов."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__name",
+        "Шламовые отходы из прессованных отходов"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_FromPressedWaste__desc",
+        "Смешивает прессованные отходы с водой для получения шламовых отходов."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_Separation__name",
+        "Разделение шламовых отходов"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_Separation__desc",
+        "Разделяет шламовые отходы с гравием и песком на сточные воды, осадок, биомассу, пластиковые отходы и ГПС-смесь."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__name",
+        "Предварительно отсортированные шламовые отходы"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_PreSorted__desc",
+        "Предварительно сортирует отходы для извлечения пригодного к переработке вторсырья, затем смешивает оставшиеся отходы с водой для получения шламовых отходов."
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__name",
+        "Шламовые отходы II уровня из прессованных отходов"
+    ],
+    [
+        "ColibriIndustries_Recipe_WasteSlurry_T2_FromPressedWaste__desc",
+        "Перерабатывает прессованные отходы с водой, попутно извлекая пригодное к переработке вторсырьё."
+    ],
+    [
+        "ColibriIndustries_Research_WasteRecycler__name",
+        "Гидрообработка отходов"
+    ],
+    [
+        "ColibriIndustries_Research_WasteRecycler__desc",
+        "Развивает «Colibri Industries» за счёт гидроустановки, смешивающей отходы с водой для создания шламовых отходов, предназначенных для дальнейшего разделения, обработки и извлечения материалов."
+    ],
+    [
+        "ColibriIndustries_Research_PressedWasteSlurry__name",
+        "Продвинутая гидрообработка"
+    ],
+    [
+        "ColibriIndustries_Research_PressedWasteSlurry__desc",
+        "Расширяет возможности гидрообработки «Colibri Industries». Открывает дополнительные методы переработки отходов и улучшает производство шламовых отходов для последующих этапов переработки."
+    ],
+    [
+        "ColibriIndustries_Research_WasteSlurrySeparation__name",
+        "Гидросепарация отходов"
+    ],
+    [
+        "ColibriIndustries_Research_WasteSlurrySeparation__desc",
+        "Углубляет переработку отходов «Colibri Industries», разделяя шламовые отходы на полезные фракции и возвращая извлечённые материалы в производственный цикл."
+    ],
+    [
+        "ColibriIndustries_Research_SlurryPlantT2__name",
+        "Промышленная гидрообработка"
+    ],
+    [
+        "ColibriIndustries_Research_SlurryPlantT2__desc",
+        "Выводит гидрообработку «Colibri Industries» на промышленный уровень. Открывает гидроустановку «Colibri» II уровня — усовершенствованную фабрику для более масштабной и эффективной переработки простых отходов и подготовки шламовых отходов."
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Title",
+        "Экологический рейтинг"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Impact",
+        "Воздействие на окружающую среду"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Trees",
+        "Деревья"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_TreesCut",
+        "Срублено деревьев"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_TreesPlanted",
+        "Высажено деревьев"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_WasteDumped",
+        "Сброшено отходов"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Industrial",
+        "Промышленное загрязнение"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Vehicles",
+        "Загрязнение от техники"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Trains",
+        "Загрязнение от поездов"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Ships",
+        "Загрязнение от кораблей"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Water",
+        "Загрязнение воды"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Radiation",
+        "Радиация"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Health",
+        "Здоровье населения"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Food",
+        "Продовольственная безопасность"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Healthy",
+        "Отличное"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Stable",
+        "Стабильное"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Declining",
+        "Ухудшается"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Unhealthy",
+        "Неблагоприятное"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodStable",
+        "Продовольствие в достатке"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodShortage",
+        "Нехватка продовольствия"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodSevere",
+        "Острая нехватка продовольствия"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_FoodCritical",
+        "Критическая нехватка продовольствия / голод"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Contribution",
+        "Вклад"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Lifetime",
+        "За всё время"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Move",
+        "Ctrl + левая кнопка мышки для перемещения"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_Production__name",
+        "Производство"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_ElectricityGeneration__name",
+        "Производство электроэнергии"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_FuelRecycling__name",
+        "Переработка топлива"
+    ],
+    [
+        "ColibriIndustries_ToolbarCategory_WasteRecycling__name",
+        "Переработка отходов"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_Points",
+        "очков"
+    ],
+    [
+        "ColibriIndustries_EnvironmentalScore_LockPosition",
+        "Закрепить положение"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__name",
+        "Варка стекла на угле"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_Coal__desc",
+        "Плавит стекольное сырьё с использованием угля, производя расплавленное стекло с высоким уровнем выбросов."
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__name",
+        "Эффективная варка стекла"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Glass_CarbonResidue__desc",
+        "Плавит стекольное сырьё с использованием углеродного остатка для более быстрого и эффективного производства с меньшими выбросами."
+    ],
+    [
+        "ColibriIndustries_Research_EfficientGlassMelting__name",
+        "Продвинутая термическая переработка"
+    ],
+    [
+        "ColibriIndustries_Research_EfficientGlassMelting__desc",
+        "Улучшает технологии термической переработки «Colibri Industries», открывая более эффективные методы плавки стекла и переработанного пластика с использованием углеродного остатка."
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__name",
+        "Плавка пластика на угле"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_Coal__desc",
+        "Плавит переработанный пластик с использованием угля, производя расплавленный пластик с повышенным уровнем выбросов и загрязнением воздуха."
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__name",
+        "Эффективная плавка пластика"
+    ],
+    [
+        "ColibriIndustries_Recipe_RotaryKiln_Plastic_CarbonResidue__desc",
+        "Плавит переработанный пластик с использованием углеродного остатка, вдвое снижая выбросы и загрязнение воздуха по сравнению с углём."
+    ],
+    [
+        "ColibriIndustries_Recipe_Generator_PyrolysisGas__name",
+        "Выработка электроэнергии на пиролизном газе"
+    ],
+    [
+        "ColibriIndustries_Recipe_Generator_PyrolysisGas__desc",
+        "Сжигает пиролизный газ для производства электроэнергии, производя при этом выхлопные газы."
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__name",
+        "Переработка стекла"
+    ],
+    [
+        "ColibriIndustries_Recipe_PolymerPlant_GlassProcessing__desc",
+        "Перерабатывает расплавленное стекло в стекло и битое стекло с технологическими потерями материала."
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__name",
+        "Производство пара на пиролизном масле"
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisOil__desc",
+        "Сжигает пиролизное масло в газовом котле для производства пара высокого давления и выхлопных газов."
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__name",
+        "Производство пара на пиролизном газе"
+    ],
+    [
+        "ColibriIndustries_Recipe_GasBoiler_PyrolysisGas__desc",
+        "Сжигает пиролизный газ в газовом котле для производства пара высокого давления и отработанного пара."
+    ]
+]

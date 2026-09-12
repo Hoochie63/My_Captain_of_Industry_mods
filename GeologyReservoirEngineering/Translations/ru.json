@@ -24,7 +24,6 @@
     "build-machine.NaturalGasInjectionPump.description": "Закачивает обработанный топливный газ в месторождение природного газа для подземного хранения. Работает только на месторождениях природного газа — стройте в пределах области действия месторождения, которое он должен обслуживать.",
     "build-machine.WaterInjectionPump.name": "Нагнетатель воды",
     "build-machine.WaterInjectionPump.description": "Закачивает воду под землю, со временем восполняя запасы, находящегося под ней месторождением — геотермальный источник или водоносный горизонт. Стройте в пределах области действия месторождения, которое он должен обслуживать.",
-    "build-machine.WaterInjectionPump.reserve-description": "Состояние подземного месторождения, который восполняет этот насос.",
     "build-machine.OilInjectionPump.name": "Нагнетатель нефти",
     "build-machine.OilInjectionPump.description": "Закачивает «CO₂», морскую воду или пар в месторождение сырой нефти для улучшенной нефтеотдачи, гидравлического разрыва пласта или теплового воздействия на пласт. Работает только на месторождении сырой нефти — стройте в пределах области действия месторождения, которое он должен обслуживать.",
     "build-machine.InjectionPump.reserve-description": "Состояние подземного месторождения, который восполняет этот насос.",
@@ -36,5 +35,16 @@
     "world.NaturalGasRig.name": "Газодобывающая платформа",
     "world.NaturalGasRig.description": "Эта платформа поставляет природный газ при назначении рабочих.",
     "research.AcidStimulation.name": "Кислотная обработка скважин",
-    "research.AcidStimulation.description": "Открывает возможность закачки кислоты через «Нагнетатель нефти», позволяя извлечь дополнительную нефть из существующего месторождения сырой нефти."
+    "research.AcidStimulation.description": "Открывает возможность закачки кислоты через «Нагнетатель нефти», позволяя извлечь дополнительную нефть из существующего месторождения сырой нефти.",
+    "build-machine.GasGenerator.name": "Газовый генератор",
+    "build-machine.GasGenerator.description": "Сжигает топливный газ для выработки электроэнергии.",
+    "build-machine.NaturalGasGenerator.name": "Генератор на природном газе",
+    "build-machine.NaturalGasGenerator.description": "Сжигает сырой природный газ для выработки электроэнергии, без предварительной переработки в топливный газ.",
+    "virtual-resource.GeothermalHighEnthalpy.name": "Геотермальный резервуар (высокий потенциал)",
+    "virtual-resource.GeothermalHighEnthalpy.description": "Горячий геотермальный резервуар, достаточно горячий для прямого преобразования в пар высокого давления при вскрытии.",
+    "virtual-resource.GeothermalMediumEnthalpy.name": "Геотермальный резервуар (средний потенциал)",
+    "virtual-resource.GeothermalMediumEnthalpy.description": "Умеренно горячий геотермальный резервуар, дающий пар более низкого давления при вскрытии.",
+    "virtual-resource.GeothermalLowEnthalpy.name": "Геотермальный резервуар (низкий потенциал)",
+    "virtual-resource.GeothermalLowEnthalpy.description": "Более холодный геотермальный резервуар, при вскрытии дающий только пар низкого качества (отработанный).",
+    "toolbar-category.ElectricGenerators.name": "Электрогенераторы"
 }

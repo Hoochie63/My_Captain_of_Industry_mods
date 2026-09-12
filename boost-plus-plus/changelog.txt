@@ -1,3 +1,88 @@
+v1.3.1 | 2026-08-29
+────────────────────────────────────────────────────────────────────────
+* HUGE THANKS TO SERJEVSKI, WHOSE REPORTS AND TESTING DROVE MOST OF THE ADDITIONS AND IMPROVEMENTS IN THIS UPDATE. ALSO THANKS TO FABIEN PREMOREL THAT HELPED KICK THE IDEA TO LIFE ALSO.
+
+────────────────────────────────────────────────────────────────────────
+* THE STATISTICS WINDOW NOW LEADS WITH WHAT THE GROUP MAKES AND SHOWS WHAT IT COULD MAKE AT FULL BOOST.
+
+  - Outputs come first and inputs start folded away, since outputs are what you usually check.
+
+  - A new Boosted column shows what each product would reach at your highest boost setting, so you can see whether a chain needs expanding before you build.
+
+  - Rows are ordered by what is actually being produced, with anything sitting at zero pushed to the bottom instead of scattered through the list.
+
+  - Tick Hide on any product to move it into a Hidden section at the bottom, so a long list can be cut down to only what you care about.
+
+  - Drag any row to put the list in your own order — the row you hold lights up and the spot you will drop it is tinted. Your order and hidden products are kept per group.
+
+  - Product icons are larger, the column headings are bigger and easier to read, and the window is wider and taller.
+
+────────────────────────────────────────────────────────────────────────
+* AUTO PAUSE SWITCHES BUILDINGS OFF WHEN THEY CANNOT DO ANYTHING, INSTEAD OF LEAVING THEM RUNNING AT THEIR LOWEST BOOST, AND SWITCHES THEM BACK ON THE MOMENT THEY ARE NEEDED.
+
+  - Set it per group from the new Auto Pause button, next to Min/Max boost.
+
+  - A building missing an input for more than ten seconds, or with a full output for more than five seconds, is switched off and rechecked every ten seconds.
+
+  - You can also pause when the boost a building wants drops under a value you choose.
+
+  - When the group follows a storage you can pause everything above a fill level, for example over 90% full.
+
+  - A paused building uses no electricity, workers or maintenance.
+
+────────────────────────────────────────────────────────────────────────
+* LINK STORAGES NOW OFFERS COMPLEX MULTI CHAINS, WHERE EACH BUILDING FOLLOWS THE LINE IT FEEDS INSTEAD OF THE TOTAL AMOUNT YOU OWN.
+
+  - Each building looks along the belts it feeds, all the way to every building and storage that takes what it makes, and boosts from whichever part of that line is emptiest.
+
+  - Because it reads the belts themselves, a line that runs dry at the far end pulls the boost up even while the nearest building is still well fed.
+
+  - A building whose line is still needed is never slowed below normal speed and is never paused, so one stage cannot starve the next.
+
+  - Lifts, sorters, balancers and connectors are followed as well, so a chain that runs through them is no longer treated as a dead end.
+
+  - The total amount you own is ignored, so full storages elsewhere cannot hold a starved line back.
+
+────────────────────────────────────────────────────────────────────────
+* AUTO BOOST NOW WORKS ON ORE SORTING PLANTS AND WASTE SORTING PLANTS, NOT ONLY ON MACHINES.
+
+  - Tick Auto Boost in the plant's own window, exactly like a machine, or use Auto All to turn it on for a whole group at once.
+
+  - A plant with material piling up waiting to be sorted boosts to clear the backlog, instead of only watching how full the sorted products are.
+
+  - It stays inside the sorting plant's own boost limit, so it never asks for more than the plant can actually use.
+
+  - Auto Pause switches a plant off when nothing is coming in, or when what it sorts has nowhere to go.
+
+────────────────────────────────────────────────────────────────────────
+* OPENING THE BOOST WINDOW ON A BIG BASE NO LONGER COSTS FRAMES.
+
+  - Group highlights now appear only while you use Click to select or Drag to select, which is when you need to see them.
+
+  - The member list only draws the rows you can see, so a group with thousands of members opens instantly.
+
+  - The list starts on Buildings, so belts and pipes stay hidden until you tick them.
+
+────────────────────────────────────────────────────────────────────────
+* AUTO ALL TICKS AUTO BOOST FOR EVERY BUILDING IN A GROUP AT ONCE, SO YOU DO NOT HAVE TO CLICK THEM ONE BY ONE.
+
+  - Auto Boost only applies to buildings, so the Auto column and the Auto All button now show up only while the Buildings filter is on.
+
+  - Picking Belts, Pipes, Connectors, Lifts or Sorters unticks Buildings for you, so the list shows one kind of thing at a time.
+
+────────────────────────────────────────────────────────────────────────
+* A SHOW HIGHLIGHTS BUTTON NEXT TO GROUP PRODUCTION RATE LIGHTS UP EVERY BUILDING IN THE GROUP OUT IN THE WORLD WHENEVER YOU WANT TO SEE WHAT BELONGS TO IT.
+
+  - It switches itself off after 20 seconds and when you close the window, so a group of hundreds of buildings cannot sit there costing you frames.
+
+────────────────────────────────────────────────────────────────────────
+* BUILDINGS YOU BULLDOZE NOW DROP OUT OF THEIR GROUP ON THEIR OWN, INSTEAD OF LEAVING BEHIND A ROW MARKED REMOVED.
+
+────────────────────────────────────────────────────────────────────────
+* BUILDINGS THAT HAD BEEN SHORT ON MATERIALS NO LONGER STAY STUCK NEAR THEIR LOWEST BOOST ONCE SUPPLY COMES BACK.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.0 | 2026-08-28
 ────────────────────────────────────────────────────────────────────────
 * THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.

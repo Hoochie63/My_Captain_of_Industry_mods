@@ -1,0 +1,129 @@
+v1.0.6 | 2026-09-09
+
+* Verified compatibility with Captain of Industry 0.8.7c using the matching updated game references.
+* Recolor now reopens on Edit Mesh instead of restoring the heavier Mesh Templates tab.
+* Mesh Template cards are created only when their tab is opened, and preview images render only for visible or nearby rows in paced steps.
+* Completed preview images stay cached across ordinary menu close/reopen cycles and are released during world or mod teardown.
+* New Mesh Template libraries are capped at 40 without discarding older saves that already exceeded the new limit.
+
+v1.0.5 | 2026-09-03
+
+* Added independent, off-by-default Settings options for native bottom-left Global Paint and Mesh Eyedropper shortcuts.
+* Replaced the oversized Mesh Template list with compact two-column cards.
+* Reorder now turns off whenever Recolor closes, preventing Load controls from remaining unavailable unexpectedly.
+* Translated every Mesh Template, native-eyedropper, and optional-tool-shortcut control and tooltip across all 21 supported languages.
+
+v1.0.4 | 2026-09-02
+
+==============
+MESH TEMPLATES
+==============
+* Save a building's complete Global Color and Mesh Overrides as a reusable template stored with the world.
+* Preview saved templates as colored building cards, then load one directly into Mesh Eyedropper for exact compatible buildings.
+* Reorder cards with left-click dragging while Reorder is active, or safely delete templates you no longer need.
+
+===================
+TOOLS & MENU POLISH
+===================
+* Optionally let the game's native Apply Settings eyedropper copy Recolor's Global Color; this is off by default and never copies Mesh Overrides.
+* Moved the previous and next mesh buttons before the dropdown for faster repetitive mesh editing.
+
+v1.0.3 | 2026-08-31
+
+================
+MESH-WORK POLISH
+================
+* Switching between or editing Mesh Overrides no longer replaces the active palette color.
+* Click the selected mesh's color swatch to load its current effective color into the palette for editing or saving to Favorites.
+* Added compact previous and next buttons for quickly stepping through mesh groups.
+* Reset View now also rescans live mesh targets and returns the preview to a closer, centered front-facing view.
+* Recolor's dropdown scaling is now isolated to its own menus and can no longer affects other dropdown popups.
+
+v1.0.2b | 2026-08-30
+
+Hotfix: Mesh overrides now save with the world and restore after loading or restarting the game.
+
+=============================
+CUSTOM PAINT TOOLS & ADDITONS
+=============================
+* Custom Global Paint Tool.
+- Left click to apply your selected pallet color to any building.
+- Right click to eyedrop a building's color for re-use.
+
+* Mesh Eyedropper & Paint tool.
+- The first left-click will eyedrop a building's total  mesh-override coloring.
+- The second left-click will apply those mesh over-rides to a compatible buildings of the same type.
+- Right click to go back to the eyedrop stage and again to exit the tool, or hit escape at any point to exit the tool.
+* I just now realized it should just work exactly like the Other tool, and will probably change.
+* Both tools use building highlighting, paint cursors, and refusal feedback for incompatible Mesh Eyedropper targets.
+
+============
+MENU CHANGES
+============
+* Adds a separate toggle to "Select buildings without opening inspector" while working in the recolor menu.
+* Adds per-building Mesh Overrides preview to see changes before applying them.
+* Adds a safety prompt before applying a global color to a selected building that already has mesh-overrides.
+* Added and undo button while working with mesh over-rides to revert the last color change.
+
+* More features and others improvements yet to come.
+
+v1.0.1 | 2026-08-28
+
+==================================
+RECOLOR BUILDING's INDIVIDUAL MESH
+==================================
+* Buildings can now rather have one global paint recolor, or you can override their individual meshes with different colors.
+* The Game's Eyedropper tool only works for global colors — New Custom Tools for Mesh copying will come in future versions.
+
+========================
+EXPLORE EVERY MESH GROUP
+========================
+* Open the optional right-side Mesh Overrides tray.
+* Select mesh groups dropdown and apply the current palette color to the chosen mesh group.
+* Restore a group to Original, or return it to the selected building's global palette color with Use Global Color.
+
+==============
+SAFE TO REMOVE
+==============
+* Recolor can be safely removed from an existing save. Colored buildings remain and return to their original appearance.
+
+v1.0.0 | 2026-08-27
+
+===================
+RECOLOR YOUR ISLAND
+===================
+* Give placed buildings their own color and keep each finished look saved with the world.
+* Open the Recolor window from its green paintbrush button beside the calendar controls. (can be recolored with buttons, or assigned a keybind with KeyBound)
+* Restore any selected building to its original appearance at any time with Native.
+
+========================
+CREATE THE PERFECT COLOR
+========================
+* Start from sixteen curated swatches ranging from pearl and concrete gray to brick red, patina, deep navy, and lavender gray.
+* Enter an exact six-digit Hex color or tune red, green, blue, saturation, brightness, and tint with dedicated controls.
+* Copy a color profile for later and use Paste to apply it immediately to the selected building.
+
+========================
+PAINT BUILDINGS DIRECTLY
+========================
+* Activate the title-bar Paint Tool and click through your island to apply the current color to building after building.
+* Press Escape when finished, or close Recolor to put the tool away automatically.
+* Toggle if eyedropper carries Recolor settings using the title bar Eyedrop icon.
+
+============================
+BUILD A FAVORITES COLLECTION
+============================
+* Save the exact current RGB, saturation, brightness, and tint profile with the green star button.
+* Keep up to forty reusable colors in an expandable Favorites tray.
+* Left-click a favorite to load it or right-click it to remove it from the collection.
+* Carry your favorite palettes between worlds for quick access in every island project.
+
+=================
+COMPACT WORKSPACE
+=================
+* See the current building name above the color controls while keeping the palette narrow and easy to place beside other menus.
+
+============
+LOCALIZATION
+============
+* Use Recolor's controls and mouse-over explanations in every language available in Captain of Industry 0.8.7b.

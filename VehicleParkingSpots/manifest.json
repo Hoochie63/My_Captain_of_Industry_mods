@@ -1,0 +1,15 @@
+{
+  "id": "VehicleParkingSpots",
+  "version": "0.9.0",
+  "display_name": "Vehicle Parking Spots",
+  "description_short": "Placeable parking areas that send idle vehicles to a free compatible bay.",
+  "description_long": "Adds five non-blocking logical parking areas. Idle compatible vehicles use native navigation to enter a free bay, and a concrete vehicle can be assigned from the parking inspector.",
+  "authors": ["Sirael"],
+  "primary_dlls": ["VehicleParkingSpots.dll"],
+  "primary_mod_class_name": "VehicleParkingSpots.VehicleParkingSpotsMod",
+  "non_locking_dll_load": true,
+  "can_add_to_saved_game": true,
+  "can_remove_from_saved_game": false,
+  "min_game_version": "0.8.6c",
+  "max_verified_game_version": "0.8.7a"
+}

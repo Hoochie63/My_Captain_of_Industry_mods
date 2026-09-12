@@ -1,4 +1,6 @@
 {
+  "Adaptive Tower UI": "Adaptív toronykezelő felület",
+  "Vehicle Filters": "Járműszűrők",
   "Settings": "Beállítások",
   "Collapse all tower sections.": "A torony összes szakaszának összecsukása.",
   "Expand standard tower sections.": "A torony alapértelmezett szakaszainak kibontása.",
@@ -20,5 +22,18 @@
   "Show the maximum of eight visible rows.": "Legfeljebb nyolc látható sor megjelenítése.",
   "Default": "Alapértelmezett",
   "Sections opened by default": "Alapból megnyitott szakaszok",
-  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "A bejelölt szakaszok új bányászati torony elhelyezésekor megnyílnak. A meglévő tornyok nem változnak."
+  "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "A bejelölt szakaszok új bányászati torony elhelyezésekor megnyílnak. A meglévő tornyok nem változnak.",
+  "Expand selected tower sections.": "A kijelölt toronyszakaszok kinyitása.",
+  "Tree planters": "Ültető",
+  "Tree harvesters": "Harveszter",
+  "Tree planter rows": "Faültetőgép-sorok",
+  "Tree harvester rows": "Fakitermelőgép-sorok",
+  "Mining Tower": "Bányászati torony",
+  "Forestry Tower": "Erdészeti torony",
+  "Section": "Szakasz",
+  "Expand": "Kinyitás",
+  "Max rows": "Max. sor",
+  "Checked sections open on newly placed towers. Existing towers are unchanged.": "A bejelölt szakaszok az újonnan elhelyezett tornyokon nyílnak meg. A meglévő tornyok nem változnak.",
+  "Checked sections open when the title-bar + button is used.": "A bejelölt szakaszok a címsor + gombjának használatakor nyílnak meg.",
+  "Maximum visible rows before a scrollbar appears.": "A görgetősáv megjelenése előtt látható sorok maximális száma."
 }

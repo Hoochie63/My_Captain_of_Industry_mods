@@ -212,6 +212,10 @@
     "Desempenho da varredura"
   ],
   [
+    "settings.world.performance",
+    "DESEMPENHO"
+  ],
+  [
     "settings.heading.keyboard_shortcuts",
     "Atalhos de teclado"
   ],
@@ -228,6 +232,18 @@
     "Segurança do terreno"
   ],
   [
+    "settings.world.vanilla_issue_correction",
+    "Correções do jogo base"
+  ],
+  [
+    "settings.world.filter_ore_spikes.label",
+    "Filtrar picos de minério"
+  ],
+  [
+    "settings.world.filter_ore_spikes.tooltip",
+    "Ignora picos de minério isolados e ultrafinos que se estendem muito abaixo da jazida ao redor ao criar designações de mineração. Esta correção é aplicada antes de Qualidade do minério e Nivelamento do fundo. O terreno original e as designações existentes permanecem inalterados."
+  ],
+  [
     "settings.world.avoid_ocean.label",
     "Evite o oceano"
   ],
@@ -242,6 +258,22 @@
   [
     "settings.world.avoid_buildings.tooltip",
     "Evite edifícios em acessos gerados e planos de mineração neste mundo. Excluem-se as células de mineração que se sobrepõem a um edifício ou ao seu perímetro de segurança. A perturbação projetada do terreno perto de edifícios também é evitada."
+  ],
+  [
+    "settings.world.use_worker_thread.label",
+    "Usar thread de trabalho"
+  ],
+  [
+    "settings.world.use_worker_thread.tooltip",
+    "Usar uma thread em segundo plano para o planejamento de acessos e mineração. Ativado por padrão. Desative para solucionar problemas de compatibilidade; o planejamento será executado na thread do jogo e poderá causar pausas, especialmente em minas grandes. Aplica-se a novas solicitações de planejamento."
+  ],
+  [
+    "settings.world.reduce_oversized_areas.label",
+    "Reduzir áreas grandes demais"
+  ],
+  [
+    "settings.world.reduce_oversized_areas.tooltip",
+    "Quando o instantâneo completo de acesso é grande demais para o limite de memória, tente um corredor menor baseado apenas em geometria ao redor dos pontos iniciais e objetivos atuais. O objetivo é encontrar alguma rota; ela pode ser diferente da rota da área completa, e uma falha não prova que nenhuma rota existe."
   ],
   [
     "settings.world.harvest_disrupted_trees.label",
@@ -416,28 +448,12 @@
     "Penalidade quando um raio não encontra terreno dentro de seu alcance de rastreamento."
   ],
   [
-    "settings.experimental_access.turning_ramps.label",
-    "Rampas de viragem"
-  ],
-  [
-    "settings.experimental_access.turning_ramps.tooltip",
-    "Quando ativado, o ATD pode selecionar e posicionar vias de acesso roteadas ou em ziguezague usando designações planas e inclinadas. AUTO e T1-T3 utilizam vias de acesso roteadas; O Legacy 3-5 usa apenas o gerador de rampa direta. As designações de canto e sela não estão incluídas."
-  ],
-  [
     "settings.experimental_access.suppress_legacy_ramps.label",
     "Suprimir rampas legadas"
   ],
   [
     "settings.experimental_access.suppress_legacy_ramps.tooltip",
     "Desative o gerador legado de rampas retas para que resultados e falhas dos acessos roteados possam ser testados diretamente. Deixe desativado para o comportamento normal de fallback."
-  ],
-  [
-    "settings.experimental_access.astar.label",
-    "Use a pesquisa A*"
-  ],
-  [
-    "settings.experimental_access.astar.tooltip",
-    "Use A* em vez do Dijkstra de referência para testes a seco de acessos roteados. Dijkstra é a base de validação mais segura. A* é mais rápido."
   ],
   [
     "settings.experimental_access.landscaping_cost_scale.label",
@@ -640,6 +656,10 @@
     "Definir a prioridade de mineração da torre como {0}."
   ],
   [
+    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
+    "Apenas os caminhões atribuídos (e os caminhões atribuídos às torres de mineração participantes) poderão coletar ou entregar carga aqui."
+  ],
+  [
     "panel.farming.title",
     "Preparação de Terra Agrícola"
   ],
@@ -780,15 +800,15 @@
     "Ampliar para {0}"
   ],
   [
+    "access_search.zoom.tooltip",
+    "Ampliar para a ação de acesso"
+  ],
+  [
     "vehicle_order.preassigned.tooltip",
     "Pré-atribuído a {0}"
   ],
   [
     "vehicle_order.shortcut.tooltip",
     "Shift-Alt-clique para solicitar um novo {0} para {2} em {1}"
-  ],
-  [
-    "panel.atd.ore_sorter.assigned_trucks_enforce.tooltip",
-    "Apenas os caminhões atribuídos (e os caminhões atribuídos às torres de mineração participantes) poderão coletar ou entregar carga aqui."
   ]
 ]

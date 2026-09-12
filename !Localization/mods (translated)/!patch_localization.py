@@ -26,9 +26,12 @@ COI RU Localization Patcher
      (мод обновился, ключ пропал).
   7. Всё, что в моде есть, а в нашем словаре нет — "незалокализовано".
   8. Результат сохраняется с отступом в 4 пробела, UTF-8 без BOM.
-  9. Перед перезаписью исходный ru.json бэкапится в ru.json.original.json
-     (бэкап каждый раз перезаписывается свежим "как было до патча" —
-     удобно, чтобы смотреть, что поменялось в моде после апдейта).
+  9. Перед перезаписью исходный ru.json бэкапится в ru.json.original.json.
+     Бэкап обновляется не при каждом прогоне, а только когда реально
+     обновился мод — это отслеживается по полю "version" из manifest.json
+     мода, версия запоминается в общем файле-кэше
+     (BACKUP_VERSION_CACHE_PATH). Если версия мода не изменилась —
+     существующий бэкап не трогается, даже если словарь патчился заново.
 
 В ОТЧЁТЕ по умолчанию в основной таблице показываются только моды, где
 есть что заметить (реальные изменения, проблемы, недостающие переводы).
@@ -64,6 +67,11 @@ DRY_RUN = False
 
 # Делать ли бэкап оригинального ru.json перед перезаписью.
 BACKUP_ORIGINALS = True
+
+# Единый файл-кэш "какая версия мода была на момент последнего бэкапа".
+# Бэкап конкретного мода обновляется только если версия в его manifest.json
+# отличается от записанной здесь.
+BACKUP_VERSION_CACHE_PATH = DICT_DIR.parent / "backup_versions_cache.json"
 
 # False (по умолчанию) — моды без изменений и проблем просто считаются
 # одной строкой в конце. True — вывести их тоже, но построчно (с числом
@@ -160,9 +168,30 @@ def load_json(path: Path):
     return json.loads(text)
 
 
+# Невидимые символы, которые лучше всегда хранить как \uXXXX-escape,
+# а не сырым символом — иначе в редакторах они превращаются в мусорные
+# плейсхолдеры (например мягкий перенос \u00AD выглядит как "SHY").
+INVISIBLE_CHARS_TO_ESCAPE = {
+    "\u00ad": "\\u00ad",  # soft hyphen / мягкий перенос
+    "\u200b": "\\u200b",  # zero-width space
+    "\u200c": "\\u200c",  # zero-width non-joiner
+    "\u200d": "\\u200d",  # zero-width joiner
+    "\u2060": "\\u2060",  # word joiner
+    "\ufeff": "\\ufeff",  # BOM / zero-width no-break space
+}
+
+
+def escape_invisible_chars(text: str) -> str:
+    for ch, esc in INVISIBLE_CHARS_TO_ESCAPE.items():
+        text = text.replace(ch, esc)
+    return text
+
+
 def save_json(path: Path, data) -> None:
+    text = json.dumps(data, ensure_ascii=False, indent=4)
+    text = escape_invisible_chars(text)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        f.write(text)
         f.write("\n")
 
 
@@ -192,7 +221,32 @@ def find_localization_dirs_without_ru(mod_dir: Path) -> list[Path]:
     return candidates
 
 
-def patch_mod(dict_path: Path, report: dict) -> None:
+def read_mod_version(mod_dir: Path):
+    """Читает 'version' из manifest.json мода. None, если не нашли/не смогли прочитать."""
+    manifest_path = mod_dir / "manifest.json"
+    if not manifest_path.is_file():
+        return None
+    try:
+        manifest = load_json(manifest_path)
+        return manifest.get("version")
+    except Exception:
+        return None
+
+
+def load_backup_version_cache() -> dict:
+    if not BACKUP_VERSION_CACHE_PATH.is_file():
+        return {}
+    try:
+        return load_json(BACKUP_VERSION_CACHE_PATH)
+    except Exception:
+        return {}
+
+
+def save_backup_version_cache(cache: dict) -> None:
+    save_json(BACKUP_VERSION_CACHE_PATH, cache)
+
+
+def patch_mod(dict_path: Path, report: dict, backup_cache: dict) -> None:
     """Обрабатывает один словарь. Ничего не печатает — всё складывает в report,
     рендерится потом одним куском в main()."""
     mod_name = dict_path.stem
@@ -209,6 +263,7 @@ def patch_mod(dict_path: Path, report: dict) -> None:
         return
 
     ru_files = find_ru_json_files(mod_dir)
+    mod_version = read_mod_version(mod_dir)
 
     if not ru_files:
         empty_loc_dirs = find_localization_dirs_without_ru(mod_dir)
@@ -272,10 +327,25 @@ def patch_mod(dict_path: Path, report: dict) -> None:
         report["totals"]["dict_outdated"] += dict_outdated
         report["totals"]["untranslated"] += untranslated
 
+        backup_path = ru_path.with_suffix(".original.json")
+        cached_version = backup_cache.get(mod_name)
+
+        if not backup_path.exists():
+            should_backup = True
+        elif mod_version is not None:
+            should_backup = cached_version != mod_version
+        else:
+            # версию мода узнать не удалось — не трогаем существующий бэкап
+            should_backup = False
+
+        if should_backup and backup_path.exists() and mod_version is not None:
+            report["backup_refreshed"].append((mod_name, cached_version, mod_version))
+
         if not DRY_RUN:
-            if BACKUP_ORIGINALS:
-                backup_path = ru_path.with_suffix(".original.json")
+            if BACKUP_ORIGINALS and should_backup:
                 shutil.copy2(ru_path, backup_path)
+                if mod_version is not None:
+                    backup_cache[mod_name] = mod_version
             save_json(ru_path, target_data)
 
         report["totals"]["mods_patched"] += 1
@@ -320,6 +390,14 @@ def render_report(report: dict) -> None:
         for name, target in report["ru_copied"]:
             print(f"  + {name} -> {target}")
 
+    if report["backup_refreshed"]:
+        print()
+        verb = "будет обновлён" if DRY_RUN else "обновлён"
+        print(f"БЭКАП {verb.upper()} (версия мода изменилась) — {len(report['backup_refreshed'])}:")
+        for name, old_v, new_v in report["backup_refreshed"]:
+            old_v_str = old_v if old_v is not None else "неизвестно"
+            print(f"  - {name}: {old_v_str} -> {new_v}")
+
     results = report["mod_results"]
     notable = [r for r in results if is_notable(r)]
     clean = [r for r in results if not is_notable(r)]
@@ -348,7 +426,7 @@ def render_report(report: dict) -> None:
         print("-" * table_w)
         print(header)
         print("-" * table_w)
-        for r in sorted(notable, key=lambda x: (-x["changed"], x["mod_name"])):
+        for r in sorted(notable, key=lambda x: x["mod_name"].lower()):
             marker = "!" if r["placeholder_mismatch"] else ""
             print(
                 f"{r['mod_name']:<{name_w}}  "
@@ -401,6 +479,7 @@ def main():
         "no_localization_folder": [],
         "ru_copied": [],
         "read_errors": [],
+        "backup_refreshed": [],
         "mod_results": [],
         "totals": {
             "mods_patched": 0,
@@ -412,12 +491,17 @@ def main():
         },
     }
 
+    backup_cache = load_backup_version_cache()
+
     dict_files = sorted(DICT_DIR.glob("*.json"))
     skipped_special = [f for f in dict_files if f.name.endswith(SKIP_SUFFIXES)]
     dict_files = [f for f in dict_files if not f.name.endswith(SKIP_SUFFIXES)]
 
     for dict_path in dict_files:
-        patch_mod(dict_path, report)
+        patch_mod(dict_path, report, backup_cache)
+
+    if not DRY_RUN:
+        save_backup_version_cache(backup_cache)
 
     render_report(report)
 

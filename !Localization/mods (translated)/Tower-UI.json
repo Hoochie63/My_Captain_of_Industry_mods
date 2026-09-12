@@ -1,4 +1,6 @@
 {
+    "Adaptive Tower UI": "Адаптивный интерфейс вышек",
+    "Vehicle Filters": "Фильтр техники",
     "Settings": "<align=\"center\">Настройки диспетчерской вышки<br>(адаптивный интерфейс)</align>",
     "Collapse all tower sections.": "Свернуть все разделы вышки.",
     "Expand standard tower sections.": "Развернуть основные разделы вышки.",
@@ -20,5 +22,18 @@
     "Show the maximum of eight visible rows.": "Показать максимум: 8 рядов.",
     "Default": "Разделы",
     "Sections opened by default": "Разделы, развёрнутые по умолчанию",
-    "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "<align=\"center\">Выбрать разделы, которые будут развёрнуты при размещении новой диспетчерской вышки.<br>Существующие вышки не изменяются.</align>"
+    "Checked sections open when placing a new Mining Tower. Existing towers are unchanged.": "<align=\"center\">Выбрать разделы, которые будут развёрнуты при размещении новой диспетчерской вышки.<br>Существующие вышки не изменяются.</align>",
+    "Expand selected tower sections.": "Развернуть выбранные разделы вышки.",
+    "Tree planters": "Лесопосадчик",
+    "Tree harvesters": "Харвестер",
+    "Tree planter rows": "Ряды лесопосадочной техники",
+    "Tree harvester rows": "Ряды лесозаготовительной техники",
+    "Mining Tower": "Диспетчерская вышка",
+    "Forestry Tower": "Лесохозяйственная вышка",
+    "Section": "Раздел",
+    "Expand": "Развернуть",
+    "Max rows": "Макс. рядов",
+    "Checked sections open on newly placed towers. Existing towers are unchanged.": "<align=\"center\">Отмеченные разделы развёрнуты у недавно размещённых вышек.<br>Существующие вышки не изменяются.</align>",
+    "Checked sections open when the title-bar + button is used.": "<align=\"center\">Отмеченные разделы развёрнуты при использовании кнопки «+» в заголовке.</align>",
+    "Maximum visible rows before a scrollbar appears.": "<align=\"center\">Максимальное число видимых рядов до появления полосы прокрутки.</align>"
 }

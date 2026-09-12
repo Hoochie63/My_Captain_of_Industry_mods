@@ -1,3 +1,13 @@
+v1.2.6 | 2026-09-05
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW OPENS SMALLER ON 1080P SCREENS SO IT NO LONGER FILLS THE WHOLE SCREEN (THANKS MAG FOR MENTIONING IT).
+
+  - The first launch after this update on a 1080p screen resets the window to the new size and sets the scale to 95%, then your own resizing and scale choice are kept as before.
+
+  - Double-click the resize grip in the bottom-right corner to get back to the default size at any time.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.5 | 2026-08-28
 ────────────────────────────────────────────────────────────────────────
 * THE BUTTONS THAT ROLL THE OVERLORD WINDOW UP AND OPEN IT BACK UP NOW USE THE GAME'S OWN ICONS, SO THEY MATCH THE REST OF THE INTERFACE.
