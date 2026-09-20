@@ -1,11 +1,15 @@
-﻿{
-	"id": "AreaSnapTools",
-	"display_name": "Area Snap Tool",
-	"version": "0.2.1",
-	"primary_dlls": ["0Harmony.dll", "AreaSnapTools.dll" ],
-	"min_game_version": "0.8.5",
-	"max_verified_game_version": "0.8.7",
-	"non_locking_dll_load": true,
-	"can_add_to_saved_game": true,
-	"can_remove_from_saved_game": true
+{
+    "id": "AreaSnapTools",
+    "display_name": "Инструмент привязки областей",
+    "version": "0.2.1",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "AreaSnapTools.dll"
+    ],
+    "min_game_version": "0.8.5",
+    "max_verified_game_version": "0.8.7",
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "description_short": "Этот мод добавляет два режима при перемещении границ области:<br><br>• Удерживайте клавишу «Ctrl», перетаскивая вершины области, и они будут привязываться к указанным углам.<br>• Удерживайте клавишу «Shift», перетаскивая вершины области, и они будут привязываться к осям X или Y.<br><br>Вы можете удерживать одновременно клавиши «Ctrl» и «Shift»!"
 }

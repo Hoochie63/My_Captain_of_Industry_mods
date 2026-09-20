@@ -1,13 +1,18 @@
-﻿{
-	"id": "H4uklotz.VerticalBalancers",
-	"version": "0.1.3",
-	"display_name": "Vertical Balancers",
-	"description_short": "Adds vertical balancers to game",
-	"description_long": "Adds vertical balancers to game",
-	"authors": [ "H4uklotz", "Vitaliy" ],
-	"primary_dlls": [ "H4uklotz.VerticalBalancers.dll" ],
-	"min_game_version": "0.8.3",
-	"non_locking_dll_load": true,
-	"can_add_to_saved_game": true,
-	"can_remove_from_saved_game": false
+{
+    "id": "H4uklotz.VerticalBalancers",
+    "version": "0.1.3",
+    "display_name": "Вертикальные балансировщики",
+    "description_short": "Добавляет в игру вертикальные балансировщики",
+    "description_long": "Этот мод добавляет в игру различные небольшие балансировочные устройства (1x1) для каждого типа транспорта.<br><br>Балансировочные механизмы заблокированы в результате исследования.<br><br>Стоимость строительства зависит от высоты балансира, аналогично лифтам.",
+    "authors": [
+        "H4uklotz",
+        "Vitaliy"
+    ],
+    "primary_dlls": [
+        "H4uklotz.VerticalBalancers.dll"
+    ],
+    "min_game_version": "0.8.3",
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": false
 }

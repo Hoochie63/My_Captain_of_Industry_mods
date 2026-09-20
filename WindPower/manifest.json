@@ -1,16 +1,21 @@
 {
-	"id": "WindPower",
-	"version": "0.1.11a",
-	"display_name": "Wind turbines",
-	"description_short": "Adds wind turbines to game",
-	"description_long": "Adds wind turbines to game, tiers:\n  T1 - 100 kW - 24 metres tall with 6 metres radius\n  T2 - 1.8 MW - 70 metres tall with 70 metres radius",
-	"authors": [ "DeznekCZ", "Walter-JS" ],
-	"primary_dlls": [ "WindPower.dll" ],
-	"min_game_version": "0.8.6",
-	"max_verified_game_version": "0.8.6",
-	"mod_dependencies": [],
-	"optional_mod_dependencies": [],
-	"incompatible_mods": [],
-	"non_locking_dll_load": true,
-	"can_add_to_saved_game": true
+    "id": "WindPower",
+    "version": "0.1.11a",
+    "display_name": "Ветряные турбины",
+    "description_short": "Добавляет в игру ветряные турбины",
+    "description_long": "Добавляет в игру ветряные турбины, которые могут служить дополнительным чистым, но недешевым источником энергии на ранних этапах игры, а также в сочетании с солнечными панелями. Уровни:<br>I - 100 кВт - высота 28 метров, радиус 8 метров<br>II - 1,8 МВт - высота 70 метров, радиус 36 метров.",
+    "authors": [
+        "DeznekCZ",
+        "Walter-JS"
+    ],
+    "primary_dlls": [
+        "WindPower.dll"
+    ],
+    "min_game_version": "0.8.6",
+    "max_verified_game_version": "0.8.6",
+    "mod_dependencies": [],
+    "optional_mod_dependencies": [],
+    "incompatible_mods": [],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true
 }

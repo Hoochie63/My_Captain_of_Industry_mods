@@ -51,5 +51,8 @@
     "Apply all to this tab": "Rakenda kõik sellele vahelehele",
     "Vanilla": "Põhimäng",
     "Mod": "Mod",
-    "{0} (in the Controls tab)": "{0} (vahelehel Juhtimine)"
+    "{0} (in the Controls tab)": "{0} (vahelehel Juhtimine)",
+    "Open the Mod keybinds tab": "Ava modide klahvikombinatsioonide vaheleht",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "Avab seadete akna otse mängust modide klahvikombinatsioonide vahelehel, pausil nagu Esc-menüü. Vajuta uuesti, et see sulgeda ja mängu naasta.",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "Vihje: vajuta mängu ajal {0}, et see vaheleht otse avada. Vajuta uuesti, et mängu naasta."
 }

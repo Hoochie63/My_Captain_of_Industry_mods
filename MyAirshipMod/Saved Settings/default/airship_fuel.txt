@@ -1,2 +1,0 @@
-35:Diesel=500
-35:Hydrogen=100

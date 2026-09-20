@@ -1,4 +1,4 @@
-SETTLEMENT ANARCHY 1.0.3
+SETTLEMENT ANARCHY 1.0.4
 
 Settlement Anarchy removes the rigid physical attachment rules from Housing,
 Town Services, and Settlement Decorations while preserving their normal
@@ -82,4 +82,4 @@ Settlement Anarchy (Mod) section.
 
 SUPPORTED GAME VERSION
 
-Captain of Industry 0.8.6 through 0.8.7c.
+Captain of Industry 0.8.6 through 0.8.7d.

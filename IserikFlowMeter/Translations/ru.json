@@ -25,15 +25,15 @@
     ],
     [
         "FlowMeter__RegulateFlow",
-        "Регулировка подсчёта"
+        "Включить ограничение"
     ],
     [
         "FlowMeter__TargetFlowRate",
-        "Лимит подсчёта:"
+        "Лимит счётчика:"
     ],
     [
         "FlowMeter__FlowRegulatorTitle",
-        "Регулятор подсчёта"
+        "Ограничитель пропускной способности"
     ],
     [
         "FlowMeter__StatisticsTitle",
@@ -45,7 +45,7 @@
     ],
     [
         "FlowMeter__NoProduct",
-        "Продукции для подсчёта не обнаружено."
+        "<align=\"center\">Продукции для подсчёта не обнаружено.</align>"
     ],
     [
         "FlowMeter__Overall",
@@ -57,7 +57,7 @@
     ],
     [
         "FlowMeter__StatsTooltip",
-        "{0} / В среднем за месяц / В среднем за год / Всего учтено"
+        "<align=\"center\">{0}</align><br>В среднем за месяц / В среднем за год / Всего"
     ],
     [
         "FlowMeter__ChartXAxisNow",
@@ -93,7 +93,7 @@
     ],
     [
         "FlowrateAlert__BtnTitle",
-        "Оповещения подсчёта"
+        "Оповещения счётчиков"
     ],
     [
         "FlowrateAlert_BelowPrefix",
@@ -101,7 +101,7 @@
     ],
     [
         "FlowrateAlert_BelowTooltip",
-        "Создать оповещение, если среднемесячный подсчёт падает ниже выбранного процента от установленного порога."
+        "<align=\"center\">Создать оповещение, если среднемесячный подсчёт <b>падает</b> ниже выбранного процента от установленного порога.</align>"
     ],
     [
         "FlowrateAlert_AbovePrefix",
@@ -109,7 +109,7 @@
     ],
     [
         "FlowrateAlert_AboveTooltip",
-        "Создать оповещение, если среднемесячный подсчёт превышает выбранный процент от установленного порога."
+        "<align=\"center\">Создать оповещение, если среднемесячный подсчёт <b>превышает</b> выбранный процент от установленного порога.</align>"
     ],
     [
         "FlowrateAlert__OpenTooltip",
@@ -117,7 +117,7 @@
     ],
     [
         "FlowrateAlert_NoFlow",
-        "Нет подсчёта"
+        "Нет"
     ],
     [
         "FlowrateAlert__BelowFormat",
@@ -129,7 +129,7 @@
     ],
     [
         "FlowMeter__NotificationLowFlowName",
-        "Подсчёт {0} на {entity} ниже предела"
+        "Подсчёт {0} на «{entity}» ниже предела"
     ],
     [
         "FlowMeter__NotificationLowFlowDesc",
@@ -137,7 +137,7 @@
     ],
     [
         "FlowMeter__NotificationHighFlowName",
-        "Подсчёт {0} на {entity} выше предела"
+        "Подсчёт {0} на «{entity}» выше предела"
     ],
     [
         "FlowMeter__NotificationHighFlowDesc",

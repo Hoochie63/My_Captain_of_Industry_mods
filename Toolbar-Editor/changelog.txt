@@ -1,10 +1,44 @@
+v2.1.8 | 2026-09-14
+
+[FULL LANGUAGE SUPPORT]
+* Completes Toolbar Editor translations across all 21 Captain of Industry languages, adding Turkish and Traditional Chinese support.
+* Translates the remaining English text throughout the normal editor tabs, prompts, status messages, tooltips, profiles, layout indicators, and keybind descriptions.
+* Fine-Tune Controller labels and buttons remain fixed in English to protect its compact layout, while its tooltips and confirmation prompts are translated.
+
+v2.1.7 | 2026-09-12
+
+* Verified for Captain of Industry v0.8.7c.
+
+* Editing Controls are now reconfigurable in Layout tab's Controls section.
+* Resizing vertically and horizontally is now one shared resize control.
+* Moving a green Tool shortcut into a regular horizontal toolbar section now resizes it's icon to match the icon size of those sections; if you've done this in your profiles, minor adjustments may be needed.
+* Toolbar Editor's icon now defaults to section -1 and adjusted it's size as well.
+* Started partial translations with English fallback. Full Translation work coming in next update.
+=================
+AUTO SHIFT REWORK
+=================
+* Reworked Auto-Shift to be easier to use for simple one-row toolbar layouts to guard against behaviors that would otherwise cause layout bugs with default toolbar resizing behavior; as a result, resizing the background and vertical section orientation switching is disabled while auto shift is on.
+* Disabling Auto-Shift for a profile unlocks all editing controls and freezes toolbar geometry so all auto shifting behavior immediately stops without needing to resize the background anymore.
+* Added new restore button in Layout tab's Resets to restore a working auto-shift layout & behaviors while keeping your custom button assignments and sections in tact.
+* Reset all sections now preserves custom section names and button assignments while aligning the sections back to the background's current position; the full layout reset still restores the complete default toolbar and all changes to factory default.
+
+* Fixed a bug where draging a component could get stuck to your mouse while Selection mode was active.
+* Selection mode is now always active when the controller tray is open and editing in on.
+* Replaced Selection mode toggle with optional "Mute Clicks" toggle that disables left clicks from performing their normal actions while editing, if needed.
+
+* Ton of bug-fixing across many internal versions since the last release. If you encounter any new bugs please report them.
+
 v2.1.6 | 2026-09-07
 
-[PROFILE AND LAYOUT STABILITY]
-* Makes saved toolbar layouts settle more reliably at non-100% UI scales and restores fast profile switching without the temporary loading lockout.
-* Keeps the submenu in its saved vertical position when its content or scrollbar changes, preserves centered automatic width, and remembers exact manual resizing.
-* Makes Reset all sections safely override unfinished profile restoration and restores clean section positions with Auto-Shift either on or off.
-* Moves the Toolbar Editor shortcut into its own normal toolbar section, keeps Burning T and Industrial Toolbox as its two icon choices, and turns Selection Mode off when the editor closes.
+* Resized toolbar editor's icon so it stops causing sections to grow larger for existing in them.
+* Removed some Toolbar Editor icon choices to reduce total file size.
+
+[Continued Profile Restoration Bug-Fixing]
+
+* Addressed a bug from v.2.1.5's negative section rework that caused Resetting all sections button to throw sections to extreme negative coordinates.
+* Addressed a bug where switching to lower game scales could cause the submenu to shake between two sets of fractional coordinates.
+* Addressed bug where the submenu could shift downard the size of a horizontal scrollbar after loading game or profile.
+* Submenu restoration now preserves a centered width and bottom anchor, and remembers exact manual resizing and positioning so it naturally grows upward instead of shifting it's Y-coordinate downwards.
 
 v2.1.5 | 2026-09-02
 

@@ -1,21 +1,21 @@
 {
-  "id": "Recolor",
-  "version": "1.0.6",
-  "display_name": "Recolor",
-  "description_short": "Recolor your island's buildings with custom colors, reusable templates, and custom Paint Tools to get the job done.",
-  "description_long": "Adds Recolor's complete building color palette plus an optional More workspace with dedicated Edit Mesh, Mesh Templates, and Settings tabs. Global Colors, per-building Mesh Overrides, and ordered Mesh Templates are saved with the world. Mesh Template cards and thumbnails load lazily, previews are cached across ordinary window reopenings, and new libraries are capped at 40 templates. Compact two-column cards retain colored previews and load Mesh Eyedropper for exact prototype-and-schema matches. Global Paint applies the active palette color with left-click and picks a building's Global Color with right-click. The native Apply Settings eyedropper can optionally copy Recolor's Global Color and is off by default. Independent, opt-in bottom-left shortcuts can expose Global Paint and Mesh Eyedropper through the game's native tool registration path. Select Without Inspector defaults on, is remembered, and works only while Recolor is open. Edit Mesh retains its isolated draft preview, linked-LOD logical groups, one-step Undo, remap-aware input legends, and native confirmation prompts for destructive whole-building actions.",
-  "authors": [
-    "Underlörd"
-  ],
-  "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.7c",
-  "primary_dlls": [
-    "0Harmony.dll",
-    "Recolor.dll"
-  ],
-  "mod_dependencies": [],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "primary_mod_class_name": "RecolorMod"
+    "id": "Recolor",
+    "version": "1.0.7",
+    "display_name": "Покраска",
+    "description_short": "Перекрашивайте строения с постоянными глобальными цветами и переопределениями сетки, предпросмотром черновика и пользовательскими инструментами покраски.",
+    "description_long": "Добавляет полную палитру цветов строений плюс опциональную рабочую область «Ещё» с отдельными вкладками «Редактировать сетку», «Шаблоны сетки» и «Настройки». Глобальные цвета и переопределения сетки для каждого строения сохраняются вместе с миром. Глобальная покраска применяет активный цвет палитры по ЛКМ и выбирает глобальный цвет здания по ПКМ. Двухэтапная пипетка сетки выбирает источник по ЛКМ, затем переносит его глобальный цвет и полные переопределения сетки на точные совпадения по прототипу и схеме; ПКМ возвращает на шаг назад или выходит. «Выбор без интерфейса» включён по умолчанию, запоминается и работает только пока интерфейс «Покраски» открыт. «Редактировать сетку» сохраняет изолированный предпросмотр черновика, логические группы связанных LOD, пошаговую отмену, подсказки ввода с учётом переназначения и стандартные запросы подтверждения для разрушительных действий над всем строением.",
+    "authors": [
+        "Underlörd"
+    ],
+    "min_game_version": "0.8.5",
+    "max_verified_game_version": "0.8.7c",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "Recolor.dll"
+    ],
+    "mod_dependencies": [],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "RecolorMod"
 }

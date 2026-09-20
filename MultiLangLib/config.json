@@ -1,18 +1,18 @@
 {
-  "debug_language": {
-    "default": false,
-    "description": "Show translation keys such as multilanglib.ModName.textId instead of translated text."
-  },
-  "language_override": {
-    "default": "auto",
-    "description": "Language file to use. 'auto' follows the game, 'debug' shows keys; a .json suffix always denotes a literal filename.",
-    "max_length": 32,
-    "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$"
-  },
-  "fallback_language": {
-    "default": "en",
-    "description": "Language used when a translation is missing in the selected language.",
-    "max_length": 32,
-    "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$"
-  }
+    "debug_language": {
+        "default": false,
+        "description": "Показывать ключи переводов, например «multilanglib.ModName.textId», вместо переведённого текста."
+    },
+    "language_override": {
+        "default": "auto",
+        "description": "Файл языка для использования. «auto» следует за игрой, «debug» показывает ключи; суффикс «.json» всегда означает буквальное имя файла.",
+        "max_length": 32,
+        "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$"
+    },
+    "fallback_language": {
+        "default": "en",
+        "description": "Язык, используемый когда перевод отсутствует в выбранном языке.",
+        "max_length": 32,
+        "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$"
+    }
 }

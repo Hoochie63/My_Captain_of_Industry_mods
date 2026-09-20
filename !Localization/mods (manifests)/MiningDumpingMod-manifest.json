@@ -1,4 +1,5 @@
 {
-    "display_name": "Mining Dumping Tower",
-    "description_short": "Adds Tower which can mine/dump without the use of trucks"
+    "display_name": "Вышка карьерных работ и отвалов",
+    "description_short": "Добавляет вышку, которая может проводить карьерные работы и отвалы ресурсов без использования грузовой и горнодобывающей техники.",
+    "description_long": "Добавляет вышку, которая может проводить карьерные работы и отвалы ресурсов без использования грузовой и горнодобывающей техники."
 }

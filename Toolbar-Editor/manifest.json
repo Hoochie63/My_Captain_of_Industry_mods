@@ -1,24 +1,24 @@
 {
-  "id": "Toolbar-Editor",
-  "version": "2.1.6",
-  "display_name": "Toolbar Editor",
-  "description_short": "Toolbar HUD Customization-suite for the entire bottom side UI. Buttons drag & drop reordering, coloring, custom sections, profiles ..and more!",
-  "description_long": "Toolbar Editor provides a complete visual editor for the Captain of Industry toolbar. Its six middle default sections are fixed Toolbar Editor-owned mirrors that can be renamed or switched between horizontal rows and vertical rails while preserving the original live buttons, actions, unlocks, and gameplay behavior.",
-  "authors": [
-    "Underlörd"
-  ],
-  "min_game_version": "0.8.6",
-  "max_verified_game_version": "0.8.7b",
-  "primary_dlls": [
-    "0Harmony.dll",
-    "ToolbarEditor.dll"
-  ],
-  "mod_dependencies": [],
-  "optional_mod_dependencies": [
-    "keybind-framework"
-  ],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "primary_mod_class_name": "ToolbarEditorMod"
+    "id": "Toolbar-Editor",
+    "version": "2.1.8",
+    "display_name": "Редактор панели инструментов",
+    "description_short": "Набор для настройки интерфейсов панели инструментов для всей нижней части интерфейса. Перетаскивание кнопок, окрашивание, пользовательские секции, профили ...и многое другое!",
+    "description_long": "«Редактор панели инструментов» предоставляет полный визуальный редактор для панели инструментов «Captain of Industry». Его шесть средних секций по умолчанию — это фиксированные зеркала, принадлежащие «Редактору панели инструментов», которые можно переименовывать или переключать между горизонтальными и вертикальными рядами, сохраняя исходные живые кнопки, действия, разблокировки и игровое поведение.",
+    "authors": [
+        "Underlörd"
+    ],
+    "min_game_version": "0.8.6",
+    "max_verified_game_version": "0.8.7c",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "ToolbarEditor.dll"
+    ],
+    "mod_dependencies": [],
+    "optional_mod_dependencies": [
+        "keybind-framework"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "ToolbarEditorMod"
 }

@@ -1,5 +1,5 @@
 {
-    "display_name": "Boost++",
-    "description": "Boost++ adds individual boost controls to every building and transport in your factory. Adjust machines, offices, ore sorters, waste plants, belts and pipes from a central manager. Rename buildings, attach searchable comments, jump the camera to any entry, copy boost between buildings, apply mass boosts, and more.",
-    "description_short": "Fine-tune production speed for every machine, belt and pipe individually — with a manager for sorting, renaming, comments, mass-boost, copy-boost, and more"
+    "display_name": "Ускорение++",
+    "description": "«Ускорение++» добавляет индивидуальное управление ускорением для каждого строения и транспортёра на Вашем заводе. Настраивайте фабрики, офисы, сортировщики руды, мусороперерабатывающие заводы, транспортёры и трубы из центрального менеджера. Переименовывайте строения, добавляйте комментарии с поиском, перемещайте камеру к любой записи, копируйте ускорение между строениями, применяйте массовое ускорение и многое другое.",
+    "description_short": "Точная настройка скорости производства для каждой фабрики, транспортёра и трубы по отдельности — с менеджером для сортировки, переименования, комментариев, массового ускорения, копирования ускорения и многого другого."
 }

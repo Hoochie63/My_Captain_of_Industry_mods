@@ -51,5 +51,8 @@
     "Apply all to this tab": "Aplicar tudo nesta aba",
     "Vanilla": "Original",
     "Mod": "Mod",
-    "{0} (in the Controls tab)": "{0} (na aba Controles)"
+    "{0} (in the Controls tab)": "{0} (na aba Controles)",
+    "Open the Mod keybinds tab": "Abrir a aba de atalhos de mods",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "Abre a janela de configurações diretamente na aba de atalhos de mods a partir do jogo, pausado como o menu Esc. Pressione novamente para fechá-la e voltar ao jogo.",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "Dica: pressione {0} durante o jogo para abrir esta aba diretamente. Pressione novamente para voltar ao jogo."
 }

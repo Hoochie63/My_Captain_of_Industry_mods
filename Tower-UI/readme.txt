@@ -53,7 +53,7 @@ SETTINGS WINDOW
 COMPATIBILITY
 -------------
 
-- Verified for Captain of Industry 0.8.7c.
+- Verified for Captain of Industry 0.8.7d.
 - Supports compatible vanilla and modded vehicles.
 - Works with Gameplay++, Auto Terrain Designations, and Auto Forestry Designations.
 - Keeps native localized names unchanged.

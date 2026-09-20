@@ -1,5 +1,5 @@
 BEACON & GOVERNMENT DLC
-Version 1.0.5
+Version 1.0.5c
 
 Expands Captain of Industry's Beacon into a placeable support network with
 research-gated randomized supplies, Captain's Currency, rotating quick trades,
@@ -203,4 +203,4 @@ their original calendar terms. An in-progress Beacon cycle preserves its
 already accrued samples and may blend old and new Office contribution rates
 until that one cycle completes.
 
-Author: Underlörd
+Author: X-Mag-X

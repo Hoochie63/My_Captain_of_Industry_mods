@@ -1,5 +1,5 @@
 {
-    "display_name": "MultiLangLib",
-    "description_short": "Shared translation library for Captain of Industry mods.",
-    "description_long": "Resolves namespaced translation keys from a mod's lang directory or MultiLangLib's central fallback directory."
+    "display_name": "Библиотека переводов",
+    "description_short": "Общая библиотека переводов для модов «Captain of Industry».",
+    "description_long": "Разрешает ключи переводов с пространствами имён из каталога lang мода или центрального резервного каталога MultiLangLib."
 }

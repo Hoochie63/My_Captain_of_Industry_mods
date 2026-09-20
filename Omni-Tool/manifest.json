@@ -1,26 +1,26 @@
 {
-  "id": "Omni-Tool",
-  "version": "0.7.1",
-  "display_name": "Omni-Tool",
-  "description_short": "Mass-assign vehicles to logistics zones, Quick Repair, Unity Recover, Empty Cargo and more with an all-in-one multi-select tool.",
-  "description_long": "Omni-Tool combines vehicle, logistics, building, and optional sandbox actions into one configurable multi-select toolbar tool and independent Omni-Belt. Fresh installs receive purpose-built Vehicle Tools and Building Tools profiles, plus a dormant non-cycling Terraforming profile when sandbox eligibility exists. Named profiles auto-save and support category visibility, enabled tools, colors, choices, ordering, and position. Shared tools carry stable primary and secondary category tags. Sandbox access uses a separate conditional global master switch. Opening Settings safely locks every world tool while leaving a dimmed Omni-Belt preview available, and restoring factory profiles requires two confirmations. Terrain Eraser offers a precise -10 to 0 range plus an expanded -50 to +50 option; Restore Terrain remains dormant, while Pause and Upgrade are removed.",
-  "authors": [
-    "Underlörd"
-  ],
-  "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.7b",
-  "primary_dlls": [
-    "0Harmony.dll",
-    "OmniTool.dll"
-  ],
-  "mod_dependencies": [],
-  "optional_mod_dependencies": [
-    "keybind-framework >= 2.0.2",
-    "cheat-plus-plus",
-    "tweaks-plus-plus"
-  ],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "primary_mod_class_name": "OmniToolMod"
+    "id": "Omni-Tool",
+    "version": "0.9.1",
+    "display_name": "Мульти-инструмент",
+    "description_short": "Много инструментов — одна панель. Массовый выбор логистических зон, восстановление «Единства», быстрый ремонт.",
+    "description_long": "«Мульти-инструмент» объединяет действия с техникой, логистикой, строениями и опциональные действия песочницы в один настраиваемый инструмент с множественным выбором и независимую панель Omni-Belt. При первой установке вы получаете специально созданные профили «Инструменты техники» и «Инструменты строений», плюс неактивный нециклический профиль «Терраформирование» при наличии доступа к песочнице. Именованные профили автоматически сохраняются и поддерживают видимость категорий, включённые инструменты, цвета, варианты выбора и порядок; позиции Omni-Belt и Micro-HUD и точки привязки глобальны. Общие инструменты имеют стабильные первичные и вторичные теги категорий. Доступ к песочнице использует отдельный условный глобальный главный переключатель. Открытие настроек безопасно блокирует все мировые инструменты, оставляя доступным затемнённый предпросмотр Omni-Belt, а восстановление заводских профилей требует двух подтверждений. Ластик рельефа предлагает точный диапазон от -10 до 0 плюс расширенный от -50 до +50; «Восстановить рельеф» остаётся неактивным, а «Пауза» и «Улучшение» удалены.",
+    "authors": [
+        "X-Mag-X"
+    ],
+    "min_game_version": "0.8.5",
+    "max_verified_game_version": "0.8.7d",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "OmniTool.dll"
+    ],
+    "mod_dependencies": [],
+    "optional_mod_dependencies": [
+        "keybind-framework >= 2.0.2",
+        "cheat-plus-plus",
+        "tweaks-plus-plus"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "OmniToolMod"
 }

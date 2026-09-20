@@ -1,10 +1,15 @@
-﻿{
-	"id": "HideBlockedPorts",
-	"display_name": "Hide Blocked Ports",
-	"version": "0.1.1",
-	"primary_dlls": ["0Harmony.dll", "HideBlockedPorts.dll" ],
-	"min_game_version": "0.8.7",
-	"non_locking_dll_load": true,
-	"can_add_to_saved_game": true,
-	"can_remove_from_saved_game": true
+{
+    "id": "HideBlockedPorts",
+    "display_name": "Скрыть заблокированные порты",
+    "version": "0.1.1",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "HideBlockedPorts.dll"
+    ],
+    "min_game_version": "0.8.7",
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "description_short": "Этот мод убирает красные значки заблокированных портов.",
+    "description_long": "Цель этого мода — помочь игрокам, которые любят строить компактные строения и вынуждены блокировать неиспользуемые порты. В таких случаях вся фабрика может светиться красным из-за этих значков.<br><br>Мод не меняет никакого поведения, кроме упомянутого внешнего вида заблокированных портов."
 }

@@ -1,21 +1,21 @@
 {
-  "id": "Beacon-and-Government-DLC",
-  "version": "1.0.5",
-  "display_name": "Beacon & Government+",
-  "description_short": "Overhauls Beacon's reward mechanics to extend its usefulness into the mid-to-late game. Research-based product rewards & Captain's Currency 🪙 used for new bartering systems.",
-  "description_long": "Expands the Government and Beacon reward system through a dedicated six-node research branch with placeable Relay Beacons, Captain's Exchanges, Government Offices, reward policies, and regional subsidies. Each completed Beacon cycle adds research-gated randomized supplies and Captain's Currency scaled from the saved full-cycle Unity average. Exchange purchases prepare for three months before a transient vanilla cargo ship follows real water routes to the Exchange and safely transfers the saved order to the Shipyard.",
-  "authors": [
-    "Underlörd"
-  ],
-  "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.7b",
-  "primary_dlls": [
-    "0Harmony.dll",
-    "BeaconAndGovernment.dll"
-  ],
-  "mod_dependencies": [],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": false,
-  "primary_mod_class_name": "BeaconMod"
+    "id": "Beacon-and-Government-DLC",
+    "version": "1.0.5c",
+    "display_name": "Маяк и Правительство+",
+    "description_short": "Перерабатывает механику наград «Маяка», продлевая его полезность в середине и конце игры. Научные награды продуктами и Валюта капитана 🪙 для новых систем обмена.",
+    "description_long": "Расширяет систему наград «Правительства» и «Маяка» размещаемыми ретрансляционными маяками, биржами капитана и правительственными офисами на стандартных моделях. Каждый завершённый цикл «Маяка» добавляет случайные поставки, открываемые исследованиями, и валюту капитана, масштабируемую от сохранённого среднего значения «Единства» за полный цикл. Правительственные офисы добавляют взаимосогласованные политики наград и региональные субсидии на электроэнергию и вычисления. Покупки на бирже готовятся три месяца, после чего прибывает опциональный грузовой корабль в стандартном стиле и безопасно передаёт сохранённый заказ на верфь; его упрощённый визуальный маршрут можно отключить без изменения времени доставки.",
+    "authors": [
+        "X-Mag-X"
+    ],
+    "min_game_version": "0.8.5",
+    "max_verified_game_version": "0.8.7d",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "BeaconAndGovernment.dll"
+    ],
+    "mod_dependencies": [],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": false,
+    "primary_mod_class_name": "BeaconMod"
 }

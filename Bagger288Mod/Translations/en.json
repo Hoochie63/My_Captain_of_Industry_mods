@@ -80,6 +80,10 @@
 		"Not enough electricity"
 	],
 	[
+		"Bagger288Mod__StatusMaintenanceSlowdown",
+		"Missing maintenance (slowed)"
+	],
+	[
 		"Bagger288Mod__StatusWaitingBuffers",
 		"Buffers full"
 	],

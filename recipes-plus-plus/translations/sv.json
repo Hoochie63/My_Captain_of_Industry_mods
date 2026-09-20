@@ -175,6 +175,8 @@
   "T3 Dump Truck": "T3-dumper",
   "T2 Truck": "T2-lastbil",
   "Amphibious Truck": "Amfibisk lastbil",
+  "Cargo Helicopter": "Lasthelikopter",
+  "Cargo helicopters only come in diesel and hydrogen.": "Lasthelikoptrar finns bara med diesel och vätgas.",
   "Paint area": "Lackeringsområde",
   "Primary color": "Huvudfärg",
   "Secondary color": "Andra färg",

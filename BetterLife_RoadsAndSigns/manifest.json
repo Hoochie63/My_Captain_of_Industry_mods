@@ -1,12 +1,15 @@
 {
-	"id": "BetterLife_RoadsAndSigns",
-	"version": "1.0.15",
-	"primary_dlls": [ "0Harmony.dll", "BetterLife_RoadsAndSigns.dll" ],
-	"non_locking_dll_load": true,
-	"can_add_to_saved_game": true,
-	"authors": "MaViTTo",
-	"description_short": "Road system with interactivity and signs.",
-	"description_long": "Roads and Signs, roads have speed/mainteance bonus.",
-	"display_name": "BeTTerLife: Roads and Signs",
-	"min_game_version": "0.8.6"
+    "id": "BetterLife_RoadsAndSigns",
+    "version": "1.0.15",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "BetterLife_RoadsAndSigns.dll"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "authors": "MaViTTo",
+    "description_short": "Дорожная система с интерактивностью и знаками.",
+    "description_long": "Дороги и знаки; дороги дают бонус к скорости и снижению износа.",
+    "display_name": "Лучшая жизнь: Дороги и знаки",
+    "min_game_version": "0.8.6"
 }

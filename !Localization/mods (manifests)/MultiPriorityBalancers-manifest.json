@@ -1,5 +1,5 @@
 {
-    "display_name": "Multi-Priority Balancers",
-    "description_short": "Adds P1, P2 and P3 input/output priorities to new balancers for all product transports.",
-    "description_long": "Adds a dedicated P1/P2/P3 balancer category with small, medium, large and long variants for flat conveyors, U-shape conveyors, pipes and molten channels. Uses an independent asset bundle and can run alone or alongside Industrial Expansion."
+    "display_name": "Мультиприоритетные балансировщики",
+    "description_short": "Добавляет приоритеты ввода/вывода P1, P2 и P3 для новых балансировщиков, используемых при транспортировке любых продуктов.",
+    "description_long": "Добавляет отдельную категорию балансировщиков P1/P2/P3 с малыми, средними, большими и длинными вариантами для транспортёров, труб и каналов для расплава. Использует независимый пакет ресурсов и может работать отдельно или вместе с модом «Промышленное расширение»."
 }

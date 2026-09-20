@@ -1,4 +1,5 @@
 {
-    "display_name": "KeyBound",
-    "description_short": "Click ANY Button to give it a keybind quickly. Save/Load Profiles for Controls/Framework. Adds binds for ALL Toolbar Menus/Items/Buildings/UI Panels/Tool Shortcuts/Calendar Buttons"
+    "display_name": "Недостаточно назначений клавиш",
+    "description_short": "Назначение клавиш для всего. Кнопки меню в стандартной версии игры/модификации, активация инструментов, размещение предметов логистики и другие запросы. Резервное копирование и восстановление назначений клавиш.",
+    "description_long": "Динамически находит стандартные и добавленные из модов меню и кнопки инструментов и добавляет для них привязки клавиш в рамках системы привязки клавиш.<br>Плюс множество дополнительных привязок клавиш для размещения строений, предметов логистики, быстрых действий за «Единство» и многое другое."
 }

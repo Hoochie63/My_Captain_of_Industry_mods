@@ -1,6 +1,11 @@
+v1.0.7 | 2026-09-12
+
+* Mesh Templates now tolerate harmless sibling-order and untouched-group schema drift when used on the exact same building prototype.
+* Only complete, uniform overridden groups with one unambiguous live match are restored; missing, partial, conflicting, or ambiguous matches remain safely refused.
+
 v1.0.6 | 2026-09-09
 
-* Verified compatibility with Captain of Industry 0.8.7c using the matching updated game references.
+* Verified compatibility with Captain of Industry 0.8.7c.
 * Recolor now reopens on Edit Mesh instead of restoring the heavier Mesh Templates tab.
 * Mesh Template cards are created only when their tab is opened, and preview images render only for visible or nearby rows in paced steps.
 * Completed preview images stay cached across ordinary menu close/reopen cycles and are released during world or mod teardown.

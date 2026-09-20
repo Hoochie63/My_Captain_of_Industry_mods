@@ -1,13 +1,25 @@
+v0.3.3 | 20026-09-16
+* FIX: Resolved savegame loading error in game v0.8.7c (Compatibility fix).
+* IMPROVED: Updated Russian translation (thanks to Hoochie)
+* IMPROVED: Inspector element styling for better localization appearance
+
+v0.3.2 | 20026-09-16
+* FIX: Resolved savegame loading error in game v0.8.7c (Compatibility fix).
+* IMPROVED: Updated Russian translation (thanks to Hoochie)
+
+v0.3.1 | 20026-09-16
+* FIX: Resolved savegame loading error in game v0.8.7c (Compatibility fix).
+
 v0.3.0 | 20026-09-05
 Active Flow Control, Alarms & Localisation
 
-NEW: Flow Regulation – Set a target flow rate and ability to automatically limit throughput between the meter's input and output.
-NEW: SCADA Alarms – Added configurable Low/High Flow alarms linked to the game's notification system. Set limits from below 0% to 75% and above from 100% to 200% of the target.
-NEW: Localisation – Added Russian, French, Simplified Chinese, Greek, German, Spanish, and Brazilian Portuguese. Translation .json files are included for community edits and new languages.
-NEW: Regulator UI – Added flow targets, regulation toggle, and alarm settings to the HMI Inspector.
-IMPROVED: Auto Setpoints – New or loaded meters automatically set the target flow to the maximum throughput of connected conveyors.
-IMPROVED: Pause & Power Handling – The internal timer now correctly stops during game pauses, broken maintenance states, and power loss. Historical charts no longer incorrectly drop to zero.
-IMPROVED: Smarter Alarms – Added 2% hysteresis to stop alarms flickering around the limit. Notifications now show the actual product being transported.
+* NEW: Flow Regulation – Set a target flow rate and ability to automatically limit throughput between the meter's input and output.
+* NEW: SCADA Alarms – Added configurable Low/High Flow alarms linked to the game's notification system. Set limits from below 0% to 75% and above from 100% to 200% of the target.
+* NEW: Localisation – Added Russian, French, Simplified Chinese, Greek, German, Spanish, and Brazilian Portuguese. Translation .json files are included for community edits and new languages.
+* NEW: Regulator UI – Added flow targets, regulation toggle, and alarm settings to the HMI Inspector.
+* IMPROVED: Auto Setpoints – New or loaded meters automatically set the target flow to the maximum throughput of connected conveyors.
+* IMPROVED: Pause & Power Handling – The internal timer now correctly stops during game pauses, broken maintenance states, and power loss. Historical charts no longer incorrectly drop to zero.
+* IMPROVED: Smarter Alarms – Added 2% hysteresis to stop alarms flickering around the limit. Notifications now show the actual product being transported.
 
 v0.2.2 | 2026-08-02
 Ensure mod compatibility with game v0.8.6a

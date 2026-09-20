@@ -1,4 +1,4 @@
 {
-    "display_name": "CAP.PierWall.LiquidDump",
-    "description_short": "Adds a liquid dump that requires CAP Pier Wall support tiles."
+    "display_name": "Береговые стены. Сброс жидкостей",
+    "description_short": "Добавляет береговую сливную трубу для сброса жидкостей, требующей береговых стен."
 }

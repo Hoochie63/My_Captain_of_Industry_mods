@@ -1,5 +1,5 @@
 {
-    "display_name": "Speed++",
-    "description": "Speed++ removes the vanilla speed cap, letting you run the game at whatever pace suits your playstyle. Set your own limit and keybinds in config.json. An on-screen indicator always shows your current multiplier.",
-    "description_short": "Push game speed well beyond vanilla limits with configurable keybinds and an on-screen multiplier display, and more"
+    "display_name": "Скорость++",
+    "description": "«Скорость++» убирает стандартный лимит скорости, позволяя запускать игру в любом темпе, подходящем Вашему стилю. Установите свой лимит и горячие клавиши в файле «config.json». Экранный индикатор всегда показывает текущий множитель.",
+    "description_short": "Разгоняет скорость игры далеко за стандартные пределы с настраиваемыми горячими клавишами и экранным индикатором множителя, и многое другое."
 }

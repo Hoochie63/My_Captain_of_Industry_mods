@@ -1,15 +1,20 @@
 {
-  "id": "UndergroundPipes",
-  "version": "1.1.0",
-  "display_name": "Underground Pipes",
-  "description_short": "Underground fluid pipes, Pipe Connectors and Pipe Balancers with batched flow arrows, direct layers and safe demolition for CoI 0.8.7a.",
-  "description_long": "Routes the game's existing fluid pipes, Pipe Connectors and Pipe Balancers below terrain without replacement transport assets. Connector-on-pipe placement uses the native validated cut-out command only after confirmation, preserving products and route direction. Direct ALL/-1/-2/-3/-4 controls separate the visible/selectable layer from construction depth. Batched x-ray flow arrows use real moved-product steps; depth, product and diagnostics modes remain available. Burial depth follows compatible unlocked vanilla pipe tiers from T1 through T4 and is relative to local terrain, including excavated mines below sea level. Verified on Captain of Industry 0.8.7a (game build 614).",
-  "authors": ["pique"],
-  "primary_dlls": ["0Harmony.dll", "UndergroundPipes.dll"],
-  "primary_mod_class_name": "UndergroundPipesMod",
-  "min_game_version": "0.8.7",
-  "max_verified_game_version": "0.8.7",
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true
+    "id": "UndergroundPipes",
+    "version": "1.1.0",
+    "display_name": "Подземные трубы",
+    "description_short": "Прокладывайте стандартные (игровые) трубы под поверхностью земли, используя систему глубины, зависящую от достигнутого уровня технологий; воспользуйтесь цветовой индикацией в режиме «рентгена», подробной информацией при наведении курсора и гибкими настройками.",
+    "description_long": "Позволяет прокладывать существующие в игре трубы для жидкостей под поверхностью земли с последующим выводом обратно на поверхность — новые строения или игровые объекты не требуются. Глубина прокладки увеличивается по мере прогресса: базовая труба может уходить на -1 уровень вниз, а улучшенные версии (открываемые через исследования) позволяют углубляться сильнее. Таким образом, возможность глубокой прокладки нужно заслужить, она не даётся просто так, при этом трубу невозможно проложить ниже «дна мира» (уровня моря). В процессе прокладки маршрут подсвечивается разными цветами в зависимости от допустимости (зеленый — всё в порядке, жёлтый — достигнут предел глубины, красный — прокладка невозможна). Проложенные под землей трубы отображаются в виде полупрозрачного наложения (в режиме «рентгена»), видимого для всей сети; цвет линий зависит от глубины (или, по желанию, от типа транспортируемого продукта). Предусмотрена кнопка на панели инструментов для включения/выключения этого режима, а текущая глубина отображается рядом с курсором. Информация при наведении: если навести курсор на любую трубу, можно увидеть, что по ней течет (крупный значок продукта), степень заполнения (шкала), а также статус потока (движется или заблокирован); при этом весь подземный участок трубы подсвечивается. Параметры можно настроить в меню мода: доступны регулировка максимальной глубины прокладки и выбор режима цветовой индикации по типу продукта. Подземные трубы защищены от случайного демонтажа вместе с наземными сооружениями; для их намеренного демонтажа предусмотрена отдельная кнопка на панели инструментов.",
+    "authors": [
+        "pique"
+    ],
+    "primary_dlls": [
+        "0Harmony.dll",
+        "UndergroundPipes.dll"
+    ],
+    "primary_mod_class_name": "UndergroundPipesMod",
+    "min_game_version": "0.8.7",
+    "max_verified_game_version": "0.8.7",
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true
 }

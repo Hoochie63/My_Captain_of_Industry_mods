@@ -76,9 +76,9 @@
     "Ore sorting plant throughput feature unavailable.": "Функция пропускной способности сортировщика руды недоступна.",
     "Cargo ship module throughput feature unavailable.": "Функция пропускной способности модуля грузового судна недоступна.",
     "Train station throughput feature unavailable.": "Функция пропускной способности ж/д станций недоступна.",
-    "Storage++ profile saved.": "Профиль игрока для «Storage++» сохранён.",
-    "Storage++ profile loaded.": "Профиль игрока для «Storage++» загружен.",
-    "No saved Storage++ profile found.": "Сохранённый профиль игрока для «Storage++» не найден.",
+    "Storage++ profile saved.": "Профиль игрока для «Хранилище++» сохранён.",
+    "Storage++ profile loaded.": "Профиль игрока для «Хранилище++» загружен.",
+    "No saved Storage++ profile found.": "Сохранённый профиль игрока для «Хранилище++» не найден.",
     "Cargo Ship ({0} modules)": "Грузовое судно ({0} модулей)",
     "Cargo Ship Modules": "Модули грузового судна",
     "Cargo Depot Modules": "Модули грузового терминала",
@@ -91,5 +91,5 @@
     "Set Capacity": "Установить вместимость",
     "No shipyard found": "Верфь не найдена",
     "Shipyard capacity set to {0}": "Вместимость верфи установлена на {0} ед.",
-    "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Мод «Cheat++» загружен и управляет вместимостью верфи — измените её на вкладке «Верфь» мода «Cheat++»."
+    "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Мод «Чит++» загружен и управляет вместимостью верфи — измените её на вкладке «Верфь» мода «Чит++»."
 }

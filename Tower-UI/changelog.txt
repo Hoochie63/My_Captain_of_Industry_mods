@@ -1,3 +1,8 @@
+v1.0.3 | 2026-09-18
+
+* Rebuilt against the Captain of Industry 0.8.7d assemblies and verified for 0.8.7d.
+* Replaced the tower UI thumbnail artwork.
+
 v1.0.2 | 2026-09-10
 
 * Rebuilt against the Captain of Industry 0.8.7c assemblies and verified for 0.8.7c.

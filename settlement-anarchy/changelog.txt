@@ -1,3 +1,8 @@
+v1.0.4 | 2026-09-16
+
+[COMPATIBILITY]
+* Verified compatibility with Captain of Industry 0.8.7d.
+
 v1.0.3 | 2026-09-10
 
 * Verified compatibility with Captain of Industry 0.8.7c.

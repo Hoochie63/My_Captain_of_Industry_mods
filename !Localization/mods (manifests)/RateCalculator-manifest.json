@@ -1,4 +1,5 @@
 {
-    "display_name": "Rate Calculator",
-    "description_short": "Calculate maximum production and consumption rates for the selected machines."
+    "display_name": "Калькулятор производства",
+    "description_short": "Рассчитывайте максимальные скорости производства и потребления для выбранных фабрик.",
+    "description_long": "Рассчитывайте максимальные скорости производства и потребления для выбранных фабрик."
 }

@@ -51,5 +51,8 @@
     "Apply all to this tab": "套用全部至此分頁",
     "Vanilla": "原版",
     "Mod": "模組",
-    "{0} (in the Controls tab)": "{0}（在「控制」分頁中）"
+    "{0} (in the Controls tab)": "{0}（在「控制」分頁中）",
+    "Open the Mod keybinds tab": "開啟模組按鍵設定分頁",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "在遊戲中直接開啟設定視窗並切換到模組按鍵設定分頁，如同 Esc 選單一樣暫停遊戲。再按一次即可關閉並返回遊戲。",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "提示：遊戲中按 {0} 可直接開啟此分頁。再按一次即可返回遊戲。"
 }

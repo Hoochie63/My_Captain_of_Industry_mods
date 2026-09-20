@@ -1,17 +1,21 @@
 {
-  "id": "ModularRamp",
-  "version": "3.0.0",
-  "display_name": "Modular Ramp",
-  "description_short": "Adds ramps modular ramps",
-  "description_long": "Adds modular ramps",
-  "authors": [ "hreintke" ],
-  "primary_dlls": [ "ModularRamp.dll" ],
-  "min_game_version": "0.8.4",
-  "max_verified_game_version": "0.8.5",
-  "mod_dependencies": [],
-  "optional_mod_dependencies": [],
-  "incompatible_mods": [],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true
+    "id": "ModularRamp",
+    "version": "3.0.0",
+    "display_name": "Модульные пандусы",
+    "description_short": "Добавляет модульные пандусы",
+    "description_long": "Добавляет модульные пандусы.<br>Пандусы представляют собой отдельные объекты высотой 1, 2, 3, 4, 6. Высота 3 — над рельсами, высота 4 — над электрифицированными рельсами.<br>Переезды и центральные части — это единые объекты, высота изменяется с помощью E/Q.<br>Может быть удалён из игры.<br>Существует консольная команда: MrRemoveModularRamps.<br>Она удалит все объекты ModularRamp из сохранения игры.<br>Сохраните игру, откройте её с удалённым модом и сохраните игру.",
+    "authors": [
+        "hreintke"
+    ],
+    "primary_dlls": [
+        "ModularRamp.dll"
+    ],
+    "min_game_version": "0.8.4",
+    "max_verified_game_version": "0.8.5",
+    "mod_dependencies": [],
+    "optional_mod_dependencies": [],
+    "incompatible_mods": [],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true
 }

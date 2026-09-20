@@ -1,3 +1,19 @@
+v1.3.0 | 2026-09-11
+────────────────────────────────────────────────────────────────────────
+* PIMP MY RIDE AND THE FUEL COLORS NOW COVER THE CARGO HELICOPTERS FROM PIQUE'S CARGO HELICOPTER MOD.
+
+  - Diesel helicopters follow the diesel color and hydrogen helicopters follow the hydrogen color, including any custom paint you set.
+
+  - The Vehicle model list in Pimp My Ride has a Cargo Helicopter entry so you can preview your colors on it. It only shows up when that mod is installed.
+
+────────────────────────────────────────────────────────────────────────
+* THE DEFAULT HYDROGEN FUEL COLOR IS NOW A LIGHT BLUE-WHITE THAT LOOKS BETTER ON TRUCKS AND HELICOPTERS.
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.9 | 2026-09-04
 ────────────────────────────────────────────────────────────────────────
 * YOU CAN NOW CHOOSE WHERE EACH ADDED DEPOSIT AND THE LITHIUM MOUND GOES, OR JUST PRESS CONTINUE AND HAVE THE SPOT PICKED FOR YOU AS BEFORE. (thanks Admiral Fox for testing)

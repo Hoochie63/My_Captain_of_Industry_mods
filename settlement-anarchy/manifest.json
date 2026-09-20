@@ -1,21 +1,21 @@
 {
-  "id": "settlement-anarchy",
-  "version": "1.0.3",
-  "display_name": "Settlement Anarchy",
-  "description_short": "Housing placement overhaul. Housing & Town Services share one economy and can be built anywheres. No cheaty number changes.",
-  "description_long": "All player Housing shares one global vanilla Settlement economy, allowing physically separate cities to function together anywhere on the island. Population, housing capacity, food, water, wastewater, electricity, household goods, appliances, electronics, luxury goods, computing, healthcare, waste, recyclables, biowaste, health, and Unity are evaluated across the combined Settlement. Town Services and Settlement Decorations can be placed away from Housing while retaining their normal requirements and effects. Grid snapping can be enabled or disabled while placing Housing, Town Services, or Settlement Decorations. Building buffers, pipes, trucks, and logistics remain physical, local, and vanilla.",
-  "authors": [
-    "Underlörd"
-  ],
-  "min_game_version": "0.8.6",
-  "max_verified_game_version": "0.8.7c",
-  "primary_dlls": [
-    "0Harmony.dll",
-    "SettlementAnarchy.dll"
-  ],
-  "mod_dependencies": [],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "primary_mod_class_name": "COISkylinesMod"
+    "id": "settlement-anarchy",
+    "version": "1.0.4",
+    "display_name": "Анархия поселений",
+    "description_short": "Переработка размещения жилья. Жильё и городские службы используют одну экономику и могут строиться где угодно. Без читерских изменений чисел.",
+    "description_long": "Всё жильё игрока использует одну глобальную стандартную экономику поселения, позволяя физически разделённым городам работать вместе в любой точке острова. Население, вместимость жилья, продовольствие, вода, сточные воды, электричество, товары для дома, бытовая техника, электроника, предметы роскоши, вычисления, здравоохранение, отходы, вторсырьё, биоотходы, здоровье и «Единство» оцениваются по объединённому поселению. Городские службы и украшения поселения можно размещать вдали от жилья, сохраняя их обычные требования и эффекты. Привязку к сетке можно включать или отключать при размещении жилья, городских служб или украшений поселения. Буферы зданий, трубы, техника и логистика остаются физическими, локальными и стандартными.",
+    "authors": [
+        "X-Mag-X"
+    ],
+    "min_game_version": "0.8.6",
+    "max_verified_game_version": "0.8.7d",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "SettlementAnarchy.dll"
+    ],
+    "mod_dependencies": [],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "COISkylinesMod"
 }

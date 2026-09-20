@@ -1,74 +1,172 @@
 {
-  "excavator_visible_rows": {
-    "default": 4,
-    "is_integer": true,
-    "description": "Visible rows in Mining Tower excavator sections.",
-    "min": 1,
-    "max": 8
-  },
-  "vehicle_visible_rows": {
-    "default": 4,
-    "is_integer": true,
-    "description": "Visible rows in Mining Tower truck and vehicle sections.",
-    "min": 1,
-    "max": 8
-  },
-  "dump_material_visible_rows": {
-    "default": 2,
-    "is_integer": true,
-    "description": "Visible rows in Mining Tower dump-material sections.",
-    "min": 1,
-    "max": 8
-  },
-  "route_visible_rows": {
-    "default": 2,
-    "is_integer": true,
-    "description": "Visible rows in Mining Tower import and export route sections.",
-    "min": 1,
-    "max": 8
-  },
-  "default_atd_mining_section_open": {
-    "default": false,
-    "description": "Whether the ATD mining-designations section starts open on newly placed Mining Towers."
-  },
-  "default_atd_ore_section_open": {
-    "default": false,
-    "description": "Whether the ATD ore-composition section starts open on newly placed Mining Towers."
-  },
-  "default_atd_farming_section_open": {
-    "default": false,
-    "description": "Whether the ATD farmland-preparation section starts open on newly placed Mining Towers."
-  },
-  "default_excavator_section_open": {
-    "default": true,
-    "description": "Whether the excavator section starts open on newly placed Mining Towers."
-  },
-  "default_vehicle_section_open": {
-    "default": true,
-    "description": "Whether the truck section starts open on newly placed Mining Towers."
-  },
-  "default_material_section_open": {
-    "default": false,
-    "description": "Whether the material/disposal section starts open on newly placed Mining Towers."
-  },
-  "default_route_section_open": {
-    "default": false,
-    "description": "Whether the import/export section starts open on newly placed Mining Towers."
-  },
-  "auto_hide_unowned_excavators": {
-    "default": false,
-    "description": "Automatically hide excavator variants that are not currently owned in the world."
-  },
-  "auto_hide_unowned_trucks": {
-    "default": false,
-    "description": "Automatically hide truck and compatible vehicle variants that are not currently owned in the world."
-  },
-  "hidden_vehicle_proto_ids_json": {
-    "default": "{\"schemaVersion\":1,\"hiddenProtoIds\":[]}",
-    "description": "Internal persisted manual fuel-type and individual-vehicle filter selections."
-  },
-  "tower_panel_state_json": {
-    "default": "{\"schemaVersion\":1,\"towers\":[]}",
-    "description": "Internal per-tower collapsed-state data for the four Tower UI sections."
-  }
+    "excavator_visible_rows": {
+        "default": 4,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции экскаваторов диспетчерской вышки.",
+        "min": 1,
+        "max": 8
+    },
+    "vehicle_visible_rows": {
+        "default": 4,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции грузовиков и техники диспетчерской вышки.",
+        "min": 1,
+        "max": 8
+    },
+    "tree_planter_visible_rows": {
+        "default": 4,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции лесопосадочных машин лесохозяйственной вышки.",
+        "min": 1,
+        "max": 8
+    },
+    "tree_harvester_visible_rows": {
+        "default": 4,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции лесозаготовительных машин лесохозяйственной вышки.",
+        "min": 1,
+        "max": 8
+    },
+    "dump_material_visible_rows": {
+        "default": 2,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции материалов и отвалов диспетчерской вышки.",
+        "min": 1,
+        "max": 8
+    },
+    "route_visible_rows": {
+        "default": 2,
+        "is_integer": true,
+        "description": "Количество видимых строк в секции доставки и отправки диспетчерской вышки.",
+        "min": 1,
+        "max": 8
+    },
+    "default_atd_mining_section_open": {
+        "default": false,
+        "description": "Будет ли секция разметки карьерных работ «ATD» развёрнута на новых диспетчерских вышках."
+    },
+    "default_atd_ore_section_open": {
+        "default": false,
+        "description": "Будет ли секция состава руды «ATD» развёрнута на новых диспетчерских вышках."
+    },
+    "default_atd_farming_section_open": {
+        "default": false,
+        "description": "Будет ли секция подготовки полей «ATD» развёрнута на новых диспетчерских вышках."
+    },
+    "default_excavator_section_open": {
+        "default": true,
+        "description": "Будет ли секция экскаваторов развёрнута на новых диспетчерских вышках."
+    },
+    "default_vehicle_section_open": {
+        "default": true,
+        "description": "Будет ли секция грузовой техники развёрнута на новых диспетчерских вышках."
+    },
+    "default_material_section_open": {
+        "default": false,
+        "description": "Будет ли секция материалов и отвалов развёрнута на новых диспетчерских вышках."
+    },
+    "default_route_section_open": {
+        "default": false,
+        "description": "Будет ли секция отправки и доставки развёрнута на новых диспетчерских вышках."
+    },
+    "default_tree_planter_section_open": {
+        "default": true,
+        "description": "Будет ли секция лесопосадочных машин развёрнута на новых лесохозяйственных вышках."
+    },
+    "default_tree_harvester_section_open": {
+        "default": true,
+        "description": "Будет ли секция лесозаготовительных машин развёрнута на новых лесохозяйственных вышках."
+    },
+    "default_forestry_route_section_open": {
+        "default": false,
+        "description": "Будет ли секция отправки и доставки развёрнута на новых лесохозяйственных вышках."
+    },
+    "default_afd_truck_pool_section_open": {
+        "default": false,
+        "description": "Будет ли секция объединения грузовой техники «AFD» развёрнута на новых лесохозяйственных вышках."
+    },
+    "default_afd_designations_section_open": {
+        "default": false,
+        "description": "Будет ли секция разметки лесозаготовки «AFD» развёрнута на новых лесохозяйственных вышках."
+    },
+    "default_afd_information_section_open": {
+        "default": false,
+        "description": "Будет ли секция информации о лесозаготовке «AFD» развёрнута на новых лесохозяйственных вышках."
+    },
+    "expand_excavator_section": {
+        "default": true,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию экскаваторов диспетчерской вышки."
+    },
+    "expand_vehicle_section": {
+        "default": true,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию грузовой техники диспетчерской вышки."
+    },
+    "expand_material_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию материалов и отвалов диспетчерской вышки."
+    },
+    "expand_route_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию маршрутов диспетчерской вышки."
+    },
+    "expand_tree_planter_section": {
+        "default": true,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию лесопосадочных машин лесохозяйственной вышки."
+    },
+    "expand_tree_harvester_section": {
+        "default": true,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию лесозаготовительных машин лесохозяйственной вышки."
+    },
+    "expand_forestry_route_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию маршрутов лесохозяйственной вышки."
+    },
+    "expand_afd_truck_pool_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию объединения грузовой техники «AFD»."
+    },
+    "expand_atd_mining_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию разметки добычи «ATD»."
+    },
+    "expand_atd_ore_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию состава руды «ATD»."
+    },
+    "expand_atd_farming_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию подготовки полей «ATD»."
+    },
+    "expand_afd_designations_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию разметки лесозаготовки «AFD»."
+    },
+    "expand_afd_information_section": {
+        "default": false,
+        "description": "Будет ли кнопка развёртывания в заголовке открывать секцию информации о лесозаготовке «AFD»."
+    },
+    "auto_hide_unowned_excavators": {
+        "default": false,
+        "description": "Автоматически скрывать варианты экскаваторов, которых сейчас нет в мире."
+    },
+    "auto_hide_unowned_trucks": {
+        "default": false,
+        "description": "Автоматически скрывать варианты грузовой техники и совместимой техники, которых сейчас нет в мире."
+    },
+    "auto_hide_unowned_tree_planters": {
+        "default": false,
+        "description": "Автоматически скрывать варианты лесопосадочных машин, которых сейчас нет в мире."
+    },
+    "auto_hide_unowned_tree_harvesters": {
+        "default": false,
+        "description": "Автоматически скрывать варианты лесозаготовительных машин, которых сейчас нет в мире."
+    },
+    "hidden_vehicle_proto_ids_json": {
+        "default": "{\"schemaVersion\":1,\"hiddenProtoIds\":[]}",
+        "description": "Внутреннее хранилище выбранных вручную фильтров по типу топлива и отдельной технике."
+    },
+    "tower_panel_state_json": {
+        "default": "{\"schemaVersion\":2,\"towers\":[]}",
+        "description": "Внутреннее состояние свёрнутых секций для каждой вышки (диспетчерской и лесохозяйственной)."
+    }
 }

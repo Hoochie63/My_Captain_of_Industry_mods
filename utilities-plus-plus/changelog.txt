@@ -1,3 +1,9 @@
+v1.2.7 | 2026-09-11
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.6 | 2026-09-05
 ────────────────────────────────────────────────────────────────────────
 * THE OVERLORD WINDOW OPENS SMALLER ON 1080P SCREENS SO IT NO LONGER FILLS THE WHOLE SCREEN (THANKS MAG FOR MENTIONING IT).
@@ -5,6 +11,15 @@ v1.2.6 | 2026-09-05
   - The first launch after this update on a 1080p screen resets the window to the new size and sets the scale to 95%, then your own resizing and scale choice are kept as before.
 
   - Double-click the resize grip in the bottom-right corner to get back to the default size at any time.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED MOD SHORTCUTS BREAKING AFTER A CTRL+ALT COMBO — RELEASING ALT BEFORE CTRL LEFT ALT STUCK ON UNTIL YOU ALT-TABBED (THANKS MAG FOR THE REPORT AND TESTING).
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW SCALE SETTING NOW GOES UP TO 160% INSTEAD OF 120%.
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
 
 ────────────────────────────────────────────────────────────────────────
 

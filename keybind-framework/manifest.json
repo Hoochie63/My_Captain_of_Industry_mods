@@ -1,13 +1,18 @@
 {
     "id": "keybind-framework",
-    "version": "2.0.4",
-    "display_name": "Keybind Framework",
-    "description": "Keybind Framework gives modded hotkeys a single home. It adds a Mod keybinds tab to the game's Settings window, right after Controls, and shows one sub-tab for each mod that registers with it. Mod authors reference the framework and register their hotkeys, so players can see every mod's keybinds in one consistent place instead of hunting through separate windows, and more.",
-    "description_short": "Adds a Mod keybinds tab to the Settings window that lists hotkeys from every mod built on this framework, each in its own sub-tab, and more",
-    "authors": ["Mori"],
+    "version": "2.0.5",
+    "display_name": "Инструмент для горячих клавиш",
+    "description": "«Инструмент для горячих клавиш» даёт горячим клавишам из модов единый дом. Он добавляет вкладку «Назначения клавиш модов» в интерфейс настроек игры, сразу после «Управления», и показывает по одной подвкладке для каждого мода, который в нём регистрируется. Авторы модов ссылаются на инструмент и регистрируют свои горячие клавиши, чтобы игроки видели все назначения в одном месте, а не искали их по разным окнам, и многое другое.",
+    "description_short": "Добавляет вкладку «Назначения клавиш модов» в интерфейс настроек, которая перечисляет горячие клавиши каждого мода на этом инструменте, каждую в своей подвкладке, и многое другое.",
+    "authors": [
+        "Mori"
+    ],
     "min_game_version": "0.8.4",
-    "max_verified_game_version": "0.8.7a",
-    "primary_dlls": ["0Harmony.dll", "KeybindFramework.dll"],
+    "max_verified_game_version": "0.8.7c",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "KeybindFramework.dll"
+    ],
     "non_locking_dll_load": true,
     "can_add_to_saved_game": true,
     "can_remove_from_saved_game": true,

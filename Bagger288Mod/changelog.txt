@@ -1,3 +1,7 @@
+0.7.7
+- More reliable mining and travel; buffers keep unloading during power loss.
+- Maintenance and save/load polish.
+
 0.7.6
 - Move the Bagger 288 research node.
 

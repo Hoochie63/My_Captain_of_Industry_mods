@@ -1,16 +1,16 @@
 {
-  "id": "PierWallMod",
-  "version": "1.0.2",
-  "display_name": "Pier Wall Mod",
-  "description_short": "Adds pier walls that can be placed on land and in the ocean.",
-  "description_long": "Adds a new retaining-wall style called Pier Wall. It reuses vanilla retaining-wall visuals, keeps similar costs, and can be placed on land and in the ocean for cleaner island edges.",
-  "authors": "CAP",
-  "primary_dlls": [
-    "PierWallMod.dll"
-  ],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": false,
-  "min_game_version": "0.8.7a",
-  "max_verified_game_version": "0.8.7a"
+    "id": "PierWallMod",
+    "version": "1.0.2",
+    "display_name": "Береговые стены",
+    "description_short": "Добавляет береговые стены, которые можно размещать на суше и в океане.",
+    "description_long": "Добавляет новый стиль подпорной стены под названием «Береговая стена». Он использует стандартную визуализацию подпорных стен, сохраняет схожую стоимость и может размещаться на суше и в океане для более чистых краёв острова.",
+    "authors": "CAP",
+    "primary_dlls": [
+        "PierWallMod.dll"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": false,
+    "min_game_version": "0.8.7a",
+    "max_verified_game_version": "0.8.7a"
 }

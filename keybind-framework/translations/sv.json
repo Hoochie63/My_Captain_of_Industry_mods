@@ -51,5 +51,8 @@
     "Apply all to this tab": "Verkställ allt i den här fliken",
     "Vanilla": "Grundspel",
     "Mod": "Modd",
-    "{0} (in the Controls tab)": "{0} (i fliken Kontroller)"
+    "{0} (in the Controls tab)": "{0} (i fliken Kontroller)",
+    "Open the Mod keybinds tab": "Öppna fliken för mod-snabbtangenter",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "Öppnar inställningsfönstret direkt från spelet på fliken för mod-snabbtangenter, pausat som Esc-menyn. Tryck igen för att stänga det och gå tillbaka till spelet.",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "Tips: tryck {0} medan du spelar för att öppna den här fliken direkt. Tryck igen för att gå tillbaka till spelet."
 }

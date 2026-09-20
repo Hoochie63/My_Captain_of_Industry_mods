@@ -51,5 +51,8 @@
     "Apply all to this tab": "Применить всё на этой вкладке",
     "Vanilla": "Игра",
     "Mod": "Мод",
-    "{0} (in the Controls tab)": "{0} (на вкладке «Управление»)"
+    "{0} (in the Controls tab)": "{0} (на вкладке «Управление»)",
+    "Open the Mod keybinds tab": "Открыть вкладку горячих клавиш модов",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "Открывает окно настроек прямо из игры на вкладке горячих клавиш модов, с паузой как в меню Esc. Нажмите ещё раз, чтобы закрыть его и вернуться в игру.",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "Подсказка: нажмите {0} во время игры, чтобы сразу открыть эту вкладку. Нажмите ещё раз, чтобы вернуться в игру."
 }

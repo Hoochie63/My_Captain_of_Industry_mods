@@ -1,5 +1,5 @@
 {
-    "display_name": "Smart Flare Mod",
-    "description_short": "Automatische Steuerung der Gasfackeln basierend auf dem Füllstand nahegelegener Speicher.",
-    "description_long": "Diese Mod steuert Gasfackeln automatisch basierend auf dem Füllstand von Gas-Speichern in einem Radius von 6 Tiles. Die Fackel startet automatisch bei ≥90% Füllstand und pausiert bei ≤30% Füllstand. So wird Gas nur dann verbrannt, wenn die Speicher voll sind, und gespart, wenn sie leer laufen."
+    "display_name": "Умная факельная установка",
+    "description_short": "Автоматическое управление факельной установкой на основе уровня заполнения близлежащих резервуаров.",
+    "description_long": "Этот мод автоматически управляет факельной установкой на основе уровня заполнения резервуаров в радиусе 6 клеток. Факельная установка автоматически запускается при заполнении ≥90% и приостанавливается при ≤30%. Так газ или жидкость сжигается только когда хранилища полны, и экономится, когда они опустошаются."
 }

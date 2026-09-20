@@ -51,5 +51,8 @@
   "Apply all to this tab": "全部应用到此标签页",
   "Vanilla": "原版",
   "Mod": "模组",
-  "{0} (in the Controls tab)": "{0}（在“控制”标签页中）"
+  "{0} (in the Controls tab)": "{0}（在“控制”标签页中）",
+  "Open the Mod keybinds tab": "打开模组按键设置标签页",
+  "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "在游戏中直接打开设置窗口并切换到模组按键设置标签页，像 Esc 菜单一样暂停游戏。再按一次即可关闭并返回游戏。",
+  "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "提示：游戏中按 {0} 可直接打开此标签页。再按一次即可返回游戏。"
 }

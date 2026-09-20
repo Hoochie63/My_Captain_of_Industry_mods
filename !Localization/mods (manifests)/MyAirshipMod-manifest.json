@@ -1,5 +1,6 @@
 {
-    "display_name": "My Airship Mod 我的飞艇mod",
-    "description": "Custom airship mod",
-    "description_short": "本mod包含一个飞艇和飞艇停靠台This mod includes an airship and an airship docking platform"
+    "display_name": "Мой дирижабль",
+    "description": "Пользовательской мод дирижаблей.",
+    "description_short": "Пользовательской мод дирижаблей.",
+    "description_long": "Этот мод включает дирижабль и платформу для стыковки дирижаблей"
 }

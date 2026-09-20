@@ -51,5 +51,8 @@
     "Apply all to this tab": "Tout appliquer à cet onglet",
     "Vanilla": "Jeu de base",
     "Mod": "Mod",
-    "{0} (in the Controls tab)": "{0} (dans l'onglet Contrôles)"
+    "{0} (in the Controls tab)": "{0} (dans l'onglet Contrôles)",
+    "Open the Mod keybinds tab": "Ouvrir l'onglet des raccourcis de mods",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "Ouvre la fenêtre des paramètres directement sur l'onglet des raccourcis de mods depuis le jeu, en pause comme le menu Échap. Appuyez de nouveau pour la fermer et revenir au jeu.",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "Astuce : appuyez sur {0} en jeu pour ouvrir cet onglet directement. Appuyez de nouveau pour revenir au jeu."
 }

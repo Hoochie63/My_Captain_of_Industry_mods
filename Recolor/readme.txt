@@ -1,4 +1,4 @@
-RECOLOR v1.0.6 — MESH TEMPLATE PERFORMANCE
+RECOLOR v1.0.7 — MESH TEMPLATE COMPATIBILITY
 
 Recolor gives placed buildings independent colors without changing their shared vanilla source textures.
 
@@ -14,8 +14,8 @@ CUSTOM WORLD TOOLS
 
 - Select Without Inspector defaults on and is remembered. While Recolor is open, it selects supported buildings without opening their normal inspector panels. Closing Recolor suspends this behavior; reopening it restores the remembered choice.
 - Global Paint left-clicks a supported building with the active palette color. Right-click picks that building's Global Color into the palette. Applying a Global Color replaces that target's Mesh Overrides.
-- Mesh Eyedropper starts in source-pick mode. Left-click a source building to capture its Global Color and complete Mesh Override set; the cursor then becomes a brush. Left-click an exact compatible target to apply the complete result.
-- Mesh Eyedropper accepts only the same building prototype with the same complete live mesh schema. Incompatible targets are refused instead of being partially recolored.
+- Mesh Eyedropper starts in source-pick mode. Left-click a source building to capture its Global Color and complete Mesh Override set; the cursor then becomes a brush. Left-click the same building prototype to apply the complete result.
+- Exact mesh schemas remain the fast path. Saved templates can recover complete, uniform overridden groups after harmless sibling-order or untouched-group drift, but missing, partial, conflicting, or ambiguous mappings are refused instead of being partially recolored.
 - Right-click while the Mesh Eyedropper is armed returns to source-pick mode. Right-click again while it is waiting for a source exits the tool. Escape exits either paint tool immediately without clearing the remembered Select Without Inspector choice.
 - Global Paint and Mesh Eyedropper use Captain of Industry's native cursors, supported-building highlights, and structured hover panels. Their primary and secondary action legends come from the game's remap-aware KeyBindUi labels.
 - The Settings tab can opt into Global Color transfer through the game's native Apply Settings eyedropper. It is off by default and does not copy Mesh Overrides.

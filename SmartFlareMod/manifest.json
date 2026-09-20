@@ -1,14 +1,17 @@
 {
-  "id": "SmartFlareMod",
-  "version": "1.0.4",
-  "display_name": "Smart Flare Mod",
-  "description_short": "Lagerfüllstands-Steuerung für Gasfackeln, Schornsteine und Verbrennungsanlagen.",
-  "description_long": "Gemeinsames Bedienfeld für Füllstandsschwellen und passende Lager. Enthält einen separaten Gas- und Dampfpuffer mit 200 Einheiten Kapazität. Für Spielstände mit diesem Puffer muss der Mod installiert bleiben.",
-  "authors": "KleineEule",
-  "primary_dlls": [ "0Harmony.dll", "SmartFlareMod.dll" ],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "min_game_version": "0.6.0",
-  "max_verified_game_version": "0.8.7a"
+    "id": "SmartFlareMod",
+    "version": "1.0.4",
+    "display_name": "Умная факельная установка",
+    "description_short": "Автоматическое управление факельной установкой на основе уровня заполнения близлежащих резервуаров.",
+    "description_long": "Этот мод автоматически управляет факельной установкой на основе уровня заполнения резервуаров в радиусе 6 клеток. Факельная установка автоматически запускается при заполнении ≥90% и приостанавливается при ≤30%. Так газ или жидкость сжигается только когда хранилища полны, и экономится, когда они опустошаются.",
+    "authors": "KleineEule",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "SmartFlareMod.dll"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "min_game_version": "0.6.0",
+    "max_verified_game_version": "0.8.7a"
 }

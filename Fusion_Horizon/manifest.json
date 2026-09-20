@@ -1,20 +1,22 @@
 {
-  "id": "Fusion_Horizon",
-  "display_name": "Fusion Horizon",
-  "version": "0.2.2",
-  "description_short": "Fusion Horizon is a mod that allows you to unlock nuclear fusion and related future technologies",
-  "description_long": "",
-  "authors": "Ulisse Wolf",
-  "mod_dependencies": [
-    "worldgen-plus-plus",
-    "recipes-plus-plus"
-  ],
-  "optional_mod_dependencies": [],
-  "incompatible_mods": [],
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "non_locking_dll_load": true,
-  "min_game_version": "0.8.6",
-  "primary_dlls": [ "Fusion_Horizon.dll" ],
-  "primary_mod_class_name": "FusionHorizonMod"
+    "id": "Fusion_Horizon",
+    "display_name": "Ядерный горизонт",
+    "version": "0.2.2",
+    "description_short": "«Ядерный горизонт» — это мод, позволяющий открыть ядерный синтез и связанные с ним технологии будущего.",
+    "description_long": "«Ядерный горизонт» — это модификация, которая вводит новые механики, связанные с ядерной промышленностью, вплоть до термоядерного синтеза и использования плазмы в других промышленных процессах. Модификация основана в основном на существующих технологиях или технологиях, находящихся в стадии разработки, хотя и содержит некоторые научно-фантастические элементы.",
+    "authors": "Ulisse Wolf",
+    "mod_dependencies": [
+        "worldgen-plus-plus",
+        "recipes-plus-plus"
+    ],
+    "optional_mod_dependencies": [],
+    "incompatible_mods": [],
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "non_locking_dll_load": true,
+    "min_game_version": "0.8.6",
+    "primary_dlls": [
+        "Fusion_Horizon.dll"
+    ],
+    "primary_mod_class_name": "FusionHorizonMod"
 }

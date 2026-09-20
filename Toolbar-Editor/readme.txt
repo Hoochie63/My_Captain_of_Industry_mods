@@ -28,30 +28,49 @@ GETTING STARTED
 LAYOUT EDITOR
 -------------
 
-Select [Edit layout] to highlight editable toolbar components, then use:
+Select [Edit layout] to highlight editable toolbar components. The default
+controls are:
 
 - Ctrl + Left-drag: Move a section anywhere within the screen boundaries.
-- Shift + Left-drag: Resize the width of a supported non-section panel (Search,
-  toolbar background, or the Submenu and item panel).
-- Alt + Left-drag: Resize the height of a supported non-section panel (Search,
-  or the toolbar background). The Submenu and item panel supports width
-  resizing only.
+- Shift + Left-drag: Resize the width and height of a supported non-section
+  panel together. The Submenu and item panel remains width-only.
 - Ctrl + Shift + Left-drag: Drag and drop buttons to reorder them or move them
   between sections.
-- Ctrl + Shift + Alt + Left/Right-click: Bring a section forward, or send it
-  backward. Search supports the same manual layer control when Auto-Shift is
-  off; while Auto-Shift is on, its trailing-edge position and layer order are
-  managed with the toolbar background.
+- Ctrl + Shift + Alt + Left/Right-click: Bring a section or the search panel
+  forward, or send it backward.
+
+Open Layout > Controls and enable Reorder to move these action cards between
+the eight fixed No modifier, Ctrl, Shift, Alt, and combined-modifier rows.
+No modifier means plain left-click and remains unassigned by default. Moving
+onto an occupied row swaps the actions. Unused rows hide when Reorder closes
+and reappear the next time it is enabled.
+This fixed-row design prevents two actions from receiving the same control.
+No modifier is an advanced option: while Edit Mode is active it can replace a
+toolbar component's normal primary-click action, and its drag actions require
+Mute Fine-Tune selection clicks to be off. Modifier-bound controls do not have
+those limitations.
 
 Additional Layout Editor features:
 
 - Toggle Edit Mode from the title bar while using any settings tab.
 - Move sections together with the toolbar background, or leave them fixed.
-- Auto-Shift is intended for initial default-style one-row layouts while using
-  button drag-and-drop. Turn it off before manually moving a section, creating
-  vertical rails, or building multiple rows. Existing components then stay
-  fixed and genuinely new sections appear near the lower center.
-- Scale the complete toolbar from 50% to 200%.
+- Auto-Shift is the protected default-style one-row mode. It keeps the Toolbar
+  background, sections, and Search managed together and keeps editable sections
+  horizontal. Section movement remains available for alignment corrections.
+- While Auto-Shift is on, the Resize panel action is blocked for the toolbar
+  background and Search so their managed flow cannot be resized into an invalid
+  layout. Its control card appears muted but remains reorderable. Submenu
+  resizing and all Move component dragging remain available.
+- Turning Auto-Shift off is a confirmed transition that freezes the current
+  Toolbar background, Search, and section geometry for vertical rails, multiple
+  rows, or other free-form layouts. New and restored sections then appear near
+  the lower center.
+- Rebuild Auto-Shift layout remains available whether Auto-Shift is on or off.
+  It restores the managed row, Search edge, and horizontal section orientation
+  while preserving existing sections, names, borders, button assignments,
+  button order, colors, and hidden state.
+- Scale the Toolbar background and all toolbar sections together from 50% to
+  200%.
 - Scale the Ctrl+F search control independently from 50% to 200%.
 - Scale the submenu and item panel independently from 76% to 200%.
 - Add up to twelve user-custom sections. The normal editor budget also includes
@@ -81,17 +100,22 @@ Additional Layout Editor features:
 - Show or hide individual toolbar buttons from a collapsible list.
 - Reset individual components or the standard toolbar sections with the
   available reset controls. Reset All restores every component, including all
-  six yellow sections, without requiring a second section reset.
+  six yellow sections, without requiring a second section reset. Reset all
+  sections preserves custom section names and button assignments; the full
+  layout reset restores default names.
 - Open the Fine Tune Toolbar Components tray from the gold arrow above the
   footer. Its open state is remembered globally between games.
 - Select any active, usable registered component from the Fine Tune component
   dropdown, including one that is currently off-screen or difficult to click
   directly. Suppressed recovery-only sections remain available in Sections.
-- Enable Selection Mode in that tray, then plain left-click a live toolbar
-  component to select it without activating its normal action. Existing
-  Ctrl/Shift/Alt editing controls remain available while Selection Mode is on.
-- A green Selection Mode indicator remains visible while the mode is
-  active; close it with its X or toggle Selection Mode off from the tray.
+- While Edit Mode and the Fine Tune tray are open, plain left-click a live
+  toolbar component to select it. Mute clicks prevents that same click from
+  activating the component's normal action and can be changed from the tray or
+  Layout panel. Modifier-bound Edit Mode controls remain available either way;
+  No modifier drag actions require Mute clicks to be off.
+- A green Selection Mode indicator remains visible while Fine Tune selection is
+  active. Closing the tray or editor disables selection without ending Toolbar
+  Edit Mode.
 - Fine-tune the selected component with reset, identify, one-pixel nudging,
   supported layer controls, exact X/Y screen-position input, and a one-click
   Horizontal/Vertical switch for Toolbar Editor custom sections.
@@ -174,7 +198,16 @@ SETTINGS AND TOOLBAR PROFILES
 LOCALIZATION
 ------------
 
-Toolbar Editor currently presents its editor in English.
+Toolbar Editor supports all 21 Captain of Industry languages: English,
+Catalan, Czech, Dutch, Estonian, French, German, Hungarian, Italian, Japanese,
+Korean, Norwegian Bokmål, Polish, Brazilian Portuguese, Russian, Spanish,
+Swedish, Turkish, Ukrainian, Simplified Chinese, and Traditional Chinese.
+
+Tabs, page content, prompts, status messages, and tooltips can use the active
+catalog. The Fine-Tune Controller deliberately keeps its visible labels,
+dropdown text, and button text fixed in English so translated word length
+cannot disturb its compact layout; its tooltips and confirmation prompts can
+still be translated.
 
 COMPATIBILITY
 -------------

@@ -1,16 +1,18 @@
-﻿{
-	"id": "FaFOptimiser",
-	"version": "0.3.6",
-	"primary_dlls": [
-		"FaFOptimiser.dll"
-	],
-	"primary_mod_class_name": "FaFOptimiserMod",
-	"non_locking_dll_load": true,
-	"min_game_version": "0.8.6",
-	"max_verified_game_version": "0.8.7b",
-	"display_name": "Advanced Farm & Food Optimiser",
-	"description_short": "Optimise crops, farms, and livestock for food and industry. Build smart crop rotations automatically, detect crop shortages, and plan ahead—all without spreadsheets or manual maths",
-	"authors": [ "Iserik" ],
-	"can_add_to_saved_game": true,
-	"can_remove_from_saved_game": true
-} 
+{
+    "id": "FaFOptimiser",
+    "version": "0.4.0",
+    "primary_dlls": [
+        "FaFOptimiser.dll"
+    ],
+    "primary_mod_class_name": "FaFOptimiserMod",
+    "non_locking_dll_load": true,
+    "min_game_version": "0.8.6",
+    "max_verified_game_version": "0.8.7c",
+    "display_name": "Продвинутый оптимизатор ферм и продовольствия",
+    "description_short": "Оптимизируйте культуры, фермы и скот для продовольствия и промышленности. Автоматически создавайте умные севообороты, обнаруживайте нехватку культур и планируйте заранее — без таблиц и ручных расчётов.",
+    "authors": [
+        "Iserik"
+    ],
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true
+}

@@ -1,5 +1,13 @@
+v0.4.0 | 2026-09-18
+Mod Data Now Saved
+
+*NEW: Savegame Data – Your mod settings now save with the .coisave: Target Fertility, Priority Crops, Farm selections, manual demands, ignored crops, and flock sizes.
+*IMPROVED: Reset Settlement – Resets only settlement demands to the game state. Your manual imports, exports, and ignored crops stay untouched.
+*IMPROVED: Manual Demands – Clear a demand field to reset it to zero and remove the override.
+*FIXED: Missing Hardware – Farm Optimiser no longer fails when your map lacks the hardware needed for advanced crops. It now gives the best layout possible and shows which crops need more farms.
+
 v0.3.6 | 2026-09-11
-* FIXED: Paused or broken farms are now correctly excluded from the live water and fertilizer consumption calculations, while still remaining available for the solver to use..
+* FIXED: Paused or broken farms are now correctly excluded from the live water and fertilizer consumption calculations, while still remaining available for the solver to use.
 * Ensured game v0.8.7b compatibility.
 
 v0.3.5 | 2026-08-25

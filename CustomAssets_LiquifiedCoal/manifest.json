@@ -1,24 +1,24 @@
 {
-  "id": "CustomAssets_LiquifiedCoal",
-  "display_name": "Coal Liquefaction [CAL]",
-  "version": "0.0.3",
-  "description_short": "Adds liquified coal as a new resource.",
-  "description_long": "This mod introduces liquified coal as a new resource in the game. It can be used as a fuel source or for crafting various items. The mod includes new recipes, icons, and integration with existing game mechanics.",
-  "authors": [
-    "DeznekCZ"
-  ],
-  "mod_dependencies": [
-    "CustomAssets>=0.4.2"
-  ],
-  "optional_mod_dependencies": [
-    "AirFiltering"
-  ],
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "non_locking_dll_load": true,
-  "min_game_version": "0.8.4",
-  "primary_dlls": [
-    "CustomAssetPack.dll"
-  ],
-  "primary_mod_class_name": "CustomAssetPack"
+    "id": "CustomAssets_LiquifiedCoal",
+    "display_name": "Сжижение угля",
+    "version": "0.0.3",
+    "description_short": "Добавляет сжиженный уголь как новый ресурс.",
+    "description_long": "Этот мод добавляет в игру новый ресурс — сжиженный уголь. Он может использоваться как топливо или как компонент для создания различных предметов. Мод включает новые рецепты, иконки и интеграцию с существующей игровой механикой.",
+    "authors": [
+        "DeznekCZ"
+    ],
+    "mod_dependencies": [
+        "CustomAssets>=0.4.2"
+    ],
+    "optional_mod_dependencies": [
+        "AirFiltering"
+    ],
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "non_locking_dll_load": true,
+    "min_game_version": "0.8.4",
+    "primary_dlls": [
+        "CustomAssetPack.dll"
+    ],
+    "primary_mod_class_name": "CustomAssetPack"
 }

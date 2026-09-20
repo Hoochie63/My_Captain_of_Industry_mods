@@ -1,16 +1,21 @@
+v1.0.5 | 2026-09-18
+
+* Updated compatibility verification for Captain of Industry 0.8.7d.
+* Fixed Expand Right profiles restoring the calendar's Y position but retaining its previous X position.
+* Fixed Speed / Mod Mode treating the pause button as a mod button after COI Build 0.8.7c's changed to pause button
+- Pause now stays with the speed controls and uses the correct Primary/Secondary visibility.
+* Updated the Calendar Buttons thumbnail included with the mod.
+
 v1.0.4 | 2026-09-11
 
-* Restored Tweaks++ horizontal nudge movement when Calendar Buttons is set to Expand Right.
-* Prevented horizontal nudging during an On Hover view change from shifting the calendar by the difference between the Primary and Secondary widths.
-* Preserved scale-aware calendar anchoring and stable Tweaks++ position saving for both expansion directions.
+* Fixes compatibility bug preventing Tweaks++ horizontal nudge movement when Calendar Buttons was set to Expand Right.
+* Prevented the calendar HUD from shifting it's X coordinate if you used Tweak++'s left/right nudge buttons before the hover-delay-time restored the primary view.
 
 v1.0.3 | 2026-09-10
 
 * Verified compatibility with Captain of Industry 0.8.7c.
-* Changed the mod's displayed name to Calendar Buttons for clarity; no user-change needed.
-* Fixed calendar HUD shifting between Primary and Secondary views when using Tweaks++ scales other than 100% default size.
-
-Known bug: cant use the nudge left/right on calendar hud when using expand-right in calendar buttons. Fixing this next.
+* Changed the mod's display name to Calendar Buttons for clarity; no user-change needed.
+* Fixed calendar HUD shifting between Primary and Secondary views when using a Tweaks++ scale other than 100% default size.
 
 v1.0.2 | 2026-08-29
 
@@ -18,7 +23,7 @@ v1.0.2 | 2026-08-29
 
 v1.0.1 | 2026-08-27
 
-- Restored discovery and control of Speed++ 1.1.1's current-speed display.
+- Fixed discovery bug with Speed++ v1.1.1's game speed display.
 
 v1.0.0 | 2026-08-23
 
@@ -33,17 +38,17 @@ v1.0.0 | 2026-08-23
 - The active layout and all visibility choices remain global across worlds and complete game restarts.
 
 [ON CLICK MODE]
-- Left-click the Buttons calendar icon control to switch between Primary and Secondary; right-click it to open settings.
+- Left-click the calendar icon control to switch between Primary and Secondary; right-click it to open settings.
 - The last active view is remembered between game sessions.
 
 [ON HOVER MODE]
-- Keep Primary visible at rest and reveal Secondary by hovering over the calendar HUD.
+- Keep Primary visible at rest and reveal Secondary by hovering over the calendar HUD with your mouse.
 - Adjust the hover delay so the expanded controls remain available long enough to move between buttons comfortably.
-- Hide the Buttons control from Primary when another Primary button remains visible, while Secondary always preserves settings access.
+- Hide the calendar icon control from Primary when another Primary button remains visible, while Secondary always preserves settings access.
 
 [SPEED / MOD MODE]
 - Use a persistent preset that keeps pause and game-speed controls together while separating mod-menu buttons into the alternate view.
-- The preset adapts to On Click, On Hover, and left or right expansion while preserving sensible speed-control ordering.
+- The preset adapts to your settings; On Click, On Hover, and left or right expansion, while preserving speed-control left to right ordering.
 - Any manual visibility or ordering change returns the layout to full user control.
 
 [COLORS AND ORDERING]
@@ -58,7 +63,7 @@ v1.0.0 | 2026-08-23
 
 [TWEAKS++ INTEGRATION]
 - When Tweaks++ is available, profiles can also restore the saved calendar HUD position using the optional Include position control.
-- Conditional title-bar shortcuts open the Tweaks++ HUD page and lock or unlock Tweaks++ HUD positions directly from Buttons menu.
+- When installed, title-bar shortcuts open the Tweaks++ HUD page and lock or unlock draggabale huds directly from the Calendar Buttons menu.
 
 
 [SETTINGS TRAY AND WINDOW]

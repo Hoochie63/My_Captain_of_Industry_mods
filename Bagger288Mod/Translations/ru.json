@@ -80,6 +80,10 @@
         "Недостаточно электричества"
     ],
     [
+        "Bagger288Mod__StatusMaintenanceSlowdown",
+        "Нет обслуживания — замедлено"
+    ],
+    [
         "Bagger288Mod__StatusWaitingBuffers",
         "Буферы полны"
     ],

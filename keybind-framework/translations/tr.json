@@ -51,5 +51,8 @@
     "Apply all to this tab": "Bu sekmedeki tümünü uygula",
     "Vanilla": "Orijinal",
     "Mod": "Mod",
-    "{0} (in the Controls tab)": "{0} (Kontroller sekmesinde)"
+    "{0} (in the Controls tab)": "{0} (Kontroller sekmesinde)",
+    "Open the Mod keybinds tab": "Mod kısayolları sekmesini aç",
+    "Opens the Settings window on the Mod keybinds tab straight from the game, paused like the Esc menu. Press it again to close it and go back to the game.": "Ayarlar penceresini doğrudan oyundan mod kısayolları sekmesinde açar, Esc menüsü gibi duraklatılır. Kapatıp oyuna dönmek için tekrar basın.",
+    "Tip: press {0} while playing to open this tab directly. Press it again to go back to the game.": "İpucu: bu sekmeyi doğrudan açmak için oyun sırasında {0} tuşuna basın. Oyuna dönmek için tekrar basın."
 }

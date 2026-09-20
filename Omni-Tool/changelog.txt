@@ -1,3 +1,66 @@
+v0.9.1 | 2026-09-18
+
+BUILDING SETTINGS FILTER & FAVORITES
+====================================
+- Added a optional building eyedropper filter to Building Settings Brush.
+- Added up to 7 Building Settings brush favorite bundles containing the filter target and all checked brush settings. Left-click loads a bundle; right-click removes it.
+- Forest and Building bundle tooltips remain available even when disable tooltips setting is enabled.
+- Clicking some of the checkboxes in settings no longer kicks you to top of the page.
+- Completed a full 21-language catalog audit and other various micro-HUD UI polish.
+
+v0.9.0 | 2026-09-16
+
+FAVORITES & TRUE FOREST BRUSH
+==============================
+- Rebuilt and verified against Captain of Industry 0.8.7d.
+- Add up to twenty Ground Types to favorites shared across Raise, Lower, Flatten, and Paint Material, saved per profile.
+- Reworked Tree Painter into a unified tool with Single Tree and Mixed Forest modes. Single Tree uses exact-line-spacing workflow.
+- Mixed Forest can use any combination of trees with Organic density strength-based spacing; from sparse woodland to dense forest.
+- Add up to 7 forest bundles as favorites, containing the selected tree mix and density setting, with colored buttons and detailed tooltips. Right-click to remove a saved forest bundle.
+- Added complete UI text across all 21 language catalogs.
+
+v0.8.2 | 2026-09-14
+
+- Add up to twenty-eight product favorites to Storage Magic Wand.
+- Added Pause / Unpause setting to the Building Settings Brush tool.
+- Added Eyedropping to select a filter target when dragging Scrap or Replace tools:
+* Enable the filter, press the pick button, then click a vehicle in the world so only that vehicle type is chosen in large selections. Filter choices are remembered per Omni-Belt profile.
+- Replace Vehicles now rejects vehicles whose exact prototype matches the chosen replacement, both during selection and again at the depot-queue boundary.
+- Cancel Scrapping and Cancel Replacing remain intentionally unfiltered so one broad swipe can always clear matching Omni-Tool and native orders.
+- Added complete UI text across all 21 language catalogs.
+
+v0.8.1 | 2026-09-12
+
+HOTFIX: VEHICLE DEPOT QUEUE SYNC
+================================
+- Fixed Omni-Tool spamming logs while performing the queued scrap / replace commands.
+- Added Caching for live-depot discovery while a scrap / replace queue is active. Paused and destroyed depots are evaluated live, and newly built depots join an active queue after the next cache refresh.
+
+v0.8.0 | 2026-09-11
+
+- Rebuilt and verified against Captain of Industry 0.8.7c
+
+- Added optional framework-only keybinds to activate any individual omni-tool without a profile.
+- Expanded Mine / Dump loose-product favorites from five to fourteen.
+- Added per-profile last-used tool recall option, on by default.
+- Added left/right Omni-Belt anchoring setting.
+- Added four-corner Micro-HUD anchoring setting.
+Anchors are to control content expansion direction to support a setup in any corner of the screen. A left omni-belt anchor causes tool buttons to flow rightward, for example.
+- Positions for the Micro-HUD and Omni-Belt are now shared globally across all profiles and tools, instead of per profile.
+- Added optional settings to hide Micro-HUD explainer text, tooltip text, and to use English UI.
+
+SCRAP & REPLACE REWORK
+======================
+- Uses a custom queue system that sends vehicles marked for scrap/replace to multiple nearby vehicle depots at once using a lane system. Has the best results when your vehicle depots are spread out. This prevents the "All-to-one-depot" bottleneck that could occur by scrapping/replacing many vehicles at once with previous version; Tests shown significant speed-up in replacing 100+ vehicles at once.
+- Micro-HUD displays the live queue grouped by vehicle and operation, including waiting, active, canceling, and available-depot counts with options to remove undesired vehicles from the queue.
+(Will improve selection filtering & details further in next version)
+
+SAFETY GUARD ADJUSTMENTS
+========================
+- Improved click-through guard for all new tools. Dragging Micro-HUD scrollbars should never start a tool box selection behind them.
+- Adjusted click-through guard so cycle tool keybind isn't blocked when your mouse is over the micro-HUD.
+- Fixed Micro-HUD dropdown pop-ups sometimes not closing when switching tools.
+
 v0.7.1 | 2026-09-09
 
 [PROFILE PERSISTENCE HOTFIX]
@@ -5,8 +68,6 @@ v0.7.1 | 2026-09-09
 - Fixed Omni-Belt profiles, profile names, cycle participation, active-profile customization, and Mine / Dump favorites reverting to factory defaults after fully restarting the game.
 - Moved the complete profile catalog to durable global storage so profile changes persist without requiring the current world to be saved.
 - Added atomic profile writes, a rolling backup recovery copy, and immediate saving when Mine / Dump favorites are added or removed.
-
-=========================
 
 v0.7.0 | 2026-09-07
 
@@ -38,8 +99,6 @@ v0.7.0 | 2026-09-07
 - Restricted tool-card and profile reordering to visible drag handles, which update immediately with Reorder mode. 
 - Converted all 21 language catalogs to explicit English-key-to-translated-value entries and added the complete 0.7 interface vocabulary.
 
-=========================
-
 v0.6.1 | 2026-09-04
 
 [SAFER UI INPUT + OPTIONAL BELT BUTTONS]
@@ -49,8 +108,6 @@ v0.6.1 | 2026-09-04
 - Added Settings toggles for the profile switcher and settings cog buttons on the omni-belt.
 - Added a tooltip to the Omni-Tool Tools Shortcut button that shows keybind label icons for left click / right click / and cycle-tool keybind when set.
 - Updated all 21 language catalogs and release documentation for the new options and tooltip guidance.
-
-=========================
 
 v0.6.0 | 2026-09-03
 
@@ -64,8 +121,6 @@ v0.6.0 | 2026-09-03
 - Made Keybind Framework optional and reliably detected: shortcuts appear only there when loaded, or only in native Controls when it is absent.
 - Updated all 21 language catalogs for the new belt, profiles, controls, and safety options.
 
-=========================
-
 v0.5.1 | 2026-09-03
 
 [NEW TOOLS, CUSTOMIZATION, AND FULL LOCALIZATION]
@@ -78,7 +133,6 @@ v0.5.1 | 2026-09-03
 - Improved Multi-selection details for vehicle quick-actions with option to disable them in the settings.
 - Added complete interface localization for all 21 game languages.
 
-=========================
 
 v0.3.0 | 2026-09-03
 
@@ -90,7 +144,6 @@ v0.3.0 | 2026-09-03
 - Fill Terrain uses the game's designation fulfillment command, allowing repeated fill or mining-removal drags until Escape or right-click.
 - Added a tiny Remove Marked Trees panel with the live marked-tree count.
 
-=========================
 
 v0.2.0 | 2026-09-02
 
@@ -109,4 +162,4 @@ v0.2.0 | 2026-09-02
 - Repeated cycle-key presses keep Omni-Tool active and advance through enabled modes; Escape still exits.
 - Required at least one mode to remain enabled so the tool always has a safe recovery state.
 
-=========================
+

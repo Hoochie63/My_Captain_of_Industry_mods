@@ -1,22 +1,22 @@
 {
-  "id": "KeyBound",
-  "version": "1.0.6",
-  "display_name": "Not Enough Keybinds",
-  "description_short": "Keybinds for everything. Vanilla/mod menu buttons, Tool activation, Logistic items placement and other requests. Backup & restore keybinds.",
-  "description_long": "",
-  "authors": [
-    "Underlörd"
-  ],
-  "min_game_version": "0.8.5",
-  "max_verified_game_version": "0.8.7c",
-  "primary_dlls": [
-    "KeyBound.dll"
-  ],
-  "mod_dependencies": [
-    "keybind-framework >= 2.0.2"
-  ],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": true,
-  "primary_mod_class_name": "NotEnoughKeybindsMod"
+    "id": "KeyBound",
+    "version": "1.0.6",
+    "display_name": "Недостаточно назначений клавиш",
+    "description_short": "Назначение клавиш для всего. Кнопки меню в стандартной версии игры/модификации, активация инструментов, размещение предметов логистики и другие запросы. Резервное копирование и восстановление назначений клавиш.",
+    "description_long": "Динамически находит стандартные и добавленные из модов меню и кнопки инструментов и добавляет для них привязки клавиш в рамках системы привязки клавиш.<br>Плюс множество дополнительных привязок клавиш для размещения строений, предметов логистики, быстрых действий за «Единство» и многое другое.",
+    "authors": [
+        "Underlörd"
+    ],
+    "min_game_version": "0.8.5",
+    "max_verified_game_version": "0.8.7c",
+    "primary_dlls": [
+        "KeyBound.dll"
+    ],
+    "mod_dependencies": [
+        "keybind-framework >= 2.0.2"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "NotEnoughKeybindsMod"
 }

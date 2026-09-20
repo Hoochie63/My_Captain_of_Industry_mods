@@ -1,3 +1,26 @@
+v2.0.5 | 2026-09-09
+────────────────────────────────────────────────────────────────────────
+* PRESS RIGHT ALT + K WHILE PLAYING TO OPEN THE MOD KEYBINDS TAB DIRECTLY, WITHOUT GOING THROUGH ESC AND SETTINGS FIRST.
+
+  - The game pauses exactly like the Esc menu does, and pressing the key again closes it and takes you straight back to the game.
+
+  - The shortcut lives in the Mori++ sub-tab so you can rebind it like any other, and a tip line at the top of the tab always shows the current key.
+
+────────────────────────────────────────────────────────────────────────
+* MOD AUTHORS: IF YOU COPIED THE RIGHT ALT HELPER OUT OF THE GUIDE, COPY IT AGAIN — THE OLD ONE COULD LEAVE ALT STUCK ON AND BREAK YOUR MOD'S SHORTCUTS.
+
+  - The corrected code is in the guide that comes with this mod, in the RightAltDown function. Updating the framework on its own does NOT fix a mod that still carries the old copy.
+
+  - The old version ends with "return AltGrDown() && !Input.GetKey(KeyCode.LeftAlt);" — if you see that line in your mod, it needs replacing.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED MOD SHORTCUTS BREAKING AFTER A CTRL+ALT COMBO — RELEASING ALT BEFORE CTRL LEFT ALT STUCK ON UNTIL YOU ALT-TABBED (THANKS MAG FOR THE REPORT AND TESTING).
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
+
+────────────────────────────────────────────────────────────────────────
+
 v2.0.4 | 2026-08-20
 ────────────────────────────────────────────────────────────────────────
 * CONFLICT MESSAGES NOW HAVE AN ARROW THAT TAKES YOU STRAIGHT TO THE KEYBIND THEY CLASH WITH.

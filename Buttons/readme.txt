@@ -1,4 +1,4 @@
-BUTTONS v1.0.0
+CALENDAR BUTTONS v1.0.5
 
 Buttons keeps Captain of Industry's calendar HUD clean by letting you choose
 which native and mod-added controls are visible, where they appear, and when
@@ -58,14 +58,14 @@ before loading Buttons.
 
 COMPATIBILITY
 
-* Captain of Industry 0.8.6c through verified 0.8.7c.
+* Captain of Industry 0.8.6c through 0.8.7d (build/API verification).
 * Safe to add to or remove from an existing save.
 * No required mod dependencies.
 * Speed++ and Tweaks++ integrations are optional.
 
 PACKAGE IDENTITY
 
-* Display name: Buttons
+* Display name: Calendar Buttons
 * Author: Underlörd
 * Mod ID, installation folder, and ZIP root: Buttons
 * Runtime DLL: SexyCalendar.dll

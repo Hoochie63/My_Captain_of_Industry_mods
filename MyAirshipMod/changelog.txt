@@ -1,3 +1,17 @@
+v0.8.23 | 2026-09-114
+* 修改以往的版本号惯例。以往使用游戏版本号，现在独立使用更新版本号规则。
+* 在社区发布23次更新公告，因此087版本取8作为游戏版本定义，取23为递增修改次数。
+* 根据社区玩家 Hoochie 提供的反馈修改车辆给飞艇停靠台加油的优先级。
+* Revised the previous version number convention. Game version numbers were used in the past; an independent update versioning rule is adopted now.
+* 23 update announcements have been released in the community. Therefore, for version 087, 8 is used as the game version identifier and 23 as the incremental revision count.
+* Adjusted the priority for vehicles refueling airship docking stations based on feedback from community player Hoochie.
+
+v0.8.7 | 2026-09-12
+* 重构底层端口输出的分配逻辑。
+* 端口选择器现在可以根据实际情况显示全部的缓冲区矿物品类。
+* Refactor the allocation logic for underlying port outputs.
+* The port selector can now display all buffer mineral types according to actual conditions.
+
 v0.8.6 | 2026-08-30
 * 重新校准了挖掘飞艇高度和修改一些参数.
 * 加入配置,现在用户可以自定义挖掘飞艇的参数和飞艇的配置一样操作

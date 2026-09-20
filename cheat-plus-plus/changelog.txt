@@ -1,3 +1,48 @@
+v1.4.6 | 2026-09-05
+────────────────────────────────────────────────────────────────────────
+* THE CHEATS TAB HAS A GOALS SECTION THAT COMPLETES EVERY GOAL IN ONE CLICK AND PUTS ALL THE REWARDS IN THE SHIPYARD.
+
+  - Goals that have not shown up yet are completed too, so the Goals window stays empty for the rest of the game.
+
+  - A window lists every reward you received with its icon and amount.
+
+  - Hide Goal Button hides the trophy button in the top-right notification bar. It stays highlighted while active and is remembered per save.
+
+────────────────────────────────────────────────────────────────────────
+* CTRL+Q OPENS A SMALL QUICK TOOLS WINDOW WITH THE FILL TOOL PRODUCT PICKER, AN ON/OFF BUTTON AND REMOVE TREES. (Thanks Mag for reporting keybind not working)
+
+  - Opening it turns the fill tool on with the selected product. Closing it, pressing Esc or turning it off clears the tool from your cursor.
+
+  - The selected product and the window position are remembered between sessions.
+
+  - The Toggle Fill Tool button in the Overlord closes the Overlord and opens the Quick Tools window instead.
+
+────────────────────────────────────────────────────────────────────────
+* NEW IGNORE WORLD UNLOCKS TOGGLE — RESEARCH THAT NEEDS AN ITEM FOUND ON THE WORLD MAP (WHEAT, CORN SEEDS ETC.) CAN BE RESEARCHED WITHOUT IT. (Thanks Sworn for the suggestion)
+
+  - Shift+Alt+R turns all three research toggles (item, parent and world unlocks) on or off at once.
+
+  - All three research toggles now start off every time the game launches so you never unlock something by mistake.
+
+  - The old Radar 2/Corn WorldGen temp fix button is removed — the new toggle covers that case.
+
+────────────────────────────────────────────────────────────────────────
+* THE SET POPULATION FIELD NO LONGER ACCEPTS VALUES BELOW 500, SO YOU CAN'T END YOUR GAME BY MISTAKE BY SETTING IT TO 0. (Thanks Mag for the report)
+
+────────────────────────────────────────────────────────────────────────
+* FIXED MOD SHORTCUTS BREAKING AFTER A CTRL+ALT COMBO — RELEASING ALT BEFORE CTRL LEFT ALT STUCK ON UNTIL YOU ALT-TABBED (THANKS MAG FOR THE REPORT AND TESTING).
+
+────────────────────────────────────────────────────────────────────────
+* FIXED THE COPY SETTINGS TOOL NOT SHOWING KEEP FULL / KEEP EMPTY ON THE STORAGES YOU PAINT IT ONTO — PICK ONE STORAGE, THEN CLICK OR DRAG A BOX OVER THE REST.
+
+────────────────────────────────────────────────────────────────────────
+* THE OVERLORD WINDOW SCALE SETTING NOW GOES UP TO 160% INSTEAD OF 120%.
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.5 | 2026-09-05
 ────────────────────────────────────────────────────────────────────────
 * THE OVERLORD WINDOW OPENS SMALLER ON 1080P SCREENS SO IT NO LONGER FILLS THE WHOLE SCREEN (THANKS MAG FOR MENTIONING IT).

@@ -10,7 +10,7 @@ Omni-Tool combines repetitive inspector actions into one native world tool:
 - Unity Recovery
 - Unity Cargo Unload
 - Downgrade Buildings
-- Building Settings Brush
+- Building Settings Brush (pause/unpause, priority, truck policies, and storage alerts)
 - Cancel Deconstruction
 
 When Cheat++ is loaded—or standalone access is enabled through Mod Config—the Settings tab can explicitly reveal seven sandbox and creative modes:
@@ -25,6 +25,10 @@ When Cheat++ is loaded—or standalone access is enabled through Mod Config—th
 
 When Cheat++ itself is loaded, a conditional Cheat++ Keep Full / Empty card can mass-apply Keep Full, Keep Empty, or Normal states.
 
+Terrain Sculpting can save up to twenty material favorites shared by Raise, Lower, Flatten, and Paint Material. Use the gold star to add the current material; left-click a favorite to select it and right-click it to remove it.
+
+Tree Painter offers Single Tree for its original exact-spacing workflow and Mixed Forest for selecting several species at once. Mixed Forest uses randomized density to avoid plantation-like rows and can save up to seven tree-and-density bundles. Left-click a colored bundle to load it and right-click to remove it.
+
 HOW TO USE
 ----------
 
@@ -33,7 +37,8 @@ HOW TO USE
 3. Left-click one compatible entity, or drag a box around many compatible entities.
 4. In Move Vehicle mode, click the destination after selecting the vehicles.
 5. In Assign Logistics Zone mode, choose Default or any current custom zone, then click or box-select trucks. Default clears their custom zone assignment.
-6. In Vehicle Depot Orders mode, choose Mark for scrapping, Cancel scrapping, or Replace vehicle before selecting. Replace offers currently unlocked vehicle prototypes and submits the game's native replacement command; normal compatibility and depot requirements still apply.
+6. In Vehicle Depot Orders mode, choose Mark for scrapping, Cancel scrapping, Replace vehicle, or Cancel replacing before selecting. Mark and Replace each have a separate optional exact vehicle-type filter: enable it, press the pick button, and click a vehicle in the world before making a large selection. Replace never targets a vehicle whose prototype is identical to the chosen replacement; different variants remain valid. Normal compatibility and depot requirements still apply.
+   Building Settings Brush has independent apply checkboxes for Pause / Unpause, general priority, truck import/export policies, and empty/full storage alerts. It can optionally filter by an exact building type picked from the world and save up to seven complete settings bundles. Only checked settings change, and unsupported targets are skipped.
 7. In Mine / Dump Designations mode, choose a loose product in the Micro HUD, then repeatedly drag over dumping or mining designations to complete them.
 8. Remove Marked Trees shows the live number of trees already designated for harvesting and removes them with one explicit button.
 9. Nature Sweeper removes trees, stumps, rocks, bushes, and decorative terrain props inside the dragged area through a small adaptive per-frame time budget. Escape cancels the remaining queue.
@@ -43,7 +48,7 @@ HOW TO USE
 13. Terrain Sculpting raises, lowers, flattens, or paints the dragged terrain using the compact operation, material, height-step, and Box/Round Brush controls. Its selected terrain material applies during every operation, so Raise can build mountains from gravel, ore, or any other listed material.
 14. Terrain Eraser removes selected terrain above a remembered absolute target. Its precision range is -10 to 0; enable Expanded height range for -50 to +50. It does not raise terrain already below the target.
 15. Tree Painter, Terrain Sculpting, and Terrain Eraser share a configurable 1–10 step Undo history (default 3). Pause before terrain editing for reliable undo: simulation settling and buildings already destroyed by collapse are permanent.
-16. Mine / Dump Designations can keep five favorite products as Micro HUD buttons. Left-click a favorite to select it and right-click it to remove it.
+16. Mine / Dump Designations can keep fourteen favorite terrain products, while Storage Magic Wand can keep twenty-eight favorite storage products in four rows of seven. Use the gold star to add the current product; left-click a favorite to select it and right-click it to remove it.
 17. When Cheat++ is loaded, Cheat++ Keep Full / Empty mass-applies Keep Full, Keep Empty, or Normal to selected storages and updates Cheat++'s normal labels.
 18. Hold Ctrl and left-drag a contextual palette header to move it. Its position is remembered.
 19. Right-click or press Escape to cancel or leave the tool.

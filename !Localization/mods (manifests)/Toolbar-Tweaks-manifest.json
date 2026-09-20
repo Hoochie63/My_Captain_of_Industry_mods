@@ -1,5 +1,5 @@
 {
-    "display_name": "Toolbar Tweaks",
-    "description_short": "Customize your toolbar—move, resize, scale and layer up to 20 sections • drag & drop buttons; add bottom borders • Save & Load multiple profiles.",
-    "description_long": "Toolbar Tweaks provides a complete visual editor for the Captain of Industry toolbar. Move and resize sections, reorganize existing buttons, manage layers, scale toolbar components, and save reusable .toolbar profiles without rewriting menu contents, IDs, translations, actions, unlocks, or gameplay behavior."
+    "display_name": "Настройки панели инструментов",
+    "description_short": "Настройте панель инструментов: перемещайте, меняйте размер и масштаб, а также располагайте в несколько рядов до 20 секций • используйте перетаскивание (drag & drop) для кнопок и добавляйте нижние границы • сохраняйте и загружайте несколько профилей.",
+    "description_long": "«Настройки панели инструментов» предоставляет полный визуальный редактор для панели инструментов «Captain of Industry». Перемещайте и изменяйте размер секций, реорганизуйте существующие кнопки, управляйте слоями, масштабируйте компоненты панели и сохраняйте многоразовые профили, не переписывая содержимое меню, идентификаторы, переводы, действия, разблокировки или игровое поведение."
 }

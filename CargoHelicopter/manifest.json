@@ -1,24 +1,24 @@
 {
-  "id": "CargoHelicopter",
-  "version": "0.20.0",
-  "display_name": "Cargo Helicopter",
-  "description_short": "Five diesel and hydrogen cargo-helicopter variants across three capacity tiers. They fly over terrain and buildings and lower cargo by winch.",
-  "authors": "pique",
-  "primary_dlls": [
-    "0Harmony.dll",
-    "CargoHelicopter.dll"
-  ],
-  "primary_mod_class_name": "CargoHelicopterMod",
-  "min_game_version": "0.8.7",
-  "max_verified_game_version": "0.8.7",
-  "links": [
-    "https://github.com/Pique1804/Cargo-Helicopter",
-    "https://coigame.com/Mod/1102/Cargo-Helicopter"
-  ],
-  "optional_mod_dependencies": [
-    "cheat-plus-plus"
-  ],
-  "non_locking_dll_load": true,
-  "can_add_to_saved_game": true,
-  "can_remove_from_saved_game": false
+    "id": "CargoHelicopter",
+    "version": "0.20.0",
+    "display_name": "Грузовой вертолёт",
+    "description_short": "Пять вариантов грузовых вертолётов на дизеле и водороде в трёх классах вместимости. Они летают над рельефом и строениями и опускают груз лебёдкой.",
+    "authors": "pique",
+    "primary_dlls": [
+        "0Harmony.dll",
+        "CargoHelicopter.dll"
+    ],
+    "primary_mod_class_name": "CargoHelicopterMod",
+    "min_game_version": "0.8.7",
+    "max_verified_game_version": "0.8.7",
+    "links": [
+        "https://github.com/Pique1804/Cargo-Helicopter",
+        "https://coigame.com/Mod/1102/Cargo-Helicopter"
+    ],
+    "optional_mod_dependencies": [
+        "cheat-plus-plus"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": false
 }

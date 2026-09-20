@@ -1,0 +1,9 @@
+
+v4.3.1 | 2026-08-08
+* Fixed : LastMonthDumped & LatMonthMine showing zero instead of correct value
+
+V4.4.1 | 2026-09-11
+* Compatibility : Update for COI version 0.8.7c
+* Change : Output belts get the products more divers instead of always the first from the output buffer.
+
+

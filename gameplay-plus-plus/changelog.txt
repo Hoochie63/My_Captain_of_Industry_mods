@@ -1,3 +1,12 @@
+v1.4.0 | 2026-09-09
+────────────────────────────────────────────────────────────────────────
+* FIXED MOD SHORTCUTS BREAKING AFTER A CTRL+ALT COMBO — RELEASING ALT BEFORE CTRL LEFT ALT STUCK ON UNTIL YOU ALT-TABBED (THANKS MAG FOR THE REPORT AND TESTING).
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.9 | 2026-09-04
 ────────────────────────────────────────────────────────────────────────
 * THE HELICOPTER HQ NOW STORES HYDROGEN NEXT TO DIESEL AND REFUELS EACH HELICOPTER FROM THE FUEL IT ACTUALLY RUNS ON.

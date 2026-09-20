@@ -6,5 +6,9 @@
     "atdPendingVehicleAllocations": {
         "default": "{\"schemaVersion\":1,\"queues\":[],\"tickets\":[]}",
         "description": "Внутреннее сохранённое состояние очередей предварительного назначения техники для «ATD». Не редактируйте вручную."
+    },
+    "atdOreSorterExports": {
+        "default": "{\"schemaVersion\":1,\"sorters\":[]}",
+        "description": "Внутреннее сохранённое состояние маршрутов доставки и назначений для сортировщиков руды «ATD»."
     }
 }

@@ -1,4 +1,5 @@
 {
-    "display_name": "Underground Transport",
-    "description_short": "Adds underground transport for fluid, loose and flat."
+    "display_name": "Подземный транспортёр",
+    "description_short": "Добавляет подземный транспортёр для жидкостей, сыпучих материалов и штучных изделий.",
+    "description_long": "Добавляет подземный транспортёр для жидкостей, сыпучих материалов и штучных изделий."
 }

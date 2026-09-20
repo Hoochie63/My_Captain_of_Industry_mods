@@ -476,17 +476,35 @@ namespace MyCoolMod
 
         // Windows has no AltGr key: it is the right Alt. Do not trust KeyCode.AltGr on its own -
         // Unity sets it from the generic Alt, so it is also true for the LEFT Alt. Use RightAlt as
-        // the real signal and keep AltGr only as a fallback when no left Alt is down.
+        // the real signal and keep AltGr only as a fallback.
+        //
+        // The AltGr level can also go STALE: hold Ctrl + left Alt, then release Alt before Ctrl and
+        // LeftAlt reads false while AltGr stays true. A plain "AltGr && !LeftAlt" fallback then
+        // reports a phantom right Alt that never clears, which breaks every exact-matched combo
+        // until the player alt-tabs. So arm the fallback only on a clean AltGr down-edge (one seen
+        // while no left Alt was held) and disarm it whenever a left Alt shows up or AltGr drops.
+        // Default is OFF, so a missed frame can never manufacture a phantom modifier.
+        private static bool s_altGrArmed;
+
         private static bool AltGrDown()
         {
             try { return Input.GetKey(KeyCode.AltGr); }
             catch { return false; }
         }
 
+        private static bool AltGrPressed()
+        {
+            try { return Input.GetKeyDown(KeyCode.AltGr); }
+            catch { return false; }
+        }
+
         private static bool RightAltDown()
         {
             if (Input.GetKey(KeyCode.RightAlt)) return true;
-            return AltGrDown() && !Input.GetKey(KeyCode.LeftAlt);
+            if (!AltGrDown()) { s_altGrArmed = false; return false; }
+            if (Input.GetKey(KeyCode.LeftAlt)) { s_altGrArmed = false; return false; }
+            if (AltGrPressed()) s_altGrArmed = true;
+            return s_altGrArmed;
         }
 
         // On layouts with AltGr, Windows sends a LeftControl along with the right Alt, and a real

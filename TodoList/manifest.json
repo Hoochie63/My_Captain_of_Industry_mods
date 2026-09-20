@@ -1,19 +1,19 @@
 {
-	"id": "TodoList",
-	"version": "1.1.0",
-	"display_name": "To-Do List",
-	"description_short": "An in-game to-do list: write down what is left to build, tick it off when done. Saved with your game.",
-	"description_long": "<b>To-Do List</b>\n\nAdds a to-do list right inside the game, so you never lose track of what you were about to build.\n\n<b>Features</b>\n- Open the panel from the toolbar button, or with <b>F8</b>.\n- Type a task and press Enter to add it.\n- Tick a task off: it moves to a collapsible <i>Done</i> section instead of cluttering your list.\n- Clear the whole <i>Done</i> list in one click when it gets long.\n- Reorder tasks with the up and down arrows. Right-click an arrow to send a task straight to the top or the bottom.\n- Edit a task later: hover it, click the pencil, type the new text and press Enter.\n- Delete a task you no longer need.\n\n<b>Link a task to a building</b>\nSelect a building, click the link icon on a task, and a gold pin appears. Click that pin later and the camera flies there with the building panel open. A link to a demolished building clears itself.\n\n<b>The window behaves like the game's own panels</b>\n- Drag it by its title bar; the position is remembered.\n- Resize its width by dragging the right edge.\n- Pin it so it stays open while you work.\n\n<b>Speaks your language</b>\nEnglish, French, German, Spanish, Italian, Portuguese (BR), Dutch, Polish, Czech, Russian and Ukrainian.\n\n<i>Your list is stored in the save file, so each game keeps its own tasks. The mod can be added to or removed from an existing save at any time.</i>",
-	"authors": [
-		"Lofwyr"
-	],
-	"min_game_version": "0.8.6",
-	"max_verified_game_version": "0.8.7",
-	"primary_dlls": [
-		"TodoList.dll"
-	],
-	"non_locking_dll_load": true,
-	"can_add_to_saved_game": true,
-	"can_remove_from_saved_game": true,
-	"primary_mod_class_name": "TodoListMod"
+    "id": "TodoList",
+    "version": "1.1.0",
+    "display_name": "Список задач",
+    "description_short": "Список задач прямо в игре: записывайте, что осталось построить, отмечайте выполненное. Сохраняется вместе с игрой.",
+    "description_long": "<b>Список задач</b><br><br>Добавляет список задач прямо в игру, чтобы Вы никогда не теряли из виду, что собирались построить.<br><br><b>Возможности</b><br>- Открывайте панель кнопкой на панели инструментов или клавишей <b>F8</b>.<br>- Введите задачу и нажмите Enter, чтобы добавить её.<br>- Отметьте задачу выполненной: она переместится в сворачиваемый раздел <i>Готово</i>, а не будет загромождать список.<br>- Очистите весь список <i>Готово</i> одним кликом, когда он станет длинным.<br>- Меняйте порядок задач стрелками вверх и вниз. ПКМ по стрелке отправляет задачу прямо вверх или вниз.<br>- Редактируйте задачу позже: наведите на неё, нажмите карандаш, введите новый текст и нажмите Enter.<br>- Удалите задачу, которая больше не нужна.<br><br><b>Привяжите задачу к зданию</b><br>Выберите строение, нажмите на иконку привязки у задачи, и появится золотая булавка. Нажмите на эту булавку позже, и камера перелетит туда с открытой панелью строения. Привязка к демонтированному строению очистится сама.<br><br><b>Окно ведёт себя как собственные панели игры</b><br>- Перетаскивайте его за заголовок; позиция запоминается.<br>- Меняйте ширину, перетаскивая правый край.<br>- Закрепите его, чтобы оно оставалось открытым во время работы.<br><br><b>Говорит на Вашем языке</b><br>Английский, французский, немецкий, испанский, итальянский, португальский (BR), нидерландский, польский, чешский, русский и украинский.<br><br><i>Ваш список хранится в файле сохранения, поэтому каждая игра ведёт свои задачи. Мод можно добавлять или удалять в существующем сохранении в любое время.</i>",
+    "authors": [
+        "Lofwyr"
+    ],
+    "min_game_version": "0.8.6",
+    "max_verified_game_version": "0.8.7",
+    "primary_dlls": [
+        "TodoList.dll"
+    ],
+    "non_locking_dll_load": true,
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": true,
+    "primary_mod_class_name": "TodoListMod"
 }

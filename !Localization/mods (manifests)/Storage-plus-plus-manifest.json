@@ -1,5 +1,5 @@
 {
-    "display_name": "Storage++",
-    "description": "Storage++ adds a HUD button to manage the capacity of every storage building on your island. Change all buildings at once or override individual ones, filtered by type: Fluid, Loose, Nuclear or Unit. Search and filter the list, then apply or reset your changes at any time.",
-    "description_short": "A HUD manager to adjust storage capacity across all buildings at once or individually, filtered by type, with search and apply controls, and more"
+    "display_name": "Хранилище++",
+    "description": "Хранилище++ добавляет кнопку интерфейса для управления вместимостью каждого строения-хранилища на Вашем острове. Меняйте все строения сразу или переопределяйте отдельные, с фильтрацией по типу: жидкости, сыпучие, ядерные или штучные. Ищите и фильтруйте список, затем применяйте или сбрасывайте изменения в любое время.",
+    "description_short": "Менеджер интерфейса для настройки вместимости хранилищ всех строений сразу или по отдельности, с фильтрацией по типу, поиском и применением, и многое другое."
 }

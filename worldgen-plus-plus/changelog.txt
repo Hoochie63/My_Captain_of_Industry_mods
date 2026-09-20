@@ -1,3 +1,12 @@
+v1.2.3 | 2026-09-11
+────────────────────────────────────────────────────────────────────────
+* THE RADAR SYSTEM NODE ON NEW MAPS IS NEVER GUARDED BY PIRATES STRONGER THAN 200, SO YOU CAN ALWAYS REACH IT. (THANKS FENRIR FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7C.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.2 | 2026-09-04
 ────────────────────────────────────────────────────────────────────────
 * EVERY NEW GAME GETS A DIFFERENT WORLD MAP AGAIN (THANKS WARRENC FOR THE REPORT).

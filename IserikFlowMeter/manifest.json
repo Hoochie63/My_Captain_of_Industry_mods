@@ -1,13 +1,17 @@
-﻿{
-	"id": "IserikFlowMeter",
-	"version": "0.3.0",
-	"primary_dlls": [ "IserikFlowMeter.dll" ],
-	"non_locking_dll_load": true,
-	"min_game_version": "0.8.6",
-	"max_verified_game_version": "0.8.7a",
-	"display_name": "Advanced Flow Control & Monitor",
-	"description_short": "Regulate, monitor, and analyse your factory's throughput with active flow control, flow alerts, interactive charts, and precise multi-product statistics.",
-	"authors": [ "Iserik" ],
-	"can_add_to_saved_game": true,
-	"can_remove_from_saved_game": false
+{
+    "id": "IserikFlowMeter",
+    "version": "0.3.3",
+    "primary_dlls": [
+        "IserikFlowMeter.dll"
+    ],
+    "non_locking_dll_load": true,
+    "min_game_version": "0.8.7c",
+    "max_verified_game_version": "0.8.7c",
+    "display_name": "Монитор пропускной способности и счётчики",
+    "description_short": "Измеряет точную пропускную способность. Отслеживает средние значения за месяц/год, показывает динамику потока, поддерживает несколько продуктов, ведёт суммарный учёт и имеет сбрасываемую историю.",
+    "authors": [
+        "Iserik"
+    ],
+    "can_add_to_saved_game": true,
+    "can_remove_from_saved_game": false
 }
