@@ -112,7 +112,7 @@
   "On the deck now": "Actuellement au sol",
   "Refuel helicopters": "Ravitailler les hélicoptères",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Les QG des hélicoptères ayant la priorité la plus élevée reçoivent les hélicoptères en premier. Chaque QG des hélicoptères est rempli avant tout Open Heliport - les hélicoptères ne restent sur un Open Heliport que lorsque tous les QG des hélicoptères sont pleins.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Lorsque cette option est activée, les hélicoptères posés sur ce QG font le plein depuis son stockage de Diesel. Remplissez le stockage par les connexions de tuyaux ou laissez les camions livrer.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Lorsque cette option est activée, les hélicoptères posés sur ce QG font le plein depuis son stockage de Diesel et d'Hydrogène, chacun avec le carburant qu'il utilise. Remplissez le stockage par les connexions de tuyaux ou laissez les camions livrer.",
   "Helicopter Types": "Types d'hélicoptères",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Garage d'entretien — Les mécaniciens entretiennent ici les hélicoptères posés sur cette base, ce qui réduit la vitesse à laquelle ils consomment de la maintenance, jusqu'au pourcentage indiqué. Des réglages plus élevés demandent plus d'énergie et de mécaniciens. Les hélicoptères ne sont entretenus que tant qu'ils sont au sol.",
   "Bridge Belt": "Convoyeur de pont",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Transporteurs de fluides lourds",
   "Move the Parking HQ panel": "Déplacer le panneau du QG des camions",
   "Grand Market": "Grand marché",
+  "Household items": "Articles ménagers",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Un grand marché qui occupe tout un côté d'un bloc d'habitations, à la place de quatre bâtiments de colonie classiques.\n\nIl stocke quatre aliments différents à la fois au lieu de deux, si bien qu'un seul bâtiment peut couvrir toute l'alimentation d'une colonie.\n\nCe n'est pas une amélioration du Magasin de nourriture II — il se construit séparément et a besoin d'électricité et d'informatique pour fonctionner.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Débloque le Grand marché, un vaste marché qui occupe tout un côté d'un bloc d'habitations et stocke quatre aliments différents à la fois."
 }

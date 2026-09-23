@@ -1,4 +1,20 @@
-v0.8.23 | 2026-09-114
+v0.8.24 | 2026-09-22
+* 感谢社区网友Hoochie提供的bug线索和改进方向。
+* 问题1：标记若无道路连接，寻路返回失败（ VehiclePathFindingTask.SetResult 走失败分支）→ 目标回调`OnNavigationResult(false)` 把该标记写入"不可达"缓存 → TerrainMiningManager.TryFindClosestReadyToMine 和 MiningJob 的选择逻辑会过滤掉这些标记，飞艇根本接不到任务。
+* 修复：本版本已经可以让挖掘飞艇在空中采集矿物，忽略地形限制和挖掘进出口限制问题。
+* 问题2：读档后停靠的挖掘飞艇高度被强制降到初始高度
+  根因：读档时`OnGameLoaded` 清空了内存状态，`MiningAirshipState.HeightMode` 回落默认值`Mining` （离地 12m），FlightPatch 首次初始化把 BaseY   重置后按挖掘高度降落。普通飞艇不受影响是因为其高度由游戏核心保存的位置/停靠接口决定，且会按停靠台顶部高度重新停靠。
+* 修复（ AirshipHQManager.cs ）：新增停靠状态持久化——保存时把`NavigatingToHQ/HasLandedAtHQ` 的飞艇写入`Saved Settings/<存档名>/mining_airship_parked.txt` ，读档时恢复`NavigatingToHQ/HasLandedAtHQ/HQEntityId` ，FlightPatch 按既有停靠台顶部高度逻辑重新降落，保持读档前高度。飞艇会降低高度，而挖掘飞艇会重新抬升高度进行校准。
+* 飞艇停靠台油料补给界面使用游戏原生油料补给的进度条和拖动条以及红绿补空逻辑以及保留优先级。添加ru语言。
+* Thanks to community member Hoochie for providing bug reports and improvement suggestions.
+* Issue 1: If a marker has no road connection, pathfinding returns a failure (VehiclePathFindingTask.SetResult enters the failure branch) → The target callback `OnNavigationResult(false)` writes the marker into the "unreachable" cache → The selection logic in TerrainMiningManager.TryFindClosestReadyToMine and MiningJob filters out these markers, so airships never receive tasks.
+* Fix: This version allows mining airships to harvest minerals mid-air, bypassing terrain constraints and mining entrance/exit restrictions.
+* Issue 2: Docked mining airships have their altitude forcibly reset to the initial height after loading a save.
+Root cause: `OnGameLoaded` clears memory states during save loading, `MiningAirshipState.HeightMode` falls back to its default value `Mining` (12m above ground). The first initialization of FlightPatch resets BaseY, then the airship descends to the mining height. Regular airships are unaffected because their altitude is determined by positions/docking interfaces saved by the game core, and they re-dock to the top height of docking stations.
+* Fix (AirshipHQManager.cs): Added persistence for docking states — Airships with `NavigatingToHQ/HasLandedAtHQ` status are saved to `Saved Settings/<save name>/mining_airship_parked.txt`. Their `NavigatingToHQ/HasLandedAtHQ/HQEntityId` states are restored on save load. FlightPatch re-lands the airship following the existing logic for docking station top height to retain the altitude from before saving. Normal airships will descend, while mining airships will re-ascend for altitude calibration.
+* The airship docking station fuel refueling UI now uses the game's native fuel refueling progress bar, slider, red/green fill logic, and retains priority settings. Added Russian language localization.
+
+v0.8.23 | 2026-09-14
 * 修改以往的版本号惯例。以往使用游戏版本号，现在独立使用更新版本号规则。
 * 在社区发布23次更新公告，因此087版本取8作为游戏版本定义，取23为递增修改次数。
 * 根据社区玩家 Hoochie 提供的反馈修改车辆给飞艇停靠台加油的优先级。

@@ -112,7 +112,7 @@
   "On the deck now": "På dekk nå",
   "Refuel helicopters": "Fyll drivstoff på helikoptre",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Helikopter-HQ-er med høyere prioritet mottar helikoptre først. Hver Helikopter-HQ fylles opp før noen Åpen helihavn - helikoptre blir bare stående ved en Åpen helihavn når alle Helikopter-HQ-er er fulle.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Når dette er aktivert, blir helikoptre som står på denne HQ-en fylt med drivstoff fra diesellageret. Fyll lageret via rørportene, eller la lastebiler levere.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Når dette er aktivert, blir helikoptre som står på denne HQ-en fylt med drivstoff fra diesel- og hydrogenlagrene, hver med drivstoffet den bruker. Fyll lagrene via rørportene, eller la lastebiler levere.",
   "Helicopter Types": "Helikoptertyper",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Servicegarasje — Mekanikere her vedlikeholder helikoptrene som står på denne basen, og reduserer hvor raskt de bruker opp vedlikehold, opptil prosentandelen som vises. Høyere innstillinger krever mer strøm og flere mekanikere. Helikoptre blir kun vedlikeholdt mens de er på dekk.",
   "Bridge Belt": "Brobelte",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Tunge væsketransportører",
   "Move the Parking HQ panel": "Flytt Lastebil-HQ-panelet",
   "Grand Market": "Stormarked",
+  "Household items": "Husholdningsvarer",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Et stort marked som dekker en hel side av en boligblokk, og tar plassen til fire vanlige bosetningsbygninger.\n\nDet lagrer fire forskjellige matvarer om gangen i stedet for to, så én enkelt bygning kan dekke hele kostholdet til en bosetning.\n\nDet er ikke en oppgradering av Matmarked II — det bygges separat og trenger strøm og databehandling for å kjøre.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Låser opp Stormarkedet, et stort marked som tar en hel side av en boligblokk og lagrer fire forskjellige matvarer om gangen."
 }

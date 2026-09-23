@@ -1,0 +1,12 @@
+{
+    "afdTowerSettingsStateJson": {
+        "default": "{\"schemaVersion\":3,\"worldSettings\":{\"overrideTerrainDesignations\":false,\"avoidFlatTiles\":false,\"targetYield\":0,\"forestryVehicleOptimizations\":true},\"towerSettings\":[]}",
+        "name": "Состояние настроек вышки AFD (JSON)",
+        "description": "Внутреннее сохранённое состояние настроек вышки для «Auto Forestry Designations». Не редактируйте вручную."
+    },
+    "afdPendingVehicleAllocations": {
+        "default": "{\"schemaVersion\":1,\"queues\":[],\"tickets\":[]}",
+        "name": "Очереди назначения техники AFD (JSON)",
+        "description": "Внутреннее сохранённое состояние очередей предварительного назначения техники для «AFD». Не редактируйте вручную."
+    }
+}

@@ -1,3 +1,13 @@
+v1.0.7 | 2026-09-21
+
+- Verified build compatibility with Captain of Industry 0.8.7d.
+- Added keybinds for Modify Pillars: transports and Modify Pillars: Trains under Toolbar: Menus & Tools.
+- Added translations for both Modify Pillars shortcuts in all 21 supported languages.
+- Fixed repeated optional UI-window lifecycle patch warnings during startup.
+- Unavailable actions now fail quietly instead of filling the game log; actual exceptions remain logged.
+
+=====================================
+
 v1.0.6 | 2026-09-10
 
 - Changed the manifest display name from KeyBound to Not Enough Keybinds.

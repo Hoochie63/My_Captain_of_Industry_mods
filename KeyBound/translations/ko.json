@@ -374,6 +374,8 @@
   "Set No-stop Sections": "정차 금지 구간 설정",
   "Set Exclusive Zones": "전용 구역 설정",
   "Modify Pillars - Trains": "기둥 수정 - 열차",
+  "Open Transports and activate its Modify Pillars tool.": "운송 메뉴를 열고 기둥 수정 도구를 활성화합니다.",
+  "Open Trains and activate its Modify Pillars tool.": "열차 메뉴를 열고 기둥 수정 도구를 활성화합니다.",
   "Modify Waypoints": "경유지 수정",
   "Electrify Track": "선로 전철화",
   "Cargo depot": "화물 창고",

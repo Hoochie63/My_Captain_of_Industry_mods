@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Durdurulmayacak Bölümler Ayarla",
   "Set Exclusive Zones": "Özel Bölgeler Ayarla",
   "Modify Pillars - Trains": "Sütunları Değiştir - Trenler",
+  "Open Transports and activate its Modify Pillars tool.": "Ulaşım menüsünü açar ve Sütunları Değiştir aracını etkinleştirir.",
+  "Open Trains and activate its Modify Pillars tool.": "Trenler menüsünü açar ve Sütunları Değiştir aracını etkinleştirir.",
   "Modify Waypoints": "Yol Noktalarını Değiştir",
   "Electrify Track": "Rayları Elektrikle Çalıştır",
   "Cargo depot": "Kargo deposu",

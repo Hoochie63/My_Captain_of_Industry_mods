@@ -112,7 +112,7 @@
   "On the deck now": "現在デッキ上",
   "Refuel helicopters": "ヘリコプターに給油",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "優先度の高いヘリコプター本部が先にヘリコプターを受け取ります。すべてのヘリコプター本部が満杯になるまで、Open Heliportにヘリコプターがとどまることはありません。",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "有効にすると、この本部に駐機しているヘリコプターは軽油燃料の貯蔵から給油されます。パイプポートで貯蔵を満たすか、トラックに配送させてください。",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "有効にすると、この本部に駐機しているヘリコプターは軽油燃料と水素の貯蔵から、それぞれが使用する燃料で給油されます。パイプポートで貯蔵を満たすか、トラックに配送させてください。",
   "Helicopter Types": "ヘリコプターの種類",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "整備ガレージ — ここでは整備士がこの本部に駐機しているヘリコプターを整備し、表示された割合まで保守点検の消費速度を抑えます。設定を高くするほど、電力と整備士をより多く消費します。ヘリコプターはデッキにいる間のみ整備されます。",
   "Bridge Belt": "橋ベルト",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "大型液体運搬車",
   "Move the Parking HQ panel": "トラック本部のパネルを移動",
   "Grand Market": "大市場",
+  "Household items": "家庭用品",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "住宅ブロックの一辺をまるごと占める大型の市場で、通常の居住区建物4棟分のスペースを取ります。\n\n2種類ではなく4種類の食品を同時に保管できるため、この建物1つで居住区の食生活すべてをまかなえます。\n\n「食品市場 II」のアップグレードではありません — 別途建設する必要があり、稼働には電気とコンピューティングが必要です。",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "大市場のロックを解除します。住宅ブロックの一辺をまるごと占める大型の市場で、4種類の食品を同時に保管できます。"
 }

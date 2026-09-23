@@ -112,7 +112,7 @@
   "On the deck now": "Praegu platvormil",
   "Refuel helicopters": "Tanki koptereid",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Kõrgema eelistusega Kopteribaasid saavad koptereid esimesena. Iga Kopteribaas täidetakse enne mis tahes Avatud kopteriväljakut — kopterid jäävad Avatud kopteriväljakule ainult siis, kui kõik Kopteribaasid on täis.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Kui see on lubatud, tangitakse selles baasis seisvaid koptereid selle Diislihoidlast. Täida hoidla toruportide kaudu või lase veokitel tarnida.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Kui see on lubatud, tangitakse selles baasis seisvaid koptereid selle Diisli- ja Vesinikuhoidlast, igaüht selle kütusega, millega ta töötab. Täida hoidla toruportide kaudu või lase veokitel tarnida.",
   "Helicopter Types": "Kopteri tüübid",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Hooldusgaraaž — siinsed mehaanikud hooldavad selles baasis seisvaid koptereid, vähendades nende hoolduskulumist kuni näidatud protsendini. Kõrgemad seaded nõuavad rohkem energiat ja mehaanikuid. Koptereid hooldatakse ainult siis, kui need on platvormil.",
   "Bridge Belt": "Silla lint",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Rasked vedelikutsisternid",
   "Move the Parking HQ panel": "Liiguta Veokibaasi paneeli",
   "Grand Market": "Suur turg",
+  "Household items": "Kodutarbed",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Suur turg, mis hõivab elamukvartali terve ühe külje ja võtab enda alla nelja tavalise asumihoone ruumi.\n\nSee hoiab korraga nelja erinevat toitu kahe asemel, nii et üksainus hoone suudab katta kogu asumi toiduvajaduse.\n\nSee ei ole Toidupood II täiendus — see ehitatakse eraldi ning vajab tööks elektrit ja arvutusvõimsust.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Avab Suure turu, avara turuhoone, mis hõivab elamukvartali terve ühe külje ja hoiab korraga nelja erinevat toitu."
 }

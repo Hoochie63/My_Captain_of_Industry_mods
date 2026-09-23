@@ -6,9 +6,6 @@
   "Change toolbar icon with selected mode": "隨所選模式變更工具列圖示",
   "Show selection details (target counts and Unity costs)": "顯示選取詳情（目標數量和 Unity 消耗）",
   "Enabled modes and cycle order": "已啟用模式和循環順序",
-  "Reorder": "重新排序",
-  "Enable only the tools you want. Reorder mode lets you drag whole cards into your preferred keybind cycle.": "僅啟用所需工具。在排序模式下，可拖曳整張卡片來設定偏好的快捷鍵循環順序。",
-  "Done": "完成",
   "Unity Quick Repair": "Unity 快速維修",
   "Move Vehicles": "移動車輛",
   "Assign Logistics Zone": "指派物流區域",
@@ -178,53 +175,53 @@
   "Vehicle Tools": "載具工具",
   "Building Tools": "建築工具",
   "Terraforming": "地形改造",
-  "Recall last-used tool when cycling profiles": "Recall last-used tool when cycling profiles",
-  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.",
-  "Hide Micro-HUD explainer text": "Hide Micro-HUD explainer text",
-  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Collapse instructional text after you know the tools. Controls and live status remain visible.",
-  "Disable hover tooltips": "Disable hover tooltips",
-  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.",
-  "Use English UI": "Use English UI",
-  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Display Omni-Tool's own interface in English without changing the game language or other mods.",
-  "Micro-HUD growth anchor": "Micro-HUD growth anchor",
-  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.",
-  "Top left": "Top left",
-  "Top right": "Top right",
-  "Bottom left": "Bottom left",
-  "Bottom right": "Bottom right",
-  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.",
-  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.",
-  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.",
-  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.",
-  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.",
-  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Drag to flatten terrain to the sampled center height and apply the selected material.",
-  "Drag to repaint the terrain surface without intentionally changing its height.": "Drag to repaint the terrain surface without intentionally changing its height.",
-  "Drag to raise terrain by the selected step and apply the selected material.": "Drag to raise terrain by the selected step and apply the selected material.",
-  "Live depot queue": "Live depot queue",
-  "{0} waiting • {1} active • {2} canceling • {3} depots": "{0} waiting • {1} active • {2} canceling • {3} depots",
-  "Queue empty": "Queue empty",
-  "Cancel scrap queue": "Cancel scrap queue",
-  "Cancel replace queue": "Cancel replace queue",
-  "Cancel all": "Cancel all",
-  "Replace": "Replace",
-  "Scrap": "Scrap",
-  "{0} total • {1} waiting • {2} active": "{0} total • {1} waiting • {2} active",
-  "{0} canceling": "{0} canceling",
-  "ALL": "ALL",
-  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.",
-  "Omni-Belt growth anchor": "Omni-Belt growth anchor",
-  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.",
-  "Left": "Left",
-  "Right": "Right",
-  "General behavior": "General behavior",
-  "Core Omni-Tool behavior that applies in every profile.": "Core Omni-Tool behavior that applies in every profile.",
-  "Interface": "Interface",
-  "Choose how much help text Omni-Tool shows.": "Choose how much help text Omni-Tool shows.",
-  "UI layout": "UI layout",
-  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.",
-  "Sandbox and creative tools": "Sandbox and creative tools",
-  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.",
-  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally."
+  "Recall last-used tool when cycling profiles": "切換設定檔時恢復上次使用的工具",
+  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "每個設定檔都會記住並立即恢復上次使用的工具。若該工具已停用，則使用第一個已啟用的工具。",
+  "Hide Micro-HUD explainer text": "隱藏微型 HUD 說明文字",
+  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "熟悉工具後隱藏說明；控制項與即時狀態仍會顯示。",
+  "Disable hover tooltips": "停用懸停提示",
+  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "只隱藏 Omni-Tool 的懸停提示，不影響遊戲或其他模組。",
+  "Use English UI": "使用英文介面",
+  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "僅以英文顯示 Omni-Tool，不變更遊戲或其他模組的語言。",
+  "Micro-HUD growth anchor": "微型 HUD 延伸錨點",
+  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "選擇微型 HUD 伸縮時保持固定的角落。",
+  "Top left": "左上",
+  "Top right": "右上",
+  "Bottom left": "左下",
+  "Bottom right": "右下",
+  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "選擇車輛，將其從 Omni-Tool 的報廢佇列移除，並取消對應的遊戲命令。",
+  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "選擇車輛加入替換佇列。遊戲會檢查車輛可用性與相容車庫。",
+  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "選擇車輛，將其從 Omni-Tool 的替換佇列移除，並取消對應的遊戲命令。",
+  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "選擇車輛加入分散式報廢佇列。可用且未暫停的車庫會平行處理。",
+  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "拖曳以依選定步長降低地形。材料會重新套用；大範圍修改前請儲存。",
+  "Drag to flatten terrain to the sampled center height and apply the selected material.": "拖曳以依中心高度整平地形，並套用所選材料。",
+  "Drag to repaint the terrain surface without intentionally changing its height.": "拖曳以重新塗刷地表，而不刻意改變高度。",
+  "Drag to raise terrain by the selected step and apply the selected material.": "拖曳以依選定步長抬高地形，並套用所選材料。",
+  "Live depot queue": "車庫即時佇列",
+  "{0} waiting • {1} active • {2} canceling • {3} depots": "等待 {0} • 進行中 {1} • 正在取消 {2} • 車庫 {3}",
+  "Queue empty": "佇列為空",
+  "Cancel scrap queue": "清空報廢佇列",
+  "Cancel replace queue": "清空替換佇列",
+  "Cancel all": "全部取消",
+  "Replace": "替換",
+  "Scrap": "報廢",
+  "{0} total • {1} waiting • {2} active": "共 {0} • 等待 {1} • 進行中 {2}",
+  "{0} canceling": "{0} 項正在取消",
+  "ALL": "全部",
+  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "右鍵移除一輛符合的車輛。Shift+右鍵移除整個車輛群組。",
+  "Omni-Belt growth anchor": "Omni-Belt 延伸錨點",
+  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "選擇按鈕數量變化時保持固定的水平邊緣。",
+  "Left": "左",
+  "Right": "右",
+  "General behavior": "一般行為",
+  "Core Omni-Tool behavior that applies in every profile.": "適用於所有設定檔的 Omni-Tool 基本行為。",
+  "Interface": "介面",
+  "Choose how much help text Omni-Tool shows.": "選擇 Omni-Tool 顯示的說明文字量。",
+  "UI layout": "介面配置",
+  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "選擇 Omni-Belt 與微型 HUD 如何從儲存的位置延伸。",
+  "Sandbox and creative tools": "沙盒與創意工具",
+  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "偵測到 Cheat++。這些設定會在全域授權 Omni-Tool 的沙盒功能。",
+  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "模組設定已啟用獨立沙盒權限。這些設定會在全域授權 Omni-Tool 的沙盒功能。"
   ,"Vehicle type filter": "車輛類型篩選"
   ,"Pick a vehicle type from the world.": "從世界中選擇一種車輛類型。"
   ,"Add the selected storage product to Favorites. Up to twenty-eight are kept. Left-click a favorite to select it; right-click to remove it.": "將選取的儲存產品新增至收藏。最多保留二十八個。 點選左鍵進行選擇。右鍵點選可從收藏夾中刪除。"
@@ -245,4 +242,37 @@
   ,"Building filter: {0}": "建築篩選：{0}"
   ,"All compatible buildings": "所有相容建築"
   ,"Cancel": "取消"
+  ,"Keep Omni-Belt open after tool cancellation": "取消工具後保持 Omni-Belt 開啟"
+  ,"On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything.": "開啟：依序取消選取、工具、工具列。工具列待命時，啟用/切換鍵會先重新啟用所選工具；切換設定檔不會啟用工具。關閉：按一次即可全部關閉。"
+  ,"Loaded vehicles": "載貨車輛"
+  ,"Storages (variable Unity cost)": "倉儲建築（Unity 消耗不固定）"
+  ,"Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe.": "可選取載貨車輛和／或非空倉儲建築。倉儲建築內的物品越多，快速移除消耗的 Unity 越多。大範圍框選前請檢查費用。"
+  ,"Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost.": "Unity 卸貨：選擇載貨車輛、非空倉儲建築或兩者。倉儲建築快速移除的 Unity 消耗不固定。"
+  ,"{0} loaded vehicles: {1} Unity": "載貨車輛 {0} 輛：{1} Unity"
+  ,"{0} storages: {1} Unity": "倉儲建築 {0} 座：{1} Unity"
+  ,"Total Unity: {0}": "Unity 總計：{0}"
+  ,"Bedrock": "基岩"
+  ,"Depleted uranium": "貧化鈾"
+  ,"Farm ground": "農田土"
+  ,"Forest dirt": "森林土"
+  ,"Forest floor": "林地表層"
+  ,"Grass": "草地"
+  ,"Hardened rock": "硬化岩石"
+  ,"Landfill": "填土地"
+  ,"(crushed)": "（粉碎）"
+  ,"(disrupted)": "（擾動）"
+  ,"(bare)": "（裸露）"
+  ,"(lush)": "（茂盛）"
+  ,"(no details)": "（無細節）"
+  ,"(purple flowers, lush)": "（紫花、茂盛）"
+  ,"(red flowers)": "（紅花）"
+  ,"(white flowers)": "（白花）"
+  ,"(yellow flowers, lush)": "（黃花、茂盛）"
+  ,"(weathered)": "（風化）"
+  ,"(no grass cover)": "（無草覆蓋）"
+  ,"Vehicle remove cargo": "移除車輛貨物"
+  ,"Storage quick remove": "快速清空倉儲"
+  ,"Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe.": "移除車輛貨物：卸下所選載貨車輛的貨物。\n快速清空倉儲：以隨內容物變化的 Unity 費用清空所選非空倉儲建築。大範圍選取前請檢查費用。"
+  ,"Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "將目前地形操作、地塊步長、材料與筆刷形狀儲存為組合。最多儲存十四個。左鍵載入，右鍵移除。"
+  ,"Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range.": "將此目標高度儲存為最愛（最多21個）。左鍵使用，右鍵移除。選擇 −10 到 0 範圍之外的高度會自動啟用擴充範圍。"
 }

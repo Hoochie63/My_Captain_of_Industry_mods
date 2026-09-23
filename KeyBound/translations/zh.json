@@ -374,6 +374,8 @@
   "Set No-stop Sections": "设置禁停区",
   "Set Exclusive Zones": "设置专属区域",
   "Modify Pillars - Trains": "修改列车柱",
+  "Open Transports and activate its Modify Pillars tool.": "打开运输菜单并启用修改支柱工具。",
+  "Open Trains and activate its Modify Pillars tool.": "打开列车菜单并启用修改支柱工具。",
   "Modify Waypoints": "修改航点",
   "Electrify Track": "电气化轨道",
   "Cargo depot": "货运站",

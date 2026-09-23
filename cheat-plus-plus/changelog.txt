@@ -1,3 +1,9 @@
+v1.4.7 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7D.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.6 | 2026-09-05
 ────────────────────────────────────────────────────────────────────────
 * THE CHEATS TAB HAS A GOALS SECTION THAT COMPLETES EVERY GOAL IN ONE CLICK AND PUTS ALL THE REWARDS IN THE SHIPYARD.

@@ -6,9 +6,6 @@
   "Change toolbar icon with selected mode": "Muuda tööriistariba ikooni valitud režiimi järgi",
   "Show selection details (target counts and Unity costs)": "Näita valiku üksikasju (sihtmärkide arv ja Unity kulu)",
   "Enabled modes and cycle order": "Lubatud režiimid ja tsükli järjekord",
-  "Reorder": "Muuda järjekorda",
-  "Enable only the tools you want. Reorder mode lets you drag whole cards into your preferred keybind cycle.": "Luba ainult soovitud tööriistad. Järjestusrežiimis lohista terved kaardid eelistatud kiirklahvitsüklisse.",
-  "Done": "Valmis",
   "Unity Quick Repair": "Unity kiirparandus",
   "Move Vehicles": "Liiguta sõidukeid",
   "Assign Logistics Zone": "Määra logistikavöönd",
@@ -178,53 +175,53 @@
   "Vehicle Tools": "Sõidukitööriistad",
   "Building Tools": "Ehitiste tööriistad",
   "Terraforming": "Maastikukujundus",
-  "Recall last-used tool when cycling profiles": "Recall last-used tool when cycling profiles",
-  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.",
-  "Hide Micro-HUD explainer text": "Hide Micro-HUD explainer text",
-  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Collapse instructional text after you know the tools. Controls and live status remain visible.",
-  "Disable hover tooltips": "Disable hover tooltips",
-  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.",
-  "Use English UI": "Use English UI",
-  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Display Omni-Tool's own interface in English without changing the game language or other mods.",
-  "Micro-HUD growth anchor": "Micro-HUD growth anchor",
-  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.",
-  "Top left": "Top left",
-  "Top right": "Top right",
-  "Bottom left": "Bottom left",
-  "Bottom right": "Bottom right",
-  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.",
-  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.",
-  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.",
-  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.",
-  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.",
-  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Drag to flatten terrain to the sampled center height and apply the selected material.",
-  "Drag to repaint the terrain surface without intentionally changing its height.": "Drag to repaint the terrain surface without intentionally changing its height.",
-  "Drag to raise terrain by the selected step and apply the selected material.": "Drag to raise terrain by the selected step and apply the selected material.",
-  "Live depot queue": "Live depot queue",
-  "{0} waiting • {1} active • {2} canceling • {3} depots": "{0} waiting • {1} active • {2} canceling • {3} depots",
-  "Queue empty": "Queue empty",
-  "Cancel scrap queue": "Cancel scrap queue",
-  "Cancel replace queue": "Cancel replace queue",
-  "Cancel all": "Cancel all",
-  "Replace": "Replace",
-  "Scrap": "Scrap",
-  "{0} total • {1} waiting • {2} active": "{0} total • {1} waiting • {2} active",
-  "{0} canceling": "{0} canceling",
-  "ALL": "ALL",
-  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.",
-  "Omni-Belt growth anchor": "Omni-Belt growth anchor",
-  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.",
-  "Left": "Left",
-  "Right": "Right",
-  "General behavior": "General behavior",
-  "Core Omni-Tool behavior that applies in every profile.": "Core Omni-Tool behavior that applies in every profile.",
-  "Interface": "Interface",
-  "Choose how much help text Omni-Tool shows.": "Choose how much help text Omni-Tool shows.",
-  "UI layout": "UI layout",
-  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.",
-  "Sandbox and creative tools": "Sandbox and creative tools",
-  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.",
-  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally."
+  "Recall last-used tool when cycling profiles": "Taasta profiili vahetamisel viimane tööriist",
+  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Iga profiil jätab viimase tööriista meelde ja taastab selle kohe. Kui see on keelatud, kasutatakse esimest aktiivset tööriista.",
+  "Hide Micro-HUD explainer text": "Peida väikese juhtpaneeli selgitused",
+  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Peida juhised, kui tööriistad on tuttavad. Juhtelemendid ja reaalajas olek jäävad nähtavaks.",
+  "Disable hover tooltips": "Keela hõljukvihjed",
+  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Peida Omni-Tooli vihjed, mõjutamata mängu või teisi mode.",
+  "Use English UI": "Kasuta ingliskeelset liidest",
+  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Kuva Omni-Tool inglise keeles, muutmata mängu või teiste modide keelt.",
+  "Micro-HUD growth anchor": "Väikese juhtpaneeli ankur",
+  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Vali nurk, mis jääb paneeli suuruse muutudes paigale.",
+  "Top left": "Üleval vasakul",
+  "Top right": "Üleval paremal",
+  "Bottom left": "All vasakul",
+  "Bottom right": "All paremal",
+  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Vali sõidukid, et eemaldada need Omni-Tooli lammutamisjärjekorrast ja tühistada vastavad mängu käsud.",
+  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Vali sõidukid asendusjärjekorda. Mäng kontrollib sõidukite saadavust ja sobivat depood.",
+  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Vali sõidukid, et eemaldada need Omni-Tooli asendusjärjekorrast ja tühistada vastavad mängu käsud.",
+  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Vali sõidukid jaotatud lammutamisjärjekorda. Saadaolevad peatamata depood töötavad paralleelselt.",
+  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Lohista, et langetada maastikku valitud sammu võrra. Materjal kantakse uuesti peale; salvesta enne suuri muudatusi.",
+  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Lohista, et tasandada maastik keskpunkti kõrgusele ja kasutada valitud materjali.",
+  "Drag to repaint the terrain surface without intentionally changing its height.": "Lohista, et värvida maastiku pinda ilma kõrgust tahtlikult muutmata.",
+  "Drag to raise terrain by the selected step and apply the selected material.": "Lohista, et tõsta maastikku valitud sammu võrra ja kasutada valitud materjali.",
+  "Live depot queue": "Depoode aktiivne järjekord",
+  "{0} waiting • {1} active • {2} canceling • {3} depots": "Ootel {0} • aktiivne {1} • tühistamisel {2} • depoosid {3}",
+  "Queue empty": "Järjekord on tühi",
+  "Cancel scrap queue": "Tühjenda lammutamisjärjekord",
+  "Cancel replace queue": "Tühjenda asendusjärjekord",
+  "Cancel all": "Tühista kõik",
+  "Replace": "Asenda",
+  "Scrap": "Lammuta",
+  "{0} total • {1} waiting • {2} active": "Kokku {0} • ootel {1} • aktiivne {2}",
+  "{0} canceling": "{0} tühistamisel",
+  "ALL": "KÕIK",
+  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Paremklõps eemaldab ühe sobiva sõiduki. Shift+paremklõps eemaldab kogu rühma.",
+  "Omni-Belt growth anchor": "Omni-Belti ankur",
+  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Vali horisontaalne serv, mis jääb nuppude arvu muutudes paigale.",
+  "Left": "Vasakul",
+  "Right": "Paremal",
+  "General behavior": "Üldine käitumine",
+  "Core Omni-Tool behavior that applies in every profile.": "Omni-Tooli põhikäitumine kõigis profiilides.",
+  "Interface": "Kasutajaliides",
+  "Choose how much help text Omni-Tool shows.": "Vali Omni-Tooli abiteksti hulk.",
+  "UI layout": "Liidese paigutus",
+  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Vali, kuidas Omni-Belt ja väike juhtpaneel salvestatud asukohtadest kasvavad.",
+  "Sandbox and creative tools": "Liivakasti- ja loovtööriistad",
+  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++ tuvastati. Need sätted lubavad Omni-Tooli liivakastifunktsioonid globaalselt.",
+  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "Eraldi liivakastijuurdepääs on modi seadetes lubatud. Need sätted lubavad Omni-Tooli liivakastifunktsioonid globaalselt."
   ,"Vehicle type filter": "Sõidukitüübi filter"
   ,"Pick a vehicle type from the world.": "Vali maailmast sõidukitüüp."
   ,"Add the selected storage product to Favorites. Up to twenty-eight are kept. Left-click a favorite to select it; right-click to remove it.": "Lisa valitud laotoode lemmikutesse. Säilitatakse kuni kakskümmend kaheksa. Valimiseks vasakklõpsake. Paremklõpsake lemmikute hulgast eemaldamiseks."
@@ -245,4 +242,37 @@
   ,"Building filter: {0}": "Hoonefilter: {0}"
   ,"All compatible buildings": "Kõik ühilduvad hooned"
   ,"Cancel": "Tühista"
+  ,"Keep Omni-Belt open after tool cancellation": "Jäta Omni-Belt pärast tööriista tühistamist avatuks"
+  ,"On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything.": "Sees: tühista valik, siis tööriist, siis riba. Kui riba on jõude, aktiveerib aktiveerimine/vahetamine esmalt valitud tööriista; profiili vahetamine seda ei aktiveeri. Väljas: üks vajutus sulgeb kõik."
+  ,"Loaded vehicles": "Laaditud sõidukid"
+  ,"Storages (variable Unity cost)": "Laod (muutuv Unity kulu)"
+  ,"Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe.": "Vali laaditud sõidukid ja/või mittetühjad laod. Lao kiirtühjendamine kulutab rohkem Unityt, kui sisu on rohkem. Enne suure ala valimist kontrolli kulu."
+  ,"Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost.": "Unityga veose mahalaadimine: vali laaditud sõidukid, mittetühjad laod või mõlemad. Lao kiirtühjendamise Unity kulu on muutuv."
+  ,"{0} loaded vehicles: {1} Unity": "{0} laaditud sõidukit: {1} Unity"
+  ,"{0} storages: {1} Unity": "{0} ladu: {1} Unity"
+  ,"Total Unity: {0}": "Unity kokku: {0}"
+  ,"Bedrock": "Aluskivim"
+  ,"Depleted uranium": "Vaesestatud uraan"
+  ,"Farm ground": "Põllumaa"
+  ,"Forest dirt": "Metsamuld"
+  ,"Forest floor": "Metsaalune"
+  ,"Grass": "Rohi"
+  ,"Hardened rock": "Kõvastunud kivim"
+  ,"Landfill": "Täitematerjal"
+  ,"(crushed)": "(purustatud)"
+  ,"(disrupted)": "(häiritud)"
+  ,"(bare)": "(paljas)"
+  ,"(lush)": "(lopsakas)"
+  ,"(no details)": "(detailideta)"
+  ,"(purple flowers, lush)": "(lillad õied, lopsakas)"
+  ,"(red flowers)": "(punased õied)"
+  ,"(white flowers)": "(valged õied)"
+  ,"(yellow flowers, lush)": "(kollased õied, lopsakas)"
+  ,"(weathered)": "(murenenud)"
+  ,"(no grass cover)": "(rohukatteta)"
+  ,"Vehicle remove cargo": "Eemalda sõiduki koorem"
+  ,"Storage quick remove": "Tühjenda ladu kiiresti"
+  ,"Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe.": "Eemalda sõiduki koorem: tühjenda valitud laaditud sõidukid.\nTühjenda ladu kiiresti: tühjenda valitud mittetühjad laod muutuva Unity kulu eest. Enne suurt valikut kontrolli kulu."
+  ,"Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Salvesta maastiku muutmise toiming, samm, materjal ja pintsli kuju komplektina. Kuni neliteist komplekti. Vasakklõps laadib, paremklõps eemaldab."
+  ,"Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range.": "Salvesta see sihtkõrgus lemmikuna (kuni 21). Vasakklõps kasutab arvu, paremklõps eemaldab selle. Kõrgused väljaspool vahemikku −10 kuni 0 lubavad automaatselt laiendatud vahemiku."
 }

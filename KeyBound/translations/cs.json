@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Nastavit úseky bez zastávek",
   "Set Exclusive Zones": "Nastavit exkluzivní zóny",
   "Modify Pillars - Trains": "Upravit pilíře - Vlaky",
+  "Open Transports and activate its Modify Pillars tool.": "Otevře dopravu a aktivuje nástroj Upravit pilíře.",
+  "Open Trains and activate its Modify Pillars tool.": "Otevře vlaky a aktivuje nástroj Upravit pilíře.",
   "Modify Waypoints": "Upravit trasové body",
   "Electrify Track": "Elektrifikovaná kolej",
   "Cargo depot": "Nákladní depo",

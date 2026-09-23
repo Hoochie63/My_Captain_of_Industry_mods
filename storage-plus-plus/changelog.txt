@@ -1,3 +1,16 @@
+v1.3.3 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE RETIRED WASTE BUFFER IN THE RADIOACTIVE WASTE STORAGE CAN NOW BE RESIZED IN THE CAPACITY TAB, NEXT TO ITS NORMAL CAPACITY (THANKS THOMASTHEBRAVE FOR THE SUGGESTION).
+
+  - A bigger buffer lets more waste finish decaying at once when the output line is backed up.
+
+  - Buildings already placed resize right away, so there is no need to rebuild them.
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7D.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.2 | 2026-09-11
 ────────────────────────────────────────────────────────────────────────
 * TESTED AND WORKING ON GAME VERSION 0.8.7C.

@@ -18,6 +18,8 @@
   "Ground unloading pad where mining airships can unload cargo. Supports U-shaped conveyor belt connections.": "Ground unloading pad where mining airships can unload cargo. Supports U-shaped conveyor belt connections.",
   "Mining Airship": "Mining Airship",
   "Mining airship that mines terrain and transports cargo to the ground helipad.": "Mining airship that mines terrain and transports cargo to the ground helipad.",
+  "Fuel for Airships": "Fuel for Airships",
+  "Move the left green slider to the right to transfer stored fuel to airships. This building will also request trucks to replenish its fuel stock up to the level indicated by the green marker.": "Move the left green slider to the right to transfer stored fuel to airships. This building will also request trucks to replenish its fuel stock up to the level indicated by the green marker.",
   "Auxiliary Slot 2": "Auxiliary Slot 2",
   "Auxiliary Slot 3": "Auxiliary Slot 3",
   "Auxiliary Slot 4": "Auxiliary Slot 4",

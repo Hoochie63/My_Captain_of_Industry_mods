@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Peatumata lõikude määramine",
   "Set Exclusive Zones": "Eksklusiivsete tsoonide määramine",
   "Modify Pillars - Trains": "Sammude muutmine - Rongid",
+  "Open Transports and activate its Modify Pillars tool.": "Avab transpordimenüü ja aktiveerib sammaste muutmise tööriista.",
+  "Open Trains and activate its Modify Pillars tool.": "Avab rongimenüü ja aktiveerib sammaste muutmise tööriista.",
   "Modify Waypoints": "Teekonnapunktide muutmine",
   "Electrify Track": "Raja elektrifitseerimine",
   "Cargo depot": "Kaubadepoo",

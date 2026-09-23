@@ -112,7 +112,7 @@
   "On the deck now": "当前在停机坪",
   "Refuel helicopters": "为直升机加油",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "优先级更高的直升机总部会先接收直升机。所有直升机总部都会在 Open Heliport 之前被填满 - 只有当所有总部都满员时，直升机才会停留在 Open Heliport。",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "启用后，停在该总部的直升机将从其柴油储罐加油。可通过管道接口或卡车运送来填充储罐。",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "启用后，停在该总部的直升机将从其柴油和氢气储罐加油，每架直升机使用自己所用的燃料。可通过管道接口或卡车运送来填充储罐。",
   "Helicopter Types": "直升机类型",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "维护车库 — 此处的机械师会维护停在该基地的直升机，降低它们消耗维护的速度，最高可达所示百分比。设置越高，需要的电力和机械师越多。直升机仅在停机坪上时才会被维护。",
   "Bridge Belt": "桥梁传送带",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "重型流体运输车",
   "Move the Parking HQ panel": "移动卡车总部面板",
   "Grand Market": "大型市场",
+  "Household items": "家居用品",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "一座大型市场，占据住房街区的一整条边，占地相当于四座普通定居点建筑。\n\n它可以同时存储四种不同的食物，而不是两种，因此一座建筑就能满足整个定居点的饮食需求。\n\n它不是食品市场 II 的升级版——它需要单独建造，运行时需要电力和算力。",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "解锁大型市场——一座占据住房街区一整条边、可同时存储四种不同食物的市场。"
 }

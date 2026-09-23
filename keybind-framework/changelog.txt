@@ -1,3 +1,9 @@
+v2.0.6 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7D.
+
+────────────────────────────────────────────────────────────────────────
+
 v2.0.5 | 2026-09-09
 ────────────────────────────────────────────────────────────────────────
 * PRESS RIGHT ALT + K WHILE PLAYING TO OPEN THE MOD KEYBINDS TAB DIRECTLY, WITHOUT GOING THROUGH ESC AND SETTINGS FIRST.

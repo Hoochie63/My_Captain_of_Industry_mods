@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Halteverbotszonen festlegen",
   "Set Exclusive Zones": "Exklusive Zonen festlegen",
   "Modify Pillars - Trains": "Pfeiler bearbeiten – Züge",
+  "Open Transports and activate its Modify Pillars tool.": "Öffnet Transporte und aktiviert das Werkzeug ‚Pfeiler bearbeiten‘.",
+  "Open Trains and activate its Modify Pillars tool.": "Öffnet Züge und aktiviert das Werkzeug ‚Pfeiler bearbeiten‘.",
   "Modify Waypoints": "Wegpunkte bearbeiten",
   "Electrify Track": "Gleise elektrifizieren",
   "Cargo depot": "Güterdepot",

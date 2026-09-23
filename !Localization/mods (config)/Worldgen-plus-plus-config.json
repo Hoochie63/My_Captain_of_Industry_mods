@@ -1,0 +1,10 @@
+{
+    "message": {
+        "default": 0,
+        "is_integer": true,
+        "name": "Сообщение",
+        "description": "Совершенно новый мир «Captain of Industry», ослепительное место, о котором я никогда не знал.",
+        "min": 0,
+        "max": 0
+    }
+}

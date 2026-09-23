@@ -1,39 +1,150 @@
 [
-    [ "FlowMeter__LooseMeterName", "Счётчик материалов" ],
-    [ "FlowMeter__LooseMeterDesc", "Отслеживает пропускную способность, и измеряет точный объём сыпучих материалов." ],
-    ["FlowMeter__BeltMeterName", "Счётчик изделий" ],
-    [ "FlowMeter__BeltMeterDesc", "Отслеживает пропускную способность, и измеряет точное количество штучных изделий." ],
-    [ "FlowMeter__LiquidMeterName", "Счётчик жидкостей" ],
-    [ "FlowMeter__LiquidMeterDesc", "Отслеживает пропускную способность, и измеряет точный расход жидкостей. Труба приподнята на 1 уровень выше земли, чтобы под ней могли проходить конвейерные ленты или желоба." ],
-    [ "FlowMeter__RegulateFlow", "Включить ограничение" ],
-    [ "FlowMeter__TargetFlowRate", "Лимит счётчика:" ],
-    [ "FlowMeter__FlowRegulatorTitle", "Ограничитель пропускной способности" ],
-    [ "FlowMeter__StatisticsTitle", "Общая статистика подсчёта" ],
-    [ "FlowMeter__ResetTooltip", "Сбросить историю показаний" ],
-    [ "FlowMeter__NoProduct", "<align=\"center\">Продукции для подсчёта не обнаружено.</align>" ],
-    [ "FlowMeter__Overall", "Итого" ],
-    [ "FlowMeter__PerSixty", " / 60 сек." ],
-    [ "FlowMeter__StatsTooltip", "<align=\"center\">{0}</align><br>В среднем за месяц / В среднем за год / Всего" ],
-    [ "FlowMeter__ChartXAxisNow", "Сейчас" ],
-    [ "FlowMeter__ChartTimeYears", "Год(лет)" ],
-    [ "FlowMeter__ChartTimeMonths", "Месяц(ев)" ],
-    [ "FlowMeter__ChartTimeCurrent", "Текущий" ],
-    [ "FlowMeter__ChartTimePast", "-{0} {1}" ],
-    [ "FlowMeter__ChartHoverFormat", "{0}  |  {1} / мин." ],
-    [ "FlowMeter__WidgetMonthlyTitle", "{0} СРЕДНЕМЕСЯЧНАЯ ПРОПУСКНАЯ СПОСОБНОСТЬ" ],
-    [ "FlowMeter__WidgetAnnualTitle", "{0} СРЕДНЕГОДОВАЯ ПРОПУСКНАЯ СПОСОБНОСТЬ" ],
-    [ "FlowrateAlert__BtnTitle", "Оповещения счётчиков" ],
-    [ "FlowrateAlert_BelowPrefix", "Минимальный порог" ],
-    [ "FlowrateAlert_BelowTooltip", "<align=\"center\">Создать оповещение, если среднемесячный подсчёт <b>падает</b> ниже выбранного процента от установленного порога.</align>" ],
-    [ "FlowrateAlert_AbovePrefix", "Максимальный порог" ],
-    [ "FlowrateAlert_AboveTooltip", "<align=\"center\">Создать оповещение, если среднемесячный подсчёт <b>превышает</b> выбранный процент от установленного порога.</align>" ],
-    [ "FlowrateAlert__OpenTooltip", "Настроить оповещения подсчёта" ],
-    [ "FlowrateAlert_NoFlow", "Нет" ],
-    [ "FlowrateAlert__BelowFormat", "< {0}" ],
-    [ "FlowrateAlert__AboveFormat", "> {0}" ],
-    [ "FlowMeter__NotificationLowFlowName", "Подсчёт {0} на «{entity}» ниже предела" ],
-    [ "FlowMeter__NotificationLowFlowDesc", "Скорость подсчёта этой продукции упала ниже заданного минимального порога." ],
-    [ "FlowMeter__NotificationHighFlowName", "Подсчёт {0} на «{entity}» выше предела" ],
-    [ "FlowMeter__NotificationHighFlowDesc", "Скорость подсчёта этой продукции превысила заданный максимальный порог." ],
-    [ "FlowMeter__NotificationFallbackProduct", "Продукт" ]
+    [
+        "FlowMeter__LooseMeterName",
+        "Счётчик материалов"
+    ],
+    [
+        "FlowMeter__LooseMeterDesc",
+        "Отслеживает пропускную способность, и измеряет точный объём сыпучих материалов."
+    ],
+    [
+        "FlowMeter__BeltMeterName",
+        "Счётчик изделий"
+    ],
+    [
+        "FlowMeter__BeltMeterDesc",
+        "Отслеживает пропускную способность, и измеряет точное количество штучных изделий."
+    ],
+    [
+        "FlowMeter__LiquidMeterName",
+        "Счётчик жидкостей"
+    ],
+    [
+        "FlowMeter__LiquidMeterDesc",
+        "Отслеживает пропускную способность, и измеряет точный расход жидкостей. Труба приподнята на 1 уровень выше земли, чтобы под ней могли проходить конвейерные ленты или желоба."
+    ],
+    [
+        "FlowMeter__RegulateFlow",
+        "Включить ограничение"
+    ],
+    [
+        "FlowMeter__TargetFlowRate",
+        "Лимит счётчика:"
+    ],
+    [
+        "FlowMeter__FlowRegulatorTitle",
+        "Ограничитель пропускной способности"
+    ],
+    [
+        "FlowMeter__StatisticsTitle",
+        "Общая статистика подсчёта"
+    ],
+    [
+        "FlowMeter__ResetTooltip",
+        "Сбросить историю показаний"
+    ],
+    [
+        "FlowMeter__NoProduct",
+        "<align=\"center\">Продукции для подсчёта не обнаружено.</align>"
+    ],
+    [
+        "FlowMeter__Overall",
+        "Итого"
+    ],
+    [
+        "FlowMeter__PerSixty",
+        " / 60 сек.\t"
+    ],
+    [
+        "FlowMeter__StatsTooltip",
+        "<align=\"center\">{0}</align><br>В среднем за месяц / В среднем за год / Всего"
+    ],
+    [
+        "FlowMeter__ChartXAxisNow",
+        "Сейчас"
+    ],
+    [
+        "FlowMeter__ChartTimeYears",
+        "Год(лет)"
+    ],
+    [
+        "FlowMeter__ChartTimeMonths",
+        "Месяц(ев)"
+    ],
+    [
+        "FlowMeter__ChartTimeCurrent",
+        "Текущий"
+    ],
+    [
+        "FlowMeter__ChartTimePast",
+        "-{0} {1}"
+    ],
+    [
+        "FlowMeter__ChartHoverFormat",
+        "{0}  |  {1} / мин."
+    ],
+    [
+        "FlowMeter__WidgetMonthlyTitle",
+        "{0} СРЕДНЕМЕСЯЧНАЯ ПРОПУСКНАЯ СПОСОБНОСТЬ"
+    ],
+    [
+        "FlowMeter__WidgetAnnualTitle",
+        "{0} СРЕДНЕГОДОВАЯ ПРОПУСКНАЯ СПОСОБНОСТЬ"
+    ],
+    [
+        "FlowrateAlert__BtnTitle",
+        "Оповещения счётчиков"
+    ],
+    [
+        "FlowrateAlert_BelowPrefix",
+        "Минимальный порог"
+    ],
+    [
+        "FlowrateAlert_BelowTooltip",
+        "<align=\"center\">Создать оповещение, если среднемесячный подсчёт <b>падает</b> ниже выбранного процента от установленного порога.</align>"
+    ],
+    [
+        "FlowrateAlert_AbovePrefix",
+        "Максимальный порог"
+    ],
+    [
+        "FlowrateAlert_AboveTooltip",
+        "<align=\"center\">Создать оповещение, если среднемесячный подсчёт <b>превышает</b> выбранный процент от установленного порога.</align>"
+    ],
+    [
+        "FlowrateAlert__OpenTooltip",
+        "Настроить оповещения подсчёта"
+    ],
+    [
+        "FlowrateAlert_NoFlow",
+        "Нет"
+    ],
+    [
+        "FlowrateAlert__BelowFormat",
+        "< {0}"
+    ],
+    [
+        "FlowrateAlert__AboveFormat",
+        "> {0}"
+    ],
+    [
+        "FlowMeter__NotificationLowFlowName",
+        "Подсчёт {0} на «{entity}» ниже предела"
+    ],
+    [
+        "FlowMeter__NotificationLowFlowDesc",
+        "Скорость подсчёта этой продукции упала ниже заданного минимального порога."
+    ],
+    [
+        "FlowMeter__NotificationHighFlowName",
+        "Подсчёт {0} на «{entity}» выше предела"
+    ],
+    [
+        "FlowMeter__NotificationHighFlowDesc",
+        "Скорость подсчёта этой продукции превысила заданный максимальный порог."
+    ],
+    [
+        "FlowMeter__NotificationFallbackProduct",
+        "Продукт"
+    ]
 ]

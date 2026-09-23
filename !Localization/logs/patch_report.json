@@ -1,0 +1,95 @@
+{
+    "дата": "23 Сентября 2026 / 14:13:33",
+    "режим": "real-run",
+
+    "моды без локализации": [
+        "BetterLife_Assemblies",
+        "BetterLife_Transports",
+        "BetterLife_Walls",
+        "CAP-PierWall-LiquidDump",
+        "CAP-PierWall-SeawaterPump",
+        "Carbon.ShowTerrainGrid",
+        "CustomAssets",
+        "ElevationPP",
+        "ExcavatorPP",
+        "ExtraTransports",
+        "FactoryLens",
+        "H4uklotz.VerticalBalancers",
+        "MechanicalShafts",
+        "MiningDumpingMod",
+        "ModularRamp",
+        "Mor_Decor",
+        "MultiPriorityBalancers",
+        "PierWallMod",
+        "PlaceResourceMod",
+        "PriorityManager",
+        "RateCalculator",
+        "ResearchQueue",
+        "settlement-anarchy",
+        "ShipAutoExplore",
+        "SmartMiningDumpMOD",
+        "SmartShipUnload",
+        "UndergroundTransportMod",
+        "VehicleParkingSpots"
+    ],
+
+    "переводы без словаря": [
+        "MultiLangLib"
+    ],
+
+    "манифесты без словаря": [],
+
+    "конфиги без словаря": [],
+
+    "моды": [
+        {
+            "name": "GridBattery",
+            "file": "ru.json",
+
+            "устарело в словаре": [
+                {
+                    "ключ": "GridBattery.Units.MegawattSecond / 0",
+                    "значение": "МВт·с"
+                }
+            ]
+        }
+    ],
+
+    "основная игра": [],
+
+    "манифесты": [],
+
+    "конфиги": [
+        {
+            "name": "storage-plus-plus-config",
+            "file": "config.json",
+
+            "устарело в словаре": [
+                {
+                    "ключ": "placebo / name",
+                    "значение": "Плацебо"
+                },
+                {
+                    "ключ": "placebo / description",
+                    "значение": "Хранится здесь: 0 эффектов. Вместимость: безлимит. В данный момент полон пустоты."
+                }
+            ]
+        },
+
+        {
+            "name": "tweaks-plus-plus-config",
+            "file": "config.json",
+
+            "устарело в словаре": [
+                {
+                    "ключ": "placebo / name",
+                    "значение": "Плацебо"
+                },
+                {
+                    "ключ": "placebo / description",
+                    "значение": "Эта настройка ничего не делает. Но твой остров почему-то теперь работает лучше."
+                }
+            ]
+        }
+    ]
+}

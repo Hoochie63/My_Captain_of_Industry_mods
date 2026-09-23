@@ -112,7 +112,7 @@
   "On the deck now": "Nu op het platform",
   "Refuel helicopters": "Helikopters bijtanken",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Helikopter HQ's met een hogere prioriteit krijgen als eerste helikopters. Elke Helikopter HQ wordt gevuld vóór welke Open Heliport dan ook - helikopters blijven alleen op een Open Heliport zolang alle Helikopter HQ's vol zijn.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Wanneer dit aanstaat, worden helikopters die op deze HQ staan bijgetankt uit de Diesel-opslag. Vul de opslag via de pijppoorten of laat vrachtwagens leveren.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Wanneer dit aanstaat, worden helikopters die op deze HQ staan bijgetankt uit de Diesel- en Waterstofopslag, elk met de brandstof waarop hij rijdt. Vul de opslag via de pijppoorten of laat vrachtwagens leveren.",
   "Helicopter Types": "Helikoptertypes",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Onderhoudsgarage — Monteurs onderhouden hier de helikopters die op deze basis staan, waardoor ze minder snel onderhoud verbruiken, tot het weergegeven percentage. Hogere instellingen kosten meer elektriciteit en meer monteurs. Helikopters worden alleen onderhouden zolang ze op het platform staan.",
   "Bridge Belt": "Brugtransportband",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Zware vloeistoftransporteurs",
   "Move the Parking HQ panel": "Verplaats het Vrachtwagen HQ-paneel",
   "Grand Market": "Grote Markt",
+  "Household items": "Huishoudproducten",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Een grote markt die een volledige zijde van een huisvestingsblok beslaat en de ruimte van vier normale nederzettingsgebouwen inneemt.\n\nHij slaat vier verschillende voedselsoorten tegelijk op in plaats van twee, zodat één gebouw het volledige voedselpakket van een nederzetting kan dekken.\n\nDit is geen upgrade van de Voedselmarkt II — hij wordt apart gebouwd en heeft elektriciteit en rekenkracht nodig om te werken.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Ontgrendelt de Grote Markt, een grote markt die een volledige zijde van een huisvestingsblok inneemt en vier verschillende voedselsoorten tegelijk opslaat."
 }

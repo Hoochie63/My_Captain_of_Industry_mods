@@ -1,3 +1,37 @@
+v0.9.2 | 2026-09-21
+
+- Tool cards and Omni-Belt profile cards now have permanent native drag handles. Cards follow the cursor and show their insertion position while reordering.
+- Save as favorites buttons use a star icon and is reserved for single-items.
+- Save as bundles buttons use their tool's icon and is reserved for saving & recalling all micro-hud settings at once on supported tools.
+
+OMNI-BELT CLOSE BEHAVIOR
+========================
+- Added an optional two-stage Escape/right-click behavior for canceling tools and closing omni-belt in the Settings tab. When active, Cancel a tool's selection first, then leave the Omni-Belt open with no active tool; press again to close the omni-belt. Turning this behavior setting Off preserves the original one-action close-everything behavior.
+- From an idle belt, the activate/cycle key reactivates the selected tool before cycling; direct-tool framework keybinds keep their separate behavior.
+
+UNITY STORAGE QUICK-REMOVE
+==========================
+- Added Storage quick-remove to the existing Unity Cargo-Unload tool with independent checkboxes.
+- Vehicles remain enabled by default; storage Quick Remove is opt-in and uses the game's variable Unity cost. Select either or both target types.
+- Selection details separate vehicle and storage target counts and Unity costs, plus the combined total, before a swipe.
+
+TERRAIN SCULPTING 
+=================
+- Terrain Sculpting can save fourteen complete operation bundles as favorites; a "bundle" recalls a set of tool operations for fast switching on the micro-hud.
+- Bundle tooltip details show saved tool operations and remain visible even when disabled hover tooltips is turned on in the settings. 
+- You can still independently save up to 20 group types as single-item favorites on terrain sculpting micro-HUD.
+- Made Tile step unavailable for Flatten and Paint, which do not use it.
+
+TERRAIN ERASER
+==============
+- Terrain Eraser now supports twenty-one numbered target-height favorites per profile in three compact rows. Recalling a height outside -10 to 0 automatically enables Expanded range.
+
+LANGUAGE
+========
+- Audited all 21 language catalogs for key and value coverage. Replaced lingering English placeholders in Settings, terrain explanations, and depot queue controls, and translated the new favorite tooltips.
+- Long Empty/Full alert labels can wrap in Building Settings Brush Micro-HUD without widening its compact dropdowns.
+- Terrain Sculpting's material list and favorites now use icons and localized names, with translated labels.
+
 v0.9.1 | 2026-09-18
 
 BUILDING SETTINGS FILTER & FAVORITES
@@ -161,5 +195,3 @@ v0.2.0 | 2026-09-02
 - Added an unassigned "Activate / Cycle Omni-Tool" binding under Mod keybinds -> Omni-Tool.
 - Repeated cycle-key presses keep Omni-Tool active and advance through enabled modes; Escape still exits.
 - Required at least one mode to remain enabled so the tool always has a safe recovery state.
-
-

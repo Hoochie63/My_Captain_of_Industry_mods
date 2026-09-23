@@ -1,3 +1,21 @@
+v1.4.1 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE GRAND MARKET NOW ALSO STORES AND SUPPLIES HOUSEHOLD GOODS, APPLIANCES, CONSUMER ELECTRONICS AND LUXURY GOODS (THANKS BELARIEAN OF CANADA FOR THE SUGGESTION).
+
+  - Four new slots under the food ones, each holding 650, delivered by truck just like the food.
+
+  - The settlement takes what it needs from them, so one market can stand in for the four separate household buildings.
+
+────────────────────────────────────────────────────────────────────────
+* COPYING A WAREHOUSE LARGE/SMALL NOW CARRIES OVER ALL ITS PRODUCT SLOTS AND THE PRODUCTS TO PORTS MAP, NOT ONLY THE FIRST SLOT (THANKS WOLF FOR THE REPORT).
+
+  - Works with the copy settings tool, with copying and pasting the building, and with blueprints.
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7D.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.0 | 2026-09-09
 ────────────────────────────────────────────────────────────────────────
 * FIXED MOD SHORTCUTS BREAKING AFTER A CTRL+ALT COMBO — RELEASING ALT BEFORE CTRL LEFT ALT STUCK ON UNTIL YOU ALT-TABBED (THANKS MAG FOR THE REPORT AND TESTING).

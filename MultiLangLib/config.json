@@ -1,18 +1,21 @@
 {
     "debug_language": {
         "default": false,
-        "description": "Показывать ключи переводов, например «multilanglib.ModName.textId», вместо переведённого текста."
+        "description": "Показывать ключи переводов, например «multilanglib.ModName.textId», вместо переведённого текста.",
+        "name": "Режим отладки языка"
     },
     "language_override": {
         "default": "auto",
         "description": "Файл языка для использования. «auto» следует за игрой, «debug» показывает ключи; суффикс «.json» всегда означает буквальное имя файла.",
         "max_length": 32,
-        "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$"
+        "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$",
+        "name": "Принудительный язык"
     },
     "fallback_language": {
         "default": "en",
         "description": "Язык, используемый когда перевод отсутствует в выбранном языке.",
         "max_length": 32,
-        "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$"
+        "regex": "^[A-Za-z0-9][A-Za-z0-9_-]*(\\.json)?$",
+        "name": "Резервный язык"
     }
 }

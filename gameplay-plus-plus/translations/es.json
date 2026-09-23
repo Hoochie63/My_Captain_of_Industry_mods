@@ -112,7 +112,7 @@
   "On the deck now": "Ahora en la plataforma",
   "Refuel helicopters": "Repostar helicópteros",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Los Helicopter HQ con mayor prioridad reciben helicópteros primero. Cada Helicopter HQ se llena antes que cualquier Open Heliport: los helicópteros solo se quedan en un Open Heliport cuando todos los Helicopter HQ están llenos.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Si está activado, los helicópteros posados en este HQ se repostan desde su depósito de diésel. Llena el depósito con las tomas de tubería o deja que los camiones lo entreguen.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Si está activado, los helicópteros posados en este HQ se repostan desde su depósito de diésel e hidrógeno, cada uno con el combustible con el que funciona. Llena el depósito con las tomas de tubería o deja que los camiones lo entreguen.",
   "Helicopter Types": "Tipos de helicóptero",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Garaje con servicio — Los mecánicos revisan aquí los helicópteros posados en esta base, reduciendo su consumo de mantenimiento hasta el porcentaje mostrado. Valores más altos consumen más energía y mecánicos. Los helicópteros solo reciben servicio mientras están en la plataforma.",
   "Bridge Belt": "Cinta de puente",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Acarreadores de Fluidos Pesados",
   "Move the Parking HQ panel": "Mover el panel del Truck HQ",
   "Grand Market": "Gran Mercado",
+  "Household items": "Artículos domésticos",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Un gran mercado que ocupa todo un lado de un bloque de viviendas, tomando el espacio de cuatro edificios normales de asentamiento.\n\nAlmacena cuatro alimentos diferentes a la vez en lugar de dos, así que un solo edificio puede cubrir toda la dieta de un asentamiento.\n\nNo es una mejora del Mercado de alimentos II — se construye por separado y necesita electricidad y computación para funcionar.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Desbloquea el Gran Mercado, un gran mercado que ocupa todo un lado de un bloque de viviendas y almacena cuatro alimentos diferentes a la vez."
 }

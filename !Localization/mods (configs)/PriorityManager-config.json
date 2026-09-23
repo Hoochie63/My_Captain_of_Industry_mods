@@ -1,7 +1,0 @@
-{
-    "groups_state": {
-        "default": "{\"version\":1,\"groups\":[]}",
-        "max_length": 250000,
-        "description": "Внутренние сохранённые данные групп приоритетов."
-    }
-}

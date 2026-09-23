@@ -112,7 +112,7 @@
     "On the deck now": "Сейчас на площадке",
     "Refuel helicopters": "Заправлять вертолёты",
     "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Парковка вертолётов с более высоким приоритетом получает вертолёты первыми. Каждая парковка заполняется раньше любой «Вертолётной площадки» — вертолёты будут оставаться на площадке только тогда, когда все парковки для вертолётов будут заполнены.",
-    "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Если эта функция включена, то вертолёты, стоящие на этой парковке, заправляются дизельным топливом из её хранилища. Заполняйте хранилище через трубопровод или доставкой техникой.",
+    "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Если эта функция включена, то вертолёты, стоящие на этой парковке, заправляются дизельным топливом и водородом из её хранилища — каждый тем топливом, на котором работает. Заполняйте внутреннее топливное хранилище через трубопровод или доставкой техникой.",
     "Helicopter Types": "Типы вертолётов",
     "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Обслуживаемая площадка: здесь механики обслуживают вертолёты, стоящие на этой парковке, снижая расход обслуживания запчастями до указанного процента. Более высокие значения требуют больше энергии и механиков. Вертолёты обслуживаются только тогда, когда стоят на взлётной площадке.",
     "Bridge Belt": "Мостовой транспортёр",
@@ -121,6 +121,7 @@
     "Heavy Tankers": "Тяжёлые танкеры",
     "Move the Parking HQ panel": "Переместить панель парковки",
     "Grand Market": "Продовольственный рынок",
+    "Household items": "Хоз. товары",
     "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Большой продовольственный рынок, который занимает целую сторону жилого блока и использует место четырёх обычных построек поселения.<br><br>Он хранит сразу четыре разных вида продовольствия вместо двух, поэтому одно это строение может обеспечить питанием всё поселение.<br><br>«Продовольственный рынок» — это не улучшение «Продуктового магазина, ур. II», а отдельное самостоятельное строение, которое требует электричества и вычислительных ресурсов для работы.",
     "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Разблокирует «Продовольственный рынок» — крупный рынок, который занимает целую сторону жилого блока и хранит сразу четыре разных вида продовольствия."
 }

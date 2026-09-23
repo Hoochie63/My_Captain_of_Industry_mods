@@ -112,7 +112,7 @@
   "On the deck now": "현재 갑판에 있음",
   "Refuel helicopters": "헬리콥터 재급유",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "우선순위가 높은 헬리콥터 본부가 헬리콥터를 먼저 받습니다. 모든 헬리콥터 본부가 오픈 헬리포트보다 먼저 채워지며, 헬리콥터는 모든 헬리콥터 본부가 가득 찼을 때만 오픈 헬리포트에 머뭅니다.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "활성화하면 이 본부에 있는 헬리콥터가 디젤 보관소에서 연료를 재보급받습니다. 파이프 포트로 보관소를 채우거나 트럭이 배송하도록 하세요.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "활성화하면 이 본부에 있는 헬리콥터가 디젤 및 수소 보관소에서 각자 사용하는 연료로 재보급받습니다. 파이프 포트로 보관소를 채우거나 트럭이 배송하도록 하세요.",
   "Helicopter Types": "헬리콥터 유형",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "정비 차고 — 이곳의 정비공이 이 기지에 있는 헬리콥터를 정비하여, 표시된 비율까지 유지 보수 소모 속도를 줄여줍니다. 설정을 높이면 더 많은 전력과 정비공이 필요합니다. 헬리콥터는 갑판에 있는 동안에만 정비됩니다.",
   "Bridge Belt": "교량 벨트",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "대형 유체 운반차량",
   "Move the Parking HQ panel": "트럭 본부 패널 이동",
   "Grand Market": "대형 시장",
+  "Household items": "생활 용품",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "주거지 블록의 한 면 전체를 차지하는 대형 시장으로, 일반 정착지 건물 4개 분량의 공간을 사용합니다.\n\n두 가지가 아닌 네 가지 식품을 동시에 저장하므로, 건물 하나로 정착지의 식단 전체를 감당할 수 있습니다.\n\n식료품 상점 II의 업그레이드가 아닙니다 — 별도로 건설해야 하며, 가동하려면 전력과 연산력이 필요합니다.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "대형 시장의 잠금을 해제합니다. 주거지 블록의 한 면 전체를 차지하는 대형 시장으로, 네 가지 식품을 동시에 저장합니다."
 }

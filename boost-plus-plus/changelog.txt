@@ -1,3 +1,9 @@
+v1.3.3 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7D.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.2 | 2026-09-05
 ────────────────────────────────────────────────────────────────────────
 * THE OVERLORD WINDOW OPENS SMALLER ON 1080P SCREENS SO IT NO LONGER FILLS THE WHOLE SCREEN (THANKS MAG FOR MENTIONING IT).

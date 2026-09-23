@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Ustawiaj odcinki bez przystanków",
   "Set Exclusive Zones": "Ustawiaj strefy wyłączności",
   "Modify Pillars - Trains": "Modyfikuj filary - Pociągi",
+  "Open Transports and activate its Modify Pillars tool.": "Otwiera Transport i włącza narzędzie Modyfikuj filary.",
+  "Open Trains and activate its Modify Pillars tool.": "Otwiera Pociągi i włącza narzędzie Modyfikuj filary.",
   "Modify Waypoints": "Modyfikuj punkty trasy",
   "Electrify Track": "Elektryzuj tory",
   "Cargo depot": "Skład towarowy",

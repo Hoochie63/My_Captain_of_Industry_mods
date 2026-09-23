@@ -112,7 +112,7 @@
   "On the deck now": "Jelenleg a fedélzeten",
   "Refuel helicopters": "Helikopterek tankolása",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "A magasabb prioritású Helikopter központok kapnak először helikoptert. Minden Helikopter központ megtelik, mielőtt bármelyik Open Heliport feltöltődne - helikopterek csak akkor maradnak egy Open Heliporton, ha az összes Helikopter központ tele van.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Bekapcsolva az ezen a központon álló helikopterek a központ Dízel tárolójából tankolnak. Töltsd fel a tárolót a csőportokon át, vagy szállíttasd teherautókkal.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Bekapcsolva az ezen a központon álló helikopterek a központ Dízel és Hidrogén tárolójából tankolnak, mindegyik abból az üzemanyagból, amivel működik. Töltsd fel a tárolót a csőportokon át, vagy szállíttasd teherautókkal.",
   "Helicopter Types": "Helikopter típusok",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Szervizgarázs — Az itt dolgozó szerelők karbantartják az ezen a bázison álló helikoptereket, csökkentve a karbantartás-fogyasztásuk ütemét, legfeljebb a megadott százalékig. A magasabb beállítás több energiát és több szerelőt igényel. A helikoptereket csak addig szervizelik, amíg a fedélzeten állnak.",
   "Bridge Belt": "Híd szalag",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Nehéz folyadékszállítók",
   "Move the Parking HQ panel": "A Teherautó központ panel mozgatása",
   "Grand Market": "Nagy piac",
+  "Household items": "Háztartási cikkek",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Nagy piac, amely egy lakótömb teljes oldalát elfoglalja, és négy szokásos települési épület helyét veszi el.\n\nEgyszerre négy különböző élelmiszert tárol kettő helyett, így egyetlen épület fedezheti egy település teljes étrendjét.\n\nNem az Élelmiszer piac II fejlesztése — külön épül, és a működéséhez villamosságra és számítástechnikára van szükség.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Feloldja a Nagy piacot, amely egy lakótömb teljes oldalát elfoglalja, és egyszerre négy különböző élelmiszert tárol."
 }

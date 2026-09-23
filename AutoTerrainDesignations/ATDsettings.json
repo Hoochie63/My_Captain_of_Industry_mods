@@ -19,28 +19,28 @@
   "vehicleClearance": 1,
 
   "_comment_maxLayersToExcavate": "Default starting value for the Max Layers setting on each mine tower. Maximum number of terrain layers to excavate from the surface downward. 0 = no limit. Can be adjusted per tower in-game. Default: 30.",
-  "maxLayersToExcavate": 30,
+  "maxLayersToExcavate": 50,
 
   "_comment_maxDepthToDigTo": "Default starting value for the Max Depth setting on each mine tower. Absolute minimum terrain elevation (in tiles) the designation will dig down to. null = no lower-bound limit. Can be adjusted per tower in-game. Default: null.",
   "maxDepthToDigTo": null,
 
   "_comment_orePurityLevel": "Default starting value for the Ore Purity Level on each mine tower (0=Off, 1=Low, 2=Med, 3=High, 4=Max). Controls how aggressively poor-quality tiles and sparse ore are excluded. Can be adjusted per tower in-game. Default: 0.",
-  "orePurityLevel": 0,
+  "orePurityLevel": 1,
 
   "_comment_bottomFlatteningEnabled": "Whether to run the extra designation-bottom flattening pass before placing mining designations. Off purity uses lower-only flattening; other purity modes use leveling. Can also be changed at runtime with atd_set_bottom_flattening. Default: true.",
-  "bottomFlatteningEnabled": true,
+  "bottomFlatteningEnabled": false,
 
   "_comment_bottomFlatteningStrength": "How aggressively the bottom-flattening pass levels the designation floor (1-10). Controls which depth-percentile of each connected ore component is chosen as the flattening target. 1 = mildest (90th-percentile depth, few tiles affected); 5 = moderate, median target (default); 10 = strongest (deepest tile, everything pulled down). Can also be changed at runtime with atd_set_bottom_flattening_strength. Default: 5.",
-  "bottomFlatteningStrength": 5,
+  "bottomFlatteningStrength": 1,
 
   "_comment_minCorridorClearance": "Global default corridor clearance used when connecting separated ore components and enforcing passability. Each mine tower can override this individually via the inspector. 0 = disabled — components are left separate, no corridors or hole-filling (for vehicle-less excavation mods); 1 = 1-tile corridors (small and medium vehicles); 2 = 2-tile corridors (mega vehicles). Default: 2.",
   "minCorridorClearance": 1,
 
   "_comment_terrainDesignationsPanelCollapsed": "Default collapsed state for the Mining designations panel when a mine tower inspector is created. false = expanded by default, true = collapsed by default. Default: false.",
-  "terrainDesignationsPanelCollapsed": false,
+  "terrainDesignationsPanelCollapsed": true,
 
   "_comment_oreCompositionPanelCollapsed": "Default collapsed state for the Ore composition panel when a mine tower inspector is created. false = expanded by default, true = collapsed by default. Default: false.",
-  "oreCompositionPanelCollapsed": false,
+  "oreCompositionPanelCollapsed": true,
 
   "_comment_excavatorCompletionNotifications": "Whether ATD shows a green one-time notification when any vehicle depot completes an excavator. This can also be changed at runtime with atd_set_excavator_completion_notifications. Default: true.",
   "excavatorCompletionNotifications": true,
@@ -76,10 +76,10 @@
   "accessClusterOverlayEnabled": false,
 
   "_comment_accessAvoidOcean": "New-game default for the per-world option that avoids ocean in accessways and Mining Designations. Mining cells directly overlapping ocean are excluded and projected underwater cutting is avoided. Default: true.",
-  "accessAvoidOcean": true,
+  "accessAvoidOcean": false,
 
   "_comment_filterOreSpikes": "New-game default for the per-world Filter ore spikes option. It corrects isolated ultra-thin vanilla ore spikes before Ore quality and bottom flattening. Default: true.",
-  "filterOreSpikes": true,
+  "filterOreSpikes": false,
 
   "_comment_accessAvoidBuildings": "New-game default for the per-world option that avoids building footprints and safety perimeters in accessways and Mining Designations. Default: true.",
   "accessAvoidBuildings": true,

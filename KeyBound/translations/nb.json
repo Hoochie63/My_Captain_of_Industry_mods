@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Angi seksjoner uten stopp",
   "Set Exclusive Zones": "Angi eksklusive soner",
   "Modify Pillars - Trains": "Endre søyler - Tog",
+  "Open Transports and activate its Modify Pillars tool.": "Åpner Transport og aktiverer verktøyet Endre søyler.",
+  "Open Trains and activate its Modify Pillars tool.": "Åpner Tog og aktiverer verktøyet Endre søyler.",
   "Modify Waypoints": "Endre veipunkter",
   "Electrify Track": "Elektrifiser spor",
   "Cargo depot": "Godsdepot",

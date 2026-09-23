@@ -112,7 +112,7 @@
   "On the deck now": "Nyní na ploše",
   "Refuel helicopters": "Doplňovat palivo vrtulníkům",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Základny vrtulníků s vyšší prioritou dostávají vrtulníky přednostně. Každá základna vrtulníků se naplní dříve než kterýkoli Open Heliport - vrtulníky zůstávají na Open Heliport pouze tehdy, když jsou všechny základny vrtulníků plné.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Když je zapnuto, vrtulníkům stojícím na této základně se doplňuje palivo z jejího zásobníku dieselu. Zásobník naplňte přes porty potrubí nebo nechte dodávku na nákladních vozidlech.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Když je zapnuto, vrtulníkům stojícím na této základně se doplňuje palivo z jejího zásobníku dieselu a vodíku, každému tím palivem, na které jezdí. Zásobník naplňte přes porty potrubí nebo nechte dodávku na nákladních vozidlech.",
   "Helicopter Types": "Typy vrtulníků",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Servisní garáž — Mechanici zde obsluhují vrtulníky stojící na této základně a snižují rychlost, s jakou spotřebovávají údržbu, až o zobrazené procento. Vyšší nastavení odebírá více energie a mechaniků. Vrtulníky jsou obsluhovány pouze po dobu, kdy stojí na ploše.",
   "Bridge Belt": "Mostní pás",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Těžké cisterny",
   "Move the Parking HQ panel": "Přesunout panel základny nákladních vozidel",
   "Grand Market": "Velké tržiště",
+  "Household items": "Domácí potřeby",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Velké tržiště, které se rozprostírá po celé jedné straně obytného bloku a zabírá místo čtyř běžných budov osady.\n\nSkladuje čtyři různé potraviny najednou místo dvou, takže jediná budova může pokrýt celý jídelníček osady.\n\nNejde o vylepšení Tržiště II — staví se samostatně a k provozu potřebuje elektřinu a výpočty.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Odemkne Velké tržiště, rozlehlý trh, který zabírá celou jednu stranu obytného bloku a skladuje čtyři různé potraviny najednou."
 }

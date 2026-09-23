@@ -1,9 +1,11 @@
+v8.0.6 | 2026-09-20
+* 解决动画节奏不能同步的问题，每次调节超频级别都重新计算匹配动画。
+* 加入日志抑制，防止因为大量超频建筑而产生的良性警告性提示刷日志。
+
 v8.0.5 | 2026-08-17
 * 修复 1：主动避让地面停机坪
   问题：OverclockingMod 的全局 ProductBuffer.ForceNewCapacityTo Prefix 补丁原本会修改所有 Storage 的缓冲区容量，包  括 MyAirshipMod 的地面停机坪（HelipadTJP），导致停机坪的容量管理被干扰。
-
 * 修复：在 SettlementBufferHooks.cs 中添加类型守卫——通过反射获取 ProductBuffer.m_entity，只对   SettlementServiceModule 类型的实体生效，其他 Storage（包括地面停机坪）直接 return 避让。这和之前 FGWYStorageMod 的  避让策略一致，经过多 mod 共存测试验证有效。
-
 * 修复 2：清理冗余日志
   移除了 Prefix 里的 SKIP / ENTER / MODIFY / PASS 四级诊断日志，避免每次任何 Storage 调用 ForceNewCapacityTo 都刷屏  。保留 Initialize 启动日志和异常容错
 * OverclockingMod 现在主动避让所有非 SettlementServiceModule 的 Storage，与任何修改 Storage 的 mod 都不冲突

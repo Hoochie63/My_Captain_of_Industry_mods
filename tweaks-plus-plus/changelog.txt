@@ -1,3 +1,12 @@
+v1.3.6 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* TEXT IN THE TWEAKS++ TABS NO LONGER SQUASHES INTO SINGLE LETTERS ON 1080P SCREENS — ROWS KEEP THEIR FULL WIDTH ON ANY SCREEN SIZE (THANKS VLADOVLAK FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+* TESTED AND WORKING ON GAME VERSION 0.8.7D.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.5 | 2026-09-05
 ────────────────────────────────────────────────────────────────────────
 * THE OVERLORD WINDOW OPENS SMALLER ON 1080P SCREENS SO IT NO LONGER FILLS THE WHOLE SCREEN (THANKS MAG FOR MENTIONING IT).

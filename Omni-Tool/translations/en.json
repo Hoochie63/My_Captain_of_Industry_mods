@@ -6,9 +6,6 @@
   "Change toolbar icon with selected mode": "Change toolbar icon with selected mode",
   "Show selection details (target counts and Unity costs)": "Show selection details (target counts and Unity costs)",
   "Enabled modes and cycle order": "Enabled modes and cycle order",
-  "Reorder": "Reorder",
-  "Enable only the tools you want. Reorder mode lets you drag whole cards into your preferred keybind cycle.": "Enable only the tools you want. Reorder mode lets you drag whole cards into your preferred keybind cycle.",
-  "Done": "Done",
   "Unity Quick Repair": "Unity Quick Repair",
   "Move Vehicles": "Move Vehicles",
   "Assign Logistics Zone": "Assign Logistics Zone",
@@ -245,4 +242,37 @@
   ,"Building filter: {0}": "Building filter: {0}"
   ,"All compatible buildings": "All compatible buildings"
   ,"Cancel": "Cancel"
+  ,"Keep Omni-Belt open after tool cancellation": "Keep Omni-Belt open after tool cancellation"
+  ,"On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything.": "On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything."
+  ,"Loaded vehicles": "Loaded vehicles"
+  ,"Storages (variable Unity cost)": "Storages (variable Unity cost)"
+  ,"Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe.": "Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe."
+  ,"Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost.": "Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost."
+  ,"{0} loaded vehicles: {1} Unity": "{0} loaded vehicles: {1} Unity"
+  ,"{0} storages: {1} Unity": "{0} storages: {1} Unity"
+  ,"Total Unity: {0}": "Total Unity: {0}"
+  ,"Bedrock": "Bedrock"
+  ,"Depleted uranium": "Depleted uranium"
+  ,"Farm ground": "Farm ground"
+  ,"Forest dirt": "Forest dirt"
+  ,"Forest floor": "Forest floor"
+  ,"Grass": "Grass"
+  ,"Hardened rock": "Hardened rock"
+  ,"Landfill": "Landfill"
+  ,"(crushed)": "(crushed)"
+  ,"(disrupted)": "(disrupted)"
+  ,"(bare)": "(bare)"
+  ,"(lush)": "(lush)"
+  ,"(no details)": "(no details)"
+  ,"(purple flowers, lush)": "(purple flowers, lush)"
+  ,"(red flowers)": "(red flowers)"
+  ,"(white flowers)": "(white flowers)"
+  ,"(yellow flowers, lush)": "(yellow flowers, lush)"
+  ,"(weathered)": "(weathered)"
+  ,"(no grass cover)": "(no grass cover)"
+  ,"Vehicle remove cargo": "Vehicle remove cargo"
+  ,"Storage quick remove": "Storage quick remove"
+  ,"Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe.": "Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe."
+  ,"Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it."
+  ,"Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range.": "Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range."
 }

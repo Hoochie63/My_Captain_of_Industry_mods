@@ -374,6 +374,8 @@
     "Set No-stop Sections": "Установка участков без остановок",
     "Set Exclusive Zones": "Установка эксклюзивных зон",
     "Modify Pillars - Trains": "Изменение опор - Поезда",
+    "Open Transports and activate its Modify Pillars tool.": "Открыть меню транспортёров и включить инструмент изменения опор.",
+    "Open Trains and activate its Modify Pillars tool.": "Открыть меню поездов и включить инструмент изменения опор.",
     "Modify Waypoints": "Изменение путевых точек",
     "Electrify Track": "Электрификация путей",
     "Cargo depot": "Грузовое депо",

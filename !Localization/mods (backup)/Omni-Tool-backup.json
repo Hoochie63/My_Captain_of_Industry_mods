@@ -1,0 +1,278 @@
+{
+  "Omni-Tool": "Omni-Tool",
+  "Individual Omni-Tools": "Отдельные инструменты Omni",
+  "Cancel replacing": "Отменить замену",
+  "Add the selected terrain product to Favorites. Up to fourteen are kept. Left-click a favorite to select it; right-click to remove it.": "Добавляет выбранный материал ландшафта в избранное. Сохраняется до четырнадцати. Щелкните левой кнопкой мыши, чтобы выбрать. Щелкните правой кнопкой мыши, чтобы удалить из избранного.",
+  "Change toolbar icon with selected mode": "Менять значок панели вместе с выбранным режимом",
+  "Show selection details (target counts and Unity costs)": "Показывать сведения о выборе (число целей и стоимость в единстве)",
+  "Enabled modes and cycle order": "Включённые режимы и порядок переключения",
+  "Unity Quick Repair": "Быстрый ремонт за единство",
+  "Move Vehicles": "Переместить технику",
+  "Assign Logistics Zone": "Назначить логистическую зону",
+  "Unity Recovery": "Эвакуация за единство",
+  "Unity Cargo Unload": "Разгрузка за единство",
+  "Restore Terrain": "Восстановить местность",
+  "Scrap / replace vehicles": "Утилизация/замена транспортных средств",
+  "Assign logistics zone": "Назначить логистическую зону",
+  "Click or box-select trucks to assign them to this zone. Default clears a custom assignment.": "Щёлкните или выделите рамкой грузовики, чтобы назначить их этой зоне. По умолчанию снимает пользовательское назначение.",
+  "Drag dumping or mining designations. Repeat until Escape or right-click.": "Проведите по обозначениям свалки или добычи. Повторяйте до Escape или правого щелчка.",
+  "Nature sweeper": "Очистка природы",
+  "Storage magic wand": "Волшебная палочка склада",
+  "EMPTY mode (destructive)": "Режим ОЧИСТИТЬ (разрушительный)",
+  "Fill: click or box-select compatible storages. EMPTY clears all stored cargo.": "Заполнение: щёлкните или выделите рамкой совместимые склады. ОЧИСТИТЬ удаляет весь хранимый груз.",
+  "Tree painter": "Посадка деревьев",
+  "Drag an area to plant every valid tile. Existing trees and blocked terrain are skipped.": "Проведите область, чтобы засадить каждую допустимую клетку. Существующие деревья и занятый рельеф пропускаются.",
+  "Restore original terrain": "Восстановить исходный рельеф",
+  "Terrain sculpting": "Изменение рельефа",
+  "Ctrl-drag to move": "Ctrl-перетаскивание для перемещения",
+  "No products found": "Продукты не найдены",
+  "No tree prototypes found": "Прототипы деревьев не найдены",
+  "No terrain materials found": "Материалы рельефа не найдены",
+  "Lower terrain": "Опустить рельеф",
+  "Flatten terrain": "Выровнять рельеф",
+  "Paint material": "Покрасить материал",
+  "Raise terrain": "Поднять рельеф",
+  "Cancel scrapping": "Отменить утилизацию",
+  "Mark for scrapping": "Отметить для утилизации",
+  "{0} tile": "{0} клетка",
+  "{0} tiles": "{0} клеток",
+  "Quick Repair: spend Unity to restore missing maintenance on vehicles and buildings.": "Быстрый ремонт: потратьте Unity, чтобы восстановить недостающее техническое обслуживание транспортных средств и зданий.",
+  "Move Vehicles: select one or many vehicles, then click their destination.": "Переместить технику: выберите одну или несколько единиц техники, затем щёлкните пункт назначения.",
+  "Assign Logistics Zone: choose a zone, then click or box-select trucks.": "Назначить логистическую зону: выберите зону, затем щёлкните или выделите рамкой грузовики.",
+  "Vehicle Depot Orders: mark for scrap, cancel scrapping, or replace one or many vehicles.": "Заказы на склад транспортных средств: пометить на металлолом, отменить списание или заменить один или несколько транспортных средств.",
+  "Unity Recovery: click or box-select vehicles to recover them.": "Эвакуация за единство: щёлкните или выделите рамкой технику для эвакуации.",
+  "Unity Cargo Unload: click or box-select loaded trucks.": "Разгрузка за единство: щёлкните или выделите рамкой загруженные грузовики.",
+  "Nature Sweeper: drag across trees, stumps, rocks, bushes, and terrain props.": "Очистка природы: проведите по деревьям, пням, камням, кустам и объектам рельефа.",
+  "Storage Magic Wand: fill or empty one or many storages.": "Волшебная палочка склада: заполните или очистите один или несколько складов.",
+  "Tree Painter: choose a species and drag forests into existence.": "Посадка деревьев: выберите вид и проведите, чтобы создать леса.",
+  "Terrain Sculpting: raise, lower, flatten, or paint terrain materials.": "Изменение рельефа: поднимайте, опускайте, выравнивайте или красьте материалы рельефа.",
+  "{0} target": "{0} цель",
+  "{0} targets": "{0} целей",
+  "Unity cost: {0}": "Стоимость в единстве: {0}",
+  "{0} will change": "Изменится: {0}",
+  "No zone available": "Нет доступной зоны",
+  "Quick Repair": "Быстрый ремонт",
+  "Activate / Cycle Omni-Tool": "Активировать / переключать Omni-Tool",
+  "Activates Omni-Tool. Press again while active to cycle to the next enabled mode.": "Активирует Omni-Tool. Нажмите ещё раз во время работы, чтобы перейти к следующему включённому режиму.",
+  "Tools": "Инструменты",
+  "Settings": "Настройки",
+  "Enable Sandbox Tools": "Включить инструменты песочницы",
+  "Remove marked trees": "Удалить отмеченные деревья",
+  "Remove Marked Trees: instantly remove every tree marked for harvesting.": "Удалить отмеченные деревья: мгновенно удаляет все деревья, отмеченные для вырубки.",
+  "Remove now": "Удалить сейчас",
+  "1 tree is marked for removal.": "1 дерево отмечено для удаления.",
+  "{0} trees are marked for removal.": "{0} деревьев отмечено для удаления.",
+  "Cycle Omni-Belt": "Сменить Omni-Belt",
+  "Loads the next saved Omni-Belt profile.": "Загружает следующий сохранённый профиль Omni-Belt.",
+  "Omni-Belt Profiles": "Профили Omni-Belt",
+  "Close Omni-Belt profile tray": "Закрыть панель профилей Omni-Belt",
+  "Open Omni-Belt profile tray": "Открыть панель профилей Omni-Belt",
+  "Empty": "Пусто",
+  "Load": "Загрузить",
+  "Active: Custom": "Активен: Пользовательский",
+  "Unassigned": "Не назначено",
+  "Open Omni-Tool settings. Ctrl-drag the Omni-Belt to move it.": "Открывает настройки Omni-Tool. Удерживайте Ctrl и перетащите Omni-Belt, чтобы переместить его.",
+  "Tree spacing": "Расстояние между деревьями",
+  "Vehicle": "Транспорт",
+  "Logistics": "Логистика",
+  "Sandbox": "Песочница",
+  "Open / close Omni-Belt": "Открыть / закрыть Omni-Belt",
+  "Cycle Omni-Tool": "Сменить инструмент Omni-Tool",
+  "Keybind not set. Set in Mod keybinds.": "Клавиша не назначена. Настройте её в клавишах модов.",
+  "Keybind not set. Set in Controls.": "Клавиша не назначена. Настройте её в управлении.",
+  "Active: Toolbelt {0}": "Активное: Пояс с инструментами {0}",
+  "Terrain eraser": "Ластик местности",
+  "Terrain Eraser: remove terrain above a chosen absolute height for ravines and canals.": "Terrain Eraser: удаление ландшафта выше выбранной абсолютной высоты для оврагов и каналов.",
+  "Drag to remove terrain above the target height. Use -5 for ship-depth canals. Undo is safest while paused; terrain settling and collapsed buildings cannot be restored.": "Перетащите, чтобы удалить местность выше целевой высоты. Используйте -5 для каналов глубины корабля. Отменить безопаснее всего во время паузы; Осевшая местность и разрушенные здания не подлежат восстановлению.",
+  "Box selection": "Выбор коробки",
+  "Round brush": "Круглая кисть",
+  "Undo the latest supported tree or terrain action. The configured history keeps up to ten actions. Pause first: physical settling or destroyed buildings cannot be reversed.": "Отменить последнее поддерживаемое действие с деревом или ландшафтом. Настроенная история сохраняет до десяти действий. Сначала сделайте паузу: физическое заселение или разрушение зданий невозможно повернуть вспять.",
+  "Keep Full": "Держите полный",
+  "Keep Empty": "Держите пустым",
+  "Normal (clear cheat mode)": "Нормальный (очистить чит-режим)",
+  "+ ADD PROFILE": "+ ДОБАВИТЬ ПРОФИЛЬ",
+  "Create a named profile from the current Omni-Belt. Changes auto-save as you work.": "Создайте именованный профиль из текущего Omni-Belt. Изменения автоматически сохраняются по мере работы.",
+  "Rename this Omni-Belt profile.": "Переименуйте этот профиль Omni-Belt.",
+  "Include this profile when the cycle-profile shortcut is pressed.": "Включите этот профиль при нажатии ярлыка профиля цикла.",
+  "Active": "Активный",
+  "Switch profiles. Current changes are saved automatically first.": "Переключение профилей. Текущие изменения сначала сохраняются автоматически.",
+  "DELETE PROFILE": "УДАЛЕНИЕ ПРОФИЛЯ",
+  "Delete profile '{0}'?": "Удалить профиль «{0}»?",
+  "Delete this profile.": "Удалить этот профиль.",
+  "Active: {0}": "Активен: {0}",
+  "Buildings": "Здания",
+  "Creative undo history": "История отмены творческого объявления",
+  "{0} undo steps": "{0} шаги отмены",
+  "Larger terrain selections and deeper history use more memory. Pause before editing for reliable undo; simulation settling and destroyed buildings are permanent.": "Большой выбор местности и более глубокая история требуют больше памяти. Пауза перед редактированием для надежной отмены; моделирование заселения и разрушенных зданий являются постоянными.",
+  "Downgrade buildings": "Понизить уровень зданий",
+  "Building settings brush": "Кисть для настройки здания",
+  "Cancel deconstruction": "Отменить деконструкцию",
+  "Downgrade: click or box-select buildings to lower each by exactly one tier.": "Понизить рейтинг: щелкните или выберите здания, чтобы понизить каждое из них ровно на один уровень.",
+  "Building Settings Brush: mass-apply pause state, general priority, truck policies, and storage alerts.": "Кисть настроек здания: массово применяет состояние паузы, общий приоритет, политики грузовиков и оповещения хранилищ.",
+  "Pause": "Приостановить",
+  "Unpause": "Возобновить",
+  "Cancel Deconstruction: click or box-select buildings marked for deconstruction.": "Отменить демонтаж: щелкните или выберите здания, отмеченные для демонтажа.",
+  "Priority {0}": "Приоритет {0}",
+  "Empty alert": "Пустое оповещение",
+  "Full alert": "Полное оповещение",
+  "Click or box-select buildings. Only checked sections change; unsupported properties are skipped.": "Щелкните или выберите здания. Меняются только отмеченные разделы; неподдерживаемые свойства пропускаются.",
+  "On": "Вкл.",
+  "Off": "Выкл.",
+  "Trucks CAN IMPORT cargo": "Грузовики МОГУТ ИМПОРТИРОВАТЬ груз",
+  "Trucks CAN EXPORT cargo": "Грузовики МОГУТ ЭКСПОРТИТЬ груз",
+  "Trucks CANNOT IMPORT cargo": "Грузовики НЕ МОГУТ ВВОЗИТЬ груз.",
+  "Trucks CANNOT EXPORT cargo": "Грузовики НЕ МОГУТ ЭКСПОРТИТЬ груз.",
+  "Trucks IMPORT ONLY IF belts/pipes can't": "Грузовые автомобили ИМПОРТИРУЮТСЯ ТОЛЬКО ЕСЛИ ремни/трубы не могут быть",
+  "Trucks EXPORT ONLY IF belts/pipes can't": "Грузовые автомобили ЭКСПОРТ ТОЛЬКО ЕСЛИ ремни/трубы не могут быть",
+  "Full": "Полный",
+  "Target height: {0}": "Высота цели: {0}",
+  "Erase down to": "Стереть вниз до",
+  "Undo ({0})": "Отменить ({0})",
+  "Undo (0)": "Отменить (0)",
+  "Replace vehicle": "Заменить автомобиль",
+  "No replacement vehicles available": "Нет автомобилей на замену",
+  "Storage Magic Wand": "Волшебная палочка склада",
+  "Omni-Belt Settings": "Настройки Omni-Tool",
+  "Hide unequipped": "Категории редактора инструментов",
+  "Hide unequipped cards without changing their saved settings or order.": "Скройте неиспользуемые категории в редакторе инструментов этого профиля. Скрытые инструменты остаются настроенными и остаются на Omni-Belt.",
+  "Drag to resize this window horizontally and vertically.": "Перетащите вертикально, чтобы изменить размер этого окна.",
+  "Profile Switcher": "Показывать переключатель профилей на Omni-Belt",
+  "Settings Shortcut": "Настройки",
+  "Cycle to the next enabled Omni-Belt profile.": "Загружает следующий сохранённый профиль Omni-Belt.",
+  "Open Omni-Tool settings. Right-clicking the main toolbar button also opens settings.": "Открывает настройки Omni-Tool. Удерживайте Ctrl и перетащите Omni-Belt, чтобы переместить его.",
+  "Cheat++ Keep Full / Empty": "Cheat++ Режимы хранения",
+  "Cheat++ Keep Full / Empty: mass-apply Keep Full or Keep Empty to storages. Choose Normal to clear the cheat setting.": "Cheat++ Режимы хранения: массовое применение к хранилищам «Сохранить полным», «Сохранить пустым» или «Обычным».",
+  "Click or box-select storages to apply Keep Full or Keep Empty. Choose Normal to clear the Cheat++ setting.": "Щелкните или выберите хранилища, чтобы применить Cheat++-совместимое состояние: «Сохранить полное», «Сохранить пустое» или «Обычное».",
+  "Experimental: attempts to restore the selected area to the map's original generated terrain. Its effect may depend on map or save data.": "Восстановить рельеф: верните область в исходно созданное состояние.",
+  "Experimental: attempts to restore the selected area to the map's original generated terrain. Its effect may depend on map or save data. Save first.": "Проведите область, чтобы восстановить исходно созданный рельеф. Сначала сохранитесь; действие разрушительное.",
+  "Expanded height range": "Ластик местности",
+  "Scrap / Replace": "Утилизация/замена транспортных средств",
+  "Mine / Dump Designations": "Заполнить рельеф",
+  "Mine / Dump Designations: choose a loose product, then complete mining or dumping designations.": "Заполнить рельеф: выберите сыпучий продукт и проведите по обозначениям свалки или добычи.",
+  "This profile is active.": "Этот профиль активен.",
+  "Active profile resets": "Сброс активного профиля",
+  "These reset only the active profile. Other profiles and global settings stay unchanged.": "Эти действия сбрасывают только активный профиль. Остальные профили и общие настройки не изменятся.",
+  "RESET TOOL ORDER": "СБРОСИТЬ ПОРЯДОК ИНСТРУМЕНТОВ",
+  "Restore the active profile's tool and control-card order?": "Восстановить порядок инструментов и служебных карточек активного профиля?",
+  "RESET COLORS": "СБРОСИТЬ ЦВЕТА",
+  "Restore the active profile's tool and control-card colors?": "Восстановить цвета инструментов и служебных карточек активного профиля?",
+  "Cheat++ was detected. This global master switch allows sandbox tools in every profile that has its Sandbox category enabled.": "Обнаружен Cheat++. Этот общий переключатель разрешает инструменты песочницы во всех профилях, где включена категория «Песочница».",
+  "Standalone sandbox access is enabled in Mod Config. This global master switch allows sandbox tools in every profile that has its Sandbox category enabled.": "Автономный доступ к песочнице включён в настройках мода. Этот общий переключатель разрешает инструменты песочницы во всех профилях, где включена категория «Песочница».",
+  "Factory profiles": "Заводские профили",
+  "Restore the installed Vehicle Tools, Building Tools, and eligible Terraforming profiles. This deletes every custom profile but does not reset global settings.": "Восстанавливает установленные профили «Инструменты транспорта», «Инструменты зданий» и доступный профиль «Изменение рельефа». Все пользовательские профили будут удалены, но общие настройки не сбросятся.",
+  "RESTORE FACTORY PROFILES": "ВОССТАНОВИТЬ ЗАВОДСКИЕ ПРОФИЛИ",
+  "This deletes every Omni-Belt profile and replaces them with the installed factory profiles. Continue?": "Все профили Omni-Belt будут удалены и заменены установленными заводскими профилями. Продолжить?",
+  "Visible tool categories": "Видимые категории инструментов",
+  "Hide whole categories in this profile without changing their saved tools, colors, choices, or order. A dual-tag tool remains visible while either category is enabled.": "Скрывает целые категории в этом профиле, не меняя сохранённые инструменты, цвета, варианты и порядок. Инструмент с двумя метками остаётся видимым, пока включена хотя бы одна из категорий.",
+  "Vehicles": "Транспорт",
+  "Sandbox profile is dormant": "Профиль песочницы неактивен",
+  "Sandbox tools are disabled globally. Enable Sandbox Tools in Settings when you want this profile to become usable.": "Инструменты песочницы отключены глобально. Чтобы использовать этот профиль, включите «Инструменты песочницы» в настройках.",
+  "ENABLE ALL AVAILABLE TOOLS": "ВКЛЮЧИТЬ ВСЕ ДОСТУПНЫЕ ИНСТРУМЕНТЫ",
+  "Enable every category and every tool currently authorized for the active profile, using the default order? Colors and tool choices are preserved.": "Включить в активном профиле все категории и все разрешённые сейчас инструменты в порядке по умолчанию? Цвета и выбранные параметры инструментов сохранятся.",
+  "DELETE ALL OMNI-BELT PROFILES?": "УДАЛИТЬ ВСЕ ПРОФИЛИ OMNI-BELT?",
+  "This is the final confirmation. Every custom profile will be permanently deleted and replaced by the installed factory profiles. Global Settings will remain unchanged.": "Это последнее подтверждение. Все пользовательские профили будут безвозвратно удалены и заменены установленными заводскими профилями. Общие настройки не изменятся.",
+  "DELETE AND RESTORE": "УДАЛИТЬ И ВОССТАНОВИТЬ",
+  "Vehicle Tools": "Инструменты транспорта",
+  "Building Tools": "Инструменты зданий",
+  "Terraforming": "Изменение рельефа",
+  "Recall last-used tool when cycling profiles": "Восстанавливать последний инструмент при смене профиля",
+  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Каждый профиль запоминает и сразу восстанавливает последний инструмент. Если он отключён, используется первый доступный.",
+  "Hide Micro-HUD explainer text": "Скрыть пояснения в мини-панели",
+  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Скрывает инструкции, когда вы освоите инструменты. Элементы управления и текущий статус остаются видимыми.",
+  "Disable hover tooltips": "Отключить всплывающие подсказки",
+  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Скрывает подсказки Omni-Tool, не затрагивая игру и другие моды.",
+  "Use English UI": "Использовать английский интерфейс",
+  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Показывает Omni-Tool на английском, не меняя язык игры и других модов.",
+  "Micro-HUD growth anchor": "Опорный угол мини-панели",
+  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Выберите угол, который остаётся неподвижным при изменении размера мини-панели.",
+  "Top left": "Сверху слева",
+  "Top right": "Сверху справа",
+  "Bottom left": "Снизу слева",
+  "Bottom right": "Снизу справа",
+  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Выберите машины, чтобы убрать их из очереди списания Omni-Tool и отменить соответствующие игровые заказы.",
+  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Выберите машины для очереди замены. Наличие техники и подходящего депо проверяет игра.",
+  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Выберите машины, чтобы убрать их из очереди замены Omni-Tool и отменить соответствующие игровые заказы.",
+  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Выберите машины для распределённой очереди списания. Доступные незапущенные депо работают параллельно.",
+  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Проведите, чтобы опустить рельеф на выбранный шаг. Выбранный материал применяется снова; сохраните игру перед крупными изменениями.",
+  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Проведите, чтобы выровнять рельеф по высоте центра и применить выбранный материал.",
+  "Drag to repaint the terrain surface without intentionally changing its height.": "Проведите, чтобы перекрасить поверхность рельефа без намеренного изменения высоты.",
+  "Drag to raise terrain by the selected step and apply the selected material.": "Проведите, чтобы поднять рельеф на выбранный шаг и применить выбранный материал.",
+  "Live depot queue": "Текущая очередь депо",
+  "{0} waiting • {1} active • {2} canceling • {3} depots": "Ожидают {0} • активны {1} • отменяются {2} • депо {3}",
+  "Queue empty": "Очередь пуста",
+  "Cancel scrap queue": "Очистить очередь списания",
+  "Cancel replace queue": "Очистить очередь замены",
+  "Cancel all": "Отменить всё",
+  "Replace": "Замена",
+  "Scrap": "Списание",
+  "{0} total • {1} waiting • {2} active": "Всего {0} • ожидают {1} • активны {2}",
+  "{0} canceling": "{0} отменяются",
+  "ALL": "ВСЕ",
+  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Правый щелчок удаляет одну подходящую машину. Shift + правый щелчок удаляет всю группу.",
+  "Omni-Belt growth anchor": "Опорный край Omni-Belt",
+  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Выберите горизонтальный край, который остаётся неподвижным при изменении числа кнопок.",
+  "Left": "Слева",
+  "Right": "Справа",
+  "General behavior": "Общее поведение",
+  "Core Omni-Tool behavior that applies in every profile.": "Основное поведение Omni-Tool во всех профилях.",
+  "Interface": "Интерфейс",
+  "Choose how much help text Omni-Tool shows.": "Выберите, сколько подсказок показывает Omni-Tool.",
+  "UI layout": "Расположение интерфейса",
+  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Выберите, как Omni-Belt и мини-панель растут относительно сохранённых позиций.",
+  "Sandbox and creative tools": "Песочница и творческие инструменты",
+  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Обнаружен Cheat++. Эти настройки глобально разрешают функции песочницы Omni-Tool.",
+  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "В конфигурации мода разрешён автономный доступ к песочнице. Эти настройки глобально разрешают функции песочницы Omni-Tool."
+  ,"Vehicle type filter": "Фильтр типа техники"
+  ,"Pick a vehicle type from the world.": "Выберите тип техники в мире."
+  ,"Add the selected storage product to Favorites. Up to twenty-eight are kept. Left-click a favorite to select it; right-click to remove it.": "Добавляет выбранный продукт хранения в избранное. Сохраняется до двадцати восьми. Щелкните левой кнопкой мыши, чтобы выбрать. Щелкните правой кнопкой мыши, чтобы удалить из избранного."
+  ,"Add the selected terrain material to Favorites. Up to twenty are kept. Left-click a favorite to select it; right-click to remove it.": "Добавляет выбранный материал ландшафта в избранное. Сохраняется до двадцати. Щелкните левой кнопкой мыши, чтобы выбрать. Щелкните правой кнопкой мыши, чтобы удалить из избранного."
+  ,"Mixed forest": "Смешанный лес"
+  ,"Single tree": "Одно дерево"
+  ,"Selected trees": "Выбранные деревья"
+  ,"{0} selected": "Выбрано: {0}"
+  ,"Forest density": "Густота леса"
+  ,"Save the selected trees and density as a forest bundle. Up to seven are kept. Left-click a saved bundle to load it; right-click to remove it.": "Сохраняет выбранные деревья и густоту как набор леса. Хранится до семи наборов. Левая кнопка — загрузить. Правая — удалить."
+  ,"Drag an area to plant a naturally varied mix from the selected trees. Density controls the average spacing.": "Выделите область, чтобы посадить естественно разнообразную смесь выбранных деревьев. Густота задаёт среднее расстояние."
+  ,"Drag an area to plant the selected tree at exact spacing. Existing trees and blocked terrain are skipped.": "Выделите область, чтобы посадить выбранное дерево с точным интервалом. Существующие деревья и заблокированный рельеф пропускаются."
+  ,"{0}\nDensity: {1}%": "{0}\nГустота: {1}%"
+  ,"{0}%": "{0}%"
+  ,"Building type filter": "Фильтр типа здания"
+  ,"Pick a building type from the world.": "Выберите тип здания в мире."
+  ,"Save the current filter and checked settings as a bundle. Up to seven are kept. Left-click a saved bundle to load it; right-click to remove it.": "Сохранить текущий фильтр и отмеченные настройки как набор. Хранится до семи наборов. ЛКМ — загрузить. ПКМ — удалить."
+  ,"Building filter: {0}": "Фильтр зданий: {0}"
+  ,"All compatible buildings": "Все совместимые здания"
+  ,"Cancel": "Отмена"
+  ,"Keep Omni-Belt open after tool cancellation": "Оставлять Omni-Belt открытым после отмены инструмента"
+  ,"On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything.": "Вкл.: сначала отменяется выделение, затем инструмент, затем панель. Если панель неактивна, клавиша активации/переключения сначала вновь включает выбранный инструмент; смена профиля его не включает. Выкл.: одно нажатие закрывает всё."
+  ,"Loaded vehicles": "Загруженная техника"
+  ,"Storages (variable Unity cost)": "Склады (переменная стоимость Единства)"
+  ,"Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe.": "Выбирайте загруженную технику и/или непустые склады. Быстрая очистка склада расходует больше Единства при большем количестве содержимого. Перед большим выделением проверьте стоимость."
+  ,"Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost.": "Выгрузка за Единство: выберите загруженную технику, непустые склады или оба типа. Быстрая очистка склада имеет переменную стоимость в Единстве."
+  ,"{0} loaded vehicles: {1} Unity": "Загружено машин: {0}; Единство: {1}"
+  ,"{0} storages: {1} Unity": "Складов: {0}; Единство: {1}"
+  ,"Total Unity: {0}": "Всего Единства: {0}"
+  ,"Bedrock": "Коренная порода"
+  ,"Depleted uranium": "Обеднённый уран"
+  ,"Farm ground": "Пашня"
+  ,"Forest dirt": "Лесной грунт"
+  ,"Forest floor": "Лесная почва"
+  ,"Grass": "Трава"
+  ,"Hardened rock": "Твёрдая порода"
+  ,"Landfill": "Насыпь"
+  ,"(crushed)": "(дроблёный)"
+  ,"(disrupted)": "(нарушенный)"
+  ,"(bare)": "(голый)"
+  ,"(lush)": "(густой)"
+  ,"(no details)": "(без деталей)"
+  ,"(purple flowers, lush)": "(фиолетовые цветы, густой)"
+  ,"(red flowers)": "(красные цветы)"
+  ,"(white flowers)": "(белые цветы)"
+  ,"(yellow flowers, lush)": "(жёлтые цветы, густой)"
+  ,"(weathered)": "(выветренный)"
+  ,"(no grass cover)": "(без травяного покрова)"
+  ,"Vehicle remove cargo": "Удалить груз из транспорта"
+  ,"Storage quick remove": "Быстро очистить склад"
+  ,"Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe.": "Удалить груз из транспорта: разгрузить выбранную загруженную технику.\nБыстро очистить склад: опустошить выбранные непустые склады за переменную стоимость в Единстве. Перед большим выделением проверьте стоимость."
+  ,"Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Сохранить режим изменения рельефа, шаг, материал и форму кисти в наборе. Можно сохранить до четырнадцати наборов. Левый щелчок загружает набор, правый удаляет его."
+  ,"Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range.": "Сохранить эту целевую высоту в избранное (до 21). Левый щелчок выбирает значение, правый удаляет его. Высоты вне диапазона от −10 до 0 автоматически включают расширенный диапазон."
+}

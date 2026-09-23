@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Ställ in sektioner utan stopp",
   "Set Exclusive Zones": "Ställ in exklusiva zoner",
   "Modify Pillars - Trains": "Modifiera pelare - Tåg",
+  "Open Transports and activate its Modify Pillars tool.": "Öppnar Transporter och aktiverar verktyget Modifiera pelare.",
+  "Open Trains and activate its Modify Pillars tool.": "Öppnar Tåg och aktiverar verktyget Modifiera pelare.",
   "Modify Waypoints": "Modifiera vägpunkter",
   "Electrify Track": "Elektrifiera spår",
   "Cargo depot": "Godsdepå",

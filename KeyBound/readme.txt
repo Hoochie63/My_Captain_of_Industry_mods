@@ -9,7 +9,7 @@ and compatible mod-added buttons.
 REQUIREMENTS
 ------------
 
-- Captain of Industry 0.8.5 through 0.8.7b.
+- Captain of Industry 0.8.5 through 0.8.7d.
 - Keybind Framework 2.0.2 or newer.
 
 INSTALLATION

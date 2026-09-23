@@ -18,6 +18,8 @@
     "Ground unloading pad where mining airships can unload cargo. Supports U-shaped conveyor belt connections.": "Наземная разгрузочная площадка, на которую карьерные дирижабли выгружают добытый груз. Поддерживает до 4-х хранимых материалов, и подключение до 4-х транспортёров (жёлоб).",
     "Mining Airship": "Карьерный дирижабль",
     "Mining airship that mines terrain and transports cargo to the ground helipad.": "Карьерный дирижабль, который выполняет карьерные работы и транспортирует груз на наземную площадку для дирижаблей.",
+    "Fuel for Airships": "Топливо для дирижаблей",
+    "Move the left green slider to the right to transfer stored fuel to airships. This building will also request trucks to replenish its fuel stock up to the level indicated by the green marker.": "<align=\"center\">Переместите левый зелёный ползунок вправо, чтобы передать хранимое топливо дирижаблям. Это сооружение также запрашивает грузовую технику для пополнения запасов топлива до уровня, отмеченного зелёным ползунком.</align>",
     "Auxiliary Slot 2": "II-й дополнительный слот",
     "Auxiliary Slot 3": "III-й дополнительный слот",
     "Auxiliary Slot 4": "IV-й дополнительный слот",

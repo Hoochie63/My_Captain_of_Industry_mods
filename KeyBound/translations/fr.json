@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Définir des sections sans arrêt",
   "Set Exclusive Zones": "Définir des zones exclusives",
   "Modify Pillars - Trains": "Modifier les piliers - Trains",
+  "Open Transports and activate its Modify Pillars tool.": "Ouvre Transports et active l’outil Modifier les piliers.",
+  "Open Trains and activate its Modify Pillars tool.": "Ouvre Trains et active l’outil Modifier les piliers.",
   "Modify Waypoints": "Modifier les points de passage",
   "Electrify Track": "Électrifier la voie",
   "Cargo depot": "Dépôt de marchandises",

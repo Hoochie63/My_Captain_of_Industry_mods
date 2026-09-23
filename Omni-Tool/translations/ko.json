@@ -6,9 +6,6 @@
   "Change toolbar icon with selected mode": "선택한 모드에 맞춰 도구 모음 아이콘 변경",
   "Show selection details (target counts and Unity costs)": "선택 정보 표시(대상 수 및 Unity 비용)",
   "Enabled modes and cycle order": "활성화된 모드와 순환 순서",
-  "Reorder": "순서 변경",
-  "Enable only the tools you want. Reorder mode lets you drag whole cards into your preferred keybind cycle.": "원하는 도구만 활성화하세요. 순서 변경 모드에서 카드 전체를 끌어 원하는 단축키 순환 순서로 배치할 수 있습니다.",
-  "Done": "완료",
   "Unity Quick Repair": "Unity 빠른 수리",
   "Move Vehicles": "차량 이동",
   "Assign Logistics Zone": "물류 구역 지정",
@@ -178,53 +175,53 @@
   "Vehicle Tools": "차량 도구",
   "Building Tools": "건물 도구",
   "Terraforming": "지형 편집",
-  "Recall last-used tool when cycling profiles": "Recall last-used tool when cycling profiles",
-  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.",
-  "Hide Micro-HUD explainer text": "Hide Micro-HUD explainer text",
-  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Collapse instructional text after you know the tools. Controls and live status remain visible.",
-  "Disable hover tooltips": "Disable hover tooltips",
-  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.",
-  "Use English UI": "Use English UI",
-  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Display Omni-Tool's own interface in English without changing the game language or other mods.",
-  "Micro-HUD growth anchor": "Micro-HUD growth anchor",
-  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.",
-  "Top left": "Top left",
-  "Top right": "Top right",
-  "Bottom left": "Bottom left",
-  "Bottom right": "Bottom right",
-  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.",
-  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.",
-  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.",
-  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.",
-  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.",
-  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Drag to flatten terrain to the sampled center height and apply the selected material.",
-  "Drag to repaint the terrain surface without intentionally changing its height.": "Drag to repaint the terrain surface without intentionally changing its height.",
-  "Drag to raise terrain by the selected step and apply the selected material.": "Drag to raise terrain by the selected step and apply the selected material.",
-  "Live depot queue": "Live depot queue",
-  "{0} waiting • {1} active • {2} canceling • {3} depots": "{0} waiting • {1} active • {2} canceling • {3} depots",
-  "Queue empty": "Queue empty",
-  "Cancel scrap queue": "Cancel scrap queue",
-  "Cancel replace queue": "Cancel replace queue",
-  "Cancel all": "Cancel all",
-  "Replace": "Replace",
-  "Scrap": "Scrap",
-  "{0} total • {1} waiting • {2} active": "{0} total • {1} waiting • {2} active",
-  "{0} canceling": "{0} canceling",
-  "ALL": "ALL",
-  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.",
-  "Omni-Belt growth anchor": "Omni-Belt growth anchor",
-  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.",
-  "Left": "Left",
-  "Right": "Right",
-  "General behavior": "General behavior",
-  "Core Omni-Tool behavior that applies in every profile.": "Core Omni-Tool behavior that applies in every profile.",
-  "Interface": "Interface",
-  "Choose how much help text Omni-Tool shows.": "Choose how much help text Omni-Tool shows.",
-  "UI layout": "UI layout",
-  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.",
-  "Sandbox and creative tools": "Sandbox and creative tools",
-  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.",
-  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally."
+  "Recall last-used tool when cycling profiles": "프로필 전환 시 마지막 도구 복원",
+  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "각 프로필은 마지막 도구를 기억하고 즉시 복원합니다. 해당 도구가 꺼져 있으면 첫 번째 활성 도구를 사용합니다.",
+  "Hide Micro-HUD explainer text": "마이크로 HUD 설명 숨기기",
+  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "도구에 익숙해지면 설명을 숨깁니다. 조작 버튼과 현재 상태는 계속 표시됩니다.",
+  "Disable hover tooltips": "마우스 오버 도움말 끄기",
+  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "게임이나 다른 모드에 영향을 주지 않고 Omni-Tool의 도움말만 숨깁니다.",
+  "Use English UI": "영어 UI 사용",
+  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "게임이나 다른 모드의 언어는 바꾸지 않고 Omni-Tool만 영어로 표시합니다.",
+  "Micro-HUD growth anchor": "마이크로 HUD 고정 모서리",
+  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "마이크로 HUD 크기가 바뀌어도 고정할 모서리를 선택합니다.",
+  "Top left": "왼쪽 위",
+  "Top right": "오른쪽 위",
+  "Bottom left": "왼쪽 아래",
+  "Bottom right": "오른쪽 아래",
+  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "차량을 선택하여 Omni-Tool 폐기 대기열에서 빼고 해당 게임 명령을 취소합니다.",
+  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "차량을 교체 대기열에 추가합니다. 차량과 기지의 적합성은 게임이 확인합니다.",
+  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "차량을 선택하여 Omni-Tool 교체 대기열에서 빼고 해당 게임 명령을 취소합니다.",
+  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "차량을 분산 폐기 대기열에 추가합니다. 사용 가능한 일시 정지되지 않은 기지가 병렬로 처리합니다.",
+  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "드래그하여 선택한 단계만큼 지형을 낮춥니다. 재료가 다시 적용되므로 큰 작업 전 저장하세요.",
+  "Drag to flatten terrain to the sampled center height and apply the selected material.": "드래그하여 중앙 높이로 지형을 평평하게 만들고 선택한 재료를 적용합니다.",
+  "Drag to repaint the terrain surface without intentionally changing its height.": "높이를 의도적으로 바꾸지 않고 지형 표면을 다시 칠합니다.",
+  "Drag to raise terrain by the selected step and apply the selected material.": "드래그하여 선택한 단계만큼 지형을 높이고 선택한 재료를 적용합니다.",
+  "Live depot queue": "차량 기지의 현재 대기열",
+  "{0} waiting • {1} active • {2} canceling • {3} depots": "대기 {0} • 진행 {1} • 취소 중 {2} • 차량 기지 {3}",
+  "Queue empty": "대기열이 비었습니다",
+  "Cancel scrap queue": "폐기 대기열 비우기",
+  "Cancel replace queue": "교체 대기열 비우기",
+  "Cancel all": "모두 취소",
+  "Replace": "교체",
+  "Scrap": "폐기",
+  "{0} total • {1} waiting • {2} active": "전체 {0} • 대기 {1} • 진행 {2}",
+  "{0} canceling": "{0}개 취소 중",
+  "ALL": "전체",
+  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "오른쪽 클릭으로 일치하는 차량 한 대를 제거합니다. Shift+오른쪽 클릭으로 전체 그룹을 제거합니다.",
+  "Omni-Belt growth anchor": "Omni-Belt 고정 가장자리",
+  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "버튼 수가 바뀌어도 고정할 가로 가장자리를 선택합니다.",
+  "Left": "왼쪽",
+  "Right": "오른쪽",
+  "General behavior": "일반 동작",
+  "Core Omni-Tool behavior that applies in every profile.": "모든 프로필에 적용되는 Omni-Tool의 기본 동작입니다.",
+  "Interface": "인터페이스",
+  "Choose how much help text Omni-Tool shows.": "Omni-Tool에 표시할 도움말의 양을 선택합니다.",
+  "UI layout": "UI 배치",
+  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "저장된 위치에서 Omni-Belt와 마이크로 HUD가 커지는 방향을 선택합니다.",
+  "Sandbox and creative tools": "샌드박스 및 창작 도구",
+  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++가 감지되었습니다. 이 설정은 Omni-Tool의 샌드박스 기능을 전체적으로 허용합니다.",
+  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "모드 설정에서 독립 샌드박스 사용이 활성화되었습니다. 이 설정은 Omni-Tool의 샌드박스 기능을 전체적으로 허용합니다."
   ,"Vehicle type filter": "차량 유형 필터"
   ,"Pick a vehicle type from the world.": "월드에서 차량 유형을 선택하세요."
   ,"Add the selected storage product to Favorites. Up to twenty-eight are kept. Left-click a favorite to select it; right-click to remove it.": "선택한 저장 제품을 즐겨찾기에 추가합니다. 최대 28개까지 유지됩니다. 선택하려면 마우스 왼쪽 버튼을 클릭하세요. 즐겨찾기에서 제거하려면 마우스 오른쪽 버튼을 클릭하세요."
@@ -245,4 +242,37 @@
   ,"Building filter: {0}": "건물 필터: {0}"
   ,"All compatible buildings": "호환되는 모든 건물"
   ,"Cancel": "취소"
+  ,"Keep Omni-Belt open after tool cancellation": "도구 취소 후에도 Omni-Belt 열어 두기"
+  ,"On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything.": "켬: 선택을 취소한 다음 도구, 마지막으로 벨트를 닫습니다. 벨트가 대기 중이면 활성화/순환 키가 먼저 선택한 도구를 다시 켭니다. 프로필 변경은 도구를 켜지 않습니다. 끔: 한 번에 모두 닫습니다."
+  ,"Loaded vehicles": "화물이 실린 차량"
+  ,"Storages (variable Unity cost)": "저장 시설(유니티 비용 변동)"
+  ,"Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe.": "화물이 실린 차량 및/또는 비어 있지 않은 저장 시설을 선택합니다. 저장 시설의 빠른 제거는 내용물이 많을수록 유니티가 더 듭니다. 넓은 영역을 선택하기 전에 비용을 확인하세요."
+  ,"Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost.": "유니티 화물 제거: 화물이 실린 차량, 비어 있지 않은 저장 시설 또는 둘 다 선택합니다. 저장 시설 빠른 제거의 유니티 비용은 변동됩니다."
+  ,"{0} loaded vehicles: {1} Unity": "화물이 실린 차량 {0}대: 유니티 {1}"
+  ,"{0} storages: {1} Unity": "저장 시설 {0}개: 유니티 {1}"
+  ,"Total Unity: {0}": "총 유니티: {0}"
+  ,"Bedrock": "기반암"
+  ,"Depleted uranium": "열화 우라늄"
+  ,"Farm ground": "경작지 토양"
+  ,"Forest dirt": "숲 흙"
+  ,"Forest floor": "숲 바닥"
+  ,"Grass": "풀"
+  ,"Hardened rock": "단단한 암석"
+  ,"Landfill": "매립지"
+  ,"(crushed)": "(분쇄됨)"
+  ,"(disrupted)": "(교란됨)"
+  ,"(bare)": "(맨땅)"
+  ,"(lush)": "(무성함)"
+  ,"(no details)": "(세부 묘사 없음)"
+  ,"(purple flowers, lush)": "(보라색 꽃, 무성함)"
+  ,"(red flowers)": "(빨간 꽃)"
+  ,"(white flowers)": "(흰 꽃)"
+  ,"(yellow flowers, lush)": "(노란 꽃, 무성함)"
+  ,"(weathered)": "(풍화됨)"
+  ,"(no grass cover)": "(풀 덮개 없음)"
+  ,"Vehicle remove cargo": "차량 화물 제거"
+  ,"Storage quick remove": "저장 시설 빠르게 비우기"
+  ,"Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe.": "차량 화물 제거: 선택한 적재 차량의 화물을 내립니다.\n저장 시설 빠르게 비우기: 선택한 비어 있지 않은 저장 시설을 내용물에 따라 달라지는 유니티 비용으로 비웁니다. 넓은 영역을 선택하기 전에 비용을 확인하세요."
+  ,"Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "지형 작업, 타일 간격, 재료, 브러시 모양을 묶음으로 저장합니다. 최대 14개까지 저장할 수 있습니다. 왼쪽 클릭으로 불러오고 오른쪽 클릭으로 제거합니다."
+  ,"Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range.": "이 목표 높이를 즐겨찾기로 저장합니다(최대 21개). 왼쪽 클릭으로 사용하고 오른쪽 클릭으로 제거합니다. −10~0 범위를 벗어나는 높이는 확장 범위를 자동으로 켭니다."
 }

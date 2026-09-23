@@ -6,9 +6,6 @@
   "Change toolbar icon with selected mode": "Werkbalkpictogram aanpassen aan geselecteerde modus",
   "Show selection details (target counts and Unity costs)": "Selectiedetails tonen (aantal doelen en Unity-kosten)",
   "Enabled modes and cycle order": "Ingeschakelde modi en cyclusvolgorde",
-  "Reorder": "Volgorde wijzigen",
-  "Enable only the tools you want. Reorder mode lets you drag whole cards into your preferred keybind cycle.": "Schakel alleen gewenste gereedschappen in. Sleep in de sorteermodus hele kaarten naar je gewenste sneltoetscyclus.",
-  "Done": "Klaar",
   "Unity Quick Repair": "Snelle reparatie met Unity",
   "Move Vehicles": "Voertuigen verplaatsen",
   "Assign Logistics Zone": "Logistieke zone toewijzen",
@@ -178,53 +175,53 @@
   "Vehicle Tools": "Voertuiggereedschappen",
   "Building Tools": "Gebouwgereedschappen",
   "Terraforming": "Terreinvorming",
-  "Recall last-used tool when cycling profiles": "Recall last-used tool when cycling profiles",
-  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.",
-  "Hide Micro-HUD explainer text": "Hide Micro-HUD explainer text",
-  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Collapse instructional text after you know the tools. Controls and live status remain visible.",
-  "Disable hover tooltips": "Disable hover tooltips",
-  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.",
-  "Use English UI": "Use English UI",
-  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Display Omni-Tool's own interface in English without changing the game language or other mods.",
-  "Micro-HUD growth anchor": "Micro-HUD growth anchor",
-  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.",
-  "Top left": "Top left",
-  "Top right": "Top right",
-  "Bottom left": "Bottom left",
-  "Bottom right": "Bottom right",
-  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.",
-  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.",
-  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.",
-  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.",
-  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.",
-  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Drag to flatten terrain to the sampled center height and apply the selected material.",
-  "Drag to repaint the terrain surface without intentionally changing its height.": "Drag to repaint the terrain surface without intentionally changing its height.",
-  "Drag to raise terrain by the selected step and apply the selected material.": "Drag to raise terrain by the selected step and apply the selected material.",
-  "Live depot queue": "Live depot queue",
-  "{0} waiting • {1} active • {2} canceling • {3} depots": "{0} waiting • {1} active • {2} canceling • {3} depots",
-  "Queue empty": "Queue empty",
-  "Cancel scrap queue": "Cancel scrap queue",
-  "Cancel replace queue": "Cancel replace queue",
-  "Cancel all": "Cancel all",
-  "Replace": "Replace",
-  "Scrap": "Scrap",
-  "{0} total • {1} waiting • {2} active": "{0} total • {1} waiting • {2} active",
-  "{0} canceling": "{0} canceling",
-  "ALL": "ALL",
-  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.",
-  "Omni-Belt growth anchor": "Omni-Belt growth anchor",
-  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.",
-  "Left": "Left",
-  "Right": "Right",
-  "General behavior": "General behavior",
-  "Core Omni-Tool behavior that applies in every profile.": "Core Omni-Tool behavior that applies in every profile.",
+  "Recall last-used tool when cycling profiles": "Laatst gebruikte gereedschap herstellen bij profielwisseling",
+  "Each profile remembers and immediately restores its own last-used tool. If that tool is disabled, the first enabled tool is used.": "Elk profiel onthoudt en herstelt direct zijn laatste gereedschap. Is dat uitgeschakeld, dan wordt het eerste actieve gereedschap gebruikt.",
+  "Hide Micro-HUD explainer text": "Uitlegtekst in micro-HUD verbergen",
+  "Collapse instructional text after you know the tools. Controls and live status remain visible.": "Verberg instructies zodra je de gereedschappen kent. Bediening en actuele status blijven zichtbaar.",
+  "Disable hover tooltips": "Zwevende tooltips uitschakelen",
+  "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Verberg tooltips van Omni-Tool zonder het spel of andere mods te beïnvloeden.",
+  "Use English UI": "Engelse interface gebruiken",
+  "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Toon Omni-Tool in het Engels zonder de taal van het spel of andere mods te wijzigen.",
+  "Micro-HUD growth anchor": "Groeiverankering van micro-HUD",
+  "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Kies de hoek die vast blijft wanneer de micro-HUD groter of kleiner wordt.",
+  "Top left": "Linksboven",
+  "Top right": "Rechtsboven",
+  "Bottom left": "Linksonder",
+  "Bottom right": "Rechtsonder",
+  "Select vehicles to remove them from Omni-Tool's scrap queue and cancel matching native scrap orders.": "Selecteer voertuigen om ze uit Omni-Tools sloopwachtrij te halen en bijbehorende spelopdrachten te annuleren.",
+  "Select vehicles to queue replacement. Vehicle availability and a compatible depot are enforced by the game.": "Selecteer voertuigen voor de vervangingswachtrij. Het spel controleert beschikbaarheid en een geschikt depot.",
+  "Select vehicles to remove them from Omni-Tool's replacement queue and cancel matching native replacement orders.": "Selecteer voertuigen om ze uit Omni-Tools vervangingswachtrij te halen en bijbehorende spelopdrachten te annuleren.",
+  "Select vehicles to add them to the distributed scrap queue. Available unpaused depots provide parallel lanes.": "Selecteer voertuigen voor de verdeelde sloopwachtrij. Beschikbare, niet-gepauzeerde depots werken parallel.",
+  "Drag to lower terrain by the selected step. The selected material is reapplied; save before large edits.": "Sleep om terrein met de gekozen stap te verlagen. Het materiaal wordt opnieuw aangebracht; sla op voor grote wijzigingen.",
+  "Drag to flatten terrain to the sampled center height and apply the selected material.": "Sleep om terrein af te vlakken tot de hoogte van het midden en het gekozen materiaal toe te passen.",
+  "Drag to repaint the terrain surface without intentionally changing its height.": "Sleep om het oppervlak opnieuw te schilderen zonder de hoogte bewust te wijzigen.",
+  "Drag to raise terrain by the selected step and apply the selected material.": "Sleep om terrein met de gekozen stap te verhogen en het gekozen materiaal toe te passen.",
+  "Live depot queue": "Actieve depotwachtrij",
+  "{0} waiting • {1} active • {2} canceling • {3} depots": "{0} wachtend • {1} actief • {2} wordt geannuleerd • {3} depots",
+  "Queue empty": "Wachtrij leeg",
+  "Cancel scrap queue": "Sloopwachtrij legen",
+  "Cancel replace queue": "Vervangingswachtrij legen",
+  "Cancel all": "Alles annuleren",
+  "Replace": "Vervangen",
+  "Scrap": "Slopen",
+  "{0} total • {1} waiting • {2} active": "{0} totaal • {1} wachtend • {2} actief",
+  "{0} canceling": "{0} wordt geannuleerd",
+  "ALL": "ALLE",
+  "Right-click removes one matching vehicle. Shift-right-click removes this entire vehicle group.": "Rechtsklik verwijdert één passend voertuig. Shift+rechtsklik verwijdert de hele groep.",
+  "Omni-Belt growth anchor": "Groeiverankering van Omni-Belt",
+  "Choose which horizontal edge stays fixed when the Omni-Belt gains or loses buttons.": "Kies de horizontale rand die vast blijft wanneer het aantal knoppen verandert.",
+  "Left": "Links",
+  "Right": "Rechts",
+  "General behavior": "Algemeen gedrag",
+  "Core Omni-Tool behavior that applies in every profile.": "Basisgedrag van Omni-Tool in elk profiel.",
   "Interface": "Interface",
-  "Choose how much help text Omni-Tool shows.": "Choose how much help text Omni-Tool shows.",
-  "UI layout": "UI layout",
-  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.",
-  "Sandbox and creative tools": "Sandbox and creative tools",
-  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.",
-  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally."
+  "Choose how much help text Omni-Tool shows.": "Kies hoeveel hulptekst Omni-Tool toont.",
+  "UI layout": "UI-indeling",
+  "Choose how the shared Omni-Belt and Micro-HUD grow from their saved positions.": "Kies hoe Omni-Belt en micro-HUD vanaf hun opgeslagen posities groeien.",
+  "Sandbox and creative tools": "Sandbox- en creatieve gereedschappen",
+  "Cheat++ was detected. These controls authorize Omni-Tool's sandbox features globally.": "Cheat++ is gevonden. Deze instellingen staan de sandboxfuncties van Omni-Tool wereldwijd toe.",
+  "Standalone sandbox access is enabled in Mod Config. These controls authorize Omni-Tool's sandbox features globally.": "Zelfstandige sandboxtoegang is ingeschakeld in de modconfiguratie. Deze instellingen staan de sandboxfuncties van Omni-Tool wereldwijd toe."
   ,"Vehicle type filter": "Voertuigtypefilter"
   ,"Pick a vehicle type from the world.": "Kies een voertuigtype in de wereld."
   ,"Add the selected storage product to Favorites. Up to twenty-eight are kept. Left-click a favorite to select it; right-click to remove it.": "Voeg het geselecteerde opslagproduct toe aan Favorieten. Er worden er maximaal achtentwintig bewaard. Klik met de linkermuisknop om te selecteren. Klik met de rechtermuisknop om uit Favorieten te verwijderen."
@@ -245,4 +242,37 @@
   ,"Building filter: {0}": "Gebouwfilter: {0}"
   ,"All compatible buildings": "Alle compatibele gebouwen"
   ,"Cancel": "Annuleren"
+  ,"Keep Omni-Belt open after tool cancellation": "Omni-Belt openhouden na annuleren van gereedschap"
+  ,"On: cancel selection, then tool, then belt. While the belt is idle, activate/cycle reactivates the selected tool; profile changes stay idle. Off: one press closes everything.": "Aan: annuleer eerst de selectie, daarna het gereedschap en ten slotte de balk. Is de balk inactief, dan activeert activeren/wisselen eerst het gekozen gereedschap; een profielwissel doet dat niet. Uit: één druk sluit alles."
+  ,"Loaded vehicles": "Beladen voertuigen"
+  ,"Storages (variable Unity cost)": "Opslaggebouwen (variabele Unity-kosten)"
+  ,"Select loaded vehicles and/or non-empty storages. Storage Quick Remove spends more Unity as contents increase. Check selection cost before a large swipe.": "Selecteer beladen voertuigen en/of niet-lege opslaggebouwen. Snel verwijderen uit opslag kost meer Unity naarmate de inhoud toeneemt. Controleer de kosten vóór een grote selectie."
+  ,"Unity Cargo Unload: choose loaded vehicles, non-empty storages, or both. Storage Quick Remove has a variable Unity cost.": "Unity-lading verwijderen: kies beladen voertuigen, niet-lege opslaggebouwen of beide. Snel verwijderen uit opslag heeft variabele Unity-kosten."
+  ,"{0} loaded vehicles: {1} Unity": "{0} beladen voertuigen: {1} Unity"
+  ,"{0} storages: {1} Unity": "{0} opslaggebouwen: {1} Unity"
+  ,"Total Unity: {0}": "Unity totaal: {0}"
+  ,"Bedrock": "Moedergesteente"
+  ,"Depleted uranium": "Verarmd uranium"
+  ,"Farm ground": "Landbouwgrond"
+  ,"Forest dirt": "Bosgrond"
+  ,"Forest floor": "Bosbodem"
+  ,"Grass": "Gras"
+  ,"Hardened rock": "Verhard gesteente"
+  ,"Landfill": "Opvulmateriaal"
+  ,"(crushed)": "(vergruisd)"
+  ,"(disrupted)": "(verstoord)"
+  ,"(bare)": "(kaal)"
+  ,"(lush)": "(weelderig)"
+  ,"(no details)": "(zonder details)"
+  ,"(purple flowers, lush)": "(paarse bloemen, weelderig)"
+  ,"(red flowers)": "(rode bloemen)"
+  ,"(white flowers)": "(witte bloemen)"
+  ,"(yellow flowers, lush)": "(gele bloemen, weelderig)"
+  ,"(weathered)": "(verweerd)"
+  ,"(no grass cover)": "(zonder grasbedekking)"
+  ,"Vehicle remove cargo": "Voertuiglading verwijderen"
+  ,"Storage quick remove": "Opslag snel legen"
+  ,"Vehicle remove cargo: unload selected loaded vehicles.\nStorage quick remove: empty selected non-empty storages at a variable Unity cost. Check selection cost before a large swipe.": "Voertuiglading verwijderen: los geselecteerde beladen voertuigen.\nOpslag snel legen: leeg geselecteerde niet-lege opslaggebouwen tegen variabele Unity-kosten. Controleer de kosten vóór een grote selectie."
+  ,"Save the current sculpting operation, tile step, terrain material, and brush shape as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Sla terreinbewerking, tegelstap, materiaal en penseelvorm op als bundel. Maximaal veertien bundels. Linksklik om te laden; rechtsklik om te verwijderen."
+  ,"Save this target height as a favorite (21 max). Left-click a number to use it; right-click to remove it. Heights outside -10 to 0 automatically enable Expanded range.": "Sla deze doelhoogte op als favoriet (maximaal 21). Linksklik om het getal te gebruiken; rechtsklik om te verwijderen. Hoogten buiten −10 tot 0 schakelen uitgebreid bereik automatisch in."
 }

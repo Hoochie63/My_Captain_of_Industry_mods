@@ -1,0 +1,3 @@
+v1.0.3 | 2026-05-28
+* Fixed mod failing to load (crash on new game and save load)
+* Deferred initial groundwater refill until after the map is ready

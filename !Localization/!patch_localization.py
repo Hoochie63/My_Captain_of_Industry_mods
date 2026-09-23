@@ -22,10 +22,17 @@ DRY_RUN = False
 # Делать ли бэкап оригинального ru.json перед перезаписью.
 BACKUP_ORIGINALS = True
 
+# Все служебные файлы скрипта (кэши, отчёты) хранятся тут, в одном месте.
+LOGS_DIR = DICT_DIR.parent / "logs"
+
+# Папка с "настройками" самого скрипта, которые ведёт пользователь руками
+# (не путать с CONFIG_DICT_DIR — это словари для config.json модов).
+SCRIPT_CONFIG_DIR = DICT_DIR.parent / "config"
+
 # Единый файл-кэш "какая версия мода была на момент последнего бэкапа".
 # Бэкап конкретного мода обновляется только если версия в его manifest.json
 # отличается от записанной здесь.
-BACKUP_VERSION_CACHE_PATH = DICT_DIR.parent / "backup_versions_cache.json"
+BACKUP_VERSION_CACHE_PATH = LOGS_DIR / "backup_versions_cache.json"
 
 # Где лежат твои словари для локализации самой игры и патч-нотов.
 GAME_DICT_PATH = DICT_DIR.parent / "game" / "ru.json"
@@ -34,21 +41,42 @@ CHANGELOG_DICT_PATH = DICT_DIR.parent / "changelog" / "ru.json"
 # Где лежат словари для манифестов (display_name/description_*) и конфигов
 # (description у каждого параметра). Имя файла: "<ИмяПапкиМода>-manifest.json"
 # и "<ИмяПапкиМода>-config.json" соответственно.
-MANIFEST_DICT_DIR = DICT_DIR.parent / "mods (manifests)"
-CONFIG_DICT_DIR = DICT_DIR.parent / "mods (configs)"
+MANIFEST_DICT_DIR = DICT_DIR.parent / "mods (manifest)"
+CONFIG_DICT_DIR = DICT_DIR.parent / "mods (config)"
+
+# Папка для бэкапов оригинальных ru.json модов — отдельно от папок самих
+# модов (при обновлении мода игровой менеджер стирает всю папку мода
+# целиком, а вместе с ней и любой бэкап, что лежал внутри). Плоско, без
+# подпапок: "<ИмяМода>-backup.json".
+MOD_BACKUP_DIR = DICT_DIR.parent / "mods (backup)"
 
 # Единственные поля manifest.json, которые вообще сравниваются/патчатся.
 MANIFEST_FIELDS = ("display_name", "description", "description_short", "description_long")
 
 # Сюда сохраняется однажды найденный путь к папке с игрой, чтобы не искать
 # её заново при каждом запуске.
-GAME_PATH_CACHE_PATH = DICT_DIR.parent / "game" / "game_path_cache.json"
+GAME_PATH_CACHE_PATH = SCRIPT_CONFIG_DIR / "game_path_cache.json"
+
+# JSON-список (массив строк) с именами папок модов, которые не подлежат
+# локализации в принципе (правят только внутренние инструменты игры, нет
+# никаких строк для перевода). Такие моды исключаются из отчёта "НЕТ
+# ЛОКАЛИЗАЦИИ ВООБЩЕ" — ведётся вручную.
+NO_LOCALIZATION_WHITELIST_PATH = SCRIPT_CONFIG_DIR / "no_localization_whitelist.json"
 
 # Сохранять ли подробный отчёт (с точными списками ключей, а не только
 # счётчиками) в файл на диске при каждом прогоне — и dry-run, и реальном.
 # Файл один, перезаписывается каждый раз (не копится куча файлов).
 SAVE_REPORT_TO_FILE = True
-REPORT_PATH = DICT_DIR.parent / "game" / "patch_report.json"
+REPORT_PATH = LOGS_DIR / "patch_report.json"
+
+# Кэш "не изменился ли файл игры/патч-нотов с прошлого прогона" — по времени
+# изменения файла (mtime). Если ни словарь, ни целевой файл не менялись —
+# тяжёлое сравнение пропускается, а в отчёт подставляется сохранённый
+# результат прошлого прогона. Только для игры/патч-нотов — на модах и так
+# быстро. LOGIC_VERSION нужно вручную увеличивать при изменении логики
+# сравнения, чтобы старый кэш не подставлял неактуальный результат.
+GAME_SKIP_CACHE_PATH = LOGS_DIR / "game_skip_cache.json"
+LOGIC_VERSION = 1
 
 # False (по умолчанию) — моды без изменений и проблем просто считаются
 # одной строкой в конце. True — вывести их тоже, но построчно (с числом
@@ -161,10 +189,9 @@ def flatten_manifest_fields(data) -> dict:
     return {(f,): data[f] for f in MANIFEST_FIELDS if f in data and isinstance(data[f], str)}
 
 
-def flatten_manifest_fields_target(data) -> dict:
-    if not isinstance(data, dict):
-        data = {}
-    return {(f,): (data[f] if isinstance(data.get(f), str) else "") for f in MANIFEST_FIELDS}
+def manifest_container_exists(target_data, path) -> bool:
+    # "контейнер" для полей манифеста — сам манифест целиком, он всегда есть
+    return isinstance(target_data, dict)
 
 
 def set_manifest_field(data: dict, path, value) -> None:
@@ -187,6 +214,14 @@ def flatten_config_fields(data) -> dict:
             if isinstance(value, str):
                 result[(param_id, field)] = value
     return result
+
+
+def config_container_exists(target_data, path) -> bool:
+    # "контейнер" для поля параметра — сам параметр (объект по его id),
+    # который должен существовать в целевом файле, даже если конкретного
+    # поля (например "name") в нём ещё нет
+    param_id = path[0]
+    return isinstance(target_data, dict) and isinstance(target_data.get(param_id), dict)
 
 
 def set_config_field(data: dict, path, value) -> None:
@@ -315,6 +350,23 @@ def find_mod_dir(mod_name: str) -> Path | None:
     return None
 
 
+def load_no_localization_whitelist(report: dict) -> set:
+    """Моды из этого списка не подлежат локализации в принципе (правят
+    только внутренние инструменты игры) — исключаются из отчёта "НЕТ
+    ЛОКАЛИЗАЦИИ ВООБЩЕ". Ведётся вручную, JSON-массив строк."""
+    if not NO_LOCALIZATION_WHITELIST_PATH.is_file():
+        return set()
+    try:
+        names = load_json(NO_LOCALIZATION_WHITELIST_PATH)
+    except Exception as e:
+        report["read_errors"].append(("no_localization_whitelist.json", str(e)))
+        return set()
+    if not isinstance(names, list):
+        report["read_errors"].append(("no_localization_whitelist.json", "ожидался JSON-массив строк"))
+        return set()
+    return {str(n).lower() for n in names}
+
+
 def scan_installed_mods() -> list[Path]:
     if not MODS_DIR.is_dir():
         return []
@@ -391,7 +443,22 @@ def load_backup_version_cache() -> dict:
 
 
 def save_backup_version_cache(cache: dict) -> None:
+    BACKUP_VERSION_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
     save_json(BACKUP_VERSION_CACHE_PATH, dict(sorted(cache.items(), key=lambda kv: kv[0].lower())))
+
+
+def load_game_skip_cache() -> dict:
+    if not GAME_SKIP_CACHE_PATH.is_file():
+        return {}
+    try:
+        return load_json(GAME_SKIP_CACHE_PATH)
+    except Exception:
+        return {}
+
+
+def save_game_skip_cache(cache: dict) -> None:
+    GAME_SKIP_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    save_json(GAME_SKIP_CACHE_PATH, cache)
 
 
 def patch_one_file(
@@ -407,6 +474,8 @@ def patch_one_file(
         set_fn=None,
         do_backup: bool = True,
         skip_if_empty: bool = False,
+        container_exists_fn=None,
+        backup_path: Path = None,
 ) -> bool:
     try:
         target_data = load_json(target_path)
@@ -437,6 +506,14 @@ def patch_one_file(
 
     dict_flat = flatten_fn(dictionary)
     target_flat = target_flatten_fn(target_data)
+
+    if container_exists_fn is not None:
+        # Поле есть у нас в словаре, но отсутствует в целевом файле — если
+        # его "контейнер" (сам параметр/сам манифест) при этом существует,
+        # считаем это полем на добавление, а не устаревшей записью.
+        for path in dict_flat:
+            if path not in target_flat and container_exists_fn(target_data, path):
+                target_flat[path] = ""
 
     matched = 0
     changed = 0
@@ -495,7 +572,6 @@ def patch_one_file(
 
     should_backup = False
     if do_backup:
-        backup_path = target_path.with_suffix(".original.json")
         cached_marker = backup_cache.get(name)
 
         if not backup_path.exists():
@@ -509,6 +585,7 @@ def patch_one_file(
             report["backup_refreshed"].append((name, cached_marker, version_marker))
 
         if not DRY_RUN and BACKUP_ORIGINALS and should_backup:
+            backup_path.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(target_path, backup_path)
 
     if not DRY_RUN:
@@ -548,7 +625,8 @@ def patch_mod(dict_path: Path, report: dict, backup_cache: dict) -> None:
         return
 
     for ru_path in ru_files:
-        did_backup = patch_one_file(mod_name, dictionary, ru_path, mod_version, backup_cache, report)
+        backup_path = MOD_BACKUP_DIR / f"{mod_name}-backup.json"
+        did_backup = patch_one_file(mod_name, dictionary, ru_path, mod_version, backup_cache, report, backup_path=backup_path)
         if not DRY_RUN and did_backup and mod_version is not None:
             backup_cache[mod_name] = mod_version
 
@@ -558,12 +636,12 @@ def patch_manifest(mod_dir: Path, mod_folder_name: str, dict_path: Path, report:
     try:
         dictionary = load_json(dict_path)
     except Exception as e:
-        report["read_errors"].append((f"{mod_folder_name} (манифест)", str(e)))
+        report["read_errors"].append((f"{mod_folder_name}-manifest", str(e)))
         return
     patch_one_file(
-        f"{mod_folder_name} (манифест)", dictionary, manifest_path, None, backup_cache, report,
-        category="manifest", flatten_fn=flatten_manifest_fields,
-        target_flatten_fn=flatten_manifest_fields_target, set_fn=set_manifest_field, do_backup=False,
+        f"{mod_folder_name}-manifest", dictionary, manifest_path, None, backup_cache, report,
+        category="manifest", flatten_fn=flatten_manifest_fields, set_fn=set_manifest_field,
+        do_backup=False, container_exists_fn=manifest_container_exists,
     )
 
 
@@ -572,22 +650,25 @@ def patch_config(mod_dir: Path, mod_folder_name: str, dict_path: Path, report: d
     try:
         dictionary = load_json(dict_path)
     except Exception as e:
-        report["read_errors"].append((f"{mod_folder_name} (конфиг)", str(e)))
+        report["read_errors"].append((f"{mod_folder_name}-config", str(e)))
         return
     patch_one_file(
-        f"{mod_folder_name} (конфиг)", dictionary, config_path, None, backup_cache, report,
+        f"{mod_folder_name}-config", dictionary, config_path, None, backup_cache, report,
         category="config", flatten_fn=flatten_config_fields, set_fn=set_config_field,
-        do_backup=False, skip_if_empty=True,
+        do_backup=False, skip_if_empty=True, container_exists_fn=config_container_exists,
     )
 
 
 def patch_manifests_and_configs(report: dict, backup_cache: dict) -> None:
+    no_loc_whitelist = load_no_localization_whitelist(report)
+
     for mod_dir in scan_installed_mods():
         mod_name = mod_dir.name
 
         has_localization = bool(find_ru_json_files(mod_dir)) or bool(find_localization_dirs_without_ru(mod_dir))
         if not has_localization:
-            report["no_localization_mods"].append(mod_name)
+            if mod_name.lower() not in no_loc_whitelist:
+                report["no_localization_mods"].append(mod_name)
         elif find_dict_file_for_mod(DICT_DIR, mod_name, ".json") is None:
             report["translation_dict_missing"].append(mod_name)
 
@@ -804,6 +885,9 @@ def render_report(report: dict) -> None:
         print()
         print(f"Игра найдена: {report['game_dir']}")
 
+    if report["game_skip_used"]:
+        print(f"(пропущено по кэшу, файлы не менялись: {', '.join(report['game_skip_used'])})")
+
     if report["read_errors"]:
         print()
         print("ОШИБКИ ЧТЕНИЯ:")
@@ -942,7 +1026,19 @@ def render_category_table(title: str, entries: list) -> None:
             print(f"Без изменений: {len(clean)} (SHOW_CLEAN_MODS = True, чтобы вывести построчно)")
 
 
-def patch_game_and_changelog(report: dict, backup_cache: dict) -> None:
+def apply_cached_entry(entry: dict, report: dict) -> None:
+    """Подставляет в report сохранённый с прошлого прогона результат — без
+    повторного сравнения. Зеркалит финальные шаги patch_one_file."""
+    report["mod_results"].append(entry)
+    report["totals"]["matched"] += entry["matched"]
+    report["totals"]["changed"] += entry["changed"]
+    report["totals"]["placeholder_mismatch"] += entry["placeholder_mismatch"]
+    report["totals"]["dict_outdated"] += entry["dict_outdated"]
+    report["totals"]["untranslated"] += entry["untranslated"]
+    report["totals"]["mods_patched"] += 1
+
+
+def patch_game_and_changelog(report: dict, backup_cache: dict, skip_cache: dict) -> None:
     game_dir = resolve_game_directory()
     if game_dir is None:
         report["game_not_found"] = True
@@ -953,16 +1049,39 @@ def patch_game_and_changelog(report: dict, backup_cache: dict) -> None:
     game_version = read_game_version(game_dir)
 
     targets = [
-        ("Игра (Translations/ru.json)", GAME_DICT_PATH, translations_dir / "ru.json"),
-        ("Патч-ноты (Changelog/ru.json)", CHANGELOG_DICT_PATH, translations_dir / "Changelog" / "ru.json"),
+        ("Игра (Translations/ru.json)", GAME_DICT_PATH, translations_dir / "ru.json",
+         DICT_DIR.parent / "game" / "ru-backup.json"),
+        ("Патч-ноты (Changelog/ru.json)", CHANGELOG_DICT_PATH, translations_dir / "Changelog" / "ru.json",
+         DICT_DIR.parent / "changelog" / "ru-backup.json"),
     ]
 
-    for name, dict_path, target_path in targets:
+    for name, dict_path, target_path, backup_path in targets:
         if not dict_path.is_file():
             continue  # своего словаря для этой цели пока нет — нечего патчить
         if not target_path.is_file():
             report["read_errors"].append((name, f"файл не найден: {target_path}"))
             continue
+
+        dict_mtime = dict_path.stat().st_mtime
+        target_mtime = target_path.stat().st_mtime
+        cached = skip_cache.get(name)
+
+        if (
+                cached is not None
+                and cached.get("logic_version") == LOGIC_VERSION
+                and cached.get("dict_mtime") == dict_mtime
+                and cached.get("target_mtime") == target_mtime
+                and (DRY_RUN or cached.get("was_real_write"))
+        ):
+            # ни словарь, ни файл игры не менялись с прошлого прогона —
+            # сравнение точно даст тот же результат, пересчитывать незачем.
+            # На реальном прогоне доверяем только кэшу от ТАКОГО ЖЕ реального
+            # прогона — иначе можно пропустить запись, которая ещё ни разу
+            # не была сделана (кэш от dry-run ничего на диск не писал).
+            apply_cached_entry(cached["entry"], report)
+            report["game_skip_used"].append(name)
+            continue
+
         try:
             dictionary = load_json(dict_path)
         except Exception as e:
@@ -970,9 +1089,20 @@ def patch_game_and_changelog(report: dict, backup_cache: dict) -> None:
             continue
 
         version_marker = game_version if game_version is not None else compute_hash(target_path)
-        did_backup = patch_one_file(name, dictionary, target_path, version_marker, backup_cache, report, category="game")
+        did_backup = patch_one_file(name, dictionary, target_path, version_marker, backup_cache, report, category="game", backup_path=backup_path)
         if not DRY_RUN and did_backup and version_marker is not None:
             backup_cache[name] = version_marker
+
+        # mtime цели могли сдвинуть записью выше — берём актуальный, чтобы
+        # следующий прогон сравнивал именно с тем, что реально на диске
+        new_target_mtime = target_path.stat().st_mtime
+        skip_cache[name] = {
+            "logic_version": LOGIC_VERSION,
+            "dict_mtime": dict_mtime,
+            "target_mtime": new_target_mtime,
+            "was_real_write": not DRY_RUN,
+            "entry": report["mod_results"][-1],
+        }
 
 
 def main():
@@ -993,6 +1123,7 @@ def main():
         "no_localization_mods": [],
         "translation_dict_missing": [],
         "config_dict_missing": [],
+        "game_skip_used": [],
         "totals": {
             "mods_patched": 0,
             "matched": 0,
@@ -1004,6 +1135,7 @@ def main():
     }
 
     backup_cache = load_backup_version_cache()
+    skip_cache = load_game_skip_cache()
 
     dict_files = sorted(DICT_DIR.glob("*.json"))
     skipped_special = [f for f in dict_files if f.name.endswith(SKIP_SUFFIXES)]
@@ -1012,11 +1144,12 @@ def main():
     for dict_path in dict_files:
         patch_mod(dict_path, report, backup_cache)
 
-    patch_game_and_changelog(report, backup_cache)
+    patch_game_and_changelog(report, backup_cache, skip_cache)
     patch_manifests_and_configs(report, backup_cache)
 
     if not DRY_RUN:
         save_backup_version_cache(backup_cache)
+    save_game_skip_cache(skip_cache)
 
     render_report(report)
 

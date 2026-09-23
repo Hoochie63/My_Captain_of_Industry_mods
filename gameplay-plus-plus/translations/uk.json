@@ -112,7 +112,7 @@
   "On the deck now": "Зараз на палубі",
   "Refuel helicopters": "Заправляти вертольоти",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Бази з вищим пріоритетом отримують вертольоти першими. Кожна база заповнюється раніше за будь-який Open Heliport - вертольоти залишаються на Open Heliport лише коли всі бази заповнені.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Якщо увімкнено, вертольоти, що стоять на цій базі, заправляються з її сховища дизеля. Заповнюйте сховище через трубні порти або доставкою вантажівками.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Якщо увімкнено, вертольоти, що стоять на цій базі, заправляються з її сховища дизеля та водню, кожен своїм паливом, на якому він працює. Заповнюйте сховище через трубні порти або доставкою вантажівками.",
   "Helicopter Types": "Типи вертольотів",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Сервісний гараж — механіки обслуговують вертольоти, що стоять на цій базі, і сповільнюють витрачання технічного обслуговування аж до показаного відсотка. Вищі значення потребують більше енергії та механіків. Вертольоти обслуговуються, лише поки стоять на палубі.",
   "Bridge Belt": "Конвеєр мосту",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Важкі цистерни",
   "Move the Parking HQ panel": "Перемістити панель штабу вантажівок",
   "Grand Market": "Великий ринок",
+  "Household items": "Господарські товари",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Великий ринок, що простягається на цілу сторону житлового блоку й займає місце чотирьох звичайних будівель поселення.\n\nВін зберігає одночасно чотири різні види їжі замість двох, тож одна будівля може забезпечити все харчування поселення.\n\nЦе не покращення Продовольчого ринку II — його будують окремо, і для роботи він потребує електрики та обчислювальної потужності.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Відкриває Великий ринок — просторий ринок, який займає цілу сторону житлового блоку та зберігає одночасно чотири різні види їжі."
 }

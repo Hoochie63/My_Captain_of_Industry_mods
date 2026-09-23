@@ -112,7 +112,7 @@
   "On the deck now": "Şu anda pistte",
   "Refuel helicopters": "Helikopterlere yakıt ikmali yap",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Önceliği daha yüksek olan Helikopter merkezleri helikopterleri önce alır. Her Helikopter merkezi, herhangi bir Açık Heliport'tan önce doldurulur - helikopterler yalnızca tüm Helikopter merkezleri doluyken bir Açık Heliport'ta kalır.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Etkinleştirildiğinde, bu merkezde duran helikopterlere Dizel deposundan yakıt ikmali yapılır. Depoyu boru portlarıyla doldurun veya kamyonların teslimat yapmasına izin verin.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Etkinleştirildiğinde, bu merkezde duran helikopterlere Dizel ve Hidrojen deposundan, her biri çalıştığı yakıttan olmak üzere yakıt ikmali yapılır. Depoyu boru portlarıyla doldurun veya kamyonların teslimat yapmasına izin verin.",
   "Helicopter Types": "Helikopter türleri",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Bakım Garajı — Buradaki teknisyenler bu üste duran helikopterlere bakım yaparak bakım tüketim hızlarını gösterilen yüzdeye kadar azaltır. Daha yüksek ayarlar daha fazla elektrik ve teknisyen gerektirir. Helikopterlere yalnızca pistteyken bakım yapılır.",
   "Bridge Belt": "Köprü bandı",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Ağır Sıvı Taşıyıcıları",
   "Move the Parking HQ panel": "Kamyon merkezi panelini taşı",
   "Grand Market": "Büyük Market",
+  "Household items": "Ev eşyaları",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Bir konut bloğunun bir kenarının tamamını kaplayan büyük bir market; dört normal yerleşke binası kadar yer tutar.\n\nİki yerine aynı anda dört farklı yiyecek türü depolar, böylece tek bir bina bir yerleşkenin tüm beslenmesini karşılayabilir.\n\nGıda marketi II'nin geliştirilmiş hâli değildir — ayrı olarak inşa edilir ve çalışmak için elektrik ve bilgi işlem gerektirir.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Bir konut bloğunun bir kenarının tamamını kaplayan ve aynı anda dört farklı yiyecek türü depolayan geniş bir market olan Büyük Market'in kilidini açar."
 }

@@ -4,6 +4,7 @@
         "is_integer": true,
         "description": "Совершенно новый мир «Captain of Industry», ослепительное место, о котором я никогда не знал.",
         "min": 0,
-        "max": 0
+        "max": 0,
+        "name": "Сообщение"
     }
 }

@@ -374,6 +374,8 @@
   "Set No-stop Sections": "ノンストップ区間の設定",
   "Set Exclusive Zones": "専用ゾーンの設定",
   "Modify Pillars - Trains": "柱の変更 - 列車",
+  "Open Transports and activate its Modify Pillars tool.": "輸送メニューを開き、柱の変更ツールを有効にします。",
+  "Open Trains and activate its Modify Pillars tool.": "列車メニューを開き、柱の変更ツールを有効にします。",
   "Modify Waypoints": "ウェイポイントの変更",
   "Electrify Track": "線路の電化",
   "Cargo depot": "貨物ターミナル",

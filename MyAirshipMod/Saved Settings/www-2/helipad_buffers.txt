@@ -1,0 +1,3 @@
+6799:0=Product_Dirt,19994,500000
+6799:1=Product_Rock,128528,500000
+6799:2=Product_IronOre,412796,500000

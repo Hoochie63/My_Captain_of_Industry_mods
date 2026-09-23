@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Встановити ділянки без зупинок",
   "Set Exclusive Zones": "Встановити ексклюзивні зони",
   "Modify Pillars - Trains": "Змінити колони - Потяги",
+  "Open Transports and activate its Modify Pillars tool.": "Відкриває меню транспорту й активує інструмент зміни колон.",
+  "Open Trains and activate its Modify Pillars tool.": "Відкриває меню потягів й активує інструмент зміни колон.",
   "Modify Waypoints": "Змінити точки маршруту",
   "Electrify Track": "Електрифікація колії",
   "Cargo depot": "Вантажний склад",

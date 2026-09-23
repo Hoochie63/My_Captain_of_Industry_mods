@@ -112,7 +112,7 @@
   "On the deck now": "Obecnie na płycie",
   "Refuel helicopters": "Tankuj helikoptery",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Bazy helikopterów o wyższym priorytecie dostają helikoptery jako pierwsze. Każda Baza helikopterów zapełnia się przed jakimkolwiek budynkiem Open Heliport - helikoptery zostają na Open Heliport dopiero wtedy, gdy wszystkie Bazy helikopterów są pełne.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Gdy włączone, helikoptery stojące w tej bazie są tankowane z jej zbiornika oleju napędowego. Napełnij zbiornik przez porty rurowe albo pozwól dostarczyć paliwo ciężarówkom.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Gdy włączone, helikoptery stojące w tej bazie są tankowane z jej zbiorników oleju napędowego (diesel) i wodoru, każdy paliwem, na którym pracuje. Napełnij zbiorniki przez porty rurowe albo pozwól dostarczyć paliwo ciężarówkom.",
   "Helicopter Types": "Typy helikopterów",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Garaż serwisowy — mechanicy obsługują tu helikoptery stojące w tej bazie, spowalniając zużycie konserwacji aż do pokazanego poziomu procentowego. Wyższe ustawienia pobierają więcej energii i mechaników. Helikoptery są serwisowane tylko wtedy, gdy stoją na płycie.",
   "Bridge Belt": "Taśma mostowa",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Ciężkie Cysterny",
   "Move the Parking HQ panel": "Przesuń panel Bazy ciężarówek",
   "Grand Market": "Wielki targ",
+  "Household items": "Artykuły domowe",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Duży targ zajmujący całą jedną stronę bloku mieszkalnego, w miejscu czterech zwykłych budynków osady.\n\nPrzechowuje cztery różne rodzaje żywności naraz zamiast dwóch, więc jeden budynek może pokryć całą dietę osady.\n\nTo nie jest ulepszenie Sklepu spożywczego II — buduje się go osobno, a do działania potrzebuje elektryczności i mocy obliczeniowej.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Odblokowuje Wielki targ — duży targ, który zajmuje całą jedną stronę bloku mieszkalnego i przechowuje cztery różne rodzaje żywności naraz."
 }

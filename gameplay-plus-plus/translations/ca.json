@@ -112,7 +112,7 @@
   "On the deck now": "Actualment a la coberta",
   "Refuel helicopters": "Reposta els helicòpters",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "Els QG d'helicòpters amb una prioritat més alta reben helicòpters primer. Tots els QG d'helicòpters s'omplen abans que qualsevol Heliport obert - els helicòpters només es queden en un Heliport obert quan tots els QG d'helicòpters estan plens.",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "Quan està activat, els helicòpters que es troben en aquest QG reposten del seu emmagatzematge de Gasoil. Ompliu l'emmagatzematge amb els ports de canonada o deixeu que els camions el subministrin.",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "Quan està activat, els helicòpters que es troben en aquest QG reposten del seu emmagatzematge de Gasoil i Hidrogen, cadascun amb el combustible amb què funciona. Ompliu l'emmagatzematge amb els ports de canonada o deixeu que els camions el subministrin.",
   "Helicopter Types": "Tipus d'helicòpters",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "Garatge de manteniment: els mecànics d'aquí atenen els helicòpters que es troben en aquesta base i redueixen la velocitat amb què consumeixen manteniment, fins al percentatge indicat. Els ajustos més alts requereixen més potència i mecànics. Els helicòpters només reben manteniment mentre són a la coberta.",
   "Bridge Belt": "Cinta del pont",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "Camions Cisterna Pesats",
   "Move the Parking HQ panel": "Mou el tauler del QG de camions",
   "Grand Market": "Gran Mercat",
+  "Household items": "Articles de la llar",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "Un gran mercat que ocupa tot un costat d'un bloc d'habitatges i pren l'espai de quatre edificis normals d'assentament.\n\nEmmagatzema quatre aliments diferents alhora en lloc de dos, de manera que un sol edifici pot cobrir tota la dieta d'un assentament.\n\nNo és una millora del Mercat d'aliments II — es construeix per separat i necessita electricitat i computació per funcionar.",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "Desbloqueja el Gran Mercat, un gran mercat que ocupa tot un costat d'un bloc d'habitatges i emmagatzema quatre aliments diferents alhora."
 }

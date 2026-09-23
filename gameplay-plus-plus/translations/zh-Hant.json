@@ -112,7 +112,7 @@
   "On the deck now": "目前在停機坪上",
   "Refuel helicopters": "為直升機加油",
   "Helicopter HQs with higher priority receive helicopters first. Every Helicopter HQ is filled before any Open Heliport - helicopters only stay at an Open Heliport when all Helicopter HQs are full.": "優先等級較高的直升機總部會優先接收直升機。所有直升機總部都會先被填滿，才會使用任何 Open Heliport——只有當所有直升機總部都已滿員時，直升機才會停留在 Open Heliport。",
-  "When enabled, helicopters standing on this HQ are refuelled from its Diesel storage. Fill the storage with the pipe ports or let trucks deliver.": "啟用後，停在此總部的直升機會從其柴油儲存中補充燃料。可透過管道連接口填充儲存，或讓卡車運送補給。",
+  "When enabled, helicopters standing on this HQ are refuelled from its Diesel and Hydrogen storage, each one from the fuel it runs on. Fill the storage with the pipe ports or let trucks deliver.": "啟用後，停在此總部的直升機會從其柴油與氫氣儲存中補充燃料，每架直升機使用其所用的燃料。可透過管道連接口填充儲存，或讓卡車運送補給。",
   "Helicopter Types": "直升機類型",
   "Serviced Garage — Mechanics here service the helicopters standing on this base, reducing how fast they consume maintenance, up to the percentage shown. Higher settings draw more power and mechanics. Helicopters are only serviced while on the deck.": "維修車廠 — 此處的機械師會維護停放在此基地的直升機，降低其消耗維護的速度，最高可達所示百分比。設定越高，需要的電力與機械師越多。直升機僅在停機坪上時才會被維護。",
   "Bridge Belt": "橋樑輸送帶",
@@ -121,6 +121,7 @@
   "Heavy Tankers": "重型流體運輸車",
   "Move the Parking HQ panel": "移動卡車總部面板",
   "Grand Market": "大型市場",
+  "Household items": "家居用品",
   "A large market that spans a full side of a housing block, taking the space of four normal settlement buildings.\n\nIt stores four different foods at once instead of two, so a single building can cover a settlement's whole diet.\n\nIt is not an upgrade of the Food market II — it is built separately and needs electricity and computing to run.": "一座大型市場，佔據住宅街區的一整側，佔地相當於四座普通定居點建築。\n\n它可以同時存放四種不同的食物，而非兩種，因此單一建築就能滿足整個定居點的飲食需求。\n\n它並非食品市場 II 的升級版——它需要獨立建造，運作時需要電力與算力。",
   "Unlocks the Grand Market, a large market that takes up a full side of a housing block and stores four different foods at once.": "解鎖大型市場——一座佔據住宅街區一整側、可同時存放四種不同食物的市場。"
 }

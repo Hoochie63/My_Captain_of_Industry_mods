@@ -22,6 +22,7 @@
     "Reset": "Сбросить",
     "Unsorted": "<align=\"center\">Общий буфер</align>",
     "Sorted": "<align=\"center\">Буфер ресурса</align>",
+    "Retired waste": "Распавшиеся ядерные отходы",
     "Custom Capacity": "Пользовательская вместимость",
     "Default: {0}": "<align=\"center\">Базовое значение:<br>{0}</align>",
     "Current: {0}": "<align=\"center\">Установленное значение:<br>{0}</align>",

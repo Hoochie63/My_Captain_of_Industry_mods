@@ -374,6 +374,8 @@
   "Set No-stop Sections": "Megállásmentes szakaszok beállítása",
   "Set Exclusive Zones": "Kizárólagos zónák beállítása",
   "Modify Pillars - Trains": "Oszlopok módosítása - Vonatok",
+  "Open Transports and activate its Modify Pillars tool.": "Megnyitja a Közlekedés menüt, és aktiválja az Oszlopok módosítása eszközt.",
+  "Open Trains and activate its Modify Pillars tool.": "Megnyitja a Vonatok menüt, és aktiválja az Oszlopok módosítása eszközt.",
   "Modify Waypoints": "Útpontok módosítása",
   "Electrify Track": "Pálya villamosítása",
   "Cargo depot": "Rakományraktár",
