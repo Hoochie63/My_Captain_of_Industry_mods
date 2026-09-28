@@ -92,5 +92,6 @@
   "Set Capacity": "Kapasiteyi ayarla",
   "No shipyard found": "Tersane bulunamadı",
   "Shipyard capacity set to {0}": "Tersane kapasitesi {0} olarak ayarlandı",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ yüklü ve tersane kapasitesini kontrol ediyor — bunu Cheat++'ın Tersane sekmesinden değiştirin."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ yüklü ve tersane kapasitesini kontrol ediyor — bunu Cheat++'ın Tersane sekmesinden değiştirin.",
+  "Settlement Modules": "Yerleşke modülleri"
 }

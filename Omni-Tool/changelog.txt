@@ -1,3 +1,26 @@
+v0.9.3 | 2026-09-24
+
+VEHICLE DEPOT COMPATIBILITY & DISPATCH
+======================================
+- Added profile-saved Balanced Queue and Immediate Dispatch strategies to Scrap and Replace. Balanced Queue remains the default and releases one active order per compatible depot lane; Immediate Dispatch submits every validated order together and lets the game choose each depot.
+- Generalized depot discovery to the game's VehicleDepotBase so compatible custom garages participate alongside vanilla depots.
+- Matched native compatibility rules before submitting an order. Scrap requires a currently usable depot that accepts the source vehicle; replacement requires one depot that supports both the source and target vehicle types.
+- Incompatible orders are skipped instead of entering a doomed queue. The Micro-HUD reports queued or dispatched totals, missing compatible scrap/replacement depots, and native command rejection.
+
+SIMULATION COLLECTION SAFETY
+============================
+- Removed the pooled global-entity enumeration that could assert while Scrap / Replace refreshed its depot cache. Depots are discovered through an indexed sync-phase snapshot, tracked by entity add/remove events, retained only as IDs, and resolved again before compatibility checks.
+- Rebuilt the depot queue boundary around vehicle IDs and immutable UI snapshots. Vehicles destroyed between selection, validation, dispatch, status polling, or cancellation are rejected or completed cleanly without stale entity references.
+- Moved logistics-zone reads and marked-tree counts into periodic sync-phase snapshots. The Micro-HUD consumes plain zone names, colors, and IDs; marked-tree removal is also dispatched through the sync phase.
+- Moved custom tree planting, nature sweeping, terrain sculpting, Terrain Eraser, and their undo mutations into the supported sync phase. Nature collection enumerables are fully materialized there before bounded batches run.
+- Switched movement, storage, building-settings, downgrade, deconstruction, and Cheat++ storage-mode commands to native EntityId constructors so queued commands resolve their targets at execution time.
+
+LANGUAGE
+========
+- Re-audited all 21 language catalogs. Every 290-key catalog matches English with no missing or empty values; this safety pass adds no new interface vocabulary.
+
+=========================
+
 v0.9.2 | 2026-09-21
 
 - Tool cards and Omni-Belt profile cards now have permanent native drag handles. Cards follow the cursor and show their insertion position while reordering.

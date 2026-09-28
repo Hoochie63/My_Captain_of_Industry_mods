@@ -118,5 +118,6 @@
   "Set Capacity": "Kapazität festlegen",
   "No shipyard found": "Keine Werft gefunden",
   "Shipyard capacity set to {0}": "Werftkapazität auf {0} gesetzt",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ ist geladen und steuert die Werftkapazität — ändere sie im Werft-Tab von Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ ist geladen und steuert die Werftkapazität — ändere sie im Werft-Tab von Cheat++.",
+  "Settlement Modules": "Siedlungs-Module"
 }

@@ -83,6 +83,7 @@
   "Cargo Ship ({0} modules)": "Navire cargo ({0} modules)",
   "Cargo Ship Modules": "Modules du navire cargo",
   "Cargo Depot Modules": "Modules du dépôt de fret",
+  "Settlement Modules": "Modules de la colonie",
   "{0} capacity reset to {1}": "{0} : capacité réinitialisée à {1}",
   "{0} is already at its default.": "{0} est déjà à sa valeur par défaut.",
   "Shipyard": "Chantier naval",

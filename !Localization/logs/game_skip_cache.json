@@ -1,38 +1,109 @@
 {
     "Игра (Translations/ru.json)": {
         "logic_version": 1,
-        "dict_mtime": 1790099560.136,
-        "target_mtime": 1790158413.1877956,
+        "dict_mtime": 1790427134.63,
+        "target_mtime": 1790496433.4751508,
         "was_real_write": true,
         "entry": {
             "mod_name": "Игра (Translations/ru.json)",
             "category": "game",
             "rel_path": "ru.json",
-            "matched": 4843,
+            "matched": 4833,
             "changed": 2,
             "placeholder_mismatch": 0,
-            "dict_outdated": 0,
+            "dict_outdated": 10,
             "untranslated": 0,
             "dict_leaves": 4843,
-            "target_leaves": 4843,
-            "outdated_keys": [],
+            "target_leaves": 4833,
+            "outdated_keys": [
+                [
+                    [
+                        "AlertsNotifHud_LearnMore",
+                        0
+                    ],
+                    "Подробнее"
+                ],
+                [
+                    [
+                        "GameSaveLoad__DiskFull",
+                        0
+                    ],
+                    "Недостаточно места на диске (свободно {0})"
+                ],
+                [
+                    [
+                        "LaunchPad_CannotDeconstruct__HasRocket",
+                        0
+                    ],
+                    "Стартовую площадку нельзя демонтировать, пока на ней находится ракета."
+                ],
+                [
+                    [
+                        "LaunchPad_CannotDeconstruct__TransporterAway",
+                        0
+                    ],
+                    "Транспортер ракеты должен покинуть стартовую площадку, прежде чем её возможно будет демонтировать."
+                ],
+                [
+                    [
+                        "Markdown_WatchOnYouTube",
+                        0
+                    ],
+                    "Перейти на YouTube"
+                ],
+                [
+                    [
+                        "ModInvalid_ReservedIdPrefix",
+                        0
+                    ],
+                    "Идентификатор мода не может начинаться с префикса '{0}'"
+                ],
+                [
+                    [
+                        "NuclearReactor__DisableBeforeDeconstruction",
+                        0
+                    ],
+                    "Демонтаж реактора возможен только после его остановки"
+                ],
+                [
+                    [
+                        "Save__OldAutoSaveDeleteFailed",
+                        0
+                    ],
+                    "Игра сохранена, однако старый файл автосохранения удалить не удалось."
+                ],
+                [
+                    [
+                        "TrainStation_NetworkLoadRule",
+                        0
+                    ],
+                    "Отгрузка поездами, если больше:"
+                ],
+                [
+                    [
+                        "TrainStation_NetworkUnloadRule",
+                        0
+                    ],
+                    "Доставка поездами, если меньше:"
+                ]
+            ],
             "placeholder_mismatch_details": [],
             "changed_details": [
                 [
                     [
-                        "NoWaterDisease__desc",
+                        "EntityCannotBeReachedDesc",
                         0
                     ],
-                    "Бактериальные заболевания распространяются через загрязненную воду. Чтобы предотвратить это заболевание в будущем, убедитесь, что поселение снабжается чистой водой.",
-                    "<align=\"center\">Бактериальные заболевания распространяются через загрязненную воду.<br>Чтобы предотвратить это заболевание в будущем, убедитесь, что поселение снабжается чистой водой.</align>"
+                    "Водители ругаются, что к зданию невозможно добраться! Обеспечьте свободный проезд или запретите доставку/отгрузку грузовой техникой.",
+                    "<br><align=\"center\">Водители ругаются, что к зданию невозможно добраться!<br>Обеспечьте свободный проезд или запретите доставку/отгрузку грузовой техникой.</align>"
                 ],
                 [
                     [
-                        "ReplaceVehicle__WaitingForReplace",
+                        "EntityCannotBeReached__name",
                         0
                     ],
-                    "Техника ожидает, пока автозавод завершит переоборудование.",
-                    "<align=\"center\">Эта техника ожидает, пока автозавод завершит переоборудование.</align>"
+                    "<color=#FFCE56>«{entity}»</color> находится в недоступном для технике месте.",
+                    "<align=\"center\"><color=#FFCE56>«{entity}»</color> находится в недоступном для техники месте.</align>"
                 ]
             ],
             "untranslated_keys": []
@@ -40,20 +111,20 @@
     },
     "Патч-ноты (Changelog/ru.json)": {
         "logic_version": 1,
-        "dict_mtime": 1790088375.8828082,
-        "target_mtime": 1790158413.2008114,
+        "dict_mtime": 1790496433.4962673,
+        "target_mtime": 1790593349.3881543,
         "was_real_write": true,
         "entry": {
             "mod_name": "Патч-ноты (Changelog/ru.json)",
             "category": "game",
             "rel_path": "ru.json",
-            "matched": 166,
+            "matched": 167,
             "changed": 0,
             "placeholder_mismatch": 0,
             "dict_outdated": 0,
             "untranslated": 0,
-            "dict_leaves": 166,
-            "target_leaves": 166,
+            "dict_leaves": 167,
+            "target_leaves": 167,
             "outdated_keys": [],
             "placeholder_mismatch_details": [],
             "changed_details": [],

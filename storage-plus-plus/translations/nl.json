@@ -92,5 +92,6 @@
   "Set Capacity": "Capaciteit instellen",
   "No shipyard found": "Geen scheepswerf gevonden",
   "Shipyard capacity set to {0}": "Capaciteit van de scheepswerf ingesteld op {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ is geladen en bepaalt de capaciteit van de scheepswerf — wijzig deze op het tabblad Scheepswerf van Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ is geladen en bepaalt de capaciteit van de scheepswerf — wijzig deze op het tabblad Scheepswerf van Cheat++.",
+  "Settlement Modules": "Nederzettingsmodules"
 }

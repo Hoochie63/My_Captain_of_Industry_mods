@@ -83,6 +83,7 @@
   "Cargo Ship ({0} modules)": "貨物船（{0}モジュール）",
   "Cargo Ship Modules": "貨物船のモジュール",
   "Cargo Depot Modules": "貨物ターミナルのモジュール",
+  "Settlement Modules": "居住区のモジュール",
   "{0} capacity reset to {1}": "{0}の容量を{1}にリセットしました",
   "{0} is already at its default.": "{0}はすでにデフォルト値です。",
   "Shipyard": "造船所",

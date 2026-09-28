@@ -1,10 +1,1 @@
-{
-    "message": {
-        "default": 0,
-        "is_integer": true,
-        "description": "Доведение до совершенства требует времени. Твой остров сам себя не оптимизирует!",
-        "min": 0,
-        "max": 0,
-        "name": "Сообщение"
-    }
-}
+{"message": {"default": 0, "is_integer": true, "description": "Tweaking perfection takes time. Your island won't optimize itself!", "min": 0, "max": 0}}

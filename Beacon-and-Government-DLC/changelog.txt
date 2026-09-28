@@ -1,3 +1,47 @@
+v1.1.0b | 2026-09-27
+
+[EXPORT YARD LOAD HOTFIX]
+* Fixed existing Export Yards becoming unable to dispatch after loading a save; their saved power consumer is restored, and the Fulfill button now reflects worker/power availability.
+
+v1.1.0 | 2026-09-26
+
+Major update:
+Regional reputation, trust & exports
+====================================
+All Beacon & Government+ systems now scale as you increase regional settlements reputation, gain trust through bartering with Captain's Currency and complete repeatable research.
+* Captain's currency now displays next to unity in the HUD once some coins have been earned. Left clicking it shows trades & exports (F3), right clicking it opens the goverments edicts (F5). The Coin in HUD can be disabled in F3 → Regional Exports Tab And F5 Edict screen now has 2 tabs for Beacon Policies & Regional Subsidies.
+* Added Captain's Currency, Beacon Network Unity, regional reputation and trust readouts where relevant in F5 and F3 Menus and building inspectors.
+* Kayser's Pre-Industrial Era  Tier-0 Lighthouse keeps its own refugee and supply rewards; Beacon & Government rewards and Captain's Currency begin only after the normal Beacon is constructed and no longer overwrite pre-Industrial's intended beacon reward progression.
+
+[REGIONAL EXPORTS]
+* Added Regional Export Yards tier I-IV, with 250/500/750/1,000 units of intake-only storage per unlocked beacon reward. New Yards begin with truck intake disabled, so food and other goods are opt-in.
+* Each explored settlement independently may request up to three products every three years. Dispatch a repaired Cargo Ship to fulfill an order for Captain's Currency. Any settlement can receive one delivery per request period.
+* Added a native F3 Regional exports overview with settlement browsing, demand, fulfillment and direct Yard access.
+* Payouts depend on item quality and quantities sent. Send Minimum (preserves surplus), Current stock (sends all stored requested goods if minimums are met), or Maximum (waits until all requested storages are full). Optional export automation follows the same mode; researching the next Yard tier unlocks automation for the previous tier.
+* Added per-product intake controls; Choose Enable All/Disable All/Request only or manual selection; trucks will only deliver enabled products.
+* Sort storage by name/rarity/quantity/category, storage filters, use a six-row expanded view, and review export history for the list 20 orders. Deconstructed yard-contents are queued for recovery to the primary Shipyard, including when none is currently available.
+
+[GOVERNMENT, REPUTATION & TRUST]
+* Completed village-reputation levels add up to +25% to Beacon rewards and Captain's Exchange Quick Trade quantities, increase regional aid-request chance from 50% to at most 75%, and discount subsidies by up to 25%.
+* Added Regional Trust: each Captain's Currency coin earned or spent grants one permanent trust. Post-Government Office I research now requires increasing Regional trust to continue unlocking later research, starting at 100 trust; Use Beacon Network, quick trades, and later, exports & subsidies to build your trust with other regions.
+* Adds one new Beacon reward policy to redirect immigrants for 5% more product reward after each beacon cycle and four new emergency subsidies: garbage, water, wastewater & unity. They're expensive, but can help prevent death-spiral crisis if you've been a good neighbor. Future updates will further reduce cost as trust increases.
+* Every five regional-reputation levels unlock multiple purchase scaling options for Quick Trade and subsidies, reaching 5× at +20 reputation levels. Scale multiplies subsidy capacity or quick trades quantities and purchase price for bigger one-time purchases.
+* Moved the former standalone policy window into native F5 Captain's Office menu: Beacon Policies tab and Regional Subsidies tab.
+* Added repeatable Power Subsidy Capacity research after the Regional Power Agreements node. It requires five completed village-reputation levels and 2000 Regional Trust to start, each level increases Power Generation Subsidy output by 25% per level but is not required to continue researching further nodes. Regional Trust requirements rise by 250 per level, uses extreme repeat research cost type scaling and caps at level 20.
+
+[ITEM QUALITY]
+* Added Product quality colors to all beacon rewards to show their rarity and relative value, shown in Captain's Exchange quick trades and Export Yard.
+* Added configurable rarity-filtered Quick Trade notification alerts, off by default. When on, a notification will appear anytime your selected rarity appears for quick trade in a captain's exchange.
+* Added new epic and legendary quick trades. 1000 coin Cargo Ship with permenant price increase after each purchase, Instant 100 Unity, which cannot go over your unity cap and Instant research points, which scale depending on your current research progression.
+* Added fuel gas and hydrogen to all Beacon+ systems and adjusted some beacon network reward & quick trades quantities and export sell prices based on a 33% buy/sell value, not including reputation gains buffs. With a fully unlocked reputation, trust and repeatable research in future B&G+ updates, quick trades can become profitable, while limited.
+
+* Full translations audits across all 21 supported languages.
+
+OTHER MOD COMPATIBILITY
+=======================
+* Beacon research details include prerequisite research cards with click-to-navigate support, even without Procedural Research Tree installed.
+* All data read and write is saved to localized snapshots and recalled safely to avoid enumeration failures with other mods.
+
 v1.0.5c | 2026-09-17
 
 * Rebuilt and verified against Captain of Industry 0.8.7c and 0.8.7d.
@@ -57,20 +101,6 @@ v1.0.3 | 2026-08-30
 * Restored Coastal Immigration Beacon's authority over the main Beacon while keeping Relay Beacons on an independent unrestricted 5x5 layout in either mod load order.
 * Now all intended features and placement restrictions work when Coastal Immigration Beacon Mod is installed with Beacon & Government+.
 
-v1.0.3 | 2026-08-30
-
-[REAL CARGO SHIPS & GOVERNMENT PANEL POLISH]
-* Replaced the temporary straight-line Exchange courier with a real vanilla cargo ship that follows water routes, steers around terrain, respects pause and game speed, uses the Captain's Exchange's rotated ocean berth, and returns through open water.
-* Delivery ships are now a permanent part of Quick Trades, so the temporary Show delivery ships checkbox has been retired.
-* Saving during a delivery safely despawns any incoming delivery ships. If a ship is interrupted this way, the order tries again.
-* If a Captain's Exchange is deconstructed, its orders move to another one. If no safe delivery is possible yet, the orders simply wait.
-* Rebuilt the Government Office inspector and Ctrl+F5 window around one synchronized native-style Regional Policies panel, with 0/I policy controls and I-V selectors for one-to-five subsidy terms.
-* Gave Relay Beacons, Captain's Exchanges, and both Government Offices new custom colors to tell them apart from the originals. You can recolor them further with the recolor mod.
-* Reduced Construction Parts I-IV Quick Trade quantities by another 15% and raised their prices so Exchange offers no longer bypass the intended early progression bottleneck.
-
-[COMPATIBILITY]
-* Restored Coastal Immigration Beacon's authority over the main Beacon while keeping Relay Beacons on an independent unrestricted 5x5 layout in either mod load order.
-* Now all intended features and placement restrictions work when Coastal Immigration Beacon Mod is installed with Beacon & Government+.
 v1.0.2 | 2026-08-28
 
 [BALANCE & CONTRACT FIXES]

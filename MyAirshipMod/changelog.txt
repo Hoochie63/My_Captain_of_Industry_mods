@@ -1,3 +1,17 @@
+v0.8.25 | 2026-09-27
+* 感谢社区玩家Wektis 提供bug反馈。已经核实挖掘飞艇确实无视分拣厂的"限定矿物"设置，确实bug存在。
+* - `CanOreSortingPlantAcceptProduct` 中,产品未登记时反射读`AutoAssignBuffers` ,为 false 则返回 false(该厂不再被选为卸货点);
+- `StoreProductToOreSortingPlant` 中,产品未登记且`AutoAssignBuffers == false` 时直接返回 false 拒收(双保险,防止飞行途中用户改了配置);
+- 顺带补上`DoNotAcceptSingleProduct` (飞艇几乎总是单品种矿石)和总容量`CapacityLeftForMixed` 检查。  
+* 被限定的分拣厂不再被选为卸货点;即使飞行途中用户改了配置,落地卸货时也会被拒收,飞艇自动转投其它目标或回停机坪待命。同样说了总量检查限定，超过分拣厂容量时也不会卸载。确保了分拣厂的逻辑安全。
+* 修复极端情况下，矿山控制塔的开采区耗尽时可能清空挖掘飞艇内置缓冲区的问题。
+* Thanks to community player Wektis for submitting the bug report. It has been verified that mining airships ignore the "Restricted Minerals" setting of ore sorting plants, confirming the existence of this bug.
+* - In `CanOreSortingPlantAcceptProduct`, when the product is not registered, `AutoAssignBuffers` is read reflectively. If it is false, false is returned (this plant will no longer be selected as an unloading point);
+- In `StoreProductToOreSortingPlant`, if the product is unregistered and `AutoAssignBuffers == false`, false is returned directly to reject the product (double safeguard to prevent users from changing configurations mid-flight);
+- Added checks for `DoNotAcceptSingleProduct` (airships almost always carry a single mineral type) and total capacity `CapacityLeftForMixed`.
+* Restricted ore sorting plants will no longer be selected as unloading points. Even if users modify configurations during flight, cargo will be rejected upon landing for unloading. The airship will automatically switch to another target or return to the hangar and wait. Total volume limits are also enforced; unloading will not happen if the cargo exceeds the ore sorting plant's capacity. This ensures logical integrity for ore sorting plants.
+* Fixed an edge case where depleting the mining zone of a mine control tower could clear the internal buffer of mining airships.
+
 v0.8.24 | 2026-09-22
 * 感谢社区网友Hoochie提供的bug线索和改进方向。
 * 问题1：标记若无道路连接，寻路返回失败（ VehiclePathFindingTask.SetResult 走失败分支）→ 目标回调`OnNavigationResult(false)` 把该标记写入"不可达"缓存 → TerrainMiningManager.TryFindClosestReadyToMine 和 MiningJob 的选择逻辑会过滤掉这些标记，飞艇根本接不到任务。

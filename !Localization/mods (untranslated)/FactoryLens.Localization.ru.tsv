@@ -1,0 +1,113 @@
+# Factory Lens Russian localization. Format: stable key<TAB>translated text
+window.title	Factory Lens
+controls.icons_only	Только иконки
+controls.labels_only	Только метки
+controls.icons_and_labels	Иконки + метки
+controls.opacity	Прозрачность
+controls.width	Ширина
+controls.overlay_on_tooltip	<align="center">Наложение на карту <color=#56AA5A>включено</color>: причины простоя отображаются над строениями.<br>{0}: выключить.</align>
+controls.overlay_off_tooltip	<align="center">Наложение на карту <color=#FF3838>выключено</color>. Включите, чтобы отображать причины простоя над строениями.<br>{0}: переключить.</align>
+controls.mode_tooltip	<align="center">Метки на карте: {0}.<br>Нажмите для переключения между «иконки + метки», «только иконки» и «только метки».</align>
+controls.width_tooltip	<align="center">Перетащите ползунок, чтобы изменить ширину панели.<br>Значение сохраняется.</align>
+controls.opacity_tooltip	<align="center">Перетащите ползунок, чтобы изменить прозрачность панели.<br>Значение сохраняется.</align>
+summary.need_action	Исправить: {0}
+summary.working	Работает: {0}
+summary.waiting_forecasts	Ожидание: {0} • прогноз: {1}
+summary.idle_trucks	Свободная техника: {0}<br><br>
+overview.title	Проблемы: {0}/{1}
+overview.unloading	Разгрузка
+overview.material	Материалы
+overview.resources	Ресурсы
+overview.setup	Настройка
+overview.other	Прочее
+section.needs_action	<br><align="center">Исправить сейчас • {0}</align>
+section.no_problems	Проблем нет
+card.what_to_do	Что сделать: {0}
+card.go_to_tooltip	Перейти к зданию
+card.go_to_cause_tooltip	Перейти к первопричине
+card.repeated_tooltip	Эта же проблема возникала {0} раз в недавнем окне анализа.
+card.selected_action	→ {0}
+card.cause_trace	Цепочка причин: {0}
+card.repeated	Повторялось {0} раз в недавнем окне анализа.
+status.unknown	Неизвестное состояние
+status.output_buffering	Выход заполнен
+status.needs_unloading	Требуется разгрузка
+status.waiting_for	Ожидание
+status.needs_material	Требуется материал
+status.no_electricity	Нет электричества
+status.no_computing	Недостаточно вычислений
+status.no_workers	Недостаточно рабочих
+status.needs_repair	Требуется ремонт
+status.invalid_placement	Недопустимое размещение
+status.select_recipe	Выберите рецепт
+status.paused	Приостановлено игроком
+status.idle	Не запущено
+status.output_risk	Выход почти заполнен
+status.input_risk	Материал заканчивается
+status.working	Работает
+status.output_fills_in	{0}: выход заполнится через {1}
+status.input_cycles_left_one	{0}: осталось на {1} цикл
+status.input_cycles_left_few	{0}: осталось на {1} цикла
+status.input_cycles_left_many	{0}: осталось на {1} циклов
+status.input_runs_out_in	{0}: закончится через {1}
+explanation.output_buffering	Выход только что заполнился. Factory Lens немного подождёт, прежде чем сообщить о блокировке.
+explanation.output_full	Готовая продукция не может покинуть строение, поэтому следующий производственный цикл не может начаться.
+explanation.flow_wait	Это строение потребляет поток и запускается автоматически при появлении материала. Это нормально.
+explanation.short_wait	Это короткая пауза между поставками. Действий пока не требуется.
+explanation.missing_input	Необходимый материал не доходит до строения, поэтому производство остановлено.
+explanation.no_power	Строение остановлено, потому что остров не может обеспечить достаточно электроэнергии.
+explanation.no_computing	Строение остановлено, потому что не хватает вычислительных мощностей.
+explanation.no_workers	Строение не может работать с текущим количеством доступных рабочих.
+explanation.broken	Строение остановилось из-за проблем с обслуживанием.
+explanation.no_recipe	Строению не назначен производственный рецепт.
+explanation.paused	Строение было намеренно приостановлено и не считается неисправностью.
+explanation.working	Строение производит продукцию в обычном режиме.
+explanation.prediction	Оценка основана на недавнем изменении буфера и исчезнет, когда поставка или отгрузка её меняют.
+explanation.logistics_confirmed	Эта причина основана на состоянии буфера строения, резервировании заданий, маршруте и транспортных портах, о которых сообщает игра.
+action.output_full	Проверьте выходное подключение, транспортёр или трубопровод, хранилище назначения и настройки отгрузки техникой.
+action.power	Увеличьте производство электроэнергии или временно снизьте потребление.
+action.computing	Добавьте вычислительные мощности или отключите менее важные потребители.
+action.workers	Увеличьте кол-во доступных рабочих или снизьте приоритет других рабочих мест.
+action.broken	Восстановите снабжение запчастей для обслуживания и дождитесь ремонта.
+action.invalid_placement	Перестройте строение в доступном месте.
+action.no_recipe	Откройте строение и выберите нужный рецепт.
+action.output_risk	Подготовьте дополнительное место для продукта, пока производство не остановилось.
+action.input_risk	Проверьте следующую поставку, пока входной буфер не опустел.
+action.input_transport	Запас есть выше по цепочке. Проверьте подключение транспортёра или трубопровода, доступность пути и приоритеты.
+action.input_capacity	Увеличьте производство выше по цепочке или снизьте потребление этого материала.
+action.input_external	Проверьте добычу, сбор, хранилища или доставку кораблями для этого материала.
+action.input_generic	Проверьте источник материала и путь его доставки к этому строению.
+action.predicted_output	Добавьте место на выходе или организуйте отгрузку до того, как оценка дойдёт до нуля.
+action.predicted_input	Организуйте следующую поставку или увеличьте производство выше по цепочке до исчерпания запаса.
+action.enable_import	Включите доставку техникой или подключите работающий транспортёр или трубопровод.
+action.enable_export	Включите отгрузку техникой или подключите работающий транспортёр или трубопровод.
+action.free_vehicle	Освободите технику, добавьте ещё одну или повысьте приоритет этого маршрута.
+action.create_job	Проверьте доставку/отгрузку, назначения, приоритеты и получателей.
+action.restore_route	Восстановите дорожный доступ между источником и получателем.
+action.wait_reservation	Проверьте рейс, который уже зарезервировал этот запас, или добавьте другой источник.
+action.clear_destination	Освободите или увеличьте буфер получателя.
+action.connect_transport	Подключите подходящий порт транспортёра или трубопровода.
+action.inspect_transport	Освободите первый заблокированный участок транспортёра или трубопровода.
+action.add_destination	Добавьте потребителя или хранилище назначения для этого продукта.
+action.add_external_supply	Добавьте добычу, сбор, хранилище или поставку кораблями для этого материала.
+action.increase_upstream	Увеличьте производство выше по цепочке или уменьшите потребление ниже неё.
+logistics.import_disabled	Доставка техникой отключена
+logistics.export_disabled	Отгрузка техникой отключена
+logistics.pickup_scheduled	отгрузка уже назначена
+logistics.delivery_scheduled	поставка уже назначена
+logistics.no_free_vehicles	нет свободной техники
+logistics.no_job_created	нет задания — техника свободна
+logistics.route_unavailable	маршрут недоступен
+logistics.product_reserved	запас уже зарезервирован
+logistics.destination_full	получатель заполнен
+logistics.transport_disconnected	транспортёр/трубопровод отключен
+logistics.transport_stalled	транспортёр/трубопровод остановлен
+logistics.no_destination	нет получателя
+logistics.external_supply	нет производителя
+logistics.upstream_capacity	недостаточно производства<br>выше по цепочке
+logistics.product_reason	<align="center">«{0}»:<br>{1}</align>
+trace.cause_here	Причина начинается здесь: {0}
+trace.check_here	Проверьте здесь: {0}
+duration.seconds	{0} сек.
+duration.minutes	{0} мин.
+duration.hours	{0} ч.

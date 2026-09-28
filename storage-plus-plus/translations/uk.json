@@ -92,5 +92,6 @@
   "Set Capacity": "Встановити місткість",
   "No shipyard found": "Верф не знайдено",
   "Shipyard capacity set to {0}": "Місткість верфі встановлено на {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Мод «Cheat++» завантажено, і він керує місткістю верфі — змініть її на вкладці «Верф» мода «Cheat++»."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Мод «Cheat++» завантажено, і він керує місткістю верфі — змініть її на вкладці «Верф» мода «Cheat++».",
+  "Settlement Modules": "Модулі поселення"
 }

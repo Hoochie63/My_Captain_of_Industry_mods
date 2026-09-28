@@ -1,3 +1,12 @@
+v1.4.2 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE GRAND MARKET NO LONGER SHOWS A MAINTENANCE COST — SETTLEMENT BUILDINGS CANNOT BE MAINTAINED, SO IT WAS NEVER CHARGED.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED: THE TRUCK HQ AND EXCAVATOR HQ RESEARCH NOW COST 516 EACH INSTEAD OF 12 (THANKS KAYSER FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.1 | 2026-09-22
 ────────────────────────────────────────────────────────────────────────
 * THE GRAND MARKET NOW ALSO STORES AND SUPPLIES HOUSEHOLD GOODS, APPLIANCES, CONSUMER ELECTRONICS AND LUXURY GOODS (THANKS BELARIEAN OF CANADA FOR THE SUGGESTION).

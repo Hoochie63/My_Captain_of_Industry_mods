@@ -92,5 +92,6 @@
     "Set Capacity": "Establecer capacidad",
     "No shipyard found": "No se encontró ningún astillero",
     "Shipyard capacity set to {0}": "Capacidad del astillero ajustada a {0}",
-    "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ está cargado y controla la capacidad del astillero — cámbiala desde la pestaña Astillero de Cheat++."
+    "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ está cargado y controla la capacidad del astillero — cámbiala desde la pestaña Astillero de Cheat++.",
+    "Settlement Modules": "Módulos del asentamiento"
 }

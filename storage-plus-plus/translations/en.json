@@ -83,6 +83,7 @@
   "Cargo Ship ({0} modules)": "Cargo Ship ({0} modules)",
   "Cargo Ship Modules": "Cargo Ship Modules",
   "Cargo Depot Modules": "Cargo Depot Modules",
+  "Settlement Modules": "Settlement Modules",
   "{0} capacity reset to {1}": "{0} capacity reset to {1}",
   "{0} is already at its default.": "{0} is already at its default.",
   "Shipyard": "Shipyard",

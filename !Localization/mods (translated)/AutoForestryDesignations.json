@@ -181,7 +181,7 @@
     ],
     [
         "AFD_SegmentTipFmt",
-        "<align=\"center\"><b>{0}:</b><br>{1} деревьев<br>({2:P0} от посаженых, {3:P0} от вместимости) {4}.</align>"
+        "<align=\"center\"><b>{0}:</b><br>{1} деревьев {4}<br>({2:P0} от посаженых, {3:P0} от вместимости).</align>"
     ],
     [
         "AFD_SegmentAboveHarvest",

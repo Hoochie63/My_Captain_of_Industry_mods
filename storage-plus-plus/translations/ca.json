@@ -92,5 +92,6 @@
   "Set Capacity": "Estableix la capacitat",
   "No shipyard found": "No s'ha trobat cap drassana",
   "Shipyard capacity set to {0}": "Capacitat de la drassana establerta a {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ està carregat i controla la capacitat de la drassana — canvia-la des de la pestanya Drassana de Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ està carregat i controla la capacitat de la drassana — canvia-la des de la pestanya Drassana de Cheat++.",
+  "Settlement Modules": "Mòduls de l'assentament"
 }

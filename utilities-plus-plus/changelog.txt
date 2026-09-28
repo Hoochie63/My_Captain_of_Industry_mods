@@ -1,3 +1,36 @@
+v1.3.0 | 2026-09-26
+────────────────────────────────────────────────────────────────────────
+* FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.2.9 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE FUEL TABS IN THE VEHICLE DEPOT NOW SPREAD OVER SEVERAL ROWS, THREE PER ROW, SO THEY STAY READABLE WHEN MODS ADD EXTRA FUEL TYPES.
+
+  - The tabs also keep a fixed order, so they stay in the same place from one depot to the next.
+
+────────────────────────────────────────────────────────────────────────
+* NEW PARALLEL LINES TOOL: BUILD SEVERAL BELTS, PIPES, MOLTEN CHANNELS OR TRAIN TRACKS SIDE BY SIDE IN ONE GO (THANKS LOADING FOR THE SUGGESTION).
+
+  - A small window opens when you build. Add up to 8 extra lines and pick each one's side, direction and gap.
+
+  - A preview shows the extra lines, and they follow every turn and curve you drag.
+
+  - Train tracks go on the outside of your turns by default, so curves stay smooth. The window tells you what to change if a turn is too tight.
+
+  - Belts and pipes can also be stacked in up to 8 layers (thanks iceball12 for the suggestion).
+
+  - Turn the tool on or off with the button in the build toolbar, Alt+D, or the checkmark in the Utilities++ Tools tab (thanks Mag for the suggestion).
+
+────────────────────────────────────────────────────────────────────────
+* FIXED: HIDING BELTS BY HEIGHT AND HIDING BUILDINGS, OFFICES AND TREES NOW KEEP WORKING WHEN YOU LOAD ANOTHER SAVE WITHOUT RESTARTING THE GAME.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED: THE COLOR PALETTE IN THE EFFICIENCY TAB NOW OPENS FOR EVERYONE. IT SHOWS RIGHT INSIDE THE TAB, UNDER THE STATE YOU ARE EDITING (THANKS VLADOVLAK FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
 v1.2.8 | 2026-09-22
 ────────────────────────────────────────────────────────────────────────
 * TESTED AND WORKING ON GAME VERSION 0.8.7D.

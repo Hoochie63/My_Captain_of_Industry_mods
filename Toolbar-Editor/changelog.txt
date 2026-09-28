@@ -1,3 +1,8 @@
+v2.1.9 | 2026-09-24
+
+[GAME VERSION VERIFICATION]
+* Verified for Captain of Industry v0.8.7d.
+
 v2.1.8 | 2026-09-14
 
 [FULL LANGUAGE SUPPORT]

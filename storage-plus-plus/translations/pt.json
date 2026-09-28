@@ -92,5 +92,6 @@
   "Set Capacity": "Definir capacidade",
   "No shipyard found": "Nenhum estaleiro encontrado",
   "Shipyard capacity set to {0}": "Capacidade do estaleiro definida para {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "O Cheat++ está carregado e controla a capacidade do estaleiro — altere-a na aba Estaleiro do Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "O Cheat++ está carregado e controla a capacidade do estaleiro — altere-a na aba Estaleiro do Cheat++.",
+  "Settlement Modules": "Módulos do assentamento"
 }

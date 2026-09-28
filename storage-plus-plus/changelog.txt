@@ -1,3 +1,25 @@
+v1.3.5 | 2026-09-26
+────────────────────────────────────────────────────────────────────────
+* FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.3.4 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE FUEL TABS IN THE VEHICLE DEPOT NOW SPREAD OVER SEVERAL ROWS, THREE PER ROW, SO THEY STAY READABLE WHEN MODS ADD EXTRA FUEL TYPES.
+
+  - The tabs also keep a fixed order, so they stay in the same place from one depot to the next.
+
+────────────────────────────────────────────────────────────────────────
+* THE SETTLEMENT WASTE, RECYCLABLES AND BIOMASS COLLECTION MODULES CAN NOW BE RESIZED IN THE STORAGE GROUND TAB, UNDER SETTLEMENT MODULES (THANKS LIQUID5150 FOR THE SUGGESTION).
+
+  - Modules already placed resize right away, so there is no need to rebuild them.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED: RESET, RESET ALL AND APPLY ALL CHANGES NOW EMPTY THE NUMBER BOXES, SO IT IS CLEAR THE VALUES WERE RESET OR APPLIED.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.3 | 2026-09-22
 ────────────────────────────────────────────────────────────────────────
 * THE RETIRED WASTE BUFFER IN THE RADIOACTIVE WASTE STORAGE CAN NOW BE RESIZED IN THE CAPACITY TAB, NEXT TO ITS NORMAL CAPACITY (THANKS THOMASTHEBRAVE FOR THE SUGGESTION).

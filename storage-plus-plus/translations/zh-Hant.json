@@ -92,5 +92,6 @@
   "Set Capacity": "設定容量",
   "No shipyard found": "找不到碼頭",
   "Shipyard capacity set to {0}": "碼頭容量已設定為 {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ 已載入並控制著碼頭容量 — 請在 Cheat++ 的碼頭分頁中變更。"
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ 已載入並控制著碼頭容量 — 請在 Cheat++ 的碼頭分頁中變更。",
+  "Settlement Modules": "定居點模組"
 }

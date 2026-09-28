@@ -92,5 +92,6 @@
   "Set Capacity": "Määra mahutavus",
   "No shipyard found": "Laevatehast ei leitud",
   "Shipyard capacity set to {0}": "Laevatehase mahutavuseks määrati {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ on laaditud ja juhib laevatehase mahutavust — muuda seda Cheat++ vahelehel Laevatehas."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ on laaditud ja juhib laevatehase mahutavust — muuda seda Cheat++ vahelehel Laevatehas.",
+  "Settlement Modules": "Asula moodulid"
 }

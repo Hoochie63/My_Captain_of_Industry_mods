@@ -83,6 +83,7 @@
   "Cargo Ship ({0} modules)": "Nave da carico ({0} moduli)",
   "Cargo Ship Modules": "Moduli della nave da carico",
   "Cargo Depot Modules": "Moduli del deposito merci",
+  "Settlement Modules": "Moduli dell'insediamento",
   "{0} capacity reset to {1}": "Capacità di {0} ripristinata a {1}",
   "{0} is already at its default.": "{0} è già al valore predefinito.",
   "Shipyard": "Cantiere navale",

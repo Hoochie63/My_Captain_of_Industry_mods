@@ -92,5 +92,6 @@
   "Set Capacity": "Nastavit kapacitu",
   "No shipyard found": "Loděnice nenalezena",
   "Shipyard capacity set to {0}": "Kapacita loděnice nastavena na {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ je načten a řídí kapacitu loděnice — změňte ji na kartě Loděnice v Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ je načten a řídí kapacitu loděnice — změňte ji na kartě Loděnice v Cheat++.",
+  "Settlement Modules": "Moduly osady"
 }

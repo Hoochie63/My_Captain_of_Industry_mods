@@ -83,6 +83,7 @@
   "Cargo Ship ({0} modules)": "화물선 ({0}개 모듈)",
   "Cargo Ship Modules": "화물선 모듈",
   "Cargo Depot Modules": "화물 터미널 모듈",
+  "Settlement Modules": "정착지 모듈",
   "{0} capacity reset to {1}": "{0} 용량을 {1}(으)로 초기화했습니다",
   "{0} is already at its default.": "{0}은(는) 이미 기본값입니다.",
   "Shipyard": "조선소",

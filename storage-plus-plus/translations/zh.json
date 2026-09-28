@@ -92,5 +92,6 @@
   "Set Capacity": "设置容量",
   "No shipyard found": "未找到码头",
   "Shipyard capacity set to {0}": "码头容量已设为 {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ 已加载并控制着码头容量 — 请在 Cheat++ 的码头标签页中更改。"
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ 已加载并控制着码头容量 — 请在 Cheat++ 的码头标签页中更改。",
+  "Settlement Modules": "定居点模块"
 }

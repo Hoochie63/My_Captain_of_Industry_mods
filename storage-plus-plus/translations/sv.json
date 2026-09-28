@@ -92,5 +92,6 @@
   "Set Capacity": "Ange kapacitet",
   "No shipyard found": "Inget skeppsvarv hittades",
   "Shipyard capacity set to {0}": "Skeppsvarvets kapacitet inställd på {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ är laddat och styr skeppsvarvets kapacitet — ändra den i fliken Skeppsvarv i Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ är laddat och styr skeppsvarvets kapacitet — ändra den i fliken Skeppsvarv i Cheat++.",
+  "Settlement Modules": "Bosättningsmoduler"
 }

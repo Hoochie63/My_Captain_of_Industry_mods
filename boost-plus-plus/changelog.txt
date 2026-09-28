@@ -1,3 +1,17 @@
+v1.3.5 | 2026-09-26
+────────────────────────────────────────────────────────────────────────
+* FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.3.4 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE FUEL TABS IN THE VEHICLE DEPOT NOW SPREAD OVER SEVERAL ROWS, THREE PER ROW, SO THEY STAY READABLE WHEN MODS ADD EXTRA FUEL TYPES.
+
+  - The tabs also keep a fixed order, so they stay in the same place from one depot to the next.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.3 | 2026-09-22
 ────────────────────────────────────────────────────────────────────────
 * TESTED AND WORKING ON GAME VERSION 0.8.7D.

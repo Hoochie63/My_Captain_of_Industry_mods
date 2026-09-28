@@ -1,3 +1,23 @@
+v1.4.9 | 2026-09-26
+────────────────────────────────────────────────────────────────────────
+* FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).
+
+────────────────────────────────────────────────────────────────────────
+
+v1.4.8 | 2026-09-22
+────────────────────────────────────────────────────────────────────────
+* THE FUEL TABS IN THE VEHICLE DEPOT NOW SPREAD OVER SEVERAL ROWS, THREE PER ROW, SO THEY STAY READABLE WHEN MODS ADD EXTRA FUEL TYPES.
+
+  - The tabs also keep a fixed order, so they stay in the same place from one depot to the next.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED ERRORS IN THE GAME LOG FROM THE QUICK TOOLS FILL PRODUCT AFTER LOADING A SAVE.
+
+────────────────────────────────────────────────────────────────────────
+* FIXED A WARNING IN THE GAME LOG EACH TIME THE QUICK TOOLS WINDOW WAS CLOSED WITH ESC.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.7 | 2026-09-22
 ────────────────────────────────────────────────────────────────────────
 * TESTED AND WORKING ON GAME VERSION 0.8.7D.

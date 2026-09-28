@@ -92,5 +92,6 @@
   "Set Capacity": "Angi kapasitet",
   "No shipyard found": "Fant ingen skipsverft",
   "Shipyard capacity set to {0}": "Skipsverftkapasitet satt til {0}",
-  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ er lastet inn og styrer skipsverftkapasiteten — endre den i Skipsverft-fanen i Cheat++."
+  "Cheat++ is loaded and controls Shipyard Capacity — change it from Cheat++'s Shipyard tab.": "Cheat++ er lastet inn og styrer skipsverftkapasiteten — endre den i Skipsverft-fanen i Cheat++.",
+  "Settlement Modules": "Bosetningsmoduler"
 }
