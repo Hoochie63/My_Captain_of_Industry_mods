@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Fremheving av forskningsnoder",
+  "Research node highlighting. Right-click to show all research.": "Fremheving av forskningsnoder. Høyreklikk for å vise all forskning.",
   "Show all research": "Vis all forskning",
   "Emphasize all mod research": "Fremhev all mod-forskning",
   "Emphasize vanilla research": "Fremhev original forskning",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT tettpakket — avstand 3, fingitter",
   "Spacing {0} — packed": "Avstand {0} — tettpakket",
   "Compact — {0} (Experimental)": "Kompakt — {0} (Eksperimentell)",
-  "Compact — 3 (Default)": "Kompakt — 3 (Standard)",
+  "Compact — 3 (PRT Default)": "Kompakt — 3 (PRT-standard)",
   "Compact — {0}": "Kompakt — {0}",
   "Nearest — {0} (Experimental)": "Nærmest — {0} (Eksperimentell)",
   "Nearest — {0}": "Nærmest — {0}",

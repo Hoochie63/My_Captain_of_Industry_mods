@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Destaque dos nós de pesquisa",
+  "Research node highlighting. Right-click to show all research.": "Destaque dos nós de pesquisa. Clique com o botão direito para mostrar todas as pesquisas.",
   "Show all research": "Mostrar todas as pesquisas",
   "Emphasize all mod research": "Destacar todas as pesquisas de mods",
   "Emphasize vanilla research": "Destacar a pesquisa original",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT agrupado — espaçamento 3, grade fina",
   "Spacing {0} — packed": "Espaçamento {0} — agrupado",
   "Compact — {0} (Experimental)": "Compacto — {0} (Experimental)",
-  "Compact — 3 (Default)": "Compacto — 3 (Padrão)",
+  "Compact — 3 (PRT Default)": "Compacto — 3 (Padrão do PRT)",
   "Compact — {0}": "Compacto — {0}",
   "Nearest — {0} (Experimental)": "Mais próximo — {0} (Experimental)",
   "Nearest — {0}": "Mais próximo — {0}",

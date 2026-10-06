@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Peida Omni-Tooli vihjed, mõjutamata mängu või teisi mode.",
   "Use English UI": "Kasuta ingliskeelset liidest",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Kuva Omni-Tool inglise keeles, muutmata mängu või teiste modide keelt.",
+  "Omni-Tool language": "Omni-Tooli keel",
+  "Game language": "Mängu keel",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Kasuta mängu praegust keelt või vali Omni-Toolile mõni toetatud keel. Muudatused rakenduvad kohe.",
   "Micro-HUD growth anchor": "Väikese juhtpaneeli ankur",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Vali nurk, mis jääb paneeli suuruse muutudes paigale.",
   "Top left": "Üleval vasakul",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Vahele jäetud: {0}; ühilduvat asendusdepoo pole saadaval."
   ,"Skipped {0}: no compatible scrap depot available.": "Vahele jäetud: {0}; ühilduvat romutusdepoo pole saadaval."
   ,"Failed {0}: the game rejected the depot order.": "Nurjus: {0}; mäng lükkas depookäsu tagasi."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Rakenda nelja algupärast lao lävendit: veoautode import, veoautode eksport, lindi/toru väljund ja lindi/toru sisend."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Lao lävendid: veoautode import {0}%, veoautode eksport {1}%, lindi/toru väljund {2}%, lindi/toru sisend {3}%"
+  ,"Storage thresholds: {0} compatible": "Lao lävendid: {0} ühilduvat"
+  ,"Storage thresholds skipped: {0}": "Vahele jäetud lao lävendid: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Salvesta praegune filter ja märgitud seaded komplektina. Säilitatakse kuni neliteist. Vasakklõps laadib. Paremklõps eemaldab."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Määra valitud toode ainult ühilduvatele tühjadele ladudele. Teise tootega mittetühjad laod jäetakse vahele."
+  ,"Storage product: {0}": "Lao toode: {0}"
+  ,"Storage product: {0} compatible": "Lao toode: {0} ühilduvat"
+  ,"Storage product skipped: {0}": "Lao toode jäeti vahele: {0}"
+  ,"Deconstruction brush": "Lammutuspintsel"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Lammutuspintsel: lammuta või tühista lammutamine valikulise täpse olemitüübi filtriga."
+  ,"Entity type filter": "Olemitüübi filter"
+  ,"Pick an entity type from the world.": "Vali maailmast olemitüüp."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Salvesta praegune lammutustoiming ja filter komplektina. Säilitatakse kuni kakskümmend kaheksa. Vasakklõps laadib; paremklõps eemaldab."
+  ,"All compatible entities": "Kõik ühilduvad olemid"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Klõpsa või vali alaga ühilduvad olemid, et need lammutamiseks märkida. Valikuline filter vastab ühele täpsele olemitüübile."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Klõpsa või vali alaga lammutamiseks märgitud olemid, et lammutamine tühistada. Valikuline filter vastab ühele täpsele olemitüübile."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift + vasakklõps vahetab komplekti värvi tagasi; Shift + paremklõps edasi."
+  ,"Cancel construction": "Katkesta ehitamine"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Salvesta praegune täpne olemitüübi filter lemmikuna. Alles hoitakse kuni nelikümmend üheksa. Vasakklõps laadib ainult filtri, paremklõps eemaldab selle."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Klõpsa või kastvali valmis olemid, et alustada mängu tavapärast lammutamist. Kastvalik lõikab ainult kaetud transpordiosad; hoia Shift all, et kaasata kogu transport. Valikuline filter vastab ühele täpsele olemitüübile."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Klõpsa või kastvali lõpetamata olemid, et nende ehitamine katkestada. Valikuline filter vastab ühele täpsele olemitüübile."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Klõpsa või kastvali lammutamiseks märgitud olemid, et lammutamine katkestada. Valikuline filter vastab ühele täpsele olemitüübile."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Lammutuspintsel: lammuta, katkesta ehitamine või katkesta lammutamine valikulise täpse olemitüübi filtriga."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Lisab valitud laotoote lemmikutesse. Säilitatakse kuni 105. Vasakklõps valib ja paremklõps eemaldab."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl-vasakklõps liigutab lemmiku vasakule; Ctrl-paremklõps paremale."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Täitmine: klõpsa või vali kastiga sobivad laod. TÜHJENDA eemaldab kogu lasti ja määratud toote."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Määrab valitud toote ainult sobivatele tühjadele ladudele. Vali Puudub, et tühja lao tootemäärang eemaldada. Mittetühjad laod jäetakse vahele."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl-vasakklõps liigutab komplekti vasakule; Ctrl-paremklõps paremale."
 }

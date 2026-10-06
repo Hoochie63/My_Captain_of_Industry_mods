@@ -1,6 +1,6 @@
 {
     "id": "Bagger288Mod",
-    "version": "0.7.7",
+    "version": "0.7.8",
     "min_game_version": "0.8.6c",
     "display_name": "Bagger 288",
     "description_short": "Роторный экскаватор для непрерывной открытой добычи с буферным выходом сыпучих материалов.",

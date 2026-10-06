@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.",
   "Use English UI": "Use English UI",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Display Omni-Tool's own interface in English without changing the game language or other mods.",
+  "Omni-Tool language": "Omni-Tool language",
+  "Game language": "Game language",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.",
   "Micro-HUD growth anchor": "Micro-HUD growth anchor",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.",
   "Top left": "Top left",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Skipped {0}: no compatible replacement depot available."
   ,"Skipped {0}: no compatible scrap depot available.": "Skipped {0}: no compatible scrap depot available."
   ,"Failed {0}: the game rejected the depot order.": "Failed {0}: the game rejected the depot order."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%"
+  ,"Storage thresholds: {0} compatible": "Storage thresholds: {0} compatible"
+  ,"Storage thresholds skipped: {0}": "Storage thresholds skipped: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped."
+  ,"Storage product: {0}": "Storage product: {0}"
+  ,"Storage product: {0} compatible": "Storage product: {0} compatible"
+  ,"Storage product skipped: {0}": "Storage product skipped: {0}"
+  ,"Deconstruction brush": "Deconstruction brush"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter."
+  ,"Entity type filter": "Entity type filter"
+  ,"Pick an entity type from the world.": "Pick an entity type from the world."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it."
+  ,"All compatible entities": "All compatible entities"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward."
+  ,"Cancel construction": "Cancel construction"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click to select. Right-click to remove from Favorites."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right."
 }

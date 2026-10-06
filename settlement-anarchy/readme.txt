@@ -1,4 +1,4 @@
-SETTLEMENT ANARCHY 1.0.4
+SETTLEMENT ANARCHY 1.0.5
 
 Settlement Anarchy removes the rigid physical attachment rules from Housing,
 Town Services, and Settlement Decorations while preserving their normal

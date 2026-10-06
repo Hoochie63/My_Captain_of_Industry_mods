@@ -1,5 +1,5 @@
 {
-    "дата": "28 Сентября 2026 / 15:02:29",
+    "дата": "6 Октября 2026 / 14:16:29",
     "режим": "real-run",
 
     "моды без локализации": [
@@ -46,6 +46,58 @@
 
     "моды": [
         {
+            "name": "Beacon-and-Government-DLC",
+            "file": "ru.json",
+
+            "отсутствующий перевод": [
+                {
+                    "ключ": "Build a Captain's Exchange to buy Quick Trades.",
+                    "текущее_значение": "Build a Captain's Exchange to buy Quick Trades."
+                },
+                {
+                    "ключ": "Choose which Captain's Exchange receives delivery ships for trades bought in F3. Trades bought in another Exchange's inspector still arrive there. Click again to cancel.",
+                    "текущее_значение": "Choose which Captain's Exchange receives delivery ships for trades bought in F3. Trades bought in another Exchange's inspector still arrive there. Click again to cancel."
+                },
+                {
+                    "ключ": "Open Captain's Exchange",
+                    "текущее_значение": "Open Captain's Exchange"
+                },
+                {
+                    "ключ": "Regional Trade+",
+                    "текущее_значение": "Regional Trade+"
+                },
+                {
+                    "ключ": "Select a Captain's Exchange in the world; its dock will receive F3 trade deliveries.",
+                    "текущее_значение": "Select a Captain's Exchange in the world; its dock will receive F3 trade deliveries."
+                }
+            ]
+        },
+
+        {
+            "name": "Cheat-plus-plus",
+            "file": "ru.json",
+
+            "отсутствующий перевод": [
+                {
+                    "ключ": "Adds a constant number of research points to the active research every cycle (10 seconds, the basic Research Lab cycle), even with no labs built. Only advances while the game is running. Set to 0 to disable. Range 0-35000 points per cycle.",
+                    "текущее_значение": "Каждый цикл (10 секунд, цикл базовой исследовательской лаборатории) добавляет текущему исследованию постоянное количество очков исследований, даже если лаборатории не построены. Работает только пока игра идёт. Установите 0, чтобы отключить. Диапазон 0-35000 очков за цикл."
+                },
+                {
+                    "ключ": "Current: {0} points per cycle",
+                    "текущее_значение": "Текущее значение: {0} очков за цикл"
+                },
+                {
+                    "ключ": "Fake Research Points",
+                    "текущее_значение": "Фиктивные очки исследований"
+                },
+                {
+                    "ключ": "Fake research points set to {0} per cycle",
+                    "текущее_значение": "Фиктивные очки исследований установлены на {0} за цикл"
+                }
+            ]
+        },
+
+        {
             "name": "GridBattery",
             "file": "ru.json",
 
@@ -53,6 +105,65 @@
                 {
                     "ключ": "GridBattery.Units.MegawattSecond / 0",
                     "значение": "МВт·с"
+                }
+            ]
+        },
+
+        {
+            "name": "Procedural-research-tree",
+            "file": "ru.json",
+
+            "устарело в словаре": [
+                {
+                    "ключ": "Compact — 3 (Default)",
+                    "значение": "Компактно — 3 (По умолчанию)"
+                }
+            ],
+
+            "отсутствующий перевод": [
+                {
+                    "ключ": "Compact — 3 (PRT Default)",
+                    "текущее_значение": "Компактно — 3 (По умолчанию PRT)"
+                },
+                {
+                    "ключ": "Research node highlighting. Right-click to show all research.",
+                    "текущее_значение": "Выделение узлов исследований. Щелкните правой кнопкой, чтобы показать все исследования."
+                }
+            ]
+        },
+
+        {
+            "name": "Storage-plus-plus",
+            "file": "ru.json",
+
+            "отсутствующий перевод": [
+                {
+                    "ключ": "Input",
+                    "текущее_значение": "Вход"
+                },
+                {
+                    "ключ": "Output",
+                    "текущее_значение": "Выход"
+                }
+            ]
+        },
+
+        {
+            "name": "Tweaks-plus-plus",
+            "file": "ru.json",
+
+            "отсутствующий перевод": [
+                {
+                    "ключ": "Adds the food held in storage buildings that feed a food market, either directly or through belts, to the food months left shown in the top bar. Only the display changes; feeding, alerts and the settlement windows still use the food markets alone. Storage that only reaches markets by truck is not counted.",
+                    "текущее_значение": "Добавляет еду из зданий-хранилищ, которые снабжают продуктовый магазин напрямую или по конвейерам, к оставшимся месяцам еды в верхней панели. Меняется только отображение; снабжение, оповещения и окна поселения по-прежнему учитывают только продуктовые магазины. Хранилища, которые доставляют еду в магазины только грузовиками, не учитываются."
+                },
+                {
+                    "ключ": "Count storage connected to food markets in food months left",
+                    "текущее_значение": "Учитывать хранилища, подключённые к продуктовым магазинам, в оставшихся месяцах еды"
+                },
+                {
+                    "ключ": "Storage connected to food markets adds {0} months here ({1} from the food markets alone).",
+                    "текущее_значение": "Хранилища, подключённые к продуктовым магазинам, добавляют сюда {0} мес. ({1} только от магазинов)."
                 }
             ]
         }

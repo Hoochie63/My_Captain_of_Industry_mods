@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Виділення вузлів досліджень",
+  "Research node highlighting. Right-click to show all research.": "Виділення вузлів досліджень. Клацніть правою кнопкою, щоб показати всі дослідження.",
   "Show all research": "Показати всі дослідження",
   "Emphasize all mod research": "Виділити всі дослідження модів",
   "Emphasize vanilla research": "Виділити дослідження основної гри",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT щільне компонування — інтервал 3, точна сітка",
   "Spacing {0} — packed": "Інтервал {0} — щільне компонування",
   "Compact — {0} (Experimental)": "Компактно — {0} (Експериментально)",
-  "Compact — 3 (Default)": "Компактно — 3 (За замовчуванням)",
+  "Compact — 3 (PRT Default)": "Компактно — 3 (Типове PRT)",
   "Compact — {0}": "Компактно — {0}",
   "Nearest — {0} (Experimental)": "Найближче — {0} (Експериментально)",
   "Nearest — {0}": "Найближче — {0}",

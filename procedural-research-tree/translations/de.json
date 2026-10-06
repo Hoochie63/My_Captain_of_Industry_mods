@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Forschungsknoten hervorheben",
+  "Research node highlighting. Right-click to show all research.": "Forschungsknoten hervorheben. Rechtsklick zeigt die gesamte Forschung.",
   "Show all research": "Gesamte Forschung anzeigen",
   "Emphasize all mod research": "Alle Mod-Forschungen hervorheben",
   "Emphasize vanilla research": "Vanilla-Forschung hervorheben",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT dicht gepackt — Abstand 3, feines Raster",
   "Spacing {0} — packed": "Abstand {0} — dicht gepackt",
   "Compact — {0} (Experimental)": "Kompakt — {0} (Experimentell)",
-  "Compact — 3 (Default)": "Kompakt — 3 (Standard)",
+  "Compact — 3 (PRT Default)": "Kompakt — 3 (PRT-Standard)",
   "Compact — {0}": "Kompakt — {0}",
   "Nearest — {0} (Experimental)": "Nächstgelegen — {0} (Experimentell)",
   "Nearest — {0}": "Nächstgelegen — {0}",

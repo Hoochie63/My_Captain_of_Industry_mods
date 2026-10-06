@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Ukryj podpowiedzi Omni-Tool bez wpływu na grę i inne mody.",
   "Use English UI": "Używaj angielskiego interfejsu",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Wyświetl Omni-Tool po angielsku bez zmiany języka gry ani innych modów.",
+  "Omni-Tool language": "Język Omni-Tool",
+  "Game language": "Język gry",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Użyj bieżącego języka gry albo wybierz dowolny obsługiwany język dla Omni-Tool. Zmiany są stosowane natychmiast.",
   "Micro-HUD growth anchor": "Kotwica mikro-HUD",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Wybierz róg, który pozostaje nieruchomy, gdy mikro-HUD rośnie lub maleje.",
   "Top left": "U góry po lewej",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Pominięto: {0}; brak dostępnego zgodnego warsztatu wymiany."
   ,"Skipped {0}: no compatible scrap depot available.": "Pominięto: {0}; brak dostępnego zgodnego warsztatu złomowania."
   ,"Failed {0}: the game rejected the depot order.": "Niepowodzenie: {0}; gra odrzuciła zlecenie warsztatu."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Zastosuj cztery natywne progi magazynu: import ciężarówkami, eksport ciężarówkami, wyjście na taśmę/rurę i wejście z taśmy/rury."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Progi magazynu: import ciężarówkami {0}%, eksport ciężarówkami {1}%, wyjście taśmy/rury {2}%, wejście taśmy/rury {3}%"
+  ,"Storage thresholds: {0} compatible": "Progi magazynu: zgodne — {0}"
+  ,"Storage thresholds skipped: {0}": "Pominięte progi magazynu: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Zapisz bieżący filtr i zaznaczone ustawienia jako pakiet. Przechowywanych jest maksymalnie czternaście. Lewy przycisk ładuje. Prawy przycisk usuwa."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Przypisz wybrany produkt tylko do zgodnych pustych magazynów. Niepuste magazyny z innym produktem są pomijane."
+  ,"Storage product: {0}": "Produkt magazynu: {0}"
+  ,"Storage product: {0} compatible": "Produkt magazynu: {0} zgodnych"
+  ,"Storage product skipped: {0}": "Produkt magazynu pominięty: {0}"
+  ,"Deconstruction brush": "Pędzel rozbiórki"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Pędzel rozbiórki: rozpocznij lub anuluj rozbiórkę z opcjonalnym dokładnym filtrem typu obiektu."
+  ,"Entity type filter": "Filtr typu obiektu"
+  ,"Pick an entity type from the world.": "Wybierz typ obiektu ze świata."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Zapisz bieżącą operację rozbiórki i filtr jako pakiet. Przechowywanych jest maksymalnie dwadzieścia osiem. Lewy przycisk ładuje; prawy usuwa."
+  ,"All compatible entities": "Wszystkie zgodne obiekty"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Kliknij lub zaznacz obszar zgodnych obiektów, aby oznaczyć je do rozbiórki. Opcjonalny filtr odpowiada jednemu dokładnemu typowi obiektu."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Kliknij lub zaznacz obszar obiektów oznaczonych do rozbiórki, aby ją anulować. Opcjonalny filtr odpowiada jednemu dokładnemu typowi obiektu."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift + lewy przycisk zmienia kolor pakietu wstecz; Shift + prawy przycisk w przód."
+  ,"Cancel construction": "Anuluj budowę"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Zapisz bieżący filtr dokładnego typu obiektu jako ulubiony. Przechowywanych jest maksymalnie czterdzieści dziewięć. Lewy przycisk wczytuje tylko filtr, a prawy go usuwa."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Kliknij lub zaznacz ramką ukończone obiekty, aby rozpocząć natywną rozbiórkę. Ramka wycina tylko objęte odcinki transportu; przytrzymaj Shift, aby objąć cały transport. Opcjonalny filtr dopasowuje jeden dokładny typ obiektu."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Kliknij lub zaznacz ramką niedokończone obiekty, aby anulować ich budowę. Opcjonalny filtr dopasowuje jeden dokładny typ obiektu."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Kliknij lub zaznacz ramką obiekty oznaczone do rozbiórki, aby ją anulować. Opcjonalny filtr dopasowuje jeden dokładny typ obiektu."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Pędzel rozbiórki: rozpocznij rozbiórkę, anuluj budowę lub anuluj rozbiórkę z opcjonalnym filtrem dokładnego typu obiektu."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Dodaje wybrany produkt magazynowy do Ulubionych. Zachowywanych jest maksymalnie 105. Lewy przycisk wybiera, prawy usuwa."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl+lewy przycisk przesuwa ten ulubiony w lewo; Ctrl+prawy w prawo."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Napełnianie: kliknij lub zaznacz ramką zgodne magazyny. OPRÓŻNIJ usuwa cały ładunek i przypisany produkt."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Przypisuje wybrany produkt tylko do zgodnych pustych magazynów. Wybierz Brak, aby usunąć przypisany produkt z pustego magazynu. Niepuste magazyny są pomijane."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl+lewy przycisk przesuwa ten pakiet w lewo; Ctrl+prawy w prawo."
 }

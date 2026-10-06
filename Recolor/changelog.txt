@@ -1,7 +1,33 @@
+v1.0.8 | 2026-10-01
+
+[MESH TEMPLATE LIBRARY]
+* Group saved templates by building type, expand their color variants, and drag handles to reorder groups or variants without a Reorder mode.
+* Expand the library in the same window for up to four cards per row. Open it directly by right-clicking Recolor's calendar button, or use the title-bar expand button while More is open.
+* Save Template is now available directly in Edit Mesh. The library no longer duplicates the first variant when expanded, and mesh-count tooltips explain the compact numbers.
+* Raise the template limit from 40 to 512 while retaining paced visible-area previews and a bounded thumbnail cache.
+* Improve thumbnail orientation and framing, keep library actions above the card scroller, and prevent the Save Template row from being squeezed when Favorites is closed.
+* Refresh expanded variant previews without needing to scroll, and keep the current library view when loading a template.
+* Add a remembered, off-by-default Settings option to return to Edit Mesh after loading a template, with translated text and tooltip.
+* Dim other building groups to 50% opacity while viewing expanded variants, without disabling their controls. Restore full opacity when collapsed.
+* Keep loaded thumbnail backgrounds neutral when cards dim, preventing saved global colors from bleeding through behind the preview.
+* Correct the right-aligned title-bar button order to Expand, Pin, Close.
+
+[PAINT TOOLS]
+* Allow native camera controls while dragging with Global Paint or Mesh Eyedropper and while a paint batch processes, retaining your camera bindings and speed modifier.
+* Fix a startup error caused by unnecessarily configuring partial-transport highlighting for the paint tools.
+* Global Paint and the application stage of Mesh Eyedropper now support single clicks or area dragging, with compatible-target counts and a limit of 256 buildings per drag.
+* Process one paint batch at a time in small bursts. Right-click stops the unfinished remainder; Escape or switching tools cancels painting. Already applied colors remain.
+* Both tools can work with Recolor closed. Toolbar shortcuts no longer force the menu open, and closing the menu keeps the active tool and its sampled colors. Close the tool, not just the menu, to stop painting.
+* Fix the Mesh Eyedropper cursor when moving from source selection to painting.
+
+[COMPATIBILITY AND LANGUAGE]
+* Verified compatibility with Captain of Industry 0.8.7d.
+* Complete the library and area-paint translations across all 21 supported languages and update tooltips for the new workflow.
+
 v1.0.7 | 2026-09-12
 
+* Fixed some issues that could cause a mesh template to reject it's target building when loading it to the mesh eyedropper tool.
 * Mesh Templates now tolerate harmless sibling-order and untouched-group schema drift when used on the exact same building prototype.
-* Only complete, uniform overridden groups with one unambiguous live match are restored; missing, partial, conflicting, or ambiguous matches remain safely refused.
 
 v1.0.6 | 2026-09-09
 

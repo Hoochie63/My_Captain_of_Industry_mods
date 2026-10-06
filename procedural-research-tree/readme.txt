@@ -97,6 +97,11 @@ Selecting an entry rebuilds the open tree immediately. Spacing 5 was removed
 because stress testing showed that it could scatter nodes far outside a sensible
 tree layout.
 
+The chosen layout, node-owner filter, dimmed-card opacity, and prerequisite-
+navigation setting are stored globally and restored between game launches. Each
+dropdown keeps the active choice checked when the research window is rebuilt.
+Right-click the Layers button to return immediately to Show All Research.
+
 All PRT-owned labels and tooltips use editable English-text keys and ship with
 catalogs for all 21 supported game languages. Research names, descriptions, and
 requirement cards continue to use the localization supplied by the game or the
@@ -107,7 +112,7 @@ SPECIAL THANKS
 Special thanks to Colibri, author of Colibri Industries, for helping with mod
 development.
 
-Layout choices are session-only and are never written to a save or config file.
+These global preferences are not written into individual save games.
 PRT_tree is the only console command shipped; it remains available strictly for
 read-only troubleshooting and never changes the research tree.
 

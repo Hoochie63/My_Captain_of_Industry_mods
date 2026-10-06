@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "研究节点突出显示",
+  "Research node highlighting. Right-click to show all research.": "研究节点突出显示。单击鼠标右键可显示所有研究。",
   "Show all research": "显示所有研究",
   "Emphasize all mod research": "突出显示所有模组研究",
   "Emphasize vanilla research": "突出显示原版研究",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT 紧密排列 — 间距 3，精细网格",
   "Spacing {0} — packed": "间距 {0} — 紧密排列",
   "Compact — {0} (Experimental)": "紧凑 — {0}（实验）",
-  "Compact — 3 (Default)": "紧凑 — 3（默认）",
+  "Compact — 3 (PRT Default)": "紧凑 — 3（PRT 默认）",
   "Compact — {0}": "紧凑 — {0}",
   "Nearest — {0} (Experimental)": "最近 — {0}（实验）",
   "Nearest — {0}": "最近 — {0}",

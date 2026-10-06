@@ -1,5 +1,5 @@
 BEACON & GOVERNMENT+
-Version 1.1.0b
+Version 1.1.1
 
 Beacon & Government+ turns the Beacon into the center of a regional network.
 Build Relay Beacons and Government Offices, earn Captain's Currency, purchase
@@ -23,15 +23,16 @@ INSTALLING AND STARTING
 
 NATIVE WINDOWS
 
-- F3 Trade includes a Regional exports tab with one live card per discovered
-  settlement, requested products, shared storage progress and direct fulfillment.
+- F3 Trade includes a Regional Trade+ tab with a Captain's Exchange Quick Trade
+  section and one live export card per discovered settlement. Choose an Exchange
+  dock for F3 purchases; each Exchange's own inspector also remains usable.
 - Its header shows Beacon Network Unity, total regional reputation, Regional
   Trust and Captain's Currency. Hover each pill for its explanation.
 - F5 Captain's Office includes Beacon Policies and Regional Subsidies tabs.
 - Government Offices and Regional Export Yards retain their detailed inspectors.
 - The top HUD, F5 header and custom inspectors share a live, expanding Captain's
   Currency pill. Its hover shows current network Unity and cycle-average reward.
-- Left-click the HUD Currency pill for F3 Regional exports; right-click it for
+- Left-click the HUD Currency pill for F3 Regional Trade+; right-click it for
   F5 Regional Subsidies.
 - The former Ctrl+F3 and Ctrl+F5 global windows and custom keybinds were removed.
   The native windows are now the permanent global interfaces.
@@ -71,11 +72,21 @@ CAPTAIN'S EXCHANGE AND QUICK TRADES
 - Ordinary product offers can be purchased at 1x-5x capacity. Every five combined
   village-reputation levels unlocks the next capacity step; price and goods scale
   linearly.
+- Each product's yearly quantity roll spans at most 2x, with a modest price-per-
+  item discount on the largest roll. Existing saved offers retain their terms
+  until the next yearly refresh.
+- Buying one offer retains the other offers' selected capacity. The bought offer
+  remains dimmed with its price, goods and chosen multiplier visible through
+  save/load until the next yearly refresh.
 - Legendary offers are always single purchases and never use capacity multipliers.
 - Legendary Cargo Ship, Research and instant Unity offers can appear. Research
   grants assist the active non-space research without overflowing into another node.
 - The compact optional alert reads "[Quality] Quick Trades", can be filtered by
-  rarity, and opens the first constructed Captain's Exchange when clicked.
+  rarity, and opens the Exchange selected in F3 when clicked (or the first
+  constructed Exchange if no selection is available).
+- Ordinary Cargo Ship offers require completed Cargo Depot research. Rubber joins
+  rewards and trades after Synthetic Rubber research; Dirt and Rock can be traded
+  from the start, while Sulfur trading requires Sulfur Processing research.
 - Currency is charged immediately. Product orders prepare for three months, then a
   physical vanilla Cargo Ship follows navigable water to the Exchange and transfers
   the order to the Shipyard.
@@ -96,6 +107,8 @@ REGIONAL EXPORT YARDS
   Current stock becomes available at the minimums and sends all currently stored
   requested goods. Maximum waits until every requested storage is full.
 - Manual and automatic fulfillment use the same selected mode and trigger.
+- Trucks may bring the last partial load into a nearly full Yard storage slot, so
+  Maximum fulfillment can finish without changing the configured import priority.
 - Fulfillment requires the Yard's workers and power as well as a docked Cargo
   Ship and the selected order's stored goods. Existing saved Yards reconnect
   their native power consumer when the world loads; rebuilding is not required.

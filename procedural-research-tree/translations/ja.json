@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "研究ノードの強調表示",
+  "Research node highlighting. Right-click to show all research.": "研究ノードの強調表示。右クリックですべての研究を表示します。",
   "Show all research": "すべての研究を表示",
   "Emphasize all mod research": "すべてのMOD研究を強調",
   "Emphasize vanilla research": "バニラ研究を強調",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT 高密度 — 間隔3、細密グリッド",
   "Spacing {0} — packed": "間隔 {0} — 高密度",
   "Compact — {0} (Experimental)": "コンパクト — {0}（実験的）",
-  "Compact — 3 (Default)": "コンパクト — 3（既定）",
+  "Compact — 3 (PRT Default)": "コンパクト — 3（PRT既定）",
   "Compact — {0}": "コンパクト — {0}",
   "Nearest — {0} (Experimental)": "最近接 — {0}（実験的）",
   "Nearest — {0}": "最近接 — {0}",

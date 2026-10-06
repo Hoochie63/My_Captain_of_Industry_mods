@@ -1,44 +1,32 @@
-v0.3.1 | 2026-09-16
+v0.3.2 | 2026-10-05
+* Remembers your selected layout, research filter, opacity, and prerequisite-navigation setting between game launches.
+* Keeps the active choice checked in every research-tree dropdown after restarting the game.
+* Adds a right-click shortcut on the Layers button to show all research immediately.
+* Labels Compact 3 as the PRT default so it is not confused with the original authored layout.
 
-* Verifies compatibility with Captain of Industry v0.8.7d against the updated game assemblies.
-* Adds Colibri Industries as an optional mod dependency.
-* Thanks Colibri, author of Colibri Industries, for helping with mod development.
-* Keeps the Layers button gold while a research filter remains active, including after closing its menu with the Layers button.
-* Corrects the opacity slider display so its label matches the actual 0%-50% opacity range.
+v0.3.1 | 2026-09-16
+* Verifies compatibility with Captain of Industry v0.8.7d.
+* A special thanks to SirColibri, author of Colibri Industries, for helping brainstorm ideas during this mod's development. Now our overlapping research nodes are close cousins, once removed = )
+* Adds Colibri Industries as an optional mod.
+* Corrects the opacity slider display so its label matches the actual 0%-50% opacity range while highlighting nodes.
+* Left-clicking to close the Filter Menu maintains it's gold coloring—indicating a filter is still active.
 
 v0.3.0 | 2026-09-15
-
-* Adds research-window controls for live research tree layout selection, filter nodes by mod, and prerequisite details settings.
-* Option to restore the Original Vanilla Layout returns tree to vanilla layout without needing to restart the game.
-* Kept all testing layouts: Compact, Nearest, and Packed layouts with spacing 1 through 4; 
-- Compact — 3 is the default.
-
-FILTER RESEARCH BY MOD
-======================
-Discover which nodes belong to which mod to quickly find a mod's research. Filter by 1 mod, all mods, or vanilla-only.
-* 0%-50% opacity slider that appears only while filtering; Nodes not part of the filter are dimmed.
-
-REQUIRED BY NAVIGATION
-======================
-* Adds clickable REQUIRED BY details for two-way tree navigation. 
-
-CONSOLE COMMAND
-===============
-Use PRT_TREE in the console to log your exact tree's layout to report any layout issues
-
-FULL LANGUAGE SUPPORT
-=====================
 * Adds editable English-key translations for all 21 supported game languages.
+* Adds small research-window controls for all features.
+* Adds alternative layout options, including Original Vanilla Layout to rebuild the research tree live, without needing to restart.
+* Adds clickable REQUIRED BY details for complete two-way tree navigation.
+* Adds Mod Highlighting to identify nodes belonging to a selected mod: Filter by 1 mod, all mods, or vanilla-only.
+* 0%-50% opacity slider appears only while filtering is active; Dims all other nodes.
+* Adds PRT_TREE console command for logging the auto layout's result for use in reporting issues.
+* Kept some testing layouts: Compact, Nearest, and Packed layouts with spacing 1 through 4; Compact 3 is the PRT default, while spacing of 1 or 2 allows some overlap to occur in exchange for less overall height. More improvements to layout can be made as needed/suggested.
 
-NOTES: Changes only research-tree coordinates and presentation; prerequisites, costs, unlocks, and progression are never changed.
-If an author patches their own REQUIRED or REQUIRED BY Details, then PRT skips modifying that node's details to avoid duplications. This does not guarantee an author adds their own click-navigation.
-
+NOTES: If an author patches their own REQUIRED or REQUIRED BY Details, then PRT skips modifying that node's details to avoid duplications. This does not guarantee an author adds their own click-navigation.
 
 v0.2.0 | 2026-09-13
-* Makes Procedural Research Tree's added prerequisite details tiles clickable.
+* Makes Procedural Research Tree's prerequisite details tiles clickable.
 * Clicking them selects that research node and centers the research-tree camera on it.
 * Does not affect research-lab+ tiles or special requirement tiles.
-* Promotes the in-game-tested clickable-parent build to public release.
 
 v0.1.0c | 2026-09-13
 * Public Harmony-enabled release
@@ -55,4 +43,3 @@ v0.1.0b | 2026-09-13
 * Repairs malformed overlaps inside a connected branch without changing horizontal progression.
 * Runs after all normal research prototypes are registered and again before the research window builds.
 * Never changes prerequisites, research costs, unlocks, conditions, or saved research state.
-* Removes the Harmony and Mafi.Unity dependencies from the layout implementation.

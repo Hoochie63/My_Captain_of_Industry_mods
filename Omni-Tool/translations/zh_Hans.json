@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "只隐藏 Omni-Tool 的悬停提示，不影响游戏或其他模组。",
   "Use English UI": "使用英文界面",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "仅以英文显示 Omni-Tool，不更改游戏或其他模组的语言。",
+  "Omni-Tool language": "Omni-Tool 语言",
+  "Game language": "游戏语言",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "跟随游戏当前语言，或为 Omni-Tool 选择任一受支持的语言。更改会立即生效。",
   "Micro-HUD growth anchor": "微型 HUD 增长锚点",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "选择微型 HUD 伸缩时保持固定的角。",
   "Top left": "左上",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "已跳过 {0} 条：没有可用的兼容更换车辆基地。"
   ,"Skipped {0}: no compatible scrap depot available.": "已跳过 {0} 条：没有可用的兼容拆解车辆基地。"
   ,"Failed {0}: the game rejected the depot order.": "{0} 条失败：游戏拒绝了车辆基地命令。"
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "应用四个原生储存阈值：卡车输入、卡车输出、传送带/管道输出和传送带/管道输入。"
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "储存阈值：卡车输入 {0}%，卡车输出 {1}%，传送带/管道输出 {2}%，传送带/管道输入 {3}%"
+  ,"Storage thresholds: {0} compatible": "储存阈值：{0} 个兼容目标"
+  ,"Storage thresholds skipped: {0}": "已跳过储存阈值：{0} 个"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "将当前筛选和勾选的设置保存为组合。最多保留十四个。左键加载，右键移除。"
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "仅将所选产品分配给兼容的空仓库。已有其他产品的非空仓库会被跳过。"
+  ,"Storage product: {0}": "仓库产品：{0}"
+  ,"Storage product: {0} compatible": "仓库产品：{0} 个兼容"
+  ,"Storage product skipped: {0}": "仓库产品已跳过：{0}"
+  ,"Deconstruction brush": "拆除刷"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "拆除刷：使用可选的精确实体类型筛选来拆除或取消拆除。"
+  ,"Entity type filter": "实体类型筛选"
+  ,"Pick an entity type from the world.": "从世界中选取一种实体类型。"
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "将当前拆除操作和筛选保存为组合。最多保留二十八个。左键加载，右键移除。"
+  ,"All compatible entities": "所有兼容实体"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "点击或框选兼容实体以将其标记为拆除。可选筛选只匹配一种精确实体类型。"
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "点击或框选已标记拆除的实体以取消拆除。可选筛选只匹配一种精确实体类型。"
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift+左键向后循环组合颜色；Shift+右键向前循环。"
+  ,"Cancel construction": "取消建造"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "将当前精确实体类型筛选保存为收藏。最多保留49个。左键点击收藏只加载其筛选，右键点击将其移除。"
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "点击或框选已完工实体以开始原生拆除。框选只切除覆盖到的运输区段；按住 Shift 可包含每条完整运输设施。可选筛选只匹配一个精确实体类型。"
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "点击或框选未完工实体以取消建造。可选筛选只匹配一个精确实体类型。"
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "点击或框选已标记拆除的实体以取消拆除。可选筛选只匹配一个精确实体类型。"
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "拆除刷：使用可选的精确实体类型筛选进行拆除、取消建造或取消拆除。"
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "将所选存储产品添加到收藏。最多保留105个。左键选择，右键移除。"
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl+左键将此收藏向左移动；Ctrl+右键将其向右移动。"
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "填充：单击或框选兼容的存储。清空会清除全部货物及其指定产品。"
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "仅将所选产品指定给兼容的空存储。选择“无”可清除空存储的指定产品。非空存储将被跳过。"
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl+左键将此组合向左移动；Ctrl+右键将其向右移动。"
 }

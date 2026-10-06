@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Resaltado de nodos de investigación",
+  "Research node highlighting. Right-click to show all research.": "Resaltado de nodos de investigación. Haz clic derecho para mostrar toda la investigación.",
   "Show all research": "Mostrar toda la investigación",
   "Emphasize all mod research": "Resaltar toda la investigación de mods",
   "Emphasize vanilla research": "Resaltar la investigación original",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT empaquetado — espaciado 3, cuadrícula fina",
   "Spacing {0} — packed": "Espaciado {0} — empaquetado",
   "Compact — {0} (Experimental)": "Compacto — {0} (Experimental)",
-  "Compact — 3 (Default)": "Compacto — 3 (Predeterminado)",
+  "Compact — 3 (PRT Default)": "Compacto — 3 (Predeterminado de PRT)",
   "Compact — {0}": "Compacto — {0}",
   "Nearest — {0} (Experimental)": "Más cercano — {0} (Experimental)",
   "Nearest — {0}": "Más cercano — {0}",

@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "게임이나 다른 모드에 영향을 주지 않고 Omni-Tool의 도움말만 숨깁니다.",
   "Use English UI": "영어 UI 사용",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "게임이나 다른 모드의 언어는 바꾸지 않고 Omni-Tool만 영어로 표시합니다.",
+  "Omni-Tool language": "Omni-Tool 언어",
+  "Game language": "게임 언어",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "현재 게임 언어를 따르거나 Omni-Tool에 사용할 지원 언어를 선택합니다. 변경 사항은 즉시 적용됩니다.",
   "Micro-HUD growth anchor": "마이크로 HUD 고정 모서리",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "마이크로 HUD 크기가 바뀌어도 고정할 모서리를 선택합니다.",
   "Top left": "왼쪽 위",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "{0}건 건너뜀: 호환되는 교체 차량 기지가 없습니다."
   ,"Skipped {0}: no compatible scrap depot available.": "{0}건 건너뜀: 호환되는 폐기 차량 기지가 없습니다."
   ,"Failed {0}: the game rejected the depot order.": "{0}건 실패: 게임이 차량 기지 명령을 거부했습니다."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "기본 저장소 임계값 4개를 적용합니다: 트럭 반입, 트럭 반출, 벨트/파이프 출력, 벨트/파이프 입력."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "저장소 임계값: 트럭 반입 {0}%, 트럭 반출 {1}%, 벨트/파이프 출력 {2}%, 벨트/파이프 입력 {3}%"
+  ,"Storage thresholds: {0} compatible": "저장소 임계값: 호환 {0}개"
+  ,"Storage thresholds skipped: {0}": "건너뛴 저장소 임계값: {0}개"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "현재 필터와 선택한 설정을 묶음으로 저장합니다. 최대 14개까지 유지됩니다. 왼쪽 클릭으로 불러오고 오른쪽 클릭으로 제거합니다."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "선택한 제품을 호환되는 빈 저장소에만 지정합니다. 다른 제품이 들어 있는 저장소는 건너뜁니다."
+  ,"Storage product: {0}": "저장소 제품: {0}"
+  ,"Storage product: {0} compatible": "저장소 제품: 호환 {0}개"
+  ,"Storage product skipped: {0}": "저장소 제품 건너뜀: {0}"
+  ,"Deconstruction brush": "해체 브러시"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "해체 브러시: 선택적 정확한 엔티티 유형 필터로 해체하거나 해체를 취소합니다."
+  ,"Entity type filter": "엔티티 유형 필터"
+  ,"Pick an entity type from the world.": "월드에서 엔티티 유형을 선택합니다."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "현재 해체 작업과 필터를 묶음으로 저장합니다. 최대 28개까지 유지됩니다. 왼쪽 클릭으로 불러오고 오른쪽 클릭으로 제거합니다."
+  ,"All compatible entities": "호환되는 모든 엔티티"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "호환되는 엔티티를 클릭하거나 영역 선택해 해체 대상으로 표시합니다. 선택적 필터는 정확히 하나의 엔티티 유형과 일치합니다."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "해체 대상으로 표시된 엔티티를 클릭하거나 영역 선택해 취소합니다. 선택적 필터는 정확히 하나의 엔티티 유형과 일치합니다."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift+왼쪽 클릭은 묶음 색상을 뒤로, Shift+오른쪽 클릭은 앞으로 순환합니다."
+  ,"Cancel construction": "건설 취소"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "현재의 정확한 엔티티 유형 필터를 즐겨찾기로 저장합니다. 최대 49개까지 유지됩니다. 왼쪽 클릭으로 필터만 불러오고 오른쪽 클릭으로 제거합니다."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "완성된 엔티티를 클릭하거나 상자로 선택하여 기본 해체를 시작합니다. 상자 선택은 포함된 운송 구간만 자르며 Shift를 누르면 각 운송 시설 전체를 포함합니다. 선택 필터는 정확히 하나의 엔티티 유형과 일치합니다."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "미완성 엔티티를 클릭하거나 상자로 선택하여 건설을 취소합니다. 선택 필터는 정확히 하나의 엔티티 유형과 일치합니다."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "해체로 표시된 엔티티를 클릭하거나 상자로 선택하여 해체를 취소합니다. 선택 필터는 정확히 하나의 엔티티 유형과 일치합니다."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "해체 브러시: 선택적인 정확한 엔티티 유형 필터로 해체, 건설 취소 또는 해체 취소를 수행합니다."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "선택한 저장 제품을 즐겨찾기에 추가합니다. 최대 105개까지 유지됩니다. 왼쪽 클릭으로 선택하고 오른쪽 클릭으로 제거합니다."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl+왼쪽 클릭은 이 즐겨찾기를 왼쪽으로, Ctrl+오른쪽 클릭은 오른쪽으로 이동합니다."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "채우기: 호환 저장소를 클릭하거나 상자로 선택합니다. 비우기는 모든 화물과 지정 제품을 지웁니다."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "선택한 제품을 호환되는 빈 저장소에만 지정합니다. 없음을 선택하면 빈 저장소의 지정 제품을 지웁니다. 비어 있지 않은 저장소는 건너뜁니다."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl+왼쪽 클릭은 이 묶음을 왼쪽으로, Ctrl+오른쪽 클릭은 오른쪽으로 이동합니다."
 }

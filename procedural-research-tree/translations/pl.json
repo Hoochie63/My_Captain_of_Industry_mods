@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Wyróżnianie węzłów badań",
+  "Research node highlighting. Right-click to show all research.": "Wyróżnianie węzłów badań. Kliknij prawym przyciskiem, aby pokazać wszystkie badania.",
   "Show all research": "Pokaż wszystkie badania",
   "Emphasize all mod research": "Wyróżnij wszystkie badania modów",
   "Emphasize vanilla research": "Wyróżnij badania podstawowej gry",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT upakowany — odstęp 3, dokładna siatka",
   "Spacing {0} — packed": "Odstęp {0} — upakowany",
   "Compact — {0} (Experimental)": "Zwarty — {0} (Eksperymentalny)",
-  "Compact — 3 (Default)": "Zwarty — 3 (Domyślny)",
+  "Compact — 3 (PRT Default)": "Zwarty — 3 (Domyślny PRT)",
   "Compact — {0}": "Zwarty — {0}",
   "Nearest — {0} (Experimental)": "Najbliższy — {0} (Eksperymentalny)",
   "Nearest — {0}": "Najbliższy — {0}",

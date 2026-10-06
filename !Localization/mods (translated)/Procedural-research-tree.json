@@ -1,5 +1,6 @@
 {
     "Research node highlighting": "Выделение узлов исследований",
+    "Research node highlighting. Right-click to show all research.": "<align=\"center\">Выделение узлов исследований.<br>Щелкните правой кнопкой мышки, чтобы показать все исследования.</align>",
     "Show all research": "Показать все исследования",
     "Emphasize all mod research": "Выделить все исследования модов",
     "Emphasize vanilla research": "Выделить исследования основной игры",
@@ -19,7 +20,7 @@
     "PRT packed — spacing 3, fine-grid": "«PRT» плотная укладка — интервал 3, точная сетка",
     "Spacing {0} — packed": "Интервал {0} — плотная укладка",
     "Compact — {0} (Experimental)": "Компактно — {0} (Экспериментально)",
-    "Compact — 3 (Default)": "Компактно — 3 (По умолчанию)",
+    "Compact — 3 (PRT Default)": "Компактно — 3 (По умолчанию «PRT»)",
     "Compact — {0}": "Компактно — {0}",
     "Nearest — {0} (Experimental)": "Ближайшее — {0} (Экспериментально)",
     "Nearest — {0}": "Ближайшее — {0}",

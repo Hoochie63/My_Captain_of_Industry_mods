@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Ressaltat de nodes de recerca",
+  "Research node highlighting. Right-click to show all research.": "Ressaltat de nodes de recerca. Feu clic amb el botó dret per mostrar tota la recerca.",
   "Show all research": "Mostra tota la recerca",
   "Emphasize all mod research": "Ressalta tota la recerca dels mods",
   "Emphasize vanilla research": "Ressalta la recerca original",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT compactat — espaiat 3, quadrícula fina",
   "Spacing {0} — packed": "Espaiat {0} — compactat",
   "Compact — {0} (Experimental)": "Compacte — {0} (Experimental)",
-  "Compact — 3 (Default)": "Compacte — 3 (Per defecte)",
+  "Compact — 3 (PRT Default)": "Compacte — 3 (PRT per defecte)",
   "Compact — {0}": "Compacte — {0}",
   "Nearest — {0} (Experimental)": "Més proper — {0} (Experimental)",
   "Nearest — {0}": "Més proper — {0}",

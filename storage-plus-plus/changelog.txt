@@ -1,3 +1,11 @@
+v1.3.6 | 2026-10-04
+────────────────────────────────────────────────────────────────────────
+* NEW WATER FACILITY INPUT AND OUTPUT CAPACITY SLIDERS (THANKS LIQUID5150 FOR THE REQUEST).
+
+  - Find them under Settlement Modules in the Storage++ window. They apply to every Water facility and take effect right away.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.5 | 2026-09-26
 ────────────────────────────────────────────────────────────────────────
 * FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).

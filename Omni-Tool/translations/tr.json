@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Oyunu veya diğer modları etkilemeden Omni-Tool ipuçlarını gizler.",
   "Use English UI": "İngilizce arayüz kullan",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Oyunun veya diğer modların dilini değiştirmeden Omni-Tool'u İngilizce gösterir.",
+  "Omni-Tool language": "Omni-Tool dili",
+  "Game language": "Oyun dili",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Oyunun geçerli dilini kullanın veya Omni-Tool için desteklenen bir dil seçin. Değişiklikler hemen uygulanır.",
   "Micro-HUD growth anchor": "Mikro HUD büyüme sabiti",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Mikro HUD büyüyüp küçülürken sabit kalacak köşeyi seçin.",
   "Top left": "Sol üst",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Atlanan: {0}; uyumlu değiştirme deposu yok."
   ,"Skipped {0}: no compatible scrap depot available.": "Atlanan: {0}; uyumlu hurda deposu yok."
   ,"Failed {0}: the game rejected the depot order.": "Başarısız: {0}; oyun depo emrini reddetti."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Dört yerel depolama eşiğini uygula: kamyonla içe aktarım, kamyonla dışa aktarım, bant/boru çıkışı ve bant/boru girişi."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Depolama eşikleri: kamyonla içe aktarım %{0}, kamyonla dışa aktarım %{1}, bant/boru çıkışı %{2}, bant/boru girişi %{3}"
+  ,"Storage thresholds: {0} compatible": "Depolama eşikleri: {0} uyumlu"
+  ,"Storage thresholds skipped: {0}": "Atlanan depolama eşikleri: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Mevcut filtreyi ve işaretli ayarları paket olarak kaydedin. En fazla on dört paket saklanır. Yüklemek için sol tıklayın. Kaldırmak için sağ tıklayın."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Seçilen ürünü yalnızca uyumlu boş depolara atar. Başka bir ürün içeren boş olmayan depolar atlanır."
+  ,"Storage product: {0}": "Depo ürünü: {0}"
+  ,"Storage product: {0} compatible": "Depo ürünü: {0} uyumlu"
+  ,"Storage product skipped: {0}": "Depo ürünü atlandı: {0}"
+  ,"Deconstruction brush": "Söküm fırçası"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Söküm fırçası: isteğe bağlı tam varlık türü filtresiyle sökün veya sökümü iptal edin."
+  ,"Entity type filter": "Varlık türü filtresi"
+  ,"Pick an entity type from the world.": "Dünyadan bir varlık türü seçin."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Geçerli söküm işlemini ve filtresini paket olarak kaydedin. En fazla yirmi sekiz paket saklanır. Yüklemek için sol, kaldırmak için sağ tıklayın."
+  ,"All compatible entities": "Tüm uyumlu varlıklar"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Uyumlu varlıkları söküm için işaretlemek üzere tıklayın veya alan seçin. İsteğe bağlı filtre tek bir tam varlık türüyle eşleşir."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Söküm için işaretli varlıkları iptal etmek üzere tıklayın veya alan seçin. İsteğe bağlı filtre tek bir tam varlık türüyle eşleşir."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift+sol tıklama paket rengini geriye; Shift+sağ tıklama ileriye döndürür."
+  ,"Cancel construction": "İnşaatı iptal et"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Geçerli tam varlık türü filtresini favori olarak kaydedin. En fazla kırk dokuz tane tutulur. Yalnızca filtresini yüklemek için sol tıklayın; kaldırmak için sağ tıklayın."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Yerel sökümü başlatmak için tamamlanmış varlıklara tıklayın veya kutuyla seçin. Kutu seçimi yalnızca kapsanan taşıma bölümlerini keser; her taşımanın tamamını dahil etmek için Shift tuşunu basılı tutun. İsteğe bağlı filtre tek bir tam varlık türüyle eşleşir."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "İnşaatı iptal etmek için tamamlanmamış varlıklara tıklayın veya kutuyla seçin. İsteğe bağlı filtre tek bir tam varlık türüyle eşleşir."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Sökümü iptal etmek için söküm işaretli varlıklara tıklayın veya kutuyla seçin. İsteğe bağlı filtre tek bir tam varlık türüyle eşleşir."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Söküm fırçası: isteğe bağlı tam varlık türü filtresiyle sökün, inşaatı iptal edin veya sökümü iptal edin."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Seçili depolama ürününü Favorilere ekler. En fazla 105 ürün tutulur. Sol tıklama seçer, sağ tıklama kaldırır."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl+sol tıklama bu favoriyi sola; Ctrl+sağ tıklama sağa taşır."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Doldur: uyumlu depoları tıklayın veya kutuyla seçin. BOŞALT tüm yükü ve atanmış ürünü temizler."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Seçili ürünü yalnızca uyumlu boş depolara atar. Boş depodaki ürün atamasını kaldırmak için Yok'u seçin. Boş olmayan depolar atlanır."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl+sol tıklama bu paketi sola; Ctrl+sağ tıklama sağa taşır."
 }

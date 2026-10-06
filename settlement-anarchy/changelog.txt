@@ -1,6 +1,10 @@
+v1.0.5 | 2026-10-04
+
+[FIXES]
+* Fixed placement errors with Gameplay++'s Grand Market.
+
 v1.0.4 | 2026-09-16
 
-[COMPATIBILITY]
 * Verified compatibility with Captain of Industry 0.8.7d.
 
 v1.0.3 | 2026-09-10

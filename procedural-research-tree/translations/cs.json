@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Zvýraznění uzlů výzkumu",
+  "Research node highlighting. Right-click to show all research.": "Zvýraznění uzlů výzkumu. Kliknutím pravým tlačítkem zobrazíte veškerý výzkum.",
   "Show all research": "Zobrazit veškerý výzkum",
   "Emphasize all mod research": "Zvýraznit veškerý výzkum modů",
   "Emphasize vanilla research": "Zvýraznit základní výzkum",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT sbalené — rozestup 3, jemná mřížka",
   "Spacing {0} — packed": "Rozestup {0} — sbalené",
   "Compact — {0} (Experimental)": "Kompaktní — {0} (Experimentální)",
-  "Compact — 3 (Default)": "Kompaktní — 3 (Výchozí)",
+  "Compact — 3 (PRT Default)": "Kompaktní — 3 (Výchozí PRT)",
   "Compact — {0}": "Kompaktní — {0}",
   "Nearest — {0} (Experimental)": "Nejbližší — {0} (Experimentální)",
   "Nearest — {0}": "Nejbližší — {0}",

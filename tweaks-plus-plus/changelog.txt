@@ -1,3 +1,11 @@
+v1.3.9 | 2026-10-04
+────────────────────────────────────────────────────────────────────────
+* THE FOOD MONTHS LEFT SHOWN IN THE TOP BAR NOW ALSO COUNTS FOOD IN THE STORAGE THAT FEEDS THE FOOD MARKETS (THANKS GAMER.1337 FOR THE REQUEST).
+
+  - Hover the figure to see how many months the storage adds. Switch it off with "Count storage connected to food markets in food months left" in the Settlements section of the Gameplay tab in the Tweaks++ window.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.3.8 | 2026-09-26
 ────────────────────────────────────────────────────────────────────────
 * FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).

@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Oculta los consejos de Omni-Tool sin afectar al juego ni a otros mods.",
   "Use English UI": "Usar interfaz en inglés",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Muestra Omni-Tool en inglés sin cambiar el idioma del juego ni de otros mods.",
+  "Omni-Tool language": "Idioma de Omni-Tool",
+  "Game language": "Idioma del juego",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Usa el idioma actual del juego o elige cualquier idioma compatible para Omni-Tool. Los cambios se aplican de inmediato.",
   "Micro-HUD growth anchor": "Anclaje del micro-HUD",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Elige la esquina que permanece fija cuando el micro-HUD crece o se reduce.",
   "Top left": "Arriba a la izquierda",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Omitidas: {0}; no hay ningún depósito de sustitución compatible disponible."
   ,"Skipped {0}: no compatible scrap depot available.": "Omitidas: {0}; no hay ningún depósito de desguace compatible disponible."
   ,"Failed {0}: the game rejected the depot order.": "Fallidas: {0}; el juego rechazó la orden del depósito."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Aplicar los cuatro umbrales nativos del almacén: importación por camión, exportación por camión, salida a cinta/tubería y entrada desde cinta/tubería."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Umbrales del almacén: importación por camión {0} %, exportación por camión {1} %, salida a cinta/tubería {2} %, entrada desde cinta/tubería {3} %"
+  ,"Storage thresholds: {0} compatible": "Umbrales del almacén: {0} compatibles"
+  ,"Storage thresholds skipped: {0}": "Umbrales del almacén omitidos: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Guarda el filtro actual y los ajustes marcados como un paquete. Se conservan hasta catorce. Clic izquierdo para cargar. Clic derecho para eliminar."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Asigna el producto seleccionado solo a almacenamientos vacíos compatibles. Se omiten los almacenamientos no vacíos con otro producto."
+  ,"Storage product: {0}": "Producto de almacenamiento: {0}"
+  ,"Storage product: {0} compatible": "Producto de almacenamiento: {0} compatibles"
+  ,"Storage product skipped: {0}": "Producto de almacenamiento omitido: {0}"
+  ,"Deconstruction brush": "Pincel de deconstrucción"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Pincel de deconstrucción: deconstruye o cancela la deconstrucción con un filtro opcional de tipo de entidad exacto."
+  ,"Entity type filter": "Filtro de tipo de entidad"
+  ,"Pick an entity type from the world.": "Elige un tipo de entidad del mundo."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Guarda la operación y el filtro de deconstrucción actuales como paquete. Se conservan hasta veintiocho. Clic izquierdo para cargar; clic derecho para eliminar."
+  ,"All compatible entities": "Todas las entidades compatibles"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Haz clic o selecciona un área de entidades compatibles para marcarlas para deconstrucción. El filtro opcional coincide con un tipo de entidad exacto."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Haz clic o selecciona un área de entidades marcadas para deconstrucción para cancelarla. El filtro opcional coincide con un tipo de entidad exacto."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Mayús + clic izquierdo recorre el color del paquete hacia atrás; Mayús + clic derecho hacia delante."
+  ,"Cancel construction": "Cancelar construcción"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Guarda el filtro actual de tipo exacto de entidad como favorito. Se conservan hasta cuarenta y nueve. Haz clic izquierdo para cargar solo su filtro y clic derecho para eliminarlo."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Haz clic o selecciona con un recuadro entidades terminadas para iniciar la deconstrucción nativa. La selección solo corta las secciones de transporte cubiertas; mantén Mayús para incluir cada transporte completo. El filtro opcional coincide con un tipo exacto de entidad."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Haz clic o selecciona con un recuadro entidades sin terminar para cancelar su construcción. El filtro opcional coincide con un tipo exacto de entidad."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Haz clic o selecciona con un recuadro entidades marcadas para deconstrucción para cancelarla. El filtro opcional coincide con un tipo exacto de entidad."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Pincel de deconstrucción: deconstruye, cancela la construcción o cancela la deconstrucción con un filtro opcional de tipo exacto de entidad."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Añade el producto de almacenamiento seleccionado a Favoritos. Se guardan hasta 105. Clic izquierdo para seleccionar y clic derecho para eliminar."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl-clic izquierdo mueve este favorito a la izquierda; Ctrl-clic derecho lo mueve a la derecha."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Llenar: haz clic o selecciona en un recuadro almacenes compatibles. VACÍO elimina toda la carga y el producto asignado."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Asigna el producto seleccionado solo a almacenes vacíos compatibles. Elige Ninguno para borrar el producto asignado de un almacén vacío. Se omiten los almacenes no vacíos."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl-clic izquierdo mueve este paquete a la izquierda; Ctrl-clic derecho lo mueve a la derecha."
 }

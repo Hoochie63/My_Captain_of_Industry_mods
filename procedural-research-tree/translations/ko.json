@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "연구 노드 강조",
+  "Research node highlighting. Right-click to show all research.": "연구 노드 강조. 마우스 오른쪽 버튼을 클릭하면 모든 연구가 표시됩니다.",
   "Show all research": "모든 연구 표시",
   "Emphasize all mod research": "모든 모드 연구 강조",
   "Emphasize vanilla research": "기본 게임 연구 강조",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT 밀집 — 간격 3, 세밀 격자",
   "Spacing {0} — packed": "간격 {0} — 밀집",
   "Compact — {0} (Experimental)": "압축 — {0} (실험적)",
-  "Compact — 3 (Default)": "압축 — 3 (기본값)",
+  "Compact — 3 (PRT Default)": "압축 — 3 (PRT 기본값)",
   "Compact — {0}": "압축 — {0}",
   "Nearest — {0} (Experimental)": "최근접 — {0} (실험적)",
   "Nearest — {0}": "최근접 — {0}",

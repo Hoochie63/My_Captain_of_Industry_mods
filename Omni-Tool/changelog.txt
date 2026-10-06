@@ -1,26 +1,57 @@
+v0.9.4 | 2026-10-01
+
+* Added Ctrl-left/right reordering for every favorite and bundle.
+* Added Shift-left/right color choices for bundles' icons.
+
+BUILDING SETTINGS BRUSH
+=======================
+* Added storage threshold sliders for truck import, truck export, belt/pipe output, and belt/pipe input.
+* Added storage-product assignment with the game's searchable product picker and Loose, Unit/Flat, and Fluid filters. Choose None to clear an empty storage.
+* Added construction priorities from Urgent through 15.
+* Expanded saved settings bundles from 7 to 14.
+
+FILTERED DECONSTRUCTION BRUSH
+=============================
+* Reworked Cancel Deconstruction brush to three modes: Deconstruct, Cancel construction, and Cancel deconstruction.
+* Added an eyedropper filter with 49 favorites so deconstruction swipes can target filtered buildings while ignoring the rest.
+* Drag across part of a belt, pipe, or transport to remove only that section. Hold Shift to include the whole line.
+
+STORAGE MAGIC WAND
+==================
+* Expanded Storage Magic Wand from 28 to 105 favorites.
+* Added the game's searchable product picker with Loose, Unit/Flat, and Fluid filters.
+* EMPTY now clears both stored cargo and its assigned product.
+
+INPUT, UI & LANGUAGE
+====================
+* Added a live language selector for all 21 supported languages. It changes Omni-Tool owned translations without changing the game or other mods.
+* Translated Omni-Tool's Keybind Framework entries.
+* Added a clear eyedropper cursor when choosing a filter with any given tool.
+* Reordered Tree Painter controls so tool mode comes before brush shape.
+* Gave Terrain Eraser its own icon.
+* Fixed a bug that could block tool use above the Micro-HUD.
+* Fixed an Escape-key log-error when leaving the Omni-Belt open.
+* Completed a full translation audit for all 21 languages.
+
 v0.9.3 | 2026-09-24
 
-VEHICLE DEPOT COMPATIBILITY & DISPATCH
-======================================
-- Added profile-saved Balanced Queue and Immediate Dispatch strategies to Scrap and Replace. Balanced Queue remains the default and releases one active order per compatible depot lane; Immediate Dispatch submits every validated order together and lets the game choose each depot.
-- Generalized depot discovery to the game's VehicleDepotBase so compatible custom garages participate alongside vanilla depots.
-- Matched native compatibility rules before submitting an order. Scrap requires a currently usable depot that accepts the source vehicle; replacement requires one depot that supports both the source and target vehicle types.
-- Incompatible orders are skipped instead of entering a doomed queue. The Micro-HUD reports queued or dispatched totals, missing compatible scrap/replacement depots, and native command rejection.
+SCRAP / REPLACE DISPATCH + MOD COMPATIBILITY
+============================================
+- Added Balanced Queue and Immediate Dispatch choices for Scrap / Replace Tool. Balanced Queue remains the default custom omni-queue, which releases one active vehicle per depot lane at a time, based on proximity, while waiting vehicles continue work; Immediate Dispatch immediately enables the selected vehicles' inspector panel scrap or replace action and lets the game choose each depot.
+-  Replacement now requires one depot that supports both the source and target vehicle types. Incompatible orders are skipped instead of entering a doomed queue. The Micro-HUD reports queued or dispatched totals, missing compatible scrap/replacement depots, and native command rejection.
 
-SIMULATION COLLECTION SAFETY
-============================
+ENUMERATION SAFETY HOTFIX
+=========================
 - Removed the pooled global-entity enumeration that could assert while Scrap / Replace refreshed its depot cache. Depots are discovered through an indexed sync-phase snapshot, tracked by entity add/remove events, retained only as IDs, and resolved again before compatibility checks.
 - Rebuilt the depot queue boundary around vehicle IDs and immutable UI snapshots. Vehicles destroyed between selection, validation, dispatch, status polling, or cancellation are rejected or completed cleanly without stale entity references.
 - Moved logistics-zone reads and marked-tree counts into periodic sync-phase snapshots. The Micro-HUD consumes plain zone names, colors, and IDs; marked-tree removal is also dispatched through the sync phase.
 - Moved custom tree planting, nature sweeping, terrain sculpting, Terrain Eraser, and their undo mutations into the supported sync phase. Nature collection enumerables are fully materialized there before bounded batches run.
 - Switched movement, storage, building-settings, downgrade, deconstruction, and Cheat++ storage-mode commands to native EntityId constructors so queued commands resolve their targets at execution time.
 
-LANGUAGE
-========
-- Re-audited all 21 language catalogs. Every 290-key catalog matches English with no missing or empty values; this safety pass adds no new interface vocabulary.
+
+- Re-audited all 21 language catalogs.
 
 =========================
-
 v0.9.2 | 2026-09-21
 
 - Tool cards and Omni-Belt profile cards now have permanent native drag handles. Cards follow the cursor and show their insertion position while reordering.

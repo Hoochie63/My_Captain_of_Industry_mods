@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Dölj Omni-Tools tips utan att påverka spelet eller andra moddar.",
   "Use English UI": "Använd engelskt gränssnitt",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Visa Omni-Tool på engelska utan att ändra språket i spelet eller andra moddar.",
+  "Omni-Tool language": "Språk för Omni-Tool",
+  "Game language": "Spelspråk",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Följ spelets aktuella språk eller välj ett språk som stöds för Omni-Tool. Ändringarna tillämpas omedelbart.",
   "Micro-HUD growth anchor": "Växtankare för mikro-HUD",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Välj hörnet som står still när mikro-HUD växer eller krymper.",
   "Top left": "Överst till vänster",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Hoppade över: {0}; ingen kompatibel ersättningsdepå är tillgänglig."
   ,"Skipped {0}: no compatible scrap depot available.": "Hoppade över: {0}; ingen kompatibel skrotningsdepå är tillgänglig."
   ,"Failed {0}: the game rejected the depot order.": "Misslyckades: {0}; spelet avvisade depåordern."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Tillämpa de fyra inbyggda lagertrösklarna: lastbilsimport, lastbilsexport, utmatning till band/rör och inmatning från band/rör."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Lagertrösklar: lastbilsimport {0} %, lastbilsexport {1} %, band-/rörutmatning {2} %, band-/rörinmatning {3} %"
+  ,"Storage thresholds: {0} compatible": "Lagertrösklar: {0} kompatibla"
+  ,"Storage thresholds skipped: {0}": "Överhoppade lagertrösklar: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Spara aktuellt filter och markerade inställningar som ett paket. Upp till fjorton sparas. Vänsterklicka för att läsa in. Högerklicka för att ta bort."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Tilldela den valda produkten endast till kompatibla tomma lager. Icke-tomma lager med en annan produkt hoppas över."
+  ,"Storage product: {0}": "Lagerprodukt: {0}"
+  ,"Storage product: {0} compatible": "Lagerprodukt: {0} kompatibla"
+  ,"Storage product skipped: {0}": "Lagerprodukt hoppades över: {0}"
+  ,"Deconstruction brush": "Dekonstruktionspensel"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Dekonstruktionspensel: dekonstruera eller avbryt dekonstruktion med ett valfritt exakt entitetstypfilter."
+  ,"Entity type filter": "Entitetstypfilter"
+  ,"Pick an entity type from the world.": "Välj en entitetstyp från världen."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Spara aktuell dekonstruktionsåtgärd och filter som ett paket. Upp till tjugoåtta sparas. Vänsterklicka för att läsa in; högerklicka för att ta bort."
+  ,"All compatible entities": "Alla kompatibla entiteter"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Klicka eller områdesmarkera kompatibla entiteter för dekonstruktion. Det valfria filtret matchar en exakt entitetstyp."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Klicka eller områdesmarkera entiteter markerade för dekonstruktion för att avbryta. Det valfria filtret matchar en exakt entitetstyp."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Skift+vänsterklick bläddrar paketfärgen bakåt; Skift+högerklick framåt."
+  ,"Cancel construction": "Avbryt byggnation"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Spara det aktuella exakta entitetstypsfiltret som favorit. Upp till fyrtionio sparas. Vänsterklicka för att endast läsa in filtret; högerklicka för att ta bort det."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Klicka eller ruta in färdiga entiteter för att starta den vanliga dekonstruktionen. Rutval kapar bara de täckta transportdelarna; håll Shift för att inkludera hela transporten. Det valfria filtret matchar en exakt entitetstyp."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Klicka eller ruta in ofärdiga entiteter för att avbryta byggnationen. Det valfria filtret matchar en exakt entitetstyp."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Klicka eller ruta in entiteter markerade för dekonstruktion för att avbryta den. Det valfria filtret matchar en exakt entitetstyp."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Dekonstruktionspensel: dekonstruera, avbryt byggnation eller avbryt dekonstruktion med ett valfritt exakt entitetstypsfilter."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Lägger till den valda lagringsprodukten i Favoriter. Upp till 105 sparas. Vänsterklicka för att välja, högerklicka för att ta bort."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl-vänsterklick flyttar favoriten åt vänster; Ctrl-högerklick åt höger."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Fyll: klicka eller markera kompatibla lager med en ruta. TÖM tar bort all last och den tilldelade produkten."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Tilldelar den valda produkten endast till kompatibla tomma lager. Välj Ingen för att rensa tilldelad produkt från ett tomt lager. Lager som inte är tomma hoppas över."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl-vänsterklick flyttar paketet åt vänster; Ctrl-högerklick åt höger."
 }

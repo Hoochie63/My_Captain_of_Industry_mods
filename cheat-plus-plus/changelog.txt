@@ -1,3 +1,11 @@
+v1.5.0 | 2026-10-04
+────────────────────────────────────────────────────────────────────────
+* NEW FAKE RESEARCH POINTS SLIDER (0 TO 35000) THAT ADDS THAT MANY RESEARCH POINTS EVERY RESEARCH CYCLE (THANKS WOLF FOR THE REQUEST).
+
+  - The slider is in the Cheat++ window, right under Fake Focus Points. One cycle is 10 seconds, the length of a basic research lab cycle. Set it to 0 to turn it off.
+
+────────────────────────────────────────────────────────────────────────
+
 v1.4.9 | 2026-09-26
 ────────────────────────────────────────────────────────────────────────
 * FIXED VEHICLE DEPOT TABS THAT COULD NOT BE CLICKED WHEN ANOTHER MOD ADDS ITS OWN TAB, LIKE LABORERS IN KAYSER'S PRE-INDUSTRIAL ERA (THANKS KAYSER AND WARRENC FOR THE REPORT).

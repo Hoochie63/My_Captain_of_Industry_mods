@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Kutatási csomópontok kiemelése",
+  "Research node highlighting. Right-click to show all research.": "Kutatási csomópontok kiemelése. Jobb kattintással minden kutatás megjelenik.",
   "Show all research": "Minden kutatás megjelenítése",
   "Emphasize all mod research": "Minden modkutatás kiemelése",
   "Emphasize vanilla research": "Alapjáték-kutatás kiemelése",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT sűrített — 3-as térköz, finom rács",
   "Spacing {0} — packed": "Térköz {0} — sűrített",
   "Compact — {0} (Experimental)": "Tömör — {0} (Kísérleti)",
-  "Compact — 3 (Default)": "Tömör — 3 (Alapértelmezett)",
+  "Compact — 3 (PRT Default)": "Tömör — 3 (PRT alapértelmezés)",
   "Compact — {0}": "Tömör — {0}",
   "Nearest — {0} (Experimental)": "Legközelebbi — {0} (Kísérleti)",
   "Nearest — {0}": "Legközelebbi — {0}",

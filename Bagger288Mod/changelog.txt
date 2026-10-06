@@ -1,3 +1,6 @@
+0.7.8
+- Dig arc stays visible while placing. A copied machine uses that copy's yaw limits; a new one uses the full ±150° sector. New machines keep the arc on after placement; turn it off in the inspector. Existing saves stay as they were.
+
 0.7.7
 - More reliable mining and travel; buffers keep unloading during power loss.
 - Maintenance and save/load polish.

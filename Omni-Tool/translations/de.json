@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Tooltips von Omni-Tool ausblenden, ohne das Spiel oder andere Mods zu beeinflussen.",
   "Use English UI": "Englische Oberfläche verwenden",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Omni-Tool auf Englisch anzeigen, ohne die Sprache des Spiels oder anderer Mods zu ändern.",
+  "Omni-Tool language": "Omni-Tool-Sprache",
+  "Game language": "Spielsprache",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Der aktuellen Spielsprache folgen oder eine unterstützte Sprache für Omni-Tool wählen. Änderungen werden sofort angewendet.",
   "Micro-HUD growth anchor": "Wachstumsanker des Micro-HUD",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Wähle die Ecke, die beim Wachsen oder Schrumpfen des Micro-HUD fest bleibt.",
   "Top left": "Oben links",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "{0} übersprungen: Kein kompatibles Ersatzdepot verfügbar."
   ,"Skipped {0}: no compatible scrap depot available.": "{0} übersprungen: Kein kompatibles Verschrottungsdepot verfügbar."
   ,"Failed {0}: the game rejected the depot order.": "{0} fehlgeschlagen: Das Spiel hat den Depotauftrag abgelehnt."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Die vier nativen Lagergrenzwerte anwenden: LKW-Import, LKW-Export, Band-/Rohr-Ausgabe und Band-/Rohr-Eingabe."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Lagergrenzwerte: LKW-Import {0} %, LKW-Export {1} %, Band-/Rohr-Ausgabe {2} %, Band-/Rohr-Eingabe {3} %"
+  ,"Storage thresholds: {0} compatible": "Lagergrenzwerte: {0} kompatibel"
+  ,"Storage thresholds skipped: {0}": "Übersprungene Lagergrenzwerte: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Speichert den aktuellen Filter und die markierten Einstellungen als Paket. Bis zu vierzehn werden behalten. Linksklick zum Laden. Rechtsklick zum Entfernen."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Weist das ausgewählte Produkt nur kompatiblen leeren Lagern zu. Nicht leere Lager mit einem anderen Produkt werden übersprungen."
+  ,"Storage product: {0}": "Lagerprodukt: {0}"
+  ,"Storage product: {0} compatible": "Lagerprodukt: {0} kompatibel"
+  ,"Storage product skipped: {0}": "Lagerprodukt übersprungen: {0}"
+  ,"Deconstruction brush": "Dekonstruktionspinsel"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Dekonstruktionspinsel: Dekonstruktion starten oder abbrechen, optional mit exaktem Entitätstypfilter."
+  ,"Entity type filter": "Entitätstypfilter"
+  ,"Pick an entity type from the world.": "Einen Entitätstyp in der Welt auswählen."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Aktuelle Dekonstruktionsaktion und Filter als Paket speichern. Bis zu achtundzwanzig werden behalten. Linksklick lädt; Rechtsklick entfernt."
+  ,"All compatible entities": "Alle kompatiblen Entitäten"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Kompatible Entitäten anklicken oder per Bereich markieren, um sie zur Dekonstruktion vorzumerken. Der optionale Filter entspricht genau einem Entitätstyp."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Zur Dekonstruktion markierte Entitäten anklicken oder per Bereich auswählen, um sie abzubrechen. Der optionale Filter entspricht genau einem Entitätstyp."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Umschalt-Linksklick wechselt die Paketfarbe rückwärts; Umschalt-Rechtsklick vorwärts."
+  ,"Cancel construction": "Bau abbrechen"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Speichert den aktuellen exakten Entitätstypfilter als Favoriten. Bis zu 49 werden behalten. Linksklick lädt nur seinen Filter; Rechtsklick entfernt ihn."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Klicke oder ziehe einen Rahmen um fertige Entitäten, um die native Demontage zu starten. Rahmenselektionen trennen nur die erfassten Transportabschnitte; halte Umschalt, um jeden ganzen Transport einzubeziehen. Der optionale Filter entspricht genau einem Entitätstyp."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Klicke oder ziehe einen Rahmen um unfertige Entitäten, um ihren Bau abzubrechen. Der optionale Filter entspricht genau einem Entitätstyp."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Klicke oder ziehe einen Rahmen um zur Demontage markierte Entitäten, um sie abzubrechen. Der optionale Filter entspricht genau einem Entitätstyp."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Demontagepinsel: demontieren, Bau abbrechen oder Demontage abbrechen, optional mit exaktem Entitätstypfilter."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Fügt das ausgewählte Lagerprodukt zu den Favoriten hinzu. Bis zu 105 werden gespeichert. Linksklick wählt aus, Rechtsklick entfernt."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Strg-Linksklick verschiebt diesen Favoriten nach links; Strg-Rechtsklick nach rechts."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Füllen: Kompatible Lager anklicken oder per Rahmen auswählen. LEER entfernt die gesamte Ladung und die Produktzuweisung."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Weist das gewählte Produkt nur kompatiblen leeren Lagern zu. Keine entfernt die Produktzuweisung eines leeren Lagers. Nicht leere Lager werden übersprungen."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Strg-Linksklick verschiebt dieses Paket nach links; Strg-Rechtsklick nach rechts."
 }

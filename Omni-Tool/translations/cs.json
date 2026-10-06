@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "Skryje nápovědu Omni-Toolu bez vlivu na hru nebo jiné mody.",
   "Use English UI": "Používat anglické rozhraní",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "Zobrazí Omni-Tool anglicky bez změny jazyka hry nebo jiných modů.",
+  "Omni-Tool language": "Jazyk Omni-Toolu",
+  "Game language": "Jazyk hry",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "Použije aktuální jazyk hry, nebo zvolte libovolný podporovaný jazyk pro Omni-Tool. Změny se projeví okamžitě.",
   "Micro-HUD growth anchor": "Ukotvení malého panelu",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "Zvolte roh, který zůstane pevný při změně velikosti malého panelu.",
   "Top left": "Vlevo nahoře",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "Přeskočeno: {0}; není dostupné kompatibilní depo pro náhradu."
   ,"Skipped {0}: no compatible scrap depot available.": "Přeskočeno: {0}; není dostupné kompatibilní depo pro sešrotování."
   ,"Failed {0}: the game rejected the depot order.": "Selhalo: {0}; hra odmítla příkaz depa."
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "Použít čtyři nativní prahy úložiště: dovoz kamiony, vývoz kamiony, výstup na pás/potrubí a vstup z pásu/potrubí."
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "Prahy úložiště: dovoz kamiony {0} %, vývoz kamiony {1} %, výstup na pás/potrubí {2} %, vstup z pásu/potrubí {3} %"
+  ,"Storage thresholds: {0} compatible": "Prahy úložiště: {0} kompatibilních"
+  ,"Storage thresholds skipped: {0}": "Přeskočené prahy úložiště: {0}"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "Uložte aktuální filtr a zaškrtnutá nastavení jako balíček. Uchová se až čtrnáct. Levým kliknutím načtete. Pravým kliknutím odstraníte."
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "Přiřadí vybraný produkt pouze kompatibilním prázdným skladům. Neprázdné sklady s jiným produktem se přeskočí."
+  ,"Storage product: {0}": "Produkt skladu: {0}"
+  ,"Storage product: {0} compatible": "Produkt skladu: {0} kompatibilních"
+  ,"Storage product skipped: {0}": "Produkt skladu přeskočen: {0}"
+  ,"Deconstruction brush": "Štětec demolice"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "Štětec demolice: zahajte nebo zrušte demolici s volitelným přesným filtrem typu entity."
+  ,"Entity type filter": "Filtr typu entity"
+  ,"Pick an entity type from the world.": "Vyberte typ entity ze světa."
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "Uložte aktuální operaci demolice a filtr jako balíček. Uchová se až dvacet osm. Levým kliknutím načtete; pravým odstraníte."
+  ,"All compatible entities": "Všechny kompatibilní entity"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "Kliknutím nebo výběrem oblasti označte kompatibilní entity k demolici. Volitelný filtr odpovídá jednomu přesnému typu entity."
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "Kliknutím nebo výběrem oblasti zrušte demolici označených entit. Volitelný filtr odpovídá jednomu přesnému typu entity."
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift + levé kliknutí přepíná barvu balíčku zpět; Shift + pravé kliknutí vpřed."
+  ,"Cancel construction": "Zrušit stavbu"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "Uložte aktuální filtr přesného typu entity jako oblíbený. Lze uložit až čtyřicet devět. Levým kliknutím načtete pouze jeho filtr, pravým jej odstraníte."
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "Kliknutím nebo výběrem rámečkem dokončených entit spustíte nativní dekonstrukci. Rámeček rozdělí pouze zakryté části dopravníků; podržením Shift zahrnete celý dopravník. Volitelný filtr odpovídá jednomu přesnému typu entity."
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "Kliknutím nebo výběrem rámečkem nedokončených entit zrušíte jejich stavbu. Volitelný filtr odpovídá jednomu přesnému typu entity."
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "Kliknutím nebo výběrem rámečkem entit označených k dekonstrukci ji zrušíte. Volitelný filtr odpovídá jednomu přesnému typu entity."
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "Štětec dekonstrukce: dekonstrukce, zrušení stavby nebo zrušení dekonstrukce s volitelným filtrem přesného typu entity."
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "Přidá vybraný skladovaný produkt do Oblíbených. Uchová se až sto pět položek. Levým kliknutím vyberete, pravým odeberete."
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl+levé kliknutí přesune oblíbenou položku doleva; Ctrl+pravé kliknutí doprava."
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "Plnění: klikněte nebo rámečkem vyberte kompatibilní sklady. PRÁZDNÉ odstraní veškerý náklad i přiřazený produkt."
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "Přiřadí vybraný produkt pouze kompatibilním prázdným skladům. Volba Žádný odstraní přiřazený produkt z prázdného skladu. Neprázdné sklady se přeskočí."
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl+levé kliknutí přesune tento balíček doleva; Ctrl+pravé kliknutí doprava."
 }

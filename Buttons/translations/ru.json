@@ -7,7 +7,7 @@
     "On Click": "По клику",
     "On Hover": "При наведении",
     "How long the On Hover view stays visible after the pointer leaves the calendar.": "Как долго вид «При наведении» остаётся видимым после того, как указатель покинет календарь.",
-    "Left-click the Buttons control to switch between View 1 and View 2. Right-click opens settings.": "Щелкните левой кнопкой мыши элемент управления «Адаптивные кнопки календаря», чтобы переключиться между представлением 1 и представлением 2. Щелкните правой кнопкой мыши, чтобы открыть настройки.",
+    "Left-click the Buttons control to switch between View 1 and View 2. Right-click opens settings.": "Щёлкните левой кнопкой мыши элемент управления «Адаптивные кнопки календаря», чтобы переключиться между представлением 1 и представлением 2. Щелкните правой кнопкой мыши, чтобы открыть настройки.",
     "Show the At Rest view normally, switch to the On Hover view while the pointer is over the calendar, then restore At Rest when it leaves.": "Отобразите представление «В состоянии покоя» в обычном режиме, переключитесь на представление «При наведении», когда указатель находится над календарем, а затем восстановите режим «В состоянии покоя», когда он уйдёт.",
     "Icon color on reveal": "Цвет значка при отображении",
     "Choose the color used by the Buttons icon while revealed.": "Выберите цвет значка «Адаптивные кнопки календаря», когда он открыт.",

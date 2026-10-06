@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Uurimissõlmede esiletõstmine",
+  "Research node highlighting. Right-click to show all research.": "Uurimissõlmede esiletõstmine. Paremklõps näitab kõiki uuringuid.",
   "Show all research": "Näita kõiki uuringuid",
   "Emphasize all mod research": "Tõsta esile kõik modide uuringud",
   "Emphasize vanilla research": "Tõsta esile põhimängu uuringud",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT tihendatud — vahekaugus 3, peen ruudustik",
   "Spacing {0} — packed": "Vahekaugus {0} — tihendatud",
   "Compact — {0} (Experimental)": "Kompaktne — {0} (Katsetuslik)",
-  "Compact — 3 (Default)": "Kompaktne — 3 (Vaikimisi)",
+  "Compact — 3 (PRT Default)": "Kompaktne — 3 (PRT vaikeseade)",
   "Compact — {0}": "Kompaktne — {0}",
   "Nearest — {0} (Experimental)": "Lähim — {0} (Katsetuslik)",
   "Nearest — {0}": "Lähim — {0}",

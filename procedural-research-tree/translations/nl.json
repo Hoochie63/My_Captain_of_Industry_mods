@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Onderzoeksknooppunten benadrukken",
+  "Research node highlighting. Right-click to show all research.": "Onderzoeksknooppunten benadrukken. Klik met rechts om alle onderzoeken te tonen.",
   "Show all research": "Alle onderzoeken tonen",
   "Emphasize all mod research": "Alle mod-onderzoeken benadrukken",
   "Emphasize vanilla research": "Vanilla-onderzoek benadrukken",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT dicht opeen — afstand 3, fijn raster",
   "Spacing {0} — packed": "Afstand {0} — dicht opeen",
   "Compact — {0} (Experimental)": "Compact — {0} (Experimenteel)",
-  "Compact — 3 (Default)": "Compact — 3 (Standaard)",
+  "Compact — 3 (PRT Default)": "Compact — 3 (PRT-standaard)",
   "Compact — {0}": "Compact — {0}",
   "Nearest — {0} (Experimental)": "Dichtstbij — {0} (Experimenteel)",
   "Nearest — {0}": "Dichtstbij — {0}",

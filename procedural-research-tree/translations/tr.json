@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Araştırma düğümü vurgulama",
+  "Research node highlighting. Right-click to show all research.": "Araştırma düğümü vurgulama. Tüm araştırmaları göstermek için sağ tıklayın.",
   "Show all research": "Tüm araştırmaları göster",
   "Emphasize all mod research": "Tüm mod araştırmalarını vurgula",
   "Emphasize vanilla research": "Temel oyun araştırmalarını vurgula",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT sıkı paketlenmiş — aralık 3, ince ızgara",
   "Spacing {0} — packed": "Aralık {0} — sıkı paketlenmiş",
   "Compact — {0} (Experimental)": "Sıkışık — {0} (Deneysel)",
-  "Compact — 3 (Default)": "Sıkışık — 3 (Varsayılan)",
+  "Compact — 3 (PRT Default)": "Sıkışık — 3 (PRT varsayılanı)",
   "Compact — {0}": "Sıkışık — {0}",
   "Nearest — {0} (Experimental)": "En yakın — {0} (Deneysel)",
   "Nearest — {0}": "En yakın — {0}",

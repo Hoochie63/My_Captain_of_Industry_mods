@@ -1,3 +1,31 @@
+v1.1.1 | 2026-10-01
+
+[NEW]
+* Added Dirt, Rock, Sulfur and Rubber to B&G+ Product systems. 
+* Research-gated Rubber can now appear in Beacon rewards, Quick Trades and Export Yard requests.
+* While Dirt, Rock research-gated Sulfur can appear in quick-trades and export requests; These three bulk materials are not added to Beacon reward drops and have low export payouts.
+* F3 Regional Trade+ Tab now includes a Captain's Exchange Quick Trade section. A constructed Captain's Exchange is required to buy quick trades; choose which Exchange receives the delivery ships for purchases made from F3, or keep using any Exchange's own inspector.
+* Clicking the optional Quick Trade alert takes you to the Exchange selected for F3 purchases.
+
+[BUG FIXING]
+* Trucks can deliver a remaining partial load to fill the last few units of an Export Yard storage slot, preventing Maximum fulfillment from stalling just below full capacity.
+* Fixed a rounding error that could result in lower than intended coin cost for certain quick trade product rolls.
+* Legendary Cargo Ship quick trades now become available only after Cargo Depot research is completed.
+* Buying a quick trade no longer resets the remaining offers' 1x-5x selected purchase multipliers and a purchased offer stays visible but dimmed, showing what was purchased.
+
+[QUICK TRADE BALANCE]
+* Rebalanced Captain's Exchange prices for Electronics, Vehicle Parts, Lab Equipment and other advanced products, then matched all 51 product offer ranges so larger rolls cost proportionately more. The best roll now offers only a modest per-item discount instead of an outsized bargain.
+* Narrowed each product offer's quantity range to at most twice its minimum. Reputation bonuses and the unlocked 1×–5× purchase choices still work as before.
+* Reduced Quick Trade quantities by roughly 20% at both ends of each range. Coin prices remain broadly the same, with a small rounding guard to prevent any roll from becoming an outsized per-item bargain.
+* Tuned selected foods, Solar Cells, construction and vehicle parts, Electronics and Medical Supplies separately. Solar Cells now carry a much higher premium; early Construction Parts I lots are smaller, while some higher-tier parts and Medical Supplies III offer more useful quantities at appropriate prices.
+* Product offers have a minimum four-Currency price before item-specific premiums, avoiding anomalously cheap results from whole-coin rounding.
+* These balance changes/nerfs aim to prevent early-game from becoming too easy while reputation and the next major mechanic will provide appropriate mid-to-late game trading quantities as your progress through the mod.
+
+v1.1.0c | 2026-09-29
+
+[BALANCE]
+* Adjusted Beacon rewards and Captain's exchange quick trades product unlocks for Electronics II/III, requiring one research node further: Construction IV and Datacenter, so receiving electronics through B&G+ does not bypasses vanilla's research-production milestone challenges.
+
 v1.1.0b | 2026-09-27
 
 [EXPORT YARD LOAD HOTFIX]
@@ -52,6 +80,7 @@ v1.0.5b | 2026-09-13
 * Corrected excessive costs for all six Beacon & Government research nodes, including the late-game Computing Capacity Agreements node that was 20x more expensive than intended.
 
 v1.0.5 | 2026-09-06
+
 * Added complete editable localization for all custom player-facing text across all 21 game languages, with English source phrases kept as readable translation keys.
 * Reworked the Government panel for longer translations with two policy cards per row, full-width subsidy cards, and scrolling.
 * Moved all Beacon & Government buildings into their own submenu beneath the shared COI Skylines category in the main building section.
@@ -60,6 +89,7 @@ v1.0.5 | 2026-09-06
 [REWARDS & ADJUSTMENTS]
 * Added research-gated Fuel Gas and Hydrogen to Beacon rewards and yearly Quick Trades at quantities 20% below Crude Oil ranges.
 * Halved Crude Oil from Beacon rewards so it remains an emergency supply without bypassing normal oil progression.
+
 v1.0.4 | 2026-08-31
 
 [DEDICATED RESEARCH PROGRESSION & BALANCE]
@@ -128,6 +158,7 @@ v1.0.1 | 2026-08-26 - 2026-08-28
 * Added option to toggle off the ship animation — It's not yet using real sea path-finding. This will come in future updates.
 * I'm not responsible if a ship "drives" down your streets ^_^
 * Policy and subsidy controls remain unavailable until Government Office I or II is constructed.
+
 v1.0.0 | 2026-07-27 - 2026-08-26
 [BEACON & GOVERNMENT DLC - USE MORE UNITY TO GUIDE SHIPS BACK HOME]
 * Designed to keep the Beacon useful and engaging into the mid-to-late game without becoming overpowered or cheaty.

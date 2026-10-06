@@ -23,6 +23,8 @@
   "Unsorted": "Válogatatlan",
   "Sorted": "Válogatott",
   "Retired waste": "Kivont nukleáris hulladék",
+  "Input": "Bemenet",
+  "Output": "Kimenet",
   "Custom Capacity": "Egyedi kapacitás",
   "Default: {0}": "Alapértelmezett: {0}",
   "Current: {0}": "Jelenlegi: {0}",

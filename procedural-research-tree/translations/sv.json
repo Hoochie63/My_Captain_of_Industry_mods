@@ -1,5 +1,6 @@
 {
   "Research node highlighting": "Framhävning av forskningsnoder",
+  "Research node highlighting. Right-click to show all research.": "Framhävning av forskningsnoder. Högerklicka för att visa all forskning.",
   "Show all research": "Visa all forskning",
   "Emphasize all mod research": "Framhäv all modforskning",
   "Emphasize vanilla research": "Framhäv grundspelets forskning",
@@ -19,7 +20,7 @@
   "PRT packed — spacing 3, fine-grid": "PRT tätpackad — avstånd 3, finmaskigt rutnät",
   "Spacing {0} — packed": "Avstånd {0} — tätpackad",
   "Compact — {0} (Experimental)": "Kompakt — {0} (Experimentell)",
-  "Compact — 3 (Default)": "Kompakt — 3 (Standard)",
+  "Compact — 3 (PRT Default)": "Kompakt — 3 (PRT-standard)",
   "Compact — {0}": "Kompakt — {0}",
   "Nearest — {0} (Experimental)": "Närmast — {0} (Experimentell)",
   "Nearest — {0}": "Närmast — {0}",

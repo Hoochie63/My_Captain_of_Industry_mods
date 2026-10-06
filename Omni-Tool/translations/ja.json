@@ -183,6 +183,9 @@
   "Suppress hover tooltips created by Omni-Tool without affecting the game or other mods.": "ゲームや他のMODに影響せず、Omni-Tool のツールチップだけを隠します。",
   "Use English UI": "英語のUIを使用",
   "Display Omni-Tool's own interface in English without changing the game language or other mods.": "ゲームや他のMODの言語を変えず、Omni-Tool だけを英語で表示します。",
+  "Omni-Tool language": "Omni-Tool の言語",
+  "Game language": "ゲームの言語",
+  "Follow the game's current language, or choose any supported language for Omni-Tool. Changes apply immediately.": "ゲームの現在の言語に従うか、Omni-Tool 用に対応言語を選択します。変更はすぐに適用されます。",
   "Micro-HUD growth anchor": "マイクロHUDの固定角",
   "Choose which corner stays fixed when different tools make the Micro-HUD grow or shrink.": "マイクロHUDの大きさが変わっても固定する角を選びます。",
   "Top left": "左上",
@@ -289,4 +292,33 @@
   ,"Skipped {0}: no compatible replacement depot available.": "{0}件をスキップしました：互換性のある置き換え用車両基地がありません。"
   ,"Skipped {0}: no compatible scrap depot available.": "{0}件をスキップしました：互換性のある解体用車両基地がありません。"
   ,"Failed {0}: the game rejected the depot order.": "{0}件失敗しました：ゲームが車両基地への指示を拒否しました。"
+  ,"Apply the four native storage thresholds: truck import, truck export, belt/pipe output, and belt/pipe input.": "4つの標準保管しきい値（トラック搬入、トラック搬出、ベルト/パイプ出力、ベルト/パイプ入力）を適用します。"
+  ,"Storage thresholds: truck import {0}%, truck export {1}%, belt/pipe output {2}%, belt/pipe input {3}%": "保管しきい値：トラック搬入 {0}%、トラック搬出 {1}%、ベルト/パイプ出力 {2}%、ベルト/パイプ入力 {3}%"
+  ,"Storage thresholds: {0} compatible": "保管しきい値：互換 {0}件"
+  ,"Storage thresholds skipped: {0}": "保管しきい値をスキップ：{0}件"
+  ,"Save the current filter and checked settings as a bundle. Up to fourteen are kept. Left-click a saved bundle to load it; right-click to remove it.": "現在のフィルターとチェックした設定をバンドルとして保存します。最大14件まで保持されます。左クリックで読み込み、右クリックで削除します。"
+  ,"Assign the selected product only to compatible empty storages. Non-empty storages with another product are skipped.": "選択した製品を互換性のある空の保管庫にのみ割り当てます。別の製品が入っている保管庫はスキップされます。"
+  ,"Storage product: {0}": "保管製品: {0}"
+  ,"Storage product: {0} compatible": "保管製品: 互換 {0}"
+  ,"Storage product skipped: {0}": "保管製品をスキップ: {0}"
+  ,"Deconstruction brush": "解体ブラシ"
+  ,"Deconstruction Brush: deconstruct or cancel deconstruction with an optional exact entity-type filter.": "解体ブラシ: 任意の厳密なエンティティ種別フィルターを使って、解体または解体のキャンセルを行います。"
+  ,"Entity type filter": "エンティティ種別フィルター"
+  ,"Pick an entity type from the world.": "ワールドからエンティティ種別を選択します。"
+  ,"Save the current deconstruction operation and filter as a bundle. Up to twenty-eight are kept. Left-click a saved bundle to load it; right-click to remove it.": "現在の解体操作とフィルターをバンドルとして保存します。最大28件まで保持されます。左クリックで読み込み、右クリックで削除します。"
+  ,"All compatible entities": "互換性のあるすべてのエンティティ"
+  ,"Click or box-select compatible entities to mark them for deconstruction. The optional filter matches one exact entity type.": "互換性のあるエンティティをクリックまたは範囲選択して解体対象にします。任意のフィルターは1つの厳密なエンティティ種別に一致します。"
+  ,"Click or box-select entities marked for deconstruction to cancel them. The optional filter matches one exact entity type.": "解体対象のエンティティをクリックまたは範囲選択して解体をキャンセルします。任意のフィルターは1つの厳密なエンティティ種別に一致します。"
+  ,"Shift-left-click cycles the bundle color backward; Shift-right-click cycles it forward.": "Shift+左クリックでバンドル色を前の色へ、Shift+右クリックで次の色へ切り替えます。"
+  ,"Cancel construction": "建設をキャンセル"
+  ,"Save the current exact entity-type filter as a favorite. Up to forty-nine are kept. Left-click a favorite to load only its filter; right-click to remove it.": "現在の正確なエンティティ種別フィルターをお気に入りとして保存します。最大49件保持できます。左クリックでフィルターだけを読み込み、右クリックで削除します。"
+  ,"Click or box-select finished entities to start native deconstruction. Box selections cut only the covered transport sections; hold Shift to include each entire transport. The optional filter matches one exact entity type.": "完成済みのエンティティをクリックまたはボックス選択して、通常の解体を開始します。ボックス選択では範囲内の輸送区間だけを切り離します。Shiftを押し続けると各輸送設備全体を含めます。任意のフィルターは正確な1種類のエンティティに一致します。"
+  ,"Click or box-select unfinished entities to cancel construction. The optional filter matches one exact entity type.": "未完成のエンティティをクリックまたはボックス選択して建設をキャンセルします。任意のフィルターは正確な1種類のエンティティに一致します。"
+  ,"Click or box-select entities marked for deconstruction to cancel it. The optional filter matches one exact entity type.": "解体対象のエンティティをクリックまたはボックス選択して解体をキャンセルします。任意のフィルターは正確な1種類のエンティティに一致します。"
+  ,"Deconstruction Brush: deconstruct, cancel construction, or cancel deconstruction with an optional exact entity-type filter.": "解体ブラシ: 任意の正確なエンティティ種別フィルターを使って、解体、建設のキャンセル、または解体のキャンセルを行います。"
+  ,"Add the selected storage product to Favorites. Up to one hundred five are kept. Left-click a favorite to select it; right-click to remove it.": "選択した保管製品をお気に入りに追加します。最大105件保持されます。左クリックで選択、右クリックで削除します。"
+  ,"Ctrl-left-click moves this favorite left; Ctrl-right-click moves it right.": "Ctrl+左クリックでこのお気に入りを左へ、Ctrl+右クリックで右へ移動します。"
+  ,"Fill: click or box-select compatible storages. EMPTY clears all stored cargo and its assigned product.": "充填：対応する保管庫をクリックまたは範囲選択します。空にするでは全貨物と割り当て製品を消去します。"
+  ,"Assign the selected product only to compatible empty storages. Choose None to clear an assigned product from an empty storage. Non-empty storages are skipped.": "選択した製品を対応する空の保管庫にのみ割り当てます。なしを選ぶと空の保管庫の割り当て製品を解除します。空でない保管庫はスキップされます。"
+  ,"Ctrl-left-click moves this bundle left; Ctrl-right-click moves it right.": "Ctrl+左クリックでこのバンドルを左へ、Ctrl+右クリックで右へ移動します。"
 }
